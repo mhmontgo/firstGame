@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="PackageManagerWindow" layout_guid="9d0c7f0f-149e-4557-a46e-8f81ee67e977">
+    <Window stylename="default_window" override_flow_index="9999999" height="690dpi_px" width="1055dpi_px" localise_title="PackageMan_Title">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['200dpi_px', '1*']" grid_resize="None">
+            <ColumnSplitter stylename="vertical_grid_splitter" override_flow_index="9999999" height="646px" width="5dpi_px" left="200px" top="0px" row="0" column="1" rowspan="1" columnspan="1" />
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['1*', '24dpi_px']">
+                  <Cell layout_id="pkg_list_cell" layout_guid="41b13963-53a4-4bd4-88e0-7831bf87e887" row="0" column="0" stylename="basic_scrollpanel_box" flow_index="0">
+                    <ChildGadgets>
+                      <ListBox stylename="list_box" layout_id="pkg_listbox" layout_guid="12ac0ed1-2d5b-42f4-a7e4-096185f6afcf" override_flow_index="9999999" top="24dpi_px" bottom="0px" colour="#00000000">
+                        <ListBoxItems />
+                      </ListBox>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_resize="ResizeWidth">
+                        <ChildGadgets>
+                          <Label stylename="label" override_flow_index="9999999" height="16px" width="93px" left="0px" localise_caption="PackageMan_AddPackage" />
+                          <Button stylename="ab_add_button" layout_id="btn_add_package" layout_guid="67cd744e-3690-407c-9a98-e6e9b0c1ccac" override_flow_index="9999999" width="24dpi_px" left="97px" margin_left="4dpi_px" />
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="pman_panel_bg" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" layout_id="package_view_panel" layout_guid="1e792905-c6be-4aa0-ae67-162a5a39b171" override_flow_index="9999999" left="20dpi_px" right="20dpi_px" top="20dpi_px" bottom="20dpi_px" grid_rowlayout="['64dpi_px', '1*']" grid_resize="None">
+                  <Cell row="0" column="0" stylename="pman_panel_dark" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="pman_panel_dark" layout_id="header_grid" layout_guid="ddf7efd0-59b5-4d39-8f3e-48b023d14452" override_flow_index="9999999" grid_columnlayout="['auto', 'auto', '90dpi_px', '1*']">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Label stylename="pman_label11" layout_id="pkg_name_label" layout_guid="e7fa134a-65bf-48fa-877c-f36e57247139" override_flow_index="9999999" height="20px" width="42px" left="12dpi_px" margin_left="12dpi_px" margin_right="30dpi_px" caption="GMRT" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Label stylename="label" override_flow_index="9999999" height="16px" width="45px" left="0px" margin_right="4dpi_px" localise_caption="PackageMan_VersionC" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Grid stylename="pman_panel_bg" layout_id="version_box" layout_guid="a4bd88c9-3136-46e9-863d-4202fdc4157c" override_flow_index="9999999" height="48dpi_px" width="90dpi_px" grid_columnlayout="['1*', '24dpi_px']">
+                              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <Label stylename="pman_label_large" layout_id="version_number" layout_guid="321c12ea-8e3d-4ca2-897e-ccb53f51ab16" override_flow_index="9999999" height="27px" width="43px" caption="1.0.0" />
+                                </ChildGadgets>
+                              </Cell>
+                              <Cell row="0" column="1" stylename="pman_panel_bg" flow_index="0">
+                                <ChildGadgets>
+                                  <ToggleButton stylename="pman_btn_arrow_down" layout_id="version_dropdown" layout_guid="fc516213-c950-47fb-88dd-c3cf75b1d0a4" override_flow_index="9999999" left="0px" />
+                                </ChildGadgets>
+                              </Cell>
+                            </Grid>
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <ScrollPanel stylename="basic_scrollpanel" layout_id="info_panel" layout_guid="dde2f00c-0f64-4ffc-be1d-431459da6d1a" override_flow_index="9999999" width="330dpi_px" right="8dpi_px" top="8dpi_px" bottom="8dpi_px" />
+                          </ChildGadgets>
+                        </Cell>
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="grid_container" layout_id="content_grid" layout_guid="cba17895-a36b-4115-90d8-32813ee56c6c" override_flow_index="9999999" top="12dpi_px" bottom="0px" grid_rowlayout="['36dpi_px', '1*']" grid_resize="None">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Grid stylename="pman_panel_dark" layout_id="content_header" layout_guid="df07cc99-8404-4917-9c86-8b0fa386a6a6" override_flow_index="9999999" grid_columnlayout="['1*', '32dpi_px']">
+                              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <Label stylename="label" layout_id="content_name_label" layout_guid="b98a4448-4a4d-4d3f-a4ef-95cc11b0ebb4" override_flow_index="9999999" height="16px" width="87px" left="12dpi_px" caption="GMRT Contents" />
+                                </ChildGadgets>
+                              </Cell>
+                              <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <Image stylename="pman_icon_arrow_down" layout_id="icon_expand" layout_guid="9583f0aa-0223-4993-8e83-330c1abc7453" override_flow_index="9999999" />
+                                </ChildGadgets>
+                              </Cell>
+                              <Gadgets>
+                                <HorizontalSeparator stylename="pman_hsep" override_flow_index="9999999" bottom="0px" />
+                              </Gadgets>
+                            </Grid>
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['32dpi_px', '1*', '36dpi_px']">
+                              <Cell row="0" column="0" stylename="pman_panel_dark" flow_index="0">
+                                <ChildGadgets>
+                                  <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', '1*']">
+                                    <Cell layout_id="search_cell" layout_guid="92657041-7874-4ce8-8cd0-f05f2e9183d3" row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                                      <ChildGadgets>
+                                        <SearchBar stylename="searchbar_grid" layout_id="search_bar" layout_guid="509c73f4-efbc-4c4c-a47a-bf031e83162e" override_flow_index="9999999" filter="True" />
+                                      </ChildGadgets>
+                                    </Cell>
+                                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                                      <ChildGadgets>
+                                        <Button stylename="pman_btn_args" layout_id="btn_args" layout_guid="ba2fbb54-8b90-4614-940b-7998d5374178" override_flow_index="9999999" right="8dpi_px" />
+                                      </ChildGadgets>
+                                    </Cell>
+                                  </Grid>
+                                </ChildGadgets>
+                              </Cell>
+                              <Cell layout_id="list_panel" layout_guid="119596a2-bbbb-43b1-b96e-424a26a353aa" row="1" column="0" stylename="grid_container_panel" flow_index="0" />
+                              <Cell layout_id="footer_cell" layout_guid="35a60bf1-6dc0-4d76-99ae-fa57eb2bb44f" row="2" column="0" stylename="pman_panel_dark" flow_index="0">
+                                <ChildGadgets>
+                                  <StackPanel stylename="stack_panel" override_flow_index="9999999" height="24dpi_px" left="0px" right="8dpi_px" stack_order="RightToLeft">
+                                    <ChildGadgets>
+                                      <Button stylename="button_up" layout_id="btn_update" layout_guid="0cb0e1a6-63f2-47c0-ae46-477653b6e7d4" override_flow_index="9999999" width="150dpi_px" right="0px" localise_name="PackageMan_Update" />
+                                      <Label stylename="label" layout_id="update_count_label" layout_guid="6c07e8f1-9644-45ae-914d-3281e2c66cd9" override_flow_index="9999999" height="16px" width="117px" right="170px" margin_right="20dpi_px" localise_caption="PackageMan_UpdatePackagesArg" />
+                                    </ChildGadgets>
+                                  </StackPanel>
+                                </ChildGadgets>
+                              </Cell>
+                            </Grid>
+                            <ScrollPanel stylename="default_scrollpanel" layout_id="updating_overlay" layout_guid="116150f5-5f3a-4b14-9218-7b7ad59afe22" override_flow_index="9999999" top="0px" bottom="36dpi_px" colour="#40000000" scrollpanel_flags="None">
+                              <ChildGadgets>
+                                <Image stylename="pman_progress_spinner" override_flow_index="9999999" />
+                              </ChildGadgets>
+                            </ScrollPanel>
+                          </ChildGadgets>
+                        </Cell>
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="PkgMan_ListHeader" layout_guid="212a03fe-6ec6-427f-8be3-0de2045f2063">
+    <Grid stylename="pman_item_grid" override_flow_index="9999999" height="32dpi_px" top="0px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <CheckBox stylename="checkbox_stack" layout_id="checkbox" layout_guid="2f64aa8c-0dbf-47a7-8824-661e2b1e7f8e" override_flow_index="9999999" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" override_flow_index="9999999" height="16px" width="219px" localise_caption="PackageMan_Package" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" override_flow_index="9999999" height="16px" width="45px" right="8dpi_px" localise_caption="PackageMan_Version" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="PkgMan_ListItem" layout_guid="c5157d9d-bab5-455a-a8c6-1b5254325824">
+    <Grid stylename="pman_item_grid">
+      <Layout layout_name="PkgMan_ListItem_Content" />
+    </Grid>
+  </Layout>
+  <Layout layout_name="PkgMan_ListItem_Content" layout_guid="a9e72b6d-4d27-4bb5-bd2e-2f993b0bd3e9">
+    <!--<Grid stylename="pman_item_grid" override_flow_index="9999999" height="32dpi_px" top="0px"> -->
+    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <CheckBox stylename="checkbox_stack" layout_id="checkbox" layout_guid="2f64aa8c-0dbf-47a7-8824-661e2b1e7f8e" override_flow_index="9999999" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label_centre" layout_id="name_label" layout_guid="299f6b1e-3ff0-4bf0-8280-df7127f8a16d" override_flow_index="9999999" height="16px" width="" caption="Package Name" auto_ellipsis="True" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="version_label" layout_guid="aede5711-33d1-403c-af44-f97ae9c874d0" override_flow_index="9999999" height="16px" width="27px" right="24dpi_px" caption="1.1.2" />
+        <ToggleButton stylename="pman_btn_arrow_down" layout_id="version_button" override_flow_index="9999999" width="16dpi_px" height="16dpi_px" right="0px" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="pman_label_italic_blue" layout_id="latest_version_label" layout_guid="b4652874-d586-4859-857f-3612b2f49f15" override_flow_index="9999999" height="16px" width="64px" localise_caption="PackageMan_LatestVArg" />
+      </ChildGadgets>
+    </Cell>
+    <!-- </Grid> -->
+  </Layout>
+  <Layout layout_name="PkgMan_VersionItem" layout_guid="27007909-beaf-496b-9165-8cf5cdbadf32">
+    <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" top="0px" grid_columnlayout="['40dpi_px', '1*', '28dpi_px']" grid_resize="None">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="label_version" layout_guid="e8da6bed-9305-4088-b0f0-6c516dab9c2a" override_flow_index="9999999" height="16px" width="27px" left="2dpi_px" caption="0.0.9" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="pman_label_italic_green" layout_id="label_installed" layout_guid="f72b85b4-1221-43ef-94f6-cf4b2bab441a" override_flow_index="9999999" height="16px" width="45px" caption="Installed" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="button_up" layout_id="button_install" layout_guid="f0ce85ce-f7de-4072-a9bb-574e62c1c837" override_flow_index="9999999" width="24dpi_px" icon_flags="Stretch, Centre, KeepAspectRatio" icon="icon_download.png" />
+        </ChildGadgets>
+      </Cell>
+      <Gadgets>
+        <HorizontalSeparator stylename="pman_hsep" override_flow_index="9999999" width="1px" left="0px" right="0px" bottom="0px" />
+      </Gadgets>
+    </Grid>
+  </Layout>
+  <Layout layout_name="PkgMan_VersionItem2" layout_guid="3223d2e0-05df-4632-9d69-0c54aa0c6f59">
+    <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" left="0dpi_px" top="0px" grid_columnlayout="['1*', '1*']" grid_resize="None">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="label_version" layout_guid="9cd062d7-e365-4d2d-a5c5-389c763b10d3" override_flow_index="9999999" height="16px" width="27px" left="2dpi_px" caption="3.2.1" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="pman_label_italic_blue" layout_id="label_info" layout_guid="38328da5-63bb-4191-83ac-73b42b16e7f3" override_flow_index="9999999" height="16px" width="32px" right="4dpi_px" caption="Latest" />
+        </ChildGadgets>
+      </Cell>
+      <Gadgets>
+        <HorizontalSeparator stylename="pman_hsep" override_flow_index="9999999" bottom="0px" />
+      </Gadgets>
+    </Grid>
+  </Layout>
+  <Layout layout_name="PkgMan_UpdateAvailable" layout_guid="20b8cbf6-27b3-41be-ab9f-3890bb1bff85">
+    <Grid stylename="pman_panel_bg" override_flow_index="9999999" height="48dpi_px" grid_columnlayout="['auto', 'auto', '1*']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="pman_label_green" override_flow_index="9999999" height="16px" width="95px" left="8dpi_px" margin_left="12dpi_px" margin_right="8dpi_px" localise_caption="PackageMan_UpdateAvailable" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="pman_label_large" layout_id="version_label" layout_guid="0965dbb6-88eb-42ef-9a38-4aa669569af8" override_flow_index="9999999" height="27px" width="43px" caption="1.0.1" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="button_up" layout_id="button_install" layout_guid="51495b94-ad6e-448d-be23-9b42505e48d2" override_flow_index="9999999" left="12dpi_px" right="10dpi_px" localise_name="PackageMan_Install" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="PkgMan_CmdArgs" layout_guid="2e92ccd4-2553-4b7c-bc2f-ab9ad0af28b2">
+    <Grid stylename="inactive_autotile_entry" override_flow_index="9999999" height="188dpi_px" width="415dpi_px" grid_rowlayout="['32dpi_px', '1*']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" override_flow_index="9999999" height="16px" width="202px" left="10dpi_px" localise_caption="PackageMan_AdditionalCmd" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="pkgman_grey_panel" flow_index="0">
+        <ChildGadgets>
+          <MultiLineTextBox stylename="multiline_text_box" layout_id="textbox" layout_guid="090595cf-f29d-41ba-b302-671ce2ff00db" override_flow_index="9999999" height="" width="" left="10dpi_px" right="10dpi_px" top="0px" bottom="10dpi_px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="PkgMan_AddPackage" layout_guid="10b538cf-23f0-4ada-b748-f98697b2618e">
+    <Grid stylename="inactive_autotile_entry" override_flow_index="9999999" width="350dpi_px" grid_rowlayout="['auto', '32dpi_px']" grid_resize="ResizeGridHeight">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" override_flow_index="9999999" left="10dpi_px" right="10dpi_px" top="10dpi_px" margin_top="10dpi_px" margin_bottom="10dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+            <ChildGadgets>
+              <Label stylename="label" override_flow_index="9999999" height="16px" width="97px" left="0px" top="0px" localise_caption="PackageMan_AddPackageUrl" />
+              <TextBox stylename="text_box" layout_id="text_name" layout_guid="05a282dd-1ed8-4139-8d46-881a1d1d8359" override_flow_index="9999999" top="26px" margin_top="10dpi_px" localise_default_caption="PackageMan_PkgName" />
+              <TextBox stylename="text_box" layout_id="text_url" layout_guid="683a8573-1145-420c-a5fc-2152c3713bf7" override_flow_index="9999999" top="60px" margin_top="10dpi_px" localise_default_caption="PackageMan_PkgURL" />
+              <TextBox stylename="text_box" layout_id="text_scope" layout_guid="6e87d016-816a-4b71-b898-c7b753e82ca2" override_flow_index="9999999" top="94px" margin_top="10dpi_px" localise_default_caption="PackageMan_Scope" />
+              <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" top="122px" margin_top="4dpi_px" grid_columnlayout="['1*', '32dpi_px']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="16px" width="106px" left="0px" localise_caption="PackageMan_PkgIdentifiers" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="ab_add_button" layout_id="button_add_identifier" layout_guid="5f739b4e-18cc-47ce-9c35-3768a4c4a27f" override_flow_index="9999999" localise_tooltip="PackageMan_AddIdentifier" width="24dpi_px" right="0px" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+              <StackPanel stylename="stack_panel" layout_id="stack_identifiers" layout_guid="38693eaf-ccfb-478d-9765-73fb963810de" override_flow_index="9999999" top="146px" margin_bottom="0dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight" />
+              <TextBox stylename="text_box" layout_id="text_password" layout_guid="9467dad6-6024-4e6b-95cb-141cc55cf75f" override_flow_index="9999999" top="156px" margin_top="10dpi_px" localise_default_caption="PackageMan_PkgPassword" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="inactive_autotile_entry_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" override_flow_index="9999999" right="10dpi_px" stack_order="RightToLeft">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="btn_add" layout_guid="111600bf-6927-4146-b89a-1fa74fbe4f06" override_flow_index="9999999" width="120dpi_px" right="0px" top="0px" localise_name="PackageMan_PkgAdd" />
+              <Button stylename="button_up" layout_id="btn_cancel" layout_guid="df982df1-2a8d-4ca2-8d41-944a1393d990" override_flow_index="9999999" width="120dpi_px" right="130px" top="0px" margin_right="10dpi_px" localise_name="Button_Cancel" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="PkgMan_IdentifierItem" layout_guid="ff712634-4300-42da-983c-a87f5ee15204">
+    <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" top="0px" margin_top="2dpi_px" grid_columnlayout="['1*', '32dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <TextBox stylename="text_box" layout_id="text_identifier" layout_guid="4d03dbcd-52f0-4445-a616-4d20baa53684" override_flow_index="9999999" localise_default_caption="PackageMan_PkgIdentifierDefault" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <CloseButton stylename="close_button_up" layout_id="button_remove" layout_guid="ceb7f48a-2fec-4a30-872b-ed7ef4909098" override_flow_index="9999999" height="24dpi_px" width="24dpi_px" right="0dpi_px" top="" margin_bottom="" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="PkgMan_AddPackageWin" layout_guid="236b8528-544f-4651-b6dc-a0e7c88f02b4">
+    <Window stylename="default_borderless_window" override_flow_index="9999999" height="236px" left="16px" localise_title="PackageMan_AddPackageSet" window_flags="Borderless, CloseButton, ResizeButton, DockingDisabled, AutoSizeHeight">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="pman_panel_bg" override_flow_index="9999999" top="0px" grid_rowlayout="['auto', '32dpi_px']" grid_resize="ResizeGridHeight">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" left="10dpi_px" right="10dpi_px" top="10dpi_px" margin_top="10dpi_px" margin_bottom="10dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                  <ChildGadgets>
+                    <TextBox stylename="text_box" layout_id="text_name" layout_guid="98034302-689f-4731-84f8-3c1ea0a6eb50" override_flow_index="9999999" top="4px" margin_top="4dpi_px" localise_default_caption="PackageMan_PkgName" />
+                    <TextBox stylename="text_box" layout_id="text_url" layout_guid="683a8573-1145-420c-a5fc-2152c3713bf7" override_flow_index="9999999" top="38px" margin_top="10dpi_px" localise_default_caption="PackageMan_PkgURL" />
+                    <TextBox stylename="text_box" layout_id="text_scope" layout_guid="6e87d016-816a-4b71-b898-c7b753e82ca2" override_flow_index="9999999" top="72px" margin_top="10dpi_px" localise_default_caption="PackageMan_Scope" />
+                    <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" top="100px" margin_top="4dpi_px" grid_columnlayout="['1*', '32dpi_px']">
+                      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <Label stylename="label" override_flow_index="9999999" height="16px" width="106px" left="0px" localise_caption="PackageMan_PkgIdentifiers" />
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <Button stylename="ab_add_button" layout_id="button_add_identifier" layout_guid="5f739b4e-18cc-47ce-9c35-3768a4c4a27f" override_flow_index="9999999" localise_tooltip="PackageMan_AddIdentifier" width="24dpi_px" right="0px" />
+                        </ChildGadgets>
+                      </Cell>
+                    </Grid>
+                    <StackPanel stylename="stack_panel" layout_id="stack_identifiers" layout_guid="38693eaf-ccfb-478d-9765-73fb963810de" override_flow_index="9999999" top="124px" margin_bottom="0dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight" />
+                    <TextBox stylename="text_box" layout_id="text_password" layout_guid="9467dad6-6024-4e6b-95cb-141cc55cf75f" override_flow_index="9999999" top="134px" margin_top="10dpi_px" localise_default_caption="PackageMan_PkgPassword" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="inactive_autotile_entry_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" right="10dpi_px" stack_order="RightToLeft">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="btn_add" layout_guid="111600bf-6927-4146-b89a-1fa74fbe4f06" override_flow_index="9999999" width="120dpi_px" right="0px" top="0px" localise_name="PackageMan_PkgAdd" />
+                    <Button stylename="button_up" layout_id="btn_cancel" layout_guid="df982df1-2a8d-4ca2-8d41-944a1393d990" override_flow_index="9999999" width="120dpi_px" right="130px" top="0px" margin_right="10dpi_px" localise_name="Button_Cancel" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicBorderlessWindowFrame" layout_guid="53cfe63e-6679-4383-b1ab-f891ade9d6f6" />
+    </Window>
+  </Layout>
+  <Layout layout_name="PackageMan_QuickUpdateWin" layout_guid="f3120a3d-2336-4948-8c69-bc45723f5ef3">
+    <Window stylename="default_window" override_flow_index="9999999" height="330dpi_px" width="440dpi_px" right="20dpi_px" top="20dpi_px" localise_title="PackageMan_PkgNameUpdate">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="20dpi_px" right="20dpi_px" top="20dpi_px" bottom="10dpi_px" grid_rowlayout="['1*', '40dpi_px', '0dpi_px']">
+            <Cell row="0" column="0" stylename="basic_scrollpanel_box" flow_index="0">
+              <ChildGadgets>
+                <ScrollPanel stylename="pman_panel_dark" override_flow_index="9999999" height="100dpi_px" width="164dpi_px" scrollpanel_flags="VerticalScroll, HorizontalScroll">
+                  <ChildGadgets>
+                    <StackPanel stylename="stack_panel_full" layout_id="panel_available" layout_guid="eccba087-ddde-4822-b6a7-7ae2b14b1f4f" override_flow_index="9999999" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                      <ChildGadgets>
+                        <Label stylename="pman_label10_green" layout_id="label_update" layout_guid="b78830e3-af13-44f3-83d3-e616aac00894" override_flow_index="9999999" height="18px" width="100px" top="0px" localise_caption="PackageMan_UpdateAvailable" />
+                        <Label stylename="pman_label_large" layout_id="label_version" layout_guid="774202a1-ddc4-473a-b523-07a98c393ea7" override_flow_index="9999999" height="27px" width="43px" top="22px" margin_top="4dpi_px" caption="1.0.0" />
+                      </ChildGadgets>
+                    </StackPanel>
+                    <StackPanel stylename="stack_panel_full" layout_id="panel_updating" layout_guid="831cb202-82dd-478d-8fb9-f812a531b754" override_flow_index="9999999" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                      <ChildGadgets>
+                        <Label stylename="pman_label10" layout_id="label_updating" layout_guid="6250c2fa-c141-4973-b3ae-869fb414af92" override_flow_index="9999999" height="18px" width="64px" top="0px" localise_caption="PackageMan_Updating" />
+                        <Image stylename="pman_progress_spinner" override_flow_index="9999999" top="22px" margin_top="4dpi_px" />
+                      </ChildGadgets>
+                    </StackPanel>
+                    <StackPanel stylename="stack_panel_full" layout_id="panel_done" layout_guid="dfd26654-9558-4dbe-b26f-23c60ff88529" override_flow_index="9999999" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                      <ChildGadgets>
+                        <Image stylename="image" layout_id="result_icon" layout_guid="d99ec11e-409f-4fd7-b43a-968a63ee97b0" override_flow_index="9999999" height="32dpi_px" width="32dpi_px" top="0px" image_flags="Stretch, Centre, KeepAspectRatio" image="YesTick32.png" />
+                        <Label stylename="pman_label10" layout_id="label_result" layout_guid="d49a5eeb-92e9-4bce-bc36-582490caa515" override_flow_index="9999999" height="20px" width="" top="32px" caption="Update Successful" word_wrap="True" />
+                      </ChildGadgets>
+                    </StackPanel>
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="btn_update" layout_guid="14287078-d78f-4309-bc0f-30446d2e33d4" override_flow_index="9999999" bottom="0px" localise_name="PackageMan_Update" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="PkgMan_ProgressInfo2" layout_guid="3b6ccac4-14ad-45c0-aa70-61ab4e34aaa0">
+    <ScrollPanel stylename="pman_panel_bg" override_flow_index="9999999" height="48dpi_px" width="330dpi_px" scrollpanel_flags="VerticalScroll, HorizontalScroll">
+      <ChildGadgets>
+        <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['auto', 'auto']" grid_resize="ResizeGridWidth">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="pman_progress_label" layout_id="label_info" layout_guid="a7898c06-f6f5-429f-bfc2-36848ac24650" override_flow_index="9999999" height="16px" width="257px" left="2px" margin_right="12dpi_px" caption="Installing &lt;name&gt; &lt;version&gt;" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Image stylename="pman_progress_spinner" layout_id="progress_spinner" layout_guid="56ca7ace-432e-4f63-842a-b65f3a0c40f9" override_flow_index="9999999" height="40dpi_px" width="40dpi_px" left="0px" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+</Layouts>

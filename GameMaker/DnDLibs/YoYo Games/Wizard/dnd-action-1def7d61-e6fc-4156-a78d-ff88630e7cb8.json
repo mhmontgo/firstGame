@@ -1,0 +1,85 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "tagname": null,
+    "caption": "GMStdEmitterID",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "emitterid",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "tagname": null,
+    "caption": "GMStdShape",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "shape",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdRectangle|GMStdEllipse|GMStdDiamond|GMStdLine"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "tagname": null,
+    "caption": "GMStdLeft",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "xmin",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "tagname": null,
+    "caption": "GMStdTop",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "ymin",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "tagname": null,
+    "caption": "GMStdRight",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "xmax",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "tagname": null,
+    "caption": "GMStdBottom",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "ymax",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  }
+]

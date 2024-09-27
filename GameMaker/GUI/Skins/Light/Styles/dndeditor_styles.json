@@ -1,0 +1,60 @@
+﻿{
+	"dnd_grid": {
+		"dock_area_color": "dnd_toolbox_dock_area"
+	},
+
+	"dnd_story_entry": {
+		"applyto_color": "dnd_story_applyto",
+		"line_opacity": "200",
+		"selected_opacity_modifier": "2"
+	},
+
+	"dnd_toolbox_category_label": {
+		"colour": "dnd_category_label"
+	},
+
+	"dnd_toolbox_searchbar": {
+		"colour": "dnd_toolbox_search",
+		"caret": "IBarBlack",
+		"override_color": "dnd_toolbox_search_override",
+		"selection_color": "dnd_toolbox_search_selection"
+	},
+
+	"dnd_toolbox": {
+		"colour": "dnd_toolbox"
+	},
+
+	"dnd_toolbox_chrome_label": {
+		"colour": "dnd_toolbox_label"
+	},
+
+	"dnd_node_window": {
+		"story_color": "dnd_node_story",
+		"notice_color": "dnd_node_notice"
+	},
+
+	"dnd_node_window_ghost": {
+		"color_overlay": "dnd_node_drag_overlay",
+		"target_overlay": "dnd_node_drag_overlay_target"
+	},
+
+	"dnd_workspace": {
+		"chain_color_root": "dnd_chain",
+		"chain_color_comment": "dnd_chain_comment",
+		"chain_color_true": "dnd_chain_if_true",
+		"chain_color_false": "dnd_chain_if_false",
+		"selection_rect_color": "dnd_workspace_selection"
+	},
+
+	"dnd_node_titlebar": {
+		"applyto_highlight": "dnd_node_titlebar_applyto"
+	},
+
+	"dnd_category_label": {
+		"colour": "dnd_category_label"
+	},
+
+	"dnd_category_label_selected": {
+		"colour": "dnd_category_label_selected"
+	}
+}

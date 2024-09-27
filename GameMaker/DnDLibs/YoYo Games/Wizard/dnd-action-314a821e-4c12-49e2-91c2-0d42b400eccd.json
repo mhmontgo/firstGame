@@ -1,0 +1,25 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdFilename",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "file",
+      "DefaultValue": "\"file.txt\"",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdNot",
+    "gadget": "YoYo Games.DnD_BooleanInput",
+    "gadget_properties": {
+      "TagName": "not",
+      "DefaultValue": false
+    }
+  }
+]

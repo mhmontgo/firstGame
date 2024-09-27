@@ -1,0 +1,110 @@
+{
+	"path_editor_textbox": {
+		"width_flags": "ScaleToFit"
+	},
+
+	"path_text_box": {
+		"selection_colour": "path_editor_text_box_selection",
+		"text_colour": "path_editor_text_box_text"
+	},
+
+	"scaletofit_stack_panel": {
+		"colour": "base_stack_panel",
+		"stack_order": "LeftToRight",
+		"mouse_events": "False",
+		"width_flags": "ScaleToFit"
+	},
+
+	"button_toggle_path_grid": {
+		"icon": "Buttons/icon_grid_show.png",
+		"localise_tooltip": "PathEditor_ToolTip_ToggleGrid"
+	},
+
+	"button_snap_path_grid": {
+		"icon": "Buttons/icon_grid_snap.png",
+		"localise_tooltip": "PathEditor_ToolTip_SnapGrid"
+	},
+
+	"button_shift_path": {
+		"icon": "ImageEditor/ToolIcons/icon_IE_pan.png",
+		"localise_tooltip": "PathEditor_ToolTip_ShiftPath"
+	},
+
+	"path_window": {
+		"width": "840dpi_px",
+		"width_min": "800dpi_px",
+		"height": "520dpi_px",
+		"height_min": "470dpi_px",
+		"window_flags": "CloseButton, ResizeButton"
+	},
+
+	"path_point_window": {
+		"width": "340dpi_px",
+		"width_min": "340dpi_px",
+		"width_max": "340dpi_px",
+		"height": "300dpi_px",
+		"window_flags": "CloseButton, ResizeButton"
+	},
+
+	"path_spline_editor": {
+		"path_colour": "path_editor_spline_line",
+		"anchor_colour_normal": "path_editor_spline_anchor",
+		"anchor_colour_selected": "path_editor_spline_anchor_hi",
+		"anchor_colour_active": "path_editor_spline_anchor_active",
+		"anchor_width": 8,
+		"anchor_height": 8,
+		"snap_grid": "False",
+		"zoom_widget_style": "path_spline_editor_widget_style"
+	},
+
+	"path_spline_editor_room_editor": {
+		"show_zoom_widget": "False"
+	},
+
+	"path_spline_editor_widget_style": {
+		"top": "20dpi_px",
+		"tool_flags": "Default"
+	},
+
+	"path_grid": {
+		"font_size": 9,
+		"grid_align_x": 32,
+		"grid_align_y": 32,
+		"show_rulers": "True",
+		"enable": "True",
+		"colour": "path_editor_grid",
+		"ruler_colour": "path_editor_grid_ruler"
+	},
+
+	"point_editable_label": {
+		"width": "100%",
+		"height": "100%",
+		"edit_in_place": "True",
+		"mouse_events": "True",
+		"edit_as_numeric": "True",
+		"auto_size": "False",
+		"halign": "hAlignLeft",
+		"editable_input_type": "Real"
+	},
+
+	"grid_columns_points": {
+		"colour": "path_editor_point_column_header"
+	},
+
+	"list_box_paths": {
+		"multi_select": "True"
+	},
+
+	"spline_default_colours": {
+		"spline_line_colour": "path_editor_default_spline_line",
+		"spline_line_highlight": "path_editor_default_spline_line_hi",
+		"spline_line_error": "path_editor_default_spline_line_error",
+		"spline_anchor_colour": "path_editor_default_spline_anchor",
+		"spline_anchor_error": "path_editor_default_spline_anchor_error",
+		"spline_anchor_highlight": "path_editor_default_spline_anchor_hi",
+		"spline_anchor_error_highlight": "path_editor_default_spline_anchor_error_hi",
+		"spline_anchor_active": "path_editor_default_spline_anchor_active",
+		"spline_anchor_error_active": "path_editor_default_spline_anchor_error_active",
+		"spline_mask": "path_editor_default_spline_mask"
+	}
+}

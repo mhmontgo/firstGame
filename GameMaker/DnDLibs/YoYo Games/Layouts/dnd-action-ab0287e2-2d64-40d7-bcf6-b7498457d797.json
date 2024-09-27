@@ -1,0 +1,28 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdAlarm",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "alarm",
+      "DefaultValue": "0",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdCountdown",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "steps",
+      "DefaultValue": "30",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  }
+]

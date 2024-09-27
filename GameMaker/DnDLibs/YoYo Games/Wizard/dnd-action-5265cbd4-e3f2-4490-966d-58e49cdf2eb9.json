@@ -1,0 +1,28 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdMacro",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "macro",
+      "DefaultValue": "name",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdValue",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "value",
+      "DefaultValue": "0",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

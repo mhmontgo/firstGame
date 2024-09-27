@@ -1,0 +1,32 @@
+[
+  {
+    "relative": false,
+    "tagname": null,
+    "caption": "GMStdVariable",
+    "gadget": "YoYo Games.DnD_TextInput",
+    "gadget_properties": {
+      "TagName": "var",
+      "DefaultValue": null,
+      "HasMaximumLength": false,
+      "MaxLength": 0,
+      "HasPattern": true,
+      "Pattern": null,
+      "IsVariableName": true
+    }
+  },
+  {
+    "relative": false,
+    "tagname": null,
+    "caption": "GMStdValue",
+    "gadget": "YoYo Games.DnD_TextInput",
+    "gadget_properties": {
+      "TagName": "value",
+      "DefaultValue": null,
+      "HasMaximumLength": false,
+      "MaxLength": 0,
+      "HasPattern": false,
+      "Pattern": "",
+      "IsVariableName": false
+    }
+  }
+]

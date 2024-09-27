@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="AudioEmitterEditor" layout_guid="afc95c60-fa20-46e9-a622-e17e94cce2d2">
+    <Window stylename="window" height="228px" width="512dpi_px" left="26px" top="54px" localise_title="AudioEmitterEditor_Title" window_flags="Default">
+      <Client>
+        <ChildGadgets>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

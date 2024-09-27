@@ -1,0 +1,21 @@
+{
+	"effect_tex_selector":
+	{
+		grid_columnlayout: ["24dpi_px", "1*"]
+	},
+
+  "effects_prop_stack":{
+    colour: "room_editor_effects_stack", 
+		mouse_events: "false",
+    margin_top: "8dpi_px",
+    margin_bottom: "10dpi_px",
+    stack_order: "TopToBottom",
+    stack_resize: "ResizeHeight"
+  },
+  
+  "effects_colour_selector": {
+    "base": "inspector_colour_select",
+    "realtime_binding": "false"
+  }
+
+}

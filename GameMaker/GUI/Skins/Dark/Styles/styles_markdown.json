@@ -1,0 +1,186 @@
+{
+  "markdown_panel": {
+    "colour": "#00000000",
+    "stack_resize": "ResizeHeight",
+    "stack_order": "TopToBottom",
+    "halign": "hAlignLeft"
+  },
+  "markdown_panel_line": {
+    "stack_resize": "ResizeHeight",
+    "stack_order": "LeftToRight",
+    "stack_flags": "Wrap",
+    "left": "0px",
+    "width": "100%"
+  },
+  "markdown_list_line": {
+    "stack_resize": "ResizeHeight",
+    "stack_order": "LeftToRight",
+    "stack_flags": "Wrap",
+    "left": "0px",
+    "width": "100%",
+    "height": "24dpi_px"
+  },
+  "markdown_code_inline": {
+    "font_name": "system-monospace",
+    "colour": "#FFFAFAFA",
+    "margin_top": "2dpi_px",
+    "margin_bottom": "2dpi_px",
+    "margin_left": "2dpi_px",
+    "margin_right": "2dpi_px"
+  },
+  "markdown_code_inline_bg": {
+    "stack_resize": "ResizeAll",
+    "stack_order": "TopToBottom",
+    "content_flags": "ScaleToFit",
+    "halign": "hAlignLeft",
+    "colour": "#FF404040"
+  },
+  "markdown_blockquote": {
+    "halign": "hAlignLeft",
+    "width": "100%"
+  },
+  "markdown_blockquote_line": {
+    "stack_resize": "ResizeAll",
+    "stack_order": "LeftToRight",
+    "halign": "hAlignLeft",
+    "stack_flags": "Wrap",
+    "width": "100%",
+    "margin_left": "10dpi_px"
+  },
+  "markdown_list": {
+    "stack_resize": "ResizeHeight",
+    "stack_order": "TopToBottom",
+    "margin_left": "21dpi_px",
+    "width": "100%",
+    "left": "0px"
+  },
+  "markdown_list_wrapper": {
+    "left": "0px",
+    "top": "0px",
+    "grid_resize": "ResizeGridHeight",
+    "grid_rowlayout": "auto",
+    "grid_columnlayout": [ "20dpi_px", "1*" ]
+  },
+
+  "markdown_h1": {
+    "font_size": 18,
+    "font_stylename": "Bold",
+    "margin_top": "0dpi_px",
+    "margin_bottom": "12dpi_px",
+    "width": "100%",
+    "halign": "hAlignLeft",
+    "left": "0px",
+    "word_wrap": "true",
+    "colour": "#FFFAFAFA"
+  },
+  "markdown_h2": {
+    "font_size": 14,
+    "font_stylename": "Bold",
+    "margin_top": "0dpi_px",
+    "margin_bottom": "14dpi_px",
+    "width": "100%",
+    "halign": "hAlignLeft",
+    "left": "0px",
+    "word_wrap": "true",
+    "colour": "#FFFAFAFA"
+  },
+  "markdown_h3": {
+    "font_size": 11,
+    "font_stylename": "Bold",
+    "margin_top": "0dpi_px",
+    "margin_bottom": "18dpi_px",
+    "width": "100%",
+    "halign": "hAlignLeft",
+    "left": "0px",
+    "word_wrap": "true",
+    "colour": "#FFFAFAFA"
+  },
+  "markdown_h4": {
+    "font_size": 9,
+    "font_stylename": "Bold",
+    "margin_top": "0dpi_px",
+    "margin_bottom": "24dpi_px",
+    "width": "100%",
+    "halign": "hAlignLeft",
+    "left": "0px",
+    "word_wrap": "true",
+    "colour": "#FFFAFAFA"
+  },
+  "markdown_h5": {
+    "font_size": 7,
+    "font_stylename": "Bold",
+    "margin_top": "0dpi_px",
+    "margin_bottom": "30dpi_px",
+    "width": "100%",
+    "halign": "hAlignLeft",
+    "left": "0px",
+    "word_wrap": "true",
+    "colour": "#FFFAFAFA"
+  },
+  "markdown_h6": {
+    "font_size": 6,
+    "font_stylename": "Bold",
+    "margin_top": "0dpi_px",
+    "margin_bottom": "42dpi_px",
+    "width": "100%",
+    "halign": "hAlignLeft",
+    "left": "0px",
+    "word_wrap": "true",
+    "colour": "#FFFAFAFA"
+  },
+  "markdown_hr": {
+    "width": "100%"
+  },
+  "markdown_hr2": {
+    "height":  "1px",
+    "margin_top": "8dpi_px",
+    "margin_bottom": "8dpi_px",
+    "margin_left": "0px",
+    "margin_right": "0px",
+    "colour": "#ff404040"
+  },
+
+  "markdown_p": {
+    "halign": "hAlignLeft",
+    "word_wrap": "true",
+    "colour": "#FFFAFAFA"
+  },
+  "markdown_b": {
+    "halign": "hAlignLeft",
+    "font_stylename": "Bold",
+    "word_wrap": "true",
+    "colour": "#FFFAFAFA"
+  },
+  "markdown_i": {
+    "halign": "hAlignLeft",
+    "font_stylename": "Italic",
+    "word_wrap": "true",
+    "colour": "#FFFAFAFA"
+  },
+  "markdown_code_default": {
+    "font_name": "system-monospace",
+    "halign": "hAlignLeft"
+  },
+  "markdown_code": {
+    "base": "markdown_code_default",
+    "colour": "#FFFAFAFA"
+  },
+  "markdown_code_bg": {
+    "stack_resize": "ResizeAll",
+    "content_flags": "ScaleToFit",
+    "left": "0px",
+    "width": "100%",
+    "colour": "#FF303030"
+  },
+  "markdown_code_container": {
+    "stack_resize": "ResizeAll",
+    "stack_order": "TopToBottom",
+    "content_flags": "ScaleToFit",
+    "left": "0px",
+    "width": "100%",
+    "margin_top": "0px",
+    "margin_bottom": "24dpi_px",
+    "margin_left": "12dpi_px",
+    "margin_right": "12dpi_px"
+  }
+}

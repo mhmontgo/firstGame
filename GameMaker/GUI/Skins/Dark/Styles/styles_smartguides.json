@@ -1,0 +1,13 @@
+{
+  "smartguide_style": {
+    "ruler_line_colour": "smartguide_ruler_line",
+    "ruler_locked_colour": "smartguide_ruler_locked",
+    "ruler_bg_colour": "smartguide_ruler_bg",
+    "ruler_bg_corner_colour": "smartguide_ruler_bg_corner",
+    "ruler_tick_colour": "smartguide_ruler_tick",
+    "ruler_text_colour": "smartguide_ruler_text",
+    "guide_axis_colour": "smartguide_guide_axis",
+    "guide_offset_colour": "smartguide_guide_offset",
+    "bounds_colour": "smartguide_bounds"
+  }
+}

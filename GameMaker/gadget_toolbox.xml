@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<GadgetToolBox>
+  <Group group_id="group_containers" group_localise_name="GadgetToolbox_Containers">
+    <Gadget class_name="Grid" gadget_localise_name="GadgetToolbox_Grid"/>
+    <Layout layout_name="DefaultEditorScrollPanel" gadget_localise_name="GadgetToolbox_ScrollPanel"/>
+    <Gadget class_name="StackPanel" gadget_localise_name="GadgetToolbox_StackPanel"/>
+  </Group>
+  <Group group_id="group_input" group_localise_name="GadgetToolbox_Input">
+    <Gadget class_name="CheckBox" gadget_localise_name="GadgetToolbox_CheckBox"/>
+    <Gadget class_name="FileInputGadget" gadget_localise_name="GadgetToolbox_FileInput"/>
+    <Gadget class_name="Slider" gadget_localise_name="GadgetToolbox_Slider"/>
+    <Gadget class_name="ThumbnailSlider" gadget_localise_name="GadgetToolbox_ThumbnailSlider"/>
+    <Gadget class_name="AngularSelect" gadget_localise_name="GadgetToolbox_AngularSelect"/>
+    <Group group_id="group_button" group_localise_name="GadgetToolbox_Buttons">
+      <Gadget class_name="Button" gadget_localise_name="GadgetToolbox_Button"/>
+      <Gadget class_name="CloseButton" gadget_localise_name="GadgetToolbox_CloseButton"/>
+      <Gadget class_name="ToggleButton" gadget_localise_name="GadgetToolbox_ToggleButton"/>
+      <Gadget class_name="BrowseButton" gadget_localise_name="GadgetToolbox_BrowseButton"/>
+    </Group>
+    <Group group_id="group_colour" group_localise_name="GadgetToolbox_Colour">
+      <Layout layout_name="ColourDialogWindow" gadget_localise_name="GadgetToolbox_ColourDialog"/>
+      <Gadget class_name="ColourPalette" gadget_localise_name="GadgetToolbox_ColourPalette"/>
+      <Gadget class_name="ColourPicker" gadget_localise_name="GadgetToolbox_ColourPicker"/>
+      <Gadget class_name="ColourSelectButton" gadget_localise_name="GadgetToolbox_ColourSelectButton"/>
+    </Group>
+    <Group group_id="group_radiobuttons" group_localise_name="GadgetToolbox_RadioButtons">
+      <Gadget class_name="RadioButton" gadget_localise_name="GadgetToolbox_RadioButton"/>
+      <Layout layout_name="BasicRadioGroup" gadget_localise_name="GadgetToolbox_RadioGroup"/>
+    </Group>
+    <Group group_id="group_lists" group_localise_name="GadgetToolbox_Lists">
+      <Gadget class_name="ComboBox" gadget_localise_name="GadgetToolbox_ComboBox"/>
+      <Gadget class_name="ListBox" gadget_localise_name="GadgetToolbox_ListBox"/>
+      <Gadget class_name="ListView" gadget_localise_name="GadgetToolbox_ListView"/>
+      <Gadget class_name="TableGadget" gadget_localise_name="GadgetToolbox_Table"/>
+      <Gadget class_name="TableListBox" gadget_localise_name="GadgetToolbox_TableListBox"/>
+    </Group>
+    <Group group_id="group_textinput" group_localise_name="GadgetToolbox_TextInput">
+      <Gadget class_name="NumericTextBox" gadget_localise_name="GadgetToolbox_NumericTextBox"/>
+      <Gadget class_name="TextBox" gadget_localise_name="GadgetToolbox_TextBox"/>
+      <Gadget class_name="MultiLineTextBox" gadget_localise_name="GadgetToolbox_MultiLineTextBox"/>
+      <Gadget class_name="FunctionTextBox" gadget_localise_name="GadgetToolbox_FunctionTextBox"/>
+    </Group>
+  </Group>
+  <Group group_id="group_windowing" group_localise_name="GadgetToolBox_Windowing">
+    <Layout layout_name="DefaultTabControl" gadget_localise_name="GadgetToolbox_TabControl"/>
+    <Gadget class_name="MenuBar" gadget_localise_name="GadgetToolbox_MenuBar"/>
+    <Gadget class_name="TitleBar" gadget_localise_name="GadgetToolbox_TitleBar"/>
+    <Gadget class_name="Window" gadget_localise_name="GadgetToolbox_Window"/>
+    <Layout layout_name="DefaultBorderedWindow" gadget_localise_name="GadgetToolbox_DefaultBorderedWindow"/>
+    <Layout layout_name="DefaultBorderlessWindow" gadget_localise_name="GadgetToolbox_DefaultBorderlessWindow"/>
+    <Layout layout_name="DefaultBlendWindow" gadget_localise_name="GadgetToolbox_DefaultBlendWindow"/>
+    <Gadget class_name="WindowFrame" gadget_localise_name="GadgetToolbox_WindowFrame"/>
+    <Group group_id="group_scrollbars" group_localise_name="GadgetToolbox_Scrollbars">
+      <Gadget class_name="VerticalScrollBar" gadget_localise_name="GadgetToolbox_VerticalScrollbar" />
+      <Gadget class_name="HorizontalScrollBar" gadget_localise_name="GadgetToolbox_HorizontalScrollbar" />
+    </Group>
+  </Group>
+  <Group group_id="group_misc" group_localise_name="GadgetToolBox_Misc">
+    <Gadget class_name="TreeView" gadget_localise_name="GadgetToolbox_TreeView"/>
+    <Gadget class_name="PanArea" gadget_localise_name="GadgetToolbox_PanArea"/>
+    <Gadget class_name="SequenceCanvas" gadget_localise_name="GadgetToolbox_SequenceCanvas"/>
+    <Gadget class_name="Group" gadget_localise_name="GadgetToolbox_Group"/>
+    <Gadget class_name="Image" gadget_localise_name="GadgetToolbox_Image"/>
+    <Gadget class_name="Label" gadget_localise_name="GadgetToolbox_Label"/>
+    <Gadget class_name="LinkLabel" gadget_localise_name="GadgetToolbox_LinkLabel"/>
+    <Gadget class_name="EmbeddedLinkLabel" gadget_localise_name="GadgetToolbox_EmbeddedLinkLabel"/>
+    <Gadget class_name="ProgressBar" gadget_localise_name="GadgetToolbox_ProgressBar"/>
+    <Gadget class_name="ExpandableCategory" gadget_localise_name="GadgetToolbox_ExpandableCategory"/>
+    <Gadget class_name="SearchBar" gadget_localise_name="GadgetToolbox_SearchBar"/>
+    <Gadget class_name="ZoomSlider" gadget_localise_name="GadgetToolbox_ZoomSlider"/>
+    <Group group_id="group_separators" group_localise_name="GadgetToolbox_Separators">
+      <Gadget class_name="HorizontalSeparator" gadget_localise_name="GadgetToolbox_HorizontalSeparator"/>
+      <Gadget class_name="VerticalSeparator" gadget_localise_name="GadgetToolbox_VerticalSeparator"/>
+    </Group>
+  </Group>
+  <Group group_id="group_resources" group_localise_name="GadgetToolbox_Resources">
+    <Gadget class_name="ResourceButton" gadget_localise_name="GadgetToolbox_ResourceButton"/>
+    <Gadget class_name="ResourceImage" gadget_localise_name="GadgetToolbox_ResourceImage"/>
+    <Gadget class_name="ResourceDropPanel" gadget_localise_name="GadgetToolbox_ResourceDropPanel"/>
+    <Gadget class_name="Resource_SpriteIcon" gadget_localise_name="GadgetToolbox_ResourceSpriteIcon"/>
+    <Gadget class_name="Resource_ObjectIcon" gadget_localise_name="GadgetToolbox_ResourceObjectIcon"/>
+    <Gadget class_name="Resource_TileSetIcon" gadget_localise_name="GadgetToolbox_ResourceTileSetIcon"/>
+    <Gadget class_name="SpriteSelector" gadget_localise_name="GadgetToolbox_SpriteSelector"/>
+  </Group>
+  <Group group_id="group_dnd" group_localise_name="GadgetToolbox_GMLVisual">
+    <Gadget class_name="DnDExpressionInput" gadget_localise_name="GMLVisual_Gadget_ExpressionInput"/>
+    <Gadget class_name="DnDArgumentInput" gadget_localise_name="GMLVisual_Gadget_ArgumentInput"/>
+    <Gadget class_name="DnDResourceSelection" gadget_localise_name="GMLVisual_Gadget_ResourceSelection"/>
+    <Gadget class_name="DnDBoolExprInput" gadget_localise_name="GMLVisual_Gadget_BooleanExprInput"/>
+    <Gadget class_name="DnDBooleanInput" gadget_localise_name="GMLVisual_Gadget_BooleanInput"/>
+    <Gadget class_name="DnDColorPicker" gadget_localise_name="GMLVisual_Gadget_ColorPicker"/>
+    <Gadget class_name="DnDCodeInput" gadget_localise_name="GMLVisual_Gadget_CodeInput"/>
+    <Gadget class_name="DnDMenuExprInput" gadget_localise_name="GMLVisual_Gadget_MenuExpressionInput"/>
+    <Gadget class_name="DnDMenuInput" gadget_localise_name="GMLVisual_Gadget_MenuInput"/>
+    <Gadget class_name="DnDNumericInput" gadget_localise_name="GMLVisual_Gadget_NumericInput"/>
+    <Gadget class_name="DnDMultiLineTextInput" gadget_localise_name="GMLVisual_Gadget_MultiLineTextInput"/>
+    <Gadget class_name="DnDTextInput" gadget_localise_name="GMLVisual_Gadget_TextInput"/>
+    <Gadget class_name="DnDIsRelative" gadget_localise_name="GMLVisual_Gadget_IsRelative"/>
+    <Gadget class_name="DnDIsTemp" gadget_localise_name="GMLVisual_Gadget_IsTemp"/>
+    <Gadget class_name="DnDDirectionalInput" gadget_localise_name="GMLVisual_Gadget_DirectionalInput"/>
+  </Group>
+</GadgetToolBox>
+

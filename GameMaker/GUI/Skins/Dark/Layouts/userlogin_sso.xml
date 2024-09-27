@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="UserLoginSSO2" layout_guid="4ca62d01-9563-44ff-a7d7-9dca29887613">
+    <Window stylename="default_window" override_flow_index="9999999" height="293px" width="577dpi_px" localise_title="User_Login_Title" window_flags="CloseButton, DragDisabled, DockingDisabled, DesktopTransferDisabled, AutoSizeHeight" accept_button_id="login">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['auto', '84dpi_px']" grid_resize="ResizeGridHeight">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" top="0%" grid_rowlayout="['auto']" grid_columnlayout="['1*', '1*']" grid_resize="ResizeGridHeight">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="grid_container" override_flow_index="9999999" left="6dpi_px" right="0px" grid_rowlayout="['auto', '32dpi_px', 'auto', '32dpi_px', 'auto', 'auto']" grid_resize="ResizeGridHeight">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Label stylename="label" override_flow_index="9999999" height="16px" width="94px" left="0px" margin_left="10dpi_px" margin_right="10dpi_px" margin_top="5dpi_px" margin_bottom="5dpi_px" localise_caption="UserLogin_Email" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <TextBox stylename="login_text_box" layout_id="username" layout_guid="14f35c8b-b812-4818-8025-1200ab263f4b" override_flow_index="9999999" height="24dpi_px" width="100%" left="0px" right="12dpi_px" top="0px" margin_left="10dpi_px" margin_right="5dpi_px" margin_top="0dpi_px" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Label stylename="label" override_flow_index="9999999" height="16px" width="54px" left="0px" margin_left="10dpi_px" margin_right="10dpi_px" margin_bottom="5dpi_px" localise_caption="UserLogin_Password" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <TextBox stylename="password_text_box" layout_id="password" layout_guid="f7268f2e-1361-4cc3-9daa-b299136eb086" flow_index="1" override_flow_index="9999999" width="100%" left="0px" right="12dpi_px" top="0px" margin_left="10dpi_px" margin_right="5dpi_px" margin_top="0dpi_px" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="4" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <StackPanel stylename="list_view_wrap_panel" override_flow_index="9999999" left="0px" top="" bottom="0px">
+                              <ChildGadgets>
+                                <CheckBox stylename="checkbox_stack" layout_id="store_credentials" layout_guid="b533b2b3-e51c-44f6-85ee-2f2a0d340872" flow_index="5" override_flow_index="9999999" height="24dpi_px" left="0px" margin_right="6dpi_px" margin_bottom="4dpi_px" localise_name="UserLogin_RememberMe" checked="True" />
+                                <CheckBox stylename="checkbox_stack" layout_id="show_password" layout_guid="133e08b7-341c-41b1-998f-33bc30f82ad0" flow_index="6" override_flow_index="9999999" height="24dpi_px" left="118px" margin_bottom="4dpi_px" localise_name="Settings_ShowPassword" />
+                              </ChildGadgets>
+                            </StackPanel>
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="5" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['auto']" grid_columnlayout="['1*', '1*']" grid_resize="ResizeGridHeight">
+                              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                                <Gadgets>
+                                  <Button stylename="basic_button" layout_id="login" layout_guid="e7ddeea0-ca8d-4dc6-9fc8-424ee0b989e4" flow_index="2" override_flow_index="9999999" height="24dpi_px" width="130dpi_px" left="0px" bottom="0px" margin_left="0px" margin_right="0px" margin_top="" margin_bottom="" localise_name="User_Login" />
+                                </Gadgets>
+                              </Cell>
+                              <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <LinkLabel stylename="login_link_label" layout_id="password_link" layout_guid="0da2fd01-a87e-4d1a-98be-c770551a1d68" override_flow_index="9999999" left="8dpi_px" localise_caption="UserLogin_ForgottenPassword" word_wrap="True" base_style="login_link_label" url="https://accounts.yoyogames.com/reset" />
+                                </ChildGadgets>
+                              </Cell>
+                            </Grid>
+                          </ChildGadgets>
+                        </Cell>
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <VerticalSeparator stylename="vertical_separator" override_flow_index="9999999" left="0px" margin_top="0px" margin_bottom="0px" />
+                      <StackPanel stylename="stack_panel" override_flow_index="9999999" left="16dpi_px" right="8dpi_px" top="6dpi_px" bottom="24dpi_px" stack_order="TopToBottom">
+                        <ChildGadgets>
+                          <Label stylename="label" override_flow_index="9999999" height="16px" width="83px" left="0px" top="0px" localise_caption="UserLogin_OperaAccount" />
+                          <Label stylename="label" override_flow_index="9999999" height="16px" width="290px" left="0px" right="0px" top="44px" margin_top="28dpi_px" localise_caption="UserLogin_OperaLoginInfo" word_wrap="True" />
+                        </ChildGadgets>
+                      </StackPanel>
+                      <Button stylename="auto_width_button" layout_id="sso_login" layout_guid="484dc1b7-a820-40fe-84ee-b16e46ea3a18" override_flow_index="9999999" height="24px" width="46px" left="16dpi_px" bottom="0px" margin_left="0px" margin_right="8px" localise_name="UserLogin_OperaSSO" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <Gadgets>
+                <Button stylename="basic_button" layout_id="register" layout_guid="c81e3da6-146d-454e-869a-386ef6181b10" flow_index="3" override_flow_index="9999999" height="24px" width="150dpi_px" top="20dpi_px" margin_left="0px" margin_right="8px" localise_name="User_Register" />
+                <Button stylename="basic_button" layout_id="proxy_settings" layout_guid="97491bf8-505a-4b39-83d8-cddf4a7f4050" flow_index="4" override_flow_index="9999999" height="24px" width="150dpi_px" top="54dpi_px" margin_left="0px" margin_right="8px" localise_name="User_ProxySettings" />
+              </Gadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

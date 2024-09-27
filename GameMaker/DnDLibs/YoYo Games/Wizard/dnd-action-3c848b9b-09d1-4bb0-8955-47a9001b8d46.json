@@ -1,0 +1,16 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "tagname": null,
+    "caption": "GMStdParticleSystem",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "system",
+      "DefaultValue": "system",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  }
+]

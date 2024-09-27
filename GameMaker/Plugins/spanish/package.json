@@ -1,0 +1,18 @@
+{
+  "name": "@localisation_plugins/spanish",
+  "version": "1.0.0",
+  "description": "Spanish IDE localisations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "GameMaker",
+  "license": "",
+  "files": [
+    "*.*"
+  ],
+  "gm": {
+    "destination" : "localisation_plugins/spanish"
+  }
+}

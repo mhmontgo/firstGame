@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <!--
+  
+    Inspector gadget layouts follow a naming convention so new gadgets can be created easily
+    The naming convention is "Inspector_X" where X is a placeholder for the simple type name
+    as given by GetType().Name, which excludes namespace.
+    
+    The "InspectorMethod_X" convention is for inspectable attributes associated with methods.
+    The X is a placeholder for the return type name of the method. Methods must always
+    be parameterless.
+    
+    The "InspectorFallback_X" layouts specify a fallback layout for a range of types, e.g. ICollection
+    that covers all collection types and IEnumerable that covers all enumerables. Fallbacks are implemented
+    via the IInspectorFallbackProvider interface. Fallback layouts are only used if no explicit layout is present.
+    
+    For custom layouts (i.e. layouts that are not inferred by type),
+    assign the layout name to the CustomLayout property.
+    
+    An inspector layout must have a single IInspectorGadget as the root gadget, and only
+    one root gadget.
+    
+    The "bind_inspector" attribute sets whether the associated gadget allows binding
+    to the inspectable attribute (True) or not (False). Default is False.
+    
+  -->
+
+  <Layout layout_name="InspectorCategoryOLD">
+    <InspectorCategoryPanel>
+      <ChildGadgets>
+        <StackPanel stylename="inspector_element" layout_id="panel" top="0px"/>
+      </ChildGadgets>
+    </InspectorCategoryPanel>
+  </Layout>
+
+  <Layout layout_name="InspectorCategory">
+    <InspectorCategoryPanel>
+    </InspectorCategoryPanel>
+  </Layout>
+
+  <!--
+  
+    Methods and delegates
+  
+  -->
+
+  <Layout layout_name="InspectorMethod_Void">
+    <ButtonInspectorPanel bind_inspector="True" />
+  </Layout>
+
+  <!--
+  
+    Fallbacks
+  
+  -->
+
+  <!-- To provide help tips with each enum field, declare localisation strings with the name "Help_<enum field name>" and they will automatically be applied -->
+  <Layout layout_name="InspectorFallback_Enum">
+    <LabeledInspectorPanel>
+      <InspectorEnum bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+
+  <!-- generic enum with wrapped label-->
+  <Layout layout_name="Inspector_Enum_Wrap">
+    <LabeledInspectorPanel label_style="ins_wrap_label">
+      <InspectorEnum bind_inspector="True"/>
+    </LabeledInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="InspectorFallback_ArrayList">
+    <InspectorArrayList/>
+  </Layout>
+
+  <Layout layout_name="InspectorFallback_Object">
+      <ObjectInspectorPanel/>
+  </Layout>
+  
+  <!--
+  
+    Layouts for intentions
+  
+  -->
+
+  <Layout layout_name="Inspector_Range_Int">
+    <LabeledInspectorPanel layout_direction="Vertical">
+      <Slider stylename="inspector_slider" input_type="Integer" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_Range_Float">
+    <LabeledInspectorPanel>
+      <Slider stylename="inspector_slider" input_type="Real" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_AlignedSlider_Float">
+    <LabeledInspectorPanel min_label_width="50dpi_px">
+      <Slider stylename="inspector_slider" input_type="Real" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  
+  <!--
+  
+    Basic types and primitives
+  
+  -->
+
+  <Layout layout_name="Inspector_Object">
+    <LabeledInspectorPanel>
+      <TextBox stylename="inspector_textbox" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_String">
+    <LabeledInspectorPanel>
+      <TextBox stylename="inspector_textbox" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_MultiString">
+    <LabeledInspectorPanel>
+      <InspectorMultiTextBox stylename="inspector_multi_textbox" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  
+  <Layout layout_name="Inspector_Label">
+    <LabeledInspectorPanel>
+      <InspectorLabel stylename="label" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_Guid">
+    <LabeledInspectorPanel>
+      <TextBox stylename="inspector_textbox" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_Boolean_FW">
+    <LabeledInspectorPanel stylename="labeled_inspector_panelgrid_fullwidth">
+      <InspectorCheckbox bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_Boolean">
+    <LabeledInspectorPanel>
+      <InspectorCheckbox bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  
+  <Layout layout_name="Inspector_LockCheckbox">
+    <InspectorCheckbox stylename="toggle_gadget_checkbox_stack" base_style="toggle_gadget_checkbox" bind_inspector="True" />
+  </Layout>
+
+  <Layout layout_name="Inspector_Single">
+    <LabeledInspectorPanel>
+      <NumericTextBox stylename="inspector_numeric_textbox" input_type="Real" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_Double">
+    <LabeledInspectorPanel>
+      <NumericTextBox stylename="inspector_numeric_textbox" input_type="Real" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_Decimal">
+    <LabeledInspectorPanel>
+      <NumericTextBox stylename="inspector_numeric_textbox" input_type="Real" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_Int16">
+    <LabeledInspectorPanel>
+      <NumericTextBox stylename="inspector_numeric_textbox" input_type="Integer" bind_inspector="True" min="–32768" max="32767" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_Int32">
+    <LabeledInspectorPanel>
+      <NumericTextBox stylename="inspector_numeric_textbox" input_type="Integer" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_Int64">
+    <LabeledInspectorPanel>
+      <NumericTextBox stylename="inspector_numeric_textbox" input_type="Integer" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_UInt16">
+    <LabeledInspectorPanel>
+      <NumericTextBox stylename="inspector_numeric_textbox" input_type="Integer" bind_inspector="True" min="0" max="65535" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_UInt32">
+    <LabeledInspectorPanel>
+      <NumericTextBox stylename="inspector_numeric_textbox" input_type="Integer" bind_inspector="True" min="0" max="16777216" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_UInt64">
+    <LabeledInspectorPanel>
+      <NumericTextBox stylename="inspector_numeric_textbox" input_type="Integer" bind_inspector="True" min="0" max="16777216" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_Byte">
+    <LabeledInspectorPanel>
+      <NumericTextBox stylename="inspector_numeric_textbox" input_type="Integer" bind_inspector="True" min="0" max="255" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_Char">
+    <LabeledInspectorPanel>
+      <NumericTextBox stylename="inspector_numeric_textbox" input_type="Integer" bind_inspector="True" min="-128" max="127" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_Colour">
+    <LabeledInspectorPanel>
+      <ColourSelectButton stylename="inspector_colour_select" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_Colour_Insert">
+      <ColourSelectButton stylename="inspector_colour_select_insert" bind_inspector="True" />
+  </Layout>
+</Layouts>

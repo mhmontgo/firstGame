@@ -1,0 +1,40 @@
+{
+  "name": "SourceControlStatus",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "SourceControlStatus",
+      "localised_name": "source_control_status_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "SourceControlStatus",
+          "version": "1.0",
+          "path": "SourceControlStatus.dll",
+          "checksum": "qoEtp7wmh2jBEp06RM6iQHX92gGhdX5zz0buYrXYcaM="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "MiscPlugins",
+          "min_version": "1.0",
+          "max_version": ""
+        },
+        {
+          "dependency_name": "SourceControlGit",
+          "min_version": "1.0",
+          "max_version": ""
+        }
+      ]
+    }
+  ],
+  "author": "",
+  "signature": "pHZh50K3LgQtBFHOWzSW\u002BypZ3R\u002BGDo\u002BCyy44NI/wOUaBGjGAs19VyY/7LDEQlX1Lyjpm2FOTDMLM3fqsBCLntJWSiNJ78LJPcCiA5/vzll57Qjo2q4TASx9ZO0j/7MTcpjxwAI6hBdfTkkqGlIeGwZBS5QQfFTXR8VAzsX/vdls=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

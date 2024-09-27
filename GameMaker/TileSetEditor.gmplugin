@@ -1,0 +1,43 @@
+{
+  "name": "TileSetEditor",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "TileSetEditor",
+      "localised_name": "tile_set_editor_name",
+      "plugin_version": "1.0",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMTileSet",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "TileSetEditor",
+          "version": "1.0",
+          "path": "TileSetEditor.dll",
+          "checksum": "6S4wi5teEnNTZbnH8ZC7YMLovxMuI4VYEZT6DaBW8fk="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "min_version": "1.0",
+          "max_version": ""
+        }
+      ]
+    }
+  ],
+  "author": "",
+  "signature": "QtRANQaAyRRmwcOC7d1BNMaev/kUduFbBPc7zTZ8sJb340JV32BLbe3aDTkztngq3AZOTrmwa28NHa0VNvhALrEj5p2MxLq6hLrL2XF2wgkPbH7ItLu9t546v0jZksfS2LqJK0fJji5QWudIlCaB\u002BlObBJ0i17oqE1ykE09Ui7k=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

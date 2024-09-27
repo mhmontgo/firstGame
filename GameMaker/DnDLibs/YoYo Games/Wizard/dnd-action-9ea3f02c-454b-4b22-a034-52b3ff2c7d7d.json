@@ -1,0 +1,78 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdType",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "type",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdExplosion|GMStdRing|GMStdEllipse|GMStdFirework|GMStdSmoke|GMStdSmokeUp|GMStdStar|GMStdSpark|GMStdFlare|GMStdCloud|GMStdRain|GMStdSnow"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdWhere",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "where",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdBelowObjects|GMStdAboveObjects"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdSize",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "size",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdSmall|GMStdMedium|GMStdLarge"
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdX",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "x",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdY",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "y",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdColor",
+    "gadget": "YoYo Games.DnD_ColorPicker",
+    "gadget_properties": {
+      "TagName": "color",
+      "DefaultValue": "$FFFFFFFF",
+      "AllowAlphaChannel": true,
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

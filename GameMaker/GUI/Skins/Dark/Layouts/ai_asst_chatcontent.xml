@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="AIAsst_RecentItem" layout_guid="0e9eb71f-0cea-4f0e-83ec-3361d6948e5f">
+    <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" left="0%" top="0px" grid_columnlayout="['8dpi_px', '1*', '24dpi_px']">
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="label" layout_guid="c66c455b-6a6e-481c-a8fe-6e3f60b94682" override_flow_index="9999999" height="16px" width="" left="0px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="aiasst_icon_chevron_right" override_flow_index="9999999" height="" width="" vector_icon_size="10dpi_px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="AIAsst_ResponsePanel_TEST" layout_guid="6399a31e-c686-48f3-af9c-7687e85a6773">
+    <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="TopToBottom" stack_resize="ResizeHeight">
+      <Layout layout_name="AIAsst_ResponsePanel_Content" />
+    </StackPanel>
+  </Layout>
+  <Layout layout_name="AIAsst_ResponsePanel_Content" layout_guid="f4ba8386-9d72-4bbc-a094-026e2e356413">
+    <!-- <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="TopToBottom" stack_resize="ResizeHeight"> -->
+    <ChildGadgets>
+      <Grid stylename="grid_container" override_flow_index="9999999" top="0px" grid_rowlayout="['auto']" grid_columnlayout="['26dpi_px', '1*', '26dpi_px']" grid_resize="ResizeGridHeight">
+        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Image stylename="aiasst_flag_icon" layout_id="flag_icon" override_flow_index="9999999" height="20dpi_px" width="20dpi_px" top="0px" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="1" stylename="aiasst_response_frame" layout_id="content_frame" flow_index="0">
+          <ChildGadgets>
+            <StackPanel stylename="stack_panel" layout_id="content_stack" override_flow_index="9999999" left="10dpi_px" right="10dpi_px" margin_top="8dpi_px" margin_bottom="8dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Button stylename="asasst_itemmenu_button" layout_id="menu_button" layout_guid="fdebe116-46d8-46fd-a41f-8b75bccf7f8e" override_flow_index="9999999" />
+          </ChildGadgets>
+        </Cell>
+      </Grid>
+      <ScrollPanel stylename="default_scrollpanel" override_flow_index="9999999" height="20dpi_px" top="32px" margin_left="24dpi_px" margin_right="24dpi_px" scrollpanel_flags="None">
+        <ChildGadgets>
+          <Label stylename="asasst_label_smallgrey" layout_id="time_label" override_flow_index="9999999" height="16px" width="55px" left="0dpi_px" bottom="0px" />
+          <ClickableLabel stylename="aiasst_regen_label" layout_id="regen_label" override_flow_index="9999999" height="16px" width="65px" right="0px" bottom="0px" localise_caption="AIAssistant_Regenerate" />
+        </ChildGadgets>
+      </ScrollPanel>
+    </ChildGadgets>
+    <!--  </StackPanel> -->
+  </Layout>
+  <Layout layout_name="AIAsst_QueryPanel_Content" layout_guid="866954e8-656e-418f-80e0-0ef0c75c8dc0">
+    <!--<StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="TopToBottom" stack_resize="ResizeHeight"> -->
+    <ChildGadgets>
+      <Grid stylename="grid_container" override_flow_index="9999999" top="0px" grid_rowlayout="['auto']" grid_columnlayout="['24dpi_px', '1*']" grid_resize="ResizeGridHeight">
+        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Button stylename="asasst_itemmenu_button" layout_id="menu_button" layout_guid="082a18b7-5bd3-412e-aef9-b0354f5993a2" override_flow_index="9999999" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="1" stylename="aiasst_query_frame" flow_index="0">
+          <ChildGadgets>
+            <StackPanel stylename="stack_panel" layout_id="labelStack" override_flow_index="9999999" left="10dpi_px" right="10dpi_px" margin_top="8dpi_px" margin_bottom="8dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+              <ChildGadgets>
+                <Label stylename="label" layout_id="text" layout_guid="93be6a50-810c-47e4-8f56-da51654d7356" override_flow_index="9999999" height="" width="" left="0px" top="0px" word_wrap="True" />
+              </ChildGadgets>
+            </StackPanel>
+          </ChildGadgets>
+        </Cell>
+      </Grid>
+      <Label stylename="asasst_label_smallgrey" layout_id="time_label" layout_guid="5525ef3c-8cb3-4efd-abec-18a42cca6682" override_flow_index="9999999" height="16px" width="55px" right="14dpi_px" top="34px" margin_top="2dpi_px" caption="1 min ago" />
+    </ChildGadgets>
+    <!-- </StackPanel> -->
+  </Layout>
+</Layouts>

@@ -1,0 +1,31 @@
+{
+	"layer_view": {
+		"inherit_sublayers_colour": "room_editor_inherit_item",
+		"has_parent_colour": "room_editor_has_parent"
+	},
+
+	"layercontents_label": {
+		"colour": "room_editor_layer_properties_label"
+	},
+
+	"instances_view": {
+		"inherit_item_colour": "room_editor_inherit_item",
+		"has_parent_colour": "room_editor_has_parent"
+	},
+
+	"graphics_view": {
+		"inherit_item_colour": "room_editor_inherit_item",
+		"has_parent_colour": "room_editor_has_parent"
+
+	},
+
+	"ignore_checkbox_highlighted": {
+		"colour": "room_editor_layer_properties_export_checkbox_hi"
+	},
+
+	"room_editor_room": {
+		"mouse_status_colour_in": "room_editor_mouse_bounds_in",
+		"mouse_status_colour_out": "room_editor_mouse_bounds_out",
+		"bg_colour": "room_editor_room"
+	}
+}

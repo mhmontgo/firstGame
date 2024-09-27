@@ -1,0 +1,29 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdMouseButton",
+    "gadget": "YoYo Games.DnD_MenuExpressionInput",
+    "gadget_properties": {
+      "TagName": "button",
+      "DefaultValue": "mb_left",
+      "Separator": "|",
+      "MenuOptions": "",
+      "Values": null,
+      "MenuLayout": "MKConstantSelector_MouseContextMenu",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdNot",
+    "gadget": "YoYo Games.DnD_BooleanInput",
+    "gadget_properties": {
+      "TagName": "not",
+      "DefaultValue": false
+    }
+  }
+]

@@ -1,0 +1,83 @@
+{
+	"text_editor_status_bar": {
+		"colour": "window_status_bar"
+	},
+
+	"text_editor_intellisense_pos_label": {
+		"colour": "text_editor_label"
+	},
+
+	"text_editor_intellisense_function_label": {
+		"colour": "text_editor_label"
+	},
+
+	"texteditor_codecomplete_style": {
+		"cell_colour": "text_editor_code_complete_entry"
+	},
+
+	"text_editor_codecomplete_label": {
+		"left": "4dpi_px",
+		"colour": "text_editor_code_complete_label"
+	},
+
+	"add_tab_button_up": {
+		"up_tint": "tab_add_button_desktop",
+		"mouseover_up_tint": "tab_add_button_desktop",
+		"mouseover_down_focused_tint": "tab_add_button_desktop"
+	},
+
+	"tab_stroke_frame": {
+		"colour": "tab_frame_desktop"
+	},
+
+	"code_tab_stroke_frame": {
+		"colour": "tab_frame"
+	},
+
+	"code_tab_item_label": {
+		"colour": "tab_label_dock"
+	},
+
+	"active_code_tab_item_label": {
+		"colour": "tab_label_dock_active"
+	},
+
+	"tab_item_label": {
+		"colour": "tab_label_desktop"
+	},
+
+	"active_tab_item_label": {
+		"colour": "tab_label_desktop_active"
+	},
+
+	"active_fixed_tab_item_label": {
+		"colour": "tab_label_dock_active"
+	},
+
+	"tab_control": {
+		"colour": "base_tab_control"
+	},
+
+	"fullscreen_code_tab_control": {
+		"colour": "tab_control_text_editor_fullscreen"
+	},
+
+	"desktop_tab_control": {
+		"colour": "tab_control_desktop"
+	},
+
+	"tab_control_client_panel": {
+		"colour": "tab_control_client_panel"
+	},
+
+	"text_editor_panel": {
+		"colour": "text_editor_panel",
+		"fold_line_colour": "text_editor_fold_line",
+		"fold_line_hi_colour": "text_editor_fold_line_hi",
+		"fold_margin_colour": "text_editor_fold_margin"
+	},
+
+	"text_editor_event_tab_label": {
+		"colour": "text_editor_event_tab_label"
+	}
+}

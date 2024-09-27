@@ -1,0 +1,4 @@
+{"Environments":{"Sandbox":     {"oauth_opera_server":  "https://oauth2.opera-api.com/oauth2/v1/",
+                                 "gxc_server":  "https://api.sandbox.gxc.gg/",
+                                 "gxc_scopes":  "user+https://api.gmx.dev/gms:read+https://api.gmx.dev/gms:write"}},
+ "Signature":   "iT6QnL4WG9sV99gH9i46taOyOHEVKEkAm9NfpNaqeD3KLMAO4871Ccxy01lghxMayjsUpfduK+7f/b4QFaTiG0khLwTkp9TQ/qWLNvhJ0Q1S60tSQHHzAJL4zk7mdHHCPQSqAlAYKLK0a2k3TuK1te4PWtxmadVmHQD1azDiQ7bKardUI30wdZv290IxxUCkNGuyTJRzp+EBm6lPS5ANm2kK+ij9KtmtUzD1iR/gb+/BcTpNxMiakE6UpzFhacfm3cM/wxPOt11+drDysAExWzyv9tW42Bi7eYEVxDA1rFeHng1RgrU1p3mS2e/iWOPYyQOi8HiJRchDK9yiLxgqPA=="}

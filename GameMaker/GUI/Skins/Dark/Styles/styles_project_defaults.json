@@ -1,0 +1,19 @@
+{
+	"room_defaults": {
+		"background_colour": "room_bg",
+		"grid_colour": "room_grid",
+		"select_colour": "room_asset_select",
+		"select_lock_colour": "room_asset_select_lock",
+		"properties_colour": "room_properties",
+		"properties_lock_colour": "room_properties_lock",
+		"select_bounds_colour": "room_asset_select_bounds",
+		"select_lock_bounds_colour": "room_asset_select_bounds_lock",
+		"multi_select_colour": "room_multi_select",
+		"tile_select_colour": "room_tile_select",
+		"tile_highlight_colour": "room_tile_hi",
+		"tile_inheritance_colour": "room_tile_inheritance",
+		"ink_colour": "room_ink",
+		"default_draw_colour": "room_draw_default",
+		"default_window_colour": "room_window_default"
+	}
+}

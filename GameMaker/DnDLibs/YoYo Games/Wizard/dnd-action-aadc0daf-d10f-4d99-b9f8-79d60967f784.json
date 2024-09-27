@@ -1,0 +1,42 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdGamepad",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "gp",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdButton",
+    "gadget": "YoYo Games.DnD_MenuExpressionInput",
+    "gadget_properties": {
+      "TagName": "btn",
+      "DefaultValue": "gp_face4",
+      "Separator": "|",
+      "MenuOptions": "GMStdActionTop|GMStdActionLeft|GMStdActionBottom|GMStdActionRight|GMStdShoulderLeft|GMStdShoulderRight|GMStdDPadUp|GMStdDPadLeft|GMStdDPadDown|GMStdDPadRight|GMStdLeftStick|GMStdRightStick|GMStdSelect|GMStdStart",
+      "Values": "gp_face4|gp_face3|gp_face1|gp_face2|gp_shoulderl|gp_shoulderr|gp_padu|gp_padl|gp_padd|gp_padr|gp_stickl|gp_stickr|gp_select|gp_start",
+      "MenuLayout": null,
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdNot",
+    "gadget": "YoYo Games.DnD_BooleanInput",
+    "gadget_properties": {
+      "TagName": "not",
+      "DefaultValue": false
+    }
+  }
+]

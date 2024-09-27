@@ -1,0 +1,19 @@
+{
+	"colour_slider_thumb": {
+		"up_tint": "col_dia_slider_up",
+		"up_focused_tint": "col_dia_slider_up_focused",
+		"mouseover_up_tint": "col_dia_slider_up_mouseover",
+		"mouseover_up_focused_tint": "col_dia_slider_up_focused_mouseover",
+		"down_focused_tint": "col_dia_slider_down_focused",
+		"mouseover_down_focused_tint": "col_dia_slider_down_focused_mouseover"
+	},
+
+	"segmented_colour_slider_thumb": {
+		"up_tint": "col_dia_segmented_slider_up",
+		"up_focused_tint": "col_dia_segmented_slider_up_focused",
+		"mouseover_up_tint": "col_dia_segmented_slider_up_mouseover",
+		"mouseover_up_focused_tint": "col_dia_segmented_slider_up_focused_mouseover",
+		"down_focused_tint": "col_dia_segmented_slider_down_focused",
+		"mouseover_down_focused_tint": "col_dia_segmented_slider_down_focused_mouseover"
+	}
+}

@@ -1,0 +1,35 @@
+{
+  "name": "SourceControlGit",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "SourceControlGit",
+      "localised_name": "source_control_git_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "SourceControlGit",
+          "version": "1.0",
+          "path": "SourceControlGit.dll",
+          "checksum": "zz/8Hxb0rRbRI0B5FYtWbe1PJ3L2IYl/jOTVXknGupk="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "MiscPlugins",
+          "min_version": "1.0",
+          "max_version": ""
+        }
+      ]
+    }
+  ],
+  "author": "",
+  "signature": "tu9VmvsmWFiA1OE4ogu\u002BA0o4bOP8orMJxe4U65rwFocJpCkM5eZ9Q5Zm2PMKca4yKW9aPQcOg13Aw6JjFmW9cbnQrpuN4J2XSD8IRQAsOtgtErmocGZjwAE9SDfmbh\u002BnWxP6SabrkD9c1O5VxKVpYy1UL1YusGi3tuVRstJi/l4=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

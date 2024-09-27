@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="AnimCurveHeader" layout_guid="8c6f0114-d2f2-400f-8835-548c84b67e86">
+    <Grid stylename="sequence_dope_sheet_trackpanel_container_top" override_flow_index="9999999" grid_columnlayout="['1*', '32dpi_px']">
+      <Cell row="0" column="1" stylename="sequence_dope_sheet_trackpanel_container_top_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="image" layout_id="collapse_button" layout_guid="3c6b8542-1ddc-4e6c-b713-23b8b73e7a07" override_flow_index="9999999" image_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_chevron_left&quot;]" vector_icon_size="12dpi_px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="AnimCurve_KeyTrackPanel" layout_guid="6d9a8eca-a196-4720-8c5f-aba07c6f4f3c">
+    <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="TopToBottom" stack_resize="ResizeAll">
+      <ChildGadgets>
+        <Label stylename="dopesheet_ace_label" override_flow_index="9999999" height="16px" width="205px" top="40px" margin_top="40dpi_px" localise_caption="SeqDopeSheet_AnimCurveKeyFrame1" />
+        <Label stylename="dopesheet_ace_label" override_flow_index="9999999" height="16px" width="242px" top="56px" localise_caption="SeqDopeSheet_AnimCurveKeyFrame2" />
+        <Button stylename="dopesheet_empty_curve_icon" override_flow_index="9999999" height="24dpi_px" width="24dpi_px" top="80px" margin_top="8dpi_px" margin_bottom="4dpi_px" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_embed_curve&quot;]" vector_icon_size="16dpi_px" />
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+  <Layout layout_name="AnimCurve_LockedTrackPanel" layout_guid="cf197f2d-3f67-4ae0-9ca1-56ba17db8011">
+    <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="TopToBottom" stack_resize="ResizeAll">
+      <ChildGadgets>
+        <Label stylename="dopesheet_ace_label" override_flow_index="9999999" height="16px" width="76px" top="40px" margin_top="40dpi_px" localise_caption="SeqDopeSheet_AnimCurveLocked1" />
+        <Button stylename="dopesheet_empty_curve_icon" override_flow_index="9999999" height="24dpi_px" width="24dpi_px" top="66px" margin_top="10dpi_px" margin_bottom="4dpi_px" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_trackpanel_lock&quot;]" vector_icon_size="16dpi_px" />
+        <Label stylename="dopesheet_ace_label" override_flow_index="9999999" height="16px" width="300px" top="104px" margin_top="10dpi_px" localise_caption="SeqDopeSheet_AnimCurveLocked2" />
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+  <Layout layout_name="AnimCurvePanel_Empty" layout_guid="5d16cbcf-d68f-413d-8a47-8e75ea2d6666">
+    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['49dpi_px', '1*']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="dopesheet_track_panel_header" override_flow_index="9999999" top="-1px" grid_rowlayout="['26dpi_px', '1*']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <TextBox stylename="text_box" override_flow_index="9999999" height="" left="28dpi_px" right="28dpi_px" top="4dpi_px" bottom="2dpi_px" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="dope_sheet_track_panel_container" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="dopesheet_empty_description_label" override_flow_index="9999999" height="16px" width="" localise_caption="SeqDopeSheet_EmptyAnimCurve_ChannelDesc" word_wrap="True" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="AnimCurveTrackPanel_Empty" layout_guid="c90f6bf4-90f4-4791-8983-13a2af2a7f07">
+    <StackPanel stylename="stack_panel" override_flow_index="9999999" width="200dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+      <ChildGadgets>
+        <Button stylename="dopesheet_empty_curve_icon" override_flow_index="9999999" top="0px" margin_bottom="4dpi_px" />
+        <Label stylename="dopesheet_empty_description_label" override_flow_index="9999999" height="16px" width="" top="48px" localise_caption="SeqDopeSheet_EmptyAnimCurve_TrackDesc1" auto_size="False" />
+        <Label stylename="dopesheet_empty_description_label" override_flow_index="9999999" height="16px" width="" top="64px" localise_caption="SeqDopeSheet_EmptyAnimCurve_TrackDesc2" word_wrap="True" />
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+  <Layout layout_name="AnimCurve_InvalidTrackPanel" layout_guid="6a0dc6fd-dfd4-40dc-88b0-44fa16cf1a48">
+    <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="TopToBottom" stack_resize="ResizeAll">
+      <ChildGadgets>
+        <Label stylename="dopesheet_ace_label" override_flow_index="9999999" height="16px" width="118px" top="40px" margin_top="40dpi_px" localise_caption="SeqDopeSheet_InvalidSharedCurveC" />
+        <Button stylename="button_invalid" override_flow_index="9999999" width="24dpi_px" top="66px" margin_top="10dpi_px" margin_bottom="4dpi_px" icon_flags="Centre" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_exclamation_mark&quot;]" vector_icon_size="14dpi_px" />
+        <Label stylename="dopesheet_ace_label" override_flow_index="9999999" height="32px" width="207px" top="104px" margin_top="10dpi_px" localise_caption="SeqDopeSheet_InvalidCurveEdit" />
+        <Button stylename="button_up" layout_id="button_add_channels" layout_guid="81468a41-a97d-4c7f-80eb-c71aae3f82de" override_flow_index="9999999" width="140dpi_px" top="146px" margin_top="10dpi_px" localise_name="SeqDopeSheet_AddChannels" />
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+</Layouts>

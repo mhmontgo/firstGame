@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="SearchBar_Content" layout_guid="68870924-cc23-487e-8e78-a282f82435cd">
+    <!--    <Grid stylename="text_box" override_flow_index="9999999" height="26dpi_px" colour="#FFFFFFFF" grid_columnlayout="['1*', 'auto']"> -->
+    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <TextBox stylename="gototype_text_box" layout_id="search_box" layout_guid="1a36d82d-ed1d-4e28-9527-94657470a8ff" override_flow_index="9999999" width="100%" left="4dpi_px" right="4dpi_px" colour="#00000000" localise_default_caption="ResourceTree_SearchResources" text_hoffset="20dpi_px" text_hclip="10dpi_px">
+          <ChildGadgets>
+            <Image stylename="ab_image_searchicon" layout_id="search_icon" layout_guid="2007483c-ab3e-4a7d-a288-efa239d4321c" left="3dpi_px" top="3dpi_px" image_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_search&quot;]" />
+            <CloseButton stylename="close_button_up" layout_id="search_cancel" layout_guid="87b7b37f-d1be-409e-a656-f622c1dbef38" override_flow_index="9999999" right="0dpi_px" top="" margin_bottom="" colour="#FF888888" />
+          </ChildGadgets>
+        </TextBox>
+      </ChildGadgets>
+    </Cell>
+    <Cell layout_id="buttons_cell" layout_guid="85039a48-d370-473e-a603-187c1f1644ba" row="0" column="1" stylename="text_box_panel" flow_index="0">
+      <ChildGadgets>
+        <StackPanel stylename="stack_panel" layout_id="button_stack" layout_guid="5fd4ebdb-5fde-43a6-8e7d-4315ff251a0c" override_flow_index="9999999" height="20dpi_px" stack_resize="ResizeWidth">
+          <ChildGadgets>
+            <VerticalSeparator stylename="vertical_separator" override_flow_index="9999999" left="0px" margin_top="1px" margin_bottom="1px" />
+            <Label stylename="label" layout_id="search_count_label" layout_guid="d228a573-6ee2-462d-9f8c-8c19219e0a90" override_flow_index="9999999" height="16px" width="18px" left="9px" margin_left="8dpi_px" caption="0/0" />
+            <Button stylename="no_frame_button" layout_id="search_prev" layout_guid="491547a8-a7f5-4f6f-81f9-ebc084bea169" override_flow_index="9999999" height="20dpi_px" width="20dpi_px" left="29px" margin_left="2dpi_px" icon_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_chevron_up&quot;]" vector_icon_size="10dpi_px" />
+            <Button stylename="no_frame_button" layout_id="search_next" layout_guid="c8881ee4-a008-4fdb-9ab2-209631392495" override_flow_index="9999999" height="20dpi_px" width="20dpi_px" left="49px" margin_left="0dpi_px" margin_right="2dpi_px" icon_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_chevron_down&quot;]" vector_icon_size="10dpi_px" />
+          </ChildGadgets>
+        </StackPanel>
+      </ChildGadgets>
+    </Cell>
+    <!-- </Grid> -->
+  </Layout>
+  <Layout layout_name="SearchBar_Grid" layout_guid="76f5d2ef-3733-461a-943c-14adce103c8f">
+    <Grid stylename="searchbar_grid">
+      <Layout layout_name="SearchBar_Content" layout_guid="68870924-cc23-487e-8e78-a282f82435cd" />
+    </Grid>
+  </Layout>
+</Layouts>

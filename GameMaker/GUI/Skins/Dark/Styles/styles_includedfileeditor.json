@@ -1,0 +1,43 @@
+{
+	"included_file_textbox": {
+		width_flags: "ScaleToFit"
+	},
+	
+	"included_files_grid": {
+		height_flags: "ScaleToFit"
+	},
+	
+	"included_file_window": {
+		height_min: "350dpi_px", 
+		window_flags: "CloseButton, MinimizeButton, ResizeTop, ResizeBottom, Bookmark"
+	},
+
+  "ins_checkbox_differing": {
+    "colour": "ins_differing_overlay",
+    "localise_tooltip": "InspectorGadget_Coalescing_Differ_Tooltip"
+  },
+
+  "ins_checkbox_reset": {
+    "colour": "#00000000",
+    "localise_tooltip": ""
+  },
+
+  "incfile_folder_icon": {
+    "width": "20dpi_px",
+    "height": "20dpi_px",
+    "vector_icon_size": "18dpi_px",
+    "image_flags": "Centre",
+    "font_icon": [ "asset_type_icon_font", "AT_icon_default_folder" ],
+    "colour": "base_font_icon",
+    "mouse_events": "False"
+  },
+
+  "incfile_file_icon": {
+    "width": "20dpi_px",
+    "height": "16dpi_px",
+    "image_flags": "Stretch, KeepAspectRatio, Centre",
+    "image": "ResourceIcons/icon_RT_datafile.png",
+    "colour": "base_icon",
+    "mouse_events": "False"
+  }
+}

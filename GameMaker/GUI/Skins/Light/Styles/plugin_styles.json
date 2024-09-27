@@ -1,0 +1,37 @@
+{
+	"undo_button": {
+		"down_tint": "base_button_undoredo_down",
+		"mouseover_up_tint": "base_button_undoredo_up_mouseover",
+		"mouseover_down_tint": "base_button_undoredo_down_mouseover",
+		"up_focused_tint": "base_button_undoredo_uo_focused",
+		"down_focused_tint": "base_button_undoredo_down_focused",
+		"mouseover_up_focused_tint": "base_button_undoredo_up_focused_mouseover",
+		"mouseover_down_focused_tint": "base_button_undoredo_down_focused_mouseover"
+	},
+
+	"redo_button": {
+		"down_tint": "base_button_undoredo_down",
+		"mouseover_up_tint": "base_button_undoredo_up_mouseover",
+		"mouseover_down_tint": "base_button_undoredo_down_mouseover",
+		"up_focused_tint": "base_button_undoredo_uo_focused",
+		"down_focused_tint": "base_button_undoredo_down_focused",
+		"mouseover_up_focused_tint": "base_button_undoredo_up_focused_mouseover",
+		"mouseover_down_focused_tint": "base_button_undoredo_down_focused_mouseover"
+	},
+
+	"visible_checkbox": {
+		"colour": "base_checkbox_visibility"
+	},
+
+	"visible_checkbox_highlighted": {
+		"colour": "base_checkbox_visibility_hi"
+	},
+
+	"lock_checkbox": {
+		"colour": "base_checkbox_lock"
+	},
+
+	"lock_checkbox_highlighted": {
+		"colour": "base_checkbox_lock_hi"
+	}
+}

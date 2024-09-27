@@ -1,0 +1,105 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdObject",
+    "gadget": "YoYo Games.DnD_ResourceSelection",
+    "gadget_properties": {
+       "TagName": "object",
+      "DefaultValue": "noone",
+      "ResourceFilter": "GMObject"
+    }
+  },
+      {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdXDir",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "xvel",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdYDir",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "yvel",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+    {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdNumIterations",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "num_iterations",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+    {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdXOff",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "xoff",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdYOff",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "yoff",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+   {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdMaxXMove",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "maxxmove",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdMaxYMove",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "maxymove",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  }
+
+ ]

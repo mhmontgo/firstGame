@@ -1,0 +1,191 @@
+{
+	"pman_panel_dark": {
+		scrollpanel_flags: "None", 
+		mouse_events: "False", 
+		colour: "pkgman_dark"
+	},
+	
+	"pman_panel_bg": {
+		scrollpanel_flags: "None", 
+		mouse_events: "false", 
+		colour: "pkgman_bg"
+	},
+  
+  "pman_panel_grey": {
+    scrollpanel_flags: "None", 
+		colour: "pkgman_grey"
+  },
+	
+	"pman_item_grid": {
+		grid_columnlayout: ["40dpi_px", "1*", "80dpi_px", "130dpi_px"],
+    "height": "32dpi_px",
+		colour: "pkgman_dark"
+	},
+
+  "pman_item_listbox": {
+    "base":  "bordered_scrollpanel_dark",
+    "selection_colour": "pkgman_grey",
+    "separator_colour": "pkgman_grey2",
+    "item_text_colour": "pkgman_label_semi",
+    "item_selected_text_colour": "base_label_reactivated"
+  },
+	
+	"pman_label_italic_blue": {
+		font_stylename: "Italic", 
+		font_size: 9, 
+		colour: "pkgman_cyan"
+	},
+	
+  "pman_label_italic_green": {
+    font_stylename: "Italic", 
+		font_size: 9, 
+		colour: "pkgman_green"
+  },
+
+  "pman_hsep": {
+    "width_flags": "None",
+    "margin_left": "",
+    "margin_right": ""
+  },
+
+	"pman_label_green": {
+		colour: "pkgman_green"
+	},
+
+  "pman_progress_label": {
+    "colour": "pkgman_green",
+    "halign": "hAlignCentre",
+    "auto_size": "true",
+    "word_wrap": "true",
+  },
+	
+	"pman_label_large": {
+		font_size: 15
+	},
+
+  "pman_label_medium": {
+		font_size: 13
+	},
+
+  "pman_label11": {
+    "font_size": 11,
+    "margin_top": "4dpi_px"
+  },
+
+  "pman_label10": {
+	  "font_size": 10
+  },
+
+  "pman_label10_green": {
+	  "font_size": 10,
+    colour: "pkgman_green"
+  },
+
+	"pman_icon_arrow_down": {
+		height: "16dpi_px", 
+		width: "16dpi_px", 
+		image_flags: "Centre", 
+		vector_icon_size: "10dpi_px", 
+		font_icon: ["asset_browser_icon_font", "AB_icon_arrow_down"],
+    "mouse_events": "false"
+	},
+
+  "pman_icon_tick": {
+    "width": "32dpi_px",
+    "height": "32dpi_px",
+    "image_flags": "Stretch, Centre, KeepAspectRatio",
+    "image": "YesTick32.png"
+  },
+
+  "pman_icon_cross": {
+    "width": "32dpi_px",
+    "height": "32dpi_px",
+    "image_flags": "Stretch, Centre, KeepAspectRatio",
+    "image": "ErrorCross32.png"
+  },
+
+  "pman_icon_arrow_right": {
+    font_icon: ["asset_browser_icon_font", "AB_icon_arrow_right"]
+  },
+
+  "pman_btn_arrow_down": {
+    "base": "no_frame_button",
+		height: "16dpi_px", 
+		width: "16dpi_px", 
+		icon_flags: "Centre", 
+		vector_icon_size: "10dpi_px", 
+		font_icon: ["asset_browser_icon_font", "AB_icon_arrow_down"]
+	},
+
+	
+	"pman_btn_args": {
+		width: "24dpi_px", 
+		height: "24dpi_px", 
+		icon_flags: "Centre", 
+		vector_icon_size: "16dpi_px", 
+		font_icon: ["ai_icon_font", "icon_ai_chevron_right"],
+    localise_tooltip : "PackageMan_AdditionalCmd"
+	},
+	
+	"pman_btn_filter": {
+		base: "no_frame_button", 
+		width: "24dpi_px", 
+		height: "24dpi_px", 
+		icon_flags: "Centre", 
+		vector_icon_size: "16dpi_px", 
+		font_icon: ["asset_browser_icon_font", "AB_icon_filter"]
+	},
+
+  "pman_context_frame": {
+    "grid_columnlayout": [ "4dpi_px", "*", "8dpi_px" ],
+    "grid_rowlayout": [ "4dpi_px", "*", "8dpi_px" ],
+    "position": [
+			[ 0, 0, 8, 8 ],
+			[ 8, 0, 16, 8 ],
+			[ 24, 0, 8, 8 ],
+			[ 0, 8, 8, 16 ],
+			[ 8, 8, 16, 16 ],
+			[ 24, 8, 8, 16 ],
+			[ 0, 24, 8, 8 ],
+			[ 8, 24, 16, 8 ],
+			[ 24, 24, 8, 8 ]
+		],
+		"frame_name": "Window/context_outer.png",
+    "margin": [ "0dpi_px", "1dpi_px", "4dpi_px", "5dpi_px" ],
+    "colour": "context_menu_bg"
+  },
+
+  "pman_progress_spinner": {
+    "height": "32dpi_px",
+    "width": "32dpi_px",
+    "colour": "pkgman_light_green",
+    "image_flags": "Stretch, Centre, KeepAspectRatio",
+    "animated_image": {
+      "image": "DnD/loading_spinner.png",
+      "total": 9,
+      "row": 3,
+      "size": [ 160, 160 ]
+    }
+  },
+
+  	"pman_pkgitem_grid": {
+		  grid_columnlayout: ["30dpi_px", "60dpi_px", "1*", "60dpi_px", "20dpi_px"],
+      "height": "60dpi_px"
+  	},
+
+    "pman_sources_window": {
+      "width": "400dpi_px",
+		  "height": "440dpi_px",
+		  "window_flags": "CloseButton",
+      "localise_title": "PackageMan_SourcesTitle"
+    },
+
+    "pman_pkg_default_icon": {
+      "image_flags": "Stretch, Centre, KeepAspectRatio",
+       "image": "gms_logo_temp.png"
+    },
+
+    "pman_pkg_empty_icon": {
+      "image": null 
+    }
+}

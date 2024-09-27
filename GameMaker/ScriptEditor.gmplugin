@@ -1,0 +1,29 @@
+{
+  "name": "ScriptEditor",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "ScriptEditor",
+      "localised_name": "script_editor_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ScriptEditor",
+          "version": "1.0",
+          "path": "ScriptEditor.dll",
+          "checksum": "wVWUUA7NL3JTwo3rs2\u002B7pCSGEXPMqV6QFngG53J7RXI="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "DkkAuRtKnWNp9HhtA19QA/RI7xMKmK\u002Bl6H5fy/WYPF3y5Cp2tjPdysmvbsvRjcxJlEjcemyTS9CT7PsjF6vOt9PLDz3R\u002BXEIAbL7YBJVZL0XZiwNCE3VT17/pNDTgr1aduWmezsRmM38mze5ZfvVYylZ1SR2JtHAzMKcGYk3qG8=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

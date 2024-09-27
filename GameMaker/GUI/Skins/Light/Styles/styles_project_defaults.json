@@ -1,0 +1,8 @@
+{
+	"room_defaults": {
+		"background_colour": "room_bg",
+		"grid_colour": "room_grid",
+		"default_draw_colour": "room_draw_default",
+		"default_window_colour": "room_window_default"
+	}
+}

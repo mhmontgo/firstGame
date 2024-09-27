@@ -1,0 +1,1144 @@
+Name,English,Translation,Restrictions,Comment
+_Language,Japanese,Japanese,,Language name - in English
+_LanguageNative,Japanese,日本語,,Language name in the native language
+_LanguageCode,ja,ja,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
+GMStdSeqSetHead_Story_1,Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},シーケンスインスタンス ${sequenceelmid} のヘッド位置 (フレーム番号) を ${var} に設定します,,GML Visual story text
+GMStdSeqGetHead_Story_1,Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},シーケンスインスタンス ${sequenceelmid} のヘッド位置 (フレーム番号) を取得して ${var} に入れます,,GML Visual story text
+GMStdSeqGetHead_Story_2,Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},シーケンスインスタンス ${sequenceelmid} のヘッド位置 (フレーム番号) を取得して、一時変数 ${var} に入れます,,GML Visual story text
+GMStdVar_Story_1,Set ${var} to ${expr}${show_input_count},${var} を ${expr} に設定します ${show_input_count},,GML Visual story text
+GMStdVar_Story_2,Set ${var} to ${expr} on ${applyto}${show_input_count},${applyto} で ${var} を ${expr} に設定します ${show_input_count},,GML Visual story text
+GMStdVar_Story_3,Add ${expr} to ${var}${show_input_count},${expr} を ${var} に加算します ${show_input_count},,GML Visual story text
+GMStdVar_Story_4,Add ${expr} to ${var} on ${applyto}${show_input_count},${applyto} で ${expr} を ${var} に加算します ${show_input_count},,GML Visual story text
+GMStdTempVar_Story_1,Declare temp ${var}${show_input_count},一時変数 ${var} を宣言します ${show_input_count},,GML Visual story text
+GMStdTempVar_Story_2,Declare temp ${var} on ${applyto}${show_input_count},${applyto} に一時変数 ${var} を宣言します ${show_input_count},,GML Visual story text
+GMStdTempVar_Story_3,Declare temp ${var} and set it to ${value}${show_input_count},一時変数 ${var} を宣言し、${value} に設定します ${show_input_count},,GML Visual story text
+GMStdTempVar_Story_4,Declare temp ${var} and set it to ${value} on ${applyto}${show_input_count},${applyto} に一時変数 ${var} を宣言し、${value} に設定します ${show_input_count},,GML Visual story text
+GMStdSetGlobal_Story_1,Set global variable ${var} to ${value}${show_input_count},グローバル変数 ${var} を ${value} に設定します ${show_input_count},,GML Visual story text
+GMStdSetGlobal_Story_2,Set global variable ${var} to ${value} on ${applyto}${show_input_count},${applyto} でグローバル変数 ${var} を ${value} に設定します ${show_input_count},,GML Visual story text
+GMStdSetGlobal_Story_3,Add ${value} to global variable ${var}${show_input_count},${value} をグローバル変数 ${var} に加算します ${show_input_count},,GML Visual story text
+GMStdSetGlobal_Story_4,Add ${value} to global variable ${var} on ${applyto}${show_input_count},${applyto} で ${value} をグローバル変数 ${var} に加算します ${show_input_count},,GML Visual story text
+GMStdGetGlobal_Story_1,Get global variable ${var} into ${output}${show_input_count},グローバル変数 ${var} を取得して、${output} に挿入します ${show_input_count},,GML Visual story text
+GMStdGetGlobal_Story_2,Get global variable ${var} into ${output} on ${applyto}${show_input_count},${applyto} で、グローバル変数 ${var} を取得して ${output} に入れます ${show_input_count},,GML Visual story text
+GMStdGetGlobal_Story_3,Get global variable ${var} into temp ${output}${show_input_count},グローバル変数 ${var} を取得して、一時変数 ${output} に挿入します ${show_input_count},,GML Visual story text
+GMStdGetGlobal_Story_4,Get global variable ${var} into temp ${output} on ${applyto}${show_input_count},${applyto} でグローバル変数 ${var} を取得して、一時変数 ${output} に入れます ${show_input_count},,GML Visual story text
+GMStdIfVar_Story_1,If ${var} is not equal to ${value},${var} が ${value} に等しくない場合,,GML Visual story text
+GMStdIfVar_Story_2,If ${var} is not equal to ${value} on ${applyto},${applyto} で ${var} が ${value} に等しくない場合,,GML Visual story text
+GMStdIfVar_Story_3,If ${var} is not less than ${value},${var} が ${value} より小さくない場合,,GML Visual story text
+GMStdIfVar_Story_4,If ${var} is not less than ${value} on ${applyto},${applyto} で ${var} が ${value} より小さくない場合,,GML Visual story text
+GMStdIfVar_Story_5,If ${var} is not greater than ${value},${var} が ${value} より大きくない場合,,GML Visual story text
+GMStdIfVar_Story_6,If ${var} is not greater than ${value} on ${applyto},${applyto} で ${var} が ${value} より大きくない場合,,GML Visual story text
+GMStdIfVar_Story_7,If ${var} is not less than or equal to ${value},${var} が ${value} 以下でない場合,,GML Visual story text
+GMStdIfVar_Story_8,If ${var} is not less than or equal to ${value} on ${applyto},${applyto} で ${var} が ${value} 以下でない場合,,GML Visual story text
+GMStdIfVar_Story_9,If ${var} is not greater than or equal to ${value},${var} が ${value} 以上でない場合,,GML Visual story text
+GMStdIfVar_Story_10,If ${var} is not greater than or equal to ${value} on ${applyto},${applyto} で ${var} が ${value} 以上でない場合,,GML Visual story text
+GMStdIfVar_Story_11,If ${var} is equal to ${value},${var} が ${value} に等しい場合,,GML Visual story text
+GMStdIfVar_Story_12,If ${var} is equal to ${value} on ${applyto},${applyto} で ${var} が ${value} に等しい場合,,GML Visual story text
+GMStdIfVar_Story_13,If ${var} is less than ${value},${var} が ${value} より小さい場合,,GML Visual story text
+GMStdIfVar_Story_14,If ${var} is less than ${value} on ${applyto},${applyto} で ${var} が ${value} より小さい場合,,GML Visual story text
+GMStdIfVar_Story_15,If ${var} is greater than ${value},${var} が ${value} より大きい場合,,GML Visual story text
+GMStdIfVar_Story_16,If ${var} is greater than ${value} on ${applyto},${applyto} で ${var} が ${value} より大きい場合,,GML Visual story text
+GMStdIfVar_Story_17,If ${var} is less than or equal to ${value},${var} が ${value} 以下の場合,,GML Visual story text
+GMStdIfVar_Story_18,If ${var} is less than or equal to ${value} on ${applyto},${applyto} で ${var} が ${value} 以下の場合,,GML Visual story text
+GMStdIfVar_Story_19,If ${var} is greater than or equal to ${value},${var} が ${value} 以上の場合,,GML Visual story text
+GMStdIfVar_Story_20,If ${var} is greater than or equal to ${value} on ${applyto},${applyto} で ${var} が ${value} 以上の場合,,GML Visual story text
+GMStdIfExpr_Story_1,If ${expr} is true${show_input_count},${expr} が 真 (true) の場合 ${show_input_count},,GML Visual story text
+GMStdIfExpr_Story_2,If ${expr} is true on ${applyto}${show_input_count},${applyto} で ${expr} が真 (true) の場合 ${show_input_count},,GML Visual story text
+GMStdIfExpr_Story_3,If ${expr} is false${show_input_count},${expr} が偽 (false) の場合 ${show_input_count},,GML Visual story text
+GMStdIfExpr_Story_4,If ${expr} is false on ${applyto}${show_input_count},${applyto} で ${expr} が偽 (false) の場合 ${show_input_count},,GML Visual story text
+GMStdIfUndef_Story_1,If ${var} is undefined${show_input_count},${var} が undefined の場合 ${show_input_count},,GML Visual story text
+GMStdIfUndef_Story_2,If ${var} is undefined on ${applyto}${show_input_count},${applyto} で ${var} が undefined の場合 ${show_input_count},,GML Visual story text
+GMStdIfUndef_Story_3,If ${var} is not undefined${show_input_count},${var} が undefined でない場合 ${show_input_count},,GML Visual story text
+GMStdIfUndef_Story_4,If ${var} is not undefined on ${applyto}${show_input_count},${applyto} で ${var} が undefined でない場合 ${show_input_count},,GML Visual story text
+GMStdElse_Story,Else,偽の場合,,GML Visual story text
+GMStdExCode_Story_1,Execute code,コードを実行します,,GML Visual story text
+GMStdExCode_Story_2,Execute code on ${applyto},${applyto} でコードを実行します,,GML Visual story text
+GMStdExCode_Story_3,${overridden_name},${overridden_name},,GML Visual story text
+GMStdExCode_Story_4,${overridden_name} on ${applyto},${applyto} の ${overridden_name},,GML Visual story text
+GMStdExScript_Story_1,Execute ${script},${script} を実行します,,GML Visual story text
+GMStdExScript_Story_2,Execute ${script} on ${applyto},${applyto} で ${script} を実行します,,GML Visual story text
+GMStdExScript_Story_3,Execute ${script} with 1 argument,1 個の引数を指定して ${script} を実行します,,GML Visual story text
+GMStdExScript_Story_4,Execute ${script} with 1 argument on ${applyto},${applyto} で 1 個の引数を指定して ${script} を実行します,,GML Visual story text
+GMStdExScript_Story_5,Execute ${script} with ${input_count} arguments,${input_count} 個の引数を指定して ${script} を実行します,,GML Visual story text
+GMStdExScript_Story_6,Execute ${script} with ${input_count} arguments on ${applyto},${applyto} で ${input_count} 個の引数を指定して ${script} を実行します,,GML Visual story text
+GMStdExScript_Story_7,Execute and set ${var} to return value of ${script},${script} を実行し、リターン値を ${var} に入れます,,GML Visual story text
+GMStdExScript_Story_8,Execute and set ${var} to return value of ${script} on ${applyto},${applyto} で ${script} を実行し、リターン値を ${var} に入れます,,GML Visual story text
+GMStdExScript_Story_9,Execute and set ${var} to return value of ${script} with 1 argument,1 個の引数を指定して ${script} を実行し、リターン値を ${var} に入れます,,GML Visual story text
+GMStdExScript_Story_10,Execute and set ${var} to return value of ${script} with 1 argument on ${applyto},${applyto} で 1 個の引数を指定して ${script} を実行し、リターン値を ${var} に入れます,,GML Visual story text
+GMStdExScript_Story_11,Execute and set ${var} to return value of ${script} with ${input_count} arguments,${input_count} 個の引数を指定して ${script} を実行し、リターン値を ${var} に入れます,,GML Visual story text
+GMStdExScript_Story_12,Execute and set ${var} to return value of ${script} with ${input_count} arguments on ${applyto},${applyto} で ${input_count} 個の引数を指定して ${script} を実行し、リターン値を ${var} に入れます,,GML Visual story text
+GMStdExScript_Story_13,Execute and set temp ${var} to return value of ${script},${script} を実行し、リターン値を一時変数 ${var} に入れます,,GML Visual story text
+GMStdExScript_Story_14,Execute and set temp ${var} to return value of ${script} on ${applyto},${applyto} で ${script} を実行し、リターン値を一時変数 ${var} に入れます,,GML Visual story text
+GMStdExScript_Story_15,Execute and set temp ${var} to return value of ${script} with 1 argument,1 個の引数を指定して ${script} を実行し、リターン値を一時変数 ${var} に入れます,,GML Visual story text
+GMStdExScript_Story_16,Execute and set temp ${var} to return value of ${script} with 1 argument on ${applyto},${applyto} で 1 個の引数を指定して ${script} を実行し、リターン値を一時変数 ${var} に入れます,,GML Visual story text
+GMStdExScript_Story_17,Execute and set temp ${var} to return value of ${script} with ${input_count} arguments,${input_count} 個の引数を指定して ${script} を実行し、リターン値を一時変数 ${var} に入れます,,GML Visual story text
+GMStdExScript_Story_18,Execute and set temp ${var} to return value of ${script} with ${input_count} arguments on ${applyto},${applyto} で ${input_count} 個の引数を指定して ${script} を実行し、リターン値を一時変数 ${var} に入れます,,GML Visual story text
+GMStdCallFunction_Story_1,Call ${function},${function} を呼び出します,,GML Visual story text
+GMStdCallFunction_Story_2,Call ${function} on ${applyto},${applyto} で ${function} を呼び出します,,GML Visual story text
+GMStdCallFunction_Story_3,Call ${function} with 1 argument,1 個の引数を指定して ${function} を呼び出します,,GML Visual story text
+GMStdCallFunction_Story_4,Call ${function} with 1 argument on ${applyto},${applyto} で 1 個の引数を指定して ${function} を呼び出します,,GML Visual story text
+GMStdCallFunction_Story_5,Call ${function} with ${input_count} arguments,${input_count} 個の引数を指定して ${function} を呼び出します,,GML Visual story text
+GMStdCallFunction_Story_6,Call ${function} with ${input_count} arguments on ${applyto},${applyto} で ${input_count} 個の引数を指定して ${function} を呼び出します,,GML Visual story text
+GMStdCallFunction_Story_7,Set ${var} to return value of ${function},${function} を実行し、リターン値を ${var} に入れます,,GML Visual story text
+GMStdCallFunction_Story_8,Set ${var} to return value of ${function} on ${applyto},${applyto} で ${function} を実行し、リターン値を ${var} に入れます,,GML Visual story text
+GMStdCallFunction_Story_9,Set ${var} to return value of ${function} with 1 argument,1 個の引数を指定して ${function} を実行し、リターン値を ${var} に入れます,,GML Visual story text
+GMStdCallFunction_Story_10,Set ${var} to return value of ${function} with 1 argument on ${applyto},${applyto} で、1 個の引数を指定して ${function} を実行し、リターン値を ${var} に入れます,,GML Visual story text
+GMStdCallFunction_Story_11,Set ${var} to return value of ${function} with ${input_count} arguments,${input_count} 個の引数を指定して ${function} を実行し、リターン値を ${var} に入れます,,GML Visual story text
+GMStdCallFunction_Story_12,Set ${var} to return value of ${function} with ${input_count} arguments on ${applyto},${applyto} で、${input_count} 個の引数を指定して ${function} を実行し、リターン値を ${var} に入れます,,GML Visual story text
+GMStdCallFunction_Story_13,Set temp ${var} to return value of ${function},${function} のリターン値を一時変数 ${var} に入れます,,GML Visual story text
+GMStdCallFunction_Story_14,Set temp ${var} to return value of ${function} on ${applyto},${applyto} で ${function} を実行し、リターン値を一時変数 ${var} に入れます,,GML Visual story text
+GMStdCallFunction_Story_15,Set temp ${var} to return value of ${function} with 1 argument,1 個の引数を指定して ${function} を実行し、リターン値を一時変数 ${var} に入れます,,GML Visual story text
+GMStdCallFunction_Story_16,Set temp ${var} to return value of ${function} with 1 argument on ${applyto},${applyto} で、1 個の引数を指定して ${function} を実行し、リターン値を一時変数 ${var} に入れます,,GML Visual story text
+GMStdCallFunction_Story_17,Set temp ${var} to return value of ${function} with ${input_count} arguments,${input_count} 個の引数を指定して ${function} を実行し、リターン値を一時変数 ${var} に入れます,,GML Visual story text
+GMStdCallFunction_Story_18,Set temp ${var} to return value of ${function} with ${input_count} arguments on ${applyto},${applyto} で、${input_count} 個の引数を指定して ${function} を実行し、リターン値を一時変数 ${var} に入れます,,GML Visual story text
+GMStdNew_Story_1,Set ${var} to new instance of ${function},${var} を ${function} の新しいインスタンスに設定します,,GML Visual story text
+GMStdNew_Story_2,Set ${var} to new instance of ${function} with 1 argument,1 個の引数を指定して、${var} を ${function} の新しいインスタンスに設定します,,GML Visual story text
+GMStdNew_Story_3,Set ${var} to new instance of ${function} with ${input_count} arguments,${input_count} 個の引数を指定して、${var} を ${function} の新しいインスタンスに設定します,,GML Visual story text
+GMStdNew_Story_4,Set temp ${var} to new instance of ${function},一時変数 ${var} を ${function} の新しいインスタンスに設定します,,GML Visual story text
+GMStdNew_Story_5,Set temp ${var} to new instance of ${function} with 1 argument,1 個の引数を指定して、一時変数 ${var} を ${function} の新しいインスタンスに設定します,,GML Visual story text
+GMStdNew_Story_6,Set temp ${var} to new instance of ${function} with ${input_count} arguments,${input_count} 個の引数を指定して、一時変数 ${var} を ${function} の新しいインスタンスに設定します,,GML Visual story text
+GMStdRet_Story_1,Return ${value},${value} を返します,,GML Visual story text
+GMStdRet_Story_2,Return ${value} on ${applyto},${applyto} で ${value} を返します,,GML Visual story text
+GMStdApplyTo_Story_1,Apply to ${applyto},${applyto} に適用,,GML Visual story text
+GMStdMacro_Story_1,Define macro ${macro} as ${value}${show_input_count},マクロ ${macro} を ${value} として定義します ${show_input_count},,GML Visual story text
+GMStdMacro_Story_2,Define macro ${macro} as ${value} on ${applyto}${show_input_count},${applyto} でマクロ ${macro} を ${value} として定義します ${show_input_count},,GML Visual story text
+GMStdExit_Story,Exit the current event,現在のイベントを終了します,,GML Visual story text
+GMStdInstCreate_Story_1,Create ${objectid} at ${dnd_pos},${dnd_pos} に ${objectid} を作成します,,GML Visual story text
+GMStdInstCreate_Story_2,Create ${objectid} at ${dnd_pos} on ${applyto},${applyto} で ${dnd_pos} に ${objectid} を作成します,,GML Visual story text
+GMStdInstCreate_Story_3,Create ${objectid} at ${dnd_pos} into ${var},${dnd_pos} に ${objectid} を作成して ${var} に入れます,,GML Visual story text
+GMStdInstCreate_Story_4,Create ${objectid} at ${dnd_pos} into ${var} on ${applyto},${applyto} で ${dnd_pos} に ${objectid} を作成して、${var} に入れます,,GML Visual story text
+GMStdInstCreate_Story_5,Create ${objectid} at ${dnd_pos} into temp ${var},${dnd_pos} に ${objectid} を作成して一時変数 ${var} に入れます,,GML Visual story text
+GMStdInstCreate_Story_6,Create ${objectid} at ${dnd_pos} into temp ${var} on ${applyto},${dnd_pos} で ${dnd_pos} に ${objectid} を作成して一時変数 ${var} に入れます,,GML Visual story text
+GMStdInstDestroy_Story_1,Destroy this instance,このインスタンスを破棄します,,GML Visual story text
+GMStdInstDestroy_Story_2,Destroy ${applyto} on ${applyto},${applyto} を破棄します (${applyto}),,GML Visual story text
+GMStdDestroyAtPos_Story_1,Destroy instances at ${dnd_pos},${dnd_pos} のインスタンスを破棄します,,GML Visual story text
+GMStdDestroyAtPos_Story_2,Destroy instances at ${dnd_pos} on ${applyto},${dnd_pos} にある ${applyto} のインスタンスを破棄します,,GML Visual story text
+GMStdInstChange_Story_1,Change into ${objind},${objind} に変更します,,GML Visual story text
+GMStdInstChange_Story_2,Change ${applyto} into ${objind} on ${applyto},${applyto} で ${applyto} を ${objind} に変更します,,GML Visual story text
+GMStdSetAlarm_Story_1,Set alarm ${alarm} to ${steps}${show_input_count},アラーム ${alarm} を ${steps} に設定します ${show_input_count},,GML Visual story text
+GMStdSetAlarm_Story_2,Set alarm ${alarm} to ${steps} on ${applyto}${show_input_count},${applyto} で、アラーム ${alarm} を ${steps} に設定します ${show_input_count},,GML Visual story text
+GMStdSetAlarm_Story_3,Add ${steps} to alarm ${alarm}${show_input_count},${steps} をアラーム ${alarm} に加算します ${show_input_count},,GML Visual story text
+GMStdSetAlarm_Story_4,Add ${steps} to alarm ${alarm} on ${applyto}${show_input_count},${applyto} で、${steps} をアラーム ${alarm} に加算します ${show_input_count},,GML Visual story text
+GMStdGetAlarm_Story_1,Get alarm ${alarm} into ${var},アラーム ${alarm} を取得して ${var} に入れます,,GML Visual story text
+GMStdGetAlarm_Story_2,Get alarm ${alarm} into ${var} on ${applyto},${applyto} でアラーム ${alarm} を取得して ${var} に入れます,,GML Visual story text
+GMStdGetAlarm_Story_3,Get alarm ${alarm} into temp ${var},アラーム ${alarm} を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdGetAlarm_Story_4,Get alarm ${alarm} into temp ${var} on ${applyto},${applyto} でアラーム ${alarm} を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdInstCount_Story_1,Get ${object} count into ${var},${object} の数を取得して ${var} に入れます,,GML Visual story text
+GMStdInstCount_Story_2,Get ${object} count into ${var} on ${applyto},${applyto} で ${object} の数を取得して ${var} に入れます,,GML Visual story text
+GMStdInstCount_Story_3,Get ${object} count into temp ${var},${object} の数を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdInstCount_Story_4,Get ${object} count into temp ${var} on ${applyto},${applyto} で ${object} の数を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdCallUserEvent_Story_1,Call user event ${event}${show_input_count},ユーザーイベント ${event} を呼び出します ${show_input_count},,GML Visual story text
+GMStdCallUserEvent_Story_2,Call user event ${event} on ${applyto}${show_input_count},${applyto} で、ユーザーイベント ${event} を呼び出します ${show_input_count},,GML Visual story text
+GMStdSetInstanceVar_Story_1,Set instance variable ${dnd_set_inst_vars} to ${value}${show_input_count},インスタンス変数 ${dnd_set_inst_vars} を ${value} に設定します ${show_input_count},,GML Visual story text
+GMStdSetInstanceVar_Story_2,Set instance variable ${dnd_set_inst_vars} to ${value} on ${applyto}${show_input_count},${applyto} で、インスタンス変数 ${dnd_set_inst_vars} を ${value} に設定します ${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_1,Get instance variable ${dnd_get_inst_vars} into ${target}${show_input_count},インスタンス変数 ${dnd_get_inst_vars} を取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_2,Get instance variable ${dnd_get_inst_vars} into ${target} on ${applyto}${show_input_count},${applyto} でインスタンス変数 ${dnd_get_inst_vars} を取得して、 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_3,Get instance variable ${dnd_get_inst_vars} into temp ${target}${show_input_count},インスタンス変数 ${dnd_get_inst_vars} を取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_4,Get instance variable ${dnd_get_inst_vars} into temp ${target} on ${applyto}${show_input_count},${applyto} でインスタンス変数 ${dnd_get_inst_vars} を取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdSetSprite_Story_1,Set sprite to ${spriteind} at frame ${imageind},フレーム ${imageind} でスプライトを ${spriteind} に設定します,,GML Visual story text
+GMStdSetSprite_Story_2,Set sprite to ${spriteind} at frame ${imageind} on ${applyto},${applyto} のフレーム ${imageind} でスプライトを ${spriteind} に設定します,,GML Visual story text
+GMStdRotSprite_Story_1,Set rotation to ${angle},回転を ${angle} に設定します,,GML Visual story text
+GMStdRotSprite_Story_2,Set rotation to ${angle} on ${applyto},${applyto} で回転を ${angle} に設定します,,GML Visual story text
+GMStdRotSprite_Story_3,Add ${angle} to rotation,${angle} を回転に加算します,,GML Visual story text
+GMStdRotSprite_Story_4,Add ${angle} to rotation on ${applyto},${applyto} で ${angle} を回転に加算します,,GML Visual story text
+GMStdSpriteAnimSpd_Story_1,Set animation speed to ${speed},アニメーション速度を ${speed} に設定します,,GML Visual story text
+GMStdSpriteAnimSpd_Story_2,Set animation speed to ${speed} on ${applyto},${applyto} でアニメーション速度を ${speed} に設定します,,GML Visual story text
+GMStdSpriteAnimSpd_Story_3,Add ${speed} to animation speed,${speed} をアニメーション速度に加算します,,GML Visual story text
+GMStdSpriteAnimSpd_Story_4,Add ${speed} to animation speed on ${applyto},${applyto} で ${speed} をアニメーション速度に加算します,,GML Visual story text
+GMStdSpriteScale_Story_1,"Scale to ${xscale},${yscale}","${xscale},${yscale} に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_2,"Scale to ${xscale},image_yscale","${xscale},image_yscale に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_3,"Scale to ${xscale},image_yscale+${yscale}","${xscale},image_yscale+${yscale} に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_4,"Scale to image_xscale,${yscale}","image_xscale,${yscale} に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_5,"Scale to image_xscale,image_yscale","image_xscale,image_yscale に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_6,"Scale to image_xscale,image_yscale+${yscale}","image_xscale,image_yscale+${yscale} に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_7,"Scale to image_xscale+${xscale},${yscale}","image_xscale+${xscale},${yscale} に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_8,"Scale to image_xscale+${xscale},image_yscale","image_xscale+${xscale},image_yscale に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_9,"Scale to image_xscale+${xscale},image_yscale+${yscale}","image_xscale+${xscale},image_yscale+${yscale} に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_10,"Scale ${applyto} to ${xscale},${yscale} on ${applyto}","${applyto} で ${applyto} を ${xscale},${yscale} に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_11,"Scale ${applyto} to ${xscale},image_yscale on ${applyto}","${applyto} で ${applyto} を ${xscale},image_yscale に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_12,"Scale ${applyto} to ${xscale},image_yscale+${yscale} on ${applyto}","${applyto} で ${applyto} を ${xscale},image_yscale+${yscale} に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_13,"Scale ${applyto} to image_xscale,${yscale} on ${applyto}","${applyto} で ${applyto} を image_xscale,${yscale} に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_14,"Scale ${applyto} to image_xscale,image_yscale on ${applyto}","${applyto} で ${applyto} を image_xscale,image_yscale に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_15,"Scale ${applyto} to image_xscale,image_yscale+${yscale} on ${applyto}","${applyto} で ${applyto} を image_xscale,image_yscale+${yscale} に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_16,"Scale ${applyto} to image_xscale+${xscale},${yscale} on ${applyto}","${applyto} で ${applyto} を image_xscale+${xscale},${yscale} に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_17,"Scale ${applyto} to image_xscale+${xscale},image_yscale on ${applyto}","${applyto} で ${applyto} を image_xscale+${xscale},image_yscale に拡大縮小します",,GML Visual story text
+GMStdSpriteScale_Story_18,"Scale ${applyto} to image_xscale+${xscale},image_yscale+${yscale} on ${applyto}","${applyto} で ${applyto} を image_xscale+${xscale},image_yscale+${yscale} に拡大縮小します",,GML Visual story text
+GMStdSpriteAlpha_Story_1,Set alpha to ${alpha},アルファ値を ${alpha} に設定します,,GML Visual story text
+GMStdSpriteAlpha_Story_2,Set alpha to ${alpha} on ${applyto},${applyto} でアルファ値を ${alpha} に設定します,,GML Visual story text
+GMStdSpriteAlpha_Story_3,Add ${alpha} to alpha,${alpha} をアルファ値に加算します,,GML Visual story text
+GMStdSpriteAlpha_Story_4,Add ${alpha} to alpha on ${applyto},${applyto} で ${alpha} をアルファ値に加算します,,GML Visual story text
+GMStdSpriteColor_Story_1,Set sprite blend colour to ${colour},スプライトのブレンド色を ${colour} に設定します,,GML Visual story text
+GMStdSpriteColor_Story_2,Set sprite blend colour to ${colour} on ${applyto},${applyto} でスプライトのブレンド色を ${colour} に設定します,,GML Visual story text
+GMStdInstExists_Story_1,Check if ${obj} does not exist,${obj} が存在しないかどうかをチェックします,,GML Visual story text
+GMStdInstExists_Story_2,Check if ${obj} does not exist on ${applyto},${applyto} で ${obj} が存在しないかどうかをチェックします,,GML Visual story text
+GMStdInstExists_Story_3,Check if ${obj} exists,${obj} が存在するかどうかをチェックします,,GML Visual story text
+GMStdInstExists_Story_4,Check if ${obj} exists on ${applyto},${applyto} で ${obj} が存在するかどうかをチェックします,,GML Visual story text
+GMStdInheritEvent_Story_1,Call parent event,親イベントを呼び出します,,GML Visual story text
+GMStdInheritEvent_Story_2,Call parent event on ${applyto},${applyto} で親イベントを呼び出します,,GML Visual story text
+GMStdIfSequenceExists_Story_1,If sequence ${obj} exists,シーケンス ${obj} が存在する場合,,GML Visual story text
+GMStdIfSequenceExists_Story_2,If sequence ${obj} does not exists,シーケンス ${obj} が存在しない場合,,GML Visual story text
+GMStdSeqDestroy_Story_1,Destroy sequence ${var},シーケンス ${var} を破棄します,,GML Visual story text
+GMStdSeqPlay_Story_1,Play sequence ${var},シーケンス ${var} を再生します,,GML Visual story text
+GMStdSeqPause_Story_1,Pause sequence ${var},シーケンス ${var} を一時停止します,,GML Visual story text
+GMStdSeqSetPos_Story_1,Set position of sequence instance ${sequenceelmid} to ${dnd_pos},シーケンスインスタンス ${sequenceelmid} の位置を ${dnd_pos} に設定します,,GML Visual story text
+GMStdSeqCreate_Story_1,Create ${sequenceid} at ${dnd_pos},${dnd_pos} に ${sequenceid} を作成します,,GML Visual story text
+GMStdSeqCreate_Story_2,Create ${sequenceid} at ${dnd_pos} on ${applyto},${applyto} で ${dnd_pos} に ${sequenceid} を作成します,,GML Visual story text
+GMStdSeqCreate_Story_3,Create ${sequenceid} at ${dnd_pos} into ${var},${dnd_pos} に ${sequenceid} を作成して ${var} に入れます,,GML Visual story text
+GMStdSeqCreate_Story_4,Create ${sequenceid} at ${dnd_pos} into ${var} on ${applyto},${applyto} で、${dnd_pos} に ${sequenceid} を作成して ${var} に入れます,,GML Visual story text
+GMStdSeqCreate_Story_5,Create ${sequenceid} at ${dnd_pos} into temp ${var},${dnd_pos} に ${sequenceid} を作成して一時変数 ${var} に入れます,,GML Visual story text
+GMStdSeqCreate_Story_6,Create ${sequenceid} at ${dnd_pos} into temp ${var} on ${applyto},${applyto} で ${dnd_pos} に ${sequenceid} を作成して一時変数 ${var} に入れます,,GML Visual story text
+GMStdSeqGetPos_Story_1,Get position of sequence instance ${sequenceelmid} into ${varx} and ${vary},シーケンスインスタンス ${sequenceelmid} の位置を取得して ${varx} と ${vary} に入れます,,GML Visual story text
+GMStdSeqGetPos_Story_2,Get position of sequence instance ${sequenceelmid} into temp ${varx} and ${vary},シーケンスインスタンス ${sequenceelmid} の位置を取得して、一時変数 ${varx} と ${vary} に入れます,,GML Visual story text
+GMStdSeqGetPos_Story_3,Get position of sequence instance ${sequenceelmid} into ${varx} and temp ${vary},シーケンスインスタンス ${sequenceelmid} の位置を取得して、${varx} と一時変数 ${vary} に入れます,,GML Visual story text
+GMStdSeqGetPos_Story_4,Get position of sequence instance ${sequenceelmid} into temp ${varx} and temp ${vary},シーケンスインスタンス ${sequenceelmid} の位置を取得して、一時変数 ${varx} と一時変数 ${vary} に入れます,,GML Visual story text
+GMStdSeqGetLength_Story_1,Get length of sequence instance ${sequenceelmid} into ${var},シーケンスインスタンス ${sequenceelmid} の長さを取得して ${var} に入れます,,GML Visual story text
+GMStdSeqGetLength_Story_2,Get length of sequence instance ${sequenceelmid} into temp ${var},シーケンスインスタンス ${sequenceelmid} の長さを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdIfMousePressed_Story_1,If mouse button ${button} is pressed,マウスボタン ${button} が押された場合,,GML Visual story text
+GMStdIfMousePressed_Story_2,If mouse button ${button} is pressed on ${applyto},${applyto} でマウスボタン ${button} が押された場合,,GML Visual story text
+GMStdIfMousePressed_Story_3,If mouse button ${button} is not pressed,マウスボタン ${button} が押されなかった場合,,GML Visual story text
+GMStdIfMousePressed_Story_4,If mouse button ${button} is not pressed on ${applyto},${applyto} でマウスボタン ${button} が押されなかった場合,,GML Visual story text
+GMStdIfMouseDown_Story_1,If mouse button ${button} is down,マウスボタン ${button} がホールドされている場合,,GML Visual story text
+GMStdIfMouseDown_Story_2,If mouse button ${button} is down on ${applyto},${applyto} でマウスボタン ${button} がホールドされている場合,,GML Visual story text
+GMStdIfMouseDown_Story_3,If mouse button ${button} is not down,マウスボタン ${button} がホールドされていない場合,,GML Visual story text
+GMStdIfMouseDown_Story_4,If mouse button ${button} is not down on ${applyto},${applyto} でマウスボタン ${button} がホールドされていない場合,,GML Visual story text
+GMStdIfMouseUp_Story_1,If mouse button ${button} is released,マウスボタン ${button} がリリースされた場合,,GML Visual story text
+GMStdIfMouseUp_Story_2,If mouse button ${button} is released on ${applyto},${applyto} でマウスボタン ${button} がリリースされた場合,,GML Visual story text
+GMStdIfMouseUp_Story_3,If mouse button ${button} is not released,マウスボタン ${button} がリリースされていない場合,,GML Visual story text
+GMStdIfMouseUp_Story_4,If mouse button ${button} is not released on ${applyto},${applyto} でマウスボタン ${button} がリリースされていない場合,,GML Visual story text
+GMStdIfKeyPressed_Story_1,If ${key} is pressed,${key} が押された場合,,GML Visual story text
+GMStdIfKeyPressed_Story_2,If ${key} is pressed on ${applyto},${applyto} で ${key} が押された場合,,GML Visual story text
+GMStdIfKeyPressed_Story_3,If ${key} is not pressed,${key} が押されなかった場合,,GML Visual story text
+GMStdIfKeyPressed_Story_4,If ${key} is not pressed on ${applyto},${applyto} で ${key} が押されなかった場合,,GML Visual story text
+GMStdIfKeyDown_Story_1,If ${key} is down,${key} がホールドされている場合,,GML Visual story text
+GMStdIfKeyDown_Story_2,If ${key} is down on ${applyto},${applyto} で ${key} がホールドされている場合,,GML Visual story text
+GMStdIfKeyDown_Story_3,If ${key} is not down,${key} がホールドされていない場合,,GML Visual story text
+GMStdIfKeyDown_Story_4,If ${key} is not down on ${applyto},${applyto} で ${key} がホールドされていない場合,,GML Visual story text
+GMStdIfKeyUp_Story_1,If ${key} is released,${key} がリリースされた場合,,GML Visual story text
+GMStdIfKeyUp_Story_2,If ${key} is released on ${applyto},${applyto} で ${key} がリリースされた場合,,GML Visual story text
+GMStdIfKeyUp_Story_3,If ${key} is not released,${key} がリリースされていない場合,,GML Visual story text
+GMStdIfKeyUp_Story_4,If ${key} is not released on ${applyto},${applyto} で ${key} がリリースされていない場合,,GML Visual story text
+GMStdVKeyShow_Story_1,Show virtual keyboard with ${keyboard_type},${keyboard_type} の仮想キーボードを表示します,,GML Visual story text
+GMStdVKeyShow_Story_2,Show virtual keyboard with ${keyboard_type} on ${applyto},${applyto} で ${keyboard_type} の仮想キーボードを表示します,,GML Visual story text
+GMStdVKeyHide_Story,Hide virtual keyboard,仮想キーボードを非表示にします,,GML Visual story text
+GMStdVKeyHeight_Story_1,Get virtual keyboard height into ${target},仮想キーボードの高さを取得して ${target} に入れます,,GML Visual story text
+GMStdVKeyHeight_Story_2,Get virtual keyboard height into temp ${target},仮想キーボードの高さを取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdVKeyStatus_Story_1,If virtual keyboard is showing,仮想キーボードが表示されている場合,,GML Visual story text
+GMStdVKeyStatus_Story_2,If virtual keyboard is showing on ${applyto},${applyto} で仮想キーボードが表示されている場合,,GML Visual story text
+GMStdVKeyStatus_Story_3,If virtual keyboard is showing into ${target},仮想キーボードが表示されているかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdVKeyStatus_Story_4,If virtual keyboard is showing into ${target} on ${applyto},${applyto} で、仮想キーボードが表示されているかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdVKeyStatus_Story_5,If virtual keyboard is showing into temp ${target},仮想キーボードが表示されているかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdVKeyStatus_Story_6,If virtual keyboard is showing into temp ${target} on ${applyto},${applyto} で、仮想キーボードが表示されているかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdVKeyStatus_Story_7,If virtual keyboard is not showing,仮想キーボードが表示されていない場合,,GML Visual story text
+GMStdVKeyStatus_Story_8,If virtual keyboard is not showing on ${applyto},${applyto} で仮想キーボードが表示されていない場合,,GML Visual story text
+GMStdVKeyStatus_Story_9,If virtual keyboard is not showing into ${target},仮想キーボードが表示されていないかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdVKeyStatus_Story_10,If virtual keyboard is not showing into ${target} on ${applyto},${applyto} で、仮想キーボードが表示されていないかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdVKeyStatus_Story_11,If virtual keyboard is not showing into temp ${target},仮想キーボードが表示されていないかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdVKeyStatus_Story_12,If virtual keyboard is not showing into temp ${target} on ${applyto},${applyto} で、仮想キーボードが表示されていないかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdGPAxis_Story_1,Get ${axis} axis value on gamepad ${gp} into ${var},ゲームパッド ${gp} の ${axis} 軸の値を取得して ${var} に入れます,,GML Visual story text
+GMStdGPAxis_Story_2,Get ${axis} axis value on gamepad ${gp} into ${var} on ${applyto},${applyto} でゲームパッド ${gp} の ${axis} 軸の値を取得して ${var} に入れます,,GML Visual story text
+GMStdGPAxis_Story_3,Get ${axis} axis value on gamepad ${gp} into temp ${var},ゲームパッド ${gp} の ${axis} 軸の値を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdGPAxis_Story_4,Get ${axis} axis value on gamepad ${gp} into temp ${var} on ${applyto},${applyto} でゲームパッド ${gp} の ${axis} 軸の値を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdGPTrigger_Story_1,Get ${trigger} value on gamepad ${gp} into ${var},ゲームパッド ${gp} の ${trigger} の値を取得して ${var} に入れます,,GML Visual story text
+GMStdGPTrigger_Story_2,Get ${trigger} value on gamepad ${gp} into ${var} on ${applyto},${applyto} で、ゲームパッド ${gp} の ${trigger} の値を取得して ${var} に入れます,,GML Visual story text
+GMStdGPTrigger_Story_3,Get ${trigger} value on gamepad ${gp} into temp ${var},ゲームパッド ${gp} の ${trigger} の値を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdGPTrigger_Story_4,Get ${trigger} value on gamepad ${gp} into temp ${var} on ${applyto},${applyto} でゲームパッド ${gp} の ${trigger} の値を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdGpDeviceC_Story_1,Get gamepad device count into ${var},ゲームパッドデバイスの数を取得して、${var} に入れます,,GML Visual story text
+GMStdGpDeviceC_Story_2,Get gamepad device count into ${var} on ${applyto},${applyto} でゲームパッドデバイスの数を取得して ${var} に入れます,,GML Visual story text
+GMStdGpDeviceC_Story_3,Get gamepad device count into temp ${var},ゲームパッドデバイスの数を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdGpDeviceC_Story_4,Get gamepad device count into temp ${var} on ${applyto},${applyto} でゲームパッドデバイスの数を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdGPConnc_Story_1,Get whether gamepad ${gp} is connected into ${var},ゲームパッド ${gp} が ${var} に接続されているかどうかを取得します,,GML Visual story text
+GMStdGPConnc_Story_2,Get whether gamepad ${gp} is connected into ${var} on ${applyto},${applyto} でゲームパッド ${gp} が ${var} に接続されているかどうかを取得します,,GML Visual story text
+GMStdGPConnc_Story_3,Get whether gamepad ${gp} is connected into temp ${var},ゲームパッド ${gp} が一時変数 ${var} に接続されているかどうかを取得します,,GML Visual story text
+GMStdGPConnc_Story_4,Get whether gamepad ${gp} is connected into temp ${var} on ${applyto},${applyto} でゲームパッド ${gp} が一時変数 ${var} に接続されているかどうかを取得します,,GML Visual story text
+GMStdGPDeadzone_Story_1,Set deadzone of gamepad ${gp} to ${deadzone},ゲームパッド ${gp} のデッドゾーンを ${deadzone} に設定します,,GML Visual story text
+GMStdGPDeadzone_Story_2,Set deadzone of gamepad ${gp} to ${deadzone} on ${applyto},${applyto} でゲームパッド ${gp} のデッドゾーンを ${deadzone} に設定します,,GML Visual story text
+GMStdGPThreshold_Story_1,Set button threshold of gamepad ${gp} to ${threshold},ゲームパッド ${gp} のボタンしきい値を ${threshold} に設定します,,GML Visual story text
+GMStdGPThreshold_Story_2,Set button threshold of gamepad ${gp} to ${threshold} on ${applyto},${applyto} でゲームパッド ${gp} のボタンしきい値を ${threshold} に設定します,,GML Visual story text
+GMStdIfGPDown_Story_1,If ${btn} on gamepad ${gp} is down,ゲームパッド ${gp} の ${btn} がホールドされている場合,,GML Visual story text
+GMStdIfGPDown_Story_2,If ${btn} on gamepad ${gp} is down on ${applyto},${applyto} でゲームパッド ${gp} の ${btn} がホールドされている場合,,GML Visual story text
+GMStdIfGPDown_Story_3,If ${btn} on gamepad ${gp} is not down,ゲームパッド ${gp} の ${btn} がホールドされていない場合,,GML Visual story text
+GMStdIfGPDown_Story_4,If ${btn} on gamepad ${gp} is not down on ${applyto},${applyto} でゲームパッド ${gp} の ${btn} がホールドされていない場合,,GML Visual story text
+GMStdIfGPPressed_Story_1,If ${btn} on gamepad ${gp} is pressed,ゲームパッド ${gp} の ${btn} が押された場合,,GML Visual story text
+GMStdIfGPPressed_Story_2,If ${btn} on gamepad ${gp} is pressed on ${applyto},${applyto} でゲームパッド ${gp} の ${btn} が押された場合,,GML Visual story text
+GMStdIfGPPressed_Story_3,If ${btn} on gamepad ${gp} is not pressed,ゲームパッド ${gp} の ${btn} が押されなかった場合,,GML Visual story text
+GMStdIfGPPressed_Story_4,If ${btn} on gamepad ${gp} is not pressed on ${applyto},${applyto} でゲームパッド ${gp} の ${btn} が押されなかった場合,,GML Visual story text
+GMStdIfGPUp_Story_1,If ${btn} on gamepad ${gp} is released,ゲームパッド ${gp} の ${btn} がリリースされた場合,,GML Visual story text
+GMStdIfGPUp_Story_2,If ${btn} on gamepad ${gp} is released on ${applyto},${applyto} でゲームパッド ${gp} の ${btn} がリリースされた場合,,GML Visual story text
+GMStdIfGPUp_Story_3,If ${btn} on gamepad ${gp} is not released,ゲームパッド ${gp} の ${btn} がリリースされていない場合,,GML Visual story text
+GMStdIfGPUp_Story_4,If ${btn} on gamepad ${gp} is not released on ${applyto},${applyto} でゲームパッド ${gp} の ${btn} がリリースされていない場合,,GML Visual story text
+GMStdDirFixed_Story_1,Stop movement,動きを止める,,GML Visual story text
+GMStdDirFixed_Story_2,Stop movement on ${applyto},${applyto} の動きを止めます,,GML Visual story text
+GMStdDirFixed_Story_3,Set direction to ${direction},方向を ${direction} に設定します,,GML Visual story text
+GMStdDirFixed_Story_4,Set direction to ${direction} on ${applyto},${applyto} で方向を ${direction} に設定します,,GML Visual story text
+GMStdDirFree_Story_1,Add ${direction} to direction,${direction} を方向に加算します,,GML Visual story text
+GMStdDirFree_Story_2,Add ${direction} to direction on ${applyto},${applyto} で ${direction} を方向に加算します,,GML Visual story text
+GMStdDirPoint_Story_1,Set direction towards ${dnd_position},${dnd_position} へ向かうよう設定します,,GML Visual story text
+GMStdDirPoint_Story_2,Set direction towards ${dnd_position} on ${applyto},${applyto} で、${dnd_position} へ向かうよう設定します,,GML Visual story text
+GMStdDirRandom_Story_1,Set random direction from ${direction},${direction} からランダムな方向を設定します,,GML Visual story text
+GMStdDirRandom_Story_2,Set random direction from ${direction} on ${applyto},${applyto} で ${direction} からランダムな方向を設定します,,GML Visual story text
+GMStdSpeed_Story_1,Add ${speed} to speed,${speed} を速度に加算します,,GML Visual story text
+GMStdSpeed_Story_2,Add ${speed} to speed on ${applyto},${applyto} で ${speed} を速度に加算します,,GML Visual story text
+GMStdSpeed_Story_3,Set speed to ${speed},速度を ${speed} に設定します,,GML Visual story text
+GMStdSpeed_Story_4,Set speed to ${speed} on ${applyto},${applyto} の速度を ${speed} に設定します,,GML Visual story text
+GMStdSpeed_Story_5,Add ${speed} to horizontal speed,${speed} を水平速度に加算します,,GML Visual story text
+GMStdSpeed_Story_6,Add ${speed} to horizontal speed on ${applyto},${applyto} で ${speed} を水平速度に加算します,,GML Visual story text
+GMStdSpeed_Story_7,Set horizontal speed to ${speed},水平速度を ${speed} に設定します,,GML Visual story text
+GMStdSpeed_Story_8,Set horizontal speed to ${speed} on ${applyto},${applyto} で水平速度を ${speed} に設定します,,GML Visual story text
+GMStdSpeed_Story_9,Add ${speed} to vertical speed,${speed} を垂直速度に加算します,,GML Visual story text
+GMStdSpeed_Story_10,Add ${speed} to vertical speed on ${applyto},${applyto} で ${speed} を垂直速度に加算します,,GML Visual story text
+GMStdSpeed_Story_11,Set vertical speed to ${speed},垂直速度を ${speed} に設定します,,GML Visual story text
+GMStdSpeed_Story_12,Set vertical speed to ${speed} on ${applyto},${applyto} で垂直速度を ${speed} に設定します,,GML Visual story text
+GMStdGravDir_Story_1,Add ${direction} to gravity direction,${direction} を重力方向に加算します,,GML Visual story text
+GMStdGravDir_Story_2,Add ${direction} to gravity direction on ${applyto},${applyto} で ${direction} を重力方向に加算します,,GML Visual story text
+GMStdGravDir_Story_3,Set gravity direction to ${direction},重力の向きを ${direction} に設定します,,GML Visual story text
+GMStdGravDir_Story_4,Set gravity direction to ${direction} on ${applyto},${applyto} の重力の向きを ${direction} に設定します,,GML Visual story text
+GMStdGravForce_Story_1,Add ${force} to gravity force,${force} を重力に加算します,,GML Visual story text
+GMStdGravForce_Story_2,Add ${force} to gravity force on ${applyto},${applyto} で ${force} を重力に加算します,,GML Visual story text
+GMStdGravForce_Story_3,Set gravity force to ${force},重力を ${force} に設定します,,GML Visual story text
+GMStdGravForce_Story_4,Set gravity force to ${force} on ${applyto},${applyto} で重力を ${force} に設定します,,GML Visual story text
+GMStdReverse_Story_1,Reverse direction,方向を逆にします,,GML Visual story text
+GMStdReverse_Story_2,Reverse direction on ${applyto},${applyto} で方向を逆にします,,GML Visual story text
+GMStdReverse_Story_3,Reverse horizontal speed,水平速度を逆にします,,GML Visual story text
+GMStdReverse_Story_4,Reverse horizontal speed on ${applyto},${applyto} で水平速度を逆にします,,GML Visual story text
+GMStdReverse_Story_5,Reverse vertical speed,垂直速度を逆にします,,GML Visual story text
+GMStdReverse_Story_6,Reverse vertical speed on ${applyto},${applyto} で垂直速度を逆にします,,GML Visual story text
+GMStdReverse_Story_7,Reverse gravitational direction,重力の向きを逆にします,,GML Visual story text
+GMStdReverse_Story_8,Reverse gravitational direction on ${applyto},${applyto} の重力の向きを逆にします,,GML Visual story text
+GMStdFriction_Story_1,Add ${friction} to friction,${friction} を摩擦に加算します,,GML Visual story text
+GMStdFriction_Story_2,Add ${friction} to friction on ${applyto},${applyto} で ${friction} を摩擦に加算します,,GML Visual story text
+GMStdFriction_Story_3,Set friction to ${friction},摩擦を ${friction} に設定します,,GML Visual story text
+GMStdFriction_Story_4,Set friction to ${friction} on ${applyto},${applyto} で摩擦を ${friction} に設定します,,GML Visual story text
+GMStdJumpPoint_Story_1,Jump to ${dnd_position},${dnd_position} へジャンプします,,GML Visual story text
+GMStdJumpPoint_Story_2,Jump to ${dnd_position} on ${applyto},${applyto} で ${dnd_position} へジャンプします,,GML Visual story text
+GMStdJumpStart_Story_1,Jump to start,先頭へジャンプ,,GML Visual story text
+GMStdJumpStart_Story_2,Jump ${applyto} to start,${applyto} を先頭にジャンプします,,GML Visual story text
+GMStdSnapPos_Story_1,"Snap  to ${xsnap},${ysnap}","${xsnap},${ysnap} にスナップします",,GML Visual story text
+GMStdSnapPos_Story_2,"Snap ${applyto} to ${xsnap},${ysnap} on ${applyto}","${applyto} で ${applyto} を ${xsnap},${ysnap} にスナップします",,GML Visual story text
+GMStdWrapRoom_Story_1,Wrap around room,ルームの反対側に回り込ませます,,GML Visual story text
+GMStdWrapRoom_Story_2,Wrap ${applyto} around room on ${applyto},${applyto} で ${applyto} をルームの反対側に回り込ませます,,GML Visual story text
+GMStdIfAnyObjAt_Story_1,If any instance is overlapping self at ${dnd_position},インスタンスが ${dnd_position} で自分自身を重ねて表示している場合,,GML Visual story text
+GMStdIfAnyObjAt_Story_2,If any instance is overlapping self at ${dnd_position} on ${applyto},${applyto} で、インスタンスが ${dnd_position} で自分自身を重ねて表示している場合,,GML Visual story text
+GMStdIfAnyObjAt_Story_3,If no instance is overlapping self at ${dnd_position},インスタンスが ${dnd_position} で自分自身を重ねて表示していない場合,,GML Visual story text
+GMStdIfAnyObjAt_Story_4,If no instance is overlapping self at ${dnd_position} on ${applyto},${applyto} で、インスタンスが ${dnd_position} で自分自身を重ねて表示していない場合,,GML Visual story text
+GMStdIfObjAt_Story_1,If ${object} is overlapping self at ${dnd_position}${show_input_count},${object} が ${dnd_position} で自分自身を重ねて表示している場合 ${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_2,If ${object} is overlapping self at ${dnd_position} on ${applyto}${show_input_count},${applyto} の ${dnd_position} で、${object} が自分自身を重ねて表示している場合 ${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_3,If ${object} is overlapping self at ${dnd_position} into ${target}${show_input_count},${object} が ${dnd_position} で自分自身を重ねて表示しているかどうかをチェックし、結果を ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_4,If ${object} is overlapping self at ${dnd_position} into ${target} on ${applyto}${show_input_count},${applyto} で、${object} が ${dnd_position} で自分自身を重ねて表示しているかどうかをチェックし、結果を ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_5,If ${object} is overlapping self at ${dnd_position} into temp ${target}${show_input_count},${object} が ${dnd_position} で自分自身を重ねて表示しているかどうかをチェックし、結果を一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_6,If ${object} is overlapping self at ${dnd_position} into temp ${target} on ${applyto}${show_input_count},${applyto} で、${object} が ${dnd_position} で自分自身を重ねて表示しているかどうかをチェックし、結果を一時変数 ${target} 入れます ${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_7,If ${object} is not overlapping self at ${dnd_position}${show_input_count},${object} が ${dnd_position} で自分自身を重ねて表示していない場合 ${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_8,If ${object} is not overlapping self at ${dnd_position} on ${applyto}${show_input_count},${applyto} で、${object} が ${dnd_position} で自分自身を重ねて表示していない場合 ${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_9,If ${object} is not overlapping self at ${dnd_position} into ${target}${show_input_count},${object} が ${dnd_position} で自分自身を重ねて表示していないかどうかをチェックし、結果を ${target} に入れます${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_10,If ${object} is not overlapping self at ${dnd_position} into ${target} on ${applyto}${show_input_count},${applyto} で、${object} が ${dnd_position} で自分自身を重ねて表示していないかどうかをチェックし、結果を ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_11,If ${object} is not overlapping self at ${dnd_position} into temp ${target}${show_input_count},${object} が ${dnd_position} で自分自身を重ねて表示していないかどうかをチェックし、結果を一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_12,If ${object} is not overlapping self at ${dnd_position} into temp ${target} on ${applyto}${show_input_count},${applyto} で、${object} が ${dnd_position} で自分自身を重ねて表示していないかどうかをチェックし、結果を一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdIfColShape_Story_1,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2},${obj} が ${dnd_position1} から ${dnd_position2} への直線と交差する場合,,GML Visual story text
+GMStdIfColShape_Story_2,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} への直線と交差する場合,,GML Visual story text
+GMStdIfColShape_Story_3,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target},${obj} が ${dnd_position1} から ${dnd_position2} への直線と交差するかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_4,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} への直線と交差するかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_5,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} への直線と交差するかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_6,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} への直線と交差するかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_7,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target},${obj} が ${dnd_position1} から ${dnd_position2} への直線と交差するかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_8,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} への直線と交差するかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_9,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} への直線と交差するかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_10,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} への直線と交差するかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_11,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2},${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差する場合,,GML Visual story text
+GMStdIfColShape_Story_12,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差する場合,,GML Visual story text
+GMStdIfColShape_Story_13,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target},${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差するかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_14,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差しているかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_15,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target},${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差しているかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_16,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差しているかどうかをチェックし、結果をリストの一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_17,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target},${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差するかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_18,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差しているかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_19,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target},${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差するかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_20,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差しているかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_21,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2},${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差する場合,,GML Visual story text
+GMStdIfColShape_Story_22,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差する場合,,GML Visual story text
+GMStdIfColShape_Story_23,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target},${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差するかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_24,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差しているかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_25,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差するかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_26,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差しているかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_27,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target},${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差するかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_28,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差するかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_29,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差するかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_30,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差しているかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_31,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2},${obj} が ${dnd_position1} から ${dnd_position2} で直線と交差しない場合,,GML Visual story text
+GMStdIfColShape_Story_32,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で直線と交差しない場合,,GML Visual story text
+GMStdIfColShape_Story_33,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target},${obj} が ${dnd_position1} から ${dnd_position2} で直線と交差しないかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_34,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で直線と交差していないかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_35,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} で直線と交差しないかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_36,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で直線と交差しないかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_37,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target},${obj} が ${dnd_position1} から ${dnd_position2} で直線と交差していないかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_38,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で直線と交差しないかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_39,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} で直線と交差しないかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_40,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で直線と交差していないかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_41,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2},${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差しない場合,,GML Visual story text
+GMStdIfColShape_Story_42,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差しない場合,,GML Visual story text
+GMStdIfColShape_Story_43,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target},${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差していないかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_44,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差していないかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_45,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target},${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差していないかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_46,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差していないかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_47,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target},${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差していないかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_48,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差していないかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_49,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target},${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差していないかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_50,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} - ${dnd_position2} の四角形と交差していないかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_51,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2},${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差しない場合,,GML Visual story text
+GMStdIfColShape_Story_52,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差しない場合,,GML Visual story text
+GMStdIfColShape_Story_53,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target},${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差しないかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_54,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差していないかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_55,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差しないかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_56,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差しないかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_57,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target},${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差しないかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_58,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差しているかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_59,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差しないかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColShape_Story_60,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},${applyto} で、${obj} が ${dnd_position1} から ${dnd_position2} で楕円形と交差しないかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_1,If ${obj} intersects point ${dnd_position},${obj} が点 ${dnd_position} と交差する場合,,GML Visual story text
+GMStdIfColPoint_Story_2,If ${obj} intersects point ${dnd_position} on ${applyto},${applyto} で、${obj} が点 ${dnd_position} と交差する場合,,GML Visual story text
+GMStdIfColPoint_Story_3,If ${obj} intersects point ${dnd_position} into list ${target},${obj} が点 ${dnd_position} と交差するかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_4,If ${obj} intersects point ${dnd_position} into list ${target} on ${applyto},${applyto} で、${obj} が点 ${dnd_position} と交差するかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_5,If ${obj} intersects point ${dnd_position} into list temp ${target},${obj} が点 ${dnd_position} と交差するかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_6,If ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto},${applyto} で、${obj} が点 ${dnd_position} と交差するかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_7,If ${obj} intersects point ${dnd_position} into ${target},${obj} が点 ${dnd_position} と交差するかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_8,If ${obj} intersects point ${dnd_position} into ${target} on ${applyto},${applyto} で、${obj} が点 ${dnd_position} と交差するかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_9,If ${obj} intersects point ${dnd_position} into temp ${target},${obj} が点 ${dnd_position} と交差するかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_10,If ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto},${applyto} で、${obj} が点 ${dnd_position} と交差するかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_11,If not ${obj} intersects point ${dnd_position},${obj} が点 ${dnd_position} と交差しない場合,,GML Visual story text
+GMStdIfColPoint_Story_12,If not ${obj} intersects point ${dnd_position} on ${applyto},${applyto} で、${obj} が点 ${dnd_position} と交差しない場合,,GML Visual story text
+GMStdIfColPoint_Story_13,If not ${obj} intersects point ${dnd_position} into list ${target},${obj} が点 ${dnd_position} と交差しないかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_14,If not ${obj} intersects point ${dnd_position} into list ${target} on ${applyto},${applyto} で、${obj} が点 ${dnd_position} と交差しないかどうかをチェックし、結果をリスト ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_15,If not ${obj} intersects point ${dnd_position} into list temp ${target},${obj} が点 ${dnd_position} と交差しないかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_16,If not ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto},${applyto} で、${obj} が点 ${dnd_position} と交差しないかどうかをチェックし、結果をリスト一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_17,If not ${obj} intersects point ${dnd_position} into ${target},${obj} が点 ${dnd_position} と交差しないかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_18,If not ${obj} intersects point ${dnd_position} into ${target} on ${applyto},${applyto} で、${obj} が点 ${dnd_position} と交差しないかどうかをチェックし、結果を ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_19,If not ${obj} intersects point ${dnd_position} into temp ${target},${obj} が点 ${dnd_position} と交差しないかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdIfColPoint_Story_20,If not ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto},${applyto} で、${obj} が点 ${dnd_position} と交差しないかどうかをチェックし、結果を一時変数 ${target} に入れます,,GML Visual story text
+GMStdDrawSelf_Story_1,Draw self,自身を描画します,,GML Visual story text
+GMStdDrawSelf_Story_2,Draw self on ${applyto},${applyto} で自身を描画します,,GML Visual story text
+GMStdDrawValue_Story_1,Draw  at ${dnd_position},${dnd_position} で描画します,,GML Visual story text
+GMStdDrawValue_Story_2,Draw  at ${dnd_position} on ${applyto},${applyto} で、${dnd_position} に描画します,,GML Visual story text
+GMStdDrawValue_Story_3,Draw  ${var} at ${dnd_position},${dnd_position} で ${var} を描画します,,GML Visual story text
+GMStdDrawValue_Story_4,Draw  ${var} at ${dnd_position} on ${applyto},${applyto} で、${dnd_position} に  ${var} を描画します,,GML Visual story text
+GMStdDrawValue_Story_5,"Draw ""${caption}"" at ${dnd_position}","${dnd_position} で ""${caption}"" を描画します",,GML Visual story text
+GMStdDrawValue_Story_6,"Draw ""${caption}"" at ${dnd_position} on ${applyto}","${applyto} で、${dnd_position} に ""${caption}"" を描画します",,GML Visual story text
+GMStdDrawValue_Story_7,"Draw ""${caption}"" ${var} at ${dnd_position}","${dnd_position} で ""${caption}"" ${var} を描画します",,GML Visual story text
+GMStdDrawValue_Story_8,"Draw ""${caption}"" ${var} at ${dnd_position} on ${applyto}","${applyto} で、${dnd_position} に ""${caption}"" ${var} を描画します",,GML Visual story text
+GMStdDrawValueTransformed_Story_1,Draw transformed  at ${dnd_position},${dnd_position} で変換して描画します,,GML Visual story text
+GMStdDrawValueTransformed_Story_2,Draw transformed  at ${dnd_position} on ${applyto},${applyto} で、${dnd_position} に変換して描画します,,GML Visual story text
+GMStdDrawValueTransformed_Story_3,Draw transformed  ${var} at ${dnd_position},${dnd_position} に変換された ${var} を描画します,,GML Visual story text
+GMStdDrawValueTransformed_Story_4,Draw transformed  ${var} at ${dnd_position} on ${applyto},${applyto} で、${dnd_position} に変換された ${var} を描画します,,GML Visual story text
+GMStdDrawValueTransformed_Story_5,"Draw transformed ""${caption}"" at ${dnd_position}","${dnd_position} に変換された ""${caption}"" を描画します",,GML Visual story text
+GMStdDrawValueTransformed_Story_6,"Draw transformed ""${caption}"" at ${dnd_position} on ${applyto}","${applyto} で、${dnd_position} で変換された ""${caption}"" を描画します",,GML Visual story text
+GMStdDrawValueTransformed_Story_7,"Draw transformed ""${caption}"" ${var} at ${dnd_position}","${dnd_position} に変換された ""${caption}"" ${var} を描画します",,GML Visual story text
+GMStdDrawValueTransformed_Story_8,"Draw transformed ""${caption}"" ${var} at ${dnd_position} on ${applyto}","${applyto} で、${dnd_position} に変換された ""${caption}"" ${var} を描画します",,GML Visual story text
+GMStdDrawSprite_Story_1,Draw sprite ${sprite} frame ${image} at ${dnd_position},${dnd_position} でスプライト ${sprite} のフレーム ${image} を描画します,,GML Visual story text
+GMStdDrawSprite_Story_2,Draw sprite ${sprite} frame ${image} at ${dnd_position} on ${applyto},${applyto} で、${dnd_position} にスプライト ${sprite} のフレーム ${image} を描画します,,GML Visual story text
+GMStdDrawSpriteExt_Story_1,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot}","倍率 ${xscale},${yscale} と回転 ${rot} で変換されたスプライト ${sprite} のフレーム ${frame} を描画します",,GML Visual story text
+GMStdDrawSpriteExt_Story_2,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot} on ${applyto}","${applyto} で、倍率 ${xscale},${yscale} と回転 ${rot} で変換されたスプライト ${sprite} のフレーム ${frame} を描画します",,GML Visual story text
+GMStdDrawSpritesStacked_Story_1,Draw sprite ${sprite} in ${number} rows at ${dnd_position},スプライト ${sprite} を ${dnd_position} の ${number} 行に描画します,,GML Visual story text
+GMStdDrawSpritesStacked_Story_2,Draw sprite ${sprite} in ${number} rows at ${dnd_position} on ${applyto},${applyto} で、スプライト ${sprite} を ${dnd_position} の ${number} 行に描画します,,GML Visual story text
+GMStdDrawSpritesStacked_Story_3,Draw sprite ${sprite} in ${number} columns at ${dnd_position},スプライト ${sprite} を ${dnd_position} の ${number} 列に描画します,,GML Visual story text
+GMStdDrawSpritesStacked_Story_4,Draw sprite ${sprite} in ${number} columns at ${dnd_position} on ${applyto},${applyto} で、スプライト ${sprite} を ${dnd_position} の ${number} 列に描画します,,GML Visual story text
+GMStdDrawRectangle_Story_1,Draw rectangle from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} に四角形を描画します,,GML Visual story text
+GMStdDrawRectangle_Story_2,Draw rectangle from ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${dnd_position1} から ${dnd_position2} に四角形を描画します,,GML Visual story text
+GMStdDrawGradientRect_Story_1,Draw gradient rectangular outline from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} に勾配のある長方形の輪郭を描画します,,GML Visual story text
+GMStdDrawGradientRect_Story_2,Draw gradient rectangular outline from ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${dnd_position1} から ${dnd_position2} に勾配のある長方形の輪郭を描画します,,GML Visual story text
+GMStdDrawGradientRect_Story_3,Draw gradient rectangle from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} に勾配のある四角形を描画します,,GML Visual story text
+GMStdDrawGradientRect_Story_4,Draw gradient rectangle from ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${dnd_position1} から ${dnd_position2} に勾配のある四角形を描画します,,GML Visual story text
+GMStdDrawEllipse_Story_1,Draw ellipse from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} に楕円形を描画します,,GML Visual story text
+GMStdDrawEllipse_Story_2,Draw ellipse from ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${dnd_position1} から ${dnd_position2} に楕円形を描画します,,GML Visual story text
+GMStdDrawGradientEllipse_Story_1,Draw gradient elliptical outline from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} に勾配のある楕円形の輪郭を描画します,,GML Visual story text
+GMStdDrawGradientEllipse_Story_2,Draw gradient elliptical outline from ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${dnd_position1} から ${dnd_position2} に勾配のある楕円形の輪郭を描画します,,GML Visual story text
+GMStdDrawGradientEllipse_Story_3,Draw gradient ellipse from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} に勾配のある楕円形を描画します,,GML Visual story text
+GMStdDrawGradientEllipse_Story_4,Draw gradient ellipse from ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${dnd_position1} から ${dnd_position2} に勾配のある楕円形を描画します,,GML Visual story text
+GMStdDrawLine_Story_1,Draw line from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} に線を描画します,,GML Visual story text
+GMStdDrawLine_Story_2,Draw line from ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${dnd_position1} から ${dnd_position2} に線を描画します,,GML Visual story text
+GMStdDrawHealthbar_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value},${dnd_position1} から ${dnd_position2} に値 ${value} でヘルスバーを描画します,,GML Visual story text
+GMStdDrawHealthbar_Story_2,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value} on ${applyto},${applyto} で、${dnd_position1} から ${dnd_position2} に値 ${value} でヘルスバーを描画します,,GML Visual story text
+GMStdDrawInstanceScore_Story_1,Draw score at ${dnd_position},${dnd_position} にスコアを描画します,,GML Visual story text
+GMStdDrawInstanceScore_Story_2,"Draw score at ${dnd_position} with caption ""${caption}""","${dnd_position} にキャプション ""${caption}"" を付けたスコアを描画します",,GML Visual story text
+GMStdDrawInstanceScore_Story_3,Draw ${applyto}'s score at ${dnd_position} on ${applyto},${applyto} で、${dnd_position} に ${applyto} のスコアを描画します,,GML Visual story text
+GMStdDrawInstanceScore_Story_4,"Draw ${applyto}'s score at ${dnd_position} with caption ""${caption}"" on ${applyto}","${applyto} で、${dnd_position} にキャプション ""${caption}""を付けた ${applyto} のスコアを描画します",,GML Visual story text
+GMStdDrawInstanceHealth_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} にヘルスバーを描画します,,GML Visual story text
+GMStdDrawInstanceHealth_Story_2,Draw ${applyto}'s healthbar from ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto} で、${dnd_position1} から ${dnd_position2} に ${applyto のヘルスバーを描画します,,GML Visual story text
+GMStdDrawInstanceLives_Story_1,Draw lives in a row at ${dnd_position},${dnd_position} の行にライフを描画します,,GML Visual story text
+GMStdDrawInstanceLives_Story_2,Draw lives in a column at ${dnd_position},${dnd_position} の列にライフを描画します,,GML Visual story text
+GMStdDrawInstanceLives_Story_3,Draw ${applyto}'s lives in a row at ${dnd_position} on ${applyto},${applyto} で、${dnd_position} の行に ${applyto} のライフを描画します,,GML Visual story text
+GMStdDrawInstanceLives_Story_4,Draw ${applyto}'s lives in a column at ${dnd_position} on ${applyto},${applyto} で、${dnd_position} の列に ${applyto} のライフを描画します,,GML Visual story text
+GMStdSetColor_Story_1,Set draw color to ${color},描画色を ${color} に設定します,,GML Visual story text
+GMStdSetColor_Story_2,Set draw color to ${color} on ${applyto},${applyto} で描画色を ${color} に設定します,,GML Visual story text
+GMStdGetColor_Story_1,Get draw color into ${var},描画色を取得して ${var} に入れます,,GML Visual story text
+GMStdGetColor_Story_2,Get draw color into ${var} on ${applyto},${applyto} で、描画色を取得して ${var} に入れます,,GML Visual story text
+GMStdAlpha_Story_1,Set drawing alpha channel to ${alpha},描画アルファチャンネルを ${alpha} に設定します,,GML Visual story text
+GMStdAlpha_Story_2,Set drawing alpha channel to ${alpha} on ${applyto},${applyto} で、描画アルファチャンネルを ${alpha} に設定します,,GML Visual story text
+GMStdGetAlpha_Story_1,Get drawing alpha channel into ${var},描画アルファチャンネルを取得して ${var} に入れます,,GML Visual story text
+GMStdGetAlpha_Story_2,Get drawing alpha channel into ${var} on ${applyto},${applyto} で、描画アルファチャンネルを取得して ${var} に入れます,,GML Visual story text
+GMStdSetFont_Story_1,Set font to ${font},フォントを ${font} に設定します,,GML Visual story text
+GMStdSetFont_Story_2,Set font to ${font} on ${applyto},${applyto} でフォントを ${font} に設定します,,GML Visual story text
+GMStdGetFont_Story_1,Get draw font into ${var},描画フォントを取得して ${var} に入れます,,GML Visual story text
+GMStdGetFont_Story_2,Get draw font into ${var} on ${applyto},${applyto} で、描画フォントを取得して ${var} に入れます,,GML Visual story text
+GMStdSetAlignment_Story_1,Set text alignment to ${halign} and ${valign},テキスト配置を ${halign} および ${valign} に設定します,,GML Visual story text
+GMStdSetAlignment_Story_2,Set text alignment to ${halign} and ${valign} on ${applyto},${applyto} で、テキスト配置を ${halign} および ${valign} に設定します,,GML Visual story text
+GMStdGetTextAlign_Story_1,Get horizontal text alignment into ${var},水平テキスト配置を取得して ${var} に入れます,,GML Visual story text
+GMStdGetTextAlign_Story_2,Get horizontal text alignment into ${var} on ${applyto},${applyto} で、水平テキスト配置を取得して ${var} に入れます,,GML Visual story text
+GMStdGetTextAlign_Story_3,Get vertical text alignment into ${var},垂直テキスト配置を取得して ${var} に入れます,,GML Visual story text
+GMStdGetTextAlign_Story_4,Get vertical text alignment into ${var} on ${applyto},${applyto} で、垂直テキスト配置を取得して ${var} に入れます,,GML Visual story text
+GMStdTileSetAtPixel_Story_1,Set tile on layer ${layername} at ${dnd_position} to ${tile},${dnd_position} のタイルレイヤー ${layername} を ${tile} に設定します,,GML Visual story text
+GMStdTileSetAtPixel_Story_2,Set tile on layer ${layername} at ${dnd_position} to ${tile} on ${applyto},${applyto} で、${dnd_position} のタイルレイヤー ${layername} を ${tile} に設定します,,GML Visual story text
+GMStdTileGetAtPixel_Story_1,Get tile index at ${dnd_position} on layer ${layername} into ${var},レイヤー ${layername} で ${dnd_position} のタイルインデックスを取得して ${var} に入れます,,GML Visual story text
+GMStdTileGetAtPixel_Story_2,Get tile index at ${dnd_position} on layer ${layername} into ${var} on ${applyto},${applyto} で、レイヤー ${layername} で ${dnd_position} のタイルインデックスを取得して ${var} に入れます,,GML Visual story text
+GMStdTileGetAtPixel_Story_3,Get tile index at ${dnd_position} on layer ${layername} into temp ${var},レイヤー ${layername} で ${dnd_position} のタイルインデックスを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdTileGetAtPixel_Story_4,Get tile index at ${dnd_position} on layer ${layername} into temp ${var} on ${applyto},${applyto} で、レイヤー ${layername} で ${dnd_position} のタイルインデックスを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdTileSetInCell_Story_1,"Set tile on layer ${layername} in cell ${x},${y} to ${tile}","セル ${x},${y} のレイヤー ${layername} 上のタイルを ${tile} に設定します",,GML Visual story text
+GMStdTileSetInCell_Story_2,"Set tile on layer ${layername} in cell ${x},${y} to ${tile} on ${applyto}","${applyto} で、セル ${x},${y} のレイヤー ${layername} 上のタイルを ${tile} に設定します",,GML Visual story text
+GMStdTileGetInCell_Story_1,"Get tile index in cell ${x},${y} on layer ${layername} into ${var}","レイヤー ${layername} のセル ${x},${y} のタイルインデックスを取得して ${var} に入れます",,GML Visual story text
+GMStdTileGetInCell_Story_2,"Get tile index in cell ${x},${y} on layer ${layername} into ${var} on ${applyto}","${applyto} で、レイヤー ${layername} のセル ${x},${y} のタイルインデックスを取得して ${var} に入れます",,GML Visual story text
+GMStdTileGetInCell_Story_3,"Get tile index in cell ${x},${y} on layer ${layername} into temp ${var}","レイヤー ${layername} でセル ${x},${y} のタイルインデックスを取得して一時変数 ${var} に入れます",,GML Visual story text
+GMStdTileGetInCell_Story_4,"Get tile index in cell ${x},${y} on layer ${layername} into temp ${var} on ${applyto}","${applyto} で、レイヤー ${layername} のセル ${x},${y} のタイルインデックスを取得して一時変数 ${var} に入れます",,GML Visual story text
+GMStdTileSetTileSet_Story_1,Set tile set ${tileset} on layer ${layername},レイヤー ${layername} でタイルセット ${tileset} を設定します,,GML Visual story text
+GMStdTileSetTileSet_Story_2,Set tile set ${tileset} on layer ${layername} on ${applyto},${applyto} で、レイヤー ${layername} でタイルセット ${tileset} を設定します,,GML Visual story text
+GMStdTileGetVar_Story_1,Get tilemap x on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップ x を取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_2,Get tilemap x on layer ${layername} into ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップ x を取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_3,Get tilemap x on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップ x を取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_4,Get tilemap x on layer ${layername} into temp ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップ x を取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_5,Get tilemap y on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップ y を取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_6,Get tilemap y on layer ${layername} into ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップ y を取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_7,Get tilemap y on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップ y を取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_8,Get tilemap y on layer ${layername} into temp ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップ y を取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_9,Get tilemap width on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップの幅を取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_10,Get tilemap width on layer ${layername} into ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップの幅を取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_11,Get tilemap width on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップの幅を取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_12,Get tilemap width on layer ${layername} into temp ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップの幅を取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_13,Get tilemap height on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップの高さを取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_14,Get tilemap height on layer ${layername} into ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップの高さを取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_15,Get tilemap height on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップの高さを取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_16,Get tilemap height on layer ${layername} into temp ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップの高さを取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_17,Get tilemap tile width on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップのタイルの幅を取得して、${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_18,Get tilemap tile width on layer ${layername} into ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップのタイルの幅を取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_19,Get tilemap tile width on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップのタイルの幅を取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_20,Get tilemap tile width on layer ${layername} into temp ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップのタイルの幅を取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_21,Get tilemap tile height on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップのタイルの高さを取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_22,Get tilemap tile height on layer ${layername} into ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップのタイルの高さを取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_23,Get tilemap tile height on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップのタイルの高さを取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_24,Get tilemap tile height on layer ${layername} into temp ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップのタイルの高さを取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_25,Get tilemap resource on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップのリソースを取得して、${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_26,Get tilemap resource on layer ${layername} into ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップのリソースを取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_27,Get tilemap resource on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップのリソースを取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_28,Get tilemap resource on layer ${layername} into temp ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップのリソースを取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_29,Get tilemap frame on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップのフレームを取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_30,Get tilemap frame on layer ${layername} into ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップのフレームを取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_31,Get tilemap frame on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップのフレームを取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_32,Get tilemap frame on layer ${layername} into temp ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップのフレームを取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_33,Get tilemap mask on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップのマスク を取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_34,Get tilemap mask on layer ${layername} into ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップのマスク を取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_35,Get tilemap mask on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップのマスク を取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_36,Get tilemap mask on layer ${layername} into temp ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップのマスク を取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_37,Get tilemap global mask on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップのグローバルマスク を取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_38,Get tilemap global mask on layer ${layername} into ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップのグローバルマスク を取得して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_39,Get tilemap global mask on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップのグローバルマスク を取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_40,Get tilemap global mask on layer ${layername} into temp ${target} on ${applyto}${show_input_count},${applyto} で、レイヤー ${layername} のタイルマップのグローバルマスク を取得して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdTileSetElmPixel_Story_1,Set tile data at ${dnd_position} on layer ${layername} to ${element},レイヤー ${layername} の ${dnd_position} のタイルデータを ${element} に設定します,,GML Visual story text
+GMStdTileSetElmPixel_Story_2,Set tile data at ${dnd_position} on layer ${layername} to ${element} on ${applyto},${applyto} で、レイヤー ${layername} の ${dnd_position} のタイルデータを ${element} に設定します,,GML Visual story text
+GMStdTileGetElmPixel_Story_1,Get tile data at ${dnd_position} on layer ${layername} into ${var},レイヤー ${layername} の ${dnd_position} のタイルデータを取得して ${var} に入れます,,GML Visual story text
+GMStdTileGetElmPixel_Story_2,Get tile data at ${dnd_position} on layer ${layername} into ${var} on ${applyto},${applyto} で、レイヤー ${layername} の ${dnd_position} のタイルデータを取得して ${var} に入れます,,GML Visual story text
+GMStdTileGetElmPixel_Story_3,Get tile data at ${dnd_position} on layer ${layername} into temp ${var},レイヤー ${layername} の ${dnd_position} のタイルデータを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdTileGetElmPixel_Story_4,Get tile data at ${dnd_position} on layer ${layername} into temp ${var} on ${applyto},${applyto} で、レイヤー ${layername} の ${dnd_position} のタイルデータを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdTileSetElm_Story_1,"Set tile data in cell ${x},${y} on layer ${layername} to ${element}","レイヤー ${layername} のセル ${x},${y} のタイルデータを ${element} に設定します",,GML Visual story text
+GMStdTileSetElm_Story_2,"Set tile data in cell ${x},${y} on layer ${layername} to ${element} on ${applyto}","${applyto} で、レイヤー ${layername} のセル ${x},${y} のタイルデータを ${element} に設定します",,GML Visual story text
+GMStdTileGetElm_Story_1,"Get tile data in cell ${x},${y} on layer ${layername} into ${var}","レイヤー ${layername} のセル ${x},${y} のタイルデータを取得して ${var} に入れます",,GML Visual story text
+GMStdTileGetElm_Story_2,"Get tile data in cell ${x},${y} on layer ${layername} into ${var} on ${applyto}","${applyto} で、レイヤー ${layername} のセル ${x},${y} のタイルデータを取得して ${var} に入れます",,GML Visual story text
+GMStdTileGetElm_Story_3,"Get tile data in cell ${x},${y} on layer ${layername} into temp ${var}","レイヤー ${layername} のセル ${x},${y} のタイルデータを取得して一時変数 ${var} に入れます",,GML Visual story text
+GMStdTileGetElm_Story_4,"Get tile data in cell ${x},${y} on layer ${layername} into temp ${var} on ${applyto}","${applyto} で、レイヤー ${layername} のセル ${x},${y} のタイルデータを取得して一時変数 ${var} に入れます",,GML Visual story text
+GMStdTileTransform_Story_1,Flip tile data ${tile},タイルデータ ${tile} をフリップします,,GML Visual story text
+GMStdTileTransform_Story_2,Flip tile data ${tile} on ${applyto},${applyto} でタイルデータ ${tile} をフリップします,,GML Visual story text
+GMStdTileTransform_Story_3,Mirror tile data ${tile},タイルデータ ${tile} をミラーリングします,,GML Visual story text
+GMStdTileTransform_Story_4,Mirror tile data ${tile} on ${applyto},${applyto} でタイルデータ ${tile} をミラーリングします,,GML Visual story text
+GMStdTileTransform_Story_5,Rotate tile data ${tile},タイルデータ ${tile} を回転させます,,GML Visual story text
+GMStdTileTransform_Story_6,Rotate tile data ${tile} on ${applyto},${applyto} でタイルデータ ${tile} を回転させます,,GML Visual story text
+GMStdTileGetTransform_Story_1,Get flip of tile data ${tile} into ${var},タイルデータ ${tile} のフリップを取得して ${var} に入れます,,GML Visual story text
+GMStdTileGetTransform_Story_2,Get flip of tile data ${tile} into ${var} on ${applyto},${applyto} で、タイルデータ ${tile} のフリップを取得して ${var} に入れます,,GML Visual story text
+GMStdTileGetTransform_Story_3,Get flip of tile data ${tile} into temp ${var},タイルデータ ${tile} のフリップを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdTileGetTransform_Story_4,Get flip of tile data ${tile} into temp ${var} on ${applyto},${applyto} で、タイルデータ ${tile} のフリップを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdTileGetTransform_Story_5,Get mirror of tile data ${tile} into ${var},タイルデータ ${tile} のミラーを取得して ${var} に入れます,,GML Visual story text
+GMStdTileGetTransform_Story_6,Get mirror of tile data ${tile} into ${var} on ${applyto},${applyto} で、タイルデータ ${tile} のミラーを取得して ${var} に入れます,,GML Visual story text
+GMStdTileGetTransform_Story_7,Get mirror of tile data ${tile} into temp ${var},タイルデータ ${tile} のミラーを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdTileGetTransform_Story_8,Get mirror of tile data ${tile} into temp ${var} on ${applyto},${applyto} で、タイルデータ ${tile} のミラーを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdTileGetTransform_Story_9,Get rotate of tile data ${tile} into ${var},タイルデータ ${tile} の回転を取得して ${var} に入れます,,GML Visual story text
+GMStdTileGetTransform_Story_10,Get rotate of tile data ${tile} into ${var} on ${applyto},${applyto} で、タイルデータ ${tile} の回転を取得して ${var} に入れます,,GML Visual story text
+GMStdTileGetTransform_Story_11,Get rotate of tile data ${tile} into temp ${var},タイルデータ ${tile} の回転を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdTileGetTransform_Story_12,Get rotate of tile data ${tile} into temp ${var} on ${applyto},${applyto} で、タイルデータ ${tile} の回転を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdPlayAudio_Story_1,Play audio ${soundid} looped and assign id to ${target},オーディオ ${soundid} をループ再生し、ID を ${target} に割り当てます,,GML Visual story text
+GMStdPlayAudio_Story_2,Play audio ${soundid} looped and assign id to ${target} on ${applyto},${applyto} で、オーディオ ${soundid} をループ再生し、ID を ${target} に割り当てます,,GML Visual story text
+GMStdPlayAudio_Story_3,Play audio ${soundid} looped,オーディオ ${soundid} をループ再生します,,GML Visual story text
+GMStdPlayAudio_Story_4,Play audio ${soundid} looped on ${applyto},${applyto} で、オーディオ ${soundid} をループ再生します,,GML Visual story text
+GMStdPlayAudio_Story_5,Play audio ${soundid} looped and assign id to temp ${target},オーディオ ${soundid} をループ再生し、ID を一時変数 ${target} に割り当てます,,GML Visual story text
+GMStdPlayAudio_Story_6,Play audio ${soundid} looped and assign id to temp ${target} on ${applyto},${applyto} で、オーディオ ${soundid} をループ再生し、ID を一時変数 ${target} に割り当てます,,GML Visual story text
+GMStdPlayAudio_Story_7,Play audio ${soundid} and assign id to ${target},オーディオ ${soundid} を再生し、ID を ${target} に割り当てます,,GML Visual story text
+GMStdPlayAudio_Story_8,Play audio ${soundid} and assign id to ${target} on ${applyto},${applyto} で、オーディオ ${soundid} を再生し、ID を ${target} に割り当てます,,GML Visual story text
+GMStdPlayAudio_Story_9,Play audio ${soundid},オーディオ ${soundid} を再生します,,GML Visual story text
+GMStdPlayAudio_Story_10,Play audio ${soundid} on ${applyto},${applyto} で、オーディオ ${soundid} を再生します,,GML Visual story text
+GMStdPlayAudio_Story_11,Play audio ${soundid} and assign id to temp ${target},オーディオ ${soundid} を再生し、ID を一時変数 ${target} に割り当てます,,GML Visual story text
+GMStdPlayAudio_Story_12,Play audio ${soundid} and assign id to temp ${target} on ${applyto},${applyto} で、オーディオ ${soundid} を再生し、ID を一時変数 ${target} に割り当てます,,GML Visual story text
+GMStdStopAudio_Story_1,Stop audio ${soundid},オーディオ ${soundid} を停止します,,GML Visual story text
+GMStdStopAudio_Story_2,Stop audio ${soundid} on ${applyto},${applyto} で、オーディオ ${soundid} を停止します,,GML Visual story text
+GMStdStopAllAudio_Story_1,Stop all audio,すべてのオーディオを停止します,,GML Visual story text
+GMStdStopAllAudio_Story_2,Stop all audio on ${applyto},${applyto} ですべてのオーディオを停止します,,GML Visual story text
+GMStdPauseAudio_Story_1,Pause audio ${sound},オーディオ ${sound} を一時停止します,,GML Visual story text
+GMStdPauseAudio_Story_2,Pause audio ${sound} on ${applyto},${applyto} でオーディオ ${sound} を一時停止します,,GML Visual story text
+GMStdPauseAllAudio_Story_1,Pause all audio,すべてのオーディオを一時停止します,,GML Visual story text
+GMStdPauseAllAudio_Story_2,Pause all audio on ${applyto},${applyto} ですべてのオーディオを一時停止します,,GML Visual story text
+GMStdResumeAudio_Story_1,Resume audio ${sound},オーディオ ${sound} を再開します,,GML Visual story text
+GMStdResumeAudio_Story_2,Resume audio ${sound} on ${applyto},${applyto} で、オーディオ ${sound} を再開します,,GML Visual story text
+GMStdResumeAllAudio_Story_1,Resume all audio,すべてのオーディオを再開します,,GML Visual story text
+GMStdResumeAllAudio_Story_2,Resume all audio on ${applyto},${applyto} ですべてのオーディオを再開します,,GML Visual story text
+GMStdAudioSetPosition_Story_1,Set audio position of ${sound} to ${time} seconds,${sound} のオーディオの位置を ${time} 秒に設定します,,GML Visual story text
+GMStdAudioSetPosition_Story_2,Set audio position of ${sound} to ${time} seconds on ${applyto},${applyto} で、${sound} のオーディオの位置を ${time} 秒に設定します,,GML Visual story text
+GMStdAudioGetLength_Story_1,Get length of audio ${sound} into ${var},オーディオ ${sound} の長さを取得して ${var} に入れます,,GML Visual story text
+GMStdAudioGetLength_Story_2,Get length of audio ${sound} into ${var} on ${applyto},${applyto} で、オーディオ ${sound} の長さを取得して ${var} に入れます,,GML Visual story text
+GMStdAudioGetLength_Story_3,Get length of audio ${sound} into temp ${var},オーディオ ${sound} の長さを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdAudioGetLength_Story_4,Get length of audio ${sound} into temp ${var} on ${applyto},${applyto} で、オーディオ ${sound} の長さを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdAudioSetPitch_Story_1,Set pitch of audio ${sound} to ${pitch},オーディオ ${sound} のピッチを ${pitch} に設定します,,GML Visual story text
+GMStdAudioSetPitch_Story_2,Set pitch of audio ${sound} to ${pitch} on ${applyto},${applyto} で、オーディオ ${sound} のピッチを ${pitch} に設定します,,GML Visual story text
+GMStdAudioGetPitch_Story_1,Get pitch of audio ${sound} into ${var},オーディオ ${sound} のピッチを取得して ${var} に入れます,,GML Visual story text
+GMStdAudioGetPitch_Story_2,Get pitch of audio ${sound} into ${var} on ${applyto},${applyto} で、オーディオ ${sound} のピッチを取得して ${var} に入れます,,GML Visual story text
+GMStdAudioGetPitch_Story_3,Get pitch of audio ${sound} into temp ${var},オーディオ ${sound} のピッチを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdAudioGetPitch_Story_4,Get pitch of audio ${sound} into temp ${var} on ${applyto},${applyto} で、オーディオ ${sound} のピッチを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdAudioSetVolume_Story_1,Set volume of audio ${sound} to ${volume},オーディオ ${sound} の音量を ${volume} に設定します,,GML Visual story text
+GMStdAudioSetVolume_Story_2,Set volume of audio ${sound} to ${volume} on ${applyto},${applyto} で、オーディオ ${sound} の音量を ${volume} に設定します,,GML Visual story text
+GMStdAudioGetVolume_Story_1,Get volume of audio ${sound} into ${var},オーディオ ${sound} の音量を取得して ${var} に入れます,,GML Visual story text
+GMStdAudioGetVolume_Story_2,Get volume of audio ${sound} into ${var} on ${applyto},${applyto} で、オーディオ ${sound} の音量を取得して ${var} に入れます,,GML Visual story text
+GMStdAudioGetVolume_Story_3,Get volume of audio ${sound} into temp ${var},オーディオ ${sound} の音量を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdAudioGetVolume_Story_4,Get volume of audio ${sound} into temp ${var} on ${applyto},${applyto} で、オーディオ ${sound} の音量を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdAudoSetMasterVolume_Story_1,Set master volume to ${volume},マスター音量を ${volume} に設定します,,GML Visual story text
+GMStdAudoSetMasterVolume_Story_2,Set master volume to ${volume} on ${applyto},${applyto} で、マスター音量を ${volume} に設定します,,GML Visual story text
+GMStdAudioGetMasterVolume_Story_1,Get master volume into ${var},マスター音量を取得して ${var} に入れます,,GML Visual story text
+GMStdAudioGetMasterVolume_Story_2,Get master volume into ${var} on ${applyto},${applyto} で、マスター音量を取得して ${var} に入れます,,GML Visual story text
+GMStdAudioGetMasterVolume_Story_3,Get master volume into temp ${var},マスター音量を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdAudioGetMasterVolume_Story_4,Get master volume into temp ${var} on ${applyto},${applyto} で、マスター音量を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdIfAudioPlaying_Story_1,If audio ${soundid} is not playing,オーディオ ${soundid} が再生していない場合,,GML Visual story text
+GMStdIfAudioPlaying_Story_2,If audio ${soundid} is not playing on ${applyto},${applyto} でオーディオ ${soundid} が再生していない場合,,GML Visual story text
+GMStdIfAudioPlaying_Story_3,If audio ${soundid} is playing,オーディオ ${soundid} が再生している場合,,GML Visual story text
+GMStdIfAudioPlaying_Story_4,If audio ${soundid} is playing on ${applyto},${applyto} でオーディオ ${soundid} が再生している場合,,GML Visual story text
+GMStdIfAudioPaused_Story_1,If audio ${soundid} is not paused,オーディオ ${soundid} が一時停止していない場合,,GML Visual story text
+GMStdIfAudioPaused_Story_2,If audio ${soundid} is not paused on ${applyto},${applyto} でオーディオ ${soundid} が一時停止していない場合,,GML Visual story text
+GMStdIfAudioPaused_Story_3,If audio ${soundid} is paused,オーディオ ${soundid} が一時停止している場合,,GML Visual story text
+GMStdIfAudioPaused_Story_4,If audio ${soundid} is paused on ${applyto},${applyto} でオーディオ ${soundid} が一時停止している場合,,GML Visual story text
+GMStdLoop_Story,Loop,ループ,,GML Visual story text
+GMStdRepeat_Story_1,Repeat ${times} times,${times} 回リピートします,,GML Visual story text
+GMStdRepeat_Story_2,Repeat ${times} times on ${applyto},${applyto} で ${times} 回リピートします,,GML Visual story text
+GMStdWhileLoop_Story_1,While ${var} is not equal to ${value},${var} が ${value} に等しくない間,,GML Visual story text
+GMStdWhileLoop_Story_2,While ${var} is not equal to ${value} on ${applyto},${applyto} で ${var} が ${value} に等しくない間,,GML Visual story text
+GMStdWhileLoop_Story_3,While ${var} is not less than ${value},${var} が ${value} より小さくない間,,GML Visual story text
+GMStdWhileLoop_Story_4,While ${var} is not less than ${value} on ${applyto},${applyto} で ${var} が ${value} より小さくない間,,GML Visual story text
+GMStdWhileLoop_Story_5,While ${var} is not greater than ${value},${var} が ${value} より大きくない間,,GML Visual story text
+GMStdWhileLoop_Story_6,While ${var} is not greater than ${value} on ${applyto},${applyto} で ${var} が ${value} より大きくない間,,GML Visual story text
+GMStdWhileLoop_Story_7,While ${var} is not greater than or equal to ${value},${var} が ${value} 以上でない間,,GML Visual story text
+GMStdWhileLoop_Story_8,While ${var} is not greater than or equal to ${value} on ${applyto},${applyto} で ${var} が ${value} 以上でない間,,GML Visual story text
+GMStdWhileLoop_Story_9,While ${var} is not less than or equal to ${value},${applyto} で ${var} が ${value} 以下でない間,,GML Visual story text
+GMStdWhileLoop_Story_10,While ${var} is not less than or equal to ${value} on ${applyto},${applyto} で ${var} が ${value} 以下でない間,,GML Visual story text
+GMStdWhileLoop_Story_11,While ${var} is equal to ${value},${var} が ${value} に等しい間,,GML Visual story text
+GMStdWhileLoop_Story_12,While ${var} is equal to ${value} on ${applyto},${applyto} で ${var} が ${value} に等しい間,,GML Visual story text
+GMStdWhileLoop_Story_13,While ${var} is less than ${value},${var} が ${value} より小さい間,,GML Visual story text
+GMStdWhileLoop_Story_14,While ${var} is less than ${value} on ${applyto},${applyto} で ${var} が ${value} より小さい間,,GML Visual story text
+GMStdWhileLoop_Story_15,While ${var} is greater than ${value},${var} が ${value} より大きい間,,GML Visual story text
+GMStdWhileLoop_Story_16,While ${var} is greater than ${value} on ${applyto},${applyto} で ${var} が ${value} より大きい間,,GML Visual story text
+GMStdWhileLoop_Story_17,While ${var} is greater than or equal to ${value},${var} が ${value} 以上の間,,GML Visual story text
+GMStdWhileLoop_Story_18,While ${var} is greater than or equal to ${value} on ${applyto},${applyto} で ${var} が ${value} 以上の間,,GML Visual story text
+GMStdWhileLoop_Story_19,While ${var} is less than or equal to ${value},${var} が ${value} 以下の間,,GML Visual story text
+GMStdWhileLoop_Story_20,While ${var} is less than or equal to ${value} on ${applyto},${applyto} で ${var} が ${value} 以下の間,,GML Visual story text
+GMStdForLoop_Story_1,"For ${init}, while ${cond} do ${expr}",${init} の場合、${cond} が ${expr} のとき,,GML Visual story text
+GMStdForLoop_Story_2,"For ${init}, while ${cond} do ${expr} on ${applyto}",${init} の場合、${applyto} で ${cond} が ${expr} のとき,,GML Visual story text
+GMStdBreak_Story,Break,ブレイク,,GML Visual story text
+GMStdSwitch_Story_1,Switch ${expr},${expr} に基づいてスイッチ分岐,,GML Visual story text
+GMStdSwitch_Story_2,Switch ${expr} on ${applyto},${applyto} で ${expr} に基づいてスイッチ分岐,,GML Visual story text
+GMStdCase_Story_1,Case: ${const},ケース: ${const},,GML Visual story text
+GMStdDefault_Story,Default,デフォルト,,GML Visual story text
+GMStdCreateList_Story_1,Set a new list to ${var}${show_input_count},新規のリストを ${var} に設定します ${show_input_count},,GML Visual story text
+GMStdCreateList_Story_2,Set a new list to ${var} on ${applyto}${show_input_count},${applyto} で、新規のリストを ${var} に設定します ${show_input_count},,GML Visual story text
+GMStdCreateList_Story_3,Set a new list to temp ${var}${show_input_count},新規のリストを一時変数 ${var} に設定します ${show_input_count},,GML Visual story text
+GMStdCreateList_Story_4,Set a new list to temp ${var} on ${applyto}${show_input_count},${applyto} で新規のリストを一時変数 ${var} に設定します ${show_input_count},,GML Visual story text
+GMStdCreateMap_Story_1,Set a new map to ${var}${show_input_count},新規のマップを ${var} に設定します ${show_input_count},,GML Visual story text
+GMStdCreateMap_Story_2,Set a new map to ${var} on ${applyto}${show_input_count},${applyto} で新規のマップを ${var} に設定します ${show_input_count},,GML Visual story text
+GMStdCreateMap_Story_3,Set a new map to temp ${var}${show_input_count},新規のマップを一時変数 ${var} に設定します ${show_input_count},,GML Visual story text
+GMStdCreateMap_Story_4,Set a new map to temp ${var} on ${applyto}${show_input_count},${applyto} で新規のマップを一時変数 ${var} に設定します ${show_input_count},,GML Visual story text
+GMStdCreateGrid_Story_1,"Set a new grid with size ${width},${height} to ${var}${show_input_count}","新規のグリッド幅のサイズ ${width},${height} を ${var} に設定します ${show_input_count}",,GML Visual story text
+GMStdCreateGrid_Story_2,"Set a new grid with size ${width},${height} to ${var} on ${applyto}${show_input_count}","${applyto} で新規のグリッド幅のサイズ ${width},${height} を ${var} に設定します ${show_input_count}",,GML Visual story text
+GMStdCreateGrid_Story_3,"Set a new grid with size ${width},${height} to temp ${var}${show_input_count}","新規のグリッド幅のサイズ ${width},${height} を一時変数 ${var} に設定します ${show_input_count}",,GML Visual story text
+GMStdCreateGrid_Story_4,"Set a new grid with size ${width},${height} to temp ${var} on ${applyto}${show_input_count}","${applyto} で新規のグリッド幅のサイズ ${width},${height} を一時変数 ${var} に設定します ${show_input_count}",,GML Visual story text
+GMStdCreateStack_Story_1,Set a new stack to ${var}${show_input_count},新規のスタックを ${var} に設定します ${show_input_count},,GML Visual story text
+GMStdCreateStack_Story_2,Set a new stack to ${var} on ${applyto}${show_input_count},${applyto} で新規のスタックを ${var} に設定します ${show_input_count},,GML Visual story text
+GMStdCreateStack_Story_3,Set a new stack to temp ${var}${show_input_count},新規のスタックを一時変数 ${var} に設定します ${show_input_count},,GML Visual story text
+GMStdCreateStack_Story_4,Set a new stack to temp ${var} on ${applyto}${show_input_count},${applyto} で新規のスタックを一時変数 ${var} に設定します ${show_input_count},,GML Visual story text
+GMStdDSClear_Story_1,Clear list in ${var}${show_input_count},${var} でリストをクリアします ${show_input_count},,GML Visual story text
+GMStdDSClear_Story_2,Clear list in ${var} on ${applyto}${show_input_count},${applyto} の ${var} でリストをクリアします ${show_input_count},,GML Visual story text
+GMStdDSClear_Story_3,Clear map in ${var}${show_input_count},${var} でマップをクリアします ${show_input_count},,GML Visual story text
+GMStdDSClear_Story_4,Clear map in ${var} on ${applyto}${show_input_count},${applyto} の ${var} でマップをクリアします ${show_input_count},,GML Visual story text
+GMStdDSClear_Story_5,Clear grid in ${var}${show_input_count},${var} でグリッドをクリアします ${show_input_count},,GML Visual story text
+GMStdDSClear_Story_6,Clear grid in ${var} on ${applyto}${show_input_count},${applyto} の ${var} でグリッドをクリアします ${show_input_count},,GML Visual story text
+GMStdDSClear_Story_7,Clear stack in ${var}${show_input_count},${var} でスタックをクリアします ${show_input_count},,GML Visual story text
+GMStdDSClear_Story_8,Clear stack in ${var} on ${applyto}${show_input_count},${applyto} の ${var} でスタックをクリアします ${show_input_count},,GML Visual story text
+GMStdDSFree_Story_1,Free list ${var} from memory${show_input_count},memory からリスト ${var} を解放します ${show_input_count},,GML Visual story text
+GMStdDSFree_Story_2,Free list ${var} from memory on ${applyto}${show_input_count},${applyto} でメモリからリスト ${var} を解放します ${show_input_count},,GML Visual story text
+GMStdDSFree_Story_3,Free map ${var} from memory${show_input_count},memory からマップ ${var} を解放します ${show_input_count},,GML Visual story text
+GMStdDSFree_Story_4,Free map ${var} from memory on ${applyto}${show_input_count},${applyto} でメモリからマップ ${var} を解放します ${show_input_count},,GML Visual story text
+GMStdDSFree_Story_5,Free grid ${var} from memory${show_input_count},memory からグリッド ${var} を解放します ${show_input_count},,GML Visual story text
+GMStdDSFree_Story_6,Free grid ${var} from memory on ${applyto}${show_input_count},${applyto} でメモリからグリッド ${var} を解放します ${show_input_count},,GML Visual story text
+GMStdDSFree_Story_7,Free stack ${var} from memory${show_input_count},memory からスタック ${var} を解放します ${show_input_count},,GML Visual story text
+GMStdDSFree_Story_8,Free stack ${var} from memory on ${applyto}${show_input_count},${applyto} でメモリからスタック ${var} を解放します ${show_input_count},,GML Visual story text
+GMStdListAdd_Story_1,Add ${value} to list ${var}${show_input_count},${value} をリスト ${var} に加算します ${show_input_count},,GML Visual story text
+GMStdListAdd_Story_2,Add ${value} to list ${var} on ${applyto}${show_input_count},${applyto} で ${value} をリスト ${var} に加算します ${show_input_count},,GML Visual story text
+GMStdListRemove_Story_1,Remove item ${index} from list ${var},アイテム ${index} をリスト ${var} から削除します,,GML Visual story text
+GMStdListRemove_Story_2,Remove item ${index} from list ${var} on ${applyto},${applyto} で、アイテム ${index} をリスト ${var} から削除します,,GML Visual story text
+GMStdListGetAt_Story_1,Get item ${index} in list ${var} into ${assignee}${show_input_count},リスト ${var} のアイテム ${index} を取得して ${assignee} に入れます ${show_input_count},,GML Visual story text
+GMStdListGetAt_Story_2,Get item ${index} in list ${var} into ${assignee} on ${applyto}${show_input_count},${applyto} で、リスト ${var} のアイテム ${index} を取得して、 ${assignee} に入れます ${show_input_count},,GML Visual story text
+GMStdListGetAt_Story_3,Get item ${index} in list ${var} into temp ${assignee}${show_input_count},リスト ${var} のアイテム ${index} を取得して、一時変数 ${assignee} に入れます ${show_input_count},,GML Visual story text
+GMStdListGetAt_Story_4,Get item ${index} in list ${var} into temp ${assignee} on ${applyto}${show_input_count},${applyto} で、リスト ${var} のアイテム ${index} を取得して、一時${assignee} に入れます ${show_input_count},,GML Visual story text
+GMStdListIndexOf_Story_1,Get index of item ${value} in list ${var} into ${assignee}${show_input_count},リスト ${var} のアイテム ${value} を取得して ${assignee} に入れます ${show_input_count},,GML Visual story text
+GMStdListIndexOf_Story_2,Get index of item ${value} in list ${var} into ${assignee} on ${applyto}${show_input_count},${applyto} で、リスト ${var} のアイテム ${value} を取得して、 ${assignee} に入れます ${show_input_count},,GML Visual story text
+GMStdListIndexOf_Story_3,Get index of item ${value} in list ${var} into temp ${assignee}${show_input_count},リスト ${var} のアイテム ${value} を取得して、一時変数 ${assignee} に入れます ${show_input_count},,GML Visual story text
+GMStdListIndexOf_Story_4,Get index of item ${value} in list ${var} into temp ${assignee} on ${applyto}${show_input_count},${applyto} で、リスト ${var} のアイテム ${value} を取得して、一時変数 ${assignee} に入れます ${show_input_count},,GML Visual story text
+GMStdListInsert_Story_1,Insert ${value} into list ${var} at index ${index},インデックス ${index} で ${value} をリスト ${var} に挿入します,,GML Visual story text
+GMStdListInsert_Story_2,Insert ${value} into list ${var} at index ${index} on ${applyto},${applyto} で、インデックス ${index} で ${value} をリスト ${var} に挿入します,,GML Visual story text
+GMStdListCount_Story_1,Get item count in list ${var} and assign it to ${assignee},リスト ${var} のアイテム数を取得して、${assignee} に割り当てます,,GML Visual story text
+GMStdListCount_Story_2,Get item count in list ${var} and assign it to ${assignee} on ${applyto},${applyto} で、リスト ${var} のアイテム数を取得して、${assignee} に割り当てます,,GML Visual story text
+GMStdListCount_Story_3,Get item count in list ${var} and assign it to temp ${assignee},リスト ${var} のアイテム数を取得して、一時変数 ${assignee} に割り当てます,,GML Visual story text
+GMStdListCount_Story_4,Get item count in list ${var} and assign it to temp ${assignee} on ${applyto},${applyto} で、リスト ${var} のアイテム数を取得して、一時変数 ${assignee} に割り当てます,,GML Visual story text
+GMStdMapSetValue_Story_1,Set key ${key} to ${value} in map ${var}${show_input_count},キー ${key} をマップ ${var} の ${value} に設定します ${show_input_count},,GML Visual story text
+GMStdMapSetValue_Story_2,Set key ${key} to ${value} in map ${var} on ${applyto}${show_input_count},${applyto} で、キー ${key} をマップ ${var} の ${value} に設定します ${show_input_count},,GML Visual story text
+GMStdMapGetValue_Story_1,Get value of key ${key} in map ${map} into ${assignee}${show_input_count},マップ ${map} のキー ${key} の値を取得して ${assignee} に入れます ${show_input_count},,GML Visual story text
+GMStdMapGetValue_Story_2,Get value of key ${key} in map ${map} into ${assignee} on ${applyto}${show_input_count},${applyto} で、マップ ${map} のキー ${key} の値を取得して、${assignee} に入れます ${show_input_count},,GML Visual story text
+GMStdMapGetValue_Story_3,Get value of key ${key} in map ${map} into temp ${assignee}${show_input_count},マップ ${map} のキー ${key} の値を取得して、一時変数 ${assignee} に入れます ${show_input_count},,GML Visual story text
+GMStdMapGetValue_Story_4,Get value of key ${key} in map ${map} into temp ${assignee} on ${applyto}${show_input_count},${applyto} で、マップ ${map} のキー ${key} の値を取得して、一時変数 ${assignee} に入れます ${show_input_count},,GML Visual story text
+GMStdMapRemove_Story_1,Remove key ${key} from map ${map}${show_input_count},マップ ${map} からキー ${key} を削除します ${show_input_count},,GML Visual story text
+GMStdMapRemove_Story_2,Remove key ${key} from map ${map} on ${applyto}${show_input_count},${applyto} で、マップ ${map} からキー ${key} を削除します ${show_input_count},,GML Visual story text
+GMStdGridSetValue_Story_1,"Set ${value} in grid ${var} at ${x},${y}${show_input_count}","グリッド ${var} の ${value} を ${x},${y} で設定します ${show_input_count}",,GML Visual story text
+GMStdGridSetValue_Story_2,"Set ${value} in grid ${var} at ${x},${y} on ${applyto}${show_input_count}","${applyto} で、グリッド ${var} の ${value} を ${x},${y} で設定します ${show_input_count}",,GML Visual story text
+GMStdGridGetValue_Story_1,"Get value in grid ${var} at ${x},${y} into ${assignee}${show_input_count}","グリッド ${var} で ${x},${y} の値を取得して ${assignee} に入れます ${show_input_count}",,GML Visual story text
+GMStdGridGetValue_Story_2,"Get value in grid ${var} at ${x},${y} into ${assignee} on ${applyto}${show_input_count}","${x},${y} のグリッド ${var} の値を取得して、${applyto} に入れます ${show_input_count}",,GML Visual story text
+GMStdGridGetValue_Story_3,"Get value in grid ${var} at ${x},${y} into temp ${assignee}${show_input_count}","グリッド ${var} で ${x},${y} の ${value} を取得して、一時変数 ${assignee} に入れます ${show_input_count}",,GML Visual story text
+GMStdGridGetValue_Story_4,"Get value in grid ${var} at ${x},${y} into temp ${assignee} on ${applyto}${show_input_count}","${applyto} で、${x},${y} のグリッド ${var} の値を取得して、一時変数 ${assignee} に入れます ${show_input_count}",,GML Visual story text
+GMStdGridClear_Story_1,Clear grid ${var} to value ${value},値 ${value} に対するグリッド ${var} をクリアします,,GML Visual story text
+GMStdGridClear_Story_2,Clear grid ${var} to value ${value} on ${applyto},${applyto} で、値 ${value} に対するグリッド ${var} をクリアします,,GML Visual story text
+GMStdStackPush_Story_1,Push ${value} onto stack ${var}${show_input_count},${value} をスタック ${var} にプッシュします ${show_input_count},,GML Visual story text
+GMStdStackPush_Story_2,Push ${value} onto stack ${var} on ${applyto}${show_input_count},${applyto} で、${value} をスタック ${var} にプッシュします ${show_input_count},,GML Visual story text
+GMStdStackPop_Story_1,Pop from stack ${var} into ${assignee}${show_input_count},スタック ${var} から ${assignee} にポップします ${show_input_count},,GML Visual story text
+GMStdStackPop_Story_2,Pop from stack ${var} into ${assignee} on ${applyto}${show_input_count},${applyto} で、スタック ${var} から ${assignee} にポップします ${show_input_count},,GML Visual story text
+GMStdStackPop_Story_3,Pop from stack ${var} into temp ${assignee}${show_input_count},スタック ${var} から一時変数 ${assignee} にポップします ${show_input_count},,GML Visual story text
+GMStdStackPop_Story_4,Pop from stack ${var} into temp ${assignee} on ${applyto}${show_input_count},${applyto} で、スタック ${var} から一時変数 ${assignee} にポップします ${show_input_count},,GML Visual story text
+GMStdIfDSExists_Story_1,If list ${var} does not exists,リスト ${var} が存在しない場合,,GML Visual story text
+GMStdIfDSExists_Story_2,If list ${var} does not exists on ${applyto},${applyto} にリスト ${var} が存在しない場合,,GML Visual story text
+GMStdIfDSExists_Story_3,If list ${var} exists,リスト ${var} が存在する場合,,GML Visual story text
+GMStdIfDSExists_Story_4,If list ${var} exists on ${applyto},${applyto} にリスト ${var} が存在する場合,,GML Visual story text
+GMStdIfDSExists_Story_5,If map ${var} does not exists,マップ ${var} が存在しない場合,,GML Visual story text
+GMStdIfDSExists_Story_6,If map ${var} does not exists on ${applyto},${applyto} にマップ ${var} が存在しない場合,,GML Visual story text
+GMStdIfDSExists_Story_7,If map ${var} exists,マップ ${var} が存在する場合,,GML Visual story text
+GMStdIfDSExists_Story_8,If map ${var} exists on ${applyto},${applyto} にマップ ${var} が存在する場合,,GML Visual story text
+GMStdIfDSExists_Story_9,If grid ${var} does not exists,グリッド ${var} が存在しない場合,,GML Visual story text
+GMStdIfDSExists_Story_10,If grid ${var} does not exists on ${applyto},${applyto} にグリッド ${var} が存在しない場合,,GML Visual story text
+GMStdIfDSExists_Story_11,If grid ${var} exists,グリッド ${var} が存在する場合,,GML Visual story text
+GMStdIfDSExists_Story_12,If grid ${var} exists on ${applyto},${applyto} にグリッド ${var} が存在する場合,,GML Visual story text
+GMStdIfDSExists_Story_13,If stack ${var} does not exists,スタック ${var} が存在しない場合,,GML Visual story text
+GMStdIfDSExists_Story_14,If stack ${var} does not exists on ${applyto},${applyto} にスタック ${var} が存在しない場合,,GML Visual story text
+GMStdIfDSExists_Story_15,If stack ${var} exists,スタック ${var} が存在する場合,,GML Visual story text
+GMStdIfDSExists_Story_16,If stack ${var} exists on ${applyto},${applyto} にスタック ${var} が存在する場合,,GML Visual story text
+GMStdIfDSEmpty_Story_1,If list ${var} is not empty,リスト ${var} が空ではない場合,,GML Visual story text
+GMStdIfDSEmpty_Story_2,If list ${var} is not empty on ${applyto},${applyto} でリスト ${var} が空ではない場合,,GML Visual story text
+GMStdIfDSEmpty_Story_3,If list ${var} is empty,リスト ${var} が空である場合,,GML Visual story text
+GMStdIfDSEmpty_Story_4,If list ${var} is empty on ${applyto},${applyto} でリスト ${var} が空である場合,,GML Visual story text
+GMStdIfDSEmpty_Story_5,If map ${var} is not empty,マップ ${var} が空ではない場合,,GML Visual story text
+GMStdIfDSEmpty_Story_6,If map ${var} is not empty on ${applyto},${applyto} でマップ ${var} が空ではない場合,,GML Visual story text
+GMStdIfDSEmpty_Story_7,If map ${var} is empty,マップ ${var} が空である場合,,GML Visual story text
+GMStdIfDSEmpty_Story_8,If map ${var} is empty on ${applyto},${applyto} でマップ ${var} が空である場合,,GML Visual story text
+GMStdIfDSEmpty_Story_9,If grid ${var} is not empty,グリッド ${var} が空ではない場合,,GML Visual story text
+GMStdIfDSEmpty_Story_10,If grid ${var} is not empty on ${applyto},${applyto} でグリッド ${var} が空ではない場合,,GML Visual story text
+GMStdIfDSEmpty_Story_11,If grid ${var} is empty,グリッド ${var} が空である場合,,GML Visual story text
+GMStdIfDSEmpty_Story_12,If grid ${var} is empty on ${applyto},${applyto} でグリッド ${var} が空である場合,,GML Visual story text
+GMStdIfDSEmpty_Story_13,If stack ${var} is not empty,スタック ${var} が空ではない場合,,GML Visual story text
+GMStdIfDSEmpty_Story_14,If stack ${var} is not empty on ${applyto},${applyto} でスタック ${var} が空ではない場合,,GML Visual story text
+GMStdIfDSEmpty_Story_15,If stack ${var} is empty,スタック ${var} が空である場合,,GML Visual story text
+GMStdIfDSEmpty_Story_16,If stack ${var} is empty on ${applyto},${applyto} でスタック ${var} が空である場合,,GML Visual story text
+GMStdBufferCreate_Story_1,Create buffer into ${target}${show_input_count},バッファを作成して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdBufferCreate_Story_2,Create buffer into ${target} on ${applyto}${show_input_count},${applyto} でバッファを作成して ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdBufferCreate_Story_3,Create buffer into temp ${target}${show_input_count},バッファを作成して一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdBufferCreate_Story_4,Create buffer into temp ${target} on ${applyto}${show_input_count},${applyto} でバッファを作成して、一時変数 ${target} に入れます ${show_input_count},,GML Visual story text
+GMStdBufferCopy_Story_1,Copy buffer ${buffer} into ${target},バッファ ${buffer} を ${target} にコピーします,,GML Visual story text
+GMStdBufferCopy_Story_2,Copy buffer ${buffer} into ${target} on ${applyto},${applyto} でバッファ ${buffer} を ${target} にコピーします,,GML Visual story text
+GMStdBufferDelete_Story_1,Delete buffer ${buffer}${show_input_count},バッファ ${buffer} を削除します ${show_input_count},,GML Visual story text
+GMStdBufferDelete_Story_2,Delete buffer ${buffer} on ${applyto}${show_input_count},${applyto} でバッファ ${buffer} を削除します ${show_input_count},,GML Visual story text
+GMStdBufferRead_Story_1,Read from buffer ${buffer},バッファ ${buffer} から読み取ります,,GML Visual story text
+GMStdBufferRead_Story_2,Read from buffer ${buffer} on ${applyto},${applyto} でバッファ ${buffer} から読み取ります,,GML Visual story text
+GMStdBufferRead_Story_3,Read from buffer ${buffer} into ${target},バッファ ${buffer} から ${target} に読み取ります,,GML Visual story text
+GMStdBufferRead_Story_4,Read from buffer ${buffer} into ${target} on ${applyto},${applyto} でバッファ ${buffer} から ${target} に読み取ります,,GML Visual story text
+GMStdBufferRead_Story_5,Read from buffer ${buffer} into temp ${target},バッファ ${buffer} から一時変数 ${target} に読み取ります,,GML Visual story text
+GMStdBufferRead_Story_6,Read from buffer ${buffer} into temp ${target} on ${applyto},${applyto} でバッファ ${buffer} から一時変数 ${target} に読み取ります,,GML Visual story text
+GMStdBufferWrite_Story_1,Write ${value} to buffer ${buffer},${value} をバッファ ${buffer} に書き込みます,,GML Visual story text
+GMStdBufferWrite_Story_2,Write ${value} to buffer ${buffer} on ${applyto},${applyto} で ${value} をバッファ ${buffer} に書き込みます,,GML Visual story text
+GMStdBufferSeek_Story_1,Seek to position ${pos} from start in buffer ${buffer},バッファ ${buffer} 内の先頭から位置 ${pos} を求めます,,GML Visual story text
+GMStdBufferSeek_Story_2,Seek to position ${pos} from start in buffer ${buffer} on ${applyto},${applyto} で、バッファ ${buffer} 内の先頭から位置 ${pos} を求めます,,GML Visual story text
+GMStdBufferSeek_Story_3,Seek to position ${pos} relative to position in buffer ${buffer},バッファ ${buffer} 内の位置に対する位置 ${pos} を求めます,,GML Visual story text
+GMStdBufferSeek_Story_4,Seek to position ${pos} relative to position in buffer ${buffer} on ${applyto},${applyto} で、バッファ ${buffer} 内の位置に対する位置 ${pos} を求めます,,GML Visual story text
+GMStdBufferSeek_Story_5,Seek to position ${pos} from end in buffer ${buffer},バッファ ${buffer} 内の末尾から位置 ${pos} を求めます,,GML Visual story text
+GMStdBufferSeek_Story_6,Seek to position ${pos} from end in buffer ${buffer} on ${applyto},${applyto} で、バッファ ${buffer} 内の末尾から位置 ${pos} を求めます,,GML Visual story text
+GMStdBufferGetSize_Story_1,Get size of buffer ${buffer} into ${target},バッファ ${buffer} のサイズを取得して ${target} に入れます,,GML Visual story text
+GMStdBufferGetSize_Story_2,Get size of buffer ${buffer} into ${target} on ${applyto},${applyto} で、バッファ ${buffer} のサイズを取得して ${target} に入れます,,GML Visual story text
+GMStdBufferGetSize_Story_3,Get size of buffer ${buffer} into temp ${target},バッファ ${buffer} のサイズを取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdBufferGetSize_Story_4,Get size of buffer ${buffer} into temp ${target} on ${applyto},${applyto} で、バッファ ${buffer} のサイズを取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdBufferGetPosition_Story_1,Get position in buffer ${buffer} into ${target},バッファ ${buffer} 内の位置を取得して ${target} に入れます,,GML Visual story text
+GMStdBufferGetPosition_Story_2,Get position in buffer ${buffer} into ${target} on ${applyto},${applyto} で、バッファ ${buffer} 内の位置を取得して ${target} に入れます,,GML Visual story text
+GMStdBufferGetPosition_Story_3,Get position in buffer ${buffer} into temp ${target},バッファ ${buffer} の位置を取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdBufferGetPosition_Story_4,Get position in buffer ${buffer} into temp ${target} on ${applyto},${applyto} で、バッファ ${buffer} 内の位置を取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdBufferExists_Story_1,If buffer ${buffer} does not exist,バッファ ${buffer} が存在しない場合,,GML Visual story text
+GMStdBufferExists_Story_2,If buffer ${buffer} does not exist on ${applyto},${applyto} にバッファ ${buffer} が存在しない場合,,GML Visual story text
+GMStdBufferExists_Story_3,If buffer ${buffer} exists,バッファ ${buffer} が存在する場合,,GML Visual story text
+GMStdBufferExists_Story_4,If buffer ${buffer} exists on ${applyto},${applyto} にバッファ ${buffer} が存在する場合,,GML Visual story text
+GMStdBufferEOS_Story_1,If end of buffer ${buffer} not reached,バッファ ${buffer} の終わりに到達しない場合,,GML Visual story text
+GMStdBufferEOS_Story_2,If end of buffer ${buffer} not reached on ${applyto},${applyto} でバッファ ${buffer} の終わりに到達しない場合,,GML Visual story text
+GMStdBufferEOS_Story_3,If end of buffer ${buffer} reached,バッファ ${buffer} の終わりに到達した場合,,GML Visual story text
+GMStdBufferEOS_Story_4,If end of buffer ${buffer} reached on ${applyto},${applyto} でバッファ ${buffer} の終わりに到達した場合,,GML Visual story text
+GMStdBufferLoad_Story_1,Load file ${filename} into buffer ${target},ファイル ${filename} をバッファ ${target} にロードします,,GML Visual story text
+GMStdBufferLoad_Story_2,Load file ${filename} into buffer ${target} on ${applyto},${applyto} でファイル ${filename} をバッファ ${target} にロードします,,GML Visual story text
+GMStdBufferLoad_Story_3,Load file ${filename} into buffer temp ${target},ファイル ${filename} をバッファの一時変数 ${target} にロードします,,GML Visual story text
+GMStdBufferLoad_Story_4,Load file ${filename} into buffer temp ${target} on ${applyto},${applyto} でファイル ${filename} をバッファの一時変数 ${target} にロードします,,GML Visual story text
+GMStdBufferSave_Story_1,Save buffer ${buffer} to file ${filename},バッファ ${buffer} をファイル ${filename} に保存します,,GML Visual story text
+GMStdBufferSave_Story_2,Save buffer ${buffer} to file ${filename} on ${applyto},${applyto} でバッファ ${buffer} をファイル ${filename} に保存します,,GML Visual story text
+GMStdFileRename_Story_1,Rename file ${file1} to ${file2},ファイル名 ${file1} を ${file2} に変更します,,GML Visual story text
+GMStdFileRename_Story_2,Rename file ${file1} to ${file2} on ${applyto},${applyto} でファイル名 ${file1} を ${file2} に変更します,,GML Visual story text
+GMStdFileCopy_Story_1,Copy file ${file1} to ${file2},ファイル ${file1} を ${file2} にコピーします,,GML Visual story text
+GMStdFileCopy_Story_2,Copy file ${file1} to ${file2} on ${applyto},${applyto} でファイル ${file1} を ${file2} にコピーします,,GML Visual story text
+GMStdFileDelete_Story_1,Delete file ${file},ファイル ${file} を削除します,,GML Visual story text
+GMStdFileDelete_Story_2,Delete file ${file} on ${applyto},${applyto} でファイル ${file} を削除します,,GML Visual story text
+GMStdOpenIni_Story_1,Open ini file ${filename},ini ファイル ${filename} を開きます,,GML Visual story text
+GMStdOpenIni_Story_2,Open ini file ${filename} on ${applyto},${applyto} で ini ファイル ${filename} を開きます,,GML Visual story text
+GMStdCloseIni_Story_1,Close ini file,ini ファイルを閉じます,,GML Visual story text
+GMStdCloseIni_Story_2,Close ini file on ${applyto},${applyto} で ini ファイルを閉じます,,GML Visual story text
+GMStdIniWrite_Story_1,Write ${value} under key ${key} in section ${section} to ini file,セクション ${section} のキー ${key} の下の ${value} を ini ファイルに書き込みます,,GML Visual story text
+GMStdIniWrite_Story_2,Write ${value} under key ${key} in section ${section} to ini file on ${applyto},${applyto} で、セクション ${section} のキー ${key} の下の ${value} を ini ファイルに書き込みます,,GML Visual story text
+GMStdIniRead_Story_1,Read key ${key} in section ${section} and assign it to ${var},セクション ${section} のキー ${key} を読み取り、${var} に割り当てます,,GML Visual story text
+GMStdIniRead_Story_2,Read key ${key} in section ${section} and assign it to ${var} on ${applyto},${applyto} で、セクション ${section} のキー ${key} を読み取り、${var} に割り当てます,,GML Visual story text
+GMStdIniRead_Story_3,Read key ${key} in section ${section} and assign it to temp ${var},セクション ${section} のキー ${key} を読み取り、一時変数 ${var} に割り当てます,,GML Visual story text
+GMStdIniRead_Story_4,Read key ${key} in section ${section} and assign it to temp ${var} on ${applyto},${applyto} で、セクション ${section} のキー ${key} を読み取り、一時変数 ${var} に割り当てます,,GML Visual story text
+GMStdIfFileExists_Story_1,If file ${file} does not exist,ファイル ${file} が存在しない場合,,GML Visual story text
+GMStdIfFileExists_Story_2,If file ${file} does not exist on ${applyto},${applyto} にファイル ${file} が存在しない場合,,GML Visual story text
+GMStdIfFileExists_Story_3,If file ${file} exists,ファイル ${file} が存在する場合,,GML Visual story text
+GMStdIfFileExists_Story_4,If file ${file} exists on ${applyto},${applyto} にファイル ${file} が存在する場合,,GML Visual story text
+GMStdDecimalToInteger_Story_1,Round ${n} and assign it to ${var},${n} の小数点以下を銀行丸めして ${var} に割り当てます,,GML Visual story text
+GMStdDecimalToInteger_Story_2,Round ${n} and assign it to ${var} on ${applyto},${applyto} で、${n} の小数点以下を銀行丸めして ${var} に割り当てます,,GML Visual story text
+GMStdDecimalToInteger_Story_3,Round ${n} and assign it to temp ${var},${n} の小数点以下を銀行丸めして一時変数 ${var} に割り当てます,,GML Visual story text
+GMStdDecimalToInteger_Story_4,Round ${n} and assign it to temp ${var} on ${applyto},${applyto} で、${n} の小数点以下を銀行丸めして一時変数 ${var} に割り当てます,,GML Visual story text
+GMStdDecimalToInteger_Story_5,Ceil ${n} and assign it to ${var},${n} の小数点以下を切り上げて ${var} に割り当てます,,GML Visual story text
+GMStdDecimalToInteger_Story_6,Ceil ${n} and assign it to ${var} on ${applyto},${applyto} で、${n} の小数点以下を切り上げて ${var} に割り当てます,,GML Visual story text
+GMStdDecimalToInteger_Story_7,Ceil ${n} and assign it to temp ${var},${n} の小数点以下を切り上げて一時変数 ${var} に割り当てます,,GML Visual story text
+GMStdDecimalToInteger_Story_8,Ceil ${n} and assign it to temp ${var} on ${applyto},${applyto} で、${n} の小数点以下を切り上げて一時変数 ${var} に割り当てます,,GML Visual story text
+GMStdDecimalToInteger_Story_9,Floor ${n} and assign it to ${var},${n} の小数点以下を切り捨てて ${var} に割り当てます,,GML Visual story text
+GMStdDecimalToInteger_Story_10,Floor ${n} and assign it to ${var} on ${applyto},${applyto} で、${n} の小数点以下を切り捨てて ${var} に割り当てます,,GML Visual story text
+GMStdDecimalToInteger_Story_11,Floor ${n} and assign it to temp ${var},${n} の小数点以下を切り捨てて一時変数 ${var} に割り当てます,,GML Visual story text
+GMStdDecimalToInteger_Story_12,Floor ${n} and assign it to temp ${var} on ${applyto},${applyto} で、${n} の小数点以下を切り捨てて一時変数 ${var} に割り当てます,,GML Visual story text
+GMStdStringToNumber_Story_1,Convert ${value} to a string and assign it to ${var},${value} を文字列に変換し、${var} に割り当てます,,GML Visual story text
+GMStdStringToNumber_Story_2,Convert ${value} to a string and assign it to ${var} on ${applyto},${applyto} で、${value} を文字列に変換し、${var} に割り当てます,,GML Visual story text
+GMStdStringToNumber_Story_3,Convert ${value} to a string and assign it to temp ${var},${value} を文字列に変換し、一時変数 ${var} に割り当てます,,GML Visual story text
+GMStdStringToNumber_Story_4,Convert ${value} to a string and assign it to temp ${var} on ${applyto},${applyto} で、${value} を文字列に変換し、一時変数 ${var} に割り当てます,,GML Visual story text
+GMStdNumberToString_Story_1,Convert ${value} to a number and assign it to ${var},${value} を数値に変換し、${var} に割り当てます,,GML Visual story text
+GMStdNumberToString_Story_2,Convert ${value} to a number and assign it to ${var} on ${applyto},${applyto} で、${value} を数値に変換し、${var} に割り当てます,,GML Visual story text
+GMStdNumberToString_Story_3,Convert ${value} to a number and assign it to temp ${var},${value} を数値に変換し、一時変数 ${var} に割り当てます,,GML Visual story text
+GMStdNumberToString_Story_4,Convert ${value} to a number and assign it to temp ${var} on ${applyto},${applyto} で、${value} を数値に変換し、一時変数 ${var} に割り当てます,,GML Visual story text
+GMStdGetRandomNumber_Story_1,Get a random number between ${min} and ${max} into ${var},${min} ～ ${max} の範囲で乱数を取得して ${var} に入れます,,GML Visual story text
+GMStdGetRandomNumber_Story_2,Get a random number between ${min} and ${max} into ${var} on ${applyto},${applyto} で、${min} ～ ${max} の範囲で乱数を取得して ${var} に入れます,,GML Visual story text
+GMStdGetRandomNumber_Story_3,Get a random number between ${min} and ${max} into temp ${var},${min} と ${max} の間のinto ${var} 乱数を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdGetRandomNumber_Story_4,Get a random number between ${min} and ${max} into temp ${var} on ${applyto},${applyto} で、${min} と ${max} の間のinto ${var} 乱数を取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdRandomize_Story,Randomize seed,シードをランダム化します,,GML Visual story text
+GMStdChoose_Story_1,Get a random element from a list into ${var}${show_input_count},リストから要素をランダムに選び、${var} に入れます ${show_input_count},,GML Visual story text
+GMStdChoose_Story_2,Get a random element from a list into ${var} on ${applyto}${show_input_count},${applyto} で、リストから要素をランダムに選び、${var} に入れます ${show_input_count},,GML Visual story text
+GMStdChoose_Story_3,Get a random element from a list into temp ${var}${show_input_count},リストから要素をランダムに選び、一時変数 ${var} に入れます ${show_input_count},,GML Visual story text
+GMStdChoose_Story_4,Get a random element from a list into temp ${var} on ${applyto}${show_input_count},${applyto} で、リストから要素をランダムに選び、一時変数 ${var} に入れます ${show_input_count},,GML Visual story text
+GMStdSetViewVar_Story_1,Set view camera of view ${view} to ${value},ビュー ${view} のビューカメラを ${value} に設定します,,GML Visual story text
+GMStdSetViewVar_Story_2,Set view camera of view ${view} to ${value} on ${applyto},${applyto} で、ビュー ${view} のビューカメラを ${value} に設定します,,GML Visual story text
+GMStdSetViewVar_Story_3,Set view visibility of view ${view} to ${value},ビュー ${view} のビューの可視性を ${value} に設定します,,GML Visual story text
+GMStdSetViewVar_Story_4,Set view visibility of view ${view} to ${value} on ${applyto},${applyto} で、ビュー ${view} のビューの可視性を ${value} に設定します,,GML Visual story text
+GMStdSetViewVar_Story_5,Set view port X of view ${view} to ${value},ビュー ${view} のビューポート X を ${value} に設定します,,GML Visual story text
+GMStdSetViewVar_Story_6,Set view port X of view ${view} to ${value} on ${applyto},${applyto} で、ビュー ${view} のビューポート X を ${value} に設定します,,GML Visual story text
+GMStdSetViewVar_Story_7,Set view port Y of view ${view} to ${value},ビュー ${view} のビューポート Y を ${value} に設定します,,GML Visual story text
+GMStdSetViewVar_Story_8,Set view port Y of view ${view} to ${value} on ${applyto},${applyto} で、ビュー ${view} のビューポート Y を ${value} に設定します,,GML Visual story text
+GMStdSetViewVar_Story_9,Set view port width of view ${view} to ${value},ビュー ${view} のビューポートの幅を ${value} に設定します,,GML Visual story text
+GMStdSetViewVar_Story_10,Set view port width of view ${view} to ${value} on ${applyto},${applyto} で、ビュー ${view} のビューポートの幅を ${value} に設定します,,GML Visual story text
+GMStdSetViewVar_Story_11,Set view port height of view ${view} to ${value},ビュー ${view} のビューポートの高さを ${value} に設定します,,GML Visual story text
+GMStdSetViewVar_Story_12,Set view port height of view ${view} to ${value} on ${applyto},${applyto} で、ビュー ${view} のビューポートの高さを ${value} に設定します,,GML Visual story text
+GMStdSetViewVar_Story_13,Set view surface id of view ${view} to ${value},ビュー ${view} のサーフェス ID を ${value} に設定します,,GML Visual story text
+GMStdSetViewVar_Story_14,Set view surface id of view ${view} to ${value} on ${applyto},${applyto} で、ビュー ${view} のサーフェス ID を ${value} に設定します,,GML Visual story text
+GMStdGetViewVar_Story_1,Get view camera of view ${view} into ${target},ビュー ${view} のビューカメラを取得して ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_2,Get view camera of view ${view} into ${target} on ${applyto},${applyto} で、ビュー ${view} のビューカメラを取得して ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_3,Get view camera of view ${view} into temp ${target},ビュー ${view} のビューカメラを取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_4,Get view camera of view ${view} into temp ${target} on ${applyto},${applyto} で、ビュー ${view} のビューカメラを取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_5,Get view visibility of view ${view} into ${target},ビュー ${view} の可視性を取得して ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_6,Get view visibility of view ${view} into ${target} on ${applyto},${applyto} で、ビュー ${view} の可視性を取得して ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_7,Get view visibility of view ${view} into temp ${target},ビュー ${view} の可視性を取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_8,Get view visibility of view ${view} into temp ${target} on ${applyto},${applyto} で、ビュー ${view} の可視性を取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_9,Get view port X of view ${view} into ${target},ビュー ${view} のビューポート X を取得して ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_10,Get view port X of view ${view} into ${target} on ${applyto},${applyto} で、ビュー ${view} のビューポート X を取得して ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_11,Get view port X of view ${view} into temp ${target},ビュー ${view} のビューポート X を取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_12,Get view port X of view ${view} into temp ${target} on ${applyto},${applyto} で、ビュー ${view} のビューポート X を取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_13,Get view port Y of view ${view} into ${target},ビュー ${view} のビューポート Y を取得して ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_14,Get view port Y of view ${view} into ${target} on ${applyto},${applyto} で、ビュー ${view} のビューポート Y を取得して ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_15,Get view port Y of view ${view} into temp ${target},ビュー ${view} のビューポート Y を取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_16,Get view port Y of view ${view} into temp ${target} on ${applyto},${applyto} で、ビュー ${view} のビューポート Y を取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_17,Get view port width of view ${view} into ${target},ビュー ${view} のビューポートの幅を取得して ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_18,Get view port width of view ${view} into ${target} on ${applyto},${applyto} で、ビュー ${view} のビューポートの幅を取得して ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_19,Get view port width of view ${view} into temp ${target},ビュー ${view} のビューポートの幅を取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_20,Get view port width of view ${view} into temp ${target} on ${applyto},${applyto} で、ビュー ${view} のビューポートの幅を取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_21,Get view port height of view ${view} into ${target},ビュー ${view} のビューポートの高さを取得して ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_22,Get view port height of view ${view} into ${target} on ${applyto},${applyto} で、ビュー ${view} のビューポートの高さを取得して ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_23,Get view port height of view ${view} into temp ${target},ビュー ${view} のビューポートの高さを取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_24,Get view port height of view ${view} into temp ${target} on ${applyto},${applyto} で、ビュー ${view} のビューポートの高さを取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_25,Get view surface id of view ${view} into ${target},ビュー ${view} のサーフェス ID を取得して ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_26,Get view surface id of view ${view} into ${target} on ${applyto},${applyto} で、ビュー ${view} のサーフェス ID を取得して ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_27,Get view surface id of view ${view} into temp ${target},ビュー ${view} のサーフェス ID を取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdGetViewVar_Story_28,Get view surface id of view ${view} into temp ${target} on ${applyto},${applyto} で、ビュー ${view} のサーフェス ID を取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdGoToRoom_Story_1,Go to room ${room},ルーム ${room} に移動します,,GML Visual story text
+GMStdGoToRoom_Story_2,Go to room ${room} on ${applyto},${applyto} でルーム ${room} に移動します,,GML Visual story text
+GMStdNextRoom_Story,Go to next room,次のルームに移動します,,GML Visual story text
+GMStdPreviousRoom_Story,Go to previous room,前のルームに移動します,,GML Visual story text
+GMStdRestartRoom_Story,Restart current room,現在のルームをリスタート,,GML Visual story text
+GMStdIfFirstRoom_Story_1,If this is not the first room,これが最初のルームではない場合,,GML Visual story text
+GMStdIfFirstRoom_Story_2,If this is the first room,これが最初のルームである場合,,GML Visual story text
+GMStdIfLastRoom_Story_1,If this is not the last room,これが最後のルームではない場合,,GML Visual story text
+GMStdIfLastRoom_Story_2,If this is the last room,これが最後のルームである場合,,GML Visual story text
+GMStdGetCurrentRoom_Story_1,Get current room into ${var},現在のルームを取得して ${var} に入れます,,GML Visual story text
+GMStdGetCurrentRoom_Story_2,Get current room into ${var} on ${applyto},${applyto} で、現在のルームを取得して ${var} に入れます,,GML Visual story text
+GMStdGetCurrentRoom_Story_3,Get current room into temp ${var},現在のルームを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdGetCurrentRoom_Story_4,Get current room into temp ${var} on ${applyto},${applyto} で、現在のルームを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdStartPath_Story_1,Start path ${path} with speed ${speed} and ${atend} on end,パス ${path} を速度 ${speed} で開始し、終端で「${atend}」します,,GML Visual story text
+GMStdStartPath_Story_2,Start path ${path} with speed ${speed} and ${atend} on end on ${applyto},${applyto} で、パス ${path} を速度 ${speed} で開始し、終端で「${atend}」します,,GML Visual story text
+GMStdStopPath_Story_1,Stop following a path,パスの追跡を停止します,,GML Visual story text
+GMStdStopPath_Story_2,Stop following a path on ${applyto},${applyto} でパスの追跡を停止します,,GML Visual story text
+GMStdPathPosition_Story_1,Add ${position} to path position,${position} をパス位置に加算します,,GML Visual story text
+GMStdPathPosition_Story_2,Add ${position} to path position on ${applyto},${applyto} で ${position} をパス位置に加算します,,GML Visual story text
+GMStdPathPosition_Story_3,Set path position to ${position},パスの位置を ${position} に設定します,,GML Visual story text
+GMStdPathPosition_Story_4,Set path position to ${position} on ${applyto},${applyto} でパスの位置を ${position} に設定します,,GML Visual story text
+GMStdPathGetPosition_Story_1,Get path position into ${target},パス位置を取得して ${target} に入れます,,GML Visual story text
+GMStdPathGetPosition_Story_2,Get path position into ${target} on ${applyto},${applyto} で、パス位置を取得して ${target} に入れます,,GML Visual story text
+GMStdPathGetPosition_Story_3,Get path position into temp ${target},パス位置を取得して一時変数 ${target} に入れます,,GML Visual story text
+GMStdPathGetPosition_Story_4,Get path position into temp ${target} on ${applyto},${applyto} で、パス位置を取得して、一時変数 ${target} に入れます,,GML Visual story text
+GMStdPathSpeed_Story_1,Add ${speed} to path speed,${speed} をパス速度に加算します,,GML Visual story text
+GMStdPathSpeed_Story_2,Add ${speed} to path speed on ${applyto},${applyto} で ${speed} をパス速度に加算します,,GML Visual story text
+GMStdPathSpeed_Story_3,Set path speed to ${speed},パス速度を ${speed} に設定します,,GML Visual story text
+GMStdPathSpeed_Story_4,Set path speed to ${speed} on ${applyto},${applyto} で、パス速度を ${speed} に設定します,,GML Visual story text
+GMStdPathGetSpeed_Story_1,Get path speed into ${target},パス速度を取得して ${target} に入れます,,GML Visual story text
+GMStdPathGetSpeed_Story_2,Get path speed into ${target} on ${applyto},${applyto} で、パス速度を取得して ${target} に入れます,,GML Visual story text
+GMStdPathGetSpeed_Story_3,Get path speed into temp ${target},パス速度を取得して一時変数 ${target} に入れます,,GML Visual story text
+GMStdPathGetSpeed_Story_4,Get path speed into temp ${target} on ${applyto},${applyto} で、パス速度を取得して一時変数 ${target} に入れます,,GML Visual story text
+GMStdSetTimeline_Story_1,Start timeline ${timeline} and loop it,タイムライン ${timeline} を開始してループします,,GML Visual story text
+GMStdSetTimeline_Story_2,Start timeline ${timeline} and loop it on ${applyto},${applyto} で、タイムライン ${timeline} を開始してループします,,GML Visual story text
+GMStdSetTimeline_Story_3,Start timeline ${timeline},タイムライン ${timeline} を開始します,,GML Visual story text
+GMStdSetTimeline_Story_4,Start timeline ${timeline} on ${applyto},${applyto} で、タイムライン ${timeline} を開始します,,GML Visual story text
+GMStdSetTimeline_Story_5,Set timeline ${timeline} and loop it,タイムライン ${timeline} を設定してループします,,GML Visual story text
+GMStdSetTimeline_Story_6,Set timeline ${timeline} and loop it on ${applyto},${applyto} で、タイムライン ${timeline} を設定してループします,,GML Visual story text
+GMStdSetTimeline_Story_7,Set timeline ${timeline},タイムライン ${timeline} を設定します,,GML Visual story text
+GMStdSetTimeline_Story_8,Set timeline ${timeline} on ${applyto},${applyto} で、タイムライン ${timeline} を設定します,,GML Visual story text
+GMStdPositionTimeline_Story_1,Add ${position} to timeline position,${position} をタイムライン位置に加算します,,GML Visual story text
+GMStdPositionTimeline_Story_2,Add ${position} to timeline position on ${applyto},${applyto} で、${position} をタイムライン位置に加算します,,GML Visual story text
+GMStdPositionTimeline_Story_3,Set timeline position to ${position},タイムラインの位置を ${position} に設定します,,GML Visual story text
+GMStdPositionTimeline_Story_4,Set timeline position to ${position} on ${applyto},${applyto} で、タイムラインの位置を ${position} に設定します,,GML Visual story text
+GMStdSpeedTimeline_Story_1,Add ${speed} to timeline speed,${speed} をタイムライン速度に加算します,,GML Visual story text
+GMStdSpeedTimeline_Story_2,Add ${speed} to timeline speed on ${applyto},${applyto} で、${speed} をタイムライン速度に加算します,,GML Visual story text
+GMStdSpeedTimeline_Story_3,Set timeline speed to ${speed},タイムラインの速度を ${speed} に設定します,,GML Visual story text
+GMStdSpeedTimeline_Story_4,Set timeline speed to ${speed} on ${applyto},${applyto} で、タイムラインの速度を ${speed} に設定します,,GML Visual story text
+GMStdSetTimelineState_Story_1,Start timeline,タイムラインを開始します,,GML Visual story text
+GMStdSetTimelineState_Story_2,Start timeline on ${applyto},${applyto} でタイムラインを開始します,,GML Visual story text
+GMStdSetTimelineState_Story_3,Resume timeline,タイムラインを再開します,,GML Visual story text
+GMStdSetTimelineState_Story_4,Resume timeline on ${applyto},${applyto} でタイムラインを再開します,,GML Visual story text
+GMStdSetTimelineState_Story_5,Pause timeline,タイムラインを一時停止します,,GML Visual story text
+GMStdSetTimelineState_Story_6,Pause timeline on ${applyto},${applyto} でタイムラインを一時停止します,,GML Visual story text
+GMStdSetTimelineState_Story_7,Stop timeline,タイムラインを停止,,GML Visual story text
+GMStdSetTimelineState_Story_8,Stop timeline on ${applyto},${applyto} でタイムラインを停止します,,GML Visual story text
+GMStdRestartGame_Story,Restart game,ゲームをリスタートします,,GML Visual story text
+GMStdEndGame_Story,Exit game,ゲームを終了します,,GML Visual story text
+GMStdSaveGame_Story_1,Save game to file ${filename},ゲームをファイル ${filename} に保存します,,GML Visual story text
+GMStdSaveGame_Story_2,Save game to file ${filename} on ${applyto},${applyto} でゲームをファイル ${filename} に保存します,,GML Visual story text
+GMStdLoadGame_Story_1,Load game from file ${filename},ゲームをファイル ${filename} からロードします,,GML Visual story text
+GMStdLoadGame_Story_2,Load game from file ${filename} on ${applyto},${applyto} でゲームをファイル ${filename} からロード,,GML Visual story text
+GMStdSetScore_Story_1,Add ${score} to score,${score} をスコアに加算します,,GML Visual story text
+GMStdSetScore_Story_2,Add ${score} to score on ${applyto},${applyto} でスコアに ${score} を加算します,,GML Visual story text
+GMStdSetScore_Story_3,Set score to ${score},スコアを ${score} に設定します,,GML Visual story text
+GMStdSetScore_Story_4,Set score to ${score} on ${applyto},${applyto} でスコアを ${score} に設定します,,GML Visual story text
+GMStdGetScore_Story_1,Get score into ${var},スコアを取得して ${var} に入れます,,GML Visual story text
+GMStdGetScore_Story_2,Get score into ${var} on ${applyto},${applyto} でスコアを取得して ${var} に入れます,,GML Visual story text
+GMStdGetScore_Story_3,Get score into temp ${var},スコアを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdGetScore_Story_4,Get score into temp ${var} on ${applyto},${applyto} でスコアを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdSetLives_Story_1,Add ${lives} to lives,${lives} をライフに加算します,,GML Visual story text
+GMStdSetLives_Story_2,Add ${lives} to lives on ${applyto},${applyto} で ${lives} をライフに加算します,,GML Visual story text
+GMStdSetLives_Story_3,Set lives to ${lives},ライフを ${lives} に設定します,,GML Visual story text
+GMStdSetLives_Story_4,Set lives to ${lives} on ${applyto},${applyto} でライフを ${lives} に設定します,,GML Visual story text
+GMStdGetLives_Story_1,Get lives into ${var},ライフを取得して ${var} に入れます,,GML Visual story text
+GMStdGetLives_Story_2,Get lives into ${var} on ${applyto},${applyto} でライフを取得して ${var} に入れます,,GML Visual story text
+GMStdGetLives_Story_3,Get lives into temp ${var},ライフを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdGetLives_Story_4,Get lives into temp ${var} on ${applyto},${applyto} でライフを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdSetHealth_Story_1,Add ${health} to health,${health} をヘルスに加算します,,GML Visual story text
+GMStdSetHealth_Story_2,Add ${health} to health on ${applyto},${applyto} で ${health} をヘルスに加算します,,GML Visual story text
+GMStdSetHealth_Story_3,Set health to ${health},ヘルスを ${health} に設定します,,GML Visual story text
+GMStdSetHealth_Story_4,Set health to ${health} on ${applyto},${applyto} でヘルスを ${health} に設定します,,GML Visual story text
+GMStdGetHealth_Story_1,Get health into ${var},ヘルスを取得して ${var} に入れます,,GML Visual story text
+GMStdGetHealth_Story_2,Get health into ${var} on ${applyto},${applyto} でヘルスを取得して ${var} に入れます,,GML Visual story text
+GMStdGetHealth_Story_3,Get health into temp ${var},ヘルスを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdGetHealth_Story_4,Get health into temp ${var} on ${applyto},${applyto} で、ヘルスを取得して一時変数 ${var} に入れます,,GML Visual story text
+GMStdIfScore_Story_1,If instance score is not equal to ${value},インスタンスのスコアが ${value} に等しくない場合,,GML Visual story text
+GMStdIfScore_Story_2,If instance score is not equal to ${value} on ${applyto},${applyto} でインスタンスのスコアが ${value} に等しくない場合,,GML Visual story text
+GMStdIfScore_Story_3,If instance score is not less than ${value},インスタンスのスコアが ${value} より小さくない場合,,GML Visual story text
+GMStdIfScore_Story_4,If instance score is not less than ${value} on ${applyto},${applyto} でインスタンスのスコアが ${value} より小さくない場合,,GML Visual story text
+GMStdIfScore_Story_5,If instance score is not greater than ${value},インスタンスのスコアが ${value} より大きくない場合,,GML Visual story text
+GMStdIfScore_Story_6,If instance score is not greater than ${value} on ${applyto},${applyto} でインスタンスのスコアが ${value} より大きくない場合,,GML Visual story text
+GMStdIfScore_Story_7,If instance score is not less than or equal to ${value},インスタンスのスコアが ${value} 以上の場合,,GML Visual story text
+GMStdIfScore_Story_8,If instance score is not less than or equal to ${value} on ${applyto},${applyto} でインスタンスのスコアが ${value} 以上の場合,,GML Visual story text
+GMStdIfScore_Story_9,If instance score is not greater than or equal to ${value},インスタンスのスコアが ${value} 以下の場合,,GML Visual story text
+GMStdIfScore_Story_10,If instance score is not greater than or equal to ${value} on ${applyto},${applyto} でインスタンスのスコアが ${value} 以下の場合,,GML Visual story text
+GMStdIfScore_Story_11,If instance score is equal to ${value},インスタンスのスコアが ${value} に等しい場合,,GML Visual story text
+GMStdIfScore_Story_12,If instance score is equal to ${value} on ${applyto},${applyto} でインスタンスのスコアが ${value} に等しい場合,,GML Visual story text
+GMStdIfScore_Story_13,If instance score is less than ${value},インスタンスのスコアが ${value} より小さい場合,,GML Visual story text
+GMStdIfScore_Story_14,If instance score is less than ${value} on ${applyto},${applyto} でインスタンスのスコアが ${value} より小さい場合,,GML Visual story text
+GMStdIfScore_Story_15,If instance score is greater than ${value},インスタンスのスコアが ${value} より大きい場合,,GML Visual story text
+GMStdIfScore_Story_16,If instance score is greater than ${value} on ${applyto},${applyto} でインスタンスのスコアが ${value} より大きい場合,,GML Visual story text
+GMStdIfScore_Story_17,If instance score is less than or equal to ${value},インスタンスのスコアが ${value} 以下の場合,,GML Visual story text
+GMStdIfScore_Story_18,If instance score is less than or equal to ${value} on ${applyto},${applyto} でインスタンスのスコアが ${value} 以下の場合,,GML Visual story text
+GMStdIfScore_Story_19,If instance score is greater than or equal to ${value},インスタンスのスコアが ${value} 以上の場合,,GML Visual story text
+GMStdIfScore_Story_20,If instance score is greater than or equal to ${value} on ${applyto},${applyto} でインスタンスのスコアが ${value} 以上の場合,,GML Visual story text
+GMStdIfLives_Story_1,If instance lives is not equal to ${value},インスタンスのライフが ${value} に等しくない場合,,GML Visual story text
+GMStdIfLives_Story_2,If instance lives is not equal to ${value} on ${applyto},${applyto} でインスタンスのライフが ${value} に等しくない場合,,GML Visual story text
+GMStdIfLives_Story_3,If instance lives is not less than ${value},インスタンスのライフが ${value} より小さくない場合,,GML Visual story text
+GMStdIfLives_Story_4,If instance lives is not less than ${value} on ${applyto},${applyto} でインスタンスのライフが ${value} より小さくない場合,,GML Visual story text
+GMStdIfLives_Story_5,If instance lives is not greater than ${value},インスタンスのライフが ${value} より大きくない場合,,GML Visual story text
+GMStdIfLives_Story_6,If instance lives is not greater than ${value} on ${applyto},${applyto} でインスタンスのライフが ${value} より大きくない場合,,GML Visual story text
+GMStdIfLives_Story_7,If instance lives is not less than or equal to ${value},インスタンスのライフが ${value} 以上の場合,,GML Visual story text
+GMStdIfLives_Story_8,If instance lives is not less than or equal to ${value} on ${applyto},${applyto} でインスタンスのライフが ${value} 以上の場合,,GML Visual story text
+GMStdIfLives_Story_9,If instance lives is not greater than or equal to ${value},インスタンスのライフが ${value} 以下の場合,,GML Visual story text
+GMStdIfLives_Story_10,If instance lives is not greater than or equal to ${value} on ${applyto},${applyto} でインスタンスのライフが ${value} 以下の場合,,GML Visual story text
+GMStdIfLives_Story_11,If instance lives is equal to ${value},インスタンスのライフが ${value} に等しい場合,,GML Visual story text
+GMStdIfLives_Story_12,If instance lives is equal to ${value} on ${applyto},${applyto} でインスタンスのライフが ${value} に等しい場合,,GML Visual story text
+GMStdIfLives_Story_13,If instance lives is less than ${value},インスタンスのライフが ${value} より小さい場合,,GML Visual story text
+GMStdIfLives_Story_14,If instance lives is less than ${value} on ${applyto},${applyto} でインスタンスのライフが ${value} より小さい場合,,GML Visual story text
+GMStdIfLives_Story_15,If instance lives is greater than ${value},インスタンスのライフが ${value} より大きい場合,,GML Visual story text
+GMStdIfLives_Story_16,If instance lives is greater than ${value} on ${applyto},${applyto} でインスタンスのライフが ${value} より大きい場合,,GML Visual story text
+GMStdIfLives_Story_17,If instance lives is less than or equal to ${value},インスタンスのライフが ${value} 以下の場合,,GML Visual story text
+GMStdIfLives_Story_18,If instance lives is less than or equal to ${value} on ${applyto},${applyto} でインスタンスのライフが ${value} 以下の場合,,GML Visual story text
+GMStdIfLives_Story_19,If instance lives is greater than or equal to ${value},インスタンスのライフが ${value} 以上の場合,,GML Visual story text
+GMStdIfLives_Story_20,If instance lives is greater than or equal to ${value} on ${applyto},${applyto} でインスタンスのライフが ${value} 以上の場合,,GML Visual story text
+GMStdIfHealth_Story_1,If instance health is not equal to ${value},インスタンスのヘルスが ${value} に等しくない場合,,GML Visual story text
+GMStdIfHealth_Story_2,If instance health is not equal to ${value} on ${applyto},${applyto} でインスタンスのヘルスが ${value} に等しくない場合,,GML Visual story text
+GMStdIfHealth_Story_3,If instance health is not less than ${value},インスタンスのヘルスが ${value} より小さくない場合,,GML Visual story text
+GMStdIfHealth_Story_4,If instance health is not less than ${value} on ${applyto},${applyto} でインスタンスのヘルスが ${value} より小さくない場合,,GML Visual story text
+GMStdIfHealth_Story_5,If instance health is not greater than ${value},インスタンスのヘルスが ${value} より大きくない場合,,GML Visual story text
+GMStdIfHealth_Story_6,If instance health is not greater than ${value} on ${applyto},${applyto} でインスタンスのヘルスが ${value} より大きくない場合,,GML Visual story text
+GMStdIfHealth_Story_7,If instance health is not less than or equal to ${value},インスタンスのヘルスが ${value} 以上の場合,,GML Visual story text
+GMStdIfHealth_Story_8,If instance health is not less than or equal to ${value} on ${applyto},${applyto} でインスタンスのヘルスが ${value} 以上の場合,,GML Visual story text
+GMStdIfHealth_Story_9,If instance health is not greater than or equal to ${value},インスタンスのヘルスが ${value} 以下の場合,,GML Visual story text
+GMStdIfHealth_Story_10,If instance health is not greater than or equal to ${value} on ${applyto},${applyto} でインスタンスのヘルスが ${value} 以下の場合,,GML Visual story text
+GMStdIfHealth_Story_11,If instance health is equal to ${value},インスタンスのヘルスが ${value} に等しい場合,,GML Visual story text
+GMStdIfHealth_Story_12,If instance health is equal to ${value} on ${applyto},${applyto} でインスタンスのヘルスが ${value} に等しい場合,,GML Visual story text
+GMStdIfHealth_Story_13,If instance health is less than ${value},インスタンスのヘルスが ${value} より小さい場合,,GML Visual story text
+GMStdIfHealth_Story_14,If instance health is less than ${value} on ${applyto},${applyto} でインスタンスのヘルスが ${value} より小さい場合,,GML Visual story text
+GMStdIfHealth_Story_15,If instance health is greater than ${value},インスタンスのヘルスが ${value} より大きい場合,,GML Visual story text
+GMStdIfHealth_Story_16,If instance health is greater than ${value} on ${applyto},${applyto} でインスタンスのヘルスが ${value} より大きい場合,,GML Visual story text
+GMStdIfHealth_Story_17,If instance health is less than or equal to ${value},インスタンスのヘルスが ${value} 以下の場合,,GML Visual story text
+GMStdIfHealth_Story_18,If instance health is less than or equal to ${value} on ${applyto},${applyto} でインスタンスのヘルスが ${value} 以下の場合,,GML Visual story text
+GMStdIfHealth_Story_19,If instance health is greater than or equal to ${value},インスタンスのヘルスが ${value} 以上の場合,,GML Visual story text
+GMStdIfHealth_Story_20,If instance health is greater than or equal to ${value} on ${applyto},${applyto} でインスタンスのヘルスが ${value} 以上の場合,,GML Visual story text
+GMStdDebugShowMessage_Story_1,Show debug message ${msg}${show_input_count},デバッグメッセージ ${msg} を表示します ${show_input_count},,GML Visual story text
+GMStdDebugShowMessage_Story_2,Show debug message ${msg} on ${applyto}${show_input_count},${applyto} で、デバッグメッセージ ${msg} を表示します ${show_input_count},,GML Visual story text
+GMStdSetWindowState_Story_1,Toggle window state,ウィンドウの状態を切り替えます,,GML Visual story text
+GMStdSetWindowState_Story_2,Set window state to window,ウィンドウの状態をウィンドウに設定します,,GML Visual story text
+GMStdSetWindowState_Story_3,Set window state to fullscreen,ウィンドウの状態をフルスクリーンに設定します,,GML Visual story text
+GMStdPartSystCreate_Story_1,Create a persistent particle system on layer ${layer} into ${var},レイヤー ${layer} に持続的パーティクルシステムを作成して ${var} に入れます,,GML Visual story text
+GMStdPartSystCreate_Story_2,Create a persistent particle system on layer ${layer} into ${var} on ${applyto},${applyto} で、レイヤー ${layer} に持続的パーティクルシステムを作成して、${var} に入れます,,GML Visual story text
+GMStdPartSystCreate_Story_3,Create a persistent particle system on layer ${layer} into temp ${var},レイヤー ${layer} に持続的パーティクルシステムを作成して一時変数 ${var} に入れます,,GML Visual story text
+GMStdPartSystCreate_Story_4,Create a persistent particle system on layer ${layer} into temp ${var} on ${applyto},${applyto} で、レイヤー ${layer} に持続的パーティクルシステムを作成して一時変数 ${var} に入れます,,GML Visual story text
+GMStdPartSystCreate_Story_5,Create a particle system on layer ${layer} into ${var},レイヤー ${layer} にパーティクルシステムを作成して ${var} に入れます,,GML Visual story text
+GMStdPartSystCreate_Story_6,Create a particle system on layer ${layer} into ${var} on ${applyto},${applyto} で、レイヤー ${layer} にパーティクルシステムを作成して ${var} に入れます,,GML Visual story text
+GMStdPartSystCreate_Story_7,Create a particle system on layer ${layer} into temp ${var},レイヤー ${layer} にパーティクルシステムを作成して、一時変数 ${var} に入れます,,GML Visual story text
+GMStdPartSystCreate_Story_8,Create a particle system on layer ${layer} into temp ${var} on ${applyto},${applyto} で、レイヤー ${layer} にパーティクルシステムを作成して一時変数 ${var} に入れます,,GML Visual story text
+GMStdPartSystDestroy_Story_1,Destroy particle system ${system},パーティクルシステム ${system} を破棄します,,GML Visual story text
+GMStdPartSystDestroy_Story_2,Destroy particle system ${system} on ${applyto},${applyto} で、パーティクルシステム ${system} を破棄します,,GML Visual story text
+GMStdPartSystClear_Story_1,Clear particle system ${system},パーティクルシステム ${system} をクリアします,,GML Visual story text
+GMStdPartSystClear_Story_2,Clear particle system ${system} on ${applyto},${applyto} で、パーティクルシステム ${system} をクリアします,,GML Visual story text
+GMStdPauseParticles_Story_1,Resume particle system ${system},パーティクルシステム ${system} を再開します,,GML Visual story text
+GMStdPauseParticles_Story_2,Resume particle system ${system} on ${applyto},${applyto} で、パーティクルシステム ${system} を再開します,,GML Visual story text
+GMStdPauseParticles_Story_3,Pause particle system ${system},パーティクルシステム ${system} を一時停止します,,GML Visual story text
+GMStdPauseParticles_Story_4,Pause particle system ${system} on ${applyto},${applyto} で、パーティクルシステム ${system} を一時停止します,,GML Visual story text
+GMStdRefreshParticles_Story_1,Update particle system ${system},パーティクルシステム ${system} をアップデートします,,GML Visual story text
+GMStdRefreshParticles_Story_2,Update particle system ${system} on ${applyto},${applyto} で、パーティクルシステム ${system} をアップデートします,,GML Visual story text
+GMStdPartTypeCreate_Story_1,Create a new blending particle type into ${var},新しいブレンドパーティクルタイプを作成して ${var} に入れます,,GML Visual story text
+GMStdPartTypeCreate_Story_2,Create a new blending particle type into ${var} on ${applyto},${applyto} で、新しいブレンドパーティクルタイプを作成して ${var} に入れます,,GML Visual story text
+GMStdPartTypeCreate_Story_3,Create a new blending particle type into temp ${var},新規ブレンドパーティクルタイプを作成して一時変数 ${var} に入れます,,GML Visual story text
+GMStdPartTypeCreate_Story_4,Create a new blending particle type into temp ${var} on ${applyto},${applyto} で、新しいブレンドパーティクルタイプを作成して一時変数 ${var} に入れます,,GML Visual story text
+GMStdPartTypeCreate_Story_5,Create a new particle type into ${var},新しいパーティクルタイプを作成して ${var} に入れます,,GML Visual story text
+GMStdPartTypeCreate_Story_6,Create a new particle type into ${var} on ${applyto},${applyto} で、新規パーティクルタイプを作成して ${var} に入れます,,GML Visual story text
+GMStdPartTypeCreate_Story_7,Create a new particle type into temp ${var},新しいパーティクルタイプを作成して一時変数 ${var} に入れます,,GML Visual story text
+GMStdPartTypeCreate_Story_8,Create a new particle type into temp ${var} on ${applyto},${applyto} で、新しいパーティクルタイプを作成して一時変数 ${var} に入れます,,GML Visual story text
+GMStdPartTypeDestroy_Story_1,Destroy particle type ${type},パーティクルタイプ ${type} を破棄します,,GML Visual story text
+GMStdPartTypeDestroy_Story_2,Destroy particle type ${type} on ${applyto},${applyto} で、パーティクルタイプ ${type} を破棄します,,GML Visual story text
+GMStdPartTypeSize_Story_1,Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase ${sizeincr} and wiggle ${wiggle},パーティクルタイプ ${type} のサイズの範囲を、最小 ${minsize} ～ 最大 ${maxsize} に設定し、増分を ${sizeincr}、揺れ幅を ${wiggle} に設定します,,GML Visual story text
+GMStdPartTypeSize_Story_2,Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase ${sizeincr} and wiggle ${wiggle} on ${applyto},${applyto} で、パーティクルタイプ ${type} のサイズの範囲を、最小 ${minsize} ～ 最大 ${maxsize} に設定し、増分を ${sizeincr}、揺れ幅を ${wiggle} に設定します,,GML Visual story text
+GMStdPartTypeSprite_Story_1,Set sprite of particle type ${type} to ${sprite},パーティクルタイプ ${type} のスプライトを ${sprite} に設定します,,GML Visual story text
+GMStdPartTypeSprite_Story_2,Set sprite of particle type ${type} to ${sprite} on ${applyto},${applyto} で、パーティクルタイプ ${type} のスプライトを ${sprite} に設定します,,GML Visual story text
+GMStdPartTypeShape_Story_1,Set shape of particle type ${type} to ${shape},パーティクルタイプ ${type} の形状を ${shape} に設定します,,GML Visual story text
+GMStdPartTypeShape_Story_2,Set shape of particle type ${type} to ${shape} on ${applyto},${applyto} で、パーティクルタイプ ${type} の形状を ${shape} に設定します,,GML Visual story text
+GMStdPartTypeColor_Story_1,"Set colour of particle type ${type} to start ${startcol}, mid ${midcol}, end ${endcol}",パーティクルタイプ ${type} の色を、開始 ${startcol}、中間 ${midcol}、終了 ${endcol} に設定します,,GML Visual story text
+GMStdPartTypeColor_Story_2,"Set colour of particle type ${type} to start ${startcol}, mid ${midcol}, end ${endcol} on ${applyto}",${applyto} で、パーティクルタイプ ${type} の色を、開始 ${startcol}、中間 ${midcol}、終了 ${endcol} に設定します,,GML Visual story text
+GMStdPartTypeAlpha_Story_1,"Set alpha channel of particle type ${type} to start ${start}, end ${end}",パーティクルタイプ ${type} のアルファチャンネルを、開始 ${start}、終了 ${end} に設定します,,GML Visual story text
+GMStdPartTypeAlpha_Story_2,"Set alpha channel of particle type ${type} to start ${start}, end ${end} on ${applyto}",${applyto} で、パーティクルタイプ ${type} のアルファチャンネルを、開始 ${start}、終了 ${end} に設定します,,GML Visual story text
+GMStdPartTypeAlpha_Story_3,"Set alpha channel of particle type ${type} to start ${start}, mid ${middle}, end ${end}","パーティクルタイプ ${type} のアルファチャンネルを、開始 ${start}、中間 ${middle}、,終了 ${end} に設定します",,GML Visual story text
+GMStdPartTypeAlpha_Story_4,"Set alpha channel of particle type ${type} to start ${start}, mid ${middle}, end ${end} on ${applyto}","${applyto} で、パーティクルタイプ ${type} のアルファチャンネルを、開始 ${start}、中間 ${middle}、,終了 ${end} に設定します",,GML Visual story text
+GMStdPartTypeLife_Story_1,Set life of particle type ${typ} from min ${minlife} to max ${maxlife},パーティクルタイプ ${typ} のライフの範囲を、最小 ${minlife} ～ 最大 ${maxlife} に設定します,,GML Visual story text
+GMStdPartTypeLife_Story_2,Set life of particle type ${typ} from min ${minlife} to max ${maxlife} on ${applyto},${applyto} で、パーティクルタイプ ${typ} のライフの範囲を、最小 ${minlife} ～ 最大 ${maxlife} に設定します,,GML Visual story text
+GMStdPartTypeSpeed_Story_1,Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase ${incr} and wiggle ${wiggle},パーティクルタイプ ${type} の速度の範囲を、最小 ${minspeed} ～ 最大 ${maxspeed} に設定し、増分を ${incr} 、揺れ幅を ${wiggle} に設定します,,GML Visual story text
+GMStdPartTypeSpeed_Story_2,Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase ${incr} and wiggle ${wiggle} on ${applyto},${applyto} で、パーティクルタイプ ${type} の速度の範囲を、最小 ${minspeed} ～ 最大 ${maxspeed} に設定し、増分を ${incr}、揺れ幅を ${wiggle} に設定します,,GML Visual story text
+GMStdPartTypeDirection_Story_1,Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation ${incr} and wiggle ${wiggle},パーティクルタイプ ${type} の方向の範囲を、最小 ${mindir} ～ 最大 ${maxdir} に設定し、回転を ${incr}、揺れ幅を ${wiggle} に設定します,,GML Visual story text
+GMStdPartTypeDirection_Story_2,Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation ${incr} and wiggle ${wiggle} on ${applyto},${applyto} で、パーティクルタイプ ${type} の方向の範囲を、最小 ${mindir} ～ 最大 ${maxdir} に設定し、回転を ${incr}、揺れ幅を ${wiggle} に設定します,,GML Visual story text
+GMStdPartTypeOrientation_Story_1,Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle},パーティクルタイプ ${type} の相対方向の範囲を、最小 ${minangle} ～ 最大 ${maxangle} に設定し、回転を ${incr}、揺れ幅を ${wiggle} に設定します,,GML Visual story text
+GMStdPartTypeOrientation_Story_2,Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle} on ${applyto},${applyto} で、パーティクルタイプ ${type} の相対方向の範囲を、最小 ${minangle} ～ 最大 ${maxangle} に設定し、回転を ${incr} に、揺れ幅を ${wiggle} に設定します,,GML Visual story text
+GMStdPartTypeOrientation_Story_3,Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle},パーティクルタイプ ${type} の方向の範囲を、最小 ${minangle} ～ 最大 ${maxangle} に設定し、回転を ${incr}、揺れ幅を ${wiggle} に設定します,,GML Visual story text
+GMStdPartTypeOrientation_Story_4,Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle} on ${applyto},${applyto} で、パーティクルタイプ ${type} の方向の範囲を、最小 ${minangle} ～ 最大 ${maxangle} に設定し、回転を ${incr}、揺れ幅を ${wiggle} に設定します,,GML Visual story text
+GMStdPartTypeGravity_Story_1,Set gravity of particle type ${type} to ${amount} in direction ${direction},パーティクルタイプ ${type} の重力を、${direction} の方向に ${amount} に設定します,,GML Visual story text
+GMStdPartTypeGravity_Story_2,Set gravity of particle type ${type} to ${amount} in direction ${direction} on ${applyto},${applyto} で、パーティクルタイプ ${type} の重力を、${direction} の方向に ${amount} に設定します,,GML Visual story text
+GMStdPartTypeSecondary_Story_1,Create ${count} secondary particles from type ${type} of type ${secondary} per step,ステップごとにタイプ ${secondary} のタイプ ${type} から ${count} 個の 2 次パーティクルを作成します,,GML Visual story text
+GMStdPartTypeSecondary_Story_2,Create ${count} secondary particles from type ${type} of type ${secondary} per step on ${applyto},${applyto} で、ステップごとにタイプ ${secondary} のタイプ ${type} から ${count} 個の 2 次パーティクルを作成します,,GML Visual story text
+GMStdPartTypeSecondary_Story_3,Create ${count} secondary particles from type ${type} of type ${secondary} on death,機能停止時に、タイプ ${secondary} のタイプ ${type} から ${count} 個の 2 次パーティクルを作成します,,GML Visual story text
+GMStdPartTypeSecondary_Story_4,Create ${count} secondary particles from type ${type} of type ${secondary} on death on ${applyto},${applyto} で、機能停止時に、タイプ ${secondary} のタイプ ${type} から ${count} 個の 2 次パーティクルを作成します,,GML Visual story text
+GMStdPartCreateBurst_Story_1,Burst ${number} particles of type ${type} in system ${system} at ${dnd_position},システム ${system} 内の ${dnd_position} でタイプ ${type} の ${number} 個のパーティクルをバーストさせます,,GML Visual story text
+GMStdPartCreateBurst_Story_2,Burst ${number} particles of type ${type} in system ${system} at ${dnd_position} on ${applyto},${applyto} で、システム ${system} 内の ${dnd_position} でタイプ ${type} の ${number} 個のパーティクルをバーストさせます,,GML Visual story text
+GMStdPartEmitCreate_Story_1,Create a particle emitter in system ${system} into ${emitter},システム ${system} 内にパーティクルエミッターを作成して ${emitter} に入れます,,GML Visual story text
+GMStdPartEmitCreate_Story_2,Create a particle emitter in system ${system} into ${emitter} on ${applyto},${applyto} で、システム ${system} 内にパーティクルエミッターを作成して ${emitter} に入れます,,GML Visual story text
+GMStdPartEmitCreate_Story_3,Create a particle emitter in system ${system} into temp ${emitter},システム ${system} 内にパーティクルエミッターを作成して一時変数 ${emitter} に入れます,,GML Visual story text
+GMStdPartEmitCreate_Story_4,Create a particle emitter in system ${system} into temp ${emitter} on ${applyto},${applyto} で、システム ${system} 内にパーティクルエミッターを作成して、一時変数 ${emitter} に入れます,,GML Visual story text
+GMStdPartEmitDestroy_Story_1,Destroy particle emitter ${emitter} in system ${system},システム ${system} 内でパーティクルエミッター ${emitter} をバーストさせます,,GML Visual story text
+GMStdPartEmitDestroy_Story_2,Destroy particle emitter ${emitter} in system ${system} on ${applyto},${applyto} で、システム ${system} 内でパーティクルエミッター ${emitter} をバーストさせます,,GML Visual story text
+GMStdPartEmitterEmit_Story_1,Burst ${number} particles of type ${type} from emitter ${emitter} in system ${system},システム ${system} 内のエミッター ${emitter} からタイプ ${type} の ${number} 個のパーティクルをバーストさせます,,GML Visual story text
+GMStdPartEmitterEmit_Story_2,Burst ${number} particles of type ${type} from emitter ${emitter} in system ${system} on ${applyto},${applyto} で、システム ${system} 内のエミッター ${emitter} からタイプ ${type} の ${number} 個のパーティクルをバーストさせます,,GML Visual story text
+GMStdPartEmitterEmit_Story_3,Stream ${number} particles of type ${type} from emitter ${emitter} in system ${system},システム ${system} 内のエミッター ${emitter} からタイプ ${type} の ${number} 個のパーティクルをストリーミングします,,GML Visual story text
+GMStdPartEmitterEmit_Story_4,Stream ${number} particles of type ${type} from emitter ${emitter} in system ${system} on ${applyto},${applyto} で、システム ${system} 内のエミッター ${emitter} からタイプ ${type} の ${number} 個のパーティクルをストリーミングします,,GML Visual story text
+GMStdPartEmitRegion_Story_1,Emit from ${emitter} in system ${system} in a rectangular shape with linear distribution,システム ${system} 内の ${emitter} から線形分布で長方形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_2,Emit from ${emitter} in system ${system} in a rectangular shape with linear distribution on ${applyto},${applyto} で、システム ${system} 内の ${emitter} から線形分布で長方形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_3,Emit from ${emitter} in system ${system} in a rectangular shape with gaussian distribution,システム ${system} 内の ${emitter} からガウス分布で長方形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_4,Emit from ${emitter} in system ${system} in a rectangular shape with gaussian distribution on ${applyto},${applyto} で、システム ${system} 内の ${emitter} からガウス分布で長方形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_5,Emit from ${emitter} in system ${system} in a rectangular shape with inverse gaussian distribution,システム ${system} 内の ${emitter} から逆ガウス分布で長方形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_6,Emit from ${emitter} in system ${system} in a rectangular shape with inverse gaussian distribution on ${applyto},${applyto} で、システム ${system} 内の ${emitter} から逆ガウス分布で長方形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_7,Emit from ${emitter} in system ${system} in a elliptical shape with linear distribution,システム ${system} 内の ${emitter} から線形分布で楕円形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_8,Emit from ${emitter} in system ${system} in a elliptical shape with linear distribution on ${applyto},${applyto} で、システム ${system} 内の ${emitter} から線形分布で楕円形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_9,Emit from ${emitter} in system ${system} in a elliptical shape with gaussian distribution,システム ${system} 内の ${emitter} からガウス分布で楕円形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_10,Emit from ${emitter} in system ${system} in a elliptical shape with gaussian distribution on ${applyto},${applyto} で、システム ${system} 内の ${emitter} からガウス分布で楕円形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_11,Emit from ${emitter} in system ${system} in a elliptical shape with inverse gaussian distribution,システム ${system} 内の ${emitter} から逆ガウス分布で楕円形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_12,Emit from ${emitter} in system ${system} in a elliptical shape with inverse gaussian distribution on ${applyto},${applyto} で、システム ${system} 内の ${emitter} から逆ガウス分布で楕円形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_13,Emit from ${emitter} in system ${system} in a diamond shape with linear distribution,システム ${system} 内の ${emitter} から線形分布でひし形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_14,Emit from ${emitter} in system ${system} in a diamond shape with linear distribution on ${applyto},${applyto} で、システム ${system} 内の ${emitter} から線形分布でひし形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_15,Emit from ${emitter} in system ${system} in a diamond shape with gaussian distribution,システム ${system} 内の ${emitter} からガウス分布でひし形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_16,Emit from ${emitter} in system ${system} in a diamond shape with gaussian distribution on ${applyto},${applyto} で、システム ${system} 内の ${emitter} からガウス分布でひし形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_17,Emit from ${emitter} in system ${system} in a diamond shape with inverse gaussian distribution,システム ${system} 内の ${emitter} から逆ガウス分布でひし形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_18,Emit from ${emitter} in system ${system} in a diamond shape with inverse gaussian distribution on ${applyto},${applyto} で、システム ${system} 内の ${emitter} から逆ガウス分布でひし形に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_19,Emit from ${emitter} in system ${system} in a straight line with linear distribution,システム ${system} 内の ${emitter} から線形分布で直線に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_20,Emit from ${emitter} in system ${system} in a straight line with linear distribution on ${applyto},${applyto} で、システム ${system} 内の ${emitter} から線形分布で直線に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_21,Emit from ${emitter} in system ${system} in a straight line with gaussian distribution,システム ${system} 内の ${emitter} からガウス分布で直線に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_22,Emit from ${emitter} in system ${system} in a straight line with gaussian distribution on ${applyto},${applyto} で、システム ${system} 内の ${emitter} からガウス分布で直線に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_23,Emit from ${emitter} in system ${system} in a straight line with inverse gaussian distribution,システム ${system} 内の ${emitter} から逆ガウス分布で直線に放出します,,GML Visual story text
+GMStdPartEmitRegion_Story_24,Emit from ${emitter} in system ${system} in a straight line with inverse gaussian distribution on ${applyto},${applyto} で、システム ${system} 内の ${emitter} から逆ガウス分布で直線に放出します,,GML Visual story text
+GMStdEffect_Story_1,Show effect at ${dnd_position},${dnd_position} にエフェクトを表示します,,GML Visual story text
+GMStdEffect_Story_2,Show effect at ${dnd_position} on ${applyto},${applyto} で ${dnd_position} にエフェクトを表示します,,GML Visual story text
+GMStdConstructor,Constructor,コンストラクタ,,GML Visual function label for constructor
+GMStdStatic,Static,スタティック,,GML Visual function label for static
+GMStdTemp,Temp,一時,,GML Visual function label for temp
+GMStdDeclFunction_Desc,Declare a new function,新規関数を宣言します。,,GML Visual declare a new function
+GMStdDeclFunction_Name,Declare A New Function,新規関数を宣言,,GML Visual declare a new function
+GMStdDeclFunction_Story,Declare a new function ${funcName},新規関数 ${funcName} を宣言,,GML Visual declare a new function

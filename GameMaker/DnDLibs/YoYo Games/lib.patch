@@ -1,0 +1,5 @@
+﻿YoYo Games.Common.Break->YoYo Games.Loops.Break									# Moved "Break" action to "Loops" category on 01/07/2016
+YoYo Games.Global.Set_Global->YoYo Games.Common.Set_Global						# Moved "Set Global" to "Common" category on 26/07/2016
+YoYo Games.Global.Get_Global->YoYo Games.Common.Get_Global						# Moved "Get Global" to "Common" category on 26/07/2016
+YoYo Games.Mathematics.Get_Random_Number->YoYo Games.Random.Get_Random_Number	# Renamed "Mathematics" category to "Random" on 14/12/2016
+YoYo Games.Mathematics.Randomize->YoYo Games.Random.Randomize					# Renamed "Mathematics" category to "Random" on 14/12/2016

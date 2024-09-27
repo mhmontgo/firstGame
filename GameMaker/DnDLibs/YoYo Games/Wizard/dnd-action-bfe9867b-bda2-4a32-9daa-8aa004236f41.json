@@ -1,0 +1,26 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdObject",
+    "gadget": "YoYo Games.DnD_ResourceSelection",
+    "gadget_properties": {
+      "TagName": "object",
+      "DefaultValue": "noone",
+      "ResourceFilter": "GMObject"
+    }
+  },
+  {
+    "relative": false,
+    "temp": true,
+    "caption": "GMStdTarget",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "var",
+      "DefaultValue": "variable",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "tagname": null,
+    "caption": "GMStdRollbackPlayerId",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "player_id",
+      "DefaultValue": "1",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "tagname": null,
+    "caption": "GMStdInput",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "var",
+      "DefaultValue": "fire",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "tagname": null,
+    "caption": "GMStdValue",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "expr",
+      "DefaultValue": "mb_left",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

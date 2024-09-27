@@ -1,0 +1,7 @@
+{
+	"searchbar_grid":{
+		"base": "text_box",
+		"colour": "#FFFFFFFF",
+		"grid_columnlayout": ["1*", "auto"]
+	}
+}

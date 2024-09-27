@@ -1,0 +1,21 @@
+{
+	"object_editor_group_box": {
+		"colour": "group_box"
+	},
+
+	"event_item_stack_panel": {
+		"colour": "object_editor_eventlist_item_stack_panel"
+	},
+
+	"object_editor_group_box_label": {
+		"colour": "group_label"
+	},
+
+	"object_editor_treeview": {
+		"colour": "treeview_bg"
+	},
+
+	"treeview_no_frame": {
+		"bg_stripe_colour": "object_editor_child_panel_stripe"
+	}
+}

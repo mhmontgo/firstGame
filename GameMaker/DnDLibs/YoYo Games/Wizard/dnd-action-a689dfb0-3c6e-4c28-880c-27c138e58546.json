@@ -1,0 +1,28 @@
+[
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdX",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "xpos",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdY",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "ypos",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+	"redefine_keys_style": {
+		"search_box_colour": "redefine_keys_search",
+		"column_header_colour": "redefine_keys_column_header",
+		"odd_cell_colour": "redefine_keys_cell_odd",
+		"even_cell_colour": "redefine_keys_cell_even",
+		"highlight_cell_colour": "redefine_keys_cell_hi",
+		"location_dropdown_colour": "redefine_keys_location_dropdown",
+		"location_dropdown_caption_colour": "redefine_keys_location_dropdown_caption",
+		"grid_separator_colour": "redefine_keys_grid_separator",
+		"combo_grid_highlight_colour": "redefine_keys_combo_grid_hi",
+		"conflicts_panel": "redefine_keys_conflicts",
+		"warning_label": "redefine_keys_warning",
+		"suggested_keys_odd": "redefine_keys_suggested_keys_odd",
+		"suggested_keys_even": "redefine_keys_suggested_keys_even",
+		"suggested_keys_header": "redefine_keys_suggested_keys_header",
+		"suggested_keys_header_text": "redefine_keys_suggested_keys_header_text"
+	}
+}

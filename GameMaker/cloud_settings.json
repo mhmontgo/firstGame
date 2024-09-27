@@ -1,0 +1,17 @@
+﻿{	
+    "cloud.general.ShowCompileWindow" : "true",
+    "cloud.general.ShowCommandsInCompileWindow": "true",
+    "cloud.general.UseSubstForDrivePaths": "true",
+    "cloud.general.ShowVerboseCommands" : "false",
+    "cloud.general.EnableBackups" : "true",
+    "cloud.general.ReloadChangedFiles" : "true",
+    "cloud.general.DeleteCacheOnQuit" : "false",
+    "cloud.general.DeleteTempFolderOnQuit" : "false",
+    "cloud.general.BackupCount" : 20,
+    "cloud.roomeditor.LinkColour" : "#FFDBB987",
+    "cloud.roomeditor.MinFallOffAlpha" : 0.2,
+    "cloud.roomeditor.AlphaFallOffStartDistance" : 30,
+    "cloud.roomeditor.AlphaFallOffStopDistance" : 400,
+    "cloud.sourcecontrolgit.PathToGit" : "C:\\Program Files (x86)\\Git\\bin\\git.exe",
+    "cloud.sourcecontrolgit.DefaultBranch" : "main"
+}

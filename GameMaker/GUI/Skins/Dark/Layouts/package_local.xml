@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="CreateLocalPackage" layout_guid="90f61043-7031-4e54-8eaa-415cd1a0854c">
+    <StackPanel stylename="window_client_panel" stack_order="BottomToTop">
+      <ChildGadgets>
+        <StackPanel stylename="stack_panel" right="0px" bottom="6px" margin_top="6px" margin_bottom="6px" stack_resize="ResizeAll">
+          <ChildGadgets>
+            <Button stylename="button_up" layout_id="button_cancel" layout_guid="2bf5eb76-8da1-4783-922c-55415a1a80c2" height="24px" width="100dpi_px" left="0px" bottom="15dpi_px" margin_right="10px" localise_name="Button_Cancel" />
+            <Button stylename="button_up" layout_id="button_ok" layout_guid="fb1c5038-ba63-4fb1-a2cd-a95617f98bb8" height="24px" width="100dpi_px" left="110px" bottom="14dpi_px" margin_right="10px" localise_name="Button_OK" />
+          </ChildGadgets>
+        </StackPanel>
+        <Grid stylename="package_grid" height="100%" width="100%" bottom="36px" grid_rowlayout="['50%', '1*']" grid_columnlayout="['auto', 'auto']">
+          <ColumnDockSplitter stylename="dock_splitter" height="475px" width="14dpi_px" left="567px" top="0px" splitter_anchor="First" row="0" column="1" rowspan="2" columnspan="1" />
+          <Cell row="0" column="0" flow_index="0">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" left="0px" top="0px" stack_order="TopToBottom">
+                <ChildGadgets>
+                  <Label stylename="label" height="16px" left="0px" top="16px" margin_left="12px" margin_top="16px" localise_caption="Package_LocalPackageDescription" auto_ellipsis="True" />
+                  <Label stylename="label" height="16px" left="0px" top="44px" margin_left="12dpi_px" margin_top="12px" localise_caption="Marketplace_CreatePackageDetails" auto_ellipsis="True" />
+                  <ScrollPanel stylename="package_inner_panel" left="1px" top="70px" margin_left="5px" margin_right="2px" margin_top="10px" scrollpanel_flags="VerticalScroll, HorizontalScroll, AdjustToScrollBars">
+                    <ChildGadgets>
+                      <Grid stylename="grid_container" height="100%" width="100%" left="0px" top="0px" grid_rowlayout="['auto', 'auto', 'auto', 'auto', 'auto', 'auto']" grid_columnlayout="['260dpi_px', 'auto']" column_spacing="10dpi_px" grid_resize="ResizeGrid">
+                        <Cell row="0" column="0" flow_index="0">
+                          <ChildGadgets>
+                            <Label stylename="package_heading_label" height="16px" width="92px" top="12px" margin_top="12px" localise_caption="Marketplace_PublisherName" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="1" column="0" flow_index="0">
+                          <ChildGadgets>
+                            <TextBox stylename="create_package_text_box" layout_id="publisher_name_textbox" layout_guid="2c688296-815d-4e83-b4a2-144e8d705b6b" width="100%" left="9px" margin_left="9px" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="1" column="1" flow_index="0">
+                          <ChildGadgets>
+                            <CheckBox stylename="checkbox_stack" layout_id="sign_check" layout_guid="71f37939-1b6f-46cd-a0e1-9beb941c22c1" left="10dpi_px" localise_name="Package_SignPackage" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="2" column="0" flow_index="0">
+                          <ChildGadgets>
+                            <Label stylename="package_heading_label" height="16px" width="76px" top="7px" margin_top="7px" localise_caption="MPackage_AssetDisplayName" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="2" column="1" flow_index="0">
+                          <ChildGadgets>
+                            <Label stylename="package_heading_label" height="16px" width="45px" top="7px" margin_top="7px" localise_caption="Marketplace_PackageVersion" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="3" column="0" flow_index="0">
+                          <ChildGadgets>
+                            <TextBox stylename="create_package_text_box" layout_id="display_name_textbox" layout_guid="7a4b3ad0-a6e4-42a5-836b-89b6419ca0eb" width="100%" left="9px" margin_left="9px" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="3" column="1" flow_index="0">
+                          <ChildGadgets>
+                            <StackPanel stylename="stack_panel" left="9px" margin_left="9px" stack_resize="ResizeAll">
+                              <ChildGadgets>
+                                <NumericTextBox stylename="numeric_text_box" layout_id="version_box_1" layout_guid="308de266-92c0-49d9-9950-b3b89cee4c2a" width="60dpi_px" left="0px" top="130dpi_px" margin_right="12px" max="999" />
+                                <NumericTextBox stylename="numeric_text_box" layout_id="version_box_2" layout_guid="8c7fba1d-5251-4ef2-8949-62e9f62a4f88" width="60dpi_px" left="72px" top="130dpi_px" margin_right="12px" max="999" />
+                                <NumericTextBox stylename="numeric_text_box" layout_id="version_box_3" layout_guid="f4e965a9-374e-41ce-adca-a4f837f17a4c" width="60dpi_px" left="144px" top="130dpi_px" max="999" />
+                              </ChildGadgets>
+                            </StackPanel>
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="4" column="0" flow_index="0">
+                          <ChildGadgets>
+                            <Label stylename="package_heading_label" height="16px" width="127px" top="7px" margin_top="7px" localise_caption="Package_LocalPackageId" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="5" column="0" flow_index="0">
+                          <ChildGadgets>
+                            <TextBox stylename="create_package_text_box" layout_id="package_id_textbox" layout_guid="0944466f-a4bd-4be6-8077-786e8fa95ca0" width="100%" left="9px" margin_left="9px" />
+                          </ChildGadgets>
+                        </Cell>
+                      </Grid>
+                    </ChildGadgets>
+                  </ScrollPanel>
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="1" rowspan="2" columnspan="1" flow_index="0">
+            <ChildGadgets>
+              <Layout layout_name="ResourceSelectorExport" layout_guid="db2379d8-9665-4c99-b589-a3db6a50df3e" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+</Layouts>

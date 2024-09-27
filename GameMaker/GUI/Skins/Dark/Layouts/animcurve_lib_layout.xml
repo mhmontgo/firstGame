@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="AnimCurveLibPanel" layout_guid="7ddf95e3-03f6-4615-8f59-8cff3a477755">
+    <ScrollPanel stylename="default_scrollpanel" override_flow_index="9999999" scrollpanel_flags="None">
+      <ChildGadgets>
+        <Grid stylename="grid_container" layout_id="main_grid" layout_guid="8fd74c24-33b0-4fc4-a231-d1b5a034c420" override_flow_index="9999999" grid_rowlayout="['26dpi_px', '1*']" grid_columnlayout="['110dpi_px', '1*']">
+          <Cell row="0" column="0" stylename="aclib_header" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" override_flow_index="9999999" height="16px" width="27px" left="10dpi_px" localise_caption="AnimCurveLib_Type" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="1" stylename="aclib_header" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['90dpi_px', 'auto', '1*']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="16px" width="42px" left="10dpi_px" margin_left="10dpi_px" margin_right="40dpi_px" localise_caption="AnimCurveLib_Presets" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <StackPanel stylename="stack_panel" override_flow_index="9999999" width="60dpi_px" stack_resize="ResizeWidth">
+                      <ChildGadgets>
+                        <ToggleButton stylename="button_up" layout_id="btn_mode_between" layout_guid="41d7cc48-c9dd-4aa0-bcc0-ef1b852c4d7a" override_flow_index="9999999" localise_tooltip="AnimCurveLib_TTBetween" height="" width="40dpi_px" left="0px" top="3dpi_px" bottom="0dpi_px" icon_flags="Centre" font_icon="[&quot;anim_curve_icon_font&quot;, &quot;icon_ac_apply_between&quot;]" vector_icon_size="28dpi_px" />
+                        <ToggleButton stylename="button_up" layout_id="btn_mode_overwrite" layout_guid="348b23fa-44d7-467e-a380-1dc0a6629587" override_flow_index="9999999" localise_tooltip="AnimCurveLib_TTOverwrite" height="" width="40dpi_px" left="42px" top="3dpi_px" bottom="0dpi_px" margin_left="2dpi_px" icon_flags="Centre" font_icon="[&quot;anim_curve_icon_font&quot;, &quot;icon_ac_apply_overwrite&quot;]" vector_icon_size="28dpi_px" />
+                      </ChildGadgets>
+                    </StackPanel>
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <StackPanel stylename="stack_panel" override_flow_index="9999999" right="10dpi_px" stack_resize="ResizeWidth">
+                      <ChildGadgets>
+                        <ToggleButton stylename="button_up" layout_id="btn_ease_in" layout_guid="0710c0e8-9203-440b-9169-e018a7f93f32" override_flow_index="9999999" localise_tooltip="AnimCurveLib_TTEaseIn" height="20dpi_px" width="40dpi_px" left="0px" top="3dpi_px" bottom="0dpi_px" icon_flags="Centre" icon_render_flags="FlipHorizontal" font_icon="[&quot;anim_curve_icon_font&quot;, &quot;icon_ac_arrow_left&quot;]" vector_icon_size="16dpi_px" />
+                        <ToggleButton stylename="button_up" layout_id="btn_ease_inout" layout_guid="c56c4fee-a820-4725-94c9-5a89260c285a" override_flow_index="9999999" localise_tooltip="AnimCurveLib_TTEaseInOut" height="" width="40dpi_px" left="42px" top="3dpi_px" bottom="0dpi_px" margin_left="2dpi_px" icon_flags="Centre" font_icon="[&quot;anim_curve_icon_font&quot;, &quot;icon_ac_arrow_double&quot;]" vector_icon_size="24dpi_px" />
+                        <ToggleButton stylename="button_up" layout_id="btn_ease_out" layout_guid="3c3b353a-2ffb-410f-a841-6a3e3fb32089" override_flow_index="9999999" localise_tooltip="AnimCurveLib_TTEaseOut" height="" width="40dpi_px" left="84px" top="3dpi_px" bottom="0dpi_px" margin_left="2dpi_px" icon_flags="Centre" icon_render_flags="FlipHorizontal" font_icon="[&quot;anim_curve_icon_font&quot;, &quot;icon_ac_arrow_left&quot;]" vector_icon_size="16dpi_px" />
+                      </ChildGadgets>
+                    </StackPanel>
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <ListBox stylename="list_box" layout_id="list_curve_type" layout_guid="db95fa6c-bef9-4039-a402-cc55b860f3e0" override_flow_index="9999999">
+                <ListBoxItems />
+              </ListBox>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['130dpi_px', '1*']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <ListBox stylename="list_box" layout_id="list_presets" layout_guid="1db779ad-40f9-43ec-9a72-c1405e151213" override_flow_index="9999999">
+                      <ListBoxItems />
+                    </ListBox>
+                  </ChildGadgets>
+                </Cell>
+                <Cell layout_id="graph_preview" layout_guid="9fe0f3e8-3e04-4219-adec-3e9e96ce6d99" row="0" column="1" stylename="list_box" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label_centre" layout_id="preview_label" layout_guid="3d3a6827-2894-4327-b2b0-0494f085b187" override_flow_index="9999999" height="32dpi_px" width="" left="10px" right="10px" localise_caption="ACL_ResetTip" word_wrap="True" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+</Layouts>

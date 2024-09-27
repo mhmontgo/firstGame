@@ -1,0 +1,30 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "tagname": null,
+    "caption": "GMStdName",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "var",
+      "DefaultValue": "variable",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "tagname": null,
+    "caption": "GMStdValue",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "expr",
+      "DefaultValue": "0",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="config_editor_layout" layout_guid="b40bbd47-330a-45c9-b6da-2f71a34e408d">
+    <Window stylename="default_window" width="284dpi_px" localise_title="AssetBrowser_ConfigEditor">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <TreeView stylename="gadget_treeview" layout_id="tree" layout_guid="e813833e-73d1-461f-b6be-3ae9e7a14e99" multi_select="False" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" left="4dpi_px" right="4dpi_px" top="4dpi_px" bottom="4dpi_px" margin_top="4dpi_px" margin_bottom="4dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['1*', '1*']" column_spacing="8dpi_px" grid_resize="ResizeGrid">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="create" layout_guid="f1730635-83dc-4cc5-8802-fe155916ed13" localise_name="ConfigEditor_CreateConfig" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="delete" layout_guid="962083d8-3a76-439b-a5cd-63b42a58d651" localise_name="ConfigEditor_DeleteConfig" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

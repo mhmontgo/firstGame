@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="InspectorTagCell" layout_guid="58c26b7a-8860-4460-b102-c9a8ead5e5ed">
+    <Grid stylename="ac_roundbox_frame" override_flow_index="9999999" height="26dpi_px" width="150dpi_px" margin_left="10dpi_px" margin_right="10dpi_px" margin_top="10dpi_px" grid_columnlayout="['22dpi_px', '1*', '14dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="image" layout_id="tag_icon" layout_guid="5d7f644a-d7d8-48c3-a3c4-f6524e9bf8ca" override_flow_index="9999999" width="20dpi_px" right="0px" margin_left="2dpi_px" image_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_tagged&quot;]" vector_icon_size="14dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="ac_roundbox_frame_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="label" layout_guid="1c331c17-ce82-44fc-ac7b-a98047060dd9" override_flow_index="9999999" height="16dpi_px" width="0px" left="4dpi_px" right="0px" caption="Tag_name_here_blah" auto_size="False" auto_ellipsis="True" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="ac_roundbox_frame_panel" flow_index="0">
+        <ChildGadgets>
+          <CloseButton stylename="close_button_up" layout_id="close_button" layout_guid="7b57af20-5035-4d6b-85be-6e53efa643fc" override_flow_index="9999999" height="12dpi_px" width="12dpi_px" left="0px" right="" top="" margin_bottom="" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="InspectorTagEditor" layout_guid="cd3baf84-9592-48ff-b873-26343f15aa67">
+    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['1*', '38dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="default_scrollpanel" layout_id="scroll_panel" override_flow_index="9999999" scrollpanel_flags="VerticalScroll">
+            <ChildGadgets>
+              <StackPanel stylename="list_view_wrap_panel" layout_id="wrap_panel" layout_guid="aac2165e-5aad-4f55-9495-9a165f25f67a" override_flow_index="9999999" />
+            </ChildGadgets>
+          </ScrollPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <HorizontalSeparator stylename="dark_separator" layout_id="separator" override_flow_index="9999999" height="2px" left="0px" right="0px" top="0px" />
+          <Grid stylename="grid_container" override_flow_index="9999999" top="2px" bottom="0px" grid_columnlayout="['32dpi_px', '1*', '1*']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Image stylename="image" override_flow_index="9999999" image_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_tagged&quot;]" vector_icon_size="16dpi_px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <TextBox stylename="text_box" layout_id="add_tag_textbox" layout_guid="209b2077-fa3c-48e3-aa4b-a388fa91f53f" override_flow_index="9999999" height="28dpi_px" localise_default_caption="Sequence_AddTagTooltip" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ComboBox stylename="combobox_panel" layout_id="tags_combo" layout_guid="22e714f2-46d0-4ed3-b62f-a9e8aea49e7c" override_flow_index="9999999" height="28dpi_px" width="" left="8dpi_px" right="6dpi_px">
+                  <ListBoxItems />
+                </ComboBox>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

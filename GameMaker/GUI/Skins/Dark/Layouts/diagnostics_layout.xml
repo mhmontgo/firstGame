@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Layouts>
+  <Layout layout_name="DiagnosticsWindow" layout_guid="251f9e07-0fce-4718-b737-f926d632b8cd">
+    <Window localise_title="Diagnostics_Title" width_min="640dpi_px" height_min="192dpi_px" window_flags="Default">
+      <Client>
+        <ChildGadgets>
+          <Grid layout_id="TestStackPanel" grid_rowlayout="['auto','auto','*']" grid_columnlayout="['*']">
+            <Cell row="0" column="0">
+              <ChildGadgets>
+                <Grid grid_columnlayout="['auto','auto','auto','auto','auto','*','auto']" height="32dpi_px">
+	                <Cell row="0" column="0">
+						  <Gadgets><ToggleButton layout_id="ButtonErrorsFilter" stylename="filterbutton" pressed="true" width="140dpi_px" height="24dpi_px" margin="4" name="Errors" icon="${current_skin}/Images/Feather/LintError.png" /></Gadgets>
+					  </Cell>
+					  <Cell row="0" column="1">
+						  <Gadgets><Label caption="|" margin="4" /></Gadgets>
+					  </Cell>
+	                  <Cell row="0" column="2">
+		                  <Gadgets><ToggleButton layout_id="ButtonWarningsFilter" stylename="filterbutton" pressed="true" width="140dpi_px" height="24dpi_px" margin="4" name="Warnings" icon="${current_skin}/Images/Feather/LintWarn.png" /></Gadgets>
+	                  </Cell>
+	                <Cell row="0" column="3">
+		                <Gadgets>
+			                <Label caption="|" margin="4" />
+		                </Gadgets>
+	                </Cell>
+	                  <Cell row="0" column="4">
+		                  <Gadgets><ToggleButton layout_id="ButtonSuggestionsFilter" stylename="filterbutton" pressed="true" width="140dpi_px" height="24dpi_px" margin="4" name="Suggestions" icon="${current_skin}/Images/Feather/LintSuggestion.png" /></Gadgets>
+	                  </Cell>
+	                <Cell row="0" column="5">
+		                  <Gadgets></Gadgets>
+	                  </Cell>
+	                  <Cell row="0" column="6">
+		                  <Gadgets>
+			                  <TextBox stylename="gototype_text_box" layout_id="TextBoxMessageFilter" width="210dpi_px" height="24dpi_px" localise_default_caption="ResourceTree_SearchResources" text_hoffset="22dpi_px" text_hclip="12dpi_px" margin="4">
+				                  <ChildGadgets>
+					                  <Image stylename="image_searchicon" left="3dpi_px" top="3dpi_px" render_flags="FlipHorizontal" image="searchbar_icon.png" />
+					                  <CloseButton stylename="close_button_up" layout_id="ButtonCancelTextFilter" right="0dpi_px" top="" margin_bottom="" colour="#FF888888" />
+				                  </ChildGadgets>
+			                  </TextBox>
+						  </Gadgets>
+	                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0">
+              <ChildGadgets>
+                <Grid layout_id="HeaderGrid"
+                      grid_columnlayout="['36dpi_px','80dpi_px','*','160dpi_px','48dpi_px','32dpi_px','64dpi_px']"
+                      width="100%" height="24dpi_px" stylename="feather_LintMessageWindow_Header">
+                  <Cell row="0" column="0">
+                    <Gadgets>
+                      <Label caption="" />
+                    </Gadgets>
+                  </Cell>
+                  <ColumnSplitter row="0" column="1" min_px_size="52dpi_px" stylename="feather_LintMessageWindow_vertical_grid_splitter" />
+                  <Cell row="0" column="1">
+                    <Gadgets>
+                      <Label stylename="basic_label" caption="Code" left="12dpi_px" />
+                      <ToggleButton layout_id="ButtonSortByCode" stylename="feather_SortButton" height="16dpi_px" width="16dpi_px" right="12dpi_px" icon_flags="Centre, KeepAspectRatio, Downscale" pressed="true" icon="ArrowUp.png" />
+                    </Gadgets>
+                  </Cell>
+                  <ColumnSplitter row="0" column="2" min_px_size="80dpi_px" stylename="feather_LintMessageWindow_vertical_grid_splitter" />
+                  <Cell row="0" column="2">
+                    <Gadgets>
+                      <Label stylename="basic_label" caption="Message" left="12dpi_px" />
+                      <ToggleButton layout_id="ButtonSortByMessage" stylename="feather_SortButton" height="16dpi_px" width="16dpi_px" right="12dpi_px" icon_flags="Centre, KeepAspectRatio, Downscale" icon="ArrowUp.png" />
+                    </Gadgets>
+                  </Cell>
+                  <ColumnSplitter row="0" column="3" min_px_size="96dpi_px" stylename="feather_LintMessageWindow_vertical_grid_splitter" />
+                  <Cell row="0" column="3">
+                    <Gadgets>
+                      <Label stylename="basic_label" caption="Resource" left="12dpi_px" />
+                      <ToggleButton layout_id="ButtonSortByResource" stylename="feather_SortButton" height="16dpi_px" width="16dpi_px" right="12dpi_px" icon_flags="Centre, KeepAspectRatio, Downscale" icon="ArrowUp.png" />
+                    </Gadgets>
+                  </Cell>
+                  <ColumnSplitter row="0" column="4" min_px_size="48dpi_px" stylename="feather_LintMessageWindow_vertical_grid_splitter" />
+                  <Cell row="0" column="4">
+                    <Gadgets>
+                      <Label stylename="basic_label" caption="Line" left="12dpi_px" />
+                    </Gadgets>
+                  </Cell>
+                  <ColumnSplitter row="0" column="5" min_px_size="32dpi_px" stylename="feather_LintMessageWindow_vertical_grid_splitter" />
+                  <Cell row="0" column="5">
+                    <Gadgets>
+                      <Label stylename="basic_label" caption="Column" left="12dpi_px" />
+                    </Gadgets>
+                  </Cell>
+                  <Cell row="0" column="6">
+                    <Gadgets>
+                      <Label stylename="basic_label" caption="" />
+                    </Gadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0">
+              <ChildGadgets>
+                <ScrollPanel layout_id="ErrorsPanel" width="100%" height="100%"
+                             scrollpanel_flags="VerticalScroll">
+                  <ChildGadgets />
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

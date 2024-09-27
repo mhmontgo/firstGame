@@ -1,0 +1,53 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdType",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "type",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdDecimal|GMStdInteger"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdMin",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "min",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdMax",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "max",
+      "DefaultValue": "1",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": true,
+    "caption": "GMStdTarget",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "var",
+      "DefaultValue": "variable",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  }
+]

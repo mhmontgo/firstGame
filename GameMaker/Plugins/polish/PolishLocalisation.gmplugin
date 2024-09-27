@@ -1,0 +1,31 @@
+{
+  "name": "PolishLocalisation",
+  "bundle_version": "1.0.0",
+  "bundle_description": "Polish IDE localisations",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "PolishLocalisation",
+      "localised_name": "polish_localisation",
+      "plugin_version": "1.0.0",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+          {
+            "Polish": "polish.csv"
+          },
+          {
+            "Polish": "polish_dnd.csv"
+          }
+        ]
+      },
+      "description": "Polish IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "f3yK5fJCeAog\u002BCP74mv3j\u002BWTQsJ6VaxA/MDje7ewJCpS0O28WsuZ/61Q5y/rJirWPXBb94sBnTMTeYNg\u002BNvK0NaCXlw1rxNkX4P/orXv955XOQK7vUKt0IaPrrRBPGlCdbFIGRjSxVU3dz93AidGgniEWkN4bLxQIpvHrINmCcw=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

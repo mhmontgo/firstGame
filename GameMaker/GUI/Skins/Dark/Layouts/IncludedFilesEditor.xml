@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="included_files_editor_layout" layout_guid="66ca27c1-a1c9-41fb-9656-983034cf0279">
+    <Window stylename="default_window" override_flow_index="9999999" width="284dpi_px" localise_title="AssetBrowser_IncludedFiles">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['1*', 'auto']">
+            <Cell layout_id="tree_cell" layout_guid="1e739ae2-497f-4886-a9f6-8844b65fbf4a" row="0" column="0" stylename="grid_container_panel" flow_index="0" />
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" grid_columnlayout="['32dpi_px', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" localise_tooltip="IncludedFile_Refresh" layout_id="refresh" layout_guid="09867050-ae71-4a4c-94ee-cb1dc600ff62" override_flow_index="9999999" width="24dpi_px" left="0px" margin_right="8dpi_px" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Runtime\icon_IDE_refresh.png" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="open_in_explorer" layout_guid="ad7e3c22-7fff-4f72-bf98-0a00a86baa01" override_flow_index="9999999" left="0px" localise_name="ResourceNode_OpenInExplorer" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

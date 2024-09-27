@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="PrefabLibraryWindow" layout_guid="47083ab2-9608-46b9-8e49-e74ca54624f9">
+    <Window stylename="prefab_library_window" override_flow_index="9999999" title="Prefab Library">
+      <Client />
+      <ChildGadgets>
+        <PrefabBrowserGadget stylename="prefab_browser" layout_id="prefab_browser_gadget" layout_guid="171df32b-3914-49ef-b776-03e75773049a" override_flow_index="9999999" />
+      </ChildGadgets>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="PrefabLibraryWindow_TreeTest" layout_guid="6d8a75cc-f62d-42b5-93bc-d31555bc29e5">
+    <Window stylename="prefab_library_window" override_flow_index="9999999" title="Prefab Library">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['200dpi_px', '1*']">
+            <ColumnSplitter stylename="vertical_grid_splitter" height="436px" width="5dpi_px" left="200px" top="0px" row="0" column="1" rowspan="1" columnspan="1" />
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['30dpi_px', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="grid_container" override_flow_index="9999999" top="2dpi_px" bottom="2dpi_px" grid_columnlayout="['1*', 'auto', 'auto']">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <SearchBar stylename="searchbar_grid" layout_id="tree_searchbar" layout_guid="b98278a3-484a-484d-af52-c42dd014df97" override_flow_index="9999999" filter="True" />
+                          </ChildGadgets>
+                        </Cell>
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell layout_id="tree_cell" layout_guid="df548fe6-d153-4967-a6bc-e82e8b6710f3" row="1" column="0" stylename="grid_container_panel" flow_index="0" />
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <PrefabBrowserGadget stylename="prefab_browser" layout_id="prefab_browser_gadget" layout_guid="171df32b-3914-49ef-b776-03e75773049a" override_flow_index="9999999" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="PrefabLibWindow2" layout_guid="bc73b810-23e5-49db-b5ad-56dd79373a0a">
+    <Window stylename="default_window" override_flow_index="9999999" height="600dpi_px" width="930dpi_px" localise_title="PrefabLibrary">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container_panel" override_flow_index="9999999" grid_rowlayout="['1*', '32dpi_px']">
+            <Cell layout_id="content_cell" layout_guid="a96c4d88-3662-46f2-9946-108d3477f195" row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" layout_id="content_grid" layout_guid="75588eef-6bea-487a-a1c4-811e77b3590b" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="ab_panel_style" override_flow_index="9999999" grid_columnlayout="['auto', '1*', 'auto']" grid_resize="ResizeGridHeight">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label_light" layout_id="asset_count_label" layout_guid="cedecc14-94f6-4400-b6a6-efd632bb9065" height="16px" width="51px" left="4dpi_px" margin_left="4dpi_px" localise_caption="AssetBrowser_ItemCountPlural" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="ab_panel_style_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label_light" layout_id="select_count_label" layout_guid="64c70c7a-fff1-49cf-91da-2eed71dee8c0" override_flow_index="9999999" height="16px" width="67px" left="12dpi_px" margin_left="12dpi_px" localise_caption="AssetBrowser_SelectedCount" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" layout_id="zoom_bar_cell">
+                    <ChildGadgets>
+                      <ZoomSlider layout_id="zoom_slider"></ZoomSlider>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="PrefabLib_TreePanel" layout_guid="cbf4ec2f-3b18-4a24-8ef5-9ee14cffb9bc">
+    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['36dpi_px', '1*']">
+      <Cell row="0" column="0" stylename="dial_inner_alpha" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" left="8dpi_px" right="8dpi_px" grid_columnlayout="['1*', '24dpi_px', '24dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <SearchBar stylename="searchbar_grid" layout_id="search_bar" layout_guid="b3c4a732-55ee-4fe3-ab75-6244b3fd1dcf" override_flow_index="9999999" left="0px" right="8dpi_px" filter="True" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ToggleButton stylename="ab_filter_button" layout_id="button_sort" layout_guid="40605559-e944-4da0-93fe-b6406b076119" override_flow_index="9999999" localise_tooltip="AssetBrowser_TTSortFilter" width="24dpi_px" margin_right="1dpi_px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="ab_menu_button" layout_id="button_menu" layout_guid="83d726ae-6b26-4046-8ef3-6b1cf4bbcb6e" override_flow_index="9999999" localise_tooltip="AssetBrowser_TTMenu" width="24dpi_px" margin_left="4dpi_px" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="tree_cell" layout_guid="919da387-aec3-415e-9d55-2f7b79e7f503" row="1" column="0" stylename="bordered_grid_dark" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="combobox_panel" layout_id="tree_combo" layout_guid="815e2836-59b7-4b04-9388-eef292a915d5" override_flow_index="9999999" width="" left="8dpi_px" right="8dpi_px" grid_columnlayout="['1*', '24dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" layout_id="tree_combo_label" layout_guid="0382ab94-94ba-4a4f-9315-a0c0b70b56c3" override_flow_index="9999999" height="16px" width="0px" left="8dpi_px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="combobox_panel" mouse_events="false" flow_index="0">
+              <ChildGadgets>
+                <ScrollPanel stylename="dropdown_selector_icon" mouse_events="false" override_flow_index="9999999" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="PrefabLib_GridPanel" layout_guid="0f02e1e2-5ed9-4f4d-b524-f8095ec3f6fa">
+    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['40dpi_px', '1*']" grid_resize="None">
+      <Cell row="0" column="0" stylename="dial_inner_alpha" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="8dpi_px" right="8dpi_px" grid_columnlayout="['1*', '24dpi_px']">
+            <Cell layout_id="breadcrumb_cell" layout_guid="94e8b88c-f80a-4b04-b3fa-0d2274f8354b" row="0" column="0" stylename="grid_container_panel" flow_index="0" />
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="no_frame_button" layout_id="view_button" layout_guid="8a22959f-1dea-47a7-904d-3b47db47185b" override_flow_index="9999999" icon_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_list_view&quot;]" vector_icon_size="16dpi_px" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="content_cell" layout_guid="78367a89-0e57-48bb-8328-cf4eb480d82d" row="1" column="0" stylename="bordered_grid_dark" flow_index="0" />
+    </Grid>
+  </Layout>
+  <Layout layout_name="PrefabLib_ListHeader" layout_guid="888afdd7-dd0c-4057-b455-fe29aab1d7ae">
+    <Grid stylename="prefab_list_header">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="name" layout_guid="7b7c0ea8-4589-47c1-9e3e-3cdb16e35c5b" override_flow_index="9999999" height="16px" width="210px" left="8dpi_px" localise_caption="PrefabLibrary_Name" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="inspector_title_frame_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="asset_type" layout_guid="afbdc17e-82d9-4c50-aa63-2162b8cd526b" override_flow_index="9999999" height="16px" width="234px" left="0dpi_px" localise_caption="PrefabLibrary_AssetType" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="inspector_title_frame_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="version" layout_guid="3a35ece9-82bc-4abf-85c8-6e06506f09fd" override_flow_index="9999999" height="16px" width="218px" left="0dpi_px" localise_caption="PrefabLibrary_Version" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="3" stylename="inspector_title_frame_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="collection" layout_guid="b0ad7dcf-36d0-45a0-b193-2a4b91aa8a62" override_flow_index="9999999" height="16px" width="236px" left="0dpi_px" localise_caption="PrefabLibrary_Collection" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="PrefabLib_ListItem" layout_guid="e97307ed-52d5-498b-b49a-09f08ccb56d1">
+    <Grid stylename="prefab_list_item">
+      <Layout layout_id="PrefabLib_ListItem_Content" />
+    </Grid>&gt;
+  </Layout>
+  <Layout layout_name="PrefabLib_ListItem_Content" layout_guid="e97307ed-52d5-498b-b49a-09f08ccb56d1">
+    <!-- <Grid stylename="prefab_list_item"> -->
+    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="name" layout_guid="a8c14422-4d71-4ae2-a988-d8a50f202570" override_flow_index="9999999" height="16px" width="61px" left="48dpi_px" caption="Player One" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="type" layout_guid="d2bd45ee-5be4-4d19-9596-8886e0e56dcc" override_flow_index="9999999" height="16px" width="35px" left="0px" caption="Folder" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="version" layout_guid="e5ff2b99-eb49-4fd5-82df-e03ac4ec2576" override_flow_index="9999999" height="16px" width="24px" left="0px" caption="1.03" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="collection" layout_guid="596e164f-6a6a-47fa-bf5a-706d6e4a7109" override_flow_index="9999999" height="16px" width="" left="0px" caption="Characters.yyz" auto_ellipsis="True" />
+      </ChildGadgets>
+    </Cell>
+    <!-- </Grid> -->
+  </Layout>
+  <Layout layout_name="PrefabLib_GridItem_TEST" layout_guid="44f4437e-0660-4f20-919a-6232281e1e53">
+    <Grid stylename="grid_container" override_flow_index="9999999" height="147dpi_px" width="115dpi_px" grid_rowlayout="['1*', '32dpi_px']">
+      <Cell layout_id="image_cell" layout_guid="9782bc99-f396-40bd-a76d-5984f0c27b81" row="0" column="0" stylename="grid_container_panel" flow_index="0" />
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label_centre" layout_id="name" layout_guid="60767cae-4d48-42d8-94e5-db6a2854302f" override_flow_index="9999999" height="" width="" caption="Long Folder Name With Too Many Words" auto_size="True" auto_ellipsis="True" word_wrap="True" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

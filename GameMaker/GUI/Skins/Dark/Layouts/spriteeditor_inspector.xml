@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="Ins_SpritePreviewPlayControl" layout_guid="eb1cdb66-c94a-4d33-9678-e8da96f720e7">
+    <Grid stylename="grid_container" override_flow_index="9999999" height="28dpi_px" width="88dpi_px" right="4dpi_px" top="4dpi_px" grid_columnlayout="['1*', '28dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="0px" right="6dpi_px" colour="#64000000" grid_columnlayout="['16dpi_px', '1*', '16dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="no_frame_button2" layout_id="button_left" layout_guid="5882b78e-0bed-4925-955e-c0f89535a895" override_flow_index="9999999" width="12dpi_px" right="0px" icon_flags="Centre" icon_render_flags="FlipHorizontal" font_icon="[&quot;General_IDE_Icons&quot;, &quot;IDE_icon_arrow_right&quot;]" vector_icon_size="10dpi_px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" layout_id="frame_label" layout_guid="091b5955-1f15-4754-a9b3-c46d63b96627" override_flow_index="9999999" height="16px" width="21px" caption="999" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="no_frame_button2" layout_id="button_right" layout_guid="f65e4164-ba23-4a1b-b2a3-cc868c341d44" override_flow_index="9999999" width="12dpi_px" left="0px" icon_flags="Centre" font_icon="[&quot;General_IDE_Icons&quot;, &quot;IDE_icon_arrow_right&quot;]" vector_icon_size="10dpi_px" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="ins_sprite_play_button" layout_id="button_play" layout_guid="35acdb41-48e1-4e2f-b3bb-1b1ae25c0a5d" override_flow_index="9999999" height="28dpi_px" width="28dpi_px" icon_flags="Centre" vector_icon_size="14dpi_px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

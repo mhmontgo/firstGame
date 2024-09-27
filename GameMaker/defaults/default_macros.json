@@ -1,0 +1,21 @@
+{
+  "system_directory": "${CommonApplicationData}/${program_dir_name}",
+  "system_cache_directory": "${system_directory}/Cache",
+  "local_directory": "${ApplicationData}/${program_dir_name}",
+  "local_cache_directory": "${local_directory}/Cache",
+  "temp_directory": "${TempPath}/${program_dir_name}",
+  "asset_compiler_cache_directory": "${local_cache_directory}",
+  "ide_cache_directory": "${local_cache_directory}",
+  "my_projects_directory": "${UserProfile}/GameMakerProjects",
+  "my_template_projects_directory": "${UserProfile}/GameMakerProjects/TemplateProjects",
+  "base_project": "${runtimeLocation}/BaseProject/BaseProject.yyp",
+  "current_skin": "${skin_path}/Dark",
+  "oauth_redirect_url": "http://localhost:8889/",
+  "default_font": "Open Sans",
+  "default_style": "Regular",
+  "default_font_size": "9"
+}
+
+
+
+

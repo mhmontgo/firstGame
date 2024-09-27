@@ -1,0 +1,368 @@
+{
+  "ai_assistant_window": {
+    "width": "620dpi_px",
+    "height": "580dpi_px",
+    "localise_title": "AIAssistant_Title"
+  },
+
+  "query_panel_style": {
+    "base": "aiasst_query_frame",
+    "stack_order": "TopToBottom",
+    "stack_resize": "ResizeHeight",
+    "left":  "60dpi_px",
+    "right": "0dpi_px"
+  },
+
+  "response_panel_style": {
+    "base": "aiasst_response_frame",
+    "stack_order": "TopToBottom",
+    "stack_resize": "ResizeHeight",
+    "left":  "0dpi_px",
+    "right": "60dpi_px"
+  },
+
+  "response_panel_style_smart": {
+    "base": "response_panel_style",
+    "colour": "#ffccccff"
+  },
+
+  "response_panel_style_dumb": {
+    "base": "response_panel_style",
+    "colour": "#ffffffff"
+  },
+
+  "chat_history_header_grid": {
+    "base": "chat_history_grid_full",
+    "height": "32dpi_px"
+  },
+
+  "chat_history_item_grid" : {
+    "base": "chat_history_grid_full",
+    "height": "40dpi_px"
+  },
+
+  "chat_history_grid_full": {
+    "grid_columnlayout": ["24dpi_px", "10*", "7*", "60dpi_px", "56dpi_px"],
+    "column_spacing": "4dpi_px"
+  },
+
+  "chat_history_grid_compact": {
+    "grid_columnlayout": ["24dpi_px", "10*", "7*", "0dpi_px", "56dpi_px"]
+  },
+
+  "chat_history_grid_compact2": {
+    "grid_columnlayout": ["24dpi_px", "10*", "16dpi_px", "0dpi_px", "48dpi_px"]
+  },
+
+  "aiasst_menu_button": {
+    "height": null,
+    "frame_name": "",
+    "auto_height": "False",
+    "button_over_style": "aiasst_button_no_frame",
+    "button_down_style": "aiasst_button_no_frame",
+    "button_over_down_style": "aiasst_button_no_frame",
+    "deactivated_style": "aiasst_button_deactivated",
+    "reactivated_style": "aiasst_button_reactivated",
+    "up_tint": "aiasst_grey1",
+    "up_focused_tint": "aiasst_grey1",
+    "down_tint": "aiasst_bar_down",
+    "down_focused_tint": "aiasst_bar_down",
+    "mouseover_down_tint": "aiasst_bar_down",
+    "mouseover_down_focused_tint": "aiasst_bar_down",
+    "mouseover_up_tint": "aiasst_grey2",
+    "mouseover_up_focused_tint": "aiasst_grey2"
+  },
+
+  "aiasst_flat_button": {
+    "frame_name": "",
+    "auto_height": "False",
+    "button_over_style": "aiasst_button_no_frame",
+    "button_down_style": "aiasst_button_no_frame",
+    "button_over_down_style": "aiasst_button_no_frame",
+    "deactivated_style": "aiasst_button_deactivated",
+    "reactivated_style": "aiasst_button_reactivated",
+    "up_tint": "aiasst_grey2",
+    "up_focused_tint": "aiasst_grey2",
+    "down_tint": "aiasst_bar_down",
+    "down_focused_tint": "aiasst_bar_down",
+    "mouseover_down_tint": "aiasst_bar_down",
+    "mouseover_down_focused_tint": "aiasst_bar_down",
+    "mouseover_up_tint": "aiasst_grey3",
+    "mouseover_up_focused_tint": "aiasst_grey3"
+  },
+
+  "aiasst_homebutton": {
+    "base":  "aiasst_flat_button",
+    "height": "80dpi_px"
+  },
+
+  "aiasst_label_title": {
+    "base": "label",
+    "auto_ellipsis": "true",
+    "left": "0px",
+    "font_size": 12,
+    "font_stylename": "Bold",
+    "colour": "ai_asst_label_white"
+  },
+
+  "aiasst_offline_label": {
+    "base": "label",
+    "font_size": 15
+  },
+
+  "aiasst_label_white": {
+    "base": "label",
+    "auto_ellipsis": "true",
+    "left": "0px",
+    "font_size": 11,
+    "font_stylename": "Bold",
+    "colour": "ai_asst_label_white"
+  },
+
+  "aiasst_label_light": {
+    "base": "label",
+    "auto_ellipsis": "true",
+    "left": "0px",
+    "font_size": 11,
+    "colour": "ai_asst_label_light"
+  },
+
+  "aiasst_label_yellow_title": {
+    "base": "label",
+    "auto_ellipsis": "true",
+    "left": "0px",
+    "font_size": 11,
+    "font_stylename": "Bold",
+    "colour": "aiasst_yellow"
+  },
+
+  "aiasst_label_brightyellow": {
+    "base": "label",
+    "font_size": 10,
+    "colour": "aiasst_yellow_bright"
+  },
+
+  "aiasst_article_label": {
+    "base": "label",
+    "colour": "aiasst_yellow"
+  },
+
+  "asasst_label_smallgrey": {
+    "base": "label",
+    "font_size": 8,
+    "colour": "aiasst_grey4"
+  },
+
+  "aiasst_regen_label": {
+    "base": "label",
+    "font_size": 8,
+    "mouse_over_style": "aiasst_regen_label_over",
+    "colour": "aiasst_yellow"
+  },
+
+  "aiasst_regen_label_over": {
+    "colour": "aiasst_yellow_bright"
+  },
+
+  "aiasst_regen_label_blue": {
+    "mouse_over_style": "aiasst_regen_label_over_blue",
+    "colour": "aiasst_blue"
+  },
+
+  "aiasst_regen_label_over_blue": {
+    "colour": "aiasst_blue_bright"
+  },
+
+  "aiasst_chatempty_label": {
+    "base": "label",
+    "colour": "aiasst_grey4"
+  },
+
+  "aiasst_intro_title_label": {
+    "base": "label",
+    "left": "0px",
+    "font_size": 10
+  },
+
+  "aiasst_intro_body_label": {
+    "base": "label",
+    "left": "0px",
+    "font_size": 10,
+    "word_wrap": "true",
+    "split_words_only": "true",
+    "colour": "ai_asst_label_light",
+    "margin_bottom": "2dpi_px"
+  },
+
+  "aiasst_button_no_frame": {
+    "frame_name": ""
+  },
+
+  "aiasst_button_deactivated": {
+    "mouse_events": "false"
+  },
+
+  "aiasst_button_reactivated": {
+    "mouse_events": "true"
+  },
+
+  "asasst_itemmenu_button": {
+    "base":"no_frame_button",
+    "width": "24dpi_px",
+    "height":"24dpi_px",
+    "vector_icon_size": "12dpi_px",
+    "icon_flags": "Centre",
+    "font_icon": ["ai_icon_font", "icon_ai_item_menu" ]
+  },
+
+  "aiasst_bar_icon": {
+    "width": "20dpi_px",
+    "height": "20dpi_px",
+    "margin_bottom": "4dpi_px",
+    "vector_icon_size": "16dpi_px",
+    "image_flags": "Centre",
+    "font_icon": ["ai_icon_font", "icon_ai_item_menu" ],
+    "mouse_events": "false"
+  },
+
+  "aiasst_icon_chevron_right":{
+    "left": "0px",
+    "width": "32dpi_px",
+    "height": "32dpi_px",
+    "image_flags": "Centre",
+    "font_icon": ["ai_icon_font","icon_ai_chevron_right"],
+    "vector_icon_size":"14dpi_px",
+    "colour": "ai_asst_label_light",
+    "mouse_events": "false"
+  },
+   
+  "aiasst_icon_send": {
+    "left": "0px",
+    "width": "32dpi_px",
+    "height": "32dpi_px",
+    "image_flags": "Centre",
+    "font_icon": ["ai_icon_font","icon_ai_send"],
+    "vector_icon_size":"24dpi_px",
+    "mouse_events": "false"
+  },
+
+  "aiasst_icon_chevron_up": {
+    "font_icon": ["ai_icon_font","icon_ai_chevron_up"]
+  },
+
+  "aiasst_icon_chevron_down": {
+    "font_icon": ["ai_icon_font","icon_ai_chevron_down"]
+  },
+
+  "aiasst_response_frame": {
+		position: [
+					[0, 0, 3, 3],  [3, 0, 16, 3], [19, 0, 3, 3], 
+					[0, 3, 3, 16], [3, 3, 16, 16],[19, 3, 3, 3], 
+					[0, 19,3, 3],  [3, 19,16, 3], [19, 19,3, 3]
+				], 
+		frame_name: "chat_entry_frame.png", 
+		colour: "aiasst_yellow"
+	},
+
+  "aiasst_query_frame": {
+		"position": [
+			[ 0, 0, 4, 4 ],	 [ 4, 0, 24, 4 ],  [ 28, 0, 4, 4 ],
+			[ 0, 4, 4, 24 ], [ 4, 4, 24, 24 ], [ 28, 4, 4, 24 ],
+			[ 0, 28, 4, 4 ], [ 4, 28, 24, 4 ], [ 28, 28, 4, 4 ]
+		],
+		"frame_name": "Window/context_button_over.png",
+    "colour": "#ffffffff"
+  },
+
+  "aiasst_colour_red": {
+    "colour": "aiasst_red"
+  },
+
+  "aiasst_colour_yellow": {
+    "colour": "aiasst_yellow"
+  },
+
+  "aiasst_colour_blue": {
+    "colour": "aiasst_blue"
+  },
+
+  "aiasst_codebox_grid": {
+    "left": "0px",
+    "margin_top": "4dpi_px",
+    "margin_bottom": "4dpi_px",
+    "colour": "aiasst_grey2",
+    "grid_rowlayout": "59dpi_px",
+    "grid_columnlayout": ["1*", "16dpi_px"],
+    "grid_resize": "ResizeGridHeight"
+  },
+
+  "aiasst_codebox_expandbutton": {
+    "base": "aiasst_flat_button",
+    "height": "14dpi_px",
+    "width": "16dpi_px",
+    "right":  "0px",
+    "bottom": "0px",
+    "icon_flags": "Centre",
+    "font_icon": ["ai_icon_font", "icon_ai_chevron_down"]
+  },
+  "aiasst_codebox_stack": {
+    left: "0px",
+    top: "2dpi_px",
+    margin_left: "4dpi_px",
+    margin_top: "2dpi_px",
+    margin_bottom: "2dpi_px",
+    stack_order: "TopToBottom",
+    stack_resize: "ResizeAll"
+  },
+  "aiasst_chatlistbox": {
+    "bg_colour":  "aiasst_grey2",
+    "stripe_colour": "aiasst_grey1"
+  },
+  "aiasst_vseparator": {
+    base: "vertical_separator",
+    "right": "0px",
+    margin_top: "8dpi_px",
+    margin_bottom: "8dpi_px",
+    "colour":  "aiasst_bar_down"
+  },
+
+  "aiasst_italic_label": {
+    "base": "label",
+    "font_stylename": "Italic",
+    "word_wrap": "true",
+    "colour": "base_label_deactivated"
+  },
+
+  "aiasst_flag_icon": {
+    "image_flags": "Centre",
+    "vector_icon_size": "16dpi_px",
+    "font_icon": ["ai_icon_font", "icon_ai_flag"],
+    "colour": "aiasst_red"
+  },
+
+  "aiasst_bot_toolbar_icon": {
+    "image_flags": "Centre",
+    "vector_icon_size": "16dpi_px",
+    "font_icon": ["ai_icon_font", "icon_ai_chat_bot"]
+  },
+
+  "aiasst_label_premium": {
+    "localise_caption": "AIAsst_Premium",
+    "colour": "aiasst_yellow"
+  },
+
+  "aiasst_label_free": {
+    "localise_caption": "AIAsst_Free",
+    "colour": "aiasst_blue"
+  },
+
+  "aiasst_recent_listbox": {
+    "base": "sp_box_frame",
+    "width": "100%",
+    "height": "100%"
+  },
+
+  "aiasst_chatcontent_style": {
+    "entry_hilight_colour": "aiasst_entry_hilight"
+  }
+}

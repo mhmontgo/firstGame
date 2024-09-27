@@ -1,0 +1,29 @@
+{
+  "name": "CommonPluginFunctionality",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "CommonPluginFunctionality",
+      "localised_name": "common_plugin_functionality_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "Common plugin functionality shared between many plugins",
+      "required_assemblies": [
+        {
+          "assembly_name": "CommonPluginFunctionality",
+          "version": "1.0",
+          "path": "CommonPluginFunctionality.dll",
+          "checksum": "JL/MrOKHCPDmflIwAKZyqKir9MVCEhHjKZ8pyTwsskg="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "CPJ\u002B5tSyqIQf2qKiY/eyuqYmGbeJVbMq22GU8Arv5CJSGLnkaffQ1il7xmTePmWNqTb3bKz42SADMQWbVYKYsiS5iECNtTiVz2agmAdHgSuPyiVHSj1dgRDiIR2IZzk0zFqy6qpZj7Jz1aUPQLftL9QHm3OuCGor\u002BJjSdepc6pU=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

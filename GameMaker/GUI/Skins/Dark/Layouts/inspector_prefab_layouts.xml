@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="Inspector_PrefabPanel" layout_guid="455aed8d-b8ed-4d11-9e8e-1f60c6a48f43">
+    <ScrollPanel stylename="default_scrollpanel" override_flow_index="9999999" height="140dpi_px">
+      <ChildGadgets>
+        <StackPanel stylename="stack_panel" override_flow_index="9999999" top="8dpi_px" stack_resize="ResizeHeight">
+          <ChildGadgets>
+            <Image stylename="image" override_flow_index="9999999" height="22dpi_px" width="22dpi_px" left="4px" margin_left="4dpi_px" image_flags="Stretch, Centre, KeepAspectRatio" image="IDE_Toolbar\icon_IDE_new.png" />
+            <Label stylename="canvas_toolbar_flat_button_toolbar_label" layout_id="name_label" layout_guid="416042f2-ba06-43e1-963f-ff04957a340b" override_flow_index="9999999" height="20px" width="82px" left="34px" margin_left="8dpi_px" caption="Name Label" />
+          </ChildGadgets>
+        </StackPanel>
+        <ScrollPanel stylename="bordered_scrollpanel_dark" override_flow_index="9999999" left="5dpi_px" right="5dpi_px" top="42dpi_px" bottom="8dpi_px">
+          <ChildGadgets>
+            <ScrollPanel stylename="default_scrollpanel" override_flow_index="9999999" height="48px" left="8dpi_px" right="8dpi_px" top="4dpi_px" bottom="4dpi_px" scrollpanel_flags="VerticalScroll, AdjustToScrollBars">
+              <ChildGadgets>
+                <Label stylename="label" layout_id="desc_label" layout_guid="bf4c3883-66f7-4fcd-8529-040871327d70" override_flow_index="9999999" height="" width="" left="0px" top="0px" word_wrap="True" />
+              </ChildGadgets>
+            </ScrollPanel>
+          </ChildGadgets>
+        </ScrollPanel>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+</Layouts>

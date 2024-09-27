@@ -1,0 +1,28 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdStack",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "var",
+      "DefaultValue": "variable",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": true,
+    "caption": "GMStdTarget",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "assignee",
+      "DefaultValue": "variable",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": true
+    }
+  }
+]

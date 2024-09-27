@@ -1,0 +1,28 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdVariable",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "seqelmid",
+      "DefaultValue": "",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": true,
+    "caption": "GMStdTarget",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "var",
+      "DefaultValue": "",
+      "RequireConstant": true,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

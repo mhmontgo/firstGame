@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="SeqBorderlessWindowFrame" layout_guid="6720af61-6a79-4649-8683-355ad9e69a6e">
+    <Cell row="0" column="1" flow_index="1">
+      <Gadgets>
+        <TitleBar stylename="ab_title_bar" layout_id="window_title_bar" layout_guid="88579b13-3885-4634-a612-f6cbe57ab123" title="Basic Window">
+          <Gadgets>
+            <Grid stylename="grid_container" grid_columnlayout="['auto', '1*', 'auto', 'auto']">
+              <Cell row="0" column="0" layout_id="icon_cell" stylename="grid_container_panel" flow_index="0" />
+              <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Label stylename="borderless_title_bar_label" layout_id="title_bar_label" layout_guid="05ab7db9-ee2b-415a-a9f7-b3a633c73fc8" localise_caption="Basic Window" margin_right="0px" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="2" stylename="grid_container_panel" flow_index="4">
+                <ChildGadgets>
+                  <StackPanel stylename="title_button_stack" layout_id="title_button_stack" layout_guid="683bc03c-0589-4a47-b704-3d3e8b9613c3" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="3" stylename="grid_container_panel" flow_index="4">
+                <ChildGadgets>
+                  <CloseButton stylename="borderless_close_button_up" layout_id="window_close_button" layout_guid="bd0f0dd5-9dd8-492b-888a-c1ae6bda362a" margin_left="4dpi_px" />
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+          </Gadgets>
+        </TitleBar>
+      </Gadgets>
+    </Cell>
+    <Cell row="1" column="1" flow_index="0" layout_id="window_client_panel" />
+  </Layout>
+  <Layout layout_name="SeqBorderlessWindow" layout_guid="5012116c-7f3d-4618-abb0-4123ee1a5597">
+    <Window stylename="seq_borderless_window" title="Basic Window">
+      <Client />
+      <Layout layout_name="SeqBorderlessWindowFrame" layout_guid="6720af61-6a79-4649-8683-355ad9e69a6e" />
+    </Window>
+  </Layout>
+  <Layout layout_name="SeqEventListPanel" layout_guid="8e63e8d0-2851-4d6c-b939-fe1ee29f3938">
+    <Grid stylename="grid_container" top="0dpi_px" bottom="6dpi_px" grid_rowlayout="['1*', '30dpi_px']" grid_resize="None">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="default_scrollpanel" layout_id="scroll_panel" layout_guid="6d185b7d-34f4-47fc-aa53-9c32ae3c72d1" left="2dpi_px" right="2dpi_px" top="2dpi_px" bottom="2dpi_px" scrollpanel_flags="VerticalScroll, AdjustToScrollBars">
+            <ChildGadgets>
+              <ListBox stylename="list_box_multi" layout_id="list_box" layout_guid="4f0b3c9b-45d2-4ab6-84cc-96f48d56b50e">
+                <ListBoxItems />
+              </ListBox>
+            </ChildGadgets>
+          </ScrollPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="2dpi_px" right="2dpi_px" grid_columnlayout="['0dpi_px', 'auto', '5dpi_px', 'auto', '5dpi_px']">
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" override_flow_index="9999999" height="16px" width="135px" localise_caption="Create_Event_Definition" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="create_button" layout_guid="85841864-4a2e-4a90-a117-88b7b6de2cca" override_flow_index="9999999" width="100%" right="0px" localise_name="ListViewExplorer_NewResource" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="EventMomentPopup" layout_guid="cda1ad7e-7f6f-41c8-a071-7e17b1faeaa3">
+    <Window stylename="seq_borderless_window" override_flow_index="9999999" height="120dpi_px" width="418dpi_px" left="26px" top="54px" localise_title="WindowTitle_Moments" accept_button_id="btn_ok">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['0.6*', '1*']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" width="95%" grid_columnlayout="['3dpi_px', '1*', '5dpi_px', 'auto', '5dpi_px', 'auto', '5dpi_px', 'auto']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Image stylename="image" layout_id="red_error_indicator" layout_guid="0ad48f6a-b044-427b-be3f-6cd7a5dd56bf" override_flow_index="9999999" height="22dpi_px" width="3dpi_px" colour="#FF0000FF" image_flags="Stretch" image="Skins\Dark\Images\Sequence\red_error.png" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <FunctionTextBox stylename="text_box" layout_id="textbox_events" layout_guid="eff17ec1-6b1c-4044-84e4-c2bd19aae775" override_flow_index="9999999" width="100%" localise_default_caption="SeqEvents_TypeFunctionNameHere" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="goto_button" layout_guid="624107e9-03ca-46d5-aaee-4b9518dd8514" override_flow_index="9999999" localise_tooltip="Seq_GoToTooltip" width="24dpi_px" icon_flags="Centre" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_code_terminal&quot;]" vector_icon_size="13dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="5" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="create_new_button" layout_guid="ce91d5bb-e55e-4ea2-a2d1-bcb07205ebd3" override_flow_index="9999999" localise_tooltip="Seq_AddStubTooltip" width="24dpi_px" icon_flags="Centre" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_trackpanel_addtrack&quot;]" vector_icon_size="13dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="7" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="delete_button" layout_guid="57b75c76-9f36-423c-b352-f36ecf41eafc" override_flow_index="9999999" localise_tooltip="Seq_DeleteTooltip" width="24dpi_px" icon_flags="Centre" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_trackpanel_deletetrack&quot;]" vector_icon_size="13dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['0.6*', '0.4*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" override_flow_index="9999999" width="90%" stack_order="TopToBottom">
+                        <ChildGadgets>
+                          <Label stylename="label" override_flow_index="9999999" height="16px" width="14px" left="0px" top="0px" localise_caption="at:" />
+                          <StackPanel stylename="stack_panel" override_flow_index="9999999" height="30dpi_px" width="100%" top="16px">
+                            <ChildGadgets>
+                              <NumericTextBox stylename="numeric_text_box" layout_id="frame_label" layout_guid="1aeb1ac7-8493-4968-97e4-c7147048d91e" override_flow_index="9999999" width="86dpi_px" left="0px" top="16px" />
+                              <Label stylename="label" layout_id="spacer" layout_guid="5b92b162-db0b-44ba-add9-75a844f11047" override_flow_index="9999999" height="16px" width="3px" left="86px" caption=" " />
+                              <Label stylename="label" layout_id="desc_label" layout_guid="09b6a67f-f9c2-4c55-b368-2c0407092ccb" override_flow_index="9999999" height="16px" width="36px" left="89px" localise_caption="SeqMoments_Frames" />
+                            </ChildGadgets>
+                          </StackPanel>
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="btn_ok" layout_guid="caab6bd0-dde4-4101-919b-eb35a1c7544c" override_flow_index="9999999" height="24px" width="120dpi_px" localise_name="Button_OK" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="SeqBorderlessWindowFrame" layout_guid="6720af61-6a79-4649-8683-355ad9e69a6e" />
+    </Window>
+  </Layout>
+  <Layout layout_name="EventEntry_Archetype" layout_guid="7f68a0e4-09d7-4116-9f92-a853170c6db3">
+    <ScrollPanel stylename="seq_event_frame" override_flow_index="9999999" height="35dpi_px">
+      <ChildGadgets>
+        <Grid stylename="grid_container" override_flow_index="9999999" left="4dpi_px" right="4dpi_px" top="4dpi_px" bottom="4dpi_px" grid_columnlayout="['auto', '160dpi_px', '3dpi_px', '1*', '5dpi_px', 'auto']" grid_resize="None">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Image stylename="seq_big_resource_icon" layout_id="event_icon" layout_guid="c207ea17-33fe-4cbc-8148-5e7dc708cad3" override_flow_index="9999999" height="21dpi_px" width="21dpi_px" left="0dpi_px" top="0dpi_px" bottom="0dpi_px" margin_left="0dpi_px" margin_right="5dpi_px" margin_top="0dpi_px" margin_bottom="0dpi_px" image_flags="Stretch, Centre, KeepAspectRatio" vector_icon_size="18dpi_px" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label_left" layout_id="event_label" layout_guid="e4bad6d6-7058-48fc-84a1-70e5730820ba" override_flow_index="9999999" height="16px" width="" localise_caption="Event_Async_Event" auto_size="False" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Image stylename="image" layout_id="red_error_indicator" layout_guid="f86307c4-2524-4216-aac1-bfa76801e0fe" override_flow_index="9999999" height="22dpi_px" width="3dpi_px" colour="#FF0000FF" image_flags="Stretch" image="Skins\Dark\Images\Sequence\red_error.png" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <FunctionTextBox stylename="gototype_textbox" layout_id="function_name_textbox" layout_guid="058b2181-a8f1-4036-8925-62a91999fb90" override_flow_index="9999999" height="24dpi_px" default_caption="Type Function Name Here">
+                <ChildGadgets>
+                  <CloseButton stylename="close_button_up" layout_id="function_delete" layout_guid="47e282b6-b64d-43ee-ae58-e9494f1adfd4" override_flow_index="9999999" right="0dpi_px" top="" margin_bottom="" colour="#FF888888" />
+                </ChildGadgets>
+              </FunctionTextBox>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="5" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="goToDefButton" layout_guid="035a3bfe-8e1f-4cad-96b6-013ed23f581c" override_flow_index="9999999" localise_tooltip="Seq_GoToTooltip" width="24dpi_px" icon_flags="Centre" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_code_terminal&quot;]" vector_icon_size="10dpi_px" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+</Layouts>

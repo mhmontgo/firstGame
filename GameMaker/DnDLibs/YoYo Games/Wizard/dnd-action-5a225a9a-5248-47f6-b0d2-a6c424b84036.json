@@ -1,0 +1,26 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdSprite",
+    "gadget": "YoYo Games.DnD_ResourceSelection",
+    "gadget_properties": {
+      "TagName": "spriteind",
+      "DefaultValue": "noone",
+      "ResourceFilter": "GMSprite"
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdFrame",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "imageind",
+      "DefaultValue": "0",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": true
+    }
+  }
+]

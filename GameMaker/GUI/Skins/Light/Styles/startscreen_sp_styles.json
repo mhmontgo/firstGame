@@ -1,0 +1,39 @@
+{
+	"sp_title_stack_label": {
+		"colour": "startscreen_title"
+	},
+
+	"sp_title_stack_label_first": {
+		"colour": "startscreen_title"
+	},
+
+	"sp_title_stack_separator": {
+		"colour": "startscreen_separator_title"
+	},
+
+	"sp_title_stack_separator_first": {
+		"colour": "startscreen_separator_title"
+	},
+
+	"sp_banner_slide_button": {
+		"up_tint": "startscreen_button_banner_slide_up",
+		"down_tint": "startscreen_button_banner_slide_down",
+		"mouseover_up_tint": "startscreen_button_banner_slide_up_mouseover",
+		"mouseover_up_focused_tint": "startscreen_button_banner_slide_up_focused_mouseover",
+		"mouseover_down_tint": "startscreen_button_banner_slide_down_mouseover",
+		"mouseover_down_focused_tint": "startscreen_button_banner_slide_down_focused_mouseover",
+		"up_focused_tint": "startscreen_button_banner_slide_up_focused",
+		"down_focused_tint": "startscreen_button_banner_slide_down_focused"
+	},
+
+	"sp_banner_slide_button_active": {
+		"up_tint": "startscreen_button_banner_slide_active_up",
+		"down_tint": "startscreen_button_banner_slide_active_down",
+		"mouseover_up_tint": "startscreen_button_banner_slide_active_up_mouseover",
+		"mouseover_up_focused_tint": "startscreen_button_banner_slide_active_up_focused_mouseover",
+		"mouseover_down_tint": "startscreen_button_banner_slide_active_down_mouseover",
+		"mouseover_down_focused_tint": "startscreen_button_banner_slide_active_down_focused_mouseover",
+		"up_focused_tint": "startscreen_button_banner_slide_active_up_focused",
+		"down_focused_tint": "startscreen_button_banner_slide_active_down_focused"
+	}
+}

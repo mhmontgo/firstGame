@@ -1,0 +1,57 @@
+﻿{
+	"corner_cover": {
+		"comment": "Small rectangle to cover the gap that appears when there is both a horizontal and a vertical scrollbar",
+		"colour": "scroll_corner_cover"
+	},
+
+	"scroll_button": {
+		"up_tint": "scroll_button_up",
+		"mouseover_up_tint": "scroll_button_up_mouseover",
+		"up_focused_tint": "scroll_button_up_focused",
+		"down_focused_tint": "scroll_button_down_focused",
+		"mouseover_down_focused_tint": "scroll_button_down_focused_mouseover"
+	},
+
+	"vertical_scroll_slider": {
+		"colour": "scroll_slider"
+	},
+
+	"horizontal_scroll_slider": {
+		"colour": "scroll_slider"
+	},
+
+	"horizontal_scroll_slider_thumb": {
+		"up_tint": "scroll_bar_up",
+		"mouseover_up_tint": "scroll_bar_up_mouseover",
+		"down_focused_tint": "scroll_bar_down_focused",
+		"mouseover_down_focused_tint": "scroll_bar_down_focused_mouseover"
+	},
+
+	"vertical_scroll_slider_thumb": {
+		"up_tint": "scroll_bar_up",
+		"mouseover_up_tint": "scroll_bar_up_mouseover",
+		"down_focused_tint": "scroll_bar_down_focused",
+		"mouseover_down_focused_tint": "scroll_bar_down_focused_mouseover"
+	},
+
+	"scroll_slider_bar_fill": {
+		"colour": "scroll_slider"
+	},
+
+	"floating_horizontal_scrollbar": {
+		"comment": "scroll bar",
+		"colour": "scroll_floating_bar"
+	},
+
+	"floating_horizontal_scroll_slider": {
+		"colour": "scroll_floating_bar"
+	},
+
+	"floating_scroll_slider_bar": {
+		"colour": "scroll_floating_bar"
+	},
+
+	"floating_scroll_slider_fill": {
+		"colour": "scroll_floating_bar"
+	}
+}

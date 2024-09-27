@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>fileTypes</key>
+		<array>
+			<string>txt</string>
+			<string>md</string>
+		</array>
+		<key>firstLineMatch</key>
+		<string></string>
+		<key>name</key>
+		<string>Markdown</string>
+		<key>patterns</key>
+		<array>
+		</array>
+		<key>repository</key>
+		<dict>
+		</dict>
+		<key>scopeName</key>
+		<string>source.markdown</string>
+		<key>uuid</key>
+		<string>11dbf109-888c-4c8a-a719-cecce5db2505</string>
+	</dict>
+</plist>

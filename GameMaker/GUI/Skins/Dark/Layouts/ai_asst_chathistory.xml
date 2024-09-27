@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="AIAsst_ChatListHeader" layout_guid="2c73e1f1-3fb8-4aed-95ff-fcf4e93bc70d">
+    <Grid stylename="chat_history_header_grid" layout_id="header_grid" top="0px" colour="aiasst_grey0">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <CheckBox stylename="checkbox_stack" layout_id="select_check" layout_guid="7cf126ec-167f-426c-9e92-3e3c08f67302" override_flow_index="9999999" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" override_flow_index="9999999" height="16px" width="24px" left="8dpi_px" localise_caption="AIAsst_Title" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" layout_id="lastmod_stack" stack_resize="ResizeHeight" left="0px">
+            <ChildGadgets>
+              <Label stylename="label" layout_id="lastmod_label" layout_guid="85a5e3fa-8a27-465d-87ee-385a58d4d152" override_flow_index="9999999" height="16px" width="75px" left="0px" localise_caption="AIAsst_LastModified" />
+              <Button stylename="button_up" layout_id="btn_sortmode" layout_guid="82ffd8c0-7765-4fe9-a55a-b892556f1491" override_flow_index="9999999" height="20dpi_px" width="14dpi_px" left="77px" margin_left="2dpi_px" icon_flags="Centre" font_icon="[&quot;ai_icon_font&quot;, &quot;icon_ai_chevron_down&quot;]" vector_icon_size="9dpi_px" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" override_flow_index="9999999" height="16px" width="40px" left="0px" localise_caption="AIAsst_Shared" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="AIAsst_History_Empty2" layout_guid="3322713b-5236-448f-9229-86182459c8d4">
+    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['32dpi_px', '1*']" grid_columnlayout="['32dpi_px']">
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="TopToBottom" stack_resize="ResizeAll">
+            <ChildGadgets>
+              <Label stylename="aiasst_chatempty_label" override_flow_index="9999999" height="16px" width="117px" top="0px" caption="Chat history is empty" />
+              <Button stylename="button_up" layout_id="btn_newchat" layout_guid="ff975a04-879f-4ad0-a517-aeb6ec3006bb" override_flow_index="9999999" height="30px" width="150dpi_px" top="28px" margin_top="12dpi_px" margin_bottom="12dpi_px">
+                <ChildGadgets>
+                  <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', '28dpi_px']">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" height="16px" width="84px" localise_caption="AIAsst_StartNewChat" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Image stylename="image" override_flow_index="9999999" height="20dpi_px" width="16dpi_px" left="0px" image_flags="Centre" font_icon="[&quot;ai_icon_font&quot;, &quot;icon_ai_send&quot;]" vector_icon_size="16dpi_px" />
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                </ChildGadgets>
+              </Button>
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="AIAsst_ChatListItem_Content" layout_guid="195c730f-e285-42cc-b0ef-213586536ff3">
+    <!-- <Grid stylename="chat_history_item_grid" -->
+    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <CheckBox stylename="checkbox_stack" layout_id="select_check" layout_guid="7cf126ec-167f-426c-9e92-3e3c08f67302" override_flow_index="9999999" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="title_label" layout_guid="f6d9b7ec-e471-421e-8407-4c7cef69dd24" override_flow_index="9999999" height="16px" width="" left="8dpi_px" right="0px" caption="My first game query to AI Assistant" auto_size="False" auto_ellipsis="True" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="date_label" layout_guid="fe8d45cb-eb4c-4fcb-a9ba-af3de4f2060b" override_flow_index="9999999" height="16px" width="76px" left="0px" caption="4th May 2023" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="shared_label" layout_guid="da8bd8d0-89dd-47de-8b27-d979b1fca431" override_flow_index="9999999" height="16px" width="20px" left="0dpi_px" caption="Y/N" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="4" stylename="chat_history_item_grid_panel" flow_index="0">
+      <ChildGadgets>
+        <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', '1*']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="no_frame_button" layout_id="item_menu_btn" layout_guid="055e10b4-4728-4f96-ad7e-eeeba91d2d40" override_flow_index="9999999" left="0px" width="24dpi_px" icon_flags="Centre" font_icon="[&quot;ai_icon_font&quot;, &quot;icon_ai_item_menu&quot;]" vector_icon_size="12dpi_px" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="no_frame_button" layout_id="open_btn" layout_guid="8f2bd40c-d6f9-4093-8ca7-17b5b378a87c" override_flow_index="9999999" width="24dpi_px" icon_flags="Centre" font_icon="[&quot;ai_icon_font&quot;, &quot;icon_ai_chevron_right&quot;]" vector_icon_size="12dpi_px" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Cell>
+    <!-- </Grid> -->
+  </Layout>
+  <Layout layout_name="AIAsst_ChatHistory_Title" layout_guid="7dc61d48-c079-4b44-a989-a7d3b72dabc1">
+    <StackPanel stylename="stack_panel" override_flow_index="9999999" height="24dpi_px" width="100%" left="0px">
+      <ChildGadgets>
+        <Label stylename="aiasst_label_title" layout_id="title_label" layout_guid="326589a7-6382-492c-9803-d8c8a258dccf" override_flow_index="9999999" height="22px" width="141px" caption="Chats - N selected" />
+        <StackPanel stylename="stack_panel" layout_id="button_stack" layout_guid="a7036ac6-b872-4112-a6ec-2a762b7baf68" override_flow_index="9999999" left="141px" stack_resize="ResizeHeight">
+          <ChildGadgets>
+            <VerticalSeparator stylename="vertical_separator" override_flow_index="9999999" width="2px" left="12px" margin_left="12dpi_px" margin_right="12dpi_px" margin_top="1px" margin_bottom="1px" />
+            <Button stylename="no_frame_button" layout_id="trash_button" override_flow_index="9999999" width="24dpi_px" left="26px" icon_flags="Centre" font_icon="[&quot;ai_icon_font&quot;, &quot;icon_ai_delete&quot;]" vector_icon_size="18dpi_px" />
+          </ChildGadgets>
+        </StackPanel>
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+  <Layout layout_name="AIAsst_ChatListItem_GRID" layout_guid="195c730f-e285-42cc-b0ef-213586536ff3">
+    <Grid stylename="chat_history_item_grid">
+      <Layout layout_name="AIAsst_ChatListItem_Content" />
+    </Grid>
+  </Layout>
+</Layouts>

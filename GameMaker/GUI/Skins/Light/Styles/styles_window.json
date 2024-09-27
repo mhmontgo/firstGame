@@ -1,0 +1,63 @@
+{
+	"window_left_frame": {
+		"colour": "window_frame",
+		"focus_colour": "window_frame_focused"
+	},
+
+	"window_right_frame": {
+		"colour": "window_frame",
+		"focus_colour": "window_frame_focused"
+	},
+
+	"window_bottom_left_frame": {
+		"colour": "window_frame",
+		"focus_colour": "window_frame_focused"
+	},
+
+	"window_bottom_frame": {
+		"colour": "window_frame",
+		"focus_colour": "window_frame_focused"
+	},
+
+	"window_bottom_right_frame": {
+		"colour": "window_frame",
+		"focus_colour": "window_frame_focused"
+	},
+
+	"dock_stack_style": {
+		"colour": "dock_stack"
+	},
+
+	"border_top": {
+		"colour": "window_frame",
+		"focus_colour": "window_frame_focused"
+	},
+
+	"window_title_left": {
+		"colour": "window_title_bar_left",
+		"focus_colour": "window_title_bar_left_focused"
+	},
+
+	"window_title_right": {
+		"colour": "window_title_bar_right",
+		"focus_colour": "window_title_bar_right_focused"
+	},
+
+	"window_title_fade": {
+		"corner_colours": [ "window_title_bar_fade_corner_1", "window_title_bar_fade_corner_2", "window_title_bar_fade_corner_3", "window_title_bar_fade_corner_4" ],
+		"focus_corner_colours": [ "window_title_bar_fade_corner_1_focused", "window_title_bar_fade_corner_2_focused", "window_title_bar_fade_corner_3_focused", "window_title_bar_fade_corner_4_focused" ]
+	},
+
+	"window_title_bookmark": {
+		"colour": "window_title_bar_bookmark",
+		"focus_colour": "window_title_bar_bookmark_focused"
+	},
+
+	"blend_title_bar_label": {
+		"colour": "window_blend_title_bar_label"
+	},
+
+	"does_not_compile_status_bar": {
+		"colour": "window_status_bar_not_compile"
+	}
+}

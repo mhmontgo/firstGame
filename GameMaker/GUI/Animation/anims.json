@@ -1,0 +1,549 @@
+﻿{
+    "close_window": [
+                        {
+                            transition: "Lerp",
+                            property: "RenderTargetScale",
+                            destination: 0.5,
+                            time : 150,
+                            relative: "false"
+                        },
+                        { 
+                            transition : "Lerp",
+                            property: "RenderTargetColour",
+                            destination: "#00000000",
+                            time : 150,
+                            relative: "false"
+                        }
+                    ],
+
+	"minimize_window": [
+						{
+							transition: "Lerp",
+							property: "ClientHeight",
+							destination: 0,
+							time : 250,
+							relative: "false"
+						}
+                    ],
+
+	"minimize_restore_window": [
+						{
+							transition: "Lerp",
+							property: "animate_height",
+							destination_property: "RestoreHeight",
+							time : 250,
+							relative: "false"
+						}
+                    ],
+
+	"expand_treeview" : [
+						{
+							time : 500
+						}
+					],
+	"collapse_treeview" : [
+						{
+							time : 500
+						}
+					],
+
+	"tab_drag_release" : 
+					[
+						{
+							transition : "Lerp",
+							property: "AnimatedOffset",
+							destination: [0, 0],
+							time : 200,
+							relative: "false"
+						}
+					],
+
+	"tab_reorder" : 
+					[
+						{
+							transition : "Lerp",
+							property: "AnimatedOffset",
+							destination: [0, 0],
+							time : 200,
+							relative: "false"
+						},
+						{
+							transition : "Lerp",
+							property: "AnimatedScale",
+							destination: [1, 1],
+							time : 200,
+							relative: "false"
+						}
+					],
+	
+    "progressbar_test_anim" : 
+					[
+						{
+							transition : "Lerp",
+							property: "ProgressValue",
+							destination: 1,
+							time : 20000,
+							relative: "false"
+						}
+					],
+    
+    "dock_expand_anim":
+        [
+            {
+                transition : "Lerp",
+                property : "DockWidth",
+                destination_property: "ExpandedDockWidth",
+                time : 100,
+                relative: "false"
+            }
+        ],
+
+    "dock_collapse_anim":
+        [
+            {
+                transition : "Lerp",
+                property : "DockWidth",
+                destination: 32,
+                time : 100,
+                relative: "false"
+            }
+        ],
+
+    "dock_hide_anim":
+        [
+            {
+                transition : "Lerp",
+                property : "DockWidth",
+                destination: 0,
+                time : 100,
+                relative: "false"
+            }
+        ],
+			
+	"workspace_close_window": 
+	[
+        [
+            {
+				transition: "Lerp",
+				property: "ClientHeight",
+				destination: 0,
+				time : 300,
+				relative: "false"
+            },
+			{ 
+				transition : "Lerp",
+				property: "RenderTargetColour",
+				destination: "#00000000",
+				time : 100,
+				relative: "false"
+			}
+        ]
+    ],
+
+	"workspace_adjust_margin": 
+	[
+		{
+			transition: "Lerp",
+			property: "Margin",
+			destination_property: "DestinationMargin",
+			time : 300,
+			relative: "false"
+		}
+	],
+
+	"workspace_collapse_row": 
+	[
+		{
+			transition: "Lerp",
+			property: "RowHeight",
+			destination: 0,
+			time : 300,
+			relative: "false"
+		}
+	],
+
+	"panarea_easing_zoom":
+	[
+		{
+			transition: "Lerp",
+			property: "Zoom",
+			destination_property: "ZoomTo",
+			time: 200,
+			relative: "false"
+		}
+	],
+
+	"panarea_easing_pan":
+	[
+		{
+			transition: "Lerp",
+			property: "Pan",
+			destination_property: "PanTo",
+			time: 200,
+			relative: "false"
+		}
+	],
+
+	"workspace_pan": 
+	[	
+		{
+			transition: "SCurve",
+			property: "AnimatePan",
+			destination: [0,0],
+			time : 600,
+			relative: "false"
+		}
+	],
+
+	"workspace_zoompan": 
+	[
+		{
+			transition: "SCurve",
+			property: "AnimatePan",
+			destination: [0,0],
+			time : 600,
+			relative: "false"
+		},
+
+		{
+			transition: "SCurve",
+			property: "AnimatePanZoom",
+			destination: 1,
+			time : 600,
+			relative: "false"
+		}
+	],
+
+    "workspace_zoom":
+    [
+        {
+            transition:"SCurve",
+            property:"AnimateZoom",
+            destination: 1,
+            time : 600,
+            relative: "false"
+        }
+    ],
+
+    "workspace_position_pan":
+	[
+		{
+			transition: "EaseIn",
+			property: "AnimatePanPosition",
+			destination_property: "AnimPanTargetPosition",
+			time: 400,
+			relative: "false"
+		}
+	],
+
+    "workspace_position_pan_smooth":
+	[
+		{
+			transition: "SCurve",
+			property: "AnimatePanPosition",
+			destination_property: "AnimPanTargetPosition",
+			time: 600,
+			relative: "false"
+		}
+	],
+
+	"popup_close":
+	[
+		{
+			time: 1
+		}
+	],
+
+	"mixer_close":
+	[
+		{
+			time: 1
+		}
+	],
+
+	"room_editor_zoom":
+	[
+		{
+			transition: "SCurve",
+			property: "RoomZoom",
+			destination_property: "DestinationRoomZoom",
+			time : 500,
+			relative: "false"
+		},
+
+		{
+			transition: "SCurve",
+			property: "GadgetOffset",
+			destination: 0,
+			time : 500,
+			relative: "false"
+		}
+	],
+
+	"window_fadeout":
+	[
+		{ 
+			transition : "Lerp",
+            property: "RenderTargetColour",
+            destination: "#00000000",
+            time : 200,
+            relative: "false"
+		}
+	],
+
+	"window_fadein":
+	[
+		{ 
+			transition : "Lerp",
+            property: "RenderTargetColour",
+            destination: "#ffffffff",
+            time : 200,
+            relative: "false"
+		}
+	],
+
+	"dockitem_fadeout":
+	[
+		{ 
+			transition : "Lerp",
+            property: "RenderTargetColour",
+            destination: "#00000000",
+            time : 200,
+            relative: "false"
+		},
+
+		{
+			transition: "Lerp",
+			property: "animate_height",
+			destination: 0,
+			time : 200,
+			relative: "false"
+		}
+	],
+
+	"dockitem_fadein":
+	[
+		{ 
+			transition : "Lerp",
+            property: "RenderTargetColour",
+            destination: "#ffffffff",
+            time : 200,
+            relative: "false"
+		},
+
+		{
+			transition: "Lerp",
+			property: "animate_height",
+			destination_property: "RestoreHeight",
+			time : 200,
+			relative: "false"
+		}
+	],
+
+	"tooltip_fadeout":
+	[
+		{ 
+			transition : "Lerp",
+            property: "RenderTargetColour",
+            destination: "#00000000",
+            time : 100,
+            relative: "false"
+		}
+	],
+
+	"tooltip_fadein":
+	[
+		{ 
+			transition : "Lerp",
+            property: "RenderTargetColour",
+            destination: "#FFFFFFFF",
+            time : 100,
+            relative: "false"
+		}
+	],
+
+    "sprite_gallery_insert_fadein":
+    [
+        {
+            transition : "EaseIn",
+            property : "Width1",
+            destination: 0.25,
+            time : 300,
+             relative: "false"
+        },
+        {
+            transition : "EaseIn",
+            property : "Width2",
+            destination: 1.0,
+            time : 300,
+            relative: "false"
+        },
+        {
+            transition : "Lerp",
+            property : "Alpha1",
+            destination: 0.5,
+            time : 50,
+            relative: "false"
+        },
+        {
+            transition : "Lerp",
+            property : "Alpha2",
+            destination: 0.3,
+            time : 50,
+            relative: "false"
+        }
+    ],
+
+    "sprite_gallery_insert_fadeout":
+    [
+        {
+            transition : "Lerp",
+            property : "Alpha",
+            destination: 0,
+            time : 100
+        }
+    ],
+
+	"start_page_tooltip_in":
+	[
+		{ 
+			transition : "Lerp",
+            property: "RenderTargetColour",
+            destination: "#FFFFFFFF",
+            time : 200,
+            relative: "false"
+		}
+	],
+
+	"start_page_tooltip_out":
+	[
+		{ 
+			transition : "Lerp",
+            property: "RenderTargetColour",
+            destination: "#00000000",
+            time : 200,
+            relative: "false"
+		}
+	],
+
+	"start_page_project_enter":
+	[
+		{
+			transition: "Lerp",
+			property: "Scale",
+			destination: 1.2,
+			time: 200,
+			relative: "false"
+		}
+	],
+
+	"start_page_project_leave":
+	[
+		{
+			transition: "Lerp",
+			property: "Scale",
+			destination: 1,
+			time: 200,
+			relative: "false"
+		}
+	],
+
+	"start_page_button_slidein":
+	[
+		{
+			transition: "Lerp",
+			property: "Step",
+			destination: 300,
+			time: 2000,
+			relative: "false"
+		}
+	],
+
+	"start_page_button_slideout":
+	[
+		{
+			transition: "Lerp",
+			property: "Step",
+			destination: -200,
+			time: 3000,
+			relative: "false"
+		}
+	],
+
+	"start_page_button_slidein2":
+	[
+		{
+			transition: "Lerp",
+			property: "Step",
+			destination: 225,
+			time: 2400,
+			relative: "false"
+		}
+	],
+
+	"start_page_button_slideout2":
+	[
+		{
+			transition: "Lerp",
+			property: "Step",
+			destination: 100,
+			time: 1800,
+			relative: "false"
+		}
+	],
+
+	"start_page_button_slidein3":
+	[
+		{
+			transition: "Lerp",
+			property: "Step",
+			destination: 250,
+			time: 3000,
+			relative: "false"
+		}
+	],
+
+	"start_page_button_slideout3":
+	[
+		{
+			transition: "Lerp",
+			property: "Step",
+			destination: 50,
+			time: 2000,
+			relative: "false"
+		}
+	],
+
+	"notification_popup": 
+	[
+		{
+			transition: "EaseIn",
+			property: "TopOffset",
+			destination_property: "TopDestination",
+			time: 1000,
+			relative: "false"
+		}
+	],
+
+	"notification_discard": 
+	[
+		{ 
+			transition : "Lerp",
+            property: "RenderTargetColour",
+            destination: "#00000000",
+            time : 100,
+            relative: "false"
+		}
+	],
+
+	"sequence_toolbox_bounce_back": 
+	[
+		{
+			transition: "EaseIn",
+			property: "AnimInterpolatePosition",
+			destination_property: "AnimResetPosition",
+			time: 100,
+			relative: "false"
+		}
+	]
+}

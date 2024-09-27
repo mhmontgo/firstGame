@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="SpriteEditor_PropertiesPanel2" layout_guid="b8ad2a76-5774-4c57-94f1-1b464bca7697">
+    <StackPanel stylename="stack_panel" width="250dpi_px" left="0px" top="0px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+      <ChildGadgets>
+        <Label stylename="label" height="16px" width="37px" left="2px" top="4px" margin_right="6px" margin_top="4px" margin_bottom="3dpi_px" localise_caption="SpriteEditor_Name" />
+        <TextBox stylename="textbox_scaletofit" layout_id="textbox_name" layout_guid="c9581ec0-02fc-42fe-854e-749112b6ff27" width="100%" left="0px" top="23px" bind_property="name" />
+        <Label stylename="label" height="16px" width="38px" left="2px" top="51px" margin_top="4px" margin_bottom="3px" localise_caption="SpriteEditor_Image" />
+        <Group stylename="group_box" height="73px" width="250px" left="0px" top="70px">
+          <ChildGadgets>
+            <Grid stylename="grid_container" height="65dpi_px" width="250dpi_px" left="0px" margin_top="4dpi_px" margin_bottom="4dpi_px" grid_rowlayout="['1*', '1*']" grid_columnlayout="['1*', '10dpi_px', '1*']" row_spacing="4dpi_px">
+              <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="button_up" layout_id="btn_edit" layout_guid="e4ddd0d5-ed0d-489a-86b6-698f5afc34ac" height="24px" width="100dpi_px" localise_name="SpriteEditor_EditImages" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="1" column="2" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="button_up" layout_id="btn_import" layout_guid="d214775c-775e-4135-80da-fae78cb66f26" height="24px" width="100dpi_px" margin_top="60dpi_px" localise_name="SpriteEditor_Import" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="1" rowspan="2" columnspan="1" stylename="grid_container_span_panel" flow_index="0">
+                <ChildGadgets>
+                  <VerticalSeparator stylename="vertical_separator" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="0" rowspan="2" columnspan="1" stylename="grid_container_span_panel" flow_index="0">
+                <ChildGadgets>
+                  <Grid stylename="grid_container" left="8px" grid_rowlayout="['16dpi_px', '1*']" grid_columnlayout="['24dpi_px', '1*']" row_spacing="4dpi_px" column_spacing="8dpi_px">
+                    <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Button stylename="button_up" layout_id="btn_resize" layout_guid="10175169-a279-4224-9dc9-bc026aef8816" localise_tooltip="Tooltip_ResizeSprite" width="24dpi_px" left="0px" top="2dpi_px" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Buttons\icon_IDE_resize.png" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" layout_id="label_width" layout_guid="f24473ed-d3ef-4e19-877b-279c074716dd" height="16px" width="34px" left="0px" top="0px" localise_caption="SpriteEditor_W" />
+                        <Label stylename="label" layout_id="label_height" layout_guid="bcd92369-402e-4f7c-95f0-15c10004d4e6" height="16px" width="32px" left="0px" top="16dpi_px" localise_caption="SpriteEditor_H" />
+                        <Label stylename="label_spriteeditor_px" height="16px" width="13px" right="9dpi_px" top="-2px" caption="px" />
+                        <Label stylename="label_spriteeditor_px" height="16px" width="13px" right="9dpi_px" top="15dpi_px" caption="px" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="0" rowspan="1" columnspan="2" stylename="grid_container_span_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" height="16px" width="26px" left="0px" top="0px" localise_caption="SpriteEditor_LabelSize" />
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+          </ChildGadgets>
+        </Group>
+        <Window stylename="default_borderless_window" layout_id="texsettings_window" layout_guid="430f0281-1434-4d9c-8e27-450605e66cdb" override_flow_index="9999999" height="173px" width="250dpi_px" left="0px" top="147px" margin_top="4dpi_px" margin_bottom="4dpi_px" localise_title="SpriteEditor_TextureSettings" window_flags="Borderless, MinimizeButton, AutoSizeHeight">
+          <Client>
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" override_flow_index="9999999" left="0px" right="0px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                <ChildGadgets>
+                  <CheckBox stylename="checkbox_stack_fixedright" layout_id="tileh_checkbox" layout_guid="bf1074d1-cdd0-40e7-b09c-68418146c09f" flow_index="2" override_flow_index="9999999" localise_tooltip="SpriteEditor_Tile_Tooltip" left="5px" top="0px" margin_left="8dpi_px" bind_property="HTile" localise_name="SpriteEditor_TileHor" />
+                  <CheckBox stylename="checkbox_stack_fixedright" layout_id="tilev_checkbox" layout_guid="27bee575-862e-43fc-8682-34065c5be946" flow_index="3" localise_tooltip="SpriteEditor_Tile_Tooltip" left="0px" top="19px" margin_left="8dpi_px" bind_property="VTile" localise_name="SpriteEditor_TileVer" />
+                  <CheckBox stylename="checkbox_stack_fixedright" layout_id="use3d_checkbox" layout_guid="5915793a-f0ba-4b48-a3cf-36650449354b" flow_index="4" left="0px" top="38px" margin_left="8dpi_px" bind_property="For3D" localise_name="SpriteEditor_Use3D" />
+                  <!--<CheckBox stylename="checkbox_stack_fixedright" layout_id="dynamictexturepage_checkbox" layout_guid="6915793a-f0ba-4b48-a3cf-36650449354b" flow_index="5" left="0px" top="57px" margin_left="8dpi_px" bind_property="DynamicTexturePage" localise_name="SpriteEditor_DynamicTexturePage" /> -->
+                  <CheckBox stylename="checkbox_stack_fixedright" layout_id="premultiply_checkbox" layout_guid="6a696028-8e29-4012-b497-6ad985ed0105" flow_index="6" localise_tooltip="SpriteEditor_Premultiply_Tooltip" left="0px" top="76px" margin_left="8dpi_px" bind_property="preMultiplyAlpha" localise_name="SpriteEditor_Premultiply" />
+                  <CheckBox stylename="checkbox_stack_fixedright" layout_id="edgefiltering_checkbox" layout_guid="a2a58486-0650-4fb1-a377-10eb26ac1164" flow_index="7" localise_tooltip="SpriteEditor_EdgeFiltering_Tooltip" left="0px" top="95px" margin_left="8dpi_px" bind_property="edgeFiltering" localise_name="SpriteEditor_EdgeFiltering" />
+                  <Label stylename="label_full_width" layout_id="texgroup_label" layout_guid="a9813a91-8e86-4c92-9927-7b7ff6ddedd7" override_flow_index="9999999" height="16dpi_px" top="118px" margin_left="6dpi_px" margin_top="4px" localise_caption="SpriteEditor_TextureGroup" />
+                  <ComboBox stylename="combobox_panel" layout_id="combo_texturegroup" layout_guid="bc1fc91e-b3e5-46ce-a074-3643acbd2582" flow_index="8" override_flow_index="9999999" width="" left="8dpi_px" right="8dpi_px" top="138px">
+                    <ListBoxItems />
+                  </ComboBox>
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Client>
+          <Layout layout_name="BasicBorderlessWindowFrame" layout_guid="53cfe63e-6679-4383-b1ab-f891ade9d6f6" />
+        </Window>
+        <Window stylename="default_borderless_window" layout_id="collision_window" layout_guid="ba575c8c-86dc-40b5-8481-2ca71d668b36" override_flow_index="9999999" height="206px" width="250dpi_px" left="0px" top="324px" localise_title="SpriteEditor_CollisionMask" window_flags="Borderless, MinimizeButton, AutoSizeHeight, AllowFlowEscapeWindow">
+          <Client>
+            <ChildGadgets>
+              <StackPanel stylename="resizing_stack_panel" left="8dpi_px" right="8dpi_px" top="0px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                <Gadgets>
+                  <Grid stylename="grid_container" top="6px" margin_top="6px" margin_bottom="6dpi_px" grid_rowlayout="['auto', 'auto']" grid_columnlayout="['auto', '1*']" row_spacing="4dpi_px" column_spacing="16dpi_px" grid_resize="ResizeGrid">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" height="16px" width="32px" left="0px" localise_caption="SpriteEditor_CollisionMode" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <ComboBox stylename="combobox_panel" layout_id="combo_colmode" layout_guid="0b384a19-0351-493e-9928-8bee26c210e0" right="0dpi_px">
+                          <ListBoxItems>
+                            <Label stylename="label" height="16px" width="57px" left="0%" top="0px" localise_caption="SpriteEditor_ColMaskAutomatic" />
+                            <Label stylename="label" height="16px" width="57px" left="0%" top="16px" localise_caption="SpriteEditor_FullImage" />
+                            <Label stylename="label" height="16px" width="42px" left="0%" top="32px" localise_caption="SpriteEditor_Manual" />
+                          </ListBoxItems>
+                        </ComboBox>
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" height="16px" width="27px" left="0px" margin_top="2dpi_px" localise_caption="SpriteEditor_CollisionType" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <ComboBox stylename="combobox_panel" layout_id="combo_collisiontype" layout_guid="efee0edf-eb8a-415c-bf0b-8afd03067729" right="0dpi_px">
+                          <ListBoxItems>
+                            <Label stylename="label" layout_id="rectangle" layout_guid="7bf85aa2-2e43-4d8b-ac9c-b26839df0c98" height="16px" width="55px" left="0%" top="0px" localise_caption="SpriteEditor_ColRectangle" />
+                            <Label stylename="label" layout_id="rectanglerotation" layout_guid="7bf85aa2-2e43-4d8b-ac9c-b26839df0c98" height="16px" width="128px" left="0%" top="0px" localise_caption="SpriteEditor_ColRectangleRotation" />
+                            <Label stylename="label" layout_id="ellipse" layout_guid="92645eef-4522-41b5-84a8-fe4b15c7250b" height="16px" width="73px" left="0%" top="16px" localise_caption="SpriteEditor_ColEllipse" />
+                            <Label stylename="label" layout_id="diamond" layout_guid="67d15fd1-7bcd-44c3-8de3-0b7c4579068f" height="16px" width="88px" left="0%" top="32px" localise_caption="SpriteEditor_ColDiamond" />
+                            <Label stylename="label" layout_id="precise" layout_guid="d94a9609-b9d2-4d32-b205-1c1137bafab3" height="16px" width="78px" left="0%" top="48px" localise_caption="SpriteEditor_ColPrecise" />
+                            <Label stylename="label" layout_id="preciseperframe" layout_guid="bb10e7e9-f79b-464b-9093-3709666e36ae" height="16px" width="139px" left="0%" top="64px" localise_caption="SpriteEditor_ColPrecise_Separate" />
+                            <Label stylename="label" layout_id="spinemesh" layout_guid="21680528-39aa-493c-a80f-49c2ec11ec00" height="16px" width="139px" left="0%" top="64px" localise_caption="SpriteEditor_ColSpineMesh" />
+                          </ListBoxItems>
+                        </ComboBox>
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                  <Label stylename="label" height="16px" width="56px" left="0px" top="66px" margin_top="2px" localise_caption="SpriteEditor_Tolerance" />
+                  <StackPanel stylename="stack_panel" layout_id="stack_tolerance" layout_guid="3cedd18d-1a9c-4b67-967b-2d098a30f301" top="82px" stack_resize="ResizeHeight">
+                    <ChildGadgets>
+                      <Slider stylename="slider_grid" layout_id="slider_tolerance" layout_guid="4e1590b7-d804-40cd-ac3f-e9befd865b41" width="176dpi_px" left="0px" margin_top="4px" bind_property="collisionTolerance" min_value="0" max_value="255" flow_increment="10" mindrag_increment="1" />
+                      <NumericTextBox stylename="numeric_text_box" layout_id="textbox_tolerance" layout_guid="7bf9598c-aa2f-4eb9-b4d1-e7c599aa50f3" width="55dpi_px" left="176px" bind_property="collisionTolerance" has_buttons="True" max="255" />
+                    </ChildGadgets>
+                  </StackPanel>
+                  <Grid stylename="grid_container" layout_id="grid_colmask_manual" layout_guid="18f1ea21-86b2-4c3f-97e9-cf66a602edc4" left="0px" right="0px" top="116px" margin_top="10px" margin_bottom="10px" grid_rowlayout="['auto', 'auto']" grid_columnlayout="['auto', 'auto', '1*', 'auto', 'auto']" row_spacing="6px" column_spacing="6px" grid_resize="ResizeGrid">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" layout_id="label_bbleft" layout_guid="70cc7713-d099-417e-af57-c496a4412d04" override_flow_index="9999999" height="16px" width="24px" right="0px" localise_caption="SpriteEditor_BBLeft" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <NumericTextBox stylename="numeric_text_box" layout_id="textbox_numleft" layout_guid="c8fdfaef-9916-4399-a69e-5e2a49f177ac" width="60dpi_px" bind_property="bbox_left" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" layout_id="label_bbright" layout_guid="69d2b6c4-ff99-40f0-a6c9-88d7d9c31aee" height="16px" width="31px" right="0px" localise_caption="SpriteEditor_BBRight" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="4" stylename="grid_container_panel" flow_index="2">
+                      <ChildGadgets>
+                        <NumericTextBox stylename="numeric_text_box" layout_id="textbox_numright" layout_guid="d8943be1-21b8-4354-9185-279bdd185e5b" width="60dpi_px" right="0px" bind_property="bbox_right" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" layout_id="label_bbtop" layout_guid="306ce422-d82b-4983-a5b1-c86bd2af118c" height="16px" width="24px" left="0px" localise_caption="SpriteEditor_BBTop" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="1" column="1" stylename="grid_container_panel" flow_index="1">
+                      <ChildGadgets>
+                        <NumericTextBox stylename="numeric_text_box" layout_id="textbox_numtop" layout_guid="7f03fb95-9f38-4af3-bda7-7f62be37daab" width="60dpi_px" bind_property="bbox_top" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="1" column="3" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" layout_id="label_bbbottom" layout_guid="f22b27f8-b19c-4450-85bf-62ee7e6355d6" height="16px" width="44px" right="0px" localise_caption="SpriteEditor_BBBottom" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="1" column="4" stylename="grid_container_panel" flow_index="3">
+                      <ChildGadgets>
+                        <NumericTextBox stylename="numeric_text_box" layout_id="textbox_numbottom" layout_guid="9cb82b46-3281-4067-b4e2-ec46e839c496" width="60dpi_px" bind_property="bbox_bottom" />
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                </Gadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Client>
+          <Layout layout_name="BasicBorderlessWindowFrame" layout_guid="53cfe63e-6679-4383-b1ab-f891ade9d6f6" />
+        </Window>
+        <Window stylename="default_borderless_window" layout_id="nslice_settings_window" layout_guid="557ee8ff-2882-4b88-bf29-a31c5856a3ab" override_flow_index="9999999" height="248px" width="250dpi_px" left="0px" top="534px" margin_top="4dpi_px" title="Nine Slice" window_flags="Borderless, MinimizeButton, AutoSizeHeight, AllowFlowEscapeWindow">
+          <Client>
+            <ChildGadgets>
+              <StackPanel stylename="resizing_stack_panel" override_flow_index="9999999" left="8dpi_px" right="0dpi_px" top="0px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                <ChildGadgets>
+                  <CheckBox stylename="checkbox_stack_fixedright" layout_id="ns_activate_check" layout_guid="9e72b6db-5551-45fc-9c2d-b2153da3e38f" flow_index="4" override_flow_index="9999999" left="0px" top="8px" margin_top="8dpi_px" bind_property="ninesliceEnabled" localise_name="NineSlice_Activate" stack_order="RightToLeft" />
+                  <Label stylename="label" override_flow_index="9999999" height="16px" width="39px" left="0px" top="36px" margin_top="9dpi_px" caption="Guides" />
+                  <Grid stylename="grid_container" layout_id="grid_nineslice" layout_guid="423d50d8-035f-4df8-bea2-efcf753d3d24" override_flow_index="9999999" left="0px" right="8dpi_px" top="57px" margin_top="5dpi_px" margin_bottom="10px" grid_rowlayout="['auto', 'auto']" grid_columnlayout="['auto', '60dpi_px', '1*', 'auto', '60dpi_px']" row_spacing="6dpi_px" column_spacing="6px" grid_resize="ResizeGridHeight">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" layout_id="label_nsleft" layout_guid="3ffaef12-23e6-4cc3-9fa2-d2dfc2cc0379" override_flow_index="9999999" height="16px" width="24px" right="0px" localise_caption="SpriteEditor_BBLeft" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <ColourSelectButton stylename="colour_select_button_up" layout_id="colour_nsleft" layout_guid="35d3db53-5902-488e-90c0-e440fa4bd591" override_flow_index="9999999" width="8dpi_px" left="0px" top="0px" bottom="0px" bind_property="ninesliceColourLeft" />
+                        <NumericTextBox stylename="numeric_textbox" layout_id="textbox_nsleft" layout_guid="07aab5ab-731d-4b83-bc8b-c64eb7aaf7e5" override_flow_index="9999999" width="" left="8dpi_px" right="0px" bind_property="ninesliceLeft" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" layout_id="label_nsright" layout_guid="e25495a4-0e62-4aef-8ad8-ee43f509b786" override_flow_index="9999999" height="16px" width="31px" right="0px" localise_caption="SpriteEditor_BBRight" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="4" stylename="grid_container_panel" flow_index="2">
+                      <ChildGadgets>
+                        <NumericTextBox stylename="numeric_text_box" layout_id="textbox_nsright" layout_guid="85de731e-fd05-4bd9-8bdd-3c172e8a7800" override_flow_index="9999999" width="" left="8dpi_px" right="0px" bind_property="ninesliceRight" />
+                        <ColourSelectButton stylename="colour_select_button_up" layout_id="colour_nsright" layout_guid="9aa366df-6820-482d-bddb-c39aced50a95" override_flow_index="9999999" width="8dpi_px" left="0px" top="0px" bottom="0px" bind_property="ninesliceColourRight" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" layout_id="label_nstop" layout_guid="4d9b4027-da04-4eaa-a498-be3871abdfbd" override_flow_index="9999999" height="16px" width="24px" left="0px" localise_caption="SpriteEditor_BBTop" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="1" column="1" stylename="grid_container_panel" flow_index="1">
+                      <ChildGadgets>
+                        <NumericTextBox stylename="numeric_text_box" layout_id="textbox_nstop" layout_guid="baee9f76-7523-476c-b4fc-3e857b3cd998" override_flow_index="9999999" width="" left="8dpi_px" right="0px" bind_property="ninesliceTop" />
+                        <ColourSelectButton stylename="colour_select_button_up" layout_id="colour_nstop" layout_guid="bc8f512c-0633-4bbb-8704-cb8b64bb6703" override_flow_index="9999999" width="8dpi_px" left="0px" top="0px" bottom="0px" bind_property="ninesliceColourTop" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="1" column="3" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" layout_id="label_nsbottom" layout_guid="09eb8a81-c2b5-4dd1-96f8-08deb8c036b5" override_flow_index="9999999" height="16px" width="44px" right="0px" localise_caption="SpriteEditor_BBBottom" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="1" column="4" stylename="grid_container_panel" flow_index="3">
+                      <ChildGadgets>
+                        <NumericTextBox stylename="numeric_text_box" layout_id="textbox_nsbottom" layout_guid="85740e10-c476-4a55-9807-57e5eddbde6c" override_flow_index="9999999" width="" left="8dpi_px" right="0px" bind_property="ninesliceBottom" />
+                        <ColourSelectButton stylename="colour_select_button_up" layout_id="colour_nsbottom" layout_guid="596db745-dac7-492e-b721-126c6fc62c81" override_flow_index="9999999" width="8dpi_px" left="0px" top="0px" bottom="0px" bind_property="ninesliceColourBottom" />
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                  <Grid stylename="grid_container" override_flow_index="9999999" height="0px" top="128px" margin_top="7dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['1*', '8dpi_px', '135dpi_px']" grid_resize="ResizeGridHeight">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" height="16px" width="53px" left="0px" localise_caption="NineSlice_Highlight" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <ColourSelectButton stylename="colour_select_button_up" layout_id="ns_highlight_colour" layout_guid="aff5d366-b48e-4e3f-a28e-8b67fe257655" override_flow_index="9999999" width="8dpi_px" left="0px" top="0px" bottom="0px" bind_property="ninesliceHighlightColour" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <ComboBox stylename="combobox_panel" layout_id="ns_highlight_combo" layout_guid="3c66d48b-4ef5-40ae-8c84-a6477c21e315" override_flow_index="9999999" width="" left="0px" right="8dpi_px" bind_property="ninesliceHighlightStyle">
+                          <ListBoxItems />
+                        </ComboBox>
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                  <Grid stylename="grid_container" override_flow_index="9999999" top="158px" margin_top="6dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['1*', '135dpi_px']" grid_resize="ResizeGridHeight">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" height="16px" width="80px" left="0px" localise_caption="NineSlice_SelectedSlice" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <ComboBox stylename="combobox_panel" layout_id="ns_selected_combo" layout_guid="efadd152-c96c-4e88-ae8a-304269de5c96" override_flow_index="9999999" left="0px" right="8dpi_px">
+                          <ListBoxItems />
+                        </ComboBox>
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                  <Grid stylename="grid_container" override_flow_index="9999999" top="188px" margin_top="6dpi_px" margin_bottom="10dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['1*', '135dpi_px']" grid_resize="ResizeGridHeight">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" height="16px" width="58px" left="0px" localise_caption="NineSlice_TileMode" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <ComboBox stylename="combobox_panel" layout_id="ns_tilemode_combo" layout_guid="735287b0-2221-460d-9f1f-394d6e797a05" override_flow_index="9999999" left="0px" right="8dpi_px">
+                          <ListBoxItems />
+                        </ComboBox>
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Client>
+          <Layout layout_name="BasicBorderlessWindowFrame" layout_guid="53cfe63e-6679-4383-b1ab-f891ade9d6f6" />
+        </Window>
+        <Label stylename="label" layout_id="sprite_export" layout_guid="f1487574-a611-481a-a102-ec7abc192d6d" override_flow_index="9999999" height="16px" width="124px" top="786px" margin_top="4dpi_px" localise_caption="SpriteEditor_NoExport" />
+        <Label stylename="label_deactivated" layout_id="sprite_type_label" layout_guid="576e868a-34df-413a-955b-67e4b95a809f" override_flow_index="9999999" localise_tooltip="SpriteEditor_SpineLabelTT" height="16px" width="67px" top="806px" margin_top="4dpi_px" localise_caption="SpriteEditor_SpineLabel" />
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+</Layouts>

@@ -1,0 +1,15 @@
+[
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdAngle",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "angle",
+      "DefaultValue": "0",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

@@ -1,0 +1,312 @@
+{
+	"button_deactivated": {
+		"icon_colour": "base_button_icon_deactivated",
+		"label_colour": "base_button_label_deactivated"
+	},
+
+	"button_reactivated": {
+		"icon_colour": "base_button_icon_reactivated",
+		"label_colour": "base_button_label_reactivated"
+	},
+
+	"button_deactivated_fonticon": {
+		"icon_colour": "base_button_fonticon_deactivated",
+		"label_colour": "base_button_label_deactivated",
+		"mouse_events": "false"
+	},
+
+	"button_reactivated_fonticon": {
+		"icon_colour": "base_button_icon_reactivated",
+		"label_colour": "base_button_label_reactivated",
+		"mouse_events": "true"
+	},
+
+	"label_deactivated": {
+		"colour": "base_label_deactivated"
+	},
+
+	"label_reactivated": {
+		"colour": "base_label_reactivated"
+	},
+
+	"close_button_up": {
+		"up_tint": "base_button_close_up",
+		"down_tint": "base_button_close_down",
+		"mouseover_up_tint": "base_button_close_up_mouseover",
+		"mouseover_down_tint": "base_button_close_down_mouseover",
+		"up_focused_tint": "base_button_close_up_focused",
+		"down_focused_tint": "base_button_close_down_focused",
+		"mouseover_up_focused_tint": "base_button_close_up_focused_mouseover",
+		"mouseover_down_focused_tint": "base_button_close_down_focused_mouseover"
+	},
+
+	"close_icon_vector": {
+		"icon_colour": "base_button_close_icon_up"
+	},
+
+	"slider_grid": {
+		"colour": "slider_bg"
+	},
+
+	"slider_bar_fill_deactivated": {
+		"colour": "slider_bar_fill_deactivated"
+	},
+
+	"slider_bar_fill_reactivated": {
+		"colour": "slider_bar_fill_reactivated"
+	},
+
+	"slider_thumb_deactivated": {
+		"up_tint": "slider_thumb_deactivated",
+		"up_focused_tint": "slider_thumb_deactivated",
+		"down_focused_tint": "slider_thumb_deactivated",
+		"mouseover_down_focused_tint": "slider_thumb_deactivated"
+	},
+
+	"slider_thumb_reactivated": {
+		"up_tint": "slider_thumb_up",
+		"up_focused_tint": "slider_thumb_up_focused",
+		"down_focused_tint": "slider_thumb_down_focused",
+		"mouseover_down_focused_tint": "slider_thumb_down_focused_mouseover"
+	},
+
+	"slider": {
+		"colour": "slider_bg"
+	},
+
+	"slider_bar_fill": {
+		"colour": "slider_bar_fill"
+	},
+
+	"slider_bar_fill_not_focused": {
+		"colour": "slider_bar_fill_not_focused"
+	},
+
+	"slider_thumb": {
+		"up_tint": "slider_thumb_up",
+		"mouseover_up_tint": "slider_thumb_up_mouseover",
+		"up_focused_tint": "slider_thumb_up_focused",
+		"mouseover_up_focused_tint": "slider_thumb_up_focused_mouseover",
+		"down_focused_tint": "slider_thumb_down_focused",
+		"mouseover_down_focused_tint": "slider_thumb_down_focused_mouseover"
+	},
+
+	"slider_vertical_major_tick": {
+		"colour": "slider_major_tick"
+	},
+
+	"slider_vertical_minor_tick": {
+		"colour": "slider_minor_tick"
+	},
+
+	"slider_horizontal_major_tick": {
+		"colour": "slider_major_tick"
+	},
+
+	"slider_horizontal_minor_tick": {
+		"colour": "slider_minor_tick"
+	},
+
+	"label": {
+		"colour": "base_label_reactivated"
+	},
+
+	"label_editbox": {
+		"text_colour": "base_label_reactivated",
+		"colour": "base_label_editbox"
+	},
+
+	"input_slider_bar": {
+		"colour": "slider_bar"
+	},
+
+	"input_slider_bar_fill": {
+		"colour": "slider_bar_fill"
+	},
+
+	"deactivated_checkbox_label": {
+		"colour": "base_button_label_deactivated"
+	},
+
+	"checkbox_label": {
+		"colour": "base_button_label_reactivated"
+	},
+
+	"checkbox_untick": {
+		"colour": "base_checkbox_untick"
+	},
+
+	"heading_label": {
+		"margin_colour": "base_heading_label_margin_1",
+		"colour": "base_heading_label_1"
+	},
+
+	"heading2_label": {
+		"margin_colour": "base_heading_label_margin_2",
+		"colour": "base_heading_label_2"
+	},
+
+	"text_box_caret": {
+		"colour": "base_text_box_reactivated"
+	},
+
+	"text_box": {
+		"text_colour": "base_text_box_reactivated",
+		"selection_colour": "base_text_box_selection",
+		"cursor_image": "IBarBlack"
+	},
+
+	"basic_text_box": {
+		"text_colour": "base_text_box_reactivated",
+		"selection_colour": "base_text_box_selection",
+		"cursor_image": "IBarBlack"
+	},
+
+	"reactivated_text_box": {
+		"mouse_events": "true",
+		"text_colour": "base_text_box_reactivated"
+	},
+
+	"deactivated_text_box": {
+		"mouse_events": "false",
+		"text_colour": "base_text_box_deactivated"
+	},
+
+	"reactivated_numeric_textbox": {
+		"text_colour": "base_text_box_numeric_reactivated"
+	},
+
+	"reactivated_numeric_textbox_buttons": {
+		"text_colour": "base_text_box_numeric_reactivated"
+	},
+
+	"list_box": {
+		"selection_colour": "base_listbox_selection",
+		"mouse_over_colour": "base_listbox_mouseover"
+	},
+
+	"list_box_highlight": {
+		"colour": "base_listbox_hi"
+	},
+
+	"list_box_mouseover": {
+		"colour": "base_listbox_mouseover"
+	},
+
+	"deactivated_numeric_textbox": {
+		"text_colour": "base_text_box_numeric_deactivated"
+	},
+
+	"test_image": {
+		"colour": "base_test_value"
+	},
+
+	"combobox_text_box": {
+		"colour": "base_text_box",
+		"text_colour": "text_editor_search_text",
+		"selection_colour": "text_editor_search_selection"
+	},
+
+	"combobox_search_textbox": {
+		"text_colour": "text_editor_search_text",
+		"selection_colour": "text_editor_search_selection"
+	},
+
+	"progressbar_bar": {
+		"background_colour": "ide_progress_bar_bg"
+	},
+
+	"tooltip_label": {
+		"colour": "base_tooltip_label"
+	},
+
+	"tooltip_label_mirrored": {
+		"colour": "base_tooltip_label"
+	},
+
+	"tooltip_label_description": {
+		"colour": "base_tooltip_label_description"
+	},
+
+	"tooltip_label_description_mirrored": {
+		"colour": "base_tooltip_label_description"
+	},
+
+	"toggle_gadget_checkbox": {
+		"colour": "base_checkbox_untick"
+	},
+
+	"toggle_gadget_checkbox_highlighted": {
+		"colour": "base_checkbox_untick"
+	},
+
+	"sprite_selector": {
+		"drag_colour": "sprite_selector_drag"
+	},
+
+	"toolbar_widget": {
+		"colour": "toolbar_widget"
+	},
+
+	"toolbar_widget_stack": {
+		"colour": "toolbar_widget_stack_panel"
+	},
+
+	"toolbar_widget_stack_mini": {
+		"colour": "toolbar_widget_stack_panel_mini"
+	},
+
+	"multiline_text_box": {
+		"text_colour": "base_text_box_reactivated",
+		"selection_colour": "base_text_box_selection",
+		"cursor_image": "IBarBlack"
+	},
+
+	"ide_version_label": {
+		"colour": "ide_version_label"
+	},
+
+	"ide_license_label": {
+		"colour": "ide_license_label"
+	},
+
+	"data_grid_column": {
+		"colour": "data_grid_column",
+		"up_tint": "data_grid_column_up",
+		"down_tint": "data_grid_column_down",
+		"mouseover_up_tint": "data_grid_column_up_mouseover",
+		"mouseover_up_focused_tint": "data_grid_column_up_focused_mouseover",
+		"mouseover_down_tint": "data_grid_column_down_mouseover",
+		"mouseover_down_focused_tint": "data_grid_column_down_focused_mouseover",
+		"up_focused_tint": "data_grid_column_up_focused",
+		"down_focused_tint": "data_grid_column_down_focused"
+	},
+
+	"data_grid_column_splitter": {
+		"colour": "data_grid_column_splitter"
+	},
+
+	"data_grid_style": {
+		"grid_line_colour": "data_grid_grid_line",
+		"node_line_colour": "data_grid_node_line",
+		"text_colour": "data_grid_text",
+		"hilight_colour": "data_grid_hi"
+	},
+
+	"font_icon_colour": {
+		"colour": "base_font_icon"
+	},
+
+	"skin_defaults": {
+		"font_icon_colour": "base_font_icon",
+		"bg_colour": "base_bg",
+    "label_hilight_colour":  "label_hilight",
+    "label_curr_hilight_colour":  "label_hilight2"
+	},
+
+	"motionpath_style": {
+		"point_fill_colour": "motionpath_point_fill",
+		"point_select_colour": "motionpath_point_select",
+		"point_over_colour": "motionpath_point_over"
+	}
+}

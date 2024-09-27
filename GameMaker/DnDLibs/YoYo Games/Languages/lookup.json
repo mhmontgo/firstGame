@@ -1,0 +1,7675 @@
+{
+    "GMStdSeqSetHead_Story": [
+        {
+            "GMStdSeqSetHead_Story_1": {
+                
+            }
+        }
+    ],
+    "GMStdSeqGetHead_Story": [
+        {
+            "GMStdSeqGetHead_Story_1": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdSeqGetHead_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdSeqGetLength_Story": [
+		  {
+			  "GMStdSeqGetLength_Story_1": {
+				  "var_temp": "0"
+			  }
+		  },
+		  {
+			  "GMStdSeqGetLength_Story_2": {
+                
+			  }
+		  }
+	  ],
+    "GMStdVar_Story": [
+        {
+            "GMStdVar_Story_1": {
+                "expr_relative": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdVar_Story_2": {
+                "expr_relative": "0"
+            }
+        },
+        {
+            "GMStdVar_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdVar_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdTempVar_Story": [
+        {
+            "GMStdTempVar_Story_1": {
+                "value": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTempVar_Story_2": {
+                "value": ""
+            }
+        },
+        {
+            "GMStdTempVar_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTempVar_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdSetGlobal_Story": [
+        {
+            "GMStdSetGlobal_Story_1": {
+                "value_relative": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetGlobal_Story_2": {
+                "value_relative": "0"
+            }
+        },
+        {
+            "GMStdSetGlobal_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetGlobal_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdGetGlobal_Story": [
+        {
+            "GMStdGetGlobal_Story_1": {
+                "output_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetGlobal_Story_2": {
+                "output_temp": "0"
+            }
+        },
+        {
+            "GMStdGetGlobal_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetGlobal_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfVar_Story": [
+        {
+            "GMStdIfVar_Story_1": {
+                "not": "1",
+                "op": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfVar_Story_3": {
+                "not": "1",
+                "op": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfVar_Story_5": {
+                "not": "1",
+                "op": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfVar_Story_7": {
+                "not": "1",
+                "op": "3",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfVar_Story_9": {
+                "not": "1",
+                "op": "4",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfVar_Story_17": {
+                "applyto": "self",
+                "op": "3"
+            }
+        },
+        {
+            "GMStdIfVar_Story_15": {
+                "applyto": "self",
+                "op": "2"
+            }
+        },
+        {
+            "GMStdIfVar_Story_13": {
+                "applyto": "self",
+                "op": "1"
+            }
+        },
+        {
+            "GMStdIfVar_Story_11": {
+                "applyto": "self",
+                "op": "0"
+            }
+        },
+        {
+            "GMStdIfVar_Story_10": {
+                "not": "1",
+                "op": "4"
+            }
+        },
+        {
+            "GMStdIfVar_Story_8": {
+                "not": "1",
+                "op": "3"
+            }
+        },
+        {
+            "GMStdIfVar_Story_6": {
+                "not": "1",
+                "op": "2"
+            }
+        },
+        {
+            "GMStdIfVar_Story_4": {
+                "not": "1",
+                "op": "1"
+            }
+        },
+        {
+            "GMStdIfVar_Story_2": {
+                "not": "1",
+                "op": "0"
+            }
+        },
+        {
+            "GMStdIfVar_Story_19": {
+                "applyto": "self",
+                "op": "4"
+            }
+        },
+        {
+            "GMStdIfVar_Story_12": {
+                "op": "0"
+            }
+        },
+        {
+            "GMStdIfVar_Story_14": {
+                "op": "1"
+            }
+        },
+        {
+            "GMStdIfVar_Story_16": {
+                "op": "2"
+            }
+        },
+        {
+            "GMStdIfVar_Story_18": {
+                "op": "3"
+            }
+        },
+        {
+            "GMStdIfVar_Story_20": {
+                "op": "4"
+            }
+        }
+    ],
+    "GMStdIfExpr_Story": [
+        {
+            "GMStdIfExpr_Story_1": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfExpr_Story_2": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfExpr_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfExpr_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfUndef_Story": [
+        {
+            "GMStdIfUndef_Story_1": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfUndef_Story_2": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfUndef_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfUndef_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdExCode_Story": [
+        {
+            "GMStdExCode_Story_1": {
+                "overridden_name": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExCode_Story_2": {
+                "overridden_name": ""
+            }
+        },
+        {
+            "GMStdExCode_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExCode_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdExScript_Story": [
+        {
+            "GMStdExScript_Story_1": {
+                "var_temp": "0",
+                "var": "",
+                "input_count": "1",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_2": {
+                "var_temp": "0",
+                "var": "",
+                "input_count": "1",
+                "arg": ""
+            }
+        },
+        {
+            "GMStdExScript_Story_3": {
+                "var_temp": "0",
+                "var": "",
+                "input_count": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_1": {
+                "var": "",
+                "input_count": "1",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_1": {
+                "var_temp": "0",
+                "var": "",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_7": {
+                "var_temp": "0",
+                "input_count": "1",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_1": {
+                "var": "",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_7": {
+                "var_temp": "0",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_9": {
+                "var_temp": "0",
+                "input_count": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_8": {
+                "var_temp": "0",
+                "input_count": "1",
+                "arg": ""
+            }
+        },
+        {
+            "GMStdExScript_Story_13": {
+                "input_count": "1",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_5": {
+                "var_temp": "0",
+                "var": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_2": {
+                "var_temp": "0",
+                "var": "",
+                "arg": ""
+            }
+        },
+        {
+            "GMStdExScript_Story_4": {
+                "var_temp": "0",
+                "var": "",
+                "input_count": "1"
+            }
+        },
+        {
+            "GMStdExScript_Story_2": {
+                "var": "",
+                "input_count": "1",
+                "arg": ""
+            }
+        },
+        {
+            "GMStdExScript_Story_3": {
+                "var": "",
+                "input_count": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_13": {
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_5": {
+                "var": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_2": {
+                "var": "",
+                "arg": ""
+            }
+        },
+        {
+            "GMStdExScript_Story_8": {
+                "var_temp": "0",
+                "arg": ""
+            }
+        },
+        {
+            "GMStdExScript_Story_11": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_14": {
+                "input_count": "1",
+                "arg": ""
+            }
+        },
+        {
+            "GMStdExScript_Story_10": {
+                "var_temp": "0",
+                "input_count": "1"
+            }
+        },
+        {
+            "GMStdExScript_Story_6": {
+                "var_temp": "0",
+                "var": ""
+            }
+        },
+        {
+            "GMStdExScript_Story_4": {
+                "var": "",
+                "input_count": "1"
+            }
+        },
+        {
+            "GMStdExScript_Story_15": {
+                "input_count": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_14": {
+                "arg": ""
+            }
+        },
+        {
+            "GMStdExScript_Story_12": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdExScript_Story_6": {
+                "var": ""
+            }
+        },
+        {
+            "GMStdExScript_Story_17": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdExScript_Story_16": {
+                "input_count": "1"
+            }
+        },
+        {
+            "GMStdExScript_Story_18": {
+                
+            }
+        }
+    ],
+    "GMStdCallFunction_Story": [
+        {
+            "GMStdCallFunction_Story_1": {
+                "var_temp": "0",
+                "var": "",
+                "input_count": "1",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_2": {
+                "var_temp": "0",
+                "var": "",
+                "input_count": "1",
+                "arg": ""
+            }
+        },
+        {
+            "GMStdCallFunction_Story_3": {
+                "var_temp": "0",
+                "var": "",
+                "input_count": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_1": {
+                "var": "",
+                "input_count": "1",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_1": {
+                "var_temp": "0",
+                "var": "",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_7": {
+                "var_temp": "0",
+                "input_count": "1",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_1": {
+                "var": "",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_7": {
+                "var_temp": "0",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_9": {
+                "var_temp": "0",
+                "input_count": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_8": {
+                "var_temp": "0",
+                "input_count": "1",
+                "arg": ""
+            }
+        },
+        {
+            "GMStdCallFunction_Story_13": {
+                "input_count": "1",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_5": {
+                "var_temp": "0",
+                "var": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_2": {
+                "var_temp": "0",
+                "var": "",
+                "arg": ""
+            }
+        },
+        {
+            "GMStdCallFunction_Story_4": {
+                "var_temp": "0",
+                "var": "",
+                "input_count": "1"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_2": {
+                "var": "",
+                "input_count": "1",
+                "arg": ""
+            }
+        },
+        {
+            "GMStdCallFunction_Story_3": {
+                "var": "",
+                "input_count": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_13": {
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_5": {
+                "var": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_2": {
+                "var": "",
+                "arg": ""
+            }
+        },
+        {
+            "GMStdCallFunction_Story_8": {
+                "var_temp": "0",
+                "arg": ""
+            }
+        },
+        {
+            "GMStdCallFunction_Story_11": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_14": {
+                "input_count": "1",
+                "arg": ""
+            }
+        },
+        {
+            "GMStdCallFunction_Story_10": {
+                "var_temp": "0",
+                "input_count": "1"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_6": {
+                "var_temp": "0",
+                "var": ""
+            }
+        },
+        {
+            "GMStdCallFunction_Story_4": {
+                "var": "",
+                "input_count": "1"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_15": {
+                "input_count": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_14": {
+                "arg": ""
+            }
+        },
+        {
+            "GMStdCallFunction_Story_12": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_6": {
+                "var": ""
+            }
+        },
+        {
+            "GMStdCallFunction_Story_17": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_16": {
+                "input_count": "1"
+            }
+        },
+        {
+            "GMStdCallFunction_Story_18": {
+                
+            }
+        }
+    ],
+    "GMStdNew_Story": [
+        {
+            "GMStdNew_Story_1": {
+                "var_temp": "0",
+                "input_count": "1",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdNew_Story_1": {
+                "var_temp": "0",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdNew_Story_2": {
+                "var_temp": "0",
+                "input_count": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdNew_Story_4": {
+                "input_count": "1",
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdNew_Story_4": {
+                "arg": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdNew_Story_3": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdNew_Story_5": {
+                "input_count": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdNew_Story_6": {
+                "applyto": "self"
+            }
+        }
+    ],
+    "GMStdRet_Story": [
+        {
+            "GMStdRet_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdRet_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdApplyTo_Story": [
+        {
+            "GMStdApplyTo_Story_1": {
+                
+            }
+        }
+    ],
+    "GMStdMacro_Story": [
+        {
+            "GMStdMacro_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdMacro_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdInstCreate_Story": [
+        {
+            "GMStdInstCreate_Story_1": {
+                "var_temp": "0",
+                "var": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdInstCreate_Story_2": {
+                "var_temp": "0",
+                "var": ""
+            }
+        },
+        {
+            "GMStdInstCreate_Story_3": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdInstCreate_Story_1": {
+                "var": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdInstCreate_Story_4": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdInstCreate_Story_2": {
+                "var": ""
+            }
+        },
+        {
+            "GMStdInstCreate_Story_5": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdInstCreate_Story_6": {
+                
+            }
+        }
+    ],
+    "GMStdInstDestroy_Story": [
+        {
+            "GMStdInstDestroy_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdInstDestroy_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdDestroyAtPos_Story": [
+        {
+            "GMStdDestroyAtPos_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDestroyAtPos_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdInstChange_Story": [
+        {
+            "GMStdInstChange_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdInstChange_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdSetAlarm_Story": [
+        {
+            "GMStdSetAlarm_Story_1": {
+                "steps_relative": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetAlarm_Story_2": {
+                "steps_relative": "0"
+            }
+        },
+        {
+            "GMStdSetAlarm_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetAlarm_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdGetAlarm_Story": [
+        {
+            "GMStdGetAlarm_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetAlarm_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdGetAlarm_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetAlarm_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdInstCount_Story": [
+        {
+            "GMStdInstCount_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdInstCount_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdInstCount_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdInstCount_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdCallUserEvent_Story": [
+        {
+            "GMStdCallUserEvent_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCallUserEvent_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdSetInstanceVar_Story": [
+        {
+            "GMStdSetInstanceVar_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetInstanceVar_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdGetInstanceVar_Story": [
+        {
+            "GMStdGetInstanceVar_Story_1": {
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetInstanceVar_Story_2": {
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdGetInstanceVar_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetInstanceVar_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdSetSprite_Story": [
+        {
+            "GMStdSetSprite_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetSprite_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdRotSprite_Story": [
+        {
+            "GMStdRotSprite_Story_1": {
+                "angle_relative": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdRotSprite_Story_2": {
+                "angle_relative": "0"
+            }
+        },
+        {
+            "GMStdRotSprite_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdRotSprite_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdSpriteAnimSpd_Story": [
+        {
+            "GMStdSpriteAnimSpd_Story_1": {
+                "speed_relative": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSpriteAnimSpd_Story_2": {
+                "speed_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteAnimSpd_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSpriteAnimSpd_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdSpriteScale_Story": [
+        {
+            "GMStdSpriteScale_Story_1": {
+                "applyto": "self",
+                "xscale": "0",
+                "xscale_relative": "0",
+                "yscale": "0",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_2": {
+                "applyto": "self",
+                "xscale": "0",
+                "xscale_relative": "0",
+                "yscale": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_1": {
+                "applyto": "self",
+                "xscale": "0",
+                "xscale_relative": "0",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_10": {
+                "xscale": "0",
+                "xscale_relative": "0",
+                "yscale": "0",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_4": {
+                "applyto": "self",
+                "xscale": "0",
+                "yscale": "0",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_1": {
+                "applyto": "self",
+                "xscale_relative": "0",
+                "yscale": "0",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_13": {
+                "xscale": "0",
+                "yscale": "0",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_7": {
+                "applyto": "self",
+                "yscale": "0",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_1": {
+                "applyto": "self",
+                "xscale_relative": "0",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_2": {
+                "applyto": "self",
+                "xscale_relative": "0",
+                "yscale": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_10": {
+                "xscale_relative": "0",
+                "yscale": "0",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_4": {
+                "applyto": "self",
+                "xscale": "0",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_5": {
+                "applyto": "self",
+                "xscale": "0",
+                "yscale": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_3": {
+                "applyto": "self",
+                "xscale": "0",
+                "xscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_11": {
+                "xscale": "0",
+                "xscale_relative": "0",
+                "yscale": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_10": {
+                "xscale": "0",
+                "xscale_relative": "0",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_16": {
+                "yscale": "0",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_13": {
+                "xscale": "0",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_14": {
+                "xscale": "0",
+                "yscale": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_8": {
+                "applyto": "self",
+                "yscale": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_7": {
+                "applyto": "self",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_11": {
+                "xscale_relative": "0",
+                "yscale": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_3": {
+                "applyto": "self",
+                "xscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_6": {
+                "applyto": "self",
+                "xscale": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_12": {
+                "xscale": "0",
+                "xscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_10": {
+                "xscale_relative": "0",
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_17": {
+                "yscale": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_9": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_15": {
+                "xscale": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_16": {
+                "yscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_12": {
+                "xscale_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteScale_Story_18": {
+                
+            }
+        }
+    ],
+    "GMStdSpriteAlpha_Story": [
+        {
+            "GMStdSpriteAlpha_Story_1": {
+                "alpha_relative": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSpriteAlpha_Story_2": {
+                "alpha_relative": "0"
+            }
+        },
+        {
+            "GMStdSpriteAlpha_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSpriteAlpha_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdSpriteColor_Story": [
+        {
+            "GMStdSpriteColor_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSpriteColor_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdInstExists_Story": [
+        {
+            "GMStdInstExists_Story_1": {
+                "not": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdInstExists_Story_2": {
+                "not": "1"
+            }
+        },
+        {
+            "GMStdInstExists_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdInstExists_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdInheritEvent_Story": [
+        {
+            "GMStdInheritEvent_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdInheritEvent_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdSeqCreate_Story": [
+        {
+            "GMStdSeqCreate_Story_1": {
+                "var_temp": "0",
+                "var": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSeqCreate_Story_2": {
+                "var_temp": "0",
+                "var": ""
+            }
+        },
+        {
+            "GMStdSeqCreate_Story_3": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSeqCreate_Story_1": {
+                "var": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSeqCreate_Story_4": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdSeqCreate_Story_2": {
+                "var": ""
+            }
+        },
+        {
+            "GMStdSeqCreate_Story_5": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSeqCreate_Story_6": {
+                
+            }
+        }
+    ],
+    "GMStdSeqDestroy_Story": [
+        {
+            "GMStdSeqDestroy_Story_1": {
+                
+            }
+        }
+    ],
+    "GMStdSeqGetPos_Story": [
+        {
+            "GMStdSeqGetPos_Story_1": {
+                "varx_temp": "0",
+                "vary_temp": "0"
+            }
+        },
+        {
+            "GMStdSeqGetPos_Story_2": {
+                "varx_temp": "1",
+                "vary_temp": "0"
+            }
+        },
+        {
+            "GMStdSeqGetPos_Story_3": {
+                "varx_temp": "0",
+                "vary_temp": "1"
+            }
+        },
+        {
+            "GMStdSeqGetPos_Story_4": {
+                "varx_temp": "1",
+                "vary_temp": "1"
+            }
+        }
+    ],
+    "GMStdSeqSetPos_Story": [
+        {
+            "GMStdSeqSetPos_Story_1": {
+                
+            }
+        }
+    ],
+    "GMStdSeqPlay_Story": [
+        {
+            "GMStdSeqPlay_Story_1": {
+                
+            }
+        }
+    ],
+    "GMStdSeqPause_Story": [
+        {
+            "GMStdSeqPause_Story_1": {
+                
+            }
+        }
+    ],
+    "GMStdIfSequenceExists_Story": [
+        {
+            "GMStdIfSequenceExists_Story_1": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfSequenceExists_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdIfMousePressed_Story": [
+        {
+            "GMStdIfMousePressed_Story_1": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfMousePressed_Story_2": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfMousePressed_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfMousePressed_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfMouseDown_Story": [
+        {
+            "GMStdIfMouseDown_Story_1": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfMouseDown_Story_2": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfMouseDown_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfMouseDown_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfMouseUp_Story": [
+        {
+            "GMStdIfMouseUp_Story_1": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfMouseUp_Story_2": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfMouseUp_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfMouseUp_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfKeyPressed_Story": [
+        {
+            "GMStdIfKeyPressed_Story_1": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfKeyPressed_Story_2": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfKeyPressed_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfKeyPressed_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfKeyDown_Story": [
+        {
+            "GMStdIfKeyDown_Story_1": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfKeyDown_Story_2": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfKeyDown_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfKeyDown_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfKeyUp_Story": [
+        {
+            "GMStdIfKeyUp_Story_1": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfKeyUp_Story_2": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfKeyUp_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfKeyUp_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdVKeyShow_Story": [
+        {
+            "GMStdVKeyShow_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdVKeyShow_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdVKeyHeight_Story": [
+        {
+            "GMStdVKeyHeight_Story_1": {
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdVKeyHeight_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdVKeyStatus_Story": [
+        {
+            "GMStdVKeyStatus_Story_1": {
+                "not": "0",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_2": {
+                "not": "0",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_3": {
+                "not": "0",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_1": {
+                "not": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_7": {
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_4": {
+                "not": "0",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_2": {
+                "not": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_5": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_8": {
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_9": {
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_7": {
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_6": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_10": {
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_8": {
+                "target": ""
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_11": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdVKeyStatus_Story_12": {
+                
+            }
+        }
+    ],
+    "GMStdGPAxis_Story": [
+        {
+            "GMStdGPAxis_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGPAxis_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdGPAxis_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGPAxis_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdGPTrigger_Story": [
+        {
+            "GMStdGPTrigger_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGPTrigger_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdGPTrigger_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGPTrigger_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdGpDeviceC_Story": [
+        {
+            "GMStdGpDeviceC_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGpDeviceC_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdGpDeviceC_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGpDeviceC_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdGPConnc_Story": [
+        {
+            "GMStdGPConnc_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGPConnc_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdGPConnc_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGPConnc_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdGPDeadzone_Story": [
+        {
+            "GMStdGPDeadzone_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGPDeadzone_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdGPThreshold_Story": [
+        {
+            "GMStdGPThreshold_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGPThreshold_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdIfGPDown_Story": [
+        {
+            "GMStdIfGPDown_Story_1": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfGPDown_Story_2": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfGPDown_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfGPDown_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfGPPressed_Story": [
+        {
+            "GMStdIfGPPressed_Story_1": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfGPPressed_Story_2": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfGPPressed_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfGPPressed_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfGPUp_Story": [
+        {
+            "GMStdIfGPUp_Story_1": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfGPUp_Story_2": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfGPUp_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfGPUp_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdDirFixed_Story": [
+        {
+            "GMStdDirFixed_Story_1": {
+                "direction": "-1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDirFixed_Story_2": {
+                "direction": "-1"
+            }
+        },
+        {
+            "GMStdDirFixed_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDirFixed_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdDirFree_Story": [
+        {
+            "GMStdDirFixed_Story_3": {
+                "direction_relative": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDirFixed_Story_4": {
+                "direction_relative": "0"
+            }
+        },
+        {
+            "GMStdDirFree_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDirFree_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdDirPoint_Story": [
+        {
+            "GMStdDirPoint_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDirPoint_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdDirRandom_Story": [
+        {
+            "GMStdDirFixed_Story_1": {
+                "direction": "-1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDirFixed_Story_2": {
+                "direction": "-1"
+            }
+        },
+        {
+            "GMStdDirRandom_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDirRandom_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdSpeed_Story": [
+        {
+            "GMStdSpeed_Story_1": {
+                "type": "0",
+                "speed_relative": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSpeed_Story_5": {
+                "type": "1",
+                "speed_relative": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSpeed_Story_9": {
+                "type": "2",
+                "speed_relative": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSpeed_Story_2": {
+                "type": "0",
+                "speed_relative": "1"
+            }
+        },
+        {
+            "GMStdSpeed_Story_3": {
+                "type": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSpeed_Story_6": {
+                "type": "1",
+                "speed_relative": "1"
+            }
+        },
+        {
+            "GMStdSpeed_Story_7": {
+                "type": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSpeed_Story_10": {
+                "type": "2",
+                "speed_relative": "1"
+            }
+        },
+        {
+            "GMStdSpeed_Story_11": {
+                "type": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSpeed_Story_4": {
+                "type": "0"
+            }
+        },
+        {
+            "GMStdSpeed_Story_8": {
+                "type": "1"
+            }
+        },
+        {
+            "GMStdSpeed_Story_12": {
+                "type": "2"
+            }
+        }
+    ],
+    "GMStdGravDir_Story": [
+        {
+            "GMStdGravDir_Story_1": {
+                "direction_relative": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGravDir_Story_2": {
+                "direction_relative": "1"
+            }
+        },
+        {
+            "GMStdGravDir_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGravDir_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdGravForce_Story": [
+        {
+            "GMStdGravForce_Story_1": {
+                "force_relative": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGravForce_Story_2": {
+                "force_relative": "1"
+            }
+        },
+        {
+            "GMStdGravForce_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGravForce_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdReverse_Story": [
+        {
+            "GMStdReverse_Story_1": {
+                "dir": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdReverse_Story_3": {
+                "dir": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdReverse_Story_5": {
+                "dir": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdReverse_Story_7": {
+                "dir": "3",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdReverse_Story_2": {
+                "dir": "0"
+            }
+        },
+        {
+            "GMStdReverse_Story_4": {
+                "dir": "1"
+            }
+        },
+        {
+            "GMStdReverse_Story_6": {
+                "dir": "2"
+            }
+        },
+        {
+            "GMStdReverse_Story_8": {
+                "dir": "3"
+            }
+        }
+    ],
+    "GMStdFriction_Story": [
+        {
+            "GMStdFriction_Story_1": {
+                "friction_relative": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdFriction_Story_2": {
+                "friction_relative": "1"
+            }
+        },
+        {
+            "GMStdFriction_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdFriction_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdJumpPoint_Story": [
+        {
+            "GMStdJumpPoint_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdJumpPoint_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdJumpStart_Story": [
+        {
+            "GMStdJumpStart_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdJumpStart_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdSnapPos_Story": [
+        {
+            "GMStdSnapPos_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSnapPos_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdWrapRoom_Story": [
+        {
+            "GMStdWrapRoom_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdWrapRoom_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdIfAnyObjAt_Story": [
+        {
+            "GMStdIfAnyObjAt_Story_1": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfAnyObjAt_Story_2": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfAnyObjAt_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfAnyObjAt_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfObjAt_Story": [
+        {
+            "GMStdIfObjAt_Story_1": {
+                "not": "0",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_2": {
+                "not": "0",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_3": {
+                "not": "0",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_1": {
+                "not": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_7": {
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_4": {
+                "not": "0",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_2": {
+                "not": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_5": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_8": {
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_9": {
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_7": {
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_6": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_10": {
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_8": {
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_11": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfObjAt_Story_12": {
+                
+            }
+        }
+    ],
+    "GMStdIfColShape_Story": [
+        {
+            "GMStdIfColShape_Story_1": {
+                "not": "0",
+                "shape": "0",
+                "aslist": "1",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_21": {
+                "not": "0",
+                "shape": "2",
+                "aslist": "1",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_11": {
+                "not": "0",
+                "shape": "1",
+                "aslist": "1",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_41": {
+                "aslist": "1",
+                "shape": "1",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_31": {
+                "aslist": "1",
+                "shape": "0",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_21": {
+                "not": "0",
+                "shape": "2",
+                "aslist": "1",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_23": {
+                "not": "0",
+                "shape": "2",
+                "aslist": "1",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_22": {
+                "not": "0",
+                "shape": "2",
+                "aslist": "1",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_11": {
+                "not": "0",
+                "shape": "1",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_11": {
+                "not": "0",
+                "shape": "1",
+                "aslist": "1",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_13": {
+                "not": "0",
+                "shape": "1",
+                "aslist": "1",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_12": {
+                "not": "0",
+                "shape": "1",
+                "aslist": "1",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_21": {
+                "not": "0",
+                "shape": "2",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_51": {
+                "aslist": "1",
+                "shape": "2",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_3": {
+                "not": "0",
+                "shape": "0",
+                "aslist": "1",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_1": {
+                "not": "0",
+                "shape": "0",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_1": {
+                "not": "0",
+                "shape": "0",
+                "aslist": "1",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_2": {
+                "not": "0",
+                "shape": "0",
+                "aslist": "1",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_31": {
+                "aslist": "1",
+                "shape": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_22": {
+                "not": "0",
+                "shape": "2",
+                "aslist": "1",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_25": {
+                "not": "0",
+                "shape": "2",
+                "aslist": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_52": {
+                "aslist": "1",
+                "shape": "2",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_22": {
+                "not": "0",
+                "shape": "2",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_27": {
+                "not": "0",
+                "shape": "2",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_41": {
+                "aslist": "1",
+                "shape": "1",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_21": {
+                "not": "0",
+                "shape": "2",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_4": {
+                "not": "0",
+                "shape": "0",
+                "aslist": "1",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_31": {
+                "target_temp": "0",
+                "shape": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_32": {
+                "aslist": "1",
+                "shape": "0",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_51": {
+                "target_temp": "0",
+                "shape": "2",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_33": {
+                "aslist": "1",
+                "shape": "0",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_42": {
+                "aslist": "1",
+                "shape": "1",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_1": {
+                "not": "0",
+                "shape": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_43": {
+                "aslist": "1",
+                "shape": "1",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_24": {
+                "not": "0",
+                "shape": "2",
+                "aslist": "1",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_17": {
+                "not": "0",
+                "shape": "1",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_12": {
+                "not": "0",
+                "shape": "1",
+                "aslist": "1",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_15": {
+                "not": "0",
+                "shape": "1",
+                "aslist": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_51": {
+                "aslist": "1",
+                "shape": "2",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_2": {
+                "not": "0",
+                "shape": "0",
+                "aslist": "1",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_7": {
+                "not": "0",
+                "shape": "0",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_12": {
+                "not": "0",
+                "shape": "1",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_14": {
+                "not": "0",
+                "shape": "1",
+                "aslist": "1",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_2": {
+                "not": "0",
+                "shape": "0",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_11": {
+                "not": "0",
+                "shape": "1",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_41": {
+                "target_temp": "0",
+                "shape": "1",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_53": {
+                "aslist": "1",
+                "shape": "2",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_5": {
+                "not": "0",
+                "shape": "0",
+                "aslist": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_55": {
+                "aslist": "1",
+                "shape": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_54": {
+                "aslist": "1",
+                "shape": "2",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_41": {
+                "target": "",
+                "shape": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_31": {
+                "target": "",
+                "shape": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_47": {
+                "target_temp": "0",
+                "shape": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_42": {
+                "target_temp": "0",
+                "shape": "1",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_42": {
+                "aslist": "1",
+                "shape": "1",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_52": {
+                "aslist": "1",
+                "shape": "2",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_45": {
+                "aslist": "1",
+                "shape": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_44": {
+                "aslist": "1",
+                "shape": "1",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_52": {
+                "target_temp": "0",
+                "shape": "2",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_29": {
+                "not": "0",
+                "shape": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_32": {
+                "target_temp": "0",
+                "shape": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_9": {
+                "not": "0",
+                "shape": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_8": {
+                "not": "0",
+                "shape": "0",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_16": {
+                "not": "0",
+                "shape": "1",
+                "aslist": "1"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_6": {
+                "not": "0",
+                "shape": "0",
+                "aslist": "1"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_18": {
+                "not": "0",
+                "shape": "1",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_12": {
+                "not": "0",
+                "shape": "1",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_19": {
+                "not": "0",
+                "shape": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_37": {
+                "target_temp": "0",
+                "shape": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_51": {
+                "target": "",
+                "shape": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_28": {
+                "not": "0",
+                "shape": "2",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_22": {
+                "not": "0",
+                "shape": "2",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_34": {
+                "aslist": "1",
+                "shape": "0",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_32": {
+                "aslist": "1",
+                "shape": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_35": {
+                "aslist": "1",
+                "shape": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_57": {
+                "target_temp": "0",
+                "shape": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_26": {
+                "not": "0",
+                "shape": "2",
+                "aslist": "1"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_2": {
+                "not": "0",
+                "shape": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColShape_Story_58": {
+                "target_temp": "0",
+                "shape": "2"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_56": {
+                "aslist": "1",
+                "shape": "2"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_52": {
+                "target": "",
+                "shape": "2"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_30": {
+                "not": "0",
+                "shape": "2"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_49": {
+                "applyto": "self",
+                "shape": "1"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_42": {
+                "target": "",
+                "shape": "1"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_48": {
+                "target_temp": "0",
+                "shape": "1"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_46": {
+                "aslist": "1",
+                "shape": "1"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_39": {
+                "applyto": "self",
+                "shape": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_32": {
+                "target": "",
+                "shape": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_38": {
+                "target_temp": "0",
+                "shape": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_36": {
+                "aslist": "1",
+                "shape": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_59": {
+                "applyto": "self",
+                "shape": "2"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_20": {
+                "not": "0",
+                "shape": "1"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_10": {
+                "not": "0",
+                "shape": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_40": {
+                "shape": "0"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_50": {
+                "shape": "1"
+            }
+        },
+        {
+            "GMStdIfColShape_Story_60": {
+                "shape": "2"
+            }
+        }
+    ],
+    "GMStdIfColPoint_Story": [
+        {
+            "GMStdIfColPoint_Story_1": {
+                "not": "0",
+                "aslist": "1",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_2": {
+                "not": "0",
+                "aslist": "1",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_3": {
+                "not": "0",
+                "aslist": "1",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_11": {
+                "aslist": "1",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_1": {
+                "not": "0",
+                "aslist": "1",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_1": {
+                "not": "0",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_11": {
+                "aslist": "1",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_1": {
+                "not": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_7": {
+                "not": "0",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_2": {
+                "not": "0",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_11": {
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_5": {
+                "not": "0",
+                "aslist": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_2": {
+                "not": "0",
+                "aslist": "1",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_4": {
+                "not": "0",
+                "aslist": "1",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_12": {
+                "aslist": "1",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_13": {
+                "aslist": "1",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_11": {
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_15": {
+                "aslist": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_12": {
+                "aslist": "1",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_2": {
+                "not": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_9": {
+                "not": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_12": {
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_8": {
+                "not": "0",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_6": {
+                "not": "0",
+                "aslist": "1"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_14": {
+                "aslist": "1",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_17": {
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_12": {
+                "target": ""
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_10": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_16": {
+                "aslist": "1"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_19": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_18": {
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdIfColPoint_Story_20": {
+                
+            }
+        }
+    ],
+    "GMStdDrawSelf_Story": [
+        {
+            "GMStdDrawSelf_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawSelf_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdDrawValue_Story": [
+        {
+            "GMStdDrawValue_Story_1": {
+                "caption": "",
+                "var": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawValue_Story_2": {
+                "caption": "",
+                "var": ""
+            }
+        },
+        {
+            "GMStdDrawValue_Story_3": {
+                "caption": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawValue_Story_5": {
+                "var": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawValue_Story_4": {
+                "caption": ""
+            }
+        },
+        {
+            "GMStdDrawValue_Story_6": {
+                "var": ""
+            }
+        },
+        {
+            "GMStdDrawValue_Story_7": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawValue_Story_8": {
+                
+            }
+        }
+    ],
+    "GMStdDrawValueTransformed_Story": [
+        {
+            "GMStdDrawValueTransformed_Story_1": {
+                "caption": "",
+                "var": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawValueTransformed_Story_2": {
+                "caption": "",
+                "var": ""
+            }
+        },
+        {
+            "GMStdDrawValueTransformed_Story_3": {
+                "caption": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawValueTransformed_Story_5": {
+                "var": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawValueTransformed_Story_4": {
+                "caption": ""
+            }
+        },
+        {
+            "GMStdDrawValueTransformed_Story_6": {
+                "var": ""
+            }
+        },
+        {
+            "GMStdDrawValueTransformed_Story_7": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawValueTransformed_Story_8": {
+                
+            }
+        }
+    ],
+    "GMStdDrawSprite_Story": [
+        {
+            "GMStdDrawSprite_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawSprite_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdDrawSpriteExt_Story": [
+        {
+            "GMStdDrawSpriteExt_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawSpriteExt_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdDrawSpritesStacked_Story": [
+        {
+            "GMStdDrawSpritesStacked_Story_1": {
+                "stackorder": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawSpritesStacked_Story_3": {
+                "stackorder": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawSpritesStacked_Story_2": {
+                "stackorder": "0"
+            }
+        },
+        {
+            "GMStdDrawSpritesStacked_Story_4": {
+                "stackorder": "1"
+            }
+        }
+    ],
+    "GMStdDrawRectangle_Story": [
+        {
+            "GMStdDrawRectangle_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawRectangle_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdDrawGradientRect_Story": [
+        {
+            "GMStdDrawGradientRect_Story_1": {
+                "fill": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawGradientRect_Story_2": {
+                "fill": "0"
+            }
+        },
+        {
+            "GMStdDrawGradientRect_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawGradientRect_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdDrawEllipse_Story": [
+        {
+            "GMStdDrawEllipse_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawEllipse_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdDrawGradientEllipse_Story": [
+        {
+            "GMStdDrawGradientEllipse_Story_1": {
+                "fill": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawGradientEllipse_Story_2": {
+                "fill": "0"
+            }
+        },
+        {
+            "GMStdDrawGradientEllipse_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawGradientEllipse_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdDrawLine_Story": [
+        {
+            "GMStdDrawLine_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawLine_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdDrawHealthbar_Story": [
+        {
+            "GMStdDrawHealthbar_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawHealthbar_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdDrawInstanceScore_Story": [
+        {
+            "GMStdDrawInstanceScore_Story_1": {
+                "applyto": "self",
+                "caption": ""
+            }
+        },
+        {
+            "GMStdDrawInstanceScore_Story_2": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawInstanceScore_Story_3": {
+                "caption": ""
+            }
+        },
+        {
+            "GMStdDrawInstanceScore_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdDrawInstanceHealth_Story": [
+        {
+            "GMStdDrawInstanceHealth_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDrawInstanceHealth_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdDrawInstanceLives_Story": [
+        {
+            "GMStdDrawInstanceLives_Story_1": {
+                "applyto": "self",
+                "stackorder": "0"
+            }
+        },
+        {
+            "GMStdDrawInstanceLives_Story_2": {
+                "applyto": "self",
+                "stackorder": "1"
+            }
+        },
+        {
+            "GMStdDrawInstanceLives_Story_3": {
+                "stackorder": "0"
+            }
+        },
+        {
+            "GMStdDrawInstanceLives_Story_4": {
+                "stackorder": "1"
+            }
+        }
+    ],
+    "GMStdSetColor_Story": [
+        {
+            "GMStdSetColor_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetColor_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdGetColor_Story": [
+        {
+            "GMStdGetColor_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetColor_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdAlpha_Story": [
+        {
+            "GMStdAlpha_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdAlpha_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdGetAlpha_Story": [
+        {
+            "GMStdGetAlpha_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetAlpha_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdSetFont_Story": [
+        {
+            "GMStdSetFont_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetFont_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdGetFont_Story": [
+        {
+            "GMStdGetFont_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetFont_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdSetAlignment_Story": [
+        {
+            "GMStdSetAlignment_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetAlignment_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdGetTextAlign_Story": [
+        {
+            "GMStdGetTextAlign_Story_1": {
+                "align": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetTextAlign_Story_3": {
+                "align": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetTextAlign_Story_2": {
+                "align": "0"
+            }
+        },
+        {
+            "GMStdGetTextAlign_Story_4": {
+                "align": "1"
+            }
+        }
+    ],
+    "GMStdTileSetAtPixel_Story": [
+        {
+            "GMStdTileSetAtPixel_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileSetAtPixel_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdTileGetAtPixel_Story": [
+        {
+            "GMStdTileGetAtPixel_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetAtPixel_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetAtPixel_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetAtPixel_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdTileSetInCell_Story": [
+        {
+            "GMStdTileSetInCell_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileSetInCell_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdTileGetInCell_Story": [
+        {
+            "GMStdTileGetInCell_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetInCell_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetInCell_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetInCell_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdTileSetTileSet_Story": [
+        {
+            "GMStdTileSetTileSet_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileSetTileSet_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdTileGetVar_Story": [
+        {
+            "GMStdTileGetVar_Story_1": {
+                "var": "0",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_21": {
+                "var": "5",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_13": {
+                "var": "3",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_37": {
+                "var": "9",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_25": {
+                "var": "6",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_9": {
+                "var": "2",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_5": {
+                "var": "1",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_33": {
+                "var": "8",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_29": {
+                "var": "7",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_17": {
+                "var": "4",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_27": {
+                "var": "6",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_19": {
+                "var": "4",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_34": {
+                "var": "8",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_23": {
+                "var": "5",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_22": {
+                "var": "5",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_39": {
+                "var": "9",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_26": {
+                "var": "6",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_35": {
+                "var": "8",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_30": {
+                "var": "7",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_15": {
+                "var": "3",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_14": {
+                "var": "3",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_11": {
+                "var": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_10": {
+                "var": "2",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_7": {
+                "var": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_6": {
+                "var": "1",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_38": {
+                "var": "9",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_3": {
+                "var": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_2": {
+                "var": "0",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_18": {
+                "var": "4",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_31": {
+                "var": "7",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_36": {
+                "var": "8"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_20": {
+                "var": "4"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_28": {
+                "var": "6"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_24": {
+                "var": "5"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_16": {
+                "var": "3"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_12": {
+                "var": "2"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_8": {
+                "var": "1"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_4": {
+                "var": "0"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_32": {
+                "var": "7"
+            }
+        },
+        {
+            "GMStdTileGetVar_Story_40": {
+                "var": "9"
+            }
+        }
+    ],
+    "GMStdTileSetElmPixel_Story": [
+        {
+            "GMStdTileSetElmPixel_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileSetElmPixel_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdTileGetElmPixel_Story": [
+        {
+            "GMStdTileGetElmPixel_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetElmPixel_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetElmPixel_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetElmPixel_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdTileSetElm_Story": [
+        {
+            "GMStdTileSetElm_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileSetElm_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdTileGetElm_Story": [
+        {
+            "GMStdTileGetElm_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetElm_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetElm_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetElm_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdTileTransform_Story": [
+        {
+            "GMStdTileTransform_Story_1": {
+                "transform": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileTransform_Story_3": {
+                "transform": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileTransform_Story_5": {
+                "transform": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileTransform_Story_2": {
+                "transform": "0"
+            }
+        },
+        {
+            "GMStdTileTransform_Story_4": {
+                "transform": "1"
+            }
+        },
+        {
+            "GMStdTileTransform_Story_6": {
+                "transform": "2"
+            }
+        }
+    ],
+    "GMStdTileGetTransform_Story": [
+        {
+            "GMStdTileGetTransform_Story_1": {
+                "transform": "0",
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetTransform_Story_5": {
+                "transform": "1",
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetTransform_Story_9": {
+                "transform": "2",
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetTransform_Story_2": {
+                "transform": "0",
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetTransform_Story_3": {
+                "transform": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetTransform_Story_6": {
+                "transform": "1",
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetTransform_Story_7": {
+                "transform": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetTransform_Story_10": {
+                "transform": "2",
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdTileGetTransform_Story_11": {
+                "transform": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdTileGetTransform_Story_4": {
+                "transform": "0"
+            }
+        },
+        {
+            "GMStdTileGetTransform_Story_8": {
+                "transform": "1"
+            }
+        },
+        {
+            "GMStdTileGetTransform_Story_12": {
+                "transform": "2"
+            }
+        }
+    ],
+    "GMStdPlayAudio_Story": [
+        {
+            "GMStdPlayAudio_Story_1": {
+                "loop": "1",
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_2": {
+                "loop": "1",
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_3": {
+                "loop": "1",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_5": {
+                "loop": "1",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_7": {
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_4": {
+                "loop": "1",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_6": {
+                "loop": "1",
+                "target": ""
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_3": {
+                "loop": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_8": {
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_9": {
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_11": {
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_4": {
+                "loop": "1"
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_10": {
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_12": {
+                "target": ""
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_9": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPlayAudio_Story_10": {
+                
+            }
+        }
+    ],
+    "GMStdStopAudio_Story": [
+        {
+            "GMStdStopAudio_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdStopAudio_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdStopAllAudio_Story": [
+        {
+            "GMStdStopAllAudio_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdStopAllAudio_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPauseAudio_Story": [
+        {
+            "GMStdPauseAudio_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPauseAudio_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPauseAllAudio_Story": [
+        {
+            "GMStdPauseAllAudio_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPauseAllAudio_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdResumeAudio_Story": [
+        {
+            "GMStdResumeAudio_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdResumeAudio_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdResumeAllAudio_Story": [
+        {
+            "GMStdResumeAllAudio_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdResumeAllAudio_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdAudioSetPosition_Story": [
+        {
+            "GMStdAudioSetPosition_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdAudioSetPosition_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdAudioGetLength_Story": [
+        {
+            "GMStdAudioGetLength_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdAudioGetLength_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdAudioGetLength_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdAudioGetLength_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdAudioSetPitch_Story": [
+        {
+            "GMStdAudioSetPitch_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdAudioSetPitch_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdAudioGetPitch_Story": [
+        {
+            "GMStdAudioGetPitch_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdAudioGetPitch_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdAudioGetPitch_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdAudioGetPitch_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdAudioSetVolume_Story": [
+        {
+            "GMStdAudioSetVolume_Story_1": {
+                "applyto": "self",
+                "time": "0"
+            }
+        },
+        {
+            "GMStdAudioSetVolume_Story_2": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdAudioSetVolume_Story_3": {
+                "time": "0"
+            }
+        },
+        {
+            "GMStdAudioSetVolume_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdAudioGetVolume_Story": [
+        {
+            "GMStdAudioGetVolume_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdAudioGetVolume_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdAudioGetVolume_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdAudioGetVolume_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdAudoSetMasterVolume_Story": [
+        {
+            "GMStdAudoSetMasterVolume_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdAudoSetMasterVolume_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdAudioGetMasterVolume_Story": [
+        {
+            "GMStdAudioGetMasterVolume_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdAudioGetMasterVolume_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdAudioGetMasterVolume_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdAudioGetMasterVolume_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfAudioPlaying_Story": [
+        {
+            "GMStdIfAudioPlaying_Story_1": {
+                "not": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfAudioPlaying_Story_2": {
+                "not": "1"
+            }
+        },
+        {
+            "GMStdIfAudioPlaying_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfAudioPlaying_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfAudioPaused_Story": [
+        {
+            "GMStdIfAudioPaused_Story_1": {
+                "not": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfAudioPaused_Story_2": {
+                "not": "1"
+            }
+        },
+        {
+            "GMStdIfAudioPaused_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfAudioPaused_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdRepeat_Story": [
+        {
+            "GMStdRepeat_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdRepeat_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdWhileLoop_Story": [
+        {
+            "GMStdWhileLoop_Story_1": {
+                "not": "1",
+                "op": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_3": {
+                "not": "1",
+                "op": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_5": {
+                "not": "1",
+                "op": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_7": {
+                "not": "1",
+                "op": "3",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_9": {
+                "not": "1",
+                "op": "4",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_17": {
+                "applyto": "self",
+                "op": "3"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_15": {
+                "applyto": "self",
+                "op": "2"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_13": {
+                "applyto": "self",
+                "op": "1"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_11": {
+                "applyto": "self",
+                "op": "0"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_10": {
+                "not": "1",
+                "op": "4"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_8": {
+                "not": "1",
+                "op": "3"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_6": {
+                "not": "1",
+                "op": "2"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_4": {
+                "not": "1",
+                "op": "1"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_2": {
+                "not": "1",
+                "op": "0"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_19": {
+                "applyto": "self",
+                "op": "4"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_12": {
+                "op": "0"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_14": {
+                "op": "1"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_16": {
+                "op": "2"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_18": {
+                "op": "3"
+            }
+        },
+        {
+            "GMStdWhileLoop_Story_20": {
+                "op": "4"
+            }
+        }
+    ],
+    "GMStdForLoop_Story": [
+        {
+            "GMStdForLoop_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdForLoop_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdSwitch_Story": [
+        {
+            "GMStdSwitch_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSwitch_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdCase_Story": [
+        {
+            "GMStdCase_Story_1": {
+                
+            }
+        }
+    ],
+    "GMStdCreateList_Story": [
+        {
+            "GMStdCreateList_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCreateList_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdCreateList_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCreateList_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdCreateMap_Story": [
+        {
+            "GMStdCreateMap_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCreateMap_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdCreateMap_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCreateMap_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdCreateGrid_Story": [
+        {
+            "GMStdCreateGrid_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCreateGrid_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdCreateGrid_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCreateGrid_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdCreateStack_Story": [
+        {
+            "GMStdCreateStack_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCreateStack_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdCreateStack_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCreateStack_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdDSClear_Story": [
+        {
+            "GMStdDSClear_Story_1": {
+                "ds": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDSClear_Story_3": {
+                "ds": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDSClear_Story_5": {
+                "ds": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDSClear_Story_7": {
+                "ds": "3",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDSClear_Story_2": {
+                "ds": "0"
+            }
+        },
+        {
+            "GMStdDSClear_Story_4": {
+                "ds": "1"
+            }
+        },
+        {
+            "GMStdDSClear_Story_6": {
+                "ds": "2"
+            }
+        },
+        {
+            "GMStdDSClear_Story_8": {
+                "ds": "3"
+            }
+        }
+    ],
+    "GMStdDSFree_Story": [
+        {
+            "GMStdDSFree_Story_1": {
+                "ds": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDSFree_Story_3": {
+                "ds": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDSFree_Story_5": {
+                "ds": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDSFree_Story_7": {
+                "ds": "3",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDSFree_Story_2": {
+                "ds": "0"
+            }
+        },
+        {
+            "GMStdDSFree_Story_4": {
+                "ds": "1"
+            }
+        },
+        {
+            "GMStdDSFree_Story_6": {
+                "ds": "2"
+            }
+        },
+        {
+            "GMStdDSFree_Story_8": {
+                "ds": "3"
+            }
+        }
+    ],
+    "GMStdListAdd_Story": [
+        {
+            "GMStdListAdd_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdListAdd_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdListRemove_Story": [
+        {
+            "GMStdListRemove_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdListRemove_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdListGetAt_Story": [
+        {
+            "GMStdListGetAt_Story_1": {
+                "assignee_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdListGetAt_Story_2": {
+                "assignee_temp": "0"
+            }
+        },
+        {
+            "GMStdListGetAt_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdListGetAt_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdListIndexOf_Story": [
+        {
+            "GMStdListIndexOf_Story_1": {
+                "assignee_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdListIndexOf_Story_2": {
+                "assignee_temp": "0"
+            }
+        },
+        {
+            "GMStdListIndexOf_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdListIndexOf_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdListInsert_Story": [
+        {
+            "GMStdListInsert_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdListInsert_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdListCount_Story": [
+        {
+            "GMStdListCount_Story_1": {
+                "assignee_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdListCount_Story_2": {
+                "assignee_temp": "0"
+            }
+        },
+        {
+            "GMStdListCount_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdListCount_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdMapSetValue_Story": [
+        {
+            "GMStdMapSetValue_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdMapSetValue_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdMapGetValue_Story": [
+        {
+            "GMStdMapGetValue_Story_1": {
+                "assignee_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdMapGetValue_Story_2": {
+                "assignee_temp": "0"
+            }
+        },
+        {
+            "GMStdMapGetValue_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdMapGetValue_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdMapRemove_Story": [
+        {
+            "GMStdMapRemove_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdMapRemove_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdGridSetValue_Story": [
+        {
+            "GMStdGridSetValue_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGridSetValue_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdGridGetValue_Story": [
+        {
+            "GMStdGridGetValue_Story_1": {
+                "assignee_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGridGetValue_Story_2": {
+                "assignee_temp": "0"
+            }
+        },
+        {
+            "GMStdGridGetValue_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGridGetValue_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdGridClear_Story": [
+        {
+            "GMStdGridClear_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGridClear_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdStackPush_Story": [
+        {
+            "GMStdStackPush_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdStackPush_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdStackPop_Story": [
+        {
+            "GMStdStackPop_Story_1": {
+                "assignee_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdStackPop_Story_2": {
+                "assignee_temp": "0"
+            }
+        },
+        {
+            "GMStdStackPop_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdStackPop_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfDSExists_Story": [
+        {
+            "GMStdIfDSExists_Story_1": {
+                "ds": "0",
+                "not": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_5": {
+                "ds": "1",
+                "not": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_9": {
+                "ds": "2",
+                "not": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_13": {
+                "ds": "3",
+                "not": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_2": {
+                "ds": "0",
+                "not": "1"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_3": {
+                "ds": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_6": {
+                "ds": "1",
+                "not": "1"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_7": {
+                "ds": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_10": {
+                "ds": "2",
+                "not": "1"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_11": {
+                "ds": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_14": {
+                "ds": "3",
+                "not": "1"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_15": {
+                "ds": "3",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_4": {
+                "ds": "0"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_8": {
+                "ds": "1"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_12": {
+                "ds": "2"
+            }
+        },
+        {
+            "GMStdIfDSExists_Story_16": {
+                "ds": "3"
+            }
+        }
+    ],
+    "GMStdIfDSEmpty_Story": [
+        {
+            "GMStdIfDSEmpty_Story_1": {
+                "ds": "0",
+                "not": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_5": {
+                "ds": "1",
+                "not": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_9": {
+                "ds": "2",
+                "not": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_13": {
+                "ds": "3",
+                "not": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_2": {
+                "ds": "0",
+                "not": "1"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_3": {
+                "ds": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_6": {
+                "ds": "1",
+                "not": "1"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_7": {
+                "ds": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_10": {
+                "ds": "2",
+                "not": "1"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_11": {
+                "ds": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_14": {
+                "ds": "3",
+                "not": "1"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_15": {
+                "ds": "3",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_4": {
+                "ds": "0"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_8": {
+                "ds": "1"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_12": {
+                "ds": "2"
+            }
+        },
+        {
+            "GMStdIfDSEmpty_Story_16": {
+                "ds": "3"
+            }
+        }
+    ],
+    "GMStdBufferCreate_Story": [
+        {
+            "GMStdBufferCreate_Story_1": {
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferCreate_Story_2": {
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdBufferCreate_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferCreate_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdBufferCopy_Story": [
+        {
+            "GMStdBufferCopy_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferCopy_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdBufferDelete_Story": [
+        {
+            "GMStdBufferDelete_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferDelete_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdBufferRead_Story": [
+        {
+            "GMStdBufferRead_Story_1": {
+                "target_temp": "0",
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferRead_Story_2": {
+                "target_temp": "0",
+                "target": ""
+            }
+        },
+        {
+            "GMStdBufferRead_Story_3": {
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferRead_Story_1": {
+                "target": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferRead_Story_4": {
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdBufferRead_Story_2": {
+                "target": ""
+            }
+        },
+        {
+            "GMStdBufferRead_Story_5": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferRead_Story_6": {
+                
+            }
+        }
+    ],
+    "GMStdBufferWrite_Story": [
+        {
+            "GMStdBufferWrite_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferWrite_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdBufferSeek_Story": [
+        {
+            "GMStdBufferSeek_Story_1": {
+                "seek": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferSeek_Story_3": {
+                "seek": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferSeek_Story_5": {
+                "seek": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferSeek_Story_2": {
+                "seek": "0"
+            }
+        },
+        {
+            "GMStdBufferSeek_Story_4": {
+                "seek": "1"
+            }
+        },
+        {
+            "GMStdBufferSeek_Story_6": {
+                "seek": "2"
+            }
+        }
+    ],
+    "GMStdBufferGetSize_Story": [
+        {
+            "GMStdBufferGetSize_Story_1": {
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferGetSize_Story_2": {
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdBufferGetSize_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferGetSize_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdBufferGetPosition_Story": [
+        {
+            "GMStdBufferGetPosition_Story_1": {
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferGetPosition_Story_2": {
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdBufferGetPosition_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferGetPosition_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdBufferExists_Story": [
+        {
+            "GMStdBufferExists_Story_1": {
+                "not": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferExists_Story_2": {
+                "not": "1"
+            }
+        },
+        {
+            "GMStdBufferExists_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferExists_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdBufferEOS_Story": [
+        {
+            "GMStdBufferEOS_Story_1": {
+                "not": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferEOS_Story_2": {
+                "not": "1"
+            }
+        },
+        {
+            "GMStdBufferEOS_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferEOS_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdBufferLoad_Story": [
+        {
+            "GMStdBufferLoad_Story_1": {
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferLoad_Story_2": {
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdBufferLoad_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferLoad_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdBufferSave_Story": [
+        {
+            "GMStdBufferSave_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdBufferSave_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdFileRename_Story": [
+        {
+            "GMStdFileRename_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdFileRename_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdFileCopy_Story": [
+        {
+            "GMStdFileCopy_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdFileCopy_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdFileDelete_Story": [
+        {
+            "GMStdFileDelete_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdFileDelete_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdOpenIni_Story": [
+        {
+            "GMStdOpenIni_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdOpenIni_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdCloseIni_Story": [
+        {
+            "GMStdCloseIni_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdCloseIni_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdIniWrite_Story": [
+        {
+            "GMStdIniWrite_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIniWrite_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdIniRead_Story": [
+        {
+            "GMStdIniRead_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIniRead_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdIniRead_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIniRead_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfFileExists_Story": [
+        {
+            "GMStdIfFileExists_Story_1": {
+                "not": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfFileExists_Story_2": {
+                "not": "1"
+            }
+        },
+        {
+            "GMStdIfFileExists_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfFileExists_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdDecimalToInteger_Story": [
+        {
+            "GMStdDecimalToInteger_Story_1": {
+                "r": "0",
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDecimalToInteger_Story_5": {
+                "r": "1",
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDecimalToInteger_Story_9": {
+                "r": "2",
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDecimalToInteger_Story_2": {
+                "r": "0",
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdDecimalToInteger_Story_3": {
+                "r": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDecimalToInteger_Story_6": {
+                "r": "1",
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdDecimalToInteger_Story_7": {
+                "r": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDecimalToInteger_Story_10": {
+                "r": "2",
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdDecimalToInteger_Story_11": {
+                "r": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDecimalToInteger_Story_4": {
+                "r": "0"
+            }
+        },
+        {
+            "GMStdDecimalToInteger_Story_8": {
+                "r": "1"
+            }
+        },
+        {
+            "GMStdDecimalToInteger_Story_12": {
+                "r": "2"
+            }
+        }
+    ],
+    "GMStdStringToNumber_Story": [
+        {
+            "GMStdStringToNumber_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdStringToNumber_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdStringToNumber_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdStringToNumber_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdNumberToString_Story": [
+        {
+            "GMStdNumberToString_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdNumberToString_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdNumberToString_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdNumberToString_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdGetRandomNumber_Story": [
+        {
+            "GMStdGetRandomNumber_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetRandomNumber_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdGetRandomNumber_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetRandomNumber_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdChoose_Story": [
+        {
+            "GMStdChoose_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdChoose_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdChoose_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdChoose_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdSetViewVar_Story": [
+        {
+            "GMStdSetViewVar_Story_1": {
+                "var": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetViewVar_Story_3": {
+                "var": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetViewVar_Story_5": {
+                "var": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetViewVar_Story_7": {
+                "var": "3",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetViewVar_Story_9": {
+                "var": "4",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetViewVar_Story_11": {
+                "var": "5",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetViewVar_Story_13": {
+                "var": "6",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetViewVar_Story_2": {
+                "var": "0"
+            }
+        },
+        {
+            "GMStdSetViewVar_Story_4": {
+                "var": "1"
+            }
+        },
+        {
+            "GMStdSetViewVar_Story_6": {
+                "var": "2"
+            }
+        },
+        {
+            "GMStdSetViewVar_Story_8": {
+                "var": "3"
+            }
+        },
+        {
+            "GMStdSetViewVar_Story_10": {
+                "var": "4"
+            }
+        },
+        {
+            "GMStdSetViewVar_Story_12": {
+                "var": "5"
+            }
+        },
+        {
+            "GMStdSetViewVar_Story_14": {
+                "var": "6"
+            }
+        }
+    ],
+    "GMStdGetViewVar_Story": [
+        {
+            "GMStdGetViewVar_Story_1": {
+                "var": "0",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_25": {
+                "var": "6",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_5": {
+                "var": "1",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_21": {
+                "var": "5",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_9": {
+                "var": "2",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_17": {
+                "var": "4",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_13": {
+                "var": "3",
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_26": {
+                "var": "6",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_23": {
+                "var": "5",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_22": {
+                "var": "5",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_19": {
+                "var": "4",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_18": {
+                "var": "4",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_15": {
+                "var": "3",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_14": {
+                "var": "3",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_11": {
+                "var": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_10": {
+                "var": "2",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_7": {
+                "var": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_6": {
+                "var": "1",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_3": {
+                "var": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_2": {
+                "var": "0",
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_27": {
+                "var": "6",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_12": {
+                "var": "2"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_16": {
+                "var": "3"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_8": {
+                "var": "1"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_20": {
+                "var": "4"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_4": {
+                "var": "0"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_24": {
+                "var": "5"
+            }
+        },
+        {
+            "GMStdGetViewVar_Story_28": {
+                "var": "6"
+            }
+        }
+    ],
+    "GMStdGoToRoom_Story": [
+        {
+            "GMStdGoToRoom_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGoToRoom_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdIfFirstRoom_Story": [
+        {
+            "GMStdIfFirstRoom_Story_1": {
+                "not": "1"
+            }
+        },
+        {
+            "GMStdIfFirstRoom_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdIfLastRoom_Story": [
+        {
+            "GMStdIfLastRoom_Story_1": {
+                "not": "1"
+            }
+        },
+        {
+            "GMStdIfLastRoom_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdGetCurrentRoom_Story": [
+        {
+            "GMStdGetCurrentRoom_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetCurrentRoom_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdGetCurrentRoom_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetCurrentRoom_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdStartPath_Story": [
+        {
+            "GMStdStartPath_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdStartPath_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdStopPath_Story": [
+        {
+            "GMStdStopPath_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdStopPath_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPathPosition_Story": [
+        {
+            "GMStdPathPosition_Story_1": {
+                "position_relative": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPathPosition_Story_2": {
+                "position_relative": "1"
+            }
+        },
+        {
+            "GMStdPathPosition_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPathPosition_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdPathGetPosition_Story": [
+        {
+            "GMStdPathGetPosition_Story_1": {
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPathGetPosition_Story_2": {
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdPathGetPosition_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPathGetPosition_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdPathSpeed_Story": [
+        {
+            "GMStdPathSpeed_Story_1": {
+                "speed_relative": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPathSpeed_Story_2": {
+                "speed_relative": "1"
+            }
+        },
+        {
+            "GMStdPathSpeed_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPathSpeed_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdPathGetSpeed_Story": [
+        {
+            "GMStdPathGetSpeed_Story_1": {
+                "target_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPathGetSpeed_Story_2": {
+                "target_temp": "0"
+            }
+        },
+        {
+            "GMStdPathGetSpeed_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPathGetSpeed_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdSetTimeline_Story": [
+        {
+            "GMStdSetTimeline_Story_1": {
+                "running": "1",
+                "loop": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetTimeline_Story_2": {
+                "running": "1",
+                "loop": "1"
+            }
+        },
+        {
+            "GMStdSetTimeline_Story_3": {
+                "running": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetTimeline_Story_5": {
+                "loop": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetTimeline_Story_4": {
+                "running": "1"
+            }
+        },
+        {
+            "GMStdSetTimeline_Story_6": {
+                "loop": "1"
+            }
+        },
+        {
+            "GMStdSetTimeline_Story_7": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetTimeline_Story_8": {
+                
+            }
+        }
+    ],
+    "GMStdPositionTimeline_Story": [
+        {
+            "GMStdPositionTimeline_Story_1": {
+                "position_relative": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPositionTimeline_Story_2": {
+                "position_relative": "1"
+            }
+        },
+        {
+            "GMStdPositionTimeline_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPositionTimeline_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdSpeedTimeline_Story": [
+        {
+            "GMStdSpeedTimeline_Story_1": {
+                "speed_relative": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSpeedTimeline_Story_2": {
+                "speed_relative": "1"
+            }
+        },
+        {
+            "GMStdSpeedTimeline_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSpeedTimeline_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdSetTimelineState_Story": [
+        {
+            "GMStdSetTimelineState_Story_1": {
+                "state": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetTimelineState_Story_3": {
+                "state": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetTimelineState_Story_5": {
+                "state": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetTimelineState_Story_7": {
+                "state": "3",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetTimelineState_Story_2": {
+                "state": "0"
+            }
+        },
+        {
+            "GMStdSetTimelineState_Story_4": {
+                "state": "1"
+            }
+        },
+        {
+            "GMStdSetTimelineState_Story_6": {
+                "state": "2"
+            }
+        },
+        {
+            "GMStdSetTimelineState_Story_8": {
+                "state": "3"
+            }
+        }
+    ],
+    "GMStdSaveGame_Story": [
+        {
+            "GMStdSaveGame_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSaveGame_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdLoadGame_Story": [
+        {
+            "GMStdLoadGame_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdLoadGame_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdSetScore_Story": [
+        {
+            "GMStdSetScore_Story_1": {
+                "score_relative": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetScore_Story_2": {
+                "score_relative": "1"
+            }
+        },
+        {
+            "GMStdSetScore_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetScore_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdGetScore_Story": [
+        {
+            "GMStdGetScore_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetScore_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdGetScore_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetScore_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdSetLives_Story": [
+        {
+            "GMStdSetLives_Story_1": {
+                "lives_relative": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetLives_Story_2": {
+                "lives_relative": "1"
+            }
+        },
+        {
+            "GMStdSetLives_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetLives_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdGetLives_Story": [
+        {
+            "GMStdGetLives_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetLives_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdGetLives_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetLives_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdSetHealth_Story": [
+        {
+            "GMStdSetHealth_Story_1": {
+                "health_relative": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetHealth_Story_2": {
+                "health_relative": "1"
+            }
+        },
+        {
+            "GMStdSetHealth_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdSetHealth_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdGetHealth_Story": [
+        {
+            "GMStdGetHealth_Story_1": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetHealth_Story_2": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdGetHealth_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdGetHealth_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdIfScore_Story": [
+        {
+            "GMStdIfScore_Story_1": {
+                "not": "1",
+                "op": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfScore_Story_3": {
+                "not": "1",
+                "op": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfScore_Story_5": {
+                "not": "1",
+                "op": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfScore_Story_7": {
+                "not": "1",
+                "op": "3",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfScore_Story_9": {
+                "not": "1",
+                "op": "4",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfScore_Story_17": {
+                "applyto": "self",
+                "op": "3"
+            }
+        },
+        {
+            "GMStdIfScore_Story_15": {
+                "applyto": "self",
+                "op": "2"
+            }
+        },
+        {
+            "GMStdIfScore_Story_13": {
+                "applyto": "self",
+                "op": "1"
+            }
+        },
+        {
+            "GMStdIfScore_Story_11": {
+                "applyto": "self",
+                "op": "0"
+            }
+        },
+        {
+            "GMStdIfScore_Story_10": {
+                "not": "1",
+                "op": "4"
+            }
+        },
+        {
+            "GMStdIfScore_Story_8": {
+                "not": "1",
+                "op": "3"
+            }
+        },
+        {
+            "GMStdIfScore_Story_6": {
+                "not": "1",
+                "op": "2"
+            }
+        },
+        {
+            "GMStdIfScore_Story_4": {
+                "not": "1",
+                "op": "1"
+            }
+        },
+        {
+            "GMStdIfScore_Story_2": {
+                "not": "1",
+                "op": "0"
+            }
+        },
+        {
+            "GMStdIfScore_Story_19": {
+                "applyto": "self",
+                "op": "4"
+            }
+        },
+        {
+            "GMStdIfScore_Story_12": {
+                "op": "0"
+            }
+        },
+        {
+            "GMStdIfScore_Story_14": {
+                "op": "1"
+            }
+        },
+        {
+            "GMStdIfScore_Story_16": {
+                "op": "2"
+            }
+        },
+        {
+            "GMStdIfScore_Story_18": {
+                "op": "3"
+            }
+        },
+        {
+            "GMStdIfScore_Story_20": {
+                "op": "4"
+            }
+        }
+    ],
+    "GMStdIfLives_Story": [
+        {
+            "GMStdIfLives_Story_1": {
+                "not": "1",
+                "op": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfLives_Story_3": {
+                "not": "1",
+                "op": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfLives_Story_5": {
+                "not": "1",
+                "op": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfLives_Story_7": {
+                "not": "1",
+                "op": "3",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfLives_Story_9": {
+                "not": "1",
+                "op": "4",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfLives_Story_17": {
+                "applyto": "self",
+                "op": "3"
+            }
+        },
+        {
+            "GMStdIfLives_Story_15": {
+                "applyto": "self",
+                "op": "2"
+            }
+        },
+        {
+            "GMStdIfLives_Story_13": {
+                "applyto": "self",
+                "op": "1"
+            }
+        },
+        {
+            "GMStdIfLives_Story_11": {
+                "applyto": "self",
+                "op": "0"
+            }
+        },
+        {
+            "GMStdIfLives_Story_10": {
+                "not": "1",
+                "op": "4"
+            }
+        },
+        {
+            "GMStdIfLives_Story_8": {
+                "not": "1",
+                "op": "3"
+            }
+        },
+        {
+            "GMStdIfLives_Story_6": {
+                "not": "1",
+                "op": "2"
+            }
+        },
+        {
+            "GMStdIfLives_Story_4": {
+                "not": "1",
+                "op": "1"
+            }
+        },
+        {
+            "GMStdIfLives_Story_2": {
+                "not": "1",
+                "op": "0"
+            }
+        },
+        {
+            "GMStdIfLives_Story_19": {
+                "applyto": "self",
+                "op": "4"
+            }
+        },
+        {
+            "GMStdIfLives_Story_12": {
+                "op": "0"
+            }
+        },
+        {
+            "GMStdIfLives_Story_14": {
+                "op": "1"
+            }
+        },
+        {
+            "GMStdIfLives_Story_16": {
+                "op": "2"
+            }
+        },
+        {
+            "GMStdIfLives_Story_18": {
+                "op": "3"
+            }
+        },
+        {
+            "GMStdIfLives_Story_20": {
+                "op": "4"
+            }
+        }
+    ],
+    "GMStdIfHealth_Story": [
+        {
+            "GMStdIfHealth_Story_1": {
+                "not": "1",
+                "op": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_3": {
+                "not": "1",
+                "op": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_5": {
+                "not": "1",
+                "op": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_7": {
+                "not": "1",
+                "op": "3",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_9": {
+                "not": "1",
+                "op": "4",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_17": {
+                "applyto": "self",
+                "op": "3"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_15": {
+                "applyto": "self",
+                "op": "2"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_13": {
+                "applyto": "self",
+                "op": "1"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_11": {
+                "applyto": "self",
+                "op": "0"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_10": {
+                "not": "1",
+                "op": "4"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_8": {
+                "not": "1",
+                "op": "3"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_6": {
+                "not": "1",
+                "op": "2"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_4": {
+                "not": "1",
+                "op": "1"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_2": {
+                "not": "1",
+                "op": "0"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_19": {
+                "applyto": "self",
+                "op": "4"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_12": {
+                "op": "0"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_14": {
+                "op": "1"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_16": {
+                "op": "2"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_18": {
+                "op": "3"
+            }
+        },
+        {
+            "GMStdIfHealth_Story_20": {
+                "op": "4"
+            }
+        }
+    ],
+    "GMStdDebugShowMessage_Story": [
+        {
+            "GMStdDebugShowMessage_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdDebugShowMessage_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdSetWindowState_Story": [
+        {
+            "GMStdSetWindowState_Story_1": {
+                "type": "0"
+            }
+        },
+        {
+            "GMStdSetWindowState_Story_2": {
+                "type": "1"
+            }
+        },
+        {
+            "GMStdSetWindowState_Story_3": {
+                "type": "2"
+            }
+        }
+    ],
+    "GMStdPartSystCreate_Story": [
+        {
+            "GMStdPartSystCreate_Story_1": {
+                "persist": "1",
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartSystCreate_Story_2": {
+                "persist": "1",
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdPartSystCreate_Story_3": {
+                "persist": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartSystCreate_Story_5": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartSystCreate_Story_4": {
+                "persist": "1"
+            }
+        },
+        {
+            "GMStdPartSystCreate_Story_6": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdPartSystCreate_Story_7": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartSystCreate_Story_8": {
+                
+            }
+        }
+    ],
+    "GMStdPartSystDestroy_Story": [
+        {
+            "GMStdPartSystDestroy_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartSystDestroy_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPartSystClear_Story": [
+        {
+            "GMStdPartSystClear_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartSystClear_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPauseParticles_Story": [
+        {
+            "GMStdPauseParticles_Story_1": {
+                "state": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPauseParticles_Story_3": {
+                "state": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPauseParticles_Story_2": {
+                "state": "0"
+            }
+        },
+        {
+            "GMStdPauseParticles_Story_4": {
+                "state": "1"
+            }
+        }
+    ],
+    "GMStdRefreshParticles_Story": [
+        {
+            "GMStdRefreshParticles_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdRefreshParticles_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPartTypeCreate_Story": [
+        {
+            "GMStdPartTypeCreate_Story_1": {
+                "blend": "1",
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeCreate_Story_2": {
+                "blend": "1",
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdPartTypeCreate_Story_3": {
+                "blend": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeCreate_Story_5": {
+                "var_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeCreate_Story_4": {
+                "blend": "1"
+            }
+        },
+        {
+            "GMStdPartTypeCreate_Story_6": {
+                "var_temp": "0"
+            }
+        },
+        {
+            "GMStdPartTypeCreate_Story_7": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeCreate_Story_8": {
+                
+            }
+        }
+    ],
+    "GMStdPartTypeDestroy_Story": [
+        {
+            "GMStdPartTypeDestroy_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeDestroy_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPartTypeSize_Story": [
+        {
+            "GMStdPartTypeSize_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeSize_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPartTypeSprite_Story": [
+        {
+            "GMStdPartTypeSprite_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeSprite_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPartTypeShape_Story": [
+        {
+            "GMStdPartTypeShape_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeShape_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPartTypeColor_Story": [
+        {
+            "GMStdPartTypeColor_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeColor_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPartTypeAlpha_Story": [
+        {
+            "GMStdPartTypeAlpha_Story_1": {
+                "middle": "",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeAlpha_Story_2": {
+                "middle": ""
+            }
+        },
+        {
+            "GMStdPartTypeAlpha_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeAlpha_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdPartTypeLife_Story": [
+        {
+            "GMStdPartTypeLife_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeLife_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPartTypeSpeed_Story": [
+        {
+            "GMStdPartTypeSpeed_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeSpeed_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPartTypeDirection_Story": [
+        {
+            "GMStdPartTypeDirection_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeDirection_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPartTypeOrientation_Story": [
+        {
+            "GMStdPartTypeOrientation_Story_1": {
+                "rel": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeOrientation_Story_2": {
+                "rel": "1"
+            }
+        },
+        {
+            "GMStdPartTypeOrientation_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeOrientation_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdPartTypeGravity_Story": [
+        {
+            "GMStdPartTypeGravity_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeGravity_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPartTypeSecondary_Story": [
+        {
+            "GMStdPartTypeSecondary_Story_1": {
+                "event": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeSecondary_Story_3": {
+                "event": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartTypeSecondary_Story_2": {
+                "event": "0"
+            }
+        },
+        {
+            "GMStdPartTypeSecondary_Story_4": {
+                "event": "1"
+            }
+        }
+    ],
+    "GMStdPartCreateBurst_Story": [
+        {
+            "GMStdPartCreateBurst_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartCreateBurst_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPartEmitCreate_Story": [
+        {
+            "GMStdPartEmitCreate_Story_1": {
+                "emitter_temp": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitCreate_Story_2": {
+                "emitter_temp": "0"
+            }
+        },
+        {
+            "GMStdPartEmitCreate_Story_3": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitCreate_Story_4": {
+                
+            }
+        }
+    ],
+    "GMStdPartEmitDestroy_Story": [
+        {
+            "GMStdPartEmitDestroy_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitDestroy_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdPartEmitterEmit_Story": [
+        {
+            "GMStdPartEmitterEmit_Story_1": {
+                "event": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitterEmit_Story_3": {
+                "event": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitterEmit_Story_2": {
+                "event": "0"
+            }
+        },
+        {
+            "GMStdPartEmitterEmit_Story_4": {
+                "event": "1"
+            }
+        }
+    ],
+    "GMStdPartEmitRegion_Story": [
+        {
+            "GMStdPartEmitRegion_Story_1": {
+                "shape": "0",
+                "distribution": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_3": {
+                "shape": "0",
+                "distribution": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_21": {
+                "shape": "3",
+                "distribution": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_5": {
+                "shape": "0",
+                "distribution": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_7": {
+                "shape": "1",
+                "distribution": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_19": {
+                "shape": "3",
+                "distribution": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_9": {
+                "shape": "1",
+                "distribution": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_11": {
+                "shape": "1",
+                "distribution": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_23": {
+                "shape": "3",
+                "distribution": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_13": {
+                "shape": "2",
+                "distribution": "0",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_17": {
+                "shape": "2",
+                "distribution": "2",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_15": {
+                "shape": "2",
+                "distribution": "1",
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_22": {
+                "shape": "3",
+                "distribution": "1"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_20": {
+                "shape": "3",
+                "distribution": "0"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_18": {
+                "shape": "2",
+                "distribution": "2"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_12": {
+                "shape": "1",
+                "distribution": "2"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_14": {
+                "shape": "2",
+                "distribution": "0"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_10": {
+                "shape": "1",
+                "distribution": "1"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_8": {
+                "shape": "1",
+                "distribution": "0"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_6": {
+                "shape": "0",
+                "distribution": "2"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_4": {
+                "shape": "0",
+                "distribution": "1"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_2": {
+                "shape": "0",
+                "distribution": "0"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_16": {
+                "shape": "2",
+                "distribution": "1"
+            }
+        },
+        {
+            "GMStdPartEmitRegion_Story_24": {
+                "shape": "3",
+                "distribution": "2"
+            }
+        }
+    ],
+    "GMStdEffect_Story": [
+        {
+            "GMStdEffect_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdEffect_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdTimeSourceExists_Story": [
+        {
+            "GMStdTimeSourceExists_Story_1": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdTimeSourceExists_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdIfTimeSourceState_Story": [
+        {
+            "GMStdIfTimeSourceState_Story_1": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfTimeSourceState_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdIfTimeSourceUnits_Story": [
+        {
+            "GMStdIfTimeSourceUnits_Story_1": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfTimeSourceUnits_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdIfTimeSourceParent_Story": [
+        {
+            "GMStdIfTimeSourceParent_Story_1": {
+                "not": "0"
+            }
+        },
+        {
+            "GMStdIfTimeSourceParent_Story_2": {
+                
+            }
+        }
+    ],
+    "GMStdTimeSourceDestroy_Story": [
+        {
+            "GMStdTimeSourceDestroy_Story_1": {
+                "destroy_tree": "0"
+            }
+        },
+        {
+            "GMStdTimeSourceDestroy_Story_2": {
+
+            }
+        }
+    ],
+    "GMStdAddMotion_Story": [
+        {
+            "GMStdAddMotion_Story_1": {
+                "applyto": "self"
+            }
+        },
+        {
+            "GMStdAddMotion_Story_2": {
+
+            }
+        }
+    ]
+}

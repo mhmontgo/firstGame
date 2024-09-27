@@ -1,0 +1,153 @@
+{
+	"label_marketplace_title": {
+		"colour": "marketplace_label_title"
+	},
+
+	"link_label_asset_highlight": {
+		"colour": "marketplace_link_hi"
+	},
+
+	"link_label_asset_highlight_hover": {
+		"colour": "marketplace_link_hi_mouseover"
+	},
+
+	"link_label_asset_highlight_active": {
+		"colour": "marketplace_link_hi_active"
+	},
+
+	"gadget_treenode_marketplace": {
+		"resource_added": "marketplace_import_resource_added",
+		"resource_not_added": "marketplace_import_resource_notadded"
+	},
+
+	"package_heading_label": {
+		"colour": "marketplace_package_label_heading"
+	},
+
+	"package_inner_panel": {
+		"colour": "marketplace_package_panel"
+	},
+
+	"package_type_label": {
+		"colour": "marketplace_package_label_type"
+	},
+
+	"readonly_package_text_box": {
+		"text_colour": "marketplace_package_readonly_textbox"
+	},
+
+	"inactive_tutorial_label": {
+		"colour": "marketplace_package_label_inactive"
+	},
+
+	"inactive_heading_label": {
+		"colour": "marketplace_package_label_inactive"
+	},
+
+	"marketplace_grid": {
+		"colour": "marketplace_grid"
+	},
+
+	"marketplace_scrollpanel": {
+		"colour": "marketplace_scrollpanel"
+	},
+
+	"marketplace_window": {
+		"colour": "marketplace_grid"
+	},
+
+	"marketplace_tablegadget_content": {
+		"colour": "marketplace_table_content"
+	},
+
+	"marketplace_tablegadget_row_highlighted": {
+		"colour": "marketplace_asset_hi"
+	},
+
+	"marketplace_category_label": {
+		"colour": "marketplace_label_category"
+	},
+
+	"marketplace_category_label_selected": {
+		"colour": "marketplace_label_category_selected"
+	},
+
+	"marketplace_tablegadget_row_selected": {
+		"colour": "marketplace_asset_selected"
+	},
+
+	"marketplace_image": {
+		"border_color": "marketplace_asset_icon_frame"
+	},
+
+	"marketplace_image_selected": {
+		"border_color": "marketplace_asset_icon_frame_active"
+	},
+
+	"marketplace_stack_panel": {
+		"colour": "marketplace_stack_panel"
+	},
+
+	"marketplace_progressbar_frame": {
+		"colour": "ide_progress_bar_frame"
+	},
+
+	"marketplace_rating_empty": {
+		"icon_colour": "marketplace_rating_empty"
+	},
+
+	"marketplace_rating_user": {
+		"icon_colour": "marketplace_rating_filled"
+	},
+
+	"marketplace_page_button": {
+		"colour": "marketplace_button_change_page",
+		"up_focused_tint": "marketplace_button_change_page_up_focused",
+		"down_focused_tint": "marketplace_button_change_page_down_focused",
+		"mouseover_up_focused_tint": "marketplace_button_change_page_up_focused_mouseover",
+		"mouseover_down_focused_tint": "marketplace_button_change_page_down_focused_mouseover",
+		"mouseover_down_tint": "marketplace_button_change_page_down_mouseover",
+		"mouseover_up_tint": "marketplace_button_change_page_up_mouseover",
+		"down_tint": "marketplace_button_change_page_down",
+		"up_tint": "marketplace_button_change_page_up"
+	},
+
+	"label_marketplace_title_light": {
+		"colour": "marketplace_label_title"
+	},
+
+	"label_marketplace_overview_text": {
+		"colour": "marketplace_label_desc"
+	},
+
+	"marketplace_grid_container": {
+		"colour": "marketplace_grid_container"
+	},
+
+	"marketplace_overview_screenshot": {
+		"border_color": "marketplace_overview_screenshot"
+	},
+
+	"marketplace_icon_button": {
+		"up_tint": "marketplace_button_up",
+		"down_tint": "marketplace_button_down",
+		"mouseover_up_tint": "marketplace_button_up_mouseover",
+		"mouseover_down_tint": "marketplace_button_down_mouseover",
+		"up_focused_tint": "marketplace_button_up_focused",
+		"down_focused_tint": "marketplace_button_down_focused",
+		"mouseover_up_focused_tint": "marketplace_button_up_focused_mouseover",
+		"mouseover_down_focused_tint": "marketplace_button_down_focused_mouseover"
+	},
+
+	"marketplace_update_icon_button": {
+		"up_tint": "marketplace_button_update_up",
+		"down_tint": "marketplace_button_update_down",
+		"mouseover_up_tint": "marketplace_button_update_up_mouseover",
+		"mouseover_down_tint": "marketplace_button_update_down_mouseover",
+		"up_focused_tint": "marketplace_button_update_up_focused",
+		"down_focused_tint": "marketplace_button_update_down_focused",
+		"mouseover_up_focused_tint": "marketplace_button_update_up_focused_mouseover",
+		"mouseover_down_focused_tint": "marketplace_button_update_down_focused_mouseover",
+		"icon_colour": "marketplace_button_update"
+	}
+}

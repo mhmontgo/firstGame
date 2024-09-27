@@ -1,0 +1,9 @@
+{
+	"target_select_label": {
+		"margin": "2px",
+		"halign": "hAlignLeft",
+		"colour": "target_select_current_label",
+		"mouse_events": "true",
+		"localise_tooltip": "IDETooltip_CurrentTarget"
+	}
+}

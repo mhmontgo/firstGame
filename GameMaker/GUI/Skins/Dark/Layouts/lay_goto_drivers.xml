@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="GoTo_Resource_Driver" layout_guid="d9efafad-ff7c-488a-80dc-436dbac811b4">
+    <Grid stylename="grid_container" height="18dpi_px" width="100%" margin_top="2px" margin_bottom="2px" grid_columnlayout="['auto', '1*', 'auto', 'auto']" column_spacing="7px">
+      <Cell row="0" column="0" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="image_searchicon" right="0px" margin_left="12px" image="searchbar_icon.png" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" flow_index="0">
+        <ChildGadgets>
+          <FormattedLabel stylename="label" layout_id="caption" layout_guid="9483b388-b9c4-4baa-aed4-268587439a9c" height="16px" left="0px" auto_ellipsis="True" auto_size="False" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" flow_index="0">
+        <ChildGadgets>
+          <FormattedLabel stylename="label_goto_type" layout_id="type" layout_guid="983d28aa-35fb-4189-ad2c-1f100c259e1b" height="16px" width="0px" left="0px"/>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="3" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="image_searchicon" layout_id="icon" layout_guid="6f973843-66f6-454b-ae58-cb6c4b2e2ac9" left="0px" margin_right="12px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="GoTo_Preference_Driver">
+    <Grid stylename="grid_container" height="18dpi_px" width="100%" margin_top="2px" margin_bottom="2px" grid_columnlayout="['auto', '1*', 'auto', 'auto']" column_spacing="7px">
+      <Cell row="0" column="0" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="image_searchicon" right="0px" margin_left="12px" image="searchbar_icon.png" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" flow_index="0">
+        <ChildGadgets>
+          <FormattedLabel stylename="label" layout_id="caption" height="16px" left="0px" auto_ellipsis="True" auto_size="False" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" flow_index="0">
+        <ChildGadgets>
+          <FormattedLabel stylename="label_goto_type" layout_id="scope" height="16px" width="0px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="3" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="image_searchicon" image="IDE_Toolbar/icon_IDE_gamesettings.png" left="0px" margin_right="12px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="GoTo_GameOption_Driver">
+    <Grid stylename="grid_container" height="18dpi_px" width="100%" margin_top="2px" margin_bottom="2px" grid_columnlayout="['auto', '1*', 'auto', 'auto']" column_spacing="7px">
+      <Cell row="0" column="0" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="image_searchicon" right="0px" margin_left="12px" image="searchbar_icon.png" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" flow_index="0">
+        <ChildGadgets>
+          <FormattedLabel stylename="label" layout_id="caption" height="16px" left="0px" auto_ellipsis="True" auto_size="False" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" flow_index="0">
+        <ChildGadgets>
+          <FormattedLabel stylename="label_goto_type" layout_id="type" height="16px" width="0px" left="0px"/>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="3" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="image_searchicon" image="IDE_Toolbar/icon_IDE_gamesettings.png" left="0px" margin_right="12px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

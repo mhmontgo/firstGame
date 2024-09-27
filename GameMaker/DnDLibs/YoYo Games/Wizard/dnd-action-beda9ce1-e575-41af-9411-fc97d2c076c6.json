@@ -1,0 +1,13 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdSound",
+    "gadget": "YoYo Games.DnD_ResourceSelection",
+    "gadget_properties": {
+      "TagName": "soundid",
+      "DefaultValue": "noone",
+      "ResourceFilter": "GMSound"
+    }
+  }
+]

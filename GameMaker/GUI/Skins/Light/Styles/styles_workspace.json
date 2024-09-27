@@ -1,0 +1,13 @@
+﻿{
+	"workspace_chain": {
+		"colour": "workspace_chain_bg"
+	},
+
+	"workspace_preferences": {
+		"link_colour": "workspace_chain"
+	},
+
+	"workspace_chain_splitter": {
+		"colour": "workspace_chain_splitter"
+	}
+}

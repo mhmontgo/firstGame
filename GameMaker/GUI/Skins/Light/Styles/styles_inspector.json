@@ -1,0 +1,58 @@
+{
+  "inspector_module_style": {
+    "search_bg_colour": "ins_search_bg",
+    "search_hi_colour": "ins_search_hi"
+  },
+
+  "dark_separator": {
+    "colour": "ins_separator_dark_1"
+  },
+
+  "dark_separator2": {
+    "colour": "ins_separator_dark_1"
+  },
+
+  "ins_sticky_panel": {
+    "colour": "ins_sticky_panel"
+  },
+
+  "inspector_multisel_panel": {
+    "stripe_colour": "ins_listbox_multisel_stripe"
+  },
+
+  "ins_eventlist_style": {
+    "bg_stripe_colour": "ins_object_eventlist_stripe"
+  },
+
+  "ins_collapsible_header_grid": {
+    "colour": "ins_header"
+  },
+
+  "ins_header_colour": {
+    "colour": "ins_header"
+  },
+
+  "ins_table_row_stripe": {
+    "colour": "ins_table_stripe"
+  },
+
+  "ins_fontrange_panel": {
+    "selection_colour": "ins_font_range_selection",
+    "edit_hi_colour": "ins_font_range_edit_hi",
+    "grid_colour": "ins_font_range_grid",
+    "grid_bg_colour": "ins_font_range_bg",
+    "invalid_text_col": "ins_font_range_invalid_text",
+    "invalid_text_bgcol": "ins_font_range_invalid_text_bg",
+    "cell_focus_stroke": "ins_font_range_cell_stroke",
+    "cell_focus_fill": "ins_font_range_cell_fill"
+  },
+
+  "ins_table_header": {
+    "colour": "ins_table_header"
+  },
+
+  "ins_pathpoints_style": {
+    "bg_colour": "ins_path_table_bg",
+    "stripe_colour": "ins_path_table_stripe"
+  }
+}

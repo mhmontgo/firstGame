@@ -1,0 +1,62 @@
+{
+  "particle_link_icon": {
+    icon_flags: "Centre",
+    font_icon: ["particle_editor_icon_font", "icon_ps_link"],
+    vector_icon_size: "16dpi_px", 
+    colour: "particle_link_icon_alpha",
+    "mouse_events": "false",
+  },
+
+  "particle_rewind_button": {
+    "width": "32dpi_px",
+    "height": "32dpi_px",
+    "right": "10dpi_px",
+    "bottom": "10dpi_px",
+    "icon":"Debugger/button_restart.png",
+    "icon_flags": "Stretch,Centre,KeepAspectRatio",
+    "localise_tooltip": "ParticleEditor_RewindTT"
+  },
+
+  "particle_link_colour": {
+      "colour": "particle_link_icon_alpha"
+   },
+
+  "particle_link_colour_hi": {
+      "colour": "particle_link_icon"
+   },
+
+
+  "particle_emitter_icon": {
+    icon_flags: "Centre",
+    font_icon: ["particle_editor_icon_font", "icon_ps_emmiter"],
+    vector_icon_size: "12dpi_px", 
+    colour: "#FFFFFFFF",
+    "mouse_events": "false"
+  },
+
+  "particle_link_button": {
+    "base":  "button_up",
+    icon_flags: "Centre",
+    font_icon: ["particle_editor_icon_font", "icon_ps_link"],
+    vector_icon_size: "16dpi_px", 
+    icon_colour: "particle_link_icon",
+    "deactivated_style": "particle_link_button_deactivated",
+    "reactivated_style": "particle_link_button_reactivated"
+  },
+
+  "particle_link_button_deactivated": {
+    "base": "button_deactivated",
+    icon_colour: "particle_link_icon_alpha"
+  },
+
+  "particle_link_button_reactivated": {
+    "base": "button_reactivated",
+    icon_colour: "particle_link_icon"
+  },
+
+  "particle_emitteritem_grid": {
+    "height": "24dpi_px",
+     "top": "0px",
+     "grid_columnlayout": ["32dpi_px", "1*", "20dpi_px", "20dpi_px"]
+  }
+}

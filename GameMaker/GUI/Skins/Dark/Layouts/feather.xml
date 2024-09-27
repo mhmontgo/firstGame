@@ -1,0 +1,631 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  
+  <!-- FEATHER MESSAGES WINDOW -->
+  <Layout layout_name="LintMessagesWindow" layout_guid="251f9e07-0fce-4718-b737-f926d632b8cb">
+    <Window localise_title="Feather_LintMessages_Title" width_min="640dpi_px" height_min="192dpi_px" window_flags="Default">
+      <Client>
+        <ChildGadgets>
+          <Grid layout_id="TestStackPanel" grid_rowlayout="['auto','auto','*']" grid_columnlayout="['*']">
+            <Cell row="0" column="0">
+              <ChildGadgets>
+                <Grid grid_columnlayout="['auto','auto','auto','auto','auto','*','auto']" height="32dpi_px">
+	                <Cell row="0" column="0">
+						  <Gadgets><ToggleButton layout_id="ButtonErrorsFilter" stylename="filterbutton" pressed="true" width="140dpi_px" height="24dpi_px" margin="4" name="Errors" icon="${current_skin}/Images/Feather/LintError.png" /></Gadgets>
+					  </Cell>
+					  <Cell row="0" column="1">
+						  <Gadgets><Label caption="|" margin="4" /></Gadgets>
+					  </Cell>
+	                  <Cell row="0" column="2">
+		                  <Gadgets><ToggleButton layout_id="ButtonWarningsFilter" stylename="filterbutton" pressed="true" width="140dpi_px" height="24dpi_px" margin="4" name="Warnings" icon="${current_skin}/Images/Feather/LintWarn.png" /></Gadgets>
+	                  </Cell>
+	                <Cell row="0" column="3">
+		                <Gadgets>
+			                <Label caption="|" margin="4" />
+		                </Gadgets>
+	                </Cell>
+	                  <Cell row="0" column="4">
+		                  <Gadgets><ToggleButton layout_id="ButtonSuggestionsFilter" stylename="filterbutton" pressed="true" width="140dpi_px" height="24dpi_px" margin="4" name="Suggestions" icon="${current_skin}/Images/Feather/LintSuggestion.png" /></Gadgets>
+	                  </Cell>
+	                <Cell row="0" column="5">
+		                  <Gadgets></Gadgets>
+	                  </Cell>
+	                  <Cell row="0" column="6">
+		                  <Gadgets>
+			                  <TextBox stylename="gototype_text_box" layout_id="TextBoxMessageFilter" width="210dpi_px" height="24dpi_px" localise_default_caption="ResourceTree_SearchResources" text_hoffset="22dpi_px" text_hclip="12dpi_px" margin="4">
+				                  <ChildGadgets>
+					                  <Image stylename="image_searchicon" left="3dpi_px" top="3dpi_px" render_flags="FlipHorizontal" image="searchbar_icon.png" />
+					                  <CloseButton stylename="close_button_up" layout_id="ButtonCancelTextFilter" right="0dpi_px" top="" margin_bottom="" colour="#FF888888" />
+				                  </ChildGadgets>
+			                  </TextBox>
+						  </Gadgets>
+	                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0">
+              <ChildGadgets>
+                <Grid layout_id="HeaderGrid"
+                      grid_columnlayout="['36dpi_px','80dpi_px','*','160dpi_px','48dpi_px','32dpi_px','64dpi_px']"
+                      width="100%" height="24dpi_px" stylename="feather_LintMessageWindow_Header">
+                  <Cell row="0" column="0">
+                    <Gadgets>
+                      <Label caption="" />
+                    </Gadgets>
+                  </Cell>
+                  <ColumnSplitter row="0" column="1" min_px_size="52dpi_px" stylename="feather_LintMessageWindow_vertical_grid_splitter" />
+                  <Cell row="0" column="1">
+                    <Gadgets>
+                      <Label stylename="basic_label" caption="Code" left="12dpi_px" />
+                      <ToggleButton layout_id="ButtonSortByCode" stylename="feather_SortButton" height="16dpi_px" width="16dpi_px" right="12dpi_px" icon_flags="Centre, KeepAspectRatio, Downscale" pressed="true" icon="ArrowUp.png" />
+                    </Gadgets>
+                  </Cell>
+                  <ColumnSplitter row="0" column="2" min_px_size="80dpi_px" stylename="feather_LintMessageWindow_vertical_grid_splitter" />
+                  <Cell row="0" column="2">
+                    <Gadgets>
+                      <Label stylename="basic_label" caption="Message" left="12dpi_px" />
+                      <ToggleButton layout_id="ButtonSortByMessage" stylename="feather_SortButton" height="16dpi_px" width="16dpi_px" right="12dpi_px" icon_flags="Centre, KeepAspectRatio, Downscale" icon="ArrowUp.png" />
+                    </Gadgets>
+                  </Cell>
+                  <ColumnSplitter row="0" column="3" min_px_size="96dpi_px" stylename="feather_LintMessageWindow_vertical_grid_splitter" />
+                  <Cell row="0" column="3">
+                    <Gadgets>
+                      <Label stylename="basic_label" caption="Resource" left="12dpi_px" />
+                      <ToggleButton layout_id="ButtonSortByResource" stylename="feather_SortButton" height="16dpi_px" width="16dpi_px" right="12dpi_px" icon_flags="Centre, KeepAspectRatio, Downscale" icon="ArrowUp.png" />
+                    </Gadgets>
+                  </Cell>
+                  <ColumnSplitter row="0" column="4" min_px_size="48dpi_px" stylename="feather_LintMessageWindow_vertical_grid_splitter" />
+                  <Cell row="0" column="4">
+                    <Gadgets>
+                      <Label stylename="basic_label" caption="Line" left="12dpi_px" />
+                    </Gadgets>
+                  </Cell>
+                  <ColumnSplitter row="0" column="5" min_px_size="32dpi_px" stylename="feather_LintMessageWindow_vertical_grid_splitter" />
+                  <Cell row="0" column="5">
+                    <Gadgets>
+                      <Label stylename="basic_label" caption="Column" left="12dpi_px" />
+                    </Gadgets>
+                  </Cell>
+                  <Cell row="0" column="6">
+                    <Gadgets>
+                      <Label stylename="basic_label" caption="" />
+                    </Gadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0">
+              <ChildGadgets>
+                <ScrollPanel layout_id="ErrorsPanel" width="100%" height="100%"
+                             scrollpanel_flags="VerticalScroll">
+                  <ChildGadgets />
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  
+  <!-- REFACTORING -->
+  <Layout layout_name="RefactorDialog" layout_guid="167db711-4407-41d9-96b0-197f7f2a571f">
+    <Client>
+      <ChildGadgets>
+        <StackPanel stylename="stack_panel" stack_order="TopToBottom" width="100%" height="50dpi_px" top="10dpi_px">
+          <ChildGadgets>
+            <Label layout_id="LabelOldIdentifier" stylename="label" height="16px" width="35px" left="10dpi_px" margin_top="5dpi_px" margin_bottom="5dpi_px" />
+            <TextBox layout_id="TextBoxNewIdentifier" flow_index="0" left="10dpi_px" right="0dpi_px" width="100%" />
+          </ChildGadgets>
+        </StackPanel>
+        <StackPanel stylename="stack_panel" layout_guid="1706701a-20e2-4dab-a7e5-535e9bd9e848" height="50dpi_px" width="100%" left="138dpi_px" top="70dpi_px">
+          <Gadgets>
+            <Button layout_id="ButtonApply" stylename="basic_button" flow_index="1" layout_guid="82b913d4-5c3f-4674-9304-be41c2ce3b25" height="24px" width="90dpi_px" localise_name="Button_Apply" />
+            <Button layout_id="ButtonCancel" stylename="basic_button" flow_index="2" layout_guid="d8dfe7f3-6778-4994-b664-55cb08e9508a" height="24px" width="90dpi_px" localise_name="Button_Cancel" />
+          </Gadgets>
+        </StackPanel>
+      </ChildGadgets>
+    </Client>
+    <Layout layout_name="BasicWindowFrame" />
+  </Layout>
+  <Layout layout_name="RefactorFailedDialog" layout_guid="4bcacfd1-4866-46e1-a62e-2203129fe1c5">
+    <Client>
+      <ChildGadgets>
+        <Grid grid_rowlayout="['50dpi_px', '192dpi_px', '22dpi_px']" grid_columnlayout="['*']">
+          <Cell row="0" column="0">
+            <Gadgets>
+              <StackPanel stack_order="TopToBottom" left="10dpi_px" top="10dpi_px">
+                <Gadgets>
+                  <Label localise_caption="Feather_RefactorFailedDialog_Content1"
+                        halign="hAlignLeft" width="100%" />
+                  <Label localise_caption="Feather_RefactorFailedDialog_Content2"
+                        halign="hAlignLeft" width="100%" left="0dpi_px" />
+                </Gadgets>
+              </StackPanel>
+            </Gadgets>
+          </Cell>
+          <Cell row="1" column="0">
+            <Gadgets>
+              <StackPanel layout_id="ContentStackPanel" height="192dpi_px" stack_order="TopToBottom">
+              </StackPanel>
+            </Gadgets>
+          </Cell>
+          <Cell row="2" column="0">
+            <Gadgets>
+              <Button layout_id="ButtonOK" localise_name="Button_OK" width="120dpi_px" right="10dpi_px" bottom="10dpi_px" />
+            </Gadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+    <Layout layout_name="BasicWindowFrame" />
+  </Layout>
+  
+  <!-- OCCURRENCES GADGET -->
+  <Layout layout_name="OccurrencesGadget" stylename="occurrences_panel" layout_guid="995fe813-226b-4f52-8382-019f04a246dc">
+    <ChildGadgets>
+      <Grid width="100%" height="100%" grid_rowlayout="['*']" grid_columnlayout="['*','auto','auto','auto']"
+            stylename="occurrences_panel_grid">
+        <Cell row="0" column="0">
+          <Gadgets>
+            <Label layout_id="LabelOccurrences" localise_caption="Feather_OccurrencesGadget_Occurrences"
+                    stylename="basic_label" halign="hAlignLeft" width="100%" left="15dpi_px" />
+          </Gadgets>
+        </Cell>
+        <Cell row="0" column="1">
+          <Gadgets>
+            <Button stylename="occurrences_button" layout_id="ButtonPrevious" right="15dpi_px"
+                    layout_guid="846afdac-2522-4069-b07f-590c2b290444"
+                    icon="ArrowLeft.png" />
+          </Gadgets>
+        </Cell>
+        <Cell row="0" column="2">
+          <Gadgets>
+            <Button stylename="occurrences_button" layout_id="ButtonNext" right="15dpi_px"
+                    layout_guid="846afdac-2522-4069-b07f-590c2b290444"
+                    icon="ArrowRight.png" />
+          </Gadgets>
+        </Cell>
+        <Cell row="0" column="3">
+          <Gadgets>
+            <Button stylename="occurrences_button" layout_id="ButtonClose" right="15dpi_px"
+                    layout_guid="846afdac-2522-4069-b07f-590c2b290445"
+                    icon="Feather\IconClose.png" />
+          </Gadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+
+  <Layout layout_name="CodeEditor2_VerticalScrollBar_Preview" layout_guid="280b8577-3e33-452f-901b-29a2a2fe8310">
+	  <Client>
+		  <ChildGadgets>
+			  <StackPanel left="0px" top="0px" stylename="verticalscrollbar_preview_frame">
+                  <Gadgets>
+                      <ScrollPanel layout_id="root_panel" stylename="verticalscrollbar_preview_panel" />
+                  </Gadgets>
+			  </StackPanel>
+		  </ChildGadgets>
+	  </Client>
+	  <Cell row="0" column="0" flow_index="0" layout_id="window_client_panel" />
+  </Layout>
+
+  <!-- TOOLTIP -->
+  <Layout layout_name="Feather_Tooltip" layout_guid="a5ac8147-40d9-4b2c-b165-14f34748e019">
+    <Client>
+      <ChildGadgets>
+        <StackPanel layout_id="root_panel" left="0px" top="0px" stylename="feather_tooltip_panel" />
+      </ChildGadgets>
+    </Client>
+    <Cell row="0" column="0" flow_index="0" layout_id="window_client_panel" />
+  </Layout>
+  <Layout layout_name="Feather_Tooltip_GenericMeta_Signature" layout_guid="f35afcaa-82bf-4818-bef5-2dfd784d877a">
+    <ChildGadgets>
+      <StackPanel layout_id="panel" stylename="feather_tooltip_signature_panel_vert" />
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="Feather_Tooltip_GenericMeta_Description" layout_guid="03466890-c685-49c6-8749-6f59fb83a5ed">
+    <ChildGadgets>
+      <HorizontalSeparator stylename="feather_tooltip_hseparator" />
+      <Label stylename="feather_tooltip_label_desc" layout_id="generic_description" />
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="Feather_Tooltip_GenericMeta_Deprecated" layout_guid="16b428fc-ff98-488d-a0b0-63d8c04c5879">
+    <ChildGadgets>
+      <HorizontalSeparator stylename="feather_tooltip_hseparator" />
+      <Label stylename="feather_tooltip_label_note" layout_id="generic_deprecated" caption="This item is deprecated, its usage is discouraged!" />
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="Feather_Tooltip_GenericMeta_Context" layout_guid="16b428fc-ff98-488d-a0b0-63d8c04c5879">
+    <ChildGadgets>
+      <HorizontalSeparator stylename="feather_tooltip_hseparator" />
+      <StackPanel layout_id="panel_context" left="0px" top="0px" stack_order="LeftToRight" margin="0dpi_px" stack_resize="ResizeAll">
+		  <ChildGadgets>
+			  <Label stylename="feather_tooltip_label_header" layout_id="feather_tooltip_tag_group" caption="@self" />
+			  <Label stylename="feather_tooltip_tag_group" layout_id="generic_context" />
+		  </ChildGadgets>
+      </StackPanel>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="Feather_Tooltip_FunctionMeta_Parameters" layout_guid="e9928c48-8819-4891-9c62-20507dc578fb">
+    <ChildGadgets>
+      <HorizontalSeparator stylename="feather_tooltip_hseparator" />
+      <Grid stylename="feather_tooltip_metadata_grid" layout_id="function_params" grid_rowlayout="[]" />
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="Feather_Tooltip_ResourceMeta" layout_guid="640060af-3461-4bfb-b66d-38de564d9249">
+    <ChildGadgets>
+      <HorizontalSeparator stylename="feather_tooltip_hseparator" />
+      <Grid stylename="feather_tooltip_metadata_grid" grid_rowlayout="['auto']">
+        <Cell row="0" column="0">
+          <Gadgets>
+            <Image stylename="image" layout_id="tag_icon" override_flow_index="9999999" width="12dpi_px" height="12dpi_px" vector_icon_size="12dpi_px" left="2dpi_px" image_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_tagged&quot;]" />
+          </Gadgets>
+        </Cell>
+        <Cell row="0" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_label_desc" layout_id="tags" left="20dpi_px" margin="4dpi_px" />
+          </Gadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="Feather_Tooltip_SoundMeta" layout_guid="a7b7d64a-d909-4240-aa43-c81aace9a5d9">
+    <ChildGadgets>
+      <Grid stylename="feather_tooltip_metadata_grid" grid_rowlayout="['auto','auto']">
+        <Cell row="0" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Volume" />
+          </Gadgets>
+        </Cell>
+        <Cell row="0" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="sound_volume" />
+          </Gadgets>
+        </Cell>
+        <Cell row="1" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Audiogroup" />
+          </Gadgets>
+        </Cell>
+        <Cell row="1" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value_mono" layout_id="sound_audiogroup" />
+          </Gadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="Feather_Tooltip_ShaderMeta" layout_guid="0cd93a8a-ce1d-497b-98e9-54c79ebf6613">
+    <ChildGadgets>
+      <Grid stylename="feather_tooltip_metadata_grid" grid_rowlayout="['auto']">
+        <Cell row="0" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Language" />
+          </Gadgets>
+        </Cell>
+        <Cell row="0" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="shader_type" />
+          </Gadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="Feather_Tooltip_FontMeta" layout_guid="3da171e8-eacc-47f4-b45c-acf4b75eec26">
+    <ChildGadgets>
+      <Label stylename="feather_tooltip_label_desc" layout_id="font_preview" />
+      <HorizontalSeparator stylename="feather_tooltip_hseparator" />
+      <Grid stylename="feather_tooltip_metadata_grid" grid_rowlayout="['auto','auto','auto']">
+        <Cell row="0" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Family" />
+          </Gadgets>
+        </Cell>
+        <Cell row="0" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="font_family" />
+          </Gadgets>
+        </Cell>
+        <Cell row="1" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Style" />
+          </Gadgets>
+        </Cell>
+        <Cell row="1" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="font_style" />
+          </Gadgets>
+        </Cell>
+        <Cell row="2" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Size" />
+          </Gadgets>
+        </Cell>
+        <Cell row="2" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="font_size" />
+          </Gadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="Feather_Tooltip_ObjectMeta_Sprite" layout_guid="82adecaa-c5bd-4b1b-bd31-7dbd1aa1bb62">
+    <ChildGadgets>
+      <Grid stylename="feather_tooltip_grid" grid_rowlayout="['auto']" grid_columnlayout="['auto','auto']">
+        <Cell row="0" column="0">
+          <Gadgets>
+            <Image stylename="image" layout_id="obj_sprite_preview" image_flags="Downscale" width="35dpi_px" height="35dpi_px" override_flow_index="9999999" />
+          </Gadgets>
+        </Cell>
+        <Cell row="0" column="1">
+          <Gadgets>
+            <Grid left="8dpi_px" stylename="feather_tooltip_metadata_grid" margin="0px" grid_rowlayout="['auto','auto']">
+              <Cell row="0" column="0">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_key" caption="Sprite" />
+                </Gadgets>
+              </Cell>
+              <Cell row="0" column="1">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_value_mono" layout_id="obj_sprite" />
+                </Gadgets>
+              </Cell>
+              <Cell row="1" column="0">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_key" caption="Mask" />
+                </Gadgets>
+              </Cell>
+              <Cell row="1" column="1">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_value_mono" layout_id="obj_mask" />
+                </Gadgets>
+              </Cell>
+            </Grid>
+          </Gadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="Feather_Tooltip_ObjectMeta_Settings" layout_guid="8c8bdae3-6e0b-4d09-a183-74664baae206">
+    <ChildGadgets>
+      <Grid stylename="feather_tooltip_metadata_grid" grid_rowlayout="['auto','auto','auto','auto']">
+        <Cell row="0" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Visible" />
+          </Gadgets>
+        </Cell>
+        <Cell row="0" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="obj_visible" />
+          </Gadgets>
+        </Cell>
+        <Cell row="1" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Solid" />
+          </Gadgets>
+        </Cell>
+        <Cell row="1" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="obj_solid" />
+          </Gadgets>
+        </Cell>
+        <Cell row="2" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Persistent" />
+          </Gadgets>
+        </Cell>
+        <Cell row="2" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="obj_persistent" />
+          </Gadgets>
+        </Cell>
+        <Cell row="3" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Uses Physics" />
+          </Gadgets>
+        </Cell>
+        <Cell row="3" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="obj_physics" />
+          </Gadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="Feather_Tooltip_ObjectMeta_Parent" layout_guid="679fb903-55ab-4a2c-ba50-5c4cd61d3f69">
+    <ChildGadgets>
+      <Grid stylename="feather_tooltip_grid" grid_rowlayout="['auto']" grid_columnlayout="['auto','auto']">
+        <Cell row="0" column="0">
+          <Gadgets>
+            <Image stylename="image" layout_id="obj_parent_preview" image_flags="Downscale" width="35dpi_px" height="35dpi_px" override_flow_index="9999999" />
+          </Gadgets>
+        </Cell>
+        <Cell row="0" column="1">
+          <Gadgets>
+            <Grid left="8dpi_px" stylename="feather_tooltip_metadata_grid" margin="0px" grid_rowlayout="['auto']">
+              <Cell row="0" column="0">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_key" caption="Parent" />
+                </Gadgets>
+              </Cell>
+              <Cell row="0" column="1">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_value_mono" layout_id="obj_parent" />
+                </Gadgets>
+              </Cell>
+            </Grid>
+          </Gadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="Feather_Tooltip_SpriteMeta" layout_guid="82c374d1-15a3-4440-84d3-f20782e5281a">
+    <ChildGadgets>
+      <Grid stylename="feather_tooltip_grid" grid_rowlayout="['auto']" grid_columnlayout="['auto']">
+        <Cell row="0" column="0">
+          <Gadgets>
+            <Image stylename="image" layout_id="sprite_preview" image_flags="Downscale" override_flow_index="9999999" />
+          </Gadgets>
+        </Cell>
+      </Grid>
+      <HorizontalSeparator stylename="feather_tooltip_hseparator" />
+      <Grid stylename="feather_tooltip_metadata_grid" grid_rowlayout="['auto','auto','auto']">
+        <Cell row="0" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Type" />
+          </Gadgets>
+        </Cell>
+        <Cell row="0" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="sprite_type" />
+          </Gadgets>
+        </Cell>
+        <Cell row="1" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Resolution" />
+          </Gadgets>
+        </Cell>
+        <Cell row="1" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="sprite_resolution" />
+          </Gadgets>
+        </Cell>
+        <Cell row="2" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Image Number" />
+          </Gadgets>
+        </Cell>
+        <Cell row="2" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="sprite_subimg" />
+          </Gadgets>
+        </Cell>
+      </Grid>
+      <HorizontalSeparator stylename="feather_tooltip_hseparator" />
+      <Grid stylename="feather_tooltip_metadata_grid" grid_rowlayout="['auto','auto','auto']">
+        <Cell row="0" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Collision Type" />
+          </Gadgets>
+        </Cell>
+        <Cell row="0" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="sprite_collision_type" />
+          </Gadgets>
+        </Cell>
+        <Cell row="1" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Bounding Box" />
+          </Gadgets>
+        </Cell>
+        <Cell row="1" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="sprite_collision_box" />
+          </Gadgets>
+        </Cell>
+        <Cell row="2" column="0">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_key" caption="Origin" />
+          </Gadgets>
+        </Cell>
+        <Cell row="2" column="1">
+          <Gadgets>
+            <Label stylename="feather_tooltip_metadata_value" layout_id="sprite_origin" />
+          </Gadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="Feather_Tooltip_ColourMeta" layout_guid="4266a9f4-9aea-4538-83e9-d003220e45c6">
+    <ChildGadgets>
+      <Grid stylename="feather_tooltip_grid" grid_rowlayout="['auto','auto']" grid_columnlayout="['auto','auto','auto']">
+        <Cell row="0" column="0">
+          <Gadgets>
+            <Image layout_id="colour_preview" width="35dpi_px" height="35dpi_px" />
+          </Gadgets>
+        </Cell>
+        <Cell row="1" column="0">
+          <Gadgets>
+            <Label layout_id="colour_hex" stylename="feather_tooltip_metadata_value_mono" right="0px" />
+          </Gadgets>
+        </Cell>
+        <Cell row="0" column="1">
+          <Gadgets>
+            <Label margin_left="16dpi_px" />
+            <Grid stylename="feather_tooltip_metadata_grid" margin="0px" grid_rowlayout="['auto','auto','auto']">
+              <Cell row="0" column="0">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_key" caption="Red" />
+                </Gadgets>
+              </Cell>
+              <Cell row="0" column="1">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_value" layout_id="colour_red" />
+                </Gadgets>
+              </Cell>
+              <Cell row="1" column="0">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_key" caption="Green" />
+                </Gadgets>
+              </Cell>
+              <Cell row="1" column="1">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_value" layout_id="colour_green" />
+                </Gadgets>
+              </Cell>
+              <Cell row="2" column="0">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_key" caption="Blue" />
+                </Gadgets>
+              </Cell>
+              <Cell row="2" column="1">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_value" layout_id="colour_blue" />
+                </Gadgets>
+              </Cell>
+            </Grid>
+          </Gadgets>
+        </Cell>
+        <Cell row="0" column="2">
+          <Gadgets>
+            <Grid stylename="feather_tooltip_metadata_grid" margin="0px" grid_rowlayout="['auto','auto','auto']">
+              <Cell row="0" column="0">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_key" caption="Hue" />
+                </Gadgets>
+              </Cell>
+              <Cell row="0" column="1">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_value" layout_id="colour_hue" />
+                </Gadgets>
+              </Cell>
+              <Cell row="1" column="0">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_key" caption="Saturation" />
+                </Gadgets>
+              </Cell>
+              <Cell row="1" column="1">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_value" layout_id="colour_saturation" />
+                </Gadgets>
+              </Cell>
+              <Cell row="2" column="0">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_key" caption="Value" />
+                </Gadgets>
+              </Cell>
+              <Cell row="2" column="1">
+                <Gadgets>
+                  <Label stylename="feather_tooltip_metadata_value" layout_id="colour_value" />
+                </Gadgets>
+              </Cell>
+            </Grid>
+          </Gadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  
+</Layouts>

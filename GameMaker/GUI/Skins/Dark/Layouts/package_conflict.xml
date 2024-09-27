@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="ImportConflictDialogTEST" layout_guid="d84da6a9-399e-4b89-ad8a-19059a47e8b0">
+    <Window stylename="default_window" height="464dpi_px" width="487dpi_px" left="221px" top="10px" localise_title="MPackage_ConflictsTitle">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" grid_rowlayout="['auto', '24dpi_px', '1*', 'auto']" grid_resize="None">
+            <Cell row="0" column="0" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" layout_id="conflict_msg" layout_guid="68132b30-cacd-47f9-9f77-4c9c316ba5ff" height="16px" top="0px" margin_top="0px" margin_bottom="8dpi_px" localise_caption="MPackage_ConflictsMsg2" word_wrap="True" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="dock_titlebar_focus" left="0px" right="0px" grid_columnlayout="['80dpi_px', '80dpi_px', '1*']">
+                  <Cell row="0" column="0" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" height="16px" width="44px" localise_caption="MPackage_Replace" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" height="16px" width="28px" localise_caption="MPackage_Keep" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" height="16px" width="244px" left="0px" localise_caption="MPackage_ResourceName" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" flow_index="0">
+              <ChildGadgets>
+                <ScrollPanel stylename="default_scrollpanel" layout_id="scroll_panel" layout_guid="8a75420a-d561-40fb-ae92-8dae8d08b37d" colour="#007F7F7F" scrollpanel_flags="VerticalScroll, HorizontalScroll, AdjustToScrollBars">
+                  <ChildGadgets>
+                    <StackPanel stylename="stack_panel" layout_id="res_stack" layout_guid="b43fe912-c9d4-46d3-bb00-cf70f8e9e4bb">
+                      <ChildGadgets>
+                        <Grid stylename="grid_container" height="24dpi_px" left="0px" margin_bottom="1dpi_px" colour="#14000000" grid_columnlayout="['80dpi_px', '80dpi_px', '1*']">
+                          <Cell row="0" column="0" flow_index="0">
+                            <ChildGadgets>
+                              <CheckBox stylename="checkbox_stack" />
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="0" column="1" flow_index="0">
+                            <ChildGadgets>
+                              <CheckBox stylename="checkbox_stack" />
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="0" column="2" flow_index="0">
+                            <ChildGadgets>
+                              <Label stylename="label" height="16px" width="85px" left="0px" caption="resource name" />
+                            </ChildGadgets>
+                          </Cell>
+                        </Grid>
+                      </ChildGadgets>
+                    </StackPanel>
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="3" column="0" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" height="32dpi_px" grid_columnlayout="['90dpi_px', '90dpi_px', '1*']" column_spacing="10dpi_px">
+                  <Cell row="0" column="0" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="button_replace_all" layout_guid="d3dfcd65-f76b-46fa-a199-3f146bc9d76d" bottom="0px" localise_name="MPackage_ReplaceAll" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="button_keep_all" layout_guid="3a186669-9d52-4489-81fa-2bbc33f49f8c" bottom="0px" localise_name="MPackage_KeepAll" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" height="24dpi_px" bottom="0px" stack_order="RightToLeft">
+                        <ChildGadgets>
+                          <Button stylename="button_up" layout_id="button_cancel" layout_guid="9e16dc64-c969-423f-b542-e9cb63e8d70d" width="90dpi_px" right="0px" localise_name="Button_Cancel" />
+                          <Button stylename="button_up" layout_id="button_import" layout_guid="65b49c82-ef99-499a-9244-ce341b4482de" width="90dpi_px" right="110px" margin_right="20dpi_px" localise_name="Button_Import" />
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="ImportConflictDialog" layout_guid="6503a42f-cb03-461d-89ec-1dff549abb68">
+    <Window stylename="default_window" height="464dpi_px" width="487dpi_px" left="221px" top="10px" localise_title="MPackage_ConflictsTitle">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" grid_rowlayout="['auto', '24dpi_px', '1*', 'auto']" grid_resize="None">
+            <Cell row="0" column="0" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" layout_id="conflict_msg" layout_guid="68132b30-cacd-47f9-9f77-4c9c316ba5ff" height="16px" top="0px" margin_top="0px" margin_bottom="8dpi_px" localise_caption="MPackage_ConflictsMsg2" word_wrap="True" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="dock_titlebar_focus" left="0px" right="0px" grid_columnlayout="['80dpi_px', '80dpi_px', '1*']">
+                  <Cell row="0" column="0" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" height="16px" width="44px" localise_caption="MPackage_Replace" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" height="16px" width="28px" localise_caption="MPackage_Keep" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" height="16px" width="89px" left="0px" localise_caption="MPackage_ResourceName" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" flow_index="0">
+              <ChildGadgets>
+                <ScrollPanel stylename="default_scrollpanel" layout_id="scroll_panel" layout_guid="8a75420a-d561-40fb-ae92-8dae8d08b37d" colour="#007F7F7F" scrollpanel_flags="VerticalScroll, HorizontalScroll, AdjustToScrollBars">
+                  <ChildGadgets>
+                    <StackPanel stylename="stack_panel" layout_id="res_stack" layout_guid="3d2c8a69-31a9-4ce4-9da2-31ffc5ea445e" top="0px" stack_resize="ResizeHeight" stack_order="TopToBottom"/>
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="3" column="0" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" height="32dpi_px" grid_columnlayout="['90dpi_px', '90dpi_px', '1*']" column_spacing="10dpi_px">
+                  <Cell row="0" column="0" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="button_replace_all" layout_guid="d3dfcd65-f76b-46fa-a199-3f146bc9d76d" bottom="0px" localise_name="MPackage_ReplaceAll" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="button_keep_all" layout_guid="3a186669-9d52-4489-81fa-2bbc33f49f8c" bottom="0px" localise_name="MPackage_KeepAll" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" height="24dpi_px" bottom="0px" stack_order="RightToLeft">
+                        <ChildGadgets>
+                          <Button stylename="button_up" layout_id="button_cancel" layout_guid="9e16dc64-c969-423f-b542-e9cb63e8d70d" width="90dpi_px" right="0px" localise_name="Button_Cancel" />
+                          <Button stylename="button_up" layout_id="button_import" layout_guid="65b49c82-ef99-499a-9244-ce341b4482de" width="90dpi_px" right="110px" margin_right="20dpi_px" localise_name="Button_Import" />
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

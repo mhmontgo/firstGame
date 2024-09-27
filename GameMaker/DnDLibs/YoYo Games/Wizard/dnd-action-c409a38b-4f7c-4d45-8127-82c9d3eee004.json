@@ -1,0 +1,13 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdRoom",
+    "gadget": "YoYo Games.DnD_ResourceSelection",
+    "gadget_properties": {
+      "TagName": "room",
+      "DefaultValue": "noone",
+      "ResourceFilter": "GMRoom"
+    }
+  }
+]

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="Inspector_Particle_Presets" layout_guid="01512289-7d4d-45cb-8b8b-fe554b0f5dae">
+    <LabeledInspectorPanel>
+      <InspectorParticlePresets>
+        <!-- <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['32dpi_px', '24dpi_px']" grid_resize="ResizeGridHeight"> -->
+        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <ResourceButton stylename="resource_button" layout_id="resource_button" layout_guid="c2bbe47e-e207-46c6-bb0b-24308f9e04e9" override_flow_index="9999999" top="0px" localise_name="ParticleEd_SelectPresetParticles" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <StackPanel stylename="stack_panel" override_flow_index="9999999">
+              <ChildGadgets>
+                <ToggleButton stylename="particle_link_button" layout_id="link_button" layout_guid="8532192c-7d97-4002-9796-91d7d9f87c46" override_flow_index="9999999" width="24dpi_px" left="0px"/>
+                <Button stylename="button_up" layout_id="save_button" layout_guid="9a9ae7b3-c8d7-499d-8dc8-411fb866ba0a" override_flow_index="9999999" width="24dpi_px" left="32px" margin_left="8dpi_px" icon_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_save_search&quot;]" vector_icon_size="16dpi_px" />
+              </ChildGadgets>
+            </StackPanel>
+          </ChildGadgets>
+        </Cell>
+      </InspectorParticlePresets>
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_ParticleTexSelect" layout_guid="2991c712-e37e-442e-b5d5-d49670ea4d5f">
+    <InspectorParticleTexSelector height="135dpi_px" />
+  </Layout>
+  <Layout layout_name="Ins_ParticleTexItem" layout_guid="e8c94236-64bf-453c-a571-394b6e1ea2b5">
+    <ScrollPanel stylename="ab_asset_frame" override_flow_index="9999999" height="60dpi_px" width="60dpi_px">
+      <ChildGadgets>
+        <Grid stylename="grid_container" override_flow_index="9999999" left="4dpi_px" right="4dpi_px" top="4dpi_px" bottom="4dpi_px" grid_rowlayout="['1*', '16dpi_px']" grid_resize="None">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Image stylename="image" layout_id="icon" layout_guid="d7863336-f7b3-421b-a011-aecae33e4150" override_flow_index="9999999" height="28dpi_px" width="28dpi_px" image_flags="Stretch, Centre, KeepAspectRatio" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label_centre" layout_id="label" layout_guid="26f1edfa-e7ec-4c5f-8415-79893d2f3abf" override_flow_index="9999999" height="16px" width="55px" caption="Resource " auto_size="True" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+</Layouts>

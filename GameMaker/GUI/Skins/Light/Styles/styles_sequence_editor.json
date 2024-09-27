@@ -1,0 +1,143 @@
+{
+	"sequence_dope_sheet_hierarchy": {
+		"separator_colour": "#FFe7e7e7",
+		"treeline_colour": "#FF404040"
+	},
+	
+	"sequence_dope_sheet_hierarchy_item": {
+		"bg_colour": "#FFbfc0c0",
+		"selected_colour": "#FFa99a94",
+		"separator_colour": "#FFe7e7e7"
+	},
+	
+	"sequence_dope_sheet_hierarchy_item_param": {
+		"bg_colour": "#FFd7d7d7",
+		"separator_colour": "#FFe7e7e7"
+	},
+	
+	"sequence_trackpanel_displayname": {
+		"colour": "#FF000000"
+	},
+
+	"dope_sheet_track_resource": {
+		"parameter_indicator_colour": "#99FFFFFF",
+		"track_bg_color": "#FFbfc0c0"
+	},
+	
+	"dope_sheet_track_param": {
+		"track_bg_color": "#FFd7d7d7"
+	},
+	
+	"dope_sheet_track_param_hidden": {
+		"track_bg_color": "#FFd7d7d7"
+	},
+	
+	"dope_sheet_track_group": {
+		"parameter_indicator_colour": "#99FFFFFF",
+		"track_bg_color": "#FFbfc0c0"
+	},
+	
+	"dope_sheet_track_group_locked": {
+		"track_bg_color": "#FFd7d7d7"
+	},
+	
+	"dope_sheet_track_group_selected": {
+		"track_bg_color": "#FFa99a94"
+	},
+	
+	"dope_sheet_track_group_hidden": {
+		"track_bg_color": "#FFd7d7d7"
+	},
+	
+	"dope_sheet_track_clipmask_selected": {
+		"track_bg_color": "#FFa99a94"
+	},
+
+	"dope_sheet_track_clipmask_hidden": {
+		"track_bg_color": "#FFd7d7d7",
+	},
+
+	"dope_sheet_track_clipmask_icon": {
+		"colour": "#99000000"
+	},
+
+	"dope_sheet_track_clipmask_icon_hidden": {
+		"colour": "#66FFFFFF"
+	},
+	
+	
+	"dope_sheet_key_resource_properties_btn": {
+		"icon_colour": "#FF000000",
+		"label_colour": "#FF000000",
+	},
+	
+	"dope_sheet_key_resource_properties_btn_hidden": {
+		"icon_colour": "#66000000",
+		"label_colour": "#66000000"
+	},
+	
+	"dope_sheet_key_param_selected": {
+		"key_colour": "#FF00fff0", 
+		"frame_name": "DopeSheet/ds_key_indicator_lines_white.png", 
+		"border_image_left": "DopeSheet/ds_key_indicator_white.png"
+	},
+	
+	"dope_sheet_key_param_hidden": {
+		"key_colour": "#66000000"
+	},
+	
+	"dope_sheet_track_hierarchy_btn_keyeditor_link": {
+		"icon_colour": "#FF787878",
+	},
+	
+	"dope_sheet_track_hierarchy_btn_keyeditor_link_position_label": {
+		"colour": "#FF787878"
+	},
+	
+	"dope_sheet_track_hierarchy_text_channel": {
+		"text_colour": "#FF7a3c3e",
+	},
+	
+	"dope_sheet_track_hierarchy_text_channel_deactivated": {
+		"text_colour": "#FF666666"
+	},
+	
+	"dope_sheet_track_hierarchy_text_channel_delta": {
+		"text_colour": "#FF00fff0"
+	},
+	
+	"dope_sheet_track_hierarchy_text_channel_string_deactivated": {
+		"text_colour": "#FF666666"
+	},
+	
+	"dope_sheet_track_hierarchy_text_channel_string_delta": {
+		"text_colour": "#FF00fff0"
+	},
+	
+	"dope_sheet_track_hierarchy_label_separator": {
+		"colour": "#FF7a3c3e",
+	},
+	
+	"dope_sheet_track_hierarchy_text_units": {
+		"colour": "#FF666666",
+	},
+	
+	"sequence_trackpanel_displayname": {
+		"colour": "#FF030303"
+	},
+	
+	"sequence_trackpanel_displayname_delta": {
+		"colour": "#FF00fff0"
+	},	
+	
+	"sequence_trackpanel_modified_asterisk": {
+		"colour": "#FF00fff0"
+	},
+	
+	"sequence_translation_path": {
+		anchor_color: "#FF970000", 
+		parent_anchor_color: "#FF970000", 
+		anchor_preview_color: "#66970000", 
+		path_color: "#EE970000", 
+	}
+}

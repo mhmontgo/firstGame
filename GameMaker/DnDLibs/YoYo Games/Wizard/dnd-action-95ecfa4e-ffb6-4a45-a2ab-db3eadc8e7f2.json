@@ -1,0 +1,26 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdSound",
+    "gadget": "YoYo Games.DnD_ResourceSelection",
+    "gadget_properties": {
+      "TagName": "sound",
+      "DefaultValue": "noone",
+      "ResourceFilter": "GMSound"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdTimeInSecs",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "time",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  }
+]

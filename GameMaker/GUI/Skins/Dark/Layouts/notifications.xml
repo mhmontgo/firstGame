@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="Notification_BuyNow" layout_guid="e3d8e74c-162c-4c27-a31b-026f75064a12">
+    <Grid stylename="notification_buynow_grid" height="45dpi_px" left="2px" right="2px" top="2px" margin_top="2px" grid_rowlayout="['auto']" grid_columnlayout="['1*', 'auto']" row_spacing="4px">
+      <Cell row="0" column="0" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="notification_buynow_label" layout_id="label_message" layout_guid="e08d8568-d452-4710-93c9-971998c30742" height="32px" left="20dpi_px" margin_bottom="2px" localise_caption="IDE_License_Label" word_wrap="True" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="notification_buynow_button" layout_id="btn_buynow" layout_guid="61b25ce1-e93f-4fca-abac-6381d0388733" width="80dpi_px" margin_right="20dpi_px" localise_name="LicenseNotification_ButtonBuyNow" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="NotificationPopupNoDpi" layout_guid="a162d9e2-6ec3-4943-a901-962816be613a">
+    <Grid stylename="grid_container" left="8px" right="8px" top="2px" grid_rowlayout="['auto', 'auto']" row_spacing="4px" grid_resize="ResizeGrid">
+      <Cell row="0" column="0" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="notification_title_label_nodpi" layout_id="label_title" height="22px" width="78px" left="0px" caption="Runtimes" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="notification_message_label_nodpi" layout_id="label_message" height="32px" left="0px" margin_bottom="2px" caption="A new runtime is available in Master." word_wrap="True" />
+        </ChildGadgets>
+      </Cell>
+      <Gadgets>
+        <CloseButton stylename="close_button_up_nodpi" layout_id="notification_close" layout_guid="945ab029-977b-4493-8f42-6725115d44cc" height="16px" width="16px" />
+      </Gadgets>
+    </Grid>
+  </Layout>
+  <Layout layout_name="NotificationPopup" layout_guid="5c002296-50cd-403f-8084-90fbb796720e">
+    <Grid stylename="grid_container" left="8dpi_px" right="8dpi_px" top="2dpi_px" grid_rowlayout="['auto', 'auto']" row_spacing="4dpi_px" grid_resize="ResizeGrid">
+      <Cell row="0" column="0" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="notification_title_label" layout_id="label_title" layout_guid="09569c89-180b-41c0-8452-bd966f59737b" height="22px" width="78px" left="0px" caption="Runtimes" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="notification_message_label" layout_id="label_message" layout_guid="1ac69037-4595-4d56-89f3-b5e6de4e365d" height="32px" left="0px" margin_bottom="2dpi_px" caption="A new runtime is available in Master." word_wrap="True" />
+        </ChildGadgets>
+      </Cell>
+      <Gadgets>
+        <CloseButton stylename="close_button_up" layout_id="notification_close" layout_guid="945ab029-977b-4493-8f42-6725115d44cc" height="16dpi_px" width="16dpi_px" />
+      </Gadgets>
+    </Grid>
+  </Layout>
+  <Layout layout_name="NotificationPopup_LicenseExpiry" layout_guid="b963bc3a-4403-4002-90e1-30a9da423fa6">
+    <Grid stylename="grid_container" left="8dpi_px" right="8dpi_px" top="2dpi_px" grid_rowlayout="['auto', 'auto']" row_spacing="4dpi_px" grid_resize="ResizeGrid">
+      <Cell row="0" column="0" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="notification_title_label" layout_id="label_title" layout_guid="53e27628-90ee-405d-9754-998034db28e8" height="22px" width="78px" left="0px" caption="Runtimes" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" stack_resize="ResizeHeight">
+            <ChildGadgets>
+              <Label stylename="notification_message_label" layout_id="label_message" layout_guid="a76aaeab-7732-485e-bbb7-45bd6044f2ea" height="16px" width="272px" left="0px" top="0px" caption="You have 17 days remaining of your 30 Day Trial." />
+              <Label stylename="notification_expiry_label" height="16px" width="49px" left="276px" top="0px" margin_left="4dpi_px" localise_caption="LicenseNotification_BuyNow" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Gadgets>
+        <CloseButton stylename="close_button_up" layout_id="notification_close" layout_guid="82728635-9b17-4b42-b477-dd9669758e2f" height="16dpi_px" width="16dpi_px" />
+      </Gadgets>
+    </Grid>
+  </Layout>
+</Layouts>

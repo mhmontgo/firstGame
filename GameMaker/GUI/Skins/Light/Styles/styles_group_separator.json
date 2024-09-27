@@ -1,0 +1,29 @@
+{
+	"group_box": {
+		"colour": "group_box"
+	},
+
+	"group_label": {
+		"colour": "group_label"
+	},
+
+	"group_label_wrapped": {
+		"colour": "group_label"
+	},
+
+	"group_box_label_with_icon": {
+		"colour": "group_box"
+	},
+
+	"horizontal_separator_label": {
+		"colour": "group_label"
+	},
+
+	"vertical_separator": {
+		"colour": "group_separator"
+	},
+
+	"horizontal_separator": {
+		"colour": "group_separator"
+	}
+}

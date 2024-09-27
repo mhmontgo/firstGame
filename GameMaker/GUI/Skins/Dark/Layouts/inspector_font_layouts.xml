@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="Inspector_FontGlyphRange" layout_guid="42b76933-098d-4d00-8034-b471a8899ec6">
+    <Inspector_FontRangePanel stylename="ins_fontrange_panel" override_flow_index="9999999" height="240dpi_px" left="6dpi_px" right="6dpi_px" grid_rowlayout="['48dpi_px', '1*']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="button_up" layout_id="btn_edit_glyphs" layout_guid="83668fdd-6d8f-40ee-8228-35ce1c519073" override_flow_index="9999999" localise_name="Inspector_EditGlyphs" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="bordered_scrollpanel_dark_alpha" layout_id="range_container" layout_guid="0c25f8e9-f40d-4b17-bf14-edde0dcdc933" override_flow_index="9999999" grid_rowlayout="['28dpi_px', '1*']">
+            <Cell row="0" column="0" stylename="bordered_scrollpanel_dark_alpha" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" layout_id="range_header" layout_guid="315f77f9-dd95-452d-b5d3-bc573520b3b2" override_flow_index="9999999" grid_columnlayout="['90dpi_px', '1*']">
+                  <Cell row="0" column="0" stylename="ins_header_colour" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" override_flow_index="9999999" height="16px" width="35px" left="8dpi_px" localise_caption="Inspector_Range" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="ins_header_colour" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" override_flow_index="9999999" height="16px" width="38px" left="8dpi_px" localise_caption="Inspector_Category_Glyphs" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="bordered_scrollpanel_dark_alpha_panel" flow_index="0">
+              <ChildGadgets>
+                <ScrollPanel stylename="default_scrollpanel" layout_id="range_panel" layout_guid="b5cfb45d-6dbf-466f-a89f-63467b1ee868" override_flow_index="9999999" scrollpanel_flags="VerticalScroll, AdjustToScrollBars" />
+              </ChildGadgets>
+            </Cell>
+            <Gadgets>
+              <VerticalSeparator stylename="dark_separator2" override_flow_index="9999999" left="90dpi_px" top="1px" bottom="1px" />
+            </Gadgets>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Inspector_FontRangePanel>
+  </Layout>
+  <Layout layout_name="Inspector_GlyphEditor" layout_guid="16aebcae-79ba-4d4c-a151-a79ed5a1a2ef">
+    <Window stylename="ab_borderless_window" override_flow_index="9999999" height="484dpi_px" width="676dpi_px" left="7px" top="12px" localise_title="Inspector_EditGlyphsTitle" window_flags="Borderless, CloseButton, MaximizeButton, ResizeButton, ScrollBars">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['60dpi_px', '1*', '32dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <HorizontalSeparator stylename="inspector_hseparator" override_flow_index="9999999" bottom="12dpi_px" />
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" left="6dpi_px" top="12dpi_px">
+                  <ChildGadgets>
+                    <ToggleButton stylename="button_up" layout_id="btn_normal" layout_guid="0022d487-f2df-473e-8338-7c44ecfbb613" override_flow_index="9999999" width="120dpi_px" left="0px" localise_name="fontrange_normal" />
+                    <ToggleButton stylename="button_up" layout_id="btn_digits" layout_guid="dbb37ece-c69d-436e-a6af-7d3eba6bddbe" override_flow_index="9999999" width="120dpi_px" left="134px" margin_left="14dpi_px" localise_name="fontrange_digits" />
+                    <ToggleButton stylename="button_up" layout_id="btn_ascii" layout_guid="de0eabae-8d34-4ccf-a8ce-79757761db8e" override_flow_index="9999999" width="120dpi_px" left="268px" margin_left="14dpi_px" localise_name="fontrange_ascii" />
+                    <ToggleButton stylename="button_up" layout_id="btn_letters" layout_guid="53475e9d-5602-4709-a869-6daf21cfca86" override_flow_index="9999999" width="120dpi_px" left="402px" margin_left="14dpi_px" localise_name="fontrange_letters" />
+                    <ToggleButton stylename="button_up" layout_id="btn_all" layout_guid="f6b4a1dd-872d-4253-9c75-2c267d8026a3" override_flow_index="9999999" width="120dpi_px" left="536px" margin_left="14dpi_px" localise_name="fontrange_all" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell layout_id="glyph_panel_cell" layout_guid="d7cea0d7-f1d1-4ce3-8536-0fcba8603824" row="1" column="0" stylename="grid_container_panel" flow_index="0" />
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" top="0px">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="16px" width="49px" left="6px" margin_left="6dpi_px" localise_caption="Inspector_Unicode" />
+                    <Label stylename="label" layout_id="label_ucode" layout_guid="a7ed4545-b8bd-4024-b7b3-5ab09a64184b" override_flow_index="9999999" height="16px" width="60dpi_px" left="59px" margin_left="4dpi_px" auto_size="False" />
+                    <Label stylename="label" override_flow_index="9999999" height="16px" width="38px" left="145px" margin_left="6dpi_px" localise_caption="Inspector_SelectedRange" />
+                    <Label stylename="label" layout_id="label_ucode_range" layout_guid="7d165674-099b-43a2-9850-df8df844c47d" override_flow_index="9999999" height="16px" width="100dpi_px" left="187px" margin_left="4dpi_px" auto_size="False" />
+                    <Label stylename="label" override_flow_index="9999999" height="16px" width="48px" left="273px" margin_left="6dpi_px" localise_caption="Inspector_FontJumpTo" />
+                    <TextBox stylename="text_box" layout_id="goto_textbox" layout_guid="8ee78c05-1bb7-49bc-b39c-1cf00641f090" override_flow_index="9999999" height="24dpi_px" width="80dpi_px" left="325px" margin_left="4dpi_px" margin_top="2dpi_px" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="ABBorderlessWindowFrame" layout_guid="198a48e1-1cbb-4df6-b691-cd962d8b5856" />
+    </Window>
+  </Layout>
+</Layouts>

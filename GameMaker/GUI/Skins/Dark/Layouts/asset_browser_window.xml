@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="ABBorderlessWindow" layout_guid="61019ece-1878-4680-8daf-b6b3a51cf5d7">
+    <Window stylename="ab_borderless_window">
+      <Client />
+      <Layout layout_name="ABBorderlessWindowFrame" />
+    </Window>
+  </Layout>
+
+  <Layout layout_name="ABPopupWindow">
+    <PopupWindow stylename="ab_popup_window">
+      <Client />
+      <Layout layout_name="ABBorderlessWindowFrame" />
+    </PopupWindow>
+  </Layout>
+  
+  <Layout layout_name="ABBorderlessWindowFrame" layout_guid="198a48e1-1cbb-4df6-b691-cd962d8b5856">
+    <Cell row="0" column="1" flow_index="1">
+      <Gadgets>
+        <TitleBar stylename="ab_title_bar" layout_id="window_title_bar" layout_guid="18af760a-fe2e-4503-ae6d-d1acfd813101" title="Basic Window">
+          <Gadgets>
+            <Grid stylename="grid_container" grid_columnlayout="['auto', '1*', 'auto', 'auto']">
+              <Cell row="0" column="0" layout_id="icon_cell" stylename="grid_container_panel" flow_index="0" />
+              <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Label stylename="borderless_title_bar_label" layout_id="title_bar_label" layout_guid="25f475a9-f7d2-4eec-a5c8-d20ec9a84bff" caption="Basic Window" margin_right="0px"/>
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="2" stylename="grid_container_panel" flow_index="4">
+                <ChildGadgets>
+                  <StackPanel stylename="title_button_stack" layout_id="title_button_stack" layout_guid="cdbe3343-87cf-4a75-991c-22fdaf515f88" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="3" stylename="grid_container_panel" flow_index="4">
+                <ChildGadgets>
+                  <CloseButton stylename="borderless_close_button_up" layout_id="window_close_button" layout_guid="4d0a1121-1c0f-4374-808c-455d373c87a9" margin_left="4dpi_px"/>
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+          </Gadgets>
+        </TitleBar>
+      </Gadgets>
+    </Cell>
+    <Cell row="1" column="1" flow_index="0" layout_id="window_client_panel" />
+  </Layout>
+</Layouts>

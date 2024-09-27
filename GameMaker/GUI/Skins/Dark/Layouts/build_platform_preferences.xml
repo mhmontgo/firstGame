@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="OperaGXPackageType_Window">
+    <Window stylename="confirm_dialog">
+      <Layout layout_name="OperaGXPackageType" />
+    </Window>
+  </Layout>
+  <Layout layout_name="OperaGXPackageType" layout_guid="84e319ef-ac87-444f-8d14-e842c6cb788f">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <StackPanel stylename="stack_panel" height="100%" width="100%" left="0px" top="0px" stack_order="TopToBottom">
+          <ChildGadgets>
+            <Button stylename="button_up" layout_id="yes_button" layout_guid="1a37045a-1dec-43ad-a6c0-c5b55bdc2f60" override_flow_index="9999999" width="250dpi_px" top="10px" margin_top="10px" localise_name="gx_package_upload_game" />
+            <Button stylename="button_up" layout_id="no_button" layout_guid="dd1a1e87-3059-4939-b414-a88f580da3e9" override_flow_index="9999999" width="250dpi_px" top="44px" margin_top="10px" localise_name="gx_package_upload_wallpaper" />
+            <Button stylename="button_up" layout_id="user1_button" layout_guid="013d850d-14c0-4897-803f-fc4a162b7395" override_flow_index="9999999" width="250dpi_px" top="78px" margin_top="10px" localise_name="gx_package_upload_gamestrip" />
+            <StackPanel stylename="stack_panel" top="117px" margin_top="15px">
+              <ChildGadgets>
+                <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="ebb84924-599b-4591-8c09-283fb367ff4e" left="10px" margin_left="10px" localise_name="windows_package_remember" />
+              </ChildGadgets>
+            </StackPanel>
+          </ChildGadgets>
+        </StackPanel>
+      </ChildGadgets>
+    </Client>
+  </Layout>  
+  <Layout layout_name="OperaGXPackageUpload" layout_guid="18551300-8c54-4768-9187-a1fc62f98479">
+    <Window stylename="window" layout_id="operagx_package_window" layout_guid="8077941f-2a23-439f-b1f8-d0c6b62275ce" override_flow_index="9999999" height="480dpi_px" width="360dpi_px" localise_title="operagx_package_title" window_flags="CloseButton, MinimizeButton, DockingDisabled, DesktopTransferDisabled">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['40dpi_px', '1*', '40dpi_px', '40dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="login_button" layout_guid="717812bf-3fcd-44da-9e86-c14eb6ae9e06" override_flow_index="9999999" width="250dpi_px" localise_name="operagx_login" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <MultiLineTextBox stylename="multiline_text_box" layout_id="output" layout_guid="3dfabc4a-6dba-4c38-9ecb-31f37f8c3cb2" override_flow_index="9999999" height="" width="" read_only="True" wrap_text="True" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ProgressBar stylename="progressbar_frame" layout_id="progress_bar" layout_guid="c0bc5a6b-f3ce-4ffe-b7e8-930589ca7d1c" override_flow_index="9999999" width="" left="7dpi_px" right="7dpi_px" margin_left="" margin_right="" margin_top="" margin_bottom="" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="view_on_web_button" layout_guid="b253dbbe-74cf-4f58-bfe4-1da0eb6ab79f" override_flow_index="9999999" width="250dpi_px" margin_top="10dpi_px" localise_name="operagx_view_on_web" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="androidkeystore_test" layout_guid="9b40b154-1108-4b30-aefd-5fbf0e3064dd">
+    <StackPanel stylename="androidkeystore_style">
+      <Layout layout_name="settings_layout_androidkeystore" />
+    </StackPanel>
+  </Layout>
+  <Layout layout_name="settings_layout_androidkeystore" layout_guid="b9ebc0f8-f63c-49cf-a001-b075a05515aa">
+    <!--<StackPanel stylename="androidkeystore_style">-->
+      <ChildGadgets>
+        <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" top="7.5px" margin_top="5dpi_px" grid_columnlayout="['auto', '1*']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" height="25px" width="77px" left="5px" top="5dpi_px" margin_left="5dpi_px" margin_right="5dpi_px" localise_caption="keystore_filename" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <FileInputGadget stylename="file_input" layout_id="filename" layout_guid="07f20fcb-9aa1-473d-a5c4-6158da8ac4a1" left="5dpi_px" right="7dpi_px" top="0dpi_px" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+        <StackPanel stylename="stack_panel" left="491px" top="43px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+          <ChildGadgets>
+            <Grid stylename="grid_container" override_flow_index="9999999" height="300dpi_px" left="5px" right="0px" top="0px" grid_rowlayout="['1*', '1*', '1*', '1*', '1*', '1*', '1*', '1*']" grid_columnlayout="['1*', '1*']" row_spacing="0dpi_px" column_spacing="0dpi_px" grid_resize="ResizeGrid">
+              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['37%', '63%']" column_spacing="5dpi_px">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" left="0px" localise_caption="keystore_commonname" word_wrap="True" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <TextBox stylename="text_box" layout_id="common_name" layout_guid="78c54885-3cd9-4185-9548-1d4889fd6e0c" override_flow_index="9999999" left="0px" right="5dpi_px"/>
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Grid stylename="grid_container" override_flow_index="9999999" left="5dpi_px" right="0px" grid_columnlayout="['43%', '57%']" column_spacing="5dpi_px">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" left="0px" localise_caption="keystore_organisationalunit" word_wrap="True" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <TextBox stylename="text_box" layout_id="organisational_unit" layout_guid="bfb5e815-b533-42f3-9e61-f837ae607169" override_flow_index="9999999" left="0px" right="5dpi_px" />
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                </ChildGadgets>
+              </Cell>
+              <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['37%', '63%']" column_spacing="5dpi_px">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" left="0px" localise_caption="keystore_password" word_wrap="True" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>	
+                        <TextBox stylename="text_box" layout_id="password" layout_guid="fa4cd8f8-1f74-43b4-8790-eb1483294024" left="0px" right="5dpi_px" />
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                </ChildGadgets>
+              </Cell>
+              <Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Grid stylename="grid_container" override_flow_index="9999999" left="5dpi_px" right="0px" grid_columnlayout="['43%', '57%']" column_spacing="5dpi_px">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" left="0px"  localise_caption="keystore_organisation" word_wrap="True" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>	
+                        <TextBox stylename="text_box" layout_id="organisation" layout_guid="cebc21c2-2443-4cbf-be0c-f8dfac71c4f6" left="0px" right="5dpi_px" />
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>										
+                </ChildGadgets>
+              </Cell>
+              <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['37%', '63%']" column_spacing="5dpi_px">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" left="0px" localise_caption="keystore_alias" auto_size="False" word_wrap="True" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <TextBox stylename="text_box" layout_id="alias" layout_guid="9fc6c33a-a572-4696-8e04-2615291fe342" left="0px" right="5dpi_px" />
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>										
+                </ChildGadgets>
+              </Cell>
+              <Cell row="2" column="1" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Grid stylename="grid_container" override_flow_index="9999999" left="5dpi_px" right="0px" grid_columnlayout="['43%', '57%']" column_spacing="5dpi_px">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" left="0px" localise_caption="keystore_location" word_wrap="True" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <TextBox stylename="text_box" layout_id="location" layout_guid="be5202a0-5d87-4a75-959f-a52a8b53a5b3" left="0px" right="5dpi_px" />
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>										
+                </ChildGadgets>
+              </Cell>
+              <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['37%', '63%']" column_spacing="5dpi_px">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" left="0px" localise_caption="keystore_alias_password" word_wrap="True" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <TextBox stylename="text_box" layout_id="alias_password" layout_guid="6dec88d1-145d-43da-baff-04b639c7077f" left="0px" right="5dpi_px" />
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                </ChildGadgets>
+              </Cell>
+              <Cell row="3" column="1" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Grid stylename="grid_container" override_flow_index="9999999" left="5dpi_px" right="0px" grid_columnlayout="['43%', '57%']" column_spacing="5dpi_px">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" left="0px" margin_right="5dpi_px" localise_caption="keystore_country" word_wrap="True" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <TextBox stylename="text_box" layout_id="country" layout_guid="727b2033-3072-43bd-bc40-aff49db572c5" left="0px" right="5dpi_px" />
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                </ChildGadgets>
+              </Cell>
+              <Cell row="4" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="button_up" layout_id="import" layout_guid="b2365360-a56a-4282-ae9d-78559dbcdb68" height="33px" width="75%" localise_name="Import" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="5" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Label stylename="label" override_flow_index="9999999" height="16px" width="286px" left="5dpi_px" margin_left="5dpi_px" margin_right="5dpi_px" localise_caption="keystore_keyhash" auto_size="False" word_wrap="True" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="5" column="1" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <TextBox stylename="text_box" layout_id="keyhash" layout_guid="21c06a19-b29c-4934-91e6-fdfd2eea3242" margin_left="5dpi_px" margin_right="5dpi_px" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="6" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Label stylename="label" override_flow_index="9999999" height="16px" width="288px" left="5dpi_px" margin_left="5dpi_px" margin_right="5dpi_px" localise_caption="keystore_keyhash_sha1" auto_size="False" word_wrap="True" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="6" column="1" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <TextBox stylename="text_box" layout_id="keyhash_sha1" layout_guid="717646b9-869e-498a-bae7-6d898950519c" margin_left="5dpi_px" margin_right="5dpi_px" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="7" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="button_up" layout_id="show_keyhash" layout_guid="d106e5ac-26af-421a-85d4-761f2dbe5cdf" height="33px" width="75%" localise_name="keystore_show_keyhash" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="7" column="1" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="button_up" layout_id="generate_keyhash" layout_guid="b5375d49-7b8f-490f-81a3-003d276373fa" height="33px" width="75%" localise_name="keystore_generate_keyhash" />
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+            <Grid stylename="grid_container" height="50dpi_px" top="450px" grid_rowlayout="['1*', '1*', '1*']">
+              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Label stylename="label" height="25px" width="426px" top="0px" localise_caption="android_keystore_warning1" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Label stylename="label" height="25px" width="547px" top="0px" localise_caption="android_keystore_warning2" />
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+          </ChildGadgets>
+        </StackPanel>
+      </ChildGadgets>
+    <!--</StackPanel>-->
+  </Layout>
+  <Layout layout_name="WindowsUWPPackageType" layout_guid="f328b90c-bfde-47bc-814b-48f33604fa78">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <StackPanel stylename="stack_panel" height="100%" top="0px" left="0px" width="100%" stack_order="TopToBottom">
+          <ChildGadgets>
+            <Label stylename="label" height="16dpi_px" margin_left="5px" localise_caption="windows_uwp_package_for" />
+            <StackPanel stylename="stack_panel" margin_top="10px" height="20dpi_px" stack_order="LeftToRight">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" width="20%" stack_order="LeftToRight">
+                  <ChildGadgets>
+                    <CheckBox stylename="checkbox_stack" layout_id="store_package_uwp_arm_checkbox" margin_left="10px" layout_guid="ebb84924-599b-4591-8c09-283fb367ff4d" />
+                    <Label stylename="label" height="16dpi_px" margin_left="5px" localise_caption="windows_uwp_arm" />
+                  </ChildGadgets>
+                </StackPanel>
+                <StackPanel stylename="stack_panel" width="20%" stack_order="LeftToRight">
+                  <ChildGadgets>
+                    <CheckBox stylename="checkbox_stack" layout_id="store_package_uwp_x86_checkbox" margin_left="10px" layout_guid="ebb84924-599b-4591-8c09-283fb367ff4d" />
+                    <Label stylename="label" height="16dpi_px" margin_left="5px" localise_caption="windows_uwp_x86" />
+                  </ChildGadgets>
+                </StackPanel>
+                <StackPanel stylename="stack_panel" width="20%" stack_order="LeftToRight">
+                  <ChildGadgets>
+                    <CheckBox stylename="checkbox_stack" layout_id="store_package_uwp_x64_checkbox" margin_left="10px" layout_guid="ebb84924-599b-4591-8c09-283fb367ff4d" />
+                    <Label stylename="label" height="16dpi_px" margin_left="5px" localise_caption="windows_uwp_x64" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </StackPanel>
+            <StackPanel stylename="stack_panel" margin_top="10px" height="20dpi_px" stack_order="LeftToRight">
+              <ChildGadgets>
+                <CheckBox stylename="checkbox_stack" layout_id="store_package_checkbox" margin_left="10px" layout_guid="ebb84924-599b-4591-8c09-283fb367ff4e" />
+                <Label stylename="label" height="16dpi_px" margin_left="5px" localise_caption="windows_uwp_package_upload" />
+              </ChildGadgets>
+            </StackPanel>
+            <StackPanel stylename="stack_panel" margin_top="10px" height="36dpi_px" stack_order="LeftToRight">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="yes_button" layout_guid="05b4b241-ba32-4654-879c-2170dfdcdf58" height="18dpi_px" width="100dpi_px" margin_top="4px" localise_name="Button_OK" />
+                <Button stylename="button_up" layout_id="no_button" layout_guid="29ab1467-5963-4e5d-872a-b49c3a455957" height="18dpi_px" width="100dpi_px" margin_left="8px" margin_top="4px" localise_name="Button_Cancel" />
+              </ChildGadgets>
+            </StackPanel>
+          </ChildGadgets>
+        </StackPanel>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="settings_layout_androidsdkcheck" layout_guid="766a4636-5322-4d29-8d7e-06c10df72310">
+    <Cell row="0" column="0" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" height="16dpi_px" width="120dpi_px" localise_caption="android_sdklocation" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="1" flow_index="0">
+      <ChildGadgets>
+        <TextBox stylename="text_box" layout_id="sdk_path" layout_guid="4a9f8990-58ad-4986-8ab7-c9d6b85b7b4f" width="90%" left="0dpi_px" />
+        <Button stylename="settings_browse_button" layout_id="sdk_browse" layout_guid="ed258912-b160-4a1a-b99d-a696507ea14b" height="24dpi_px" right="0dpi_px" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="1" column="0" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" height="16dpi_px" width="122dpi_px" localise_caption="android_ndklocation" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="1" column="1" flow_index="0">
+      <ChildGadgets>
+        <TextBox stylename="text_box" layout_id="ndk_path" layout_guid="4d458a1d-8fe8-4a52-89af-22803f77fc53" width="90%" left="0dpi_px" />
+        <Button stylename="settings_browse_button" layout_id="ndk_browse" layout_guid="211ecfe1-8e08-4b1b-ac92-142ec81d759a" height="24dpi_px" right="0dpi_px" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="2" column="0" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" height="16dpi_px" width="95dpi_px" localise_caption="android_jdklocation" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="2" column="1" flow_index="0">
+      <ChildGadgets>
+        <TextBox stylename="text_box" layout_id="jdk_path" layout_guid="60393bf3-a9e3-4068-ba44-6a8b6e82ac33" width="90%" left="0dpi_px" />
+        <Button stylename="settings_browse_button" layout_id="jdk_browse" layout_guid="bc31e020-1324-44b3-aabc-471de9bf7b26" height="24dpi_px" right="0dpi_px" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="3" column="0" flow_index="0">
+      <ChildGadgets>
+        <Button stylename="button_up" layout_id="check_sdk" layout_guid="9dc6dbf5-db7f-4f72-b94e-db1704fdd97b" height="24dpi_px" left="5dpi_px" right="5dpi_px" margin_left="5dpi_px" margin_right="5dpi_px" localise_name="android_checksdk" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="3" column="1" flow_index="0">
+      <ChildGadgets>
+        <TextBox stylename="text_box" layout_id="sdk_valid" layout_guid="9bb4ed5a-6f04-44d8-83d3-87ed37ba42b6" left="5dpi_px" right="5dpi_px" margin_left="5dpi_px" margin_right="5dpi_px" localise_default_caption="android_issdkvalid" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="4" column="0" flow_index="0">
+      <ChildGadgets>
+        <Button stylename="button_up" layout_id="check_ndk" layout_guid="ee77711b-83cb-4361-8c6e-07bef5d8ba4b" height="24dpi_px" left="5dpi_px" right="5dpi_px" margin_left="5dpi_px" margin_right="5dpi_px" localise_name="android_checkndk" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="4" column="1" flow_index="0">
+      <ChildGadgets>
+        <TextBox stylename="text_box" layout_id="ndk_valid" layout_guid="4b7ecf28-e16f-43b4-96ad-9a330c94de3b" left="5dpi_px" right="5dpi_px" margin_left="5dpi_px" margin_right="5dpi_px" localise_default_caption="android_isndkvalid" />
+      </ChildGadgets>
+    </Cell>
+  </Layout>
+  <Layout layout_name="WindowPackageType_Window" layout_guid="88fcbf56-088e-4c63-8dac-f43c0d22602e">
+    <Window stylename="confirm_dialog">
+      <Layout layout_name="WindowsPackageType" />
+    </Window>
+  </Layout>
+  <Layout layout_name="WindowPackageType_Window" layout_guid="10a8d39e-a8db-4efb-96fb-c45ad239c4ff">
+    <Window stylename="confirm_dialog">
+      <Layout layout_name="WindowsPackageType" />
+    </Window>
+  </Layout>
+  <Layout layout_name="settings_layout_singlebutton" layout_guid="b9ebc0f8-f63c-49cf-a001-b075a05515aa">
+    <ChildGadgets>
+      <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" width="225dpi_px" top="0px" grid_columnlayout="['auto', 'auto']">
+        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Button stylename="settings_podfile_button" layout_id="button" layout_guid="725ec321-8c1d-45a4-a80b-ec07ccbfaa21" override_flow_index="9999999" height="33px" width="203.3333dpi_px" />
+          </ChildGadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="settings_layout_updatebutton" layout_guid="b9ebc0f8-f63c-49cf-a001-b075a05515aa">
+    <ChildGadgets>
+      <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" width="6000dpi_px" top="0px" grid_columnlayout="['24dpi_px', 'auto']">
+        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Button stylename="soundeditor_button_up" layout_id="button" layout_guid="c011b2ef-b2bc-46e4-aa19-202655b0bf8a" width="24dpi_px" button_down_style="soundeditor_button_down" button_over_style="soundeditor_button_over" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Runtime\icon_IDE_refresh.png" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <StackPanel stylename="stack_panel">
+              <ChildGadgets>
+                <Label stylename="label" layout_id="auth_label" override_flow_index="9999999" height="29px" width="600px" left="8px" margin_left="8px" margin_top="8px" margin_bottom="0px" caption="Logged in to Opera account: &lt;account_name_here&gt;" />
+              </ChildGadgets>
+            </StackPanel>
+          </ChildGadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="MacPackageType" layout_guid="f328b90c-bfde-47bc-814b-48f33604fa79">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <StackPanel stylename="stack_panel" height="100%" top="0px" left="0px" width="100%" stack_order="TopToBottom">
+          <ChildGadgets>
+            <Button stylename="button_up" layout_id="yes_button" layout_guid="05b4b241-ba32-4654-879c-2170dfdcdf59" height="24dpi_px" width="250dpi_px" margin_top="10px" localise_name="mac_package_nsis" />
+            <Button stylename="button_up" layout_id="no_button" layout_guid="29ab1467-5963-4e5d-872a-b49c3a455958" height="24dpi_px" width="250dpi_px" margin_top="10px" localise_name="mac_package_zip" />
+            <StackPanel stylename="stack_panel" margin_top="15px" stack_order="LeftToRight">
+              <ChildGadgets>
+                <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" margin_left="10px" localise_name="mac_package_remember" layout_guid="ebb84924-599b-4591-8c09-283fb367ff4f" />
+              </ChildGadgets>
+            </StackPanel>
+          </ChildGadgets>
+        </StackPanel>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="settings_layout_html5advertising" layout_guid="43eeb7ac-f710-4e71-921f-8d3592745a85">
+    <ChildGadgets>
+      <Grid stylename="grid_container" grid_rowlayout="['1*', '1*', '1*', '1*', '1*']" grid_columnlayout="['0.3*', '1*', '0.5*']">
+        <Cell row="0" column="0" flow_index="0">
+          <ChildGadgets>
+            <Label stylename="label" height="16dpi_px" width="30dpi_px" localise_caption="ggs_advertising_key0" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="1" flow_index="0">
+          <ChildGadgets>
+            <TextBox stylename="text_box" layout_id="key0" layout_guid="17ce55a2-ffb8-4a70-a8bc-674616aff67c" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="2" flow_index="0">
+          <ChildGadgets>
+            <ComboBox stylename="combobox_panel" layout_id="type0" layout_guid="7129dc8c-c3aa-4be2-af25-1af674888fde" width="90%">
+              <ListBoxItems />
+            </ComboBox>
+          </ChildGadgets>
+        </Cell>
+        <Cell row="1" column="0" flow_index="0">
+          <ChildGadgets>
+            <Label stylename="label" height="16dpi_px" width="30dpi_px" localise_caption="ggs_advertising_key1" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="1" column="1" flow_index="0">
+          <ChildGadgets>
+            <TextBox stylename="text_box" layout_id="key1" layout_guid="63967e51-34df-4eca-a426-6b0405f02de8" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="1" column="2" flow_index="0">
+          <ChildGadgets>
+            <ComboBox stylename="combobox_panel" layout_id="type1" layout_guid="3ba2148f-41cc-4c12-bb53-6438236f65d9" width="90%">
+              <ListBoxItems />
+            </ComboBox>
+          </ChildGadgets>
+        </Cell>
+        <Cell row="2" column="0" flow_index="0">
+          <ChildGadgets>
+            <Label stylename="label" height="16dpi_px" width="30dpi_px" localise_caption="ggs_advertising_key2" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="2" column="1" flow_index="0">
+          <ChildGadgets>
+            <TextBox stylename="text_box" layout_id="key2" layout_guid="904190b5-d8c4-4615-9ed6-371fe01e3e10" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="2" column="2" flow_index="0">
+          <ChildGadgets>
+            <ComboBox stylename="combobox_panel" layout_id="type2" layout_guid="6a733123-de50-4025-bd9c-059547172d64" width="90%">
+              <ListBoxItems />
+            </ComboBox>
+          </ChildGadgets>
+        </Cell>
+        <Cell row="3" column="0" flow_index="0">
+          <ChildGadgets>
+            <Label stylename="label" height="16dpi_px" width="30dpi_px" localise_caption="ggs_advertising_key3" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="3" column="1" flow_index="0">
+          <ChildGadgets>
+            <TextBox stylename="text_box" layout_id="key3" layout_guid="3af9b3e1-b355-4c63-92bb-5dbd8d8acac1" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="3" column="2" flow_index="0">
+          <ChildGadgets>
+            <ComboBox stylename="combobox_panel" layout_id="type3" layout_guid="24bbeee6-d3ef-4910-9767-cd01d2dd9dff" width="90%">
+              <ListBoxItems />
+            </ComboBox>
+          </ChildGadgets>
+        </Cell>
+        <Cell row="4" column="0" flow_index="0">
+          <ChildGadgets>
+            <Label stylename="label" height="16dpi_px" width="30dpi_px" localise_caption="ggs_advertising_key4" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="4" column="1" flow_index="0">
+          <ChildGadgets>
+            <TextBox stylename="text_box" layout_id="key4" layout_guid="15b0f66a-94ea-4692-9345-ee7eb8fd072b" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="4" column="2" flow_index="0">
+          <ChildGadgets>
+            <ComboBox stylename="combobox_panel" layout_id="type4" layout_guid="e80d5e0b-571f-4521-8185-4b5e6723ae78" width="90%">
+              <ListBoxItems />
+            </ComboBox>
+          </ChildGadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="HTML5PackageType" layout_guid="f328b90c-bfde-5555-814b-48f33604fa78">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <StackPanel stylename="stack_panel" height="100%" top="0px" left="0px" width="100%" stack_order="TopToBottom">
+          <ChildGadgets>
+            <Button stylename="button_up" layout_id="yes_button" layout_guid="05b4b241-ba32-4654-879c-2170dfdcdf58" height="24dpi_px" width="200dpi_px" margin_top="10px" localise_name="html5_package_loose" />
+            <Button stylename="button_up" layout_id="no_button" layout_guid="29ab1467-5963-4e5d-872a-b49c3a455957" height="24dpi_px" width="200dpi_px" margin_top="10px" localise_name="html5_package_zip" />
+            <StackPanel stylename="stack_panel" margin_top="15px" stack_order="LeftToRight">
+              <ChildGadgets>
+                <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" margin_left="10px" layout_guid="ebb84924-599b-4591-8c09-283fb367ff4e" />
+                <Label stylename="label" height="16dpi_px" margin_left="5px" localise_caption="html5_package_remember" />
+              </ChildGadgets>
+            </StackPanel>
+          </ChildGadgets>
+        </StackPanel>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="WindowsPackageType" layout_guid="f328b90c-bfde-47bc-814b-48f33604fa78">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <StackPanel stylename="stack_panel" height="100%" top="0px" left="0px" width="100%" stack_order="TopToBottom">
+          <ChildGadgets>
+            <Button stylename="button_up" layout_id="yes_button" layout_guid="05b4b241-ba32-4654-879c-2170dfdcdf58" height="24dpi_px" width="250dpi_px" margin_top="10px" localise_name="windows_package_nsis" />
+            <Button stylename="button_up" layout_id="no_button" layout_guid="29ab1467-5963-4e5d-872a-b49c3a455957" height="24dpi_px" width="250dpi_px" margin_top="10px" localise_name="windows_package_zip" />
+            <StackPanel stylename="stack_panel" margin_top="15px" stack_order="LeftToRight">
+              <ChildGadgets>
+                <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" margin_left="10px" localise_name="windows_package_remember" layout_guid="ebb84924-599b-4591-8c09-283fb367ff4e" />
+              </ChildGadgets>
+            </StackPanel>
+          </ChildGadgets>
+        </StackPanel>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+</Layouts>

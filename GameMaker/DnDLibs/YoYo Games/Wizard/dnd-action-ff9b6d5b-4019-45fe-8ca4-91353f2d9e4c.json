@@ -1,0 +1,15 @@
+[
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdHealth",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "health",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  }
+]

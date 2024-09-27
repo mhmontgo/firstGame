@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="RoomManagerPanel" layout_guid="79a0374f-b79f-47e7-8cea-33521b208232">
+    <Grid stylename="ab_panel_style" override_flow_index="9999999" grid_rowlayout="['32dpi_px', '1*', '28dpi_px']">
+      <Cell row="0" column="0" stylename="window_client_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="text_box" override_flow_index="9999999" top="0dpi_px" bottom="2dpi_px" colour="#FFFFFFFF" grid_columnlayout="['1*', 'auto']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <TextBox stylename="gototype_text_box" layout_id="search_text" layout_guid="1a36d82d-ed1d-4e28-9527-94657470a8ff" override_flow_index="9999999" width="100%" left="4dpi_px" right="4dpi_px" colour="#00000000" localise_default_caption="ResourceTree_SearchResources" text_hoffset="22dpi_px" text_hclip="28dpi_px">
+                  <ChildGadgets>
+                    <Image stylename="ab_image_searchicon" layout_id="search_icon" layout_guid="55401689-1e20-46b8-b276-da4c43870337" left="3dpi_px" top="3dpi_px" image_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_search&quot;]" />
+                    <CloseButton stylename="close_button_up" layout_id="search_cancel" layout_guid="f3136684-4491-42d6-8b2d-e7e46f39a5d9" override_flow_index="9999999" right="0dpi_px" top="" margin_bottom="" colour="#FF888888" />
+                  </ChildGadgets>
+                </TextBox>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" top="2dpi_px" bottom="0px" stack_resize="ResizeWidth">
+                  <ChildGadgets>
+                    <VerticalSeparator stylename="vertical_separator" override_flow_index="9999999" left="0px" margin_top="1px" margin_bottom="1px" />
+                    <Label stylename="label" layout_id="search_count_label" layout_guid="158454ff-d7ef-4bfb-a769-ea4e086e28e3" override_flow_index="9999999" height="16px" width="18px" left="9px" margin_left="8dpi_px" caption="0/0" />
+                    <Button stylename="no_frame_button" layout_id="search_prev" layout_guid="d42c3b6a-4008-4414-b2b7-27e1549b6c14" override_flow_index="9999999" width="24dpi_px" left="31px" margin_left="4dpi_px" icon_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_chevron_up&quot;]" vector_icon_size="12dpi_px" />
+                    <Button stylename="no_frame_button" layout_id="search_next" layout_guid="8cfdc936-9547-44df-a7bd-8f38522d68a1" override_flow_index="9999999" width="24dpi_px" left="59px" margin_left="4dpi_px" margin_right="4dpi_px" icon_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_chevron_down&quot;]" vector_icon_size="12dpi_px" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="tree_cell" layout_guid="cece99af-2e18-49a5-9cab-0ed3755fd43d" row="1" column="0" stylename="grid_container_panel" flow_index="0" />
+      <Cell layout_id="arrange_cell" layout_guid="e4315076-4782-4f35-a611-9695c0062537" row="2" column="0" stylename="ab_panel_style" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" layout_id="arrange_stack" layout_guid="5d73f85c-30aa-4a92-8349-eb9e9311b7b0" override_flow_index="9999999" top="1dpi_px">
+            <ChildGadgets>
+              <Button stylename="no_frame_button" layout_id="button_top" layout_guid="b6222632-b056-44e1-ac01-5bf3f732a0fa" override_flow_index="9999999" localise_tooltip="AssetBrowser_SendToTop" width="24dpi_px" left="12px" margin_left="12dpi_px" icon_flags="Centre" font_icon="[&quot;canvas_icon_font&quot;, &quot;Canvas_arrange_top&quot;]" vector_icon_size="18dpi_px" />
+              <Button stylename="no_frame_button" layout_id="button_up" layout_guid="c32df59c-8239-4077-b82b-b59945d75aa9" override_flow_index="9999999" localise_tooltip="AssetBrowser_UpOne" width="24dpi_px" left="52px" margin_left="16dpi_px" icon_flags="Centre" font_icon="[&quot;canvas_icon_font&quot;, &quot;Canvas_icon_arrange_up&quot;]" vector_icon_size="18dpi_px" />
+              <Button stylename="no_frame_button" layout_id="button_down" layout_guid="b65f23ef-86e9-4380-9ea2-8d950827e446" override_flow_index="9999999" localise_tooltip="AssetBrowser_DownOne" width="24dpi_px" left="92px" margin_left="16dpi_px" icon_flags="Centre" font_icon="[&quot;canvas_icon_font&quot;, &quot;Canvas_icon_arrange_down&quot;]" vector_icon_size="18dpi_px" />
+              <Button stylename="no_frame_button" layout_id="button_bottom" layout_guid="a7018d8e-2800-4bae-9b8b-fa92114b2649" override_flow_index="9999999" localise_tooltip="AssetBrowser_SendToBottom" width="24dpi_px" left="132px" margin_left="16dpi_px" icon_flags="Centre" font_icon="[&quot;canvas_icon_font&quot;, &quot;Canvas_arrange_bottom&quot;]" vector_icon_size="18dpi_px" />
+              <VerticalSeparator stylename="vertical_separator" override_flow_index="9999999" left="172px" margin_left="16dpi_px" margin_top="1px" margin_bottom="1px" colour="#FF808080" />
+              <Button stylename="no_frame_button" layout_id="button_group" layout_guid="d9aa4762-cac6-4373-92dc-ff85db167776" override_flow_index="9999999" localise_tooltip="AssetBrowser_CreateGroup" width="24dpi_px" left="189px" margin_left="16dpi_px" icon_flags="Centre" font_icon="[&quot;asset_type_icon_font&quot;, &quot;AT_icon_default_folder&quot;]" vector_icon_size="18dpi_px" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

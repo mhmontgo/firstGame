@@ -1,0 +1,15 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdAlpha",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "alpha",
+      "DefaultValue": "1",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{
+	"debugger_buffer_view": {
+		"column_color": "debugger_buffer_column",
+		"text_color": "debugger_buffer_text"
+	},
+
+	"debugger_graph_view": {
+		"memory_color": "debugger_graph_memory",
+		"fps_color": "debugger_graph_fps",
+		"color_user_event": "debugger_graph_event_user"
+	},
+
+	"debugger_graph_help": {
+		"colour": "debugger_graph_box"
+	},
+
+	"debugger_texture_tooltip": {
+		"text_color": "debugger_texture_tooltip"
+	},
+
+	"debugger_profiling_toggle_button": {
+		"mouseover_up_tint": "debugger_button_profiling_up_mouseover",
+		"mouseover_up_focused_tint": "debugger_button_profiling_up_focused_mouseover",
+		"down_tint": "debugger_button_profiling_down",
+		"mouseover_down_tint": "debugger_button_profiling_down_mouseover",
+		"down_focused_tint": "debugger_button_profiling_down_focused",
+		"mouseover_down_focused_tint": "debugger_button_profiling_down_focused_mouseover"
+	}
+}

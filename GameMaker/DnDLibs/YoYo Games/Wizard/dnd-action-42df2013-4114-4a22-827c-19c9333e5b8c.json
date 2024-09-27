@@ -1,0 +1,39 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdScript",
+    "gadget": "YoYo Games.DnD_ResourceSelection",
+    "gadget_properties": {
+      "TagName": "script",
+      "DefaultValue": "noone",
+      "ResourceFilter": "GMScript"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdArgument",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "arg",
+      "DefaultValue": null,
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": true
+    }
+  },
+  {
+    "relative": false,
+    "temp": true,
+    "caption": "GMStdTarget",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "var",
+      "DefaultValue": null,
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": true
+    }
+  }
+]

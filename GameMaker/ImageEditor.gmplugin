@@ -1,0 +1,68 @@
+{
+  "name": "ImageEditor",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "ImageEditor",
+      "localised_name": "image_editor_name",
+      "plugin_version": "1.0",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMImage",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ImageEditor",
+          "version": "1.0",
+          "path": "ImageEditor.dll",
+          "checksum": "3XASF0cAaCmcCmXh1ySHlL5/j21JuJpln1jxXqfcloQ="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "min_version": "1.0",
+          "max_version": ""
+        }
+      ]
+    },
+    {
+      "plugin_name": "SpriteEditor",
+      "localised_name": "sprite_editor_name",
+      "plugin_version": "1.0",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMSprite",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ImageEditor",
+          "version": "1.0",
+          "path": "ImageEditor.dll",
+          "checksum": "3XASF0cAaCmcCmXh1ySHlL5/j21JuJpln1jxXqfcloQ="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "ViFMRKODYCj0juyP47UQ4hUD8cuFnHUq71O1z8lo77sTS2MRkXBwvUwJqTFXAv4/BSxO03CEoJ3kd3JDXRyJrTcmDYX/TR8hxRpJzVdGvBdjYvCB3V5w5oufegNgBaG7pbgC9q5PEdOAIwVV1LhJ6niSEJSz0eixIQlL1vI/CbI=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

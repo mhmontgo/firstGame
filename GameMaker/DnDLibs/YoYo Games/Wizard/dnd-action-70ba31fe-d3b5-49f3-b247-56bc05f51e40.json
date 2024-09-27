@@ -1,0 +1,15 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdVolume",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "volume",
+      "DefaultValue": "1",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  }
+]

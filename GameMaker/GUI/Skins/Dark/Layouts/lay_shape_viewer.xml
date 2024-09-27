@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="ShapeViewerEditor" layout_guid="95361164-bb36-4320-9ecb-0ab9ffff932a">
+    <Window stylename="window" height="228px" width="512dpi_px" left="26px" top="54px" localise_title="ShapeViewerEditor_Title" window_flags="Default">
+      <Client>
+        <ChildGadgets>
+          <PanArea stylename="pan_area" layout_id="view" layout_guid="1a39542e-f0fb-44e3-9104-1b11bb5a9a70" />
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

@@ -1,0 +1,43 @@
+{
+  "name": "PathEditor",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "PathEditor",
+      "localised_name": "path_editor_name",
+      "plugin_version": "1.0",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMPath",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "PathEditor",
+          "version": "1.0",
+          "path": "PathEditor.dll",
+          "checksum": "9X/KKunreT7124nmO3Tz8xRg2in4bOpMWKKLXmk2Vtw="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "min_version": "1.0",
+          "max_version": ""
+        }
+      ]
+    }
+  ],
+  "author": "",
+  "signature": "vZLrIBOxTfHpXyQFWGAx7P014L7mBWT0BINHmnr\u002BugeIqmCQlSxW8Vr6fmjRyV1LKSzKTESODRxaIUMdtVZyjbJLnJAP5MZ5Ml\u002B4TKdr\u002B23oFzeSefIc88xQwhir6C3dFN7ksdWCGhpFacdXCVqTXVlnyOoqiVvti18ukG550pQ=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

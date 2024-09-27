@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="GoToType_Window" layout_guid="bc2c1b57-7b7a-4c60-9d92-a7b01cb7b9d3">
+    <Window stylename="default_blend_window" height="70dpi_px" width="500dpi_px" left="53px" top="39px" localise_title="GoToType_WindowTitle" window_flags="Borderless, CloseButton, ScrollBars, DockingDisabled, DesktopTransferDisabled">
+      <Client>
+        <ChildGadgets>
+          <TextBox stylename="gototype_text_box" layout_id="textbox" layout_guid="dddd05d8-7bdb-4e84-8d3d-29862c6c4b02" left="7px" right="7px" top="0px" localise_default_caption="GoToType_FieldCaption" text_hoffset="22dpi_px" />
+          <Image stylename="image_searchicon" left="14px" top="6px" image="searchbar_icon.png" />
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BlendWindowFrame" layout_guid="0d9b47bf-35fe-4d09-b089-30cb2385bb82" />
+    </Window>
+  </Layout>
+  <Layout layout_name="GoToType_ListBox" layout_guid="bf52c990-deec-4066-b5c5-494bf0ba528a">
+    <ListBox stylename="list_box_dial_inner_gototype" layout_id="listbox" layout_guid="7b02edd0-b548-43f1-9fc1-a791a87d7789" height="6px" height_max="512px" width="500px">
+      <ListBoxItems />
+    </ListBox>
+  </Layout>
+</Layouts>

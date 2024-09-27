@@ -1,0 +1,29 @@
+{
+  "name": "ShaderEditor",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "ShaderEditor",
+      "localised_name": "shader_editor_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ShaderEditor",
+          "version": "1.0",
+          "path": "ShaderEditor.dll",
+          "checksum": "SqMg8nICIbYy1sidh5NFTPXVul0H8/lPPuHjwQHjpIE="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "egTwqBnJFVqFR3LUgc5/DVQZfLZInyDoSfG6h1iPPnHrRHGc/x/4YK0utrYaL/yYkZvDfh7wVdsVqjRPaxGjyCPpTvURgTAMuhikzBEa6DU92LTvQh1\u002Bsts9CcxKBfgS4AMBJszJi/BROPYzDr6mJRInx67iC8ZoQzeChjRAfTM=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

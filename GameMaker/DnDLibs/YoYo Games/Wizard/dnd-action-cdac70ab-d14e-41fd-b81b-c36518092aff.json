@@ -1,0 +1,15 @@
+[
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdLives",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "lives",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdTimeline",
+    "gadget": "YoYo Games.DnD_ResourceSelection",
+    "gadget_properties": {
+      "TagName": "timeline",
+      "DefaultValue": "noone",
+      "ResourceFilter": "GMTimeline"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdLoop",
+    "gadget": "YoYo Games.DnD_BooleanInput",
+    "gadget_properties": {
+      "TagName": "loop",
+      "DefaultValue": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdStart",
+    "gadget": "YoYo Games.DnD_BooleanInput",
+    "gadget_properties": {
+      "TagName": "running",
+      "DefaultValue": true
+    }
+  }
+]

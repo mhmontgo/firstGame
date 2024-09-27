@@ -1,0 +1,37 @@
+{
+  "name": "Alice",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "Alice",
+      "localised_name": "alice_name",
+      "plugin_version": "1.0",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMSound",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "Alice",
+          "version": "1.0",
+          "path": "Alice.dll",
+          "checksum": "/bP\u002BajDWG0oOI4R/ZI5WZ1ThaS3rMKtL6ME9XJZDuNo="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "RyA/xf72brcZVyx5Oea1KPH7tNAm7oQmdcm\u002BcpZUa03S1ycM38PpBmSghytiNtr7FJIKhY7gFvzHcmieD81z1e\u002BGPNsN0pifaZOAyhNSctazpmpZyLHb4IFEYQ4Y2uO/qtTMGfKQ1cfrbEUjqgDGNNBhAH0vlDB/v7SuSX\u002B2qSU=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

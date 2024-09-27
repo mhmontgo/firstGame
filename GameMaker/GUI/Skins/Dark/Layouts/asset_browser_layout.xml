@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="MenuColourPicker" layout_guid="825ed0a0-4867-44d6-b779-d38f98214f6c">
+    <Grid stylename="grid_container" height="16dpi_px" width="120dpi_px" top="4dpi_px" margin_bottom="4dpi_px" grid_columnlayout="['16dpi_px', '1*', '16dpi_px']" grid_resize="None">
+      <Cell layout_id="left_cell" layout_guid="167a6929-8b34-4c97-835f-1018dc709be8" row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="ab_left_chevron" layout_id="left_arrow" layout_guid="a650ef14-540a-4a39-8b0c-a4b942a19065" right="3dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="default_scrollpanel" layout_id="scroll_panel" layout_guid="87303006-9d74-4558-895f-22ee03a1e596" scrollpanel_flags="None">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" layout_id="colour_stack" layout_guid="1f6bab59-48dc-41f9-9efc-f0e77db1ad47" left="0px" top="0px" stack_resize="ResizeWidth" />
+            </ChildGadgets>
+          </ScrollPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="right_cell" layout_guid="6cc21841-0a78-4b24-82f7-74e905043afb" row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="ab_left_chevron" layout_id="right_arrow" layout_guid="171c3c8f-89e4-47f4-9253-d6a9e6c9f944" left="3dpi_px" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_chevron_right&quot;]" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="TagEditorWindowEmpty" layout_guid="bd4c785a-ccb4-4a51-89d6-8309918f2965">
+    <Window stylename="ab_borderless_window" height="110dpi_px" width="354dpi_px" left="234px" top="191px" localise_title="AssetBrowser_EditTags">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" height="100%" top="0dpi_px" grid_rowlayout="['32dpi_px', '1*']" grid_resize="ResizeGridHeight">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" left="6dpi_px" stack_resize="ResizeAll">
+                  <ChildGadgets>
+                    <Image stylename="image" layout_id="asset_icon" layout_guid="69cb576b-7b6b-4809-a91d-87465d5f8ddd" height="24dpi_px" width="24dpi_px" left="0px" image_flags="Stretch, Centre, KeepAspectRatio" image="ResourceIcons\icon_default.png" />
+                    <Label stylename="label" layout_id="asset_label" layout_guid="6c8352e2-75c3-483f-92d2-f046122f3dcf" height="16px" width="68px" left="30px" margin_left="6dpi_px" caption="Asset Name" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ScrollPanel stylename="text_box" layout_id="tag_panel" layout_guid="b20b626d-c7a7-477e-a73c-e87e98ed6a8e" override_flow_index="9999999" height="48dpi_px" left="6dpi_px" right="6dpi_px" top="4dpi_px" bottom="10dpi_px" colour="#FFCCCCCC" scrollpanel_flags="VerticalScroll, HorizontalScroll">
+                  <ChildGadgets>
+                    <StackPanel stylename="toolbox_stack_panel" layout_id="tag_stack" layout_guid="b1e6081d-b8d6-412c-bfcf-99bf3260dabb" override_flow_index="9999999" left="0px" top="0dpi_px" stack_resize="ResizeAll" />
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="ABBorderlessWindowFrame" layout_guid="198a48e1-1cbb-4df6-b691-cd962d8b5856" />
+    </Window>
+  </Layout>
+  <Layout layout_name="SearchEmptyPanel" layout_guid="903aa7a8-ebcd-4c35-b8cd-31e81407bff8">
+    <ScrollPanel stylename="default_scrollpanel" height="32dpi_px" scrollpanel_flags="None" mouse_events="false">
+      <ChildGadgets>
+        <Label stylename="label" height="16px" width="101px" localise_caption="AssetBrowser_SearchEmpty" />
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="ABColourPickerWindow" layout_guid="47c66c6a-6326-48e0-a91a-15b8f85f1206">
+    <Window stylename="ab_borderless_window" height="26px" width="156dpi_px" width_min="80dpi_px" height_min="30dpi_px" localise_title="AssetBrowser_ColourPicker" window_flags="Borderless, CloseButton, DockingDisabled, DesktopTransferDisabled, AutoSizeHeight">
+      <Client>
+        <ChildGadgets>
+          <StackPanel stylename="swatch_stack_panel" layout_id="cell_stack" layout_guid="7d4e9415-822b-49dc-bbf9-26bb9a56c21a" left="4dpi_px" right="4dpi_px" top="3dpi_px" />
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="ABBorderlessWindowFrame" />
+    </Window>
+  </Layout>
+  <Layout layout_name="AssetBrowser_LayoutNEW" layout_guid="7bf39aa1-9cf5-4772-86ef-0cfd41220da9">
+    <Window stylename="default_window" height="463dpi_px" width="370dpi_px" localise_title="AssetBrowser_Title">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="ab_panel_style" grid_rowlayout="['34dpi_px', '1*', '22dpi_px', '22dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="ab_grid_container" left="1px" right="1px" top="1px" bottom="0px" grid_rowlayout="['auto']" grid_columnlayout="['1*', 'auto']" column_spacing="2dpi_px" grid_resize="None">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <TextBox stylename="gototype_text_box" layout_id="search_text" layout_guid="1e2d674f-68ec-4a36-bdb5-53ce232adf99" width="100%" left="4dpi_px" right="4dpi_px" localise_default_caption="ResourceTree_SearchResources" text_hoffset="22dpi_px" text_hclip="28dpi_px">
+                        <ChildGadgets>
+                          <Image stylename="ab_image_searchicon" layout_id="search_icon" layout_guid="55401689-1e20-46b8-b276-da4c43870337" left="3dpi_px" top="3dpi_px" image_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_search&quot;]" />
+                          <Button stylename="ab_search_save_button" layout_id="search_save" layout_guid="4426ff0c-3d92-46a0-86f5-a462be69e1f3" localise_tooltip="AssetBrowser_SaveSearch" height="16dpi_px" width="17dpi_px" right="0dpi_px"/>
+                          <CloseButton stylename="close_button_up" layout_id="search_cancel" layout_guid="ce5315be-bff8-4e94-8bf3-9e2f1d4477d3" right="17dpi_px" top="" margin_bottom="" colour="#FF888888" />
+                        </ChildGadgets>
+                      </TextBox>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" height="28dpi_px" stack_resize="ResizeWidth">
+                        <ChildGadgets>
+                          <VerticalSeparator stylename="vertical_separator" left="4px" margin_left="4dpi_px" margin_top="1dpi_px" margin_bottom="1dpi_px" colour="#FF666666" />
+                          <Button stylename="ab_add_button" layout_id="button_add" layout_guid="0d67dc92-189a-4fe5-8fb4-e220b5f0582d" override_flow_index="9999999" localise_tooltip="AssetBrowser_CreateNew" width="24dpi_px" left="9px" margin_left="4dpi_px"/>
+                          <ToggleButton stylename="ab_filter_button" layout_id="button_sort" layout_guid="f0ff1c99-710c-4c14-ae0b-0bd0b8325e99" override_flow_index="9999999" localise_tooltip="AssetBrowser_TTSortFilter" width="24dpi_px" left="33px" margin_right="1dpi_px"/>
+                          <VerticalSeparator stylename="vertical_separator" override_flow_index="9999999" left="60px" margin_left="2dpi_px" margin_top="1dpi_px" margin_bottom="1dpi_px" colour="#FF666666" />
+                          <Button stylename="ab_menu_button" layout_id="button_menu" layout_guid="dd50f8fa-c1f2-401d-afe8-ed3be908c440" override_flow_index="9999999" localise_tooltip="AssetBrowser_TTMenu" width="24dpi_px" left="65px" margin_left="4dpi_px"/>
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell layout_id="asset_tree_panel" layout_guid="864964c0-2144-4ff7-b36e-c628adcd6dd7" row="1" column="0" stylename="grid_container" flow_index="0" />
+            <Cell row="2" column="0" stylename="ab_panel_style" flow_index="0" layout_id="filter_bar_cell" />
+            <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" grid_rowlayout="['auto']" grid_columnlayout="['auto', '1*', 'auto', 'auto']" grid_resize="ResizeGridHeight">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label_light" layout_id="asset_count_label" layout_guid="cedecc14-94f6-4400-b6a6-efd632bb9065" height="16px" width="51px" left="4dpi_px" margin_left="4dpi_px" localise_caption="AssetBrowser_ItemCountPlural" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label_light" layout_id="select_count_label" layout_guid="dba054de-e8b9-4130-bc78-9e8934de83ad" height="16px" width="67px" left="12dpi_px" margin_left="12dpi_px" localise_caption="AssetBrowser_SelectedCount" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label_light" layout_id="zoom_slider_label" layout_guid="d5d593ab-1208-48fd-91e0-5091b59b526f" height="16px" width="31px" caption="100%" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <ThumbnailSlider stylename="zoom_slider_style" layout_id="zoom_slider" layout_guid="8467b050-52aa-473b-b531-d89479355d73" centre_value="100"/>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="CreateResource_Item" layout_guid="6ba25601-1e39-453a-be02-dc25c8c540b4">
+    <ScrollPanel stylename="ab_asset_frame" height="76dpi_px" width="76dpi_px">
+      <ChildGadgets>
+        <Grid stylename="grid_container" left="4dpi_px" right="4dpi_px" top="4dpi_px" bottom="4dpi_px" grid_rowlayout="['1*', '30dpi_px']" grid_resize="None">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Image stylename="ab_big_resource_icon" layout_id="resource_icon" layout_guid="67b1bf54-9f7f-461a-beb0-ab3a2123fe63"/>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label_centre" layout_id="resource_label" layout_guid="3514209e-4068-4e91-8499-958f9439cb0e" height="16px" caption="Resource " auto_size="True" word_wrap="True" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="TagSuggestionEntry" layout_guid="b6a21c02-b569-47ac-90b8-55215f3786d2">
+    <Grid stylename="grid_container" layout_id="TagSuggestionEntry" height="18dpi_px" width="100%" margin_bottom="1dpi_px" grid_rowlayout="['100%']" grid_columnlayout="['0dpi_px', '0dpi_px', '1*']">
+      <Cell layout_id="cell0" layout_guid="a4120ac7-bd8d-4d41-bb08-cc7a291c2bc4" row="0" column="0" stylename="grid_container_panel" flow_index="0" />
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="text_editor_codecomplete_label" layout_id="name_label" layout_guid="0ceb76db-66c3-4d00-b0d6-b774b0ba7c4f" height="16px" width="32px" left="8dpi_px" caption="name" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="EmptyTreePanel" layout_guid="914a5630-0c8e-4b22-8d6f-bc2fbef978b1">
+    <ScrollPanel stylename="default_scrollpanel" height="140dpi_px" scrollpanel_flags="None" mouse_events="false">
+      <ChildGadgets>
+        <Grid stylename="grid_container" height="140dpi_px" grid_rowlayout="['1*', '1*', '1*']" grid_resize="ResizeGrid">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="229px" localise_caption="AssetBrowser_ResourceTreeEmpty" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="button_create" layout_guid="a35097c6-dee4-4eb2-bab6-7f7e46889518" width="160dpi_px" localise_name="AssetBrowser_CreateNew" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="button_import" layout_guid="3a2b4f4a-f521-4a65-8fc3-316bb0636a29" width="160dpi_px" localise_name="AssetBrowser_ImportAssets" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+</Layouts>

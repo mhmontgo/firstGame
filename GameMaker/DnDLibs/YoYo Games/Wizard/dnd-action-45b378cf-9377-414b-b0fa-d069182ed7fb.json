@@ -1,0 +1,35 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdMargin",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "margin",
+      "DefaultValue": "0",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdHorizontally",
+    "gadget": "YoYo Games.DnD_BooleanInput",
+    "gadget_properties": {
+      "TagName": "hor",
+      "DefaultValue": true
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdVertically",
+    "gadget": "YoYo Games.DnD_BooleanInput",
+    "gadget_properties": {
+      "TagName": "ver",
+      "DefaultValue": true
+    }
+  }
+]

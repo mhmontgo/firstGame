@@ -1,0 +1,43 @@
+{
+  "name": "TimelineEditor",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "TimelineEditor",
+      "localised_name": "timeline_editor_name",
+      "plugin_version": "1.0",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMTimeline",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "TimelineEditor",
+          "version": "1.0",
+          "path": "TimelineEditor.dll",
+          "checksum": "GMeXgnPGsOPQ7kdrp53wOwqmZT8BOFbm2D80fJTBaTs="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "min_version": "1.0",
+          "max_version": ""
+        }
+      ]
+    }
+  ],
+  "author": "",
+  "signature": "kozlZbck1uqyr/NhK4JKTQWChCU7FWddJdUdsSxT7SSD2qqNt3zBSRn6KzOoqgTdl/pcWnuT2pAd8Ls9A2rT/UPss51wr67w/5jkaQmAVKFY0tdIxTYAXKa38dslutFj8zBqCRysObqHN6VPVY/QJehPCAxpim\u002BsqER1DIrM/ZY=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

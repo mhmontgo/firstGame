@@ -1,0 +1,29 @@
+{
+  "name": "MiscPlugins",
+  "bundle_version": "1.0",
+  "bundle_description": "Collection of miscellaneous plugins",
+  "required": true,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "MiscPlugins",
+      "localised_name": "misc_plugins_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "MiscPlugins",
+          "version": "1.0",
+          "path": "MiscPlugins.dll",
+          "checksum": "vCAA58tIdhnnQ38QKpE6aSy62Jx4jeRqTbOZyIvVZAM="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "eUTFTKF\u002BaaU/LxxI0V/yKV36fn99IYm0Nxrpe4NE2WICCLnZbWUQU9mnZvjjy5ZjBrXEcBkcGELwL9xFhPq\u002BUUBhlOXVSYvkSnt0dAXJCIExtrCWhjAlT9b580l/siH\u002BWJYkokyC/wBsyCH3GrD9uTScmUpitOoXkRXQEd\u002BVPqk=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

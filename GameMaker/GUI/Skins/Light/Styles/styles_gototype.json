@@ -1,0 +1,21 @@
+{
+	"label_item_recently_used": {
+		"colour": "goto_label_recently_used"
+	},
+
+	"label_goto_type": {
+		"colour": "goto_label_type"
+	},
+
+	"label_item_normal": {
+		"colour": "goto_label"
+	},
+
+	"item_highlight_color": {
+		"colour": "goto_label_hi"
+	},
+
+	"list_box_dial_inner_gototype": {
+		"mouse_over_colour": "goto_item_hi"
+	}
+}

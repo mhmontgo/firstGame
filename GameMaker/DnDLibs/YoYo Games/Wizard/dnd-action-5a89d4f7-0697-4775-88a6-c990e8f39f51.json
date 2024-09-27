@@ -1,0 +1,15 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdFilename",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "filename",
+      "DefaultValue": "\"save.dat\"",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

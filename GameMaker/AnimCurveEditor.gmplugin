@@ -1,0 +1,43 @@
+{
+  "name": "AnimCurveEditor",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "AnimCurveEditor",
+      "localised_name": "anim_curve_editor_name",
+      "plugin_version": "1.0",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMAnimCurve",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "AnimCurveEditor",
+          "version": "1.0",
+          "path": "AnimCurveEditor.dll",
+          "checksum": "r5JMiATVgcqGaeHRy9d56fSrn4fyADRJ9Emlbe1p6Tk="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "min_version": "1.0",
+          "max_version": ""
+        }
+      ]
+    }
+  ],
+  "author": "",
+  "signature": "O71\u002BdVFdhZ1RSl8\u002BPGrl/aEuzexUlCCBjhK4NN42fUH43TBOGQ42LDxaEj3FfJe8pPlfLd82SKJchceyC9SpHrDWB9OG7wecvJMH2O12Wz43ypE\u002BAB3ks1OpoFCwjuQUDTpnCA/D1Z5026/Zw/8Wh7dZ5yTHP991CwTe/I/XXMI=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

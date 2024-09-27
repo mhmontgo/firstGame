@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="EffectProp_Panel" layout_guid="8bfd8f11-dfe7-4a19-8430-688b814090e8">
+    <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" margin_bottom="8dpi_px" grid_columnlayout="['1*', '2*']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="name_label" layout_guid="2e658299-d5d2-47ca-9d45-a53a1773c01a" override_flow_index="9999999" height="16px" width="0px" left="0px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="content_cell" layout_guid="64103c8a-03cf-4fdd-a9c6-eee1860ab344" row="0" column="1" stylename="grid_container_panel" flow_index="0" />
+    </Grid>
+  </Layout>
+  <Layout layout_name="EffectProp_Colour" layout_guid="c249cc3f-55ab-42c1-a999-e3f54996031b">
+    <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" grid_columnlayout="['1*', '2*']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="name_label" layout_guid="e76ebfcc-f0f7-4cdc-b13d-2e11c16c9e72" override_flow_index="9999999" height="16px" width="0px" left="0px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ColourSelectButton stylename="layerproperties_colourselect" layout_id="value_gadget" layout_guid="8a5c52d2-123d-4f51-8125-8e802365ee7a" override_flow_index="9999999" height="" width="" left="0px" right="0px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="RoomEditor_EffectLayerProperties" layout_guid="f2b7431e-4cad-4aee-b778-35a6b160d987">
+    <ScrollPanel stylename="auto_adjust_scrollpanel" override_flow_index="9999999" left="4dpi_px" right="4dpi_px" top="0px">
+      <ChildGadgets>
+        <StackPanel stylename="stack_panel" override_flow_index="9999999" top="0px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+          <ChildGadgets>
+            <RoomEditor_InheritButton stylename="button_up" override_flow_index="9999999" localise_tooltip="RoomEditor_InheritEffectLayerToolTip" width="50dpi_px" left="0dpi_px" top="5px" margin_left="6dpi_px" margin_top="5dpi_px" bind_property="inheritLayerSettings" localise_name="RoomEditor_Inherit" parent_property="inheritedLayer" />
+            <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" top="33px" margin_top="4dpi_px" grid_columnlayout="['1*', '2*']">
+              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Label stylename="label" layout_id="type_label" layout_guid="1d0bc0c2-b3cf-45f7-8c65-cb499d20b914" override_flow_index="9999999" height="16px" width="65px" left="0px" margin_right="8dpi_px" localise_caption="RoomEffect_EffectType" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <ComboBox stylename="combobox_panel" layout_id="type_combo" layout_guid="8b79c5b2-72d8-4057-ba41-7f8cbaa00618" override_flow_index="9999999" width="" left="0px">
+                    <ListBoxItems />
+                  </ComboBox>
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+            <StackPanel stylename="effects_prop_stack" layout_id="props_stack" layout_guid="329d350a-e487-4878-ba82-a66e7dfb4b0c" override_flow_index="9999999" top="65px" />
+            <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" top="75px" grid_columnlayout="['1*', '2*']">
+              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Label stylename="label" override_flow_index="9999999" height="16px" width="34px" left="0px" margin_right="10dpi_px" localise_caption="Layer_Depth" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <StackPanel stylename="stack_panel" override_flow_index="9999999" height="24dpi_px" margin_top="6dpi_px">
+                    <Gadgets>
+                      <NumericTextBox stylename="numeric_text_box" layout_id="tilelayer_depth_value" layout_guid="dc1222b7-abcd-1234-b224-65dc97c7863d" width="100dpi_px" left="0px" top="0dpi_px" margin_right="10dpi_px" bind_property="depth" />
+                      <GadgetToggleCheckBox stylename="toggle_gadget_checkbox_stack" layout_id="tilelayer_depth_toggle" layout_guid="dc1333b7-abcd-4ecc-b224-65dc97c7863d" left="110px" top="0dpi_px" margin_right="10dpi_px" bind_property="userdefinedDepth" toggle_gadgets="['tilelayer_depth_value']" />
+                      <RoomEditor_InheritButton stylename="button_up" localise_tooltip="RoomEditor_InheritLayerDepthToolTip" width="50dpi_px" left="139px" top="0dpi_px" bind_property="inheritLayerDepth" localise_name="RoomEditor_Inherit" parent_property="inheritedLayer" />
+                    </Gadgets>
+                  </StackPanel>
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+          </ChildGadgets>
+        </StackPanel>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="EffectProp_Real" layout_guid="fe649700-4afc-48f2-ac81-b54a617e4bd1">
+    <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" grid_columnlayout="['1*', '2*']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="name_label" layout_guid="b55bdf94-1f24-4b00-830d-f050db49e6d5" override_flow_index="9999999" height="16px" width="67px" left="0px" caption="Name Label" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Slider stylename="inspector_slider" layout_id="value_gadget" layout_guid="2b6ea362-624e-44e8-ba8d-b00334562c7f" override_flow_index="9999999" left="0px" right="0px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="EffectProp_Sampler" layout_guid="5d399524-5564-4706-8d47-dbdcf7115933">
+    <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" grid_columnlayout="['1*', '2*']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="name_label" layout_guid="bd540e6c-66ab-4961-9951-eb43abc6f6de" override_flow_index="9999999" height="16px" width="63px" left="0px" caption="Prop Name" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <EffectGadget_Sampler stylename="grid_container" layout_id="sprite_selector" layout_guid="75347524-42b3-4d8e-a0b7-dd7f79d51629">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Image stylename="image" left="0px" right="6px" image_flags="Stretch, Centre, KeepAspectRatio" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ResourceButton stylename="resource_button" />
+              </ChildGadgets>
+            </Cell>
+          </EffectGadget_Sampler>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

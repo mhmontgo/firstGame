@@ -1,0 +1,92 @@
+[
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdLeft",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "x1",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdTop",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "y1",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdRight",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "x2",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdBottom",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "y2",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdCenter",
+    "gadget": "YoYo Games.DnD_ColorPicker",
+    "gadget_properties": {
+      "TagName": "col1",
+      "DefaultValue": "$FFFFFF",
+      "AllowAlphaChannel": false,
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdEdge",
+    "gadget": "YoYo Games.DnD_ColorPicker",
+    "gadget_properties": {
+      "TagName": "col2",
+      "DefaultValue": "$FFFFFF",
+      "AllowAlphaChannel": false,
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdFill",
+    "gadget": "YoYo Games.DnD_BooleanInput",
+    "gadget_properties": {
+      "TagName": "fill",
+      "DefaultValue": false
+    }
+  }
+]

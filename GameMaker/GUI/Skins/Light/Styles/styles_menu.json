@@ -1,0 +1,90 @@
+{
+	"context_menu_entries": {
+		"colour": "context_menu_entry_bg"
+	},
+
+	"context_menu_margin": {
+		"colour": "context_menu_margin"
+	},
+
+	"menu_entry": {
+		"up_tint": "context_menu_entry_bg"
+	},
+
+
+	"menu_label": {
+		"colour": "context_menu_entry_label"
+	},
+
+	"menu_label_inactive": {
+		"colour": "context_menu_entry_label_inactive"
+	},
+
+	"menu_icon": {
+		"colour": "context_menu_icon"
+	},
+
+	"menu_icon_inactive": {
+		"colour": "context_menu_icon_inactive"
+	},
+
+	"menu_entry_keycombo": {
+		"colour": "context_menu_entry_keycombo"
+	},
+
+	"menu_entry_keycombo_inactive": {
+		"colour": "context_menu_entry_keycombo_inactive"
+	},
+
+	"menu_entry_checkbox": {
+		"colour": "context_menu_entry_checkbox"
+	},
+
+	"menu_entry_checkbox_highlighted": {
+		"colour": "context_menu_entry_checkbox_hi"
+	},
+
+	"menu_entry_checkbox_tick": {
+		"colour": "context_menu_entry_checkbox_tick"
+	},
+
+	"menu_entry_checkbox_untick": {
+		"colour": "context_menu_entry_checkbox_untick"
+	},
+
+	"menu_entry_checkbox_inactive_highlighted": {
+		"colour": "context_menu_entry_checkbox_inactive_hi"
+	},
+
+	"menu_entry_checkbox_inactive_untick": {
+		"colour": "context_menu_entry_checkbox_untick"
+	},
+
+	"sub_menu_arrow": {
+		"colour": "context_menu_submenu_arrow"
+	},
+
+	"sub_menu_arrow_inactive": {
+		"colour": "context_menu_submenu_arrow_inactive"
+	},
+
+	"menu_bar": {
+		"colour": "menu_bar_entry_colour"
+	},
+
+	"menu_bar_entry": {
+		"colour": "menu_bar_entry_colour",
+		"up_tint": "menu_bar_entry_up",
+		"down_tint": "menu_bar_entry_down",
+		"mouseover_up_tint": "menu_bar_entry_up_mouseover",
+		"mouseover_down_tint": "menu_bar_entry_down_mouseover",
+		"up_focused_tint": "menu_bar_entry_up_focused",
+		"down_focused_tint": "menu_bar_entry_down_focused",
+		"mouseover_up_focused_tint": "menu_bar_entry_up_focused_mouseover",
+		"mouseover_down_focused_tint": "menu_bar_entry_down_focused_mouseover"
+	},
+
+	"ide_toolbar_frame": {
+		"colour": "ide_toolbar_frame"
+	}
+}

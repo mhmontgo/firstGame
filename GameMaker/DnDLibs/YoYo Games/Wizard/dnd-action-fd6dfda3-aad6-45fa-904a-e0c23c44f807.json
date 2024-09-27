@@ -1,0 +1,15 @@
+[
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdSpeed",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "speed",
+      "DefaultValue": "1",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

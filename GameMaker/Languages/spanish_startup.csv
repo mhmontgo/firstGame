@@ -1,0 +1,81 @@
+Name,English,Translation,Restrictions,Comment
+_Language,Spanish,Spanish,,Language name - in English
+_LanguageNative,Spanish,Español,,Language name in the native language
+_LanguageCode,es,es,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
+_GameMaker2016,GameMaker,GameMaker,,IDE title
+Splash_Done,Done.,Hecho.,,Finished loading
+Splash_Loading,Loading....,Cargando...,,Generic loading text
+Splash_WaitingNetwork,Checking Network...,Comprobando la red...,,Network step
+Splash_LoadingLanguages,Loading Languages...,Cargando idiomas...,,Loading the languages prefix
+Splash_LoadingPlugins,Loading Plugins...,Cargando plugins...,,Loading the plugins
+Splash_LoadingPrefs,Loading Preferences...,Cargando preferencias...,,Loading the preferences
+Splash_UserLogin,User Login,Inicio de sesión de usuario,,User Login has been started
+Notifications_Hub,Notification Hub,Centro de notificaciones,,Notification Hub string
+IDEMenu_File,File,Archivo,,The File menu item name
+IDEMenu_Edit,Edit,Editar,,The Edit menu item name
+IDEMenu_Build,Build,Construir,,"File menu ""Build"""
+IDEMenu_Views,${IDEMenuViews},${IDEMenuViews},,Main menu entry for views
+$win_IDEMenuViews,Windows,Ventanas,,Windows version of the views menu entry
+$mac_IDEMenuViews,Window,Ventana,,Mac version of the views menu entry
+$linux_IDEMenuViews,Windows,Windows,,Linux version of the views menu entry
+IDEMenu_Tools,Tools,Herramientas,,Main menu entry for tools
+IDEMenu_Layouts,Layouts,Diseños,,Layouts
+IDEMenu_Marketplace,Marketplace,Mercado,,Main menu entry for marketplace
+IDEMenu_Help,Help,Ayuda,,Main menu entry for HELP
+IDETooltip_LaptopMode_On,On,Activar,,On text
+IDETooltip_LaptopMode_Off,Off,Desactivar,,Off text
+IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.","En el modo portátil puede agrandar, desplazar y usar el zoom moviendo el ratón sobre una zona\nmientras pulsa ${LaptopLZoomKey} para usar el zoom y Alt izquierdo para agrandar y desplazar.\nUse ${LaptopRHSKeys} para las interacciones sin ratón cuando el modo portátil esté activado.",,IDE toolbar laptop mode description
+IDETooltip_LaptopMode_Title,Laptop Mode ({0}),Modo portátil ({0}),,IDE toolbar laptop mode title
+StartPage_Title,Start Page,Página de inicio,,Start page title
+IDE_FatalErrorTitle,Fatal Error,Error fatal,,Title for the fatal error warning dialog
+IDE_FatalErrorWarning,GameMaker has become unstable.\nPlease save changes and exit.,GameMaker se ha vuelto inestable.\nGuarde los cambios y salga.,,Warn the user they should try saving changes and exit
+IDE_Warning,Warning,Aviso,,Warning for IDE
+IDE_FolderPermsWarning,GameMaker is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},"GameMaker no puede tener acceso a carpetas vitales del sistema.\nPor favor, compruebe sus rutas en las preferencias y verifique los permisos de las carpetas o póngase en contacto con el administrador del sistema.\n\n{0}",,File permissions failure on startup
+Button_OK,OK,Aceptar,,ok button
+Button_Yes,Yes,Sí,,Yes
+Button_No,No,No,,No
+Dialog_CopyToClipboard,Copy to clipboard,Copiar al portapapeles,,Copy the dialog message to the clipboard
+IDE_VersionInfo,{1} IDE v{0},{1} IDE v{0},,the ide version information string
+IDE_SteamVersionInfo,{1} IDE v{0} Steam,{1} IDE v{0} Steam,,the ide version information string when running from steam
+UpdateDialogDownloadNow,Download now,Descargar ya,,Update new version dialog - download now button
+UpdateDialogRemindMe,Remind me later,Recordármelo más tarde,,Update new version dialog - remind me later button
+UpdateDialogLabel,New version is available! \nYou are on v{0}\nNew version is {1},¡Hay disponible una versión nueva! \nUsted tiene la v{0}\nLa nueva versión es la {1},,Update new version dialog - tell user which version they are on and which version update will take them to
+UpdateDialogReleaseNotes,View Release notes,Ver notas de la versión,,Update new version dialog - view release notes button
+UpdateDialogTitle,New Version,Nueva versión,,Update new version dialog title
+RSS_Download_Exception,Could not reach the RSS feed,No se ha podido acceder al canal RSS,,A message which is shown when the RSS feed is not accessible
+Splash_CheckingRSS,Checking RSS...,Comprobando RSS...,,Checking RSS...
+Dialog_Confirm,Confirm,Confirmar,,"Dialog ""confirm"" heading"
+Dialog_DontShowAgain,Don't show this message again,No volver a mostrar este mensaje.,,Message next to checkbox to allow the user to choose not to see this popup in future
+Runtime_Installing_Version,Installing runtime {0},Instalando tiempo de ejecución {0},,user facing splash screen message for installing runtime
+ImageEditor_SelectAll,Select All,Seleccionar todo,,Image editor select all menu option
+Button_Cancel,Cancel,Cancelar,,cancel button
+TargetSelection_Platform_Test,Test,Prueba,,the teset platform title in the platform selection list
+TargetSelection_Platform_android,Android,Android,,the android platform title in the platform selection list
+TargetSelection_Platform_HTML5,HTML5,HTML5,,the html5 platform title in the platform selection list
+TargetSelection_Platform_Linux,Ubuntu,Ubuntu,,the linux platform title in the platform selection list
+TargetSelection_Platform_operagx,GX.games,GX.games,DO NOT TRANSLATE,the opera gx platform title in the platform selection list
+TargetSelection_Platform_ps4,PlayStation 4,PlayStation 4,,the ps4 platform title in the platform selection list
+TargetSelection_Platform_ps5,PlayStation 5,PlayStation 5,,the ps5 platform title in the platform selection list
+TargetSelection_Platform_switch,Switch,Switch,DO NOT TRANSLATE,Switch
+TargetSelection_Platform_Windows,Windows,Windows,,the windows platform title in the platform selection list
+TargetSelection_Platform_xboxseriesxs,Xbox One & Series X/S,Xbox One & Series X/S,DO NOT TRANSLATE,the Xbox One & Series X/S platform title in the platform selection list
+TargetSelection_Platform_Mac,macOS,macOS,,the mac platform title in the platform selection list
+TargetSelection_Platform_ios,iOS,iOS,,the apple iOS platform title in the platform selection list
+TargetSelection_Platform_tvos,tvOS,tvOS,DO NOT TRANSLATE,the apple tvOS platform title in the platform selection list
+ProgressBar_Install,Installing...,Instalando...,,the progress bar caption while installing
+DialogEditor_Error,Error,Error,,dialog editor error box title
+UserLogin_Exception,Exception - {0},Excepción - {0},,exception error
+UserLogin_ServerError,Error ({0}) - {1},Error ({0}) - {1},,server response error
+UserLogin_Retry,Retry,Reintentar,,User Login - Error Retry
+UserLogin_NoRuntime,Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker again.,"Incapaz de acceder a las Feeds de tiempo de ejecución y no hay un tiempo de ejecución local instalado. Por favor, compruebe su conexión a internet y vuelva a ejecutar GameMaker.",,user login no runtime message
+UserLogin_InstallRuntimeTitle,Install Runtime {0},Instalar tiempo de ejecución {0},,install runtime title
+UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,"La unidad de destino {0} tiene solo {1} GB de espacio libre disponible.\nSe recomienda tener como mínimo 2 GB de espacio disponible; por favor, asegúrese de que hay suficiente espacio disponible antes de proceder.",,runtime free space warning message
+UserLogin_Continue,Continue,Continuar,,continue label
+UserLogin_MaxDevice,Maximum logins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,Superado el máximo de inicios de sesión\nPuede gestionar las sesiones de su cuenta en account.yoyogames.com,,User Login Error response 29
+User_OK,OK,ACEPTAR,,User Login - two step authentication ok button
+runtime_selection,Runtime Selection,Selección de tiempo de ejecución,,Runtime Selection Window title
+runtime_onstartup_change,Do you want to change your current runtime to the matching IDE version {0}?,¿Quieres cambiar tu tiempo de ejecución actual a la versión IDE correspondiente {0}?,,Change current runtime to the version matching the IDE
+UserLogin_OfflineError,Unable to take user offline,No se puede desconectar al usuario,,offline error
+IDETooltip_Notifications,Notifications,Notificaciones,,IDE toolbar notifications tooltip
+runtime_dns_ResolvingFailed,DNS resolving has failed,La resolución de DNS ha fallado,,A title of the warning which is shown when after the IDE failed to resolve an address against an alternative DNS
+runtime_dns_ResolvingFailedMessage,Could not resolve {0} with an alternative DNS. A system DNS has been used,No se ha podido resolver {0} con un DNS alternativo. Se ha utilizado un sistema DNS,,Could not use an alternative DNS

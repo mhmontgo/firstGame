@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="ABFilterMenu" layout_guid="6d6d13aa-b4ef-4748-9c86-458e3d8ee09f">
+    <Window stylename="ab_filtermenu_window" localised_title="AssetBrowser_Filters">
+      <Client />
+      <Layout layout_name="ABBorderlessWindowFrame" />
+    </Window>
+  </Layout>
+  <Layout layout_name="ABPopupFrame" layout_guid="2f2eb66a-8071-4cf9-88b7-b91107736011">
+    <Grid stylename="grid_container" left="0px" top="0px" grid_rowlayout="['auto', '1*']" grid_resize="ResizeGrid">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <TitleBar stylename="ab_title_bar" layout_id="title_bar" layout_guid="a51afe03-fef6-4230-96ed-53b29c6179f2">
+            <ChildGadgets>
+              <CloseButton stylename="close_button_up" layout_id="close_button" layout_guid="0201f4e4-5675-4411-8af8-0fd246827913" height="15dpi_px" top="" margin_bottom="" />
+            </ChildGadgets>
+          </TitleBar>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="client_panel" layout_guid="e128e192-4b8e-428d-afcb-265f49f6d2a4" row="1" column="0" stylename="ab_borderless_client_panel" flow_index="0" />
+    </Grid>
+  </Layout>
+  <Layout layout_name="CollapseHeader" layout_guid="36c7c241-6b2e-48e5-89a7-bea665999a2a">
+    <ScrollPanel stylename="dock_titlebar_focus" override_flow_index="9999999" height="24dpi_px" width="">
+      <ChildGadgets>
+        <Label stylename="title_bar_label" layout_id="label_title" layout_guid="3ab1dc2c-08bf-4dc8-a8a8-3a6f40534de9" override_flow_index="9999999" left="12dpi_px" />
+        <Button stylename="collapse_button_up" layout_id="collapse_button" layout_guid="92f3a7e3-aeaa-4511-ac3c-80b04f8cff49" override_flow_index="9999999" right="8dpi_px" icon="Dock\dock_item_arrowD.png" />
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+</Layouts>

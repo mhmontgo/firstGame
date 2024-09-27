@@ -1,0 +1,65 @@
+{
+	"extension_grid": {
+		"colour": "extension_grid"
+	},
+
+	"extension_tab_control": {
+		"colour": "extension_tab_control"
+	},
+
+	"extension_tablegadget_row_odd": {
+		"colour": "tablegadget_row_odd"
+	},
+
+	"extension_tablegadget_row_even": {
+		"colour": "tablegadget_row_even"
+	},
+
+	"extension_tablegadget_row_highlighted": {
+		"colour": "tablegadget_row_hi"
+	},
+
+	"extension_tablegadget_row_selected": {
+		"colour": "tablegadget_row_selected"
+	},
+
+	"extension_tablegadget_header": {
+		"colour": "tablegadget_header"
+	},
+
+	"extension_tablegadget_content": {
+		"colour": "tablegadget_bg"
+	},
+
+	"extension_list_box_auto": {
+		"colour": "extension_listbox",
+		"selection_colour": "extension_listbox_selected",
+		"mouse_over_colour": "extension_listbox_mouseover"
+	},
+
+	"extension_list_box": {
+		"colour": "extension_listbox"
+	},
+
+	"extension_list_box_highlight": {
+		"colour": "extension_listbox_selected"
+	},
+
+	"extension_list_box_mouseover": {
+		"colour": "extension_listbox_mouseover"
+	},
+
+	"extension_bordered_list_box": {
+		"colour": "extension_listbox",
+		"selection_colour": "extension_listbox_selected",
+		"mouse_over_colour": "extension_listbox_mouseover"
+	},
+
+	"extension_bordered_list_box_highlight": {
+		"colour": "extension_listbox_selected"
+	},
+
+	"extension_bordered_list_box_mouseover": {
+		"colour": "extension_listbox_mouseover"
+	}
+}

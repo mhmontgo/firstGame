@@ -1,0 +1,17 @@
+[
+  {
+    "relative": false,
+    "tagname": null,
+    "caption": "GMStdName",
+    "gadget": "YoYo Games.DnD_TextInput",
+    "gadget_properties": {
+      "TagName": "var",
+      "DefaultValue": null,
+      "HasMaximumLength": false,
+      "MaxLength": 0,
+      "HasPattern": true,
+      "Pattern": null,
+      "IsVariableName": true
+    }
+  }
+]

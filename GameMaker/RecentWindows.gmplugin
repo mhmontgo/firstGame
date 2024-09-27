@@ -1,0 +1,35 @@
+{
+  "name": "RecentWindows",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "RecentWindows",
+      "localised_name": "recent_windows_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "RecentWindows",
+          "version": "1.0",
+          "path": "RecentWindows.dll",
+          "checksum": "blLjvka8VyvABPKlHhXJQ4VbDF4lR8E8OOJVgWRQVDo="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "min_version": "1.0",
+          "max_version": ""
+        }
+      ]
+    }
+  ],
+  "author": "",
+  "signature": "nB9UoKMbxOsYwkKK10Jhhux5yCOXfjnqssdrncPXbDYwixtZFkNE82dkw36IIYycbE\u002BXs/ntRTpI2MoqX6Zy8IYJnu9Hb\u002BxH245RRplxYOEhwKBFjqmBAjiHUkBE2kC6Upcn70H4XesCX3yhBEDnUvF7XknsYC1RyYaX/BFw6WA=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

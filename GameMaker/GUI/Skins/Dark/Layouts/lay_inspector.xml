@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="InspectorWindow" layout_guid="e67e5699-6dd9-4da8-9eb7-098677ba1648">
+    <Window stylename="default_window" width="340dpi_px" height="600dpi_px" left="366dpi_px" top="157dpi_px" localise_title="Inspector_WindowTitle">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['36dpi_px', '0*']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" left="4dpi_px" right="0dpi_px" grid_columnlayout="['1*', '20dpi_px', '20dpi_px']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="text_box" override_flow_index="9999999" colour="#FFFFFFFF" grid_columnlayout="['1*', 'auto']">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <TextBox stylename="gototype_text_box" layout_id="search_box" layout_guid="bb41c9d3-ebb0-4be7-8f8c-55b1b8a0531e" override_flow_index="9999999" left="0px" right="0px" colour="#00000000" localise_default_caption="ResourceTree_SearchResources" text_hoffset="20dpi_px" text_hclip="20dpi_px">
+                              <ChildGadgets>
+                                <Image stylename="ab_image_searchicon" layout_id="search_icon" layout_guid="2007483c-ab3e-4a7d-a288-efa239d4321c" left="3dpi_px" top="3dpi_px" image_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_search&quot;]" />
+                                <CloseButton stylename="close_button_up" layout_id="search_cancel" layout_guid="87b7b37f-d1be-409e-a656-f622c1dbef38" override_flow_index="9999999" right="0dpi_px" top="" margin_bottom="" colour="#FF888888" />
+                              </ChildGadgets>
+                            </TextBox>
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="0" column="1" stylename="text_box_panel" flow_index="0">
+                          <ChildGadgets>
+                            <StackPanel stylename="stack_panel" override_flow_index="9999999" top="2dpi_px" bottom="0px" stack_resize="ResizeWidth">
+                              <ChildGadgets>
+                                <VerticalSeparator stylename="vertical_separator" override_flow_index="9999999" left="0px" top="0px" bottom="4dpi_px" margin_top="1px" margin_bottom="1px" />
+                                <Label stylename="label" layout_id="search_count_label" layout_guid="158454ff-d7ef-4bfb-a769-ea4e086e28e3" override_flow_index="9999999" height="16px" width="18px" left="9px" margin_left="8dpi_px" caption="0/0" />
+                                <Button stylename="no_frame_button" layout_id="search_prev" layout_guid="d42c3b6a-4008-4414-b2b7-27e1549b6c14" override_flow_index="9999999" width="24dpi_px" left="31px" margin_left="4dpi_px" icon_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_chevron_up&quot;]" vector_icon_size="12dpi_px" />
+                                <Button stylename="no_frame_button" layout_id="search_next" layout_guid="8cfdc936-9547-44df-a7bd-8f38522d68a1" override_flow_index="9999999" width="24dpi_px" left="59px" margin_left="4dpi_px" margin_right="4dpi_px" icon_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_chevron_down&quot;]" vector_icon_size="12dpi_px" />
+                              </ChildGadgets>
+                            </StackPanel>
+                          </ChildGadgets>
+                        </Cell>
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <CheckBox stylename="lock_checkbox_stack" layout_id="lock_check" layout_guid="2de08e7a-7883-4325-8ba5-fdfe426427e1" override_flow_index="9999999" base_style="lock_checkbox" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="ab_menu_button" layout_id="menu_button" layout_guid="aa24c6e8-e285-42f9-b1de-c157b7da0e45" override_flow_index="9999999" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <InspectorScrollPanel stylename="auto_adjust_scrollpanel" layout_id="inspector_scroll_panel" layout_guid="12a8c6ed-0fc6-4418-a6fc-235dcf7d9496" override_flow_index="9999999" top="0dpi_px" bottom="1dpi_px" scrollpanel_flags="VerticalScroll, AdjustToScrollBars">
+                  <ChildGadgets>
+                    <StackPanel stylename="stack_panel" layout_id="inspector_panel" layout_guid="b80186dd-8c05-4822-915c-e259b54620c1" override_flow_index="9999999" left="0px" right="0px" top="150dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight" />
+                    <Grid stylename="grid_container" layout_id="inspector_grid_panel" layout_guid="29deb007-9bb1-4e29-a2f2-51d6c06572fe" override_flow_index="9999999" top="0dpi_px" bottom="0px" grid_resize="ResizeGridWidth"></Grid>
+                    <StackPanel stylename="ins_sticky_panel" layout_id="inspector_sticky_panel" layout_guid="a6a19878-f104-4ae5-a29b-b7f8d62c3192" override_flow_index="9999999" />
+                  </ChildGadgets>
+                </InspectorScrollPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

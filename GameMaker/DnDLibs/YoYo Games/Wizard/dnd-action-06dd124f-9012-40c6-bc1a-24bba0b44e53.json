@@ -1,0 +1,53 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdType",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "type",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdString|GMStdNumber"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdSection",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "section",
+      "DefaultValue": "\"section\"",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdKey",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "key",
+      "DefaultValue": "\"key\"",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdValue",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "value",
+      "DefaultValue": "\"value\"",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

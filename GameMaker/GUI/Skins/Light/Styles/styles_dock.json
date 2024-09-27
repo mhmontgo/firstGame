@@ -1,0 +1,17 @@
+﻿{
+	"dock_settings": {
+		"hilight_colour": "dock_hi"
+	},
+
+	"dock_scroll_panel": {
+		"colour": "dock_scroll_panel"
+	},
+
+	"dock_grid_container": {
+		"colour": "dock_grid_container"
+	},
+
+	"dock_tab_control_client_panel": {
+		"colour": "dock_tab_control_client_panel"
+	}
+}

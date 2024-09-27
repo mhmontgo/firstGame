@@ -1,0 +1,56 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdPath",
+    "gadget": "YoYo Games.DnD_ResourceSelection",
+    "gadget_properties": {
+      "TagName": "path",
+      "DefaultValue": "noone",
+      "ResourceFilter": "GMPath"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdSpeed",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "speed",
+      "DefaultValue": "1",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdOnEnd",
+    "gadget": "YoYo Games.DnD_MenuExpressionInput",
+    "gadget_properties": {
+      "TagName": "atend",
+      "DefaultValue": "path_action_stop",
+      "Separator": "|",
+      "MenuOptions": "GMStdStop|GMStdRestart|GMStdLoop|GMStdReverse",
+      "Values": "path_action_stop|path_action_restart|path_action_continue|path_action_reverse",
+      "MenuLayout": null,
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdRelative",
+    "gadget": "YoYo Games.DnD_BooleanExpressionInput",
+    "gadget_properties": {
+      "TagName": "relative",
+      "DefaultValue": "false",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdFont",
+    "gadget": "YoYo Games.DnD_ResourceSelection",
+    "gadget_properties": {
+      "TagName": "font",
+      "DefaultValue": "noone",
+      "ResourceFilter": "GMFont"
+    }
+  }
+]

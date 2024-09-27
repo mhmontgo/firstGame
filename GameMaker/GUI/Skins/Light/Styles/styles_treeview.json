@@ -1,0 +1,18 @@
+﻿{
+	"gadget_treeview": {
+		"selection_colour": "treeview_item_selection",
+		"drop_target_colour": "treeview_item_drop_target",
+		"drop_indicator_colour": "treeview_item_drop_indicator"
+	},
+
+	"resourcetree_label_default": {
+		"colour": "resourcetree_label"
+	},
+
+	"resourcetree_colours": {
+		"background_default": "resourcetree_bg",
+		"icon_default": "resourcetree_icon",
+		"horizontal_separator": "resourcetree_separator",
+		"treeline": "resourcetree_treeline"
+	}
+}

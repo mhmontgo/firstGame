@@ -1,0 +1,29 @@
+{
+  "name": "GMLVisualMaker",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "GMLVisualMaker",
+      "localised_name": "gml_visual_maker_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "GMLVisualMaker",
+          "version": "1.0",
+          "path": "GMLVisualMaker.dll",
+          "checksum": "JQk2iJI5zZByrxcsZ0t8SEnnWX6G8dLnnGbaZxWq8ys="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "xE9unBMJEw1XLdZn7UXJD/wkK5fDr1YZlJj\u002BHOaeAv/AGevhKfi0LrK8VUo1CD0aVi/DUGnbA\u002BcdQnsnQ\u002B5C\u002BW103bs7K0na7iZMKufgiwJh4ea\u002BqP775V1qPflrdOYVmc2IHI/Cxmhyic5VffmoljnmW\u002BdVchH7TqIjskXV7oA=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdParticleType",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "type",
+      "DefaultValue": "type",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdShape",
+    "gadget": "YoYo Games.DnD_MenuExpressionInput",
+    "gadget_properties": {
+      "TagName": "shape",
+      "DefaultValue": "pt_shape_pixel",
+      "Separator": "|",
+      "MenuOptions": "GMStdPixel|GMStdDisk|GMStdSquare|GMStdLine|GMStdStar|GMStdCircle|GMStdRing|GMStdSphere|GMStdFlare|GMStdSpark|GMStdExplosion|GMStdCloud|GMStdSmoke|GMStdSnow",
+      "Values": "pt_shape_pixel|pt_shape_disk|pt_shape_square|pt_shape_line|pt_shape_star|pt_shape_circle|pt_shape_ring|pt_shape_sphere|pt_shape_flare|pt_shape_spark|pt_shape_explosion|pt_shape_cloud|pt_shape_smoke|pt_shape_snow",
+      "MenuLayout": null,
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

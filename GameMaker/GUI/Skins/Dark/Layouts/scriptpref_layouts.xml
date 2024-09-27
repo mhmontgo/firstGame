@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="ScriptPref_Dialog" layout_guid="22b5aa23-9a8e-4e7b-9f9a-60a34934abc8">
+    <Window stylename="default_window" override_flow_index="9999999" height="445dpi_px" width="586dpi_px" localise_title="ScriptType_Title" window_flags="CloseButton, DockingDisabled, DesktopTransferDisabled">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" layout_id="drop_shadow" layout_guid="82be3485-788f-45a1-90a5-06f01facb4bb" override_flow_index="9999999" height="165dpi_px" left="17dpi_px" right="17dpi_px" top="61dpi_px" grid_columnlayout="['1*', '1*']" column_spacing="28dpi_px"></Grid>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="24dpi_px" right="24dpi_px" top="12dpi_px" bottom="4dpi_px" grid_rowlayout="['56dpi_px', '1*', '48dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['40dpi_px', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Image stylename="ins_sprite_play_button" override_flow_index="9999999" height="32dpi_px" width="24dpi_px" left="0px" top="0px" image_flags="Centre" font_icon="[&quot;asset_type_icon_font&quot;, &quot;AT_icon_scripts&quot;]" vector_icon_size="24dpi_px" />
+                      <Image stylename="image" override_flow_index="9999999" height="18dpi_px" width="18dpi_px" left="18dpi_px" top="0px" colour="#FF00FFFF" image_flags="Stretch, Centre, KeepAspectRatio" image="Buttons\icon_IDE_error.png" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="TopToBottom">
+                        <ChildGadgets>
+                          <Label stylename="label" override_flow_index="9999999" height="16px" width="253px" left="0px" top="0px" localise_caption="ScriptType_SelectLang" />
+                          <Label stylename="label" override_flow_index="9999999" height="16px" width="212px" left="0px" top="16px" colour="#FF808080" localise_caption="ScriptType_SelectLang_Info" />
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', '1*']" column_spacing="42dpi_px">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['150dpi_px', '32dpi_px', '1*']">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <ScrollPanel stylename="sp_box_frame" layout_id="code_panel" layout_guid="eae9fabd-5b31-4eec-8220-164660cd62b3" override_flow_index="9999999" height="">
+                              <ChildGadgets>
+                                <Image stylename="sp_code_image" layout_id="code_image" layout_guid="10836f93-5a40-4df7-88fd-24e825f206ca" override_flow_index="9999999" height="125dpi_px" width="207dpi_px" image_flags="Stretch, Centre" image="GMLCode_thumbnail.png" />
+                              </ChildGadgets>
+                            </ScrollPanel>
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell layout_id="code_cell" layout_guid="48e850a2-5655-4616-9273-f03784c43268" row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Label stylename="label" override_flow_index="9999999" height="16px" width="62px" localise_caption="ScriptType_Code" />
+                            <RadioButton stylename="radiobutton_stack" layout_id="code_radio" layout_guid="acdf46b2-9c65-41da-80ed-4af56f96ceae" override_flow_index="9999999" left="" right="0px" top="" stack_order="RightToLeft" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Label stylename="sp_label_small" override_flow_index="9999999" height="16px" width="" top="0px" localise_caption="ScriptType_CodeDesc" word_wrap="True" />
+                          </ChildGadgets>
+                        </Cell>
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['150dpi_px', '32dpi_px', '1*']">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <ScrollPanel stylename="sp_box_frame" layout_id="visual_panel" layout_guid="3ffd14c0-e3cc-4ca3-8358-14998945587f" override_flow_index="9999999" height="150dpi_px" top="0px">
+                              <ChildGadgets>
+                                <Image stylename="sp_code_image" layout_id="visual_image" layout_guid="29a24dea-123a-489b-8809-c8da4cf8cf05" override_flow_index="9999999" height="125dpi_px" width="207dpi_px" image_flags="Stretch, Centre" image="GMLVisual_thumbnail.png" />
+                              </ChildGadgets>
+                            </ScrollPanel>
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell layout_id="visual_cell" layout_guid="8b14aa30-b3b2-4ff1-bf66-f591a402dfb4" row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <RadioButton stylename="radiobutton_stack" layout_id="visual_radio" layout_guid="4e7c3d7f-8db8-4d5b-a598-bad1b0023f43" override_flow_index="9999999" left="" right="0px" top="" stack_order="RightToLeft" />
+                            <Label stylename="label" override_flow_index="9999999" height="16px" width="69px" localise_caption="ScriptType_Visual" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Label stylename="sp_label_small" override_flow_index="9999999" height="16px" width="" top="0px" localise_caption="ScriptType_VisualDesc" word_wrap="True" />
+                          </ChildGadgets>
+                        </Cell>
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" left="0px" stack_order="BottomToTop" stack_resize="ResizeWidth">
+                  <ChildGadgets>
+                    <CheckBox stylename="checkbox_stack" layout_id="show_check_ever" layout_guid="df946c1f-7d4c-4415-93bf-64042d7c0d51" override_flow_index="9999999" left="0px" bottom="0px" margin_top="6dpi_px" localise_name="ScriptType_DontAskEver" />
+                    <CheckBox stylename="checkbox_stack" layout_id="show_check_project" layout_guid="2af3992e-6302-4e4c-822d-9dcf0e7f9001" override_flow_index="9999999" left="0px" bottom="25px" localise_name="ScriptType_DontAskProject" />
+                  </ChildGadgets>
+                </StackPanel>
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" height="24dpi_px" right="0px" bottom="0dpi_px" stack_order="RightToLeft" stack_resize="ResizeWidth">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="button_cancel" layout_guid="9d29aac2-6268-4dfa-bb7f-f236be835403" override_flow_index="9999999" width="80dpi_px" right="0px" localise_name="Button_Cancel" />
+                    <Button stylename="button_up" layout_id="button_ok" layout_guid="a6da6665-bf20-49d5-aca3-fab6bf85a1b4" override_flow_index="9999999" width="80dpi_px" right="96px" margin_right="16dpi_px" localise_name="Button_OK" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

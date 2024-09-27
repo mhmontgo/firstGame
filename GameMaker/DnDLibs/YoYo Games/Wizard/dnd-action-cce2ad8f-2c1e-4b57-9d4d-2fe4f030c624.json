@@ -1,0 +1,26 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdLayer",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "layername",
+      "DefaultValue": "\"Layer\"",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdTileSet",
+    "gadget": "YoYo Games.DnD_ResourceSelection",
+    "gadget_properties": {
+      "TagName": "tileset",
+      "DefaultValue": "noone",
+      "ResourceFilter": "GMTileSet"
+    }
+  }
+]

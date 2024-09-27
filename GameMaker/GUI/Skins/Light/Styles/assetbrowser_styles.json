@@ -1,0 +1,64 @@
+{
+  "ab_grid_container": {
+    "colour": "assetbrowser_grid_container"
+  },
+
+  "ab_module_style": {
+    "button_icon_colour": "assetbrowser_button"
+  },
+
+  "fasset_tree_style": {
+    "qa_root_colour": "assetbrowser_quickaccess_root",
+    "qa_child_colour": "assetbrowser_quickaccess_child",
+    "qa_separator_colour": "assetbrowser_quickaccess_separator",
+    "icon_colour": "assetbrowser_icon",
+    "expand_arrow_colour": "assetbrowser_arrow_expand",
+    "searchmatch_colour": "assetbrowser_searchmatch"
+  },
+
+  "ab_tree_resource_icon": {
+    "colour": "assetbrowser_includedfiles_icon"
+  },
+
+  "ab_treeview_folder_neutral": {
+    "colour": "assetbrowser_treeview_folder"
+  },
+
+  "ab_object_blob_icon": {
+    "colour": "assetbrowser_object_blob"
+  },
+
+  "ab_search_save_button": {
+    "icon_colour": "assetbrowser_button_searchsave"
+  },
+
+  "ab_add_button": {
+    "icon_colour": "assetbrowser_button_add"
+  },
+
+  "ab_filter_button": {
+    "icon_colour": "assetbrowser_button_filter"
+  },
+
+  "ab_menu_button": {
+    "icon_colour": "assetbrowser_button_menu"
+  },
+
+  "ab_big_resource_icon": {
+    "colour": "assetbrowser_resource_icon_big"
+  },
+
+  "ab_button_deactivated": {
+    "icon_colour": "assetbrowser_button_icon_deactivated",
+    "label_colour": "assetbrowser_button_label_deactivated"
+  },
+
+  "ab_button_reactivated": {
+    "icon_colour": "assetbrowser_button_icon_reactivated",
+    "label_colour": "assetbrowser_button_label_reactivated"
+  },
+
+  "ab_left_chevron": {
+    "colour": "assetbrowser_col_pal_arrow"
+  }
+}

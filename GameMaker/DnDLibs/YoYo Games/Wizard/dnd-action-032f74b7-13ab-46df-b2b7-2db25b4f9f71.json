@@ -1,0 +1,15 @@
+[
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdPositionNorm",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "position",
+      "DefaultValue": "0",
+      "Range": true,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  }
+]

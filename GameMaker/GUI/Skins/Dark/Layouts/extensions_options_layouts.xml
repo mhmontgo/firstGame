@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="ExtensionEditor_OptionType_Label" layout_guid="b5224230-28e6-4149-a045-b8a6638b6742">
+    <ScrollPanel stylename="default_scrollpanel" scrollpanel_flags="None">
+      <ChildGadgets>
+        <TextBox stylename="text_box" layout_id="input" width="100%" />
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="ExtensionEditor_OptionType_List" layout_guid="64dafad8-6a00-46c5-bf3e-07eac4001ddf">
+    <ComboBox stylename="combobox_panel" layout_id="input" layout_guid="15b94954-1f0f-4b27-acb2-140ac7382fda" width="100%" left="0px" display_tag_property="True">
+      <ListBoxItems />
+    </ComboBox>
+  </Layout>
+  <Layout layout_name="ExtensionEditor_Option_List_Item" layout_guid="f9cfff03-4d1b-419f-be38-8f08080ff40d">
+    <ScrollPanel stylename="default_scrollpanel" height="28dpi_px" left="0px" top="0px" scrollpanel_flags="None" mouse_events="False">
+      <ChildGadgets>
+        <Image stylename="image" image="Buttons/widget_thumb.png" mouse_events="False" left="2dpi_px" top="2dpi_px" bottom="2dpi_px" width="7dpi_px" image_flags="Stretch, Centre, KeepAspectRatio" />
+        <ScrollPanel mouse_events="True" left="11dpi_px" right="0px">
+          <ChildGadgets>
+            <Button stylename="button_extension_editor_child" layout_id="btn_remove" localise_tooltip="ExtensionEditor_WindowExtras_ListRemoveItem_Tooltip" width="24dpi_px" left="0px" top="2dpi_px" icon="Buttons\icon_IDE_remove.png" />
+            <TextBox stylename="text_box" layout_id="textbox" height="24dpi_px" left="26dpi_px" right="2dpi_px" top="2dpi_px" />
+          </ChildGadgets>
+        </ScrollPanel>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="ExtensionEditor_OptionType_FolderPath" layout_guid="f4165115-5047-4166-b4cf-1f8ad9ce2537">
+    <FileInputGadget stylename="file_input" layout_id="input" left="0px" />
+  </Layout>
+  <Layout layout_name="ExtensionEditor_OptionType_FilePath" layout_guid="365bab04-62d6-4236-92b9-4317f80b2d72">
+    <FileInputGadget stylename="file_input" layout_id="input" left="0px" />
+  </Layout>
+  <Layout layout_name="ExtensionEditor_OptionType_Number" layout_guid="0ac4e6d1-52a6-4f26-8027-a271fffc7eb4">
+    <ScrollPanel stylename="default_scrollpanel" scrollpanel_flags="None">
+      <ChildGadgets>
+        <NumericTextBox stylename="numeric_text_box" layout_id="input" width="100%" has_buttons="True" step_increment="0.1" input_type="Real" />
+        <Slider stylename="slider_grid" layout_id="range" left="" has_textbox="True" textbox_style="slider_grid_textbox" input_type="Real" />
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="ExtensionEditor_OptionType_Boolean" layout_guid="0d579b3f-b557-4c7f-836e-e60581e9e14f">
+    <CheckBox stylename="checkbox_stack" layout_id="input" left="0px" localise_name="ExtensionEditor_OptionBoolean_Label" />
+  </Layout>
+  <Layout layout_name="ExtensionEditor_OptionType_String" layout_guid="76ccb266-c871-4c1e-ba31-ac71713aecc3">
+    <TextBox stylename="text_box" layout_id="input" width="100%" />
+  </Layout>
+  <Layout layout_name="ExtensionEditor_OptionDefinitionsWindow" layout_guid="365f7479-1940-4eb5-afdc-24449beecf0c">
+    <ExtensionOptionsWindow stylename="extension_options_window" height="250dpi_px" width="640dpi_px" left="122dpi_px" top="77dpi_px" localise_title="ExtensionEditor_Options_Window">
+      <Client>
+        <ChildGadgets>
+          <TableGadget stylename="instance_variable_table" layout_id="table_options" table_list_box_style="extension_options_table_gadget" height="100%" width="100%" left="0px" top="0px" grid_rowlayout="['auto', '1*', 'auto']" grid_columnlayout="['auto']">
+            <Cell row="2" column="0" flow_index="0">
+              <ChildGadgets>
+                  <Button stylename="button_up" layout_id="button_add" localise_tooltip="ExtensionEditor_OptionAddButton_Tooltip" height="24px" width="88dpi_px" right="0px" bottom="0px" margin_top="4dpi_px" localise_name="ExtensionEditor_OptionAddButton" />
+				  <Button stylename="button_up" layout_id="button_add_section" localise_tooltip="ExtensionEditor_OptionAddSectionButton_Tooltip" height="24px" width="88dpi_px" right="96dpi_px" bottom="0px" margin_top="4dpi_px" localise_name="ExtensionEditor_OptionAddSectionButton" />
+              </ChildGadgets>
+            </Cell>
+          </TableGadget>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </ExtensionOptionsWindow>
+  </Layout>
+  <Layout layout_name="ExtensionEditor_OptionConfigItem" layout_guid="bfe2d3b2-6294-47b6-a1fa-1f43f84f3fe0">
+    <OptionConfigItem stylename="extension_options_config_item" height="28dpi_px" margin_left="24dpi_px" margin_right="2dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['1*', '2*', '24dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="display_label" layout_guid="25d5774a-d170-48d3-b318-9febc991e1b5" height="25px" left="0dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="default_scrollpanel" layout_id="content_panel" layout_guid="db8c2849-995a-4a39-9951-feb3846b4504" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0" >
+		  <ChildGadgets>
+          <Button stylename="button_up" layout_id="btn_reset" layout_guid="53b79c48-9f6e-4743-a48e-1b402fa33777" localise_tooltip="ExtensionEditor_Config_Reset_Tooltip" width="24dpi_px" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Runtime\icon_IDE_refresh.png" />
+        </ChildGadgets>
+      </Cell>
+    </OptionConfigItem>
+  </Layout>
+  <Layout layout_name="ExtensionEditor_Option_Extras_List" layout_guid="31323ad8-cc60-4faa-b967-5e6454f479fa">
+    <Window stylename="extension_option_extras_window" height="400dpi_px" width="300dpi_px">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" left="2dpi_px" right="2dpi_px" top="2dpi_px" bottom="2dpi_px" grid_rowlayout="['auto', 'auto', 'auto', '1*', '200dpi_px', '22dpi_px', '22dpi_px']" row_spacing="2dpi_px">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" height="25px" width="123px" left="0dpi_px" localise_caption="ExtensionEditor_WindowExtras_DisplayName" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <TextBox stylename="text_box" bind_property="displayName" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" height="25px" width="172px" left="0dpi_px" localise_caption="ExtensionEditor_WindowExtras_Description" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <MultiLineTextBox stylename="multiline_text_box" height="100%" width="100%" bind_property="description" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="4" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Layout layout_name="ExtensionEditor_Option_Extras_ListContent" layout_guid="68fb99ef-7121-4d6e-b4ed-639f115bfc78" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="5" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" left="0dpi_px" grid_columnlayout="['auto', 'auto']" column_spacing="4dpi_px" grid_resize="ResizeGridWidth">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" height="25px" width="141px" left="0dpi_px" localise_caption="ExtensionEditor_WindowExtras_Export" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <CheckBox stylename="checkbox_stack" left="0dpi_px" bind_property="exportToINI" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="6" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" left="0dpi_px" grid_columnlayout="['auto', 'auto']" grid_resize="ResizeGridWidth">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" height="25px" width="150px" caption="Hide from editor: " />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <CheckBox stylename="checkbox_stack" bind_property="hidden" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="ExtensionEditor_Option_Extras_ListContent" layout_guid="68fb99ef-7121-4d6e-b4ed-639f115bfc78">
+    <Grid stylename="grid_container" left="0px" top="0px" grid_rowlayout="['auto', '1*', '30dpi_px']">
+      <Cell row="0" column="0" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" height="16px" width="53px" left="0px" margin_bottom="4dpi_px" localise_caption="ExtensionEditor_WindowExtras_ListItems" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" flow_index="0">
+        <ChildGadgets>
+          <TreeView stylename="extension_options_list_tree_view" layout_id="tree" left="0dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="2" column="0" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="button_up" layout_id="btn_add" height="24px" width="74dpi_px" right="0px" localise_name="Button_Add" localise_tooltip="ExtensionEditor_WindowExtras_ListAddButton_Tooltip" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="ExtensionEditor_OptionTableRow" layout_guid="a3999ff0-fd06-4f08-8e06-313f9b418abe">
+    <OptionTableRow stylename="extension_options_table_row" left="0px" top="0px" grid_rowlayout="['auto']" grid_columnlayout="['1.5*', '1.5*', '1*', '57dpi_px']" mouse_events="True">
+      <Cell row="0" column="0" flow_index="0">
+        <ChildGadgets>
+          <Grid top="0px" grid_columnlayout="['auto', '1*']" column_spacing="4dpi_px" left="0px" right="4dpi_px">
+            <Cell row="0" column="0" flow_index="0">
+              <ChildGadgets>
+                <Image stylename="image" image="Buttons/widget_thumb.png" mouse_events="False" left="2dpi_px" top="2dpi_px" bottom="2dpi_px" width="7dpi_px" image_flags="Stretch, Centre, KeepAspectRatio" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" flow_index="0">
+              <ChildGadgets>
+                <DnDExpressionInput layout_id="expr_name" bind_property="optName" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel layout_id="content_panel" left="0px" right="2dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" flow_index="0">
+        <ChildGadgets>
+          <ComboBox stylename="combobox_panel" layout_id="combo_type" left="2dpi_px" right="0px" bind_property="optType">
+            <ListBoxItems />
+          </ComboBox>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="3" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stackpanel" right="0px" stack_resize="ResizeWidth">
+            <ChildGadgets>
+              <Button stylename="extension_option_extras_button" layout_id="btn_extras" width="24dpi_px" left="0px" margin_right="4dpi_px" />
+              <Button stylename="extension_option_remove_button" layout_id="btn_remove" width="24dpi_px" left="42px" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+	    <Cell row="0" column="0" columnspan="4" flow_index="0">
+		    <ChildGadgets>
+				<TextBox stylename="text_box" layout_id="section_input" left="10dpi_px" right="26dpi_px" width="100%" bind_property="defaultValue" />
+		    </ChildGadgets>
+	    </Cell>
+    </OptionTableRow>
+  </Layout>
+  <Layout layout_name="ExtensionEditor_Option_Extras" layout_guid="058b2ec1-3280-4413-8d6a-fd7d7e2ae29b">
+    <Window stylename="extension_option_extras_window" height="200dpi_px" width="300dpi_px">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" left="2dpi_px" right="2dpi_px" top="2dpi_px" bottom="2dpi_px" grid_rowlayout="['auto', 'auto', 'auto', '1*', '22dpi_px', '22dpi_px']" row_spacing="2dpi_px">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" height="25px" width="123px" left="0dpi_px" localise_caption="ExtensionEditor_WindowExtras_DisplayName" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <TextBox stylename="text_box" bind_property="displayName" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" height="25px" width="102px" left="0dpi_px" localise_caption="ExtensionEditor_WindowExtras_Description" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <MultiLineTextBox stylename="multiline_text_box" height="100%" width="100%" bind_property="description" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="4" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" left="0dpi_px" grid_columnlayout="['auto', 'auto']" column_spacing="4dpi_px" grid_resize="ResizeGridWidth">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" height="25px" width="141px" left="0dpi_px" localise_caption="ExtensionEditor_WindowExtras_Export" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <CheckBox stylename="checkbox_stack" left="0dpi_px" bind_property="exportToINI" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="5" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" left="0dpi_px" grid_columnlayout="['auto', 'auto']" grid_resize="ResizeGridWidth">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" height="25px" width="150px" caption="Hide from editor: " />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <CheckBox stylename="checkbox_stack" bind_property="hidden" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="ExtensionEditor_OptionType_Constant" layout_guid="dd4e2a09-de6f-47bb-ab7c-f9d4ac94a58f">
+    <TextBox stylename="text_box" layout_id="input" width="100%" />
+  </Layout>
+</Layouts>

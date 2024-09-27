@@ -1,0 +1,38 @@
+{
+	"animcurvelib_style": {
+		"libgraph_bgcol": "animcurve_lib_bg",
+		"libgraph_boxcol": "animcurve_lib_box",
+		"libgraph_axiscol1": "animcurve_lib_axis_1",
+		"libgraph_axiscol2": "animcurve_lib_axis_2",
+		"libgraph_graphcol": "animcurve_lib_graph"
+	},
+
+	"animcurvelib_window": {
+		"height": "250dpi_px",
+		"width": "450dpi_px",
+		"width_min": "420dpi_px",
+		"height_min": "180dpi_px",
+		"window_flags": "Borderless, ResizeButton, DesktopTransferDisabled, DockingDisabled, CloseButton",
+		"mouse_events": "True"
+	},
+
+	"animcurvelib_window_small": {
+		"height": "250dpi_px",
+		"width": "340dpi_px",
+		"width_min": "310dpi_px",
+		"height_min": "180dpi_px",
+		"window_flags": "Borderless, ResizeButton, DesktopTransferDisabled, DockingDisabled, CloseButton",
+		"mouse_events": "True"
+	},
+
+	"aclib_header": {
+		"base": "listviewexplorer_chrome",
+		"colour": "animcurve_library_header"
+	},
+
+	"title_info_button": {
+		"icon": "IDE_Toolbar/icon_IDE_help.png",
+		"icon_flags": "Centre, Stretch, KeepAspectRatio",
+		"localise_tooltip": "GMLVisualNodeWindow_CMenu_Help"
+	}
+}

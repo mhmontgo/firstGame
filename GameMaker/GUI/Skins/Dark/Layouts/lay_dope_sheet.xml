@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="SequenceDopeSheet" layout_guid="bb4ab6cf-c830-4bed-8e8c-3b5ab1c87e90">
+    <ChildGadgets>
+      <Grid stylename="dope_sheet" layout_id="dopesheet_grid" layout_guid="150d1013-a2e5-48f0-ac96-3cbb449460b1" override_flow_index="9999999" left="0px" top="0px" grid_rowlayout="['auto', '1*', 'auto']" grid_columnlayout="['2*', '5*']" grid_resize="ResizeGrid">
+        <ColumnSplitter stylename="dope_sheet_vertical_splitter" layout_id="dope_sheet_vertical_splitter" layout_guid="c39fb8c7-4f72-407f-a13b-9f8f0ca70112" splitter_flags="ResizeFirst" override_flow_index="9999999" height="1400px" width="6dpi_px" left="742px" top="0px" row="0" column="1" rowspan="3" columnspan="1" />
+        <Cell row="0" column="0" stylename="sequence_dope_sheet_trackpanel_container_top" flow_index="0">
+          <ChildGadgets>
+            <Grid stylename="grid_container" override_flow_index="9999999" left="0dpi_px" right="4dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['auto', 'auto', '1*', 'auto', 'auto', 'auto', 'auto']" column_spacing="6dpi_px" grid_resize="ResizeGrid">
+              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <StackPanel stylename="stack_panel" layout_id="snap_controls_container" layout_guid="9df2c3e0-74be-4a7d-ae18-672dc0851d5d" override_flow_index="9999999" height="24dpi_px" width="42dpi_px" left="4dpi_px" right="0dpi_px" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_events" layout_id="btn_events" layout_guid="0d9d0b29-f72e-4683-a3d8-6eea62efafbc" override_flow_index="9999999" localise_tooltip="SeqEvents_Tooltip" height="20dpi_px" width="20dpi_px" left="4dpi_px" right="0dpi_px" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_events&quot;]" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_splitkey" layout_id="btn_splitkey" layout_guid="6cb959a6-ef1e-4277-b11a-aad4a1f5998c" override_flow_index="9999999" localise_tooltip="DopeSheet_Tooltip_SplitKey" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_deletekey" layout_id="btn_deletekey" layout_guid="1b50c7eb-5e25-49a9-9b8b-be568361ab9c" override_flow_index="9999999" localise_tooltip="DopeSheet_Tooltip_DeleteKey" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="5" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_addkey" layout_id="btn_newkey" layout_guid="5b5ffbde-1a9b-4f2b-9db2-71c4a080a53b" override_flow_index="9999999" localise_tooltip="DopeSheet_Tooltip_NewKey" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="6" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <ToggleButton stylename="dopesheet_btn_autokey" layout_id="btn_autorecord" layout_guid="c1d0f5c6-07f1-4a5a-be27-57b96f365eb3" override_flow_index="9999999" localise_tooltip="DopeSheet_Tooltip_AutoRecord" />
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="1" stylename="dope_sheet_panel" flow_index="0">
+          <ChildGadgets>
+            <Grid stylename="grid_container" layout_id="control_bar_grid" layout_guid="f0495f26-27bc-4c2b-84dd-9f0f7ea87ed0" override_flow_index="9999999" left="4dpi_px" right="4dpi_px" margin_top="4dpi_px" margin_bottom="4dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['auto', 'auto', 'auto', 'auto', 'auto', 'auto', 'auto', 'auto', 'auto', '0.5*', 'auto', 'auto', 'auto', 'auto', 'auto', '0.5*', 'auto', 'auto']" column_spacing="6dpi_px" grid_resize="ResizeGrid">
+              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_resize="ResizeAll">
+                    <ChildGadgets>
+                      <NumericTextBox stylename="numeric_text_box" layout_id="head_position" layout_guid="9940cf5c-aaa4-4e3f-a1ec-05cac0836e08" override_flow_index="9999999" tooltip="&#xD;&#xA;" width="86dpi_px" left="0px" input_type="Timestamp" />
+                      <ToggleButton stylename="dopesheet_btn_dropdown" layout_id="head_position_dropdown" layout_guid="9ff597c3-ac9f-48b0-9084-1dbcdd126438" override_flow_index="9999999" localise_tooltip="SequenceDopeSheet_Timeline_ChangeTimeUnitsTooltip" width="12dpi_px" left="86px" />
+                    </ChildGadgets>
+                  </StackPanel>
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <NumericTextBox stylename="numeric_text_box" layout_id="fps_text" layout_guid="b17f26bb-b7f4-4090-9a13-d5766548fdd7" override_flow_index="9999999" text="30" default_value="30" max="1000" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Label stylename="label" layout_id="fps_label" layout_guid="ee8553e0-b021-41bb-adfe-3fec08fc7a23" override_flow_index="9999999" height="16px" width="17px" localise_caption="SequenceDopesheet_FPS" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <VerticalSeparator stylename="vertical_separator" margin_left="2dpi_px" margin_right="2dpi_px" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="5" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_add_label" layout_id="btn_new_label" layout_guid="cb1d7c16-2ccd-43f7-bab8-f2d0981a08c4" localise_tooltip="Sequence_Tooltip_Add_Label" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="6" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_add_label" layout_id="moments_button" layout_guid="a59bb321-455d-4266-8536-9afca8450c6c" override_flow_index="9999999" localise_tooltip="Sequence_Tooltip_Moment_Tooltip" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_trackpanel_event&quot;]" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="7" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <ToggleButton stylename="dopesheet_btn_add_label" layout_id="anim_curve_button" layout_guid="04329386-521a-4895-9f9e-25e56e4d8ec7" localise_tooltip="Sequence_Tooltip_AnimCurveMode" override_flow_index="9999999" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_anim_curves&quot;]" />
+                </ChildGadgets>
+              </Cell>
+              <Cell layout_id="separator" layout_guid="e34b960c-bac5-498a-99e7-82da2e3f3253" row="0" column="8" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <VerticalSeparator stylename="vertical_separator" margin_left="2dpi_px" margin_right="2dpi_px" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="10" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_gotostart" layout_id="btn_rewind" layout_guid="3a2de5cd-d935-4b9c-8d9e-1fd18f4aeb86" localise_tooltip="Sequence_Tooltip_Rewind" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="11" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_play" layout_id="btn_play" layout_guid="2b4c2d7b-579c-45f5-bb09-3334648bd4fe" localise_tooltip="Sequence_Tooltip_Play" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="12" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_gotoend" layout_id="btn_fastforward" layout_guid="a1825192-bdee-48f9-89f0-5f73ab7305f3" localise_tooltip="Sequence_Tooltip_Fastfoward" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="13" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <VerticalSeparator stylename="vertical_separator" margin_left="2dpi_px" margin_right="2dpi_px" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="14" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <ToggleButton stylename="dopesheet_btn_playback" layout_id="btn_playbacktype" layout_guid="793d7233-8db3-44a0-80f6-dc7d1c9bfec4" localise_tooltip="Sequence_Tooltip_PlaybackMode" pressed="True" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="16" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_resize="ResizeWidth">
+                    <ChildGadgets>
+                      <NumericTextBox stylename="numeric_text_box" layout_id="sequence_length" layout_guid="63ad16ec-4ac5-4dce-9cbc-cbc9f6ecbdb3" override_flow_index="9999999" width="86dpi_px" left="0px" input_type="Timestamp" />
+                    </ChildGadgets>
+                  </StackPanel>
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="17" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_menu" layout_id="btn_menu" layout_guid="53702af7-0eae-495c-a128-9ec75025a17e" localise_tooltip="Sequence_Tooltip_Button_Menu" />
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+          </ChildGadgets>
+        </Cell>
+        <Cell layout_id="sequence_dope_sheet_trackpanel_container_mid" layout_guid="0b7edbb0-635a-4282-9468-27584a35eada" row="1" column="0" stylename="sequence_dope_sheet_trackpanel_container_mid" flow_index="0">
+          <ChildGadgets>
+            <ScrollPanel stylename="dope_sheet_track_panel_container" layout_id="track_hierarchy_container" layout_guid="4d492cd8-481f-4683-8722-f724e7440f5d" height="100.1544%">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" layout_id="dopesheet_empty_track_panel" layout_guid="231cf2ad-5809-49fe-8097-982763db3122" override_flow_index="9999999" height="0dpi_px" width="100%" left="16dpi_px" right="16dpi_px" stack_order="TopToBottom" stack_resize="ResizeAll">
+                  <ChildGadgets>
+                    <Label stylename="dopesheet_empty_description_label" override_flow_index="9999999" height="16px" width="65px" top="0px" localise_caption="Sequence_Dopesheet_Empty_TrackPanel_Header" />
+                    <Button stylename="dopesheet_empty_tracks_icon" layout_id="track_hierarchy_empty_btn" layout_guid="2f324449-aa0d-4890-91c2-6d280fe830d0" override_flow_index="9999999" top="28px" />
+                    <Label stylename="dopesheet_empty_description_label" height="" top="72px" localise_caption="Sequence_Dopesheet_Empty_TrackPanel_Description" word_wrap="True" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </ScrollPanel>
+          </ChildGadgets>
+        </Cell>
+        <Cell row="1" column="1" stylename="dope_sheet_panel" flow_index="0">
+          <ChildGadgets>
+            <Grid stylename="grid_container" layout_id="dope_sheet_track_panel_container" layout_guid="12703f47-e367-4f4f-8201-65a68cb2be28" override_flow_index="9999999" grid_rowlayout="['auto', '1*']" grid_resize="ResizeGrid">
+              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <ScrollPanel stylename="dope_sheet_zoom_bar_bg" layout_id="dope_sheet_zoom_bar" layout_guid="dac46891-1322-427c-a54a-d7489b0255f3" localise_tooltip="Sequence_Tooltip_Dopesheet_Zoom_Bar_BG" />
+                </ChildGadgets>
+              </Cell>
+              <Cell layout_id="dopesheet_track_panel_container" layout_guid="8e7cc0ed-48c4-4dea-a21a-17512ea85d05" row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <StackPanel stylename="stack_panel" layout_id="dopesheet_empty_panel" layout_guid="e49a9162-cae5-4183-b990-fcd949ac0037" override_flow_index="9999999" height="0dpi_px" width="275dpi_px" stack_order="TopToBottom" stack_resize="ResizeAll">
+                    <ChildGadgets>
+                      <Label stylename="dopesheet_empty_description_label" height="25px" top="0px" localise_caption="Sequence_Dopesheet_Empty_Header" word_wrap="True" />
+                      <Button stylename="dopesheet_empty_timeline_icon" layout_id="dope_sheet_empty_btn" layout_guid="3342cb6d-9504-4366-a402-926e027279f4" override_flow_index="9999999" top="28px">
+                        <ChildGadgets>
+                          <Image stylename="dopesheet_empty_timeline_icon_label" height="100%" width="100%" image_flags="Centre" />
+                        </ChildGadgets>
+                      </Button>
+                      <Label stylename="dopesheet_empty_description_label" height="" top="72px" localise_caption="Sequence_Dopesheet_Empty_Description" word_wrap="True" />
+                    </ChildGadgets>
+                  </StackPanel>
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+          </ChildGadgets>
+        </Cell>
+        <Cell row="2" column="0" stylename="sequence_dope_sheet_trackpanel_container_btm" flow_index="0">
+          <ChildGadgets>
+            <Grid stylename="dopesheet_grid_bottom_header" layout_id="grid_header" layout_guid="b51afcce-5ab0-453d-b78a-03ced3b78909" override_flow_index="9999999" height="24dpi_px" left="6dpi_px" right="0dpi_px" grid_columnlayout="['auto', 'auto', 'auto', 'auto', '1*', 'auto']" column_spacing="6dpi_px" grid_resize="ResizeGrid">
+              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_track_add" layout_id="btn_track_add" layout_guid="1fe9c85f-280b-4498-a425-4a88149b70b6" override_flow_index="9999999" localise_tooltip="Sequence_Tooltip_Dopesheet_Track_Add" icon_flags="Centre" vector_icon_size="13dpi_px" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="1" stylename="dopesheet_grid_bottom_header_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_track_copy" layout_id="btn_track_copy" layout_guid="1191db6b-1396-4eb0-a5f4-23e4d0405fa2" override_flow_index="9999999" localise_tooltip="Sequence_Tooltip_Dopesheet_Track_Copy" icon_flags="Centre" vector_icon_size="16dpi_px" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="2" stylename="dopesheet_grid_bottom_header_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_track_new_clipping_mask" layout_id="btn_track_new_clipping_mask" layout_guid="f92175e0-9d9e-4c54-9bae-699a51497aa7" override_flow_index="9999999" localise_tooltip="Sequence_Tooltip_Dopesheet_Track_New_ClipMask" icon_flags="Centre" vector_icon_size="16dpi_px" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="3" stylename="dopesheet_grid_bottom_header_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_track_new_group" layout_id="btn_track_new_group" layout_guid="b78e7cba-fd25-455e-9b29-2f1add8ef6f9" override_flow_index="9999999" localise_tooltip="Sequence_Tooltip_Dopesheet_Track_New_Group" icon_flags="Centre" vector_icon_size="16dpi_px" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="5" stylename="dopesheet_grid_bottom_header_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="dopesheet_btn_track_delete" layout_id="btn_track_delete" layout_guid="8d54888a-4ca5-4d42-b492-b3645e7ffeba" localise_tooltip="Sequence_Tooltip_Dopesheet_Track_Delete" />
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+          </ChildGadgets>
+        </Cell>
+        <Cell layout_id="sequence_dope_sheet_panel_bottom" layout_guid="d1c628ef-ec4c-499e-bce3-38f18b93e936" row="2" column="1" stylename="dope_sheet_panel" flow_index="0" />
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="SequenceTrackPanelHeader" layout_guid="6d0a1fa3-fe76-4f1a-a3c2-8ae2f16c18cc">
+    <ChildGadgets>
+      <ScrollPanel stylename="dopesheet_track_panel_header" override_flow_index="9999999" top="0px">
+        <ChildGadgets>
+          <Grid stylename="" layout_id="track_panel_header" layout_guid="9c33d851-a89e-4995-ace8-8b6b2e25e2d0" override_flow_index="9999999" width="100%" left="6dpi_px" right="0dpi_px" top="6dpi_px" margin_bottom="8dpi_px" grid_rowlayout="['auto', 'auto']" grid_resize="ResizeGrid">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" width_min="248dpi_px" override_flow_index="9999999" width="100%" left="0dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['auto', '1*', 'auto']" grid_resize="ResizeGridHeight">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="dopesheet_btn_track_search" layout_id="btn_track_search" layout_guid="31ccac96-640a-4cb8-aeab-e4d93b671e5a" localise_tooltip="Sequence_Tooltip_Search" left="0dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <TextBox stylename="dopesheet_track_panel_search" layout_id="track_search_field" layout_guid="74ede531-02e0-4932-80ff-e5610e4a0aac" override_flow_index="9999999" height="17dpi_px" width="100%" left="0dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" layout_id="search_nav_container" layout_guid="e7e817f1-e7d9-42c5-b400-798a9417967c" override_flow_index="9999999" margin_left="0dpi_px" stack_resize="ResizeWidth">
+                        <ChildGadgets>
+                          <Button stylename="dopesheet_btn_track_search_nav_prev" layout_id="search_nav_prev" layout_guid="a0103692-c84b-418d-bfd5-0bf37d7619a4" override_flow_index="9999999" width="24dpi_px" left="0px" />
+                          <Button stylename="dopesheet_btn_track_search_nav_next" layout_id="search_nav_next" layout_guid="949b0f97-8f30-4b30-a3fe-970658fdbe2f" override_flow_index="9999999" width="24dpi_px" left="24px" />
+                          <Label stylename="dopesheet_btn_track_search_nav_counter" layout_id="search_nav_counter" layout_guid="3c720a58-f0ca-4039-80d1-c00006ca01dd" override_flow_index="9999999" height="16px" width="92px" left="52px" margin_left="4dpi_px" localise_caption="SequenceDopeSheet_SearchResultsNone" />
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" left="0dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['auto', '1*', 'auto', 'auto']" grid_resize="ResizeGrid">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="dopesheet_btn_track_expand_all" layout_id="btn_track_collapse_all" layout_guid="c017fb65-3355-40f5-a73a-710adbbeab8f" override_flow_index="9999999" localise_tooltip="Sequence_Tooltip_Collapse_All" left="0dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="" layout_id="track_panel_header_label" layout_guid="576ce968-5990-4e75-8e94-052a7f44a0db" override_flow_index="9999999" height="16px" width="65px" left="0px" localise_caption="Track Panel" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <ToggleButton stylename="dopesheet_btn_track_visible" layout_id="btn_track_visible" layout_guid="295bee43-8d0f-41a7-bd65-90088c860428" override_flow_index="9999999" localise_tooltip="Sequence_Tooltip_ShowHide_All_Tracks" left="0dpi_px" right="3dpi_px" margin_left="" margin_right="0dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" override_flow_index="9999999" margin_left="8dpi_px" margin_right="0dpi_px" stack_resize="ResizeAll">
+                        <ChildGadgets>
+                          <Button stylename="dopesheet_btn_track_lock" layout_id="btn_track_lock" layout_guid="e0699d9e-532b-4ee4-8437-95911e6f559f" override_flow_index="9999999" localise_tooltip="Sequence_Tooltip_LockUnlock_All_Tracks" left="0px" bottom="2dpi_px" margin_left="0dpi_px" margin_right="13dpi_px" />
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </ScrollPanel>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="DopeSheet" layout_guid="9854b1e7-eb7e-45cc-94d4-624678d7fc13">
+    <ChildGadgets>
+      <Grid stylename="dope_sheet" layout_id="dopesheet_grid" left="0px" top="0px" grid_rowlayout="['auto', '1*']" grid_columnlayout="['1*', '4.5*']" grid_resize="ResizeGrid">
+        <ColumnDockSplitter stylename="dope_sheet_column_splitter" layout_id="splitter" height="687px" width="14dpi_px" left="233px" top="0px" row="0" column="1" rowspan="2" columnspan="1" />
+        <Cell row="0" column="0" flow_index="0">
+          <ChildGadgets>
+            <Grid stylename="grid_container" layout_id="grid_header" height="24dpi_px" grid_columnlayout="['auto', '1*', 'auto', 'auto']">
+              <Cell row="0" column="0" flow_index="0">
+                <ChildGadgets>
+                  <Label stylename="sequence_editor_label" height="16px" width="37px" localise_caption="DopeSheet_Column_Tracks" />
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+          </ChildGadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+</Layouts>

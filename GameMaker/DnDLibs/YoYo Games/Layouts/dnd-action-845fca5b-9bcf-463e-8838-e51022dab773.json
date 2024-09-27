@@ -1,0 +1,27 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdVariable",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "instvar",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdVar_x|GMStdVar_y|GMStdVar_direction|GMStdVar_speed|GMStdVar_hspeed|GMStdVar_vspeed|GMStdVar_visible|GMStdVar_persistent|GMStdVar_layer|GMStdVar_depth|GMStdVar_sprite_index|GMStdVar_image_index|GMStdVar_image_angle|GMStdVar_image_alpha|GMStdVar_image_blend|GMStdVar_image_xscale|GMStdVar_image_yscale|GMStdVar_mask_index|GMStdVar_friction|GMStdVar_gravity|GMStdVar_gravity_direction|GMStdVar_score|GMStdVar_lives|GMStdVar_health"
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdValue",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "value",
+      "DefaultValue": "0",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

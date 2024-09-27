@@ -1,0 +1,4 @@
+The FFmpeg.dll does not use any code later than LGPL2.1
+
+FFmpeg's License : http://ffmpeg.org/legal.html
+LGPL2 text: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt

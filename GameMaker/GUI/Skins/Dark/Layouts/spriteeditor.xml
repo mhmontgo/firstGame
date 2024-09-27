@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="SpriteEditor_TextureGroup_Item" layout_guid="d87493ec-4039-4f6c-94db-3ba87cfc77f9">
+    <Label stylename="label" layout_id="label_groupname" layout_guid="31475fbb-c025-4c39-9600-8343ce13bcd0" height="16dpi_px" width="0dpi_px" left="0dpi_px" bind_property="name" />
+  </Layout>
+  <Layout layout_name="SpriteDopeControlPanel" layout_guid="3eb50a09-b3f0-4193-ad73-e5b3d13d8880">
+    <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" left="4dpi_px" right="4dpi_px" margin_top="4dpi_px" margin_bottom="4dpi_px" grid_columnlayout="['auto', '40dpi_px', '1*']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" override_flow_index="9999999" height="24dpi_px" left="4dpi_px" margin_left="4dpi_px" stack_resize="ResizeWidth">
+            <ChildGadgets>
+              <Label stylename="label" override_flow_index="9999999" height="16px" width="85px" left="0px" localise_caption="ImageEditor_CurrentFrame" />
+              <NumericTextBox stylename="numeric_text_box" layout_id="framenum_textbox" layout_guid="debcf22d-abee-473f-b987-b6d2de6858b4" override_flow_index="9999999" left="89px" margin_left="4dpi_px" min="1" />
+              <Label stylename="label" layout_id="framecount_label" layout_guid="28be65ac-25d0-42ce-989f-156661886637" override_flow_index="9999999" height="16px" width="0px" left="143px" margin_left="4dpi_px" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['6dpi_px', 'auto', '6dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <VerticalSeparator stylename="vertical_separator" override_flow_index="9999999" width="1dpi_px" margin_left="2dpi_px" margin_right="2dpi_px" margin_top="5dpi_px" margin_bottom="5dpi_px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="btn_new_label" layout_guid="328e92a0-f160-4cb1-b008-d6eee09f9751" localise_tooltip="Sequence_Tooltip_Add_Label" override_flow_index="9999999" width="24dpi_px" icon_flags="Stretch, Centre, KeepAspectRatio" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_add_label&quot;]" vector_icon_size="22dpi_px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <VerticalSeparator stylename="vertical_separator" override_flow_index="9999999" width="1dpi_px" margin_left="2dpi_px" margin_right="2dpi_px" margin_top="5dpi_px" margin_bottom="5dpi_px" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" width="170dpi_px" grid_columnlayout="['1*', '1*', '1*', '6dpi_px', '1*']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="dopesheet_btn_gotostart" layout_id="btn_rewind" layout_guid="c8ef3457-b9fd-4591-ae9d-760f2f60e052" override_flow_index="9999999" localise_tooltip="Sequence_Tooltip_Rewind" hotkey_name="Jump to Start"/>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="dopesheet_btn_play" layout_id="btn_play" layout_guid="2987f9e9-a9c3-4178-9e75-2675fa5f2849" override_flow_index="9999999" localise_tooltip="Sequence_Tooltip_Play" hotkey_name="Play"/>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="dopesheet_btn_gotoend" layout_id="btn_fastforward" layout_guid="6bccdcfe-e9f8-4dbb-aeb3-22d889f8465f" override_flow_index="9999999" localise_tooltip="Sequence_Tooltip_Fastfoward" hotkey_name="Jump to End"/>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <VerticalSeparator stylename="vertical_separator" margin_left="2dpi_px" margin_right="2dpi_px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ToggleButton stylename="dopesheet_btn_playback" layout_id="btn_playbacktype" layout_guid="1b2e9d9c-0534-4c3c-adfc-76d6241a18d6" override_flow_index="9999999" localise_tooltip="Sequence_Tooltip_PlaybackMode" pressed="True" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="SpriteResizeDialog_TileSet_Item" layout_guid="6f17e7c7-5336-48bd-8a15-91fbacabe233">
+    <StackPanel stylename="stack_panel" stack_resize="ResizeHeight">
+      <ChildGadgets>
+        <Label stylename="label" height="16px" width="32px" left="0px" bind_property="name" caption="name" />
+        <Label stylename="label" height="16px" width="3px" left="32px" caption=" " />
+        <Label stylename="label" height="16px" width="4px" left="35px" caption="(" />
+        <Label stylename="label" height="16px" width="14px" left="39px" bind_property="tileWidth" caption="32" />
+        <Label stylename="label" height="16px" width="6px" left="53px" caption="x" />
+        <Label stylename="label" height="16px" width="14px" left="59px" bind_property="tileHeight" caption="32" />
+        <Label stylename="label" height="16px" width="4px" left="73px" caption=")" />
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+  <Layout layout_name="SpriteResizeDialog_TileSetDialog" layout_guid="79eb580f-4d49-4ec4-82e8-704dc66f7e6a">
+    <Window stylename="default_window_pick_tileset" height="256dpi_px" width="300dpi_px" left="26px" top="54px" localise_title="SelectTileSetTitle" window_flags="CloseButton, ResizeButton, DockingDisabled, DesktopTransferDisabled" accept_button_id="btn_apply" help_tag="sprite_editor">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" grid_rowlayout="['auto', '1*', '38dpi_px']">
+            <Cell row="0" column="0" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" height="16px" left="0px" top="0px" margin_bottom="6dpi_px" localise_caption="SpriteResizeTilesetSelect" word_wrap="True" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" flow_index="0">
+              <ChildGadgets>
+                <ListBox stylename="list_box" layout_id="listbox_tilesets" layout_guid="ce9d7ccd-e844-405a-a8be-8f3599067136" left="0px" right="0px">
+                  <ListBoxItems />
+                </ListBox>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="btn_apply" layout_guid="2fb23f9c-b791-4710-b679-0e892f010c1e" height="24px" width="91dpi_px" left="5px" bottom="5px" localise_name="Button_OK" />
+                <Button stylename="button_up" layout_id="btn_cancel" layout_guid="c8c8f73e-1ef9-4fbb-897f-92991f88c25a" height="24px" width="91dpi_px" right="5px" bottom="5px" localise_name="Button_Cancel" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="SpriteEditorWindow" layout_guid="8f0e4f2e-9066-42a0-98b5-8bd004a7105a">
+    <Window stylename="spriteeditor_window" height="602dpi_px" width="1025dpi_px" help_tag="sprite_editor" localise_title="SpriteEditor_WindowTitle">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" height="100%" width="100%" grid_columnlayout="['auto', '12px', '1*']" grid_resize="ResizeGrid">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ScrollPanel stylename="default_scrollpanel" width="250px" left="0px" top="0px" scrollpanel_flags="VerticalScroll, AdjustToScrollBars, ResizeWidth">
+                  <ChildGadgets>
+                    <Layout layout_name="SpriteEditor_PropertiesPanel2" layout_guid="b8ad2a76-5774-4c57-94f1-1b464bca7697" />
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <VerticalSeparator stylename="vertical_separator" margin_top="0px" margin_bottom="0px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="2" stylename="grid_container_panel" flow_index="1">
+              <ChildGadgets>
+                <Grid stylename="grid_container_spriteeditor" override_flow_index="9999999" top="0dpi_px" bottom="0px" grid_rowlayout="['1*', '142dpi_px']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['30dpi_px', '1*']" row_spacing="8dpi_px">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <HorizontalSeparator stylename="horizontal_separator" top="0px" margin_left="0px" margin_right="0px" />
+                            <Grid stylename="grid_container" override_flow_index="9999999" top="0px" grid_rowlayout="['auto']" grid_columnlayout="['auto', '1*', 'auto']">
+                              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <StackPanel stylename="stack_panel" left="0px" top="0px" stack_resize="ResizeAll">
+                                    <ChildGadgets>
+                                      <Label stylename="sequence_editor_label" height="16px" width="19px" left="0px" margin_right="4dpi_px" localise_caption="Sequence_Speed_Label" />
+                                      <NumericTextBox stylename="numeric_text_box" width="46dpi_px" left="23px" bind_property="sequenceSpeed" input_type="Real" min="0" max="999" />
+                                      <ComboBox stylename="combobox_panel" width="170dpi_px" left="74px" margin_left="5px" bind_property="sequencePlaybackSpeedType">
+                                        <ListBoxItems />
+                                      </ComboBox>
+                                    </ChildGadgets>
+                                  </StackPanel>
+                                </ChildGadgets>
+                              </Cell>
+                              <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <StackPanel stylename="stack_panel" layout_id="swf_controls" layout_guid="fe13b77c-c479-42ba-ba1e-749e941c9732" height="100%" right="0px" top="0px" margin_left="8px" stack_resize="ResizeAll">
+                                    <ChildGadgets>
+                                      <Label stylename="label" height="16px" width="81px" left="0px" margin_top="8px" localise_caption="SpriteEditor_SWFPrecisionLabel" />
+                                      <Slider stylename="slider_grid" layout_id="swf_slider" layout_guid="44625208-a453-400d-9879-8766376363ae" width="100dpi_px" left="81px" margin_top="9dpi_px" min_value="1" max_value="100" value="1" />
+                                    </ChildGadgets>
+                                  </StackPanel>
+                                </ChildGadgets>
+                              </Cell>
+                              <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <StackPanel stylename="stack_panel" layout_id="controls_panel" layout_guid="6901d4b5-a474-4d6b-b9f8-8d8fc669ddff" right="0px" top="0px" stack_resize="ResizeAll">
+                                    <ChildGadgets>
+                                      <Label stylename="label" height="16px" width="34px" left="0px" margin_right="4px" localise_caption="SpriteEditor_Origin" />
+                                      <NumericTextBox stylename="numeric_text_box" layout_id="textbox_xorig" layout_guid="001b611c-213b-423d-9fb0-544e98dc2c1d" width="46dpi_px" left="38px" bind_property="xorigin" />
+                                      <Label stylename="label" height="16px" width="6px" left="88px" margin_left="4px" margin_right="4px" caption="x" />
+                                      <NumericTextBox stylename="numeric_text_box" layout_id="textbox_yorig" layout_guid="adc9ce54-1c8b-455c-b42c-086e21926769" width="46dpi_px" left="98px" bind_property="yorigin" />
+                                      <CheckBox stylename="lock_checkbox_stack" localise_tooltip="SpriteEditor_LockOrigin" left="148px" margin_left="4px" bind_property="lockOrigin" base_style="lock_checkbox" />
+                                      <ComboBox stylename="combobox_panel" layout_id="combobox_origin" layout_guid="167c428b-9e3b-4946-8b0a-976c5f717cfa" left="173px" margin_left="6px" bind_property="origin">
+                                        <ListBoxItems />
+                                      </ComboBox>
+                                    </ChildGadgets>
+                                  </StackPanel>
+                                </ChildGadgets>
+                              </Cell>
+                            </Grid>
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Grid stylename="grid_container" layout_id="sprite_preview_grid" override_flow_index="9999999" grid_columnlayout="['1*']">
+                              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <ScrollPanel stylename="bordered_scrollpanel_dark" layout_id="sprite_preview_container" layout_guid="0d69844d-3c5a-4fa6-bc31-a95acccc609b" />
+                                </ChildGadgets>
+                              </Cell>
+                            </Grid>
+                          </ChildGadgets>
+                        </Cell>
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="1" column="0" stylename="grid_container_spriteeditor_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" layout_id="sprite_frames_container" layout_guid="04ee9c3d-f29d-4611-9254-f6807e737027" top="0px" stack_resize="ResizeHeight" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="SpriteResizeDialog" layout_guid="dfbb734a-fb47-496d-84fd-0589d0f659be">
+    <Window stylename="default_window" height="375dpi_px" width="550dpi_px" left="26px" top="54px" help_tag="sprite_editor" localise_title="Sprite_Resize_Title" window_flags="CloseButton, MinimizeButton, DockingDisabled" accept_button_id="btn_apply">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" left="5dpi_px" right="5dpi_px" top="5dpi_px" bottom="40dpi_px" grid_rowlayout="['93dpi_px', '1*']" grid_columnlayout="['1*', '1*']" row_spacing="15dpi_px" column_spacing="25dpi_px">
+            <Cell row="0" column="0" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" height="16px" width="43px" left="2px" top="0px" localise_caption="Sprite_Resize_CurrentSize" />
+                <ScrollPanel stylename="bordered_scrollpanel" top="20dpi_px">
+                  <ChildGadgets>
+                    <ScrollPanel stylename="sprite_selector_icon_frame" height="53dpi_px" width="53dpi_px" left="11dpi_px">
+                      <ChildGadgets>
+                        <Image stylename="disable_mouse_on_deactivate" layout_id="image_current" layout_guid="c7775698-f402-4b90-8cff-9a25c08e9b84" image_flags="Stretch, Centre, KeepAspectRatio" />
+                      </ChildGadgets>
+                    </ScrollPanel>
+                    <Label stylename="label_right_align" height="16px" width="35px" right="120dpi_px" top="15dpi_px" localise_caption="Sprite_Resize_Width" />
+                    <Label stylename="label" height="16dpi_px" width="65dpi_px" right="45dpi_px" top="15dpi_px" bind_property="width" caption="width" auto_size="False" />
+                    <Label stylename="label_right_align" height="16px" width="40px" right="120dpi_px" top="40dpi_px" localise_caption="Sprite_Resize_Height" />
+                    <Label stylename="label" height="16dpi_px" width="65dpi_px" right="45dpi_px" top="40dpi_px" bind_property="height" caption="height" auto_size="False" />
+                    <Label stylename="label_spriteeditor_px" height="16px" width="32px" right="8dpi_px" top="15dpi_px" localise_caption="Sprite_Resize_Pixels" />
+                    <Label stylename="label_spriteeditor_px" height="16px" width="32px" right="8dpi_px" top="40dpi_px" localise_caption="Sprite_Resize_Pixels" />
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" height="16px" width="44px" left="2px" top="0px" localise_caption="Sprite_Resize_Preview" />
+                <ScrollPanel stylename="bordered_scrollpanel" top="20dpi_px">
+                  <ChildGadgets>
+                    <ScrollPanel stylename="sprite_selector_icon_frame" height="53dpi_px" width="53dpi_px" left="11dpi_px">
+                      <ChildGadgets>
+                        <Image stylename="disable_mouse_on_deactivate" layout_id="image_preview" layout_guid="086ecb90-0975-4fc9-8ea5-26db18406929" />
+                      </ChildGadgets>
+                    </ScrollPanel>
+                    <Label stylename="label_right_align" height="16px" width="35px" right="120dpi_px" top="15dpi_px" localise_caption="Sprite_Resize_Width" />
+                    <Label stylename="label" layout_id="label_prev_w" layout_guid="8b36a309-11db-4548-acd6-32eac437eb05" height="16dpi_px" width="65dpi_px" right="45dpi_px" top="15dpi_px" caption="width" auto_size="False" />
+                    <Label stylename="label_right_align" height="16px" width="40px" right="120dpi_px" top="40dpi_px" localise_caption="Sprite_Resize_Height" />
+                    <Label stylename="label" layout_id="label_prev_h" layout_guid="983a773b-ffbf-4946-8b1f-ce29154c11a7" height="16dpi_px" width="65dpi_px" right="45dpi_px" top="40dpi_px" caption="height" auto_size="False" />
+                    <Label stylename="label_spriteeditor_px" height="16px" width="32px" right="8dpi_px" top="15dpi_px" localise_caption="Sprite_Resize_Pixels" />
+                    <Label stylename="label_spriteeditor_px" height="16px" width="32px" right="8dpi_px" top="40dpi_px" localise_caption="Sprite_Resize_Pixels" />
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" flow_index="0">
+              <ChildGadgets>
+                <RadioButton stylename="radiobutton_stack" layout_id="radio_scale" layout_guid="2eb136d9-d98c-4a28-8548-be458a1827cc" localise_name="Sprite_Resize_ScaleImage" />
+                <ScrollPanel stylename="bordered_scrollpanel_dark" layout_id="scrollpanel_scale" layout_guid="4ead28be-361c-456a-bb01-3ed4ae917903" top="22dpi_px">
+                  <ChildGadgets>
+                    <ScrollPanel stylename="sprite_selector_icon_frame" layout_id="panel_current" layout_guid="3cc071a2-a6f1-4fdd-90d7-d77f1906a813" height="53dpi_px" width="53dpi_px" left="11dpi_px" top="11dpi_px">
+                      <ChildGadgets>
+                        <Image stylename="disable_mouse_on_deactivate" layout_id="img_scale_topright" layout_guid="c51fe399-1568-43b5-9d98-9bad076383ad" height="12dpi_px" width="12dpi_px" right="0px" top="0px" image_flags="Stretch, Centre, KeepAspectRatio" image="Buttons\icon_IDE_canvas_size_upright.png" />
+                        <Image stylename="disable_mouse_on_deactivate" layout_id="img_scale_botleft" layout_guid="c910492d-c7f4-452b-bb0c-c789aaa94a99" height="12dpi_px" width="12dpi_px" left="0px" bottom="0px" image_flags="Stretch, Centre, KeepAspectRatio" render_flags="FlipHorizontal, FlipVertical" image="Buttons\icon_IDE_canvas_size_upright.png" />
+                        <Image stylename="button_scale_image_positive" layout_id="img_scale" layout_guid="98eceed6-ad78-41f3-befb-42271ada172e" image_flags="Stretch, Centre, KeepAspectRatio" />
+                      </ChildGadgets>
+                    </ScrollPanel>
+                    <Label stylename="label_right_align" height="16px" width="35px" right="120dpi_px" top="15dpi_px" localise_caption="Sprite_Resize_Width" />
+                    <NumericTextBox stylename="numeric_text_box" layout_id="width_textbox" layout_guid="8f365ec0-5540-4ce1-9b61-1081c2108b83" height="20dpi_px" width="60dpi_px" right="54dpi_px" top="13dpi_px" />
+                    <Label stylename="label_right_align" height="16px" width="40px" right="120dpi_px" top="40dpi_px" localise_caption="Sprite_Resize_Height" />
+                    <NumericTextBox stylename="numeric_text_box" layout_id="height_textbox" layout_guid="3b827ceb-bb3e-49b6-bc44-02a745d7d48a" height="20dpi_px" width="60dpi_px" right="54dpi_px" top="38dpi_px" />
+                    <Label stylename="label_spriteeditor_px" layout_id="label_type1" layout_guid="165ca729-b490-44f8-ab5d-aa6bd5c39d3e" height="16px" width="32px" right="8dpi_px" top="15dpi_px" localise_caption="Sprite_Resize_Pixels" />
+                    <Label stylename="label_spriteeditor_px" layout_id="label_type2" layout_guid="ace0f18b-b629-4c3c-9a47-de03e19ae7c8" height="16px" width="32px" right="8dpi_px" top="40dpi_px" localise_caption="Sprite_Resize_Pixels" />
+                    <Label stylename="label" height="16px" width="124px" left="11dpi_px" top="75dpi_px" localise_caption="Sprite_Resize_MaintainAspect" />
+                    <CheckBox stylename="checkbox_stack" layout_id="keep_aspect_check" layout_guid="263e6cdd-8bd9-499d-849d-e5a46eff7ca3" right="8dpi_px" top="73dpi_px" />
+                    <Label stylename="label" height="16px" width="46px" left="11dpi_px" top="100dpi_px" localise_caption="Sprite_Resize_ScaleIn" />
+                    <ComboBox stylename="combobox_panel" layout_id="units_combo" layout_guid="d767388b-9115-4e16-ba6d-e4f51403175c" width="112dpi_px" left="11dpi_px" top="120dpi_px">
+                      <ListBoxItems />
+                    </ComboBox>
+                    <Label stylename="label" height="16px" width="74px" left="129dpi_px" top="100dpi_px" localise_caption="ImageEditor_InterpLabel" />
+                    <ComboBox stylename="combobox_panel" layout_id="combo_interp" layout_guid="c16d66bf-9f8a-4353-a7a8-5d6804bcf49b" width="112dpi_px" right="8dpi_px" top="120dpi_px">
+                      <ListBoxItems />
+                    </ComboBox>
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="1" flow_index="0">
+              <ChildGadgets>
+                <RadioButton stylename="radiobutton_stack" layout_id="radio_resize" layout_guid="cff3c53f-6440-4a32-a13e-2a9c731d779c" localise_name="Sprite_Resize_ResizeCanvas" />
+                <ScrollPanel stylename="bordered_scrollpanel" layout_id="scrollpanel_resize" layout_guid="5aecd22f-8fef-48da-b66a-5bdefcf609b4" top="22dpi_px">
+                  <ChildGadgets>
+                    <ScrollPanel stylename="disable_mouse_on_deactivate" height="53dpi_px" width="53dpi_px" left="11dpi_px" top="11dpi_px">
+                      <ChildGadgets>
+                        <Button stylename="button_canvas_resize" layout_id="btn_topleft" layout_guid="b361b9e1-2a1d-4c8f-9b6d-2d67641452d2" height="17dpi_px" width="17dpi_px" left="0px" top="0px" button_over_down_style="" icon_flags="Stretch, Centre, KeepAspectRatio" icon_render_flags="FlipHorizontal" icon="Buttons\icon_IDE_canvas_size_upright.png" />
+                        <Button stylename="button_canvas_resize" layout_id="btn_top" layout_guid="b80f1849-5903-441f-82eb-204704a033fa" height="17dpi_px" width="17dpi_px" top="0px" button_over_down_style="" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Buttons\icon_IDE_canvas_size_up.png" />
+                        <Button stylename="button_canvas_resize" layout_id="btn_topright" layout_guid="a528c693-aff1-4a29-828b-69fd70531fbf" height="17dpi_px" width="17dpi_px" right="0px" top="0px" button_over_down_style="" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Buttons\icon_IDE_canvas_size_upright.png" />
+                        <Button stylename="button_canvas_resize" layout_id="btn_left" layout_guid="c18a6549-d8a0-4c6a-8d46-b8602ca04275" height="17dpi_px" width="17dpi_px" left="0px" button_over_down_style="" icon_flags="Stretch, Centre, KeepAspectRatio" icon_render_flags="FlipHorizontal" icon="Buttons\icon_IDE_canvas_size_right.png" />
+                        <Button stylename="button_canvas_resize" layout_id="btn_mid" layout_guid="ff1e07bc-6bd7-492f-8a98-befee0483799" height="17dpi_px" width="17dpi_px" button_over_down_style="" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Buttons\icon_IDE_canvas_size_center.png" />
+                        <Button stylename="button_canvas_resize" layout_id="btn_right" layout_guid="41034596-7908-4a89-8208-4d64893b4a57" height="17dpi_px" width="17dpi_px" right="0px" button_over_down_style="" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Buttons\icon_IDE_canvas_size_right.png" />
+                        <Button stylename="button_canvas_resize" layout_id="btn_botleft" layout_guid="44e099ef-c859-4ae4-8686-a85ae678949d" height="17dpi_px" width="17dpi_px" left="0px" bottom="0px" button_over_down_style="" icon_flags="Stretch, Centre, KeepAspectRatio" icon_render_flags="FlipHorizontal, FlipVertical" icon="Buttons\icon_IDE_canvas_size_upright.png" />
+                        <Button stylename="button_canvas_resize" layout_id="btn_bot" layout_guid="727591a0-acb0-45c3-b49a-220aec57c693" height="17dpi_px" width="17dpi_px" bottom="0px" button_over_down_style="" icon_flags="Stretch, Centre, KeepAspectRatio" icon_render_flags="FlipVertical" icon="Buttons\icon_IDE_canvas_size_up.png" />
+                        <Button stylename="button_canvas_resize" layout_id="btn_botright" layout_guid="795193b4-5ccb-4b17-bb26-e07e24808d2f" height="17dpi_px" width="17dpi_px" right="0px" bottom="0px" button_over_down_style="" icon_flags="Stretch, Centre, KeepAspectRatio" icon_render_flags="FlipVertical" icon="Buttons\icon_IDE_canvas_size_upright.png" />
+                      </ChildGadgets>
+                    </ScrollPanel>
+                    <Label stylename="label_right_align" height="16px" width="35px" right="120dpi_px" top="15dpi_px" localise_caption="Sprite_Resize_Width" />
+                    <NumericTextBox stylename="numeric_text_box" layout_id="width_textbox" layout_guid="293b2b34-c9b4-4e7a-9b35-8c339486c560" height="20dpi_px" width="60dpi_px" right="54dpi_px" top="13dpi_px" />
+                    <Label stylename="label_right_align" height="16px" width="40px" right="120dpi_px" top="40dpi_px" localise_caption="Sprite_Resize_Height" />
+                    <NumericTextBox stylename="numeric_text_box" layout_id="height_textbox" layout_guid="bc0615b2-5263-4d9b-8555-41f5b1a7159c" height="20dpi_px" width="60dpi_px" right="54dpi_px" top="38dpi_px" />
+                    <Label stylename="label_spriteeditor_px" layout_id="label_type1" layout_guid="b0c5ac37-e9ea-400e-9132-b935ef60a23c" height="16px" width="32px" right="8dpi_px" top="15dpi_px" localise_caption="Sprite_Resize_Pixels" />
+                    <Label stylename="label_spriteeditor_px" layout_id="label_type2" layout_guid="afd43cbf-1e41-4234-9a0f-57628f9c8fec" height="16px" width="32px" right="8dpi_px" top="40dpi_px" localise_caption="Sprite_Resize_Pixels" />
+                    <Label stylename="label" height="16px" width="124px" left="11dpi_px" top="75dpi_px" localise_caption="Sprite_Resize_MaintainAspect" />
+                    <CheckBox stylename="checkbox_stack" layout_id="keep_aspect_check" layout_guid="57dcf2a4-174e-4dbe-ae46-da7b206586e4" right="8dpi_px" top="73dpi_px" />
+                    <Label stylename="label" height="16px" width="52px" left="11dpi_px" top="100dpi_px" localise_caption="Sprite_Resize_ResizeIn" />
+                    <ComboBox stylename="combobox_panel" layout_id="units_combo" layout_guid="bfa55f59-bd56-4916-b848-960a74ddc047" left="11dpi_px" right="8dpi_px" top="120dpi_px">
+                      <ListBoxItems />
+                    </ComboBox>
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+          <Button stylename="button_up" layout_id="btn_cancel" layout_guid="75bfc061-f00c-4212-897c-5d683140d1e5" height="24px" width="91dpi_px" right="5px" bottom="5px" localise_name="Button_Cancel" />
+          <Button stylename="button_up" layout_id="btn_apply" layout_guid="ed52c206-6f74-42f0-9d45-8a03ab438766" height="24px" width="91dpi_px" left="5px" bottom="5px" localise_name="Button_Apply" />
+          <CheckBox stylename="checkbox_stack" layout_id="checkbox_origin" layout_guid="56932413-1870-4377-9012-044c8fd7da59" localise_tooltip="Sprite_Resize_Origin_Tooltip" left="105dpi_px" bottom="7dpi_px" localise_name="Sprite_Resize_Origin" />
+          <Label stylename="label_tilesetwarning" layout_id="label_tilewarning" layout_guid="57189bd9-b4c7-433e-9604-83d44d3218c8" height="16px" width="151px" left="225dpi_px" bottom="8dpi_px" localise_caption="SpriteResizeTilesetWarning_Label" />
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

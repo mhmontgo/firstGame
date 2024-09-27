@@ -1,0 +1,37 @@
+{
+  "name": "FontEditor",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "FontEditor",
+      "localised_name": "font_editor_name",
+      "plugin_version": "1.0",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMFont",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "FontEditor",
+          "version": "1.0",
+          "path": "FontEditor.dll",
+          "checksum": "TqV8OT13S6ZQrDxvUkng3hsfIMRXLFW6BGZdX3oTxlA="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "w4tyD5G5r6Iy58OIDKybjVpo0L\u002BVRInMvkRp1hhjyR4IqgpnEMDrrrh1opuJlcmJFHqlac1ty4s93m\u002BgObLM7J3pGHaI6f3EmcNWDLMytXagWwkFwBXLdmwpLZGRcJhgZUCH2HdMQ/kqGct5G0m95aLgmDeAfth6d0auQiuQlXw=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

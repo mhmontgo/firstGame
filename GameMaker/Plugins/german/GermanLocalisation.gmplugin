@@ -1,0 +1,31 @@
+{
+  "name": "GermanLocalisation",
+  "bundle_version": "1.0.0",
+  "bundle_description": "German IDE localisations",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "GermanLocalisation",
+      "localised_name": "german_localisation",
+      "plugin_version": "1.0.0",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+          {
+            "German": "german.csv"
+          },
+          {
+            "German": "german_dnd.csv"
+          }
+        ]
+      },
+      "description": "German IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "Q6YjgMasxIe90jzIQZqh0wHNUPM5bU\u002B3PiWQudSBuWyeXMuTllSkwMHXp6EtIEDyQOIJ0xDr0sxO19D0NgzQ3nnoMLu0Heq2nOlFe52Df4d34G1HKy2Yy9Q/ZN3wvrGAZURVgo4VI4xxnrvVl7nbb1lOiuHjm/r0xfbJrhEhamE=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

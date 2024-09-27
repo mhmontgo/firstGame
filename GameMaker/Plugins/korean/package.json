@@ -1,0 +1,18 @@
+{
+  "name": "@localisation_plugins/korean",
+  "version": "1.0.0",
+  "description": "Korean IDE localisations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "GameMaker",
+  "license": "",
+  "files": [
+    "*.*"
+  ],
+  "gm": {
+    "destination" : "localisation_plugins/korean"
+  }
+}

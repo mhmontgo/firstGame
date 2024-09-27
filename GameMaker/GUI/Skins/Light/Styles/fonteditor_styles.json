@@ -1,0 +1,17 @@
+{
+	"font_ttfpath_label": {
+		"colour": "font_editor_label_ttfpath"
+	},
+
+	"font_range_selection": {
+		"range_colour": "font_editor_range_selected"
+	},
+
+	"label_texture_size": {
+		"colour": "font_editor_gamepreview_size_label"
+	},
+
+	"image_game_preview": {
+		"colour": "font_editor_gamepreview_text"
+	}
+}

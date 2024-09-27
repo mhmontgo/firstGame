@@ -1,0 +1,38 @@
+{
+	"sequence_canvas": {
+		origin_color: "#8B970000", 
+		axes_color: "#FF808080", 
+		backdrop_text_color: "#FF929292",
+	},
+	
+	"sequence_canvas_backdrop": {
+		"colour": "#FF929292"
+	},
+	
+	"canvas_item_bounds_selected_frame": {
+		"colour": "#FF970000"
+	},
+	
+	"canvas_item_bounds_selected_corner": {
+		"colour": "#FF970000"
+	},
+	
+	"canvas_item_bounds_selected_line": {
+		"colour": "#FF970000"
+	},
+	
+	"canvas_item_aabb_selected_frame": {
+		"colour": "#FF970000"
+	},
+	
+	"canvas_toolbox_button_up": {
+		"up_tint": "#FF808080",
+		"down_tint": "#FF9F8565",
+		"up_focused_tint": "#FF808080",
+		"down_focused_tint": "#FF9F8565",
+		"mouseover_up_tint": "#FF5C534C",
+		"mouseover_up_focused_tint": "#FF5C534C",
+		"mouseover_down_tint": "#FF9F8565",
+		"mouseover_down_focused_tint": "#FF9F8565"
+	}
+}

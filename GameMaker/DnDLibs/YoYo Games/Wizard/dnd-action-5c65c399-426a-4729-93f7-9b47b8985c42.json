@@ -1,0 +1,13 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdDirection",
+    "gadget": "YoYo Games.DnD_DirectionalInput",
+    "gadget_properties": {
+      "TagName": "direction",
+      "DefaultValue": 0,
+      "Multiselect": false
+    }
+  }
+]

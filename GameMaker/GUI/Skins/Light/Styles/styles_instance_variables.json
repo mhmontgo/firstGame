@@ -1,0 +1,9 @@
+{
+	"object_properties_label_not_overridden": {
+		"colour": "object_editor_variable_label_not_overriden"
+	},
+
+	"object_properties_label_overridden": {
+		"colour": "object_editor_variable_label_overriden"
+	}
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdHAlign",
+    "gadget": "YoYo Games.DnD_MenuExpressionInput",
+    "gadget_properties": {
+      "TagName": "halign",
+      "DefaultValue": "fa_left",
+      "Separator": "|",
+      "MenuOptions": "GMStdLeft|GMStdCenter|GMStdRight",
+      "Values": "fa_left|fa_center|fa_right",
+      "MenuLayout": null,
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": true
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdVAlign",
+    "gadget": "YoYo Games.DnD_MenuExpressionInput",
+    "gadget_properties": {
+      "TagName": "valign",
+      "DefaultValue": "fa_top",
+      "Separator": "|",
+      "MenuOptions": "GMStdTop|GMStdMiddle|GMStdBottom",
+      "Values": "fa_top|fa_middle|fa_bottom",
+      "MenuLayout": null,
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": true
+    }
+  }
+]

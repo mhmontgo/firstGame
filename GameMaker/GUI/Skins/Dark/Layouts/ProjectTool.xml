@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="ProjectToolUI" layout_guid="3ae34bc9-5ebc-422d-8720-0fabd04acdd2">
+    <Window stylename="default_window" height="226dpi_px" width="510dpi_px" localise_title="Project Tool" window_flags="CloseButton, MinimizeButton, MaximizeButton, ResizeButton, DockingDisabled">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="6dpi_px" right="6dpi_px" top="6dpi_px" bottom="6dpi_px" grid_rowlayout="['auto', '2*']" row_spacing="6dpi_px" grid_resize="ResizeGrid">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="TopToBottom" stack_resize="ResizeAll">
+                  <ChildGadgets>
+                    <Grid stylename="grid_container" override_flow_index="9999999" top="0px" grid_rowlayout="['auto', 'auto', 'auto', 'auto', '1*']" grid_columnlayout="['auto', '1*']" row_spacing="8dpi_px" column_spacing="8dpi_px" grid_resize="ResizeGrid">
+                      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <Label stylename="label" override_flow_index="9999999" height="16px" width="39px" left="0px" caption="Source" />
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <FileInputGadget stylename="file_input" layout_id="source" layout_guid="bb0588ed-4162-4948-8273-edefdddceff0" override_flow_index="9999999" left="0px" top="0px" />
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <Label stylename="label" override_flow_index="9999999" height="16px" width="64px" left="0px" caption="Destination" />
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <FileOutputGadget stylename="file_input" layout_id="dest" layout_guid="0cb06877-3bff-45d6-bc0c-d0857bbdd747" override_flow_index="9999999" left="0px" top="0px" />
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <Label stylename="label" override_flow_index="9999999" height="16px" width="82px" caption="Project Format" />
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="2" column="1" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <ComboBox stylename="combobox_panel" layout_id="format" layout_guid="a907fdda-d9d8-43cf-81a7-1071c22d75b7" override_flow_index="9999999" right="0dpi_px">
+                            <ListBoxItems />
+                          </ComboBox>
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="3" column="1" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <StackPanel stylename="stack_panel" override_flow_index="9999999" right="0dpi_px" stack_order="TopToBottom" stack_resize="ResizeAll">
+                            <ChildGadgets>
+                              <CheckBox stylename="checkbox_stack" layout_id="ForceVERS0" layout_guid="691f5901-57b5-49ca-943c-6660f62685d1" override_flow_index="9999999" localise_tooltip="ProjectTool_ForceVERS0_Tooltip" right="0dpi_px" top="0px" localise_name="ProjectTool_ForceVERS0" stack_order="RightToLeft" />
+                              <CheckBox stylename="checkbox_stack" layout_id="CleanCONV" layout_guid="346fa4ae-b0d4-4cc8-96e7-af27d82114f6" override_flow_index="9999999" right="0dpi_px" top="19px" localise_name="ProjectTool_CleanConv" stack_order="RightToLeft" checked="true" />
+                            </ChildGadgets>
+                          </StackPanel>
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="4" column="1" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <Button stylename="button_up" layout_id="convert" layout_guid="2b0f5308-6598-4f50-8900-aa9122916d77" override_flow_index="9999999" name="Convert!" />
+                        </ChildGadgets>
+                      </Cell>
+                    </Grid>
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

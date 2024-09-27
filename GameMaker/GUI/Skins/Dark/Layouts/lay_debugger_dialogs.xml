@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="Debugger_ConnectTimeoutDialog" layout_guid="a094a40d-4f6a-45ef-98c6-54ddb8164b48">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+            <ChildGadgets>
+              <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="f5e50ecc-a0b2-41bc-9a66-d33008e1033a" override_flow_index="9999999" left="10px" />
+              <Grid stylename="grid_container" override_flow_index="9999999" left="52dpi_px" right="4dpi_px" grid_rowlayout="['auto', 'auto']" grid_resize="ResizeGridHeight">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="b4d9e2c3-a247-41af-bb4f-9f30b6b7faaa" override_flow_index="9999999" left="0px" localise_caption="Debugger_ConnectTimeoutMsg" auto_size="True" auto_ellipsis="False" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <LinkLabel stylename="link_label" override_flow_index="9999999" open_in_external_browser="true" tooltip="https://help.yoyogames.com/hc/en-us/articles/360022953052-User-Permissions-and-Internet-Access-Required-by-GMS2" height="16px" width="152px" left="0px" top="0px" margin_bottom="4dpi_px" localise_caption="Debugger_ConnectHelpLink" url="https://help.yoyogames.com/hc/en-us/articles/360022953052-User-Permissions-and-Internet-Access-Required-by-GMS2" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" grid_columnlayout="['1*', '1*']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="no_button" layout_guid="77516b92-ba7f-4ef9-b98b-2e4cad4cf62e" flow_index="1" override_flow_index="9999999" height="24px" width="140dpi_px" right="16dpi_px" top="0px" localise_name="Debugger_ConnectContinue" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="yes_button" layout_guid="d665074f-b0d9-4b5f-afc3-ef6152fde629" override_flow_index="9999999" height="24px" width="140dpi_px" left="16dpi_px" top="0px" localise_name="Debugger_ConnectAbort" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="3874c1f4-c8e9-4f83-a7aa-3a1d4c00bace" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="Debugger_ConnectTimeoutDialog_Window" layout_guid="a094a40d-4f6a-45ef-98c6-54ddb8164b48">
+    <Window stylename="confirm_dialog_large">
+      <Layout layout_name="Debugger_ConnectTimeoutDialog" />
+    </Window>
+  </Layout>
+</Layouts>

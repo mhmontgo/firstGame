@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<GadgetProperties>
+  <Property property_class="YoYoStudio.GUI.GUIAlignmentInput" input_class="YoYoStudio.Plugins.DialogEditor.GUIAlignmentInputGadget" stylename="properties_guialignment"/>
+  <Property property_name="width" property_class="YoYoStudio.GUI.GUIAlignmentInput" input_class="YoYoStudio.Plugins.DialogEditor.GUIAlignmentInputGadget" stylename="properties_guidimension"/>
+  <Property property_name="height" property_class="YoYoStudio.GUI.GUIAlignmentInput" input_class="YoYoStudio.Plugins.DialogEditor.GUIAlignmentInputGadget" stylename="properties_guidimension"/>
+  <Property property_class="System.Boolean" input_class="YoYoStudio.GUI.Gadgets.CheckBox" stylename="properties_checkbox"/>
+  <Property property_class="System.Single" input_class="YoYoStudio.GUI.Gadgets.NumericTextBox" stylename="properties_fpnumericbox"/>
+  <Property property_class="System.Double" input_class="YoYoStudio.GUI.Gadgets.NumericTextBox" stylename="properties_fpnumericbox"/>
+  <Property property_class="System.Int16" input_class="YoYoStudio.GUI.Gadgets.NumericTextBox" stylename="properties_intnumericbox"/>
+  <Property property_class="System.Int32" input_class="YoYoStudio.GUI.Gadgets.NumericTextBox" stylename="properties_intnumericbox"/>
+  <Property property_class="System.Int64" input_class="YoYoStudio.GUI.Gadgets.NumericTextBox" stylename="properties_intnumericbox"/>
+  <Property property_class="System.UInt16" input_class="YoYoStudio.GUI.Gadgets.NumericTextBox" stylename="properties_uintnumericbox"/>
+  <Property property_class="System.UInt32" input_class="YoYoStudio.GUI.Gadgets.NumericTextBox" stylename="properties_uintnumericbox"/>
+  <Property property_class="System.UInt64" input_class="YoYoStudio.GUI.Gadgets.NumericTextBox" stylename="properties_uintnumericbox"/>
+  <Property property_class="System.String" input_class="YoYoStudio.GUI.Gadgets.TextBox" stylename="properties_textbox" />
+  <Property property_class="YoYoStudio.Core.Utils.Colour" input_class="YoYoStudio.GUI.Gadgets.ColourSelectButton" stylename="properties_colourpicker" />
+  <Property property_name="Icon" property_class="System.String" input_class="YoYoStudio.GUI.Gadgets.FileInputGadget" stylename="properties_file_input" />
+</GadgetProperties>

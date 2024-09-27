@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="InspectorArrayList_Container" layout_guid="7b217097-8a0a-45ef-9bf8-bbb73bd42627">
+    <Grid stylename="inspector_array_list_element_container" left="0px" grid_rowlayout="['auto']" grid_columnlayout="['auto', 'auto', '1*']" column_spacing="1dpi_px" grid_resize="ResizeGrid">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="inspector_array_list_draggable_image" layout_id="drag_thumb" layout_guid="216212a3-4792-4152-b203-7b52de721f22" height="12dpi_px" top="4dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="inspector_array_list_element_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="inspector_button_remove_faded" layout_id="btn_remove" layout_guid="65a9785c-0caa-4dac-bec8-125da8fb2619" localise_tooltip="Inspector_ArrayList_RemoveElementTooltip" height="20dpi_px" width="16dpi_px" left="" top="0dpi_px" margin_left="4dpi_px" margin_right="1dpi_px" icon_flags="Centre, KeepAspectRatio" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_deletetrack&quot;]" vector_icon_size="10dpi_px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="InspectorArrayList_Controls" layout_guid="e6d2b4a8-0e11-4f0c-8cc8-a5be773698d3">
+    <BasicGadget stylename="inspector_array_list_controls">
+      <ChildGadgets>
+        <StackPanel layout_id="size_panel" stylename="inspector_array_list_size" stack_order="LeftToRight" stack_resize="ResizeHeight">
+          <ChildGadgets>
+            <Label localise_caption="Inspector_ArrayList_Size" margin_right="4dpi_px" />
+            <NumericTextBox layout_id="textbox_size" stylename="inspector_array_list_size_text_box" min="0" />
+          </ChildGadgets>
+        </StackPanel>
+        <Button layout_id="btn_add" stylename="inspector_array_list_add" localise_tooltip="Inspector_ArrayList_AddElementTooltip" />
+      </ChildGadgets>
+    </BasicGadget>
+  </Layout>
+  <Layout layout_name="Inspector_ResourceButton" layout_guid="2f62bbb9-8c7b-4bd9-8c6b-782c1b0ef7c4">
+    <LabeledInspectorPanel>
+      <InspectorResourceButton bind_inspector="true">
+        <ChildGadgets>
+          <Grid stylename="grid_container" grid_columnlayout="['40dpi_px', '1*']" width="100%" right="0px" grid_resize="None" width_max="168dpi_px">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Image stylename="image" layout_id="resource_icon" layout_guid="8a291b65-5f00-4e97-ad8b-7c0e91a6824c" override_flow_index="9999999" height="30dpi_px" image_flags="Stretch, Centre, KeepAspectRatio" image="ResourceIcons\icon_default.png" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ResourceButton stylename="browse_button" layout_id="resource_button" layout_guid="14ba69f4-a9c0-45e7-b06d-6ef82922a47f" override_flow_index="9999999" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </InspectorResourceButton>
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_AssetRef">
+    <LabeledInspectorPanel>
+      <InspectorAssetRef bind_inspector="true">
+        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['48dpi_px', '1*']" grid_columnlayout="['48dpi_px', '1*']" height="60dpi_px">
+              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <ScrollPanel stylename="sprite_selector_icon_frame" override_flow_index="9999999" height="44dpi_px" width="44dpi_px" left="0px" top="0px" mouse_events="false">
+                    <ChildGadgets>
+                      <Image stylename="resource_icon" layout_id="resource_icon" mouse_events="true" layout_guid="f84ab6ab-de7c-4f82-ab04-c86cb65b37d2" override_flow_index="9999999" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" />
+                    </ChildGadgets>
+                  </ScrollPanel>
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <ResourceButton stylename="resource_button" layout_id="resource_button" layout_guid="3d33062f-86ad-4f48-9a95-9e980aa38e2d" override_flow_index="9999999" left="10px" right="0px" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Label stylename="label" layout_id="size_label" layout_guid="89e2055b-8187-4c8b-b722-eae20bb0d0d1" override_flow_index="9999999" height="16px" width="34px" caption="64x64" />
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+          </ChildGadgets>
+        </Cell>
+        <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Button stylename="button_up" layout_id="edit_button" layout_guid="047603bb-661e-46bd-9f1e-ac6218c601c8" localise_name="Inspector_OpenEditor" override_flow_index="9999999" left="0dpi_px" right="0px" />
+          </ChildGadgets>
+        </Cell>
+      </InspectorAssetRef>
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_RotationGadget">
+    <LabeledInspectorPanel>
+      <InspectorRotationGadget bind_inspector="true" height="28dpi_px">
+        <ChildGadgets>
+          <AngularSelect stylename="angular_select" layout_id="angle_select" override_flow_index="9999999" left="0dpi_px" top="0dpi_px" width="28dpi_px" height="28dpi_px"/>
+          <NumericTextBox stylename="inspector_numeric_textbox" input_type="Real" layout_id="text_box" override_flow_index="9999999" height="24dpi_px" width="70dpi_px" left="36dpi_px" top="2dpi_px" />
+        </ChildGadgets>
+      </InspectorRotationGadget>
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_AssetInfoPanel">
+    <InspectorAssetInfoPanel>
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="inspector_icon_border" override_flow_index="9999999" left="6dpi_px" right="6dpi_px" top="4dpi_px" bottom="4dpi_px">
+            <ChildGadgets>
+              <Image stylename="ab_big_resource_icon" layout_id="type_icon" layout_guid="ed7e928c-40c1-4952-8d08-8ea3b47576c7" override_flow_index="9999999" height="45dpi_px" width="45dpi_px" top="" vector_icon_size="45dpi_px" />
+            </ChildGadgets>
+          </ScrollPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="dopesheet_track_panel_header_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="0dpi_px" right="6dpi_px" top="4dpi_px" bottom="4dpi_px" grid_rowlayout="['1*', '1*', '1*']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', '24dpi_px']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" layout_id="type_label" layout_guid="f502f988-4bbf-43e4-a9da-ac03650b870e" override_flow_index="9999999" height="16px" width="36px" left="0px" top="2dpi_px" caption="Object" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="no_frame_button" layout_id="tags_button" layout_guid="c502296c-0b88-4ec1-a63f-289c6ae3d688" override_flow_index="9999999" icon_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_tagged&quot;]" vector_icon_size="12dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <TextBox stylename="text_box" layout_id="name_textbox" bind_inspector="true" layout_guid="fcbb0094-0d25-49a3-bd27-dd4de5025e42" override_flow_index="9999999" top="0px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', 'auto']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="editor_button" layout_guid="6ed14bd2-eed9-4313-9fff-5a7b7302d7b2" override_flow_index="9999999" height="24px" top="1px" localise_name="Inspector_OpenEditor" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell layout_id="inherit_cell" layout_guid="2b203aa8-47d1-474a-95f6-dbedd2074234" row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </InspectorAssetInfoPanel>
+  </Layout>
+  <Layout layout_name="Inspector_DocPreview" >
+    <CollapsibleInspectorPanel auto_expand="True">
+      <InspectorDocumentPreview bind_inspector="True" height="300dpi_px">
+      </InspectorDocumentPreview>
+    </CollapsibleInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_InstCCPreview" >
+    <CollapsibleInspectorPanel auto_expand="False">
+      <InspectorInstCCPreview bind_inspector="True"/>
+    </CollapsibleInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_AssetRefFW">
+    <InspectorAssetRefNew bind_inspector="True" margin_top="6dpi_px" margin_bottom="12dpi_px" left="5dpi_px" right="5dpi_px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="sprite_selector_button" layout_id="new_asset_button" layout_guid="7043554d-39fe-465d-aa91-4a2b8798a786" override_flow_index="9999999" localise_tooltip="AssetBrowser_CreateNew" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;iw_add_sprite&quot;]" vector_icon_size="16dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="sprite_selector_button" layout_id="edit_asset_button" layout_guid="b87990d6-2cc1-4edb-8604-893cee6c6fa0" override_flow_index="9999999" localise_tooltip="Inspector_OpenEditor" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;iw_edit_sprite&quot;]" vector_icon_size="16dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0" layout_id="edit_asset_ext_cell">
+      </Cell>
+      <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ResourceButton stylename="resource_button" layout_id="resource_button" layout_guid="601bad0b-05db-4a24-924d-6a4a69c6ad5e" override_flow_index="9999999" left="4dpi_px" right="0px" />
+        </ChildGadgets>
+      </Cell>
+    </InspectorAssetRefNew>
+  </Layout>
+
+  <Layout layout_name="Inspector_AssetRefInspect">
+    <InspectorAssetRefNew stylename = "inspector_asset_ref_inspect" inspect_on_edit="true" bind_inspector="True" margin_top="6dpi_px" margin_bottom="6dpi_px" left="5dpi_px" right="5dpi_px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="sprite_selector_button" layout_id="edit_asset_button" layout_guid="b87990d6-2cc1-4edb-8604-893cee6c6fa0" override_flow_index="9999999" localise_tooltip="Inspector_OpenInspector" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;iw_edit_sprite&quot;]" vector_icon_size="16dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ResourceButton stylename="resource_button" layout_id="resource_button" layout_guid="601bad0b-05db-4a24-924d-6a4a69c6ad5e" override_flow_index="9999999" left="4dpi_px" right="0px" />
+        </ChildGadgets>
+      </Cell>
+    </InspectorAssetRefNew>
+  </Layout>
+
+  <Layout layout_name="Inspector_AssetRefLabelled">
+    <LabeledInspectorPanel>
+      <InspectorAssetRefNew stylename = "inspector_asset_ref_basic" allow_create_new="False" allow_drag="False" bind_inspector="True">
+        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <ResourceButton stylename="resource_button" layout_id="resource_button" layout_guid="601bad0b-05db-4a24-924d-6a4a69c6ad5e" override_flow_index="9999999" left="4dpi_px" right="0px" />
+          </ChildGadgets>
+        </Cell>
+      </InspectorAssetRefNew>
+    </LabeledInspectorPanel>
+  </Layout>
+
+
+    <Layout layout_name="Inspector_ObjectMaskRef" layout_guid="93c45f75-ae68-43b0-84a1-4568836d5695">
+	<LabeledInspectorPanel>
+        <InspectorObjectMaskRef bind_inspector="True" left="0dpi_px" right="0dpi_px">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="sprite_selector_button" layout_id="edit_asset_button" layout_guid="b87990d6-2cc1-4edb-8604-893cee6c6fa0" override_flow_index="9999999" localise_tooltip="Inspector_OpenEditor" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;iw_edit_sprite&quot;]" vector_icon_size="16dpi_px" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <ResourceButton stylename="resource_button" layout_id="resource_button" layout_guid="601bad0b-05db-4a24-924d-6a4a69c6ad5e" override_flow_index="9999999" left="4dpi_px" right="0px" />
+            </ChildGadgets>
+          </Cell>
+        </InspectorObjectMaskRef>
+	</LabeledInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_ObjectParentRef" layout_guid="5d7efca7-70eb-41a8-a419-1248ec2dc6d0">
+    <InspectorObjectParentRef bind_inspector="True" left="5dpi_px" right="5dpi_px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image layout_id="icon_image" layout_guid="f7c4a29b-00f2-4edc-8f7f-aa85dcf24bf9" override_flow_index="9999999" image_flags="Stretch, Centre, KeepAspectRatio"/>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="sprite_selector_button" layout_id="edit_asset_button" layout_guid="b87990d6-2cc1-4edb-8604-893cee6c6fa0" override_flow_index="9999999" localise_tooltip="Inspector_OpenEditor" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;iw_edit_sprite&quot;]" vector_icon_size="16dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ResourceButton stylename="resource_button" layout_id="resource_button" layout_guid="97f25c91-6a9b-41be-9b5e-b8b74313423a" override_flow_index="9999999" left="4dpi_px" right="0px" />
+        </ChildGadgets>
+      </Cell>
+    </InspectorObjectParentRef>
+  </Layout>
+
+  <Layout layout_name="Inspector_ExtButton_wrapped">
+    <InspectorFWPanel>
+      <InspectorExtButton></InspectorExtButton>
+    </InspectorFWPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_ExtButton">
+    <InspectorExtButton left="0px" right="0px"/>
+  </Layout>
+
+  <Layout layout_name="Inspector_ExtButton_Multi">
+    <InspectorExtButton left="0px" right="0px" multi_targets="true"/>
+  </Layout>
+
+  <Layout layout_name="Inspector_TexGroupGadget">
+    <LabeledInspectorPanel>
+      <InspectorGroupCombo stylename="inspector_group_combo" bind_inspector="true" height="28dpi_px">
+      </InspectorGroupCombo>
+    </LabeledInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_AudioGroupGadget">
+    <LabeledInspectorPanel>
+      <InspectorGroupCombo stylename="inspector_group_combo" bind_inspector="true" height="28dpi_px" audio_group="true">
+      </InspectorGroupCombo>
+    </LabeledInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_ImageFileBrowser">
+    <LabeledInspectorPanel>
+      <InspectorFileInputGadget image_file_filter="true"/>
+    </LabeledInspectorPanel>
+  </Layout>
+
+
+  <Layout layout_name="InspectorMultiCellContent" layout_guid="30b82e90-a6ff-4a55-9b7a-b350e4e9bed3">
+    <!-- <Grid stylename="grid_container" override_flow_index="9999999" height="22dpi_px" grid_columnlayout="['32dpi_px', '28dpi_px', '1*', '32dpi_px']"> -->
+    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Image stylename="image" layout_id="icon" layout_guid="0c12a622-fbd9-4e15-ad42-e4b07d58ca84" override_flow_index="9999999" height="22dpi_px" width="22dpi_px" right="0px" image_flags="Stretch, Centre, KeepAspectRatio"/>
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Image stylename="image" layout_id="type_icon" layout_guid="841c0aee-a275-4ea5-82b0-3b8f7f09d9d4" override_flow_index="9999999" height="20dpi_px" width="20dpi_px" right="0px" vector_icon_size="20dpi_px" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="name_label" layout_guid="23093dd0-6b48-4bc2-aa57-30e5a4d376e6" override_flow_index="9999999" left="10dpi_px"/>
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <CloseButton stylename="close_button_up" layout_id="close_button" layout_guid="27fc8aa5-a7b2-4415-ac65-6f4037480431" override_flow_index="9999999" top="3dpi_px" />
+      </ChildGadgets>
+    </Cell>
+    <!--    </Grid> -->
+  </Layout>
+
+  <Layout layout_name="Inspector_AlignIconPanel" layout_guid="a82cb77d-2416-414e-9124-f40a40ee78c3">
+    <InspectorAlignIconPanel width_min="192dpi_px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="label" override_flow_index="9999999" height="16px" width="60px" left="0px" localise_caption="Inspector_AlignIcons" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" override_flow_index="9999999" left="0px">
+            <ChildGadgets>
+              <Button stylename="no_frame_button" layout_id="valign_top" layout_guid="d1d6d8cd-199f-4268-b07d-55375acc33c1" override_flow_index="9999999" localise_tooltip="Inspector_VAlign_Top" height="" width="24dpi_px" left="0px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;iw_align_top&quot;]" vector_icon_size="16dpi_px" />
+              <Button stylename="no_frame_button" layout_id="valign_centre" layout_guid="983344e4-d78c-4cb5-9452-5b1347b8837c" override_flow_index="9999999" localise_tooltip="Inspector_VAlign_Centre" height="" width="24dpi_px" left="24px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;iw_align_center_horizontal&quot;]" vector_icon_size="16dpi_px" />
+              <Button stylename="no_frame_button" layout_id="valign_bottom" layout_guid="c2992bb9-562a-4881-a713-e234c78fc788" override_flow_index="9999999" localise_tooltip="Inspector_VAlign_Bottom" height="" width="24dpi_px" left="48px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;iw_align_bottom&quot;]" vector_icon_size="16dpi_px" />
+              <Button stylename="no_frame_button" layout_id="valign_distrib" layout_guid="930c5d44-d042-4cba-9831-14bc2752927a" override_flow_index="9999999" localise_tooltip="Inspector_VAlign_Distrib" height="" width="24dpi_px" left="72px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;iw-align-distribute-horiz&quot;]" vector_icon_size="16dpi_px" />
+              <VerticalSeparator stylename="dark_separator" override_flow_index="9999999" left="100px" margin_left="4dpi_px" margin_right="4dpi_px" margin_top="0px" margin_bottom="0px" />
+              <Button stylename="no_frame_button" layout_id="halign_left" layout_guid="beeb7376-d312-415c-83ec-8438fbf18091" override_flow_index="9999999" localise_tooltip="Inspector_HAlign_Left" height="" width="24dpi_px" left="105px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;iw_align_left&quot;]" vector_icon_size="16dpi_px" />
+              <Button stylename="no_frame_button" layout_id="halign_centre" layout_guid="80894ea1-3989-4d22-987d-b11c36dc5150" override_flow_index="9999999" localise_tooltip="Inspector_HAlign_Centre" height="" width="24dpi_px" left="129px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;iw_align_center_vertical&quot;]" vector_icon_size="16dpi_px" />
+              <Button stylename="no_frame_button" layout_id="halign_right" layout_guid="dca3bc2d-b7f8-4e63-8917-2173d0d6deae" override_flow_index="9999999" localise_tooltip="Inspector_HAlign_Right" height="" width="24dpi_px" left="153px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;iw_align_right&quot;]" vector_icon_size="16dpi_px" />
+              <Button stylename="no_frame_button" layout_id="halign_distrib" layout_guid="f12fb6e9-1917-47a2-9a6d-855ebf028432" override_flow_index="9999999" localise_tooltip="Inspector_HAlign_Distrib" height="" width="24dpi_px" left="177px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;iw-align-distribute-vert&quot;]" vector_icon_size="16dpi_px" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+    </InspectorAlignIconPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_TextAlignPanel" layout_guid="6d96b5f9-cda4-41f6-b280-36af668ba051">
+    <LabeledInspectorPanel>
+      <InspectorTextAlignPanel>
+        <ChildGadgets>
+          <ToggleButton stylename="inspector_textalign_button" layout_id="halign_left" layout_guid="beeb7376-d312-415c-83ec-8438fbf18091" override_flow_index="9999999" localise_tooltip="Inspector_HAlign_Left" height="" width="24dpi_px" left="0px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;text-haling-left&quot;]" vector_icon_size="16dpi_px" />
+          <ToggleButton stylename="inspector_textalign_button" layout_id="halign_centre" layout_guid="80894ea1-3989-4d22-987d-b11c36dc5150" override_flow_index="9999999" localise_tooltip="Inspector_HAlign_Centre" height="" width="24dpi_px" left="24px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;text-haling-center&quot;]" vector_icon_size="16dpi_px" />
+          <ToggleButton stylename="inspector_textalign_button" layout_id="halign_right" layout_guid="dca3bc2d-b7f8-4e63-8917-2173d0d6deae" override_flow_index="9999999" localise_tooltip="Inspector_HAlign_Right" height="" width="24dpi_px" left="48px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;text-haling-right&quot;]" vector_icon_size="16dpi_px" />
+          <ToggleButton stylename="inspector_textalign_button" layout_id="halign_justify" layout_guid="9ba66768-0562-4e40-b070-ab58ddbff8ee" override_flow_index="9999999" localise_tooltip="Inspector_Justify" height="" width="24dpi_px" left="72px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;text-haling-justify&quot;]" vector_icon_size="16dpi_px" />
+          <VerticalSeparator stylename="dark_separator" override_flow_index="9999999" left="100px" margin_left="4dpi_px" margin_right="4dpi_px" margin_top="0px" margin_bottom="0px" />
+          <ToggleButton stylename="inspector_textalign_button" layout_id="valign_bottom" layout_guid="c2992bb9-562a-4881-a713-e234c78fc788" override_flow_index="9999999" localise_tooltip="Inspector_VAlign_Bottom" height="" width="24dpi_px" left="105px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;text-valing-bottom&quot;]" vector_icon_size="16dpi_px" />
+          <ToggleButton stylename="inspector_textalign_button" layout_id="valign_top" layout_guid="d1d6d8cd-199f-4268-b07d-55375acc33c1" override_flow_index="9999999" localise_tooltip="Inspector_VAlign_Top" height="" width="24dpi_px" left="129px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;text-valing-top&quot;]" vector_icon_size="16dpi_px" />
+          <ToggleButton stylename="inspector_textalign_button" layout_id="valign_centre" layout_guid="983344e4-d78c-4cb5-9452-5b1347b8837c" override_flow_index="9999999" localise_tooltip="Inspector_VAlign_Centre" height="" width="24dpi_px" left="153px" icon_flags="Centre" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;text-valing-middle&quot;]" vector_icon_size="16dpi_px" />
+        </ChildGadgets>
+    </InspectorTextAlignPanel>
+    </LabeledInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_FlipIconPanel" layout_guid="5bedf86d-6fc3-484b-ba7d-f1e3747a92f6">
+    <InspectorFlipIconPanel>
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="label" override_flow_index="9999999" height="16px" width="200px" left="0dpi_px" localise_caption="Inspector_FlipIcons" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel">
+            <ChildGadgets>
+              <Button stylename="no_frame_button" layout_id="button_flipH" layout_guid="0e097976-a9a5-4e2d-ba10-8f89bd9cf72f" override_flow_index="9999999" height="28dpi_px" width="28dpi_px" left="0px" icon_flags="Stretch, Centre, KeepAspectRatio" icon="ImageEditor\ToolIcons\icon_IE_fliphor.png" />
+              <Button stylename="no_frame_button" layout_id="button_flipV" layout_guid="e5461993-baf8-4f38-a7d6-593be3f27f75" override_flow_index="9999999" height="28dpi_px" width="28dpi_px" left="28px" icon_flags="Stretch, Centre, KeepAspectRatio" icon="ImageEditor\ToolIcons\icon_IE_flipvert.png" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+    </InspectorFlipIconPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_MultiInfoPanel_Content" layout_guid="659a0a29-a54a-415b-8bd8-504ecd181bc9">
+    <!--    <Grid stylename="dopesheet_track_panel_header" override_flow_index="9999999" height="85dpi_px" top="0px" grid_columnlayout="['89dpi_px', '1*']"> -->
+    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <ScrollPanel stylename="inspector_icon_border" override_flow_index="9999999" left="6dpi_px" right="6dpi_px" top="4dpi_px" bottom="4dpi_px">
+          <ChildGadgets>
+            <Image stylename="ab_big_resource_icon" layout_id="type_icon" layout_guid="a7544792-fad0-4f1a-9229-a07798f0bdda" override_flow_index="9999999" height="50dpi_px" width="50dpi_px" top="" vector_icon_size="50dpi_px" font_icon="[&quot;inspector_window_icon_font&quot;, &quot;iw-multiselect-icon&quot;]"/>
+          </ChildGadgets>
+        </ScrollPanel>
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Grid stylename="grid_container" override_flow_index="9999999" left="0px" right="6dpi_px" top="4dpi_px" bottom="4dpi_px" grid_rowlayout="['1*', '28dpi_px']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', '24dpi_px']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" layout_id="type_label" layout_guid="ef0d8861-6089-406b-96bb-df928972b24b" override_flow_index="9999999" height="" width="" left="0px" top="4dpi_px" caption="Selection - Instances: 12 Sprites, 4 Objects, 1 Sound, 3 Sequences, 5 Scripts, 100 Shaders" word_wrap="True" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="no_frame_button" layout_id="tags_button" layout_guid="dbd9f130-4abe-42be-aa5b-5cbfd768a5f4" override_flow_index="9999999" top="0px" icon_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_tagged&quot;]" vector_icon_size="16dpi_px" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" top="3dpi_px" grid_columnlayout="['1*', 'auto']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="editor_button" layout_guid="0464e77c-98b0-4e17-a32a-f77945d8d7aa" override_flow_index="9999999" height="24px" top="0dpi_px" localise_name="Inspector_OpenEditor" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" layout_id="inherit_cell">
+                </Cell>
+              </Grid>
+
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Cell>
+    <!--    </Grid> -->
+  </Layout>
+
+  <Layout layout_name="Inspector_ObjectEventList" layout_guid="64bf5201-dfd0-4416-a760-378f1696b8e2">
+    <InspectorObjectEventList/>
+  </Layout>
+
+  <Layout layout_name="Inspector_EventItem_Content">
+    <!--<StackPanel stylename="event_item_stack_panel" layout_id="event_list_item" layout_guid="fef983c6-7fb6-4b48-b5b0-524034ead904" left="1dpi_px" right="0dpi_px" top="1dpi_px" margin_bottom="1dpi_px"> -->
+    <ChildGadgets>
+      <Image stylename="resource_font_icon" layout_id="event_image" layout_guid="12dc4562-9873-45d1-b3b0-9f34c620a02a" margin_left="10dpi_px" margin_right="6dpi_px" margin_top="0px" />
+      <Image stylename="resource_icon" layout_id="event_image2" layout_guid="91cb0e09-fb6e-4240-8d78-3e664a366b5d" left="26px" margin_right="5dpi_px" margin_top="0px" />
+      <Label stylename="label" layout_id="event_name2" layout_guid="f8844349-9119-4312-ab1d-da855aa8ef08" height="16px" width="0px" left="51px" />
+      <Label stylename="label" layout_id="event_name" layout_guid="326c0b9e-66e9-44fb-9afc-bf50e4694baf" height="16px" width="5px" left="51px" caption="?" />
+      <Label stylename="label" layout_id="event_parent_object" layout_guid="1f13ae5c-88f0-4779-9d70-a022cdfe03af" height="16px" width="0px" left="56px" />
+      <Label stylename="label" layout_id="event_name_desc" layout_guid="eba7f83b-6cc4-4151-b779-26a3610d0eb4" height="16px" width="0px" left="56px" />
+    </ChildGadgets>
+    <!--</StackPanel>-->
+  </Layout>
+
+  <Layout layout_name="Inspector_ObjectChildList">
+    <InspectorObjectChildList margin_top="12dpi_px" left="5dpi_px" right="5dpi_px">
+      <ResourceDropPanel stylename="resource_selector" layout_id="child_drop_panel" layout_guid="13ace6ba-b5c0-41df-aa26-76eff3d7d075" left="0px" right="0px" top="0px" height="104dpi_px">
+        <Gadgets>
+          <Label stylename="resource_selector_drag_message" layout_id="child_drag_message" layout_guid="c612ea66-9c4c-4040-a888-d6956c5ed36f" localise_caption="ObjectEditor_DropChildHere" />
+        </Gadgets>
+        <ChildGadgets>
+          <ScrollPanel stylename="bordered_scrollpanel_dark">
+            <ChildGadgets>
+              <ObjectChildrenTreeView stylename="treeview_no_frame" layout_id="children_listbox" layout_guid="7a13f9c3-eed5-4f58-b67a-7a28c85c0efb" height="" width="" top="1dpi_px" bottom="1px" accept_dragged_nodes="False" />
+            </ChildGadgets>
+          </ScrollPanel>
+        </ChildGadgets>
+      </ResourceDropPanel>
+    </InspectorObjectChildList>
+  </Layout>
+
+  <Layout layout_name="Inspector_ObjectVars">
+    <CollapsibleInspectorPanel auto_expand="True">
+      <InspectorObjVarList bind_inspector="True"/>
+    </CollapsibleInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_ObjVarTableHeader" layout_guid="1a8a36f0-2975-462a-910c-2ba9891c47be">
+    <Grid stylename="bordered_scrollpanel_dark_alpha" override_flow_index="9999999" height="28dpi_px" grid_columnlayout="['1*', '1*', '24dpi_px', '24dpi_px']" column_spacing="2dpi_px">
+      <Cell row="0" column="0" stylename="bordered_scrollpanel_dark" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" override_flow_index="9999999" height="16px" width="34px" left="6dpi_px" localise_caption="ObjectEditor_PropName" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="bordered_scrollpanel_dark" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="default_label" override_flow_index="9999999" height="16px" width="41px" left="6dpi_px" localise_caption="ObjectEditor_PropDefault" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="bordered_scrollpanel_dark" />
+      <Cell row="0" column="3" stylename="bordered_scrollpanel_dark" />
+    </Grid>
+  </Layout>
+
+  <Layout layout_name="Inspector_ObjVarPanelContent2" layout_guid="082b29cd-d634-41c2-9ef7-d7666dedbbfa">
+    <!-- <Grid stylename="grid_container" override_flow_index="9999999" height="28dpi_px" width="320dpi_px" grid_columnlayout="['1*', '1*', '24dpi_px', '24dpi_px']" column_spacing="2dpi_px"> -->
+    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Grid stylename="grid_container_panel" override_flow_index="9999999" grid_columnlayout="['12dpi_px', '1*']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Image stylename="ab_tree_drag_icon" layout_id="drag_icon" layout_guid="5e2bc674-0e9f-476d-8bba-d868f4175c90" override_flow_index="9999999" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="1" stylename="grid_container_panel_panel" flow_index="0">
+            <ChildGadgets>
+              <DnDExpressionInput stylename="dnd_gadget" layout_id="expr_name" layout_guid="f833b2e3-3036-4e75-b93d-5b16baac5156" left="0px" right="0dpi_px" bind_property="varName" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Cell>
+    <Cell layout_guid="00461092-d055-44e7-b192-ad192debeabb" row="0" column="1" stylename="grid_container" flow_index="0">
+      <ChildGadgets>
+        <ScrollPanel stylename="bordered_scrollpanel_dark" layout_id="value_cell" override_flow_index="9999999" top="2px" bottom="2px" clip="0px"/>
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Button stylename="ins_objprop_options_button" layout_id="options_button" layout_guid="9f7576bc-4f02-497b-af66-ff897f908d0b" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Button stylename="ins_obj_prop_remove_button" layout_id="trash_button" layout_guid="3fec9e25-84f0-47e2-ac68-f5b14867e80b" />
+      </ChildGadgets>
+    </Cell>
+    <!-- </Grid> -->
+  </Layout>
+
+  <Layout layout_name="Inspector_ObjVarInheritedPanelContent2" layout_guid="45c129bc-425e-45ad-aaef-9fa4b9ea82bd">
+    <!-- <Grid stylename="grid_container" override_flow_index="9999999" height="28dpi_px" width="310dpi_px" grid_columnlayout="['1*', '1*', '24dpi_px', '24dpi_px']" column_spacing="2dpi_px"> -->
+    <Cell row="0" column="0" stylename="bordered_scrollpanel_dark" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="label_name" bind_property="varName" layout_guid="7d81eff7-b454-4d98-b5f2-75fe31e655d1" override_flow_index="9999999" height="16px" left="8dpi_px" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="1" stylename="grid_container" flow_index="0">
+      <ChildGadgets>
+        <ScrollPanel stylename="bordered_scrollpanel_dark" layout_id="value_cell" override_flow_index="9999999" top="2px" bottom="2px" clip="0px"/>
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Button stylename="instance_property_override_button" layout_id="override_button" layout_guid="fddd386d-7816-4dd8-9df2-0e7a599fe7bb" override_flow_index="9999999" />
+      </ChildGadgets>
+    </Cell>
+    <!-- </Grid> -->
+  </Layout>
+
+  <Layout layout_name="Inspector_ObjVarOptionsContent" layout_guid="083cce9a-283e-457f-a289-f5831fb961e3">
+    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['28dpi_px', '1*']" grid_columnlayout="['136dpi_px', '1*']" column_spacing="1dpi_px">
+      <Cell row="0" column="0" stylename="ins_header_colour" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" override_flow_index="9999999" height="16px" width="27px" left="6dpi_px" localise_caption="ObjectEditor_PropType" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="ins_header_colour" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" override_flow_index="9999999" height="16px" width="43px" left="6dpi_px" localise_caption="ObjectEditor_PropParams" />
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="type_cell" layout_guid="9610d48e-9356-4ee9-b7b9-32b9d586b336" row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" layout_id="radio_stack" layout_guid="c672ac09-54ee-4d91-b336-accffed0d5ef" override_flow_index="9999999" top ="4dpi_px" left="4dpi_px" right="0dpi_px" stack_order="TopToBottom" />
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="options_cell" layout_guid="8f07e1d3-8ebf-4d0a-96b5-d55cb70ad71e" row="1" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="default_scrollpanel" layout_id="options_panel" layout_guid="6f43c6c0-e36d-4073-8d1d-8c75921a5d54" override_flow_index="9999999" left="6dpi_px" right="6dpi_px" top="4dpi_px" bottom="2dpi_px" scrollpanel_flags="None" />
+        </ChildGadgets>
+      </Cell>
+      <Gadgets>
+        <VerticalSeparator stylename="dark_separator" override_flow_index="9999999" width="2dpi_px" left="136dpi_px" margin_top="" margin_bottom="" />
+      </Gadgets>
+    </Grid>
+  </Layout>
+
+  <Layout layout_name="Inspector_SpriteResizePanel">
+    <InspectorSpriteResizePanel>
+      <InspectorLabel stylename="label" bind_inspector="True" />
+    </InspectorSpriteResizePanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_SpriteCollisionCombo">
+    <LabeledInspectorPanel>
+      <InspectorSpriteCollisionCombo bind_inspector="True"/>
+    </LabeledInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_SpriteEditImageButton">
+    <InspectorSpriteEditImageButton left="0px" right="0px"/>
+  </Layout>
+
+  <Layout layout_name="Inspector_FontName">
+    <LabeledInspectorPanel>
+      <InspectorFontName stylename="inspector_enum" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_FontStyle">
+    <LabeledInspectorPanel>
+      <InspectorFontStyle stylename="inspector_enum" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_FontIncludeTTF">
+    <LabeledInspectorPanel>
+      <InspectorFontIncludeTTFCheckbox bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+  
+  <Layout layout_name="Inspector_FontGlyphOptions">
+    <LabeledInspectorPanel>
+      <InspectorFontGlyphOptions stylename="inspector_enum" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_LayerEffectType">
+    <LabeledInspectorPanel>
+      <InspectorLayerEffectType stylename="inspector_enum" bind_inspector="True" />
+    </LabeledInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_LayerEffectProps">
+    <InspectorLayerEffectProps stylename="effects_prop_stack" left="0px" right="0dpi_px" bind_inspector="True"/>
+  </Layout>
+
+  <Layout layout_name="Inspector_LayerDepth">
+    <LabeledInspectorPanel>
+      <InspectorLayerDepth stylename="ins_room_depth_grid">
+        <!-- <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" grid_rowlayout="['50%']" grid_columnlayout="['50%', '40dpi_px', '1*']">  -->
+        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <NumericTextBox stylename="inspector_numeric_textbox_fill" layout_id="depth_value" layout_guid="bcb9e6f7-aa3e-4ea4-958d-0bacd3f012e2" override_flow_index="9999999" width="100%" left="0px" colour="#FFFFFFFF" has_buttons="True" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+          <Gadgets>
+            <GadgetToggleCheckBox stylename="toggle_gadget_checkbox_stack" layout_id="depth_toggle" layout_guid="1d018a76-e280-4316-80dd-83f352abb4d6" override_flow_index="9999999" top="0dpi_px" margin_right="10dpi_px" bind_property="userdefinedDepth" toggle_gadgets="['depth_value']"/>
+          </Gadgets>
+        </Cell>
+        <Cell layout_id="inherit_cell" layout_guid="8c3e000b-2c3b-4f1e-b5f6-57414c4ca17e" row="0" column="2" stylename="grid_container_panel" flow_index="0" />
+        <!-- </Grid> -->
+      </InspectorLayerDepth>
+    </LabeledInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_LayerEffectsCategory">
+    <InspectorLayerEffectsCategoryPanel/>
+  </Layout>
+
+  <Layout layout_name="Inspector_LayerItemContent" layout_guid="c39fe7f1-338d-451d-b12e-32aeb1096ec6">
+    <!-- <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" grid_columnlayout="['24dpi_px', '24dpi_px', '1*', '1*']"> -->
+    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+      <Gadgets>
+        <CheckBox stylename="ignore_checkbox_stack" layout_id="export_check" layout_guid="103a4471-5cdc-4680-8f7b-78463403e157" override_flow_index="9999999" localise_tooltip="RoomEditor_IgnoreItem" bind_property="ignore" base_style="ignore_checkbox" />
+      </Gadgets>
+    </Cell>
+    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+      <Gadgets>
+        <Image stylename="layercontents_icon" layout_id="icon" layout_guid="c0cb4a26-e120-457b-b8c1-9fd74ace6693" override_flow_index="9999999" />
+      </Gadgets>
+    </Cell>
+    <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="name1" layout_guid="aaeee4fe-a1b3-4430-8210-5adebe3d5d3d" override_flow_index="9999999" left="0px" auto_size="true" auto_ellipsis="true"  />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="name2" layout_guid="59cb89c8-7fb9-454d-9cce-b71ecd960e8d" override_flow_index="9999999" left="0px" auto_size="true" auto_ellipsis="true"  />
+      </ChildGadgets>
+    </Cell>
+    <!-- </Grid> -->
+  </Layout>
+
+  <Layout layout_name="Inspector_SplitRadio">
+    <LabeledInspectorPanel label_style="ins_wrap_label">
+      <InspectorSplitRadio stylename="ins_splitradio_grid" bind_inspector="True" >
+        <!--<Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['auto']" grid_columnlayout="['40dpi_px', '1*', 'auto']" grid_resize="ResizeGridHeight"> -->
+        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <RadioButton stylename="radiobutton_stack" layout_id="radio1"/>
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Label stylename="label" layout_id="radio_label" override_flow_index="9999999" left="0px" localise_caption="PathEditor_SmoothCurve" word_wrap="True" split_words_only="true"/>
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <RadioButton stylename="radiobutton_stack" layout_id="radio2"/>
+          </ChildGadgets>
+        </Cell>
+        <!-- </Grid> -->
+      </InspectorSplitRadio>
+    </LabeledInspectorPanel>
+  </Layout>
+
+  <Layout layout_name="Inspector_Vertical_Radio">
+    <InspectorVerticalRadio stylename="inspector_vertical_radio" bind_inspector="True" >
+    </InspectorVerticalRadio>
+  </Layout>
+
+  <Layout layout_name="Inspector_RoomViewList">
+    <RoomInspectorViewList/>
+  </Layout>
+
+  <Layout layout_name="Inspector_RoomInheritButton">
+    <RoomInspectorInheritButton/>
+  </Layout>
+  
+  <Layout layout_name="Inspector_RoomCCButton">
+    <RoomInspectorCreationCodeButton/>
+  </Layout>
+ 
+  <Layout layout_name="Inspector_NoSDFPanel">
+    <InspectorTextNoSDFPanel>
+      <ChildGadgets>
+        <Label stylename="label_centre" override_flow_index="9999999" margin_top="4dpi_px" margin_left="10dpi_px" margin_right="10dpi_px" localise_caption="CanvasText_NoSDFMessage" auto_size="True" word_wrap="True" />
+        <Button stylename="auto_width_button" layout_id="btn_edit_font" layout_guid="5927692d-9be2-43d5-8b5d-84f4f1dc227f" override_flow_index="9999999" width="101px" top="47px" margin_top="15dpi_px" name="Open Font Editor" />
+      </ChildGadgets>
+    </InspectorTextNoSDFPanel>
+  </Layout>
+  
+</Layouts>

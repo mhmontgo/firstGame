@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="plugin_assembly_entry" layout_guid="159f80cc-56c4-4817-9ea3-c4fe7a520ce2">
+    <ChildGadgets>
+      <Grid stylename="grid_container" layout_id="plugin_assembly_grid" layout_guid="254d9a91-d8f8-4bfe-abe9-dd83f09d3c8a" override_flow_index="9999999" grid_rowlayout="['28dpi_px']" grid_columnlayout="['28dpi_px', '28dpi_px', '1*', '1*', '28dpi_px', '1*']" grid_resize="ResizeGridHeight">
+        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <StackPanel stylename="stack_panel" layout_id="bundle_colour_column" layout_guid="b81dc782-cedb-41ba-a2dc-970a4c74dd74" override_flow_index="9999999" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <StackPanel stylename="stack_panel" layout_id="plugin_colour_column" layout_guid="9157ca6f-fefc-4b67-84c7-434366806be5" override_flow_index="9999999" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Label stylename="label" layout_id="plugin_assembly_name" layout_guid="38a159bd-9bd0-4cc1-8d31-2b3b67e0f604" override_flow_index="9999999" height="16px" width="91px" right="0dpi_px" caption="Core Assembly1" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <TextBox stylename="text_box" layout_id="plugin_assembly_path" layout_guid="f96186ef-b683-4dd7-bcea-8853d0509915" override_flow_index="9999999" localise_tooltip="Click to open in finder" text="c://path/assembly1.dll" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Label stylename="label" layout_id="plugin_assembly_version" layout_guid="2ed9838b-46a7-4517-9287-03661e3660b7" override_flow_index="9999999" height="16px" width="69px" caption="Version X.XX" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="5" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Image stylename="image" layout_id="plugin_assembly_warnings" layout_guid="360bd2b1-698d-4470-8eb5-f1aa269d71a0" override_flow_index="9999999" height="16px" width="53px" />
+          </ChildGadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="plugin_editor" layout_guid="e59745f1-cfc4-4bc8-afbc-8dad8f939e61">
+    <ChildGadgets>
+      <Grid stylename="grid_container" layout_id="bundle_grid" layout_guid="bc7835a4-e9b1-4e83-b016-9b34317b5ce2" override_flow_index="9999999" grid_rowlayout="['auto', 'auto', 'auto']" grid_resize="None">
+        <Cell layout_id="bundle_header_cell" layout_guid="3de27b8c-c769-43c8-bff4-9f8cc21ffff4" row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Grid stylename="grid_container" layout_id="bundle_header_grid" layout_guid="2d47bcb3-f76a-42be-8658-204be7905b53" override_flow_index="9999999" grid_rowlayout="['auto']" grid_columnlayout="['1*', '1*', 'auto', '1*', 'auto', '1*']" grid_resize="ResizeGridHeight">
+              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Label stylename="label" override_flow_index="9999999" height="16px" width="112px" caption="Core Plugins Bundle" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <TextBox stylename="text_box" override_flow_index="9999999" tooltip="Click to copy" text="c://path/metadata.gmplugin" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Button stylename="button_up" override_flow_index="9999999" width="24dpi_px" margin_left="8dpi_px" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Image stylename="image" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Label stylename="label" height="16px" width="0px" />
+                </ChildGadgets>
+              </Cell>
+              <Cell row="0" column="5" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <CheckBox stylename="checkbox_stack" />
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+          </ChildGadgets>
+        </Cell>
+        <Cell layout_id="bundle_body" layout_guid="67d5aab2-ad46-4e2e-a72a-a1d93ddb423c" row="1" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Grid stylename="grid_container" layout_id="bundle_body_grid" layout_guid="0f469347-90e1-4a56-86c6-88c629df80b5" override_flow_index="9999999" grid_rowlayout="['auto', 'auto', 'auto', 'auto']" grid_resize="ResizeGridHeight">
+              <Cell layout_id="plugin_header_cell" layout_guid="36a920a2-b6ce-45f2-845d-ad3247e80d44" row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Grid stylename="grid_container" layout_id="plugin_header_grid" layout_guid="a444f69a-df60-48ca-a46e-b6f94583245e" override_flow_index="9999999" height="16dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['auto', 'auto', 'auto']" grid_resize="ResizeGridHeight">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" height="16px" width="74px" caption="Core Plugin 1" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" height="16px" width="80px" caption="Dependencies" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" height="16px" width="53px" caption="Warnings" />
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                </ChildGadgets>
+              </Cell>
+              <Cell layout_id="plugin_body_cell" layout_guid="b33ad330-5dfa-4b0c-b746-c00b242b61a6" row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                <ChildGadgets>
+                  <Grid stylename="grid_container" layout_id="plugin_body_grid" layout_guid="d870a8fc-8423-40c1-bcda-1c3cf52e09fb" override_flow_index="9999999" grid_rowlayout="['auto', 'auto']" grid_resize="ResizeGridHeight">
+                    <Cell layout_id="plugin_assembly_cell" layout_guid="0651a10a-3da9-4ee2-929a-a1e0d5e60b40" row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Grid stylename="grid_container" layout_id="plugin_assembly_grid" layout_guid="adad48d3-211d-4623-b850-cf55b35cd38a" override_flow_index="9999999" grid_rowlayout="['auto']" grid_columnlayout="['1*', '1*', '1*']" grid_resize="ResizeGridHeight">
+                          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <Label stylename="label" override_flow_index="9999999" height="16px" width="91px" caption="Core Assembly1" />
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <TextBox stylename="text_box" override_flow_index="9999999" text="c://path/assembly1.dll" />
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <Label stylename="label" override_flow_index="9999999" height="16px" width="53px" caption="Warnings" />
+                            </ChildGadgets>
+                          </Cell>
+                        </Grid>
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell layout_id="plugin_assembly_cell_2" layout_guid="48c1b684-0f08-4386-b2e3-68280019ed23" row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Grid stylename="grid_container" layout_id="plugin_assembly_grid" layout_guid="a855de6d-b36a-4dbd-8747-f016ffb2c7ea" override_flow_index="9999999" grid_rowlayout="['auto']" grid_columnlayout="['1*', '1*', '1*']" grid_resize="ResizeGridHeight">
+                          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <Label stylename="label" override_flow_index="9999999" height="16px" width="91px" caption="Core Assembly1" />
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <TextBox stylename="text_box" override_flow_index="9999999" text="c://path/assembly1.dll" />
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <Label stylename="label" override_flow_index="9999999" height="16px" width="53px" caption="Warnings" />
+                            </ChildGadgets>
+                          </Cell>
+                        </Grid>
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                </ChildGadgets>
+              </Cell>
+            </Grid>
+          </ChildGadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="plugin_entry_header" layout_guid="c1c0109f-cecc-4520-b492-4e0d1c89d3a3">
+    <ChildGadgets>
+      <Grid stylename="grid_container" layout_id="plugin_header_grid" layout_guid="e7e8f875-6a99-4db4-b774-9bf42194d12d" override_flow_index="9999999" height="16dpi_px" width="100%" left="0dpi_px" top="0dpi_px" bottom="0dpi_px" grid_rowlayout="['28dpi_px']" grid_columnlayout="['28dpi_px', 'auto', '28dpi_px', '28dpi_px']" grid_resize="ResizeGridHeight">
+        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <StackPanel stylename="stack_panel" layout_id="bundle_colour_column" layout_guid="05bdf5f2-5218-4574-bcab-f350878b76cc" override_flow_index="9999999" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Label stylename="label" layout_id="plugin_name" layout_guid="5c861fa0-ba1f-4ef4-9bda-929c4d2fdcee" override_flow_index="9999999" height="16px" width="74px" right="0dpi_px" caption="Core Plugin 1" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Image stylename="image" layout_id="plugin_dependencies" layout_guid="a6db98a7-85cd-4889-864f-9979d7892b26" override_flow_index="9999999" height="16px" width="80px" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Image stylename="image" layout_id="plugin_warnings" layout_guid="b8763272-a78a-4d46-b61b-00eeef74a45c" override_flow_index="9999999" height="16px" width="53px" />
+          </ChildGadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="bundle_entry_header" layout_guid="586702ad-066c-4da7-a664-6ca2e8c2b2a8">
+    <ChildGadgets>
+      <Grid stylename="grid_container" layout_id="bundle_header_grid" layout_guid="5c76bd2a-6550-4ad8-b14d-136c6bf6eaab" override_flow_index="9999999" width="100%" left="0dpi_px" top="0dpi_px" grid_rowlayout="['28dpi_px']" grid_columnlayout="['220dpi_px', '1*', '28dpi_px', '28dpi_px', '28dpi_px', '28dpi_px']" column_spacing="12dpi_px" grid_resize="ResizeGrid">
+        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Label stylename="label" layout_id="bundle_name" layout_guid="4475e0d8-8674-4703-bdda-4bbcdfd18363" override_flow_index="9999999" height="16px" width="112px" right="1dpi_px" caption="Core Plugins Bundle" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <TextBox stylename="text_box" layout_id="bundle_description" layout_guid="b7a84fe0-3aaa-4de0-9c85-e8a7557de074" override_flow_index="9999999" tooltip="Click to copy" text="c://path/metadata.gmplugin" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Button stylename="button_up" layout_id="bundle_open_metadata" layout_guid="c2cb48b5-fc35-4f85-9c92-1280d8153f1f" override_flow_index="9999999" width="24dpi_px" margin_left="8dpi_px" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Image stylename="image" layout_id="bundle_dependencies" layout_guid="c34ca5af-15bc-4274-88ca-d79244f7b37d" override_flow_index="9999999" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <Image stylename="image" layout_id="bundle_warnings" layout_guid="ec4f1175-e4be-44ed-8345-bd024f5138f1" override_flow_index="9999999" height="16px" width="0px" />
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="5" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <CheckBox stylename="checkbox_stack" layout_id="bundle_load" layout_guid="aada2ca5-5fee-4617-8743-da9e6aa26ac4" override_flow_index="9999999" />
+          </ChildGadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+</Layouts>

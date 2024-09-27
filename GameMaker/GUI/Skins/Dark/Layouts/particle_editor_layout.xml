@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="ParticleEd_Toolbar" layout_guid="2aa28fbb-cd8b-45e8-b2e3-488ce340e127">
+    <StackPanel stylename="toolbar_widget" override_flow_index="9999999" height="32dpi_px" left="12dpi_px" top="10dpi_px" colour="#80FFFFFF" stack_resize="ResizeWidth">
+      <ChildGadgets>
+        <Label stylename="label" override_flow_index="9999999" height="16px" width="34px" left="4px" margin_left="4dpi_px" localise_caption="CanvasItem_Origin" />
+        <Label stylename="label" override_flow_index="9999999" height="16px" width="7px" left="48px" margin_left="10dpi_px" localise_caption="CanvasItem_X" />
+        <NumericTextBox stylename="numeric_text_box" layout_id="origin_x" layout_guid="e5731db1-2f38-4565-8e9b-4f2e6b4132c4" override_flow_index="9999999" width="60dpi_px" left="59px" margin_left="4dpi_px" bind_property="xorigin" has_buttons="True" input_type="Real" />
+        <Label stylename="label" override_flow_index="9999999" height="16px" width="7px" left="129px" margin_left="10dpi_px" localise_caption="CanvasItem_Y" />
+        <NumericTextBox stylename="numeric_text_box" layout_id="origin_y" layout_guid="332abd0e-aad9-4ffe-8506-9ac7aadd2afb" override_flow_index="9999999" width="60dpi_px" left="140px" margin_left="4dpi_px" bind_property="yorigin" has_buttons="True" input_type="Real" />
+        <Label stylename="label" override_flow_index="9999999" height="16px" width="66px" left="220px" margin_left="20dpi_px" localise_caption="PSys_DrawOrder" />
+        <ComboBox stylename="combobox_panel" layout_id="draw_order" layout_guid="4b25e57a-8943-491a-b63a-bee8aa866aa1" override_flow_index="9999999" left="294px" margin_left="8dpi_px" margin_right="4dpi_px" bind_property="drawOrder">
+          <ListBoxItems />
+        </ComboBox>
+        <Button stylename="button_up" layout_id="button_copygml" layout_guid="6432e83d-38dc-42bb-bac2-2020641e5d4a" override_flow_index="9999999" localise_tooltip="ParticleEd_CopyGMLToClipboard" width="24dpi_px" left="422px" margin_left="4dpi_px" margin_right="4dpi_px" icon_flags="Centre" font_icon="[&quot;asset_type_icon_font&quot;, &quot;AT_icon_scripts&quot;]" vector_icon_size="18dpi_px" />
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+  <Layout layout_name="PartEd_SavePreset_Dialog" layout_guid="1eddcc2f-45ba-49f6-9059-187e14d96226">
+    <Window stylename="default_window" override_flow_index="9999999" height="215dpi_px" width="500dpi_px" localise_title="ParticleEd_NewPresetTitle" window_flags="CloseButton, DockingDisabled, DesktopTransferDisabled">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="8dpi_px" right="8dpi_px" grid_rowlayout="['48dpi_px', '24dpi_px', '1*', '28dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" override_flow_index="9999999" height="16px" width="244px" left="0px" localise_caption="ParticleEd_SaveNewPreset" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <TextBox stylename="text_box" layout_id="preset_name" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" override_flow_index="9999999" height="" width="" left="0px" localise_caption="ParticleEd_NewPresetMsg" word_wrap="True" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="RightToLeft">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="button_save" override_flow_index="9999999" width="140dpi_px" right="0px" localise_name="Button_Save" />
+                    <Button stylename="button_up" layout_id="button_cancel" override_flow_index="9999999" width="140dpi_px" right="150px" margin_right="10dpi_px" localise_name="Button_Cancel" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="PartEd_EmittersPanel" layout_guid="6112a112-55d8-4636-9c88-145a4e272577">
+    <Grid stylename="bordered_scrollpanel_dark" override_flow_index="9999999" grid_rowlayout="['24dpi_px', '1*', '28dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" layout_id="snap_controls_container" flow_index="0" />
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ListBox stylename="list_box" layout_id="listbox" layout_guid="19d40916-3b8b-4333-b743-c6bde0ebc722" override_flow_index="9999999">
+            <ListBoxItems />
+          </ListBox>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="animcurve_add_button" layout_id="button_add" layout_guid="c5f169f5-940c-4f74-96ce-e484b3560440" override_flow_index="9999999" localise_tooltip="ParticleEd_TT_AddEmitter" width="24dpi_px" left="4dpi_px" hotkey_name="Insert"/>
+          <Button stylename="animcurve_add_button" layout_id="button_delete" layout_guid="ab249ae5-2db3-43f6-ae38-af4150c2a831" override_flow_index="9999999" localise_tooltip="ParticleEd_TT_DeleteEmitters" width="24dpi_px" right="4dpi_px" font_icon="[&quot;anim_curve_icon_font&quot;, &quot;icon_ac_delete&quot;]" hotkey_name="Delete"/>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+
+  <Layout layout_name ="PartEd_EmitterItem">
+    <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" top="0px" grid_columnlayout="['32dpi_px', '1*', '20dpi_px', '20dpi_px']">
+      <Layout layout_name ="PartEd_EmitterItem_Content"/>
+    </Grid>
+  </Layout>
+
+  <Layout layout_name ="PartEd_EmitterItem_Content">
+    <!-- <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" top="0px" grid_columnlayout="['32dpi_px', '1*', '20dpi_px', '20dpi_px']"> -->
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="image" layout_id="icon" layout_guid="4d1a31a8-9d3d-497e-b23d-709d7969c2f3" override_flow_index="9999999" image_flags="Centre" font_icon="[&quot;particle_editor_icon_font&quot;, &quot;icon_ps_emmiter&quot;]" vector_icon_size="12dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="name_label" layout_guid="f0ee5004-bac9-4c13-82af-a8a494946382" override_flow_index="9999999" height="16px" width="0px" left="0px" bind_property="name" edit_in_place="True" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <CheckBox stylename="visible_checkbox_stack" layout_id="vis_check" layout_guid="95f5b057-da18-488c-ac4d-93ba26c694eb" override_flow_index="9999999" bind_property="enabled" base_style="visible_checkbox" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <CheckBox stylename="lock_checkbox_stack" layout_id="lock_check" layout_guid="3869c1ec-c014-4232-bd0e-35cd836b7356" override_flow_index="9999999" bind_property="locked" base_style="lock_checkbox" />
+        </ChildGadgets>
+      </Cell>
+    <!-- </Grid> -->
+  </Layout>
+
+  <!-- custom inspector asset selector for spawnOnDeath/UpdateId GMPSEmitter - to support GMPreset selection -->
+  <Layout layout_name="Inspector_AssetRef_Particles">
+    <LabeledInspectorPanel>
+      <InspectorAssetRefParticles stylename = "inspector_asset_ref_basic" allow_create_new="False" allow_drag="False" bind_inspector="True">
+        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <ResourceButton stylename="resource_button" layout_id="resource_button" layout_guid="601bad0b-05db-4a24-924d-6a4a69c6ad5e" override_flow_index="9999999" left="4dpi_px" right="0px" />
+          </ChildGadgets>
+        </Cell>
+      </InspectorAssetRefParticles>
+    </LabeledInspectorPanel>
+  </Layout>
+
+</Layouts>

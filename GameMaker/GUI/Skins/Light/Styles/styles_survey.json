@@ -1,0 +1,36 @@
+{
+	"survey_question_title": {
+		"font_size": 13,
+		"colour": "survey_question_title"
+	},
+
+	"survey_question_text": {
+		"font_size": 9,
+		"colour": "survey_question_text"
+	},
+
+	"survey_question_answered": {
+		"colour": "survey_question_answered"
+	},
+
+	"survey_question_unanswered": {
+		"colour": "survey_question_unanswered"
+	},
+
+	"survey_question_category": {
+		"font_size": 11,
+		"colour": "survey_question_category"
+	},
+
+	"question_applicable": {
+		"colour": "survey_question_applicable"
+	},
+
+	"survey_question_not_applicable_category": {
+		"colour": "survey_question_category_not_applicable"
+	},
+
+	"question_not_applicable": {
+		"colour": "survey_question_not_applicable"
+	}
+}

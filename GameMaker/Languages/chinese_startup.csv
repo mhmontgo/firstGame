@@ -1,0 +1,81 @@
+Name,English,Translation,Restrictions,Comment
+_Language,Simplified Chinese,Simplified Chinese,,Language name - in English
+_LanguageNative,Simplified Chinese,简体中文,,Language name in the native language
+_LanguageCode,zh,zh,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
+_GameMaker2016,GameMaker,GameMaker,,IDE title
+Splash_Done,Done.,完成。,,Finished loading
+Splash_Loading,Loading....,载入....,,Generic loading text
+Splash_WaitingNetwork,Checking Network...,正在检查网络...,,Network step
+Splash_LoadingLanguages,Loading Languages...,载入语言...,,Loading the languages prefix
+Splash_LoadingPlugins,Loading Plugins...,载入插件...,,Loading the plugins
+Splash_LoadingPrefs,Loading Preferences...,载入偏好设置...,,Loading the preferences
+Splash_UserLogin,User Login,用户登录,,User Login has been started
+Notifications_Hub,Notification Hub,通知中心,,Notification Hub string
+IDEMenu_File,File,文件,,The File menu item name
+IDEMenu_Edit,Edit,编辑,,The Edit menu item name
+IDEMenu_Build,Build,构建,,"File menu ""Build"""
+IDEMenu_Views,${IDEMenuViews},${IDEMenuViews},,Main menu entry for views
+$win_IDEMenuViews,Windows,窗口,,Windows version of the views menu entry
+$mac_IDEMenuViews,Window,窗口,,Mac version of the views menu entry
+$linux_IDEMenuViews,Windows,窗口,,Windows version of the views menu entry
+IDEMenu_Tools,Tools,工具,,Main menu entry for tools
+IDEMenu_Layouts,Layouts,布局,,Layouts
+IDEMenu_Marketplace,Marketplace,市场,,Main menu entry for marketplace
+IDEMenu_Help,Help,帮助,,Main menu entry for HELP
+IDETooltip_LaptopMode_On,On,开,,On text
+IDETooltip_LaptopMode_Off,Off,关,,Off text
+IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.",在笔记本电脑模式下，您可以通过将鼠标移到某个区域上来进行平移，滚动和缩放\n，同时按住${LaptopLZoomKey}进行缩放，并按住Left Alt进行平移和滚动。\n在启用笔记本电脑模式时，使用${LaptopRHSKeys}进行非鼠标交互。,,IDE toolbar laptop mode description
+IDETooltip_LaptopMode_Title,Laptop Mode ({0}),笔记本电脑模式 ({0}),,IDE toolbar laptop mode title
+StartPage_Title,Start Page,起始页,,Start page title
+IDE_FatalErrorTitle,Fatal Error,严重错误,,Title for the fatal error warning dialog
+IDE_FatalErrorWarning,GameMaker has become unstable.\nPlease save changes and exit.,GameMaker 变得不稳定。\n请保存更改并退出。,,Warn the user they should try saving changes and exit
+IDE_Warning,Warning,警告,,Warning for IDE
+IDE_FolderPermsWarning,GameMaker is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},GameMaker无法访问重要的系统文件夹。\ n请检查首选项中的路径，并验证您的文件夹权限或与系统管理员联系。\ n \ n {0},,File permissions failure on startup
+Button_OK,OK,确定,,ok button
+Button_Yes,Yes,是,,Yes
+Button_No,No,否,,No
+Dialog_CopyToClipboard,Copy to clipboard,复制到剪贴板,,Copy the dialog message to the clipboard
+IDE_VersionInfo,{1} IDE v{0},{1} IDE v{0},,the ide version information string
+IDE_SteamVersionInfo,{1} IDE v{0} Steam,{1} IDE v{0} Steam,,the ide version information string when running from steam
+UpdateDialogDownloadNow,Download now,现在下载,,Update new version dialog - download now button
+UpdateDialogRemindMe,Remind me later,稍后提醒我,,Update new version dialog - remind me later button
+UpdateDialogLabel,New version is available! \nYou are on v{0}\nNew version is {1},新版本可用！\n现在是 v{0}\n新版本是 {1},,Update new version dialog - tell user which version they are on and which version update will take them to
+UpdateDialogReleaseNotes,View Release notes,查看版本说明,,Update new version dialog - view release notes button
+UpdateDialogTitle,New Version,新版本,,Update new version dialog title
+RSS_Download_Exception,Could not reach the RSS feed,无法连接 RSS 源,,A message which is shown when the RSS feed is not accessible
+Splash_CheckingRSS,Checking RSS...,Checking RSS...,,Checking RSS...
+Dialog_Confirm,Confirm,确认,,"Dialog ""confirm"" heading"
+Dialog_DontShowAgain,Don't show this message again,此消息不再显示。,,Message next to checkbox to allow the user to choose not to see this popup in future
+Runtime_Installing_Version,Installing runtime {0},正在安装运行库 {0},,user facing splash screen message for installing runtime
+ImageEditor_SelectAll,Select All,全选,,Image editor select all menu option
+Button_Cancel,Cancel,取消,,cancel button
+TargetSelection_Platform_Test,Test,测试,,the teset platform title in the platform selection list
+TargetSelection_Platform_android,Android,Android,DO NOT TRANSLATE,the android platform title in the platform selection list
+TargetSelection_Platform_HTML5,HTML5,HTML5,DO NOT TRANSLATE,the html5 platform title in the platform selection list
+TargetSelection_Platform_Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,the linux platform title in the platform selection list
+TargetSelection_Platform_operagx,GX.games,GX.games,DO NOT TRANSLATE,the opera gx platform title in the platform selection list
+TargetSelection_Platform_ps4,PlayStation 4,PlayStation 4,DO NOT TRANSLATE,the ps4 platform title in the platform selection list
+TargetSelection_Platform_ps5,PlayStation 5,PlayStation 5,,the ps5 platform title in the platform selection list
+TargetSelection_Platform_switch,Switch,Switch,DO NOT TRANSLATE,Switch
+TargetSelection_Platform_Windows,Windows,Windows,DO NOT TRANSLATE,the windows platform title in the platform selection list
+TargetSelection_Platform_xboxseriesxs,Xbox One & Series X/S,Xbox One & Series X/S,DO NOT TRANSLATE,the Xbox One & Series X/S platform title in the platform selection list
+TargetSelection_Platform_Mac,macOS,macOS,DO NOT TRANSLATE,the mac platform title in the platform selection list
+TargetSelection_Platform_ios,iOS,iOS,DO NOT TRANSLATE,the apple iOS platform title in the platform selection list
+TargetSelection_Platform_tvos,tvOS,tvOS,DO NOT TRANSLATE,the apple tvOS platform title in the platform selection list
+ProgressBar_Install,Installing...,安装中...,,the progress bar caption while installing
+DialogEditor_Error,Error,错误,,dialog editor error box title
+UserLogin_Exception,Exception - {0},异常 - {0},,exception error
+UserLogin_ServerError,Error ({0}) - {1},错误 ({0}) - {1},,server response error
+UserLogin_Retry,Retry,重试,,User Login - Error Retry
+UserLogin_NoRuntime,Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker again.,无法访问运行库源（Runtime Feed）并且未安装本地运行库。请检查您的互联网连接并再次启动GameMaker。,,user login no runtime message
+UserLogin_InstallRuntimeTitle,Install Runtime {0},安装运行时 {0},,install runtime title
+UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,目标驱动器 {0} 仅有 {1} GB可用空间。\ n建议至少 2 GB 的可用空间-请确保在继续操作之前有足够的可用空间。,,runtime free space warning message
+UserLogin_Continue,Continue,继续,,continue label
+UserLogin_MaxDevice,Maximum logins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,超出最大登录数 \n您可以在accounts.yoyogames.com管理您的帐户会话,,User Login Error response 29
+User_OK,OK,确定,,User Login - two step authentication ok button
+runtime_selection,Runtime Selection,运行库选择,,Runtime Selection Window title
+runtime_onstartup_change,Do you want to change your current runtime to the matching IDE version {0}?,是否要将当前 Runtime 更改为匹配的IDE版本{0}？,,Change current runtime to the version matching the IDE
+UserLogin_OfflineError,Unable to take user offline,无法让用户离线,,offline error
+IDETooltip_Notifications,Notifications,通知,,IDE toolbar notifications tooltip
+runtime_dns_ResolvingFailed,DNS resolving has failed,DNS 解析失败,,A title of the warning which is shown when after the IDE failed to resolve an address against an alternative DNS
+runtime_dns_ResolvingFailedMessage,Could not resolve {0} with an alternative DNS. A system DNS has been used,无法采用备用 DNS 解析 {0}。已使用系统 DNS,,Could not use an alternative DNS

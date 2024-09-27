@@ -1,0 +1,271 @@
+﻿{
+  "code_default": {
+    "colour": "code_default",
+    "fontname": "Consolas",
+    "size": 10,
+    "style": "0",
+    "antialias": 0
+  },
+
+  "code_default_mac": {
+    "fontname": "Menlo",
+    "size": 9
+  },
+
+  "code_default_linux": {
+    "fontname": "Noto Mono",
+    "size": 10,
+    "antialias": 0
+  },
+
+  "code_normal_text": {
+    "colour": "code_normal_text",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_keywords": {
+    "colour": "code_keywords",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "1",
+    "antialias": -1
+  },
+
+  "code_values": {
+    "colour": "code_values",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_strings": {
+    "colour": "code_strings",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_comments": {
+    "colour": "code_comments",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_constants": {
+    "colour": "code_constants",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_built_in_variables": {
+    "colour": "code_variables_builtin",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_object_variables": {
+    "colour": "code_variables_object",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_functions": {
+    "colour": "code_functions",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_script_names": {
+    "colour": "code_scripts",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_resource_names": {
+    "colour": "code_resources",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_enums": {
+    "colour": "code_enums",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_enum_entries": {
+    "colour": "code_enums_entries",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_macros": {
+    "colour": "code_macros",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_local_variables": {
+    "colour": "code_variables_local",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_static_variables": {
+    "colour": "code_variables_static",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_global_variables": {
+    "colour": "code_variables_global",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_white_space_text": {
+    "colour": "code_whitespace",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_obsolete_symbols": {
+    "colour": "code_obsolete",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_braces": {
+    "colour": "code_braces",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "1",
+    "antialias": -1
+  },
+
+  "code_line_number_text": {
+    "colour": "code_line_number",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_readonly_line_number_text": {
+    "colour": "code_line_number_readonly",
+    "fontname": "Use Default",
+    "size": -1,
+    "style": "-1",
+    "antialias": -1
+  },
+
+  "code_bookmark_line_number_text": {
+    "colour": "code_line_number_bookmark",
+    "fontname": "Use Default",
+    "size": 8,
+    "style": "-1",
+    "antialias": -1
+  },
+
+
+  "code_colours": {
+    "background": "code_bg",
+    "current_line_colour": "code_current_line",
+    "selection_colour": "code_selection",
+    "highlight_colour": "code_highlight",
+    "debugger_colour": "code_debugger",
+    "error_line_colour": "code_error_line",
+    "selected_line_colour": "code_selected_line",
+    "line_change_colour": "code_change_line",
+    "status_bar_text_selected": "code_status_bar_selected",
+    "status_bar_text_left": "code_status_bar_left",
+    "bracket_match_success": "code_bracket_match_success",
+    "bracket_match_fail": "code_bracket_match_fail",
+    "folded_region": "code_folded_region",
+    "folded_region_tag": "code_folded_region_tag",
+    "tab_lines_colour": "code_tab_lines"
+  },
+
+  "output_default": {
+    "colour": "output_text",
+    "fontname": "Droid Sans Mono",
+    "size": 9,
+    "style": "0",
+    "antialias": 0
+  },
+
+  "search_output_default": {
+    "colour": "output_text",
+    "fontname": "Droid Sans Mono",
+    "size": 9,
+    "style": "0",
+    "antialias": 0
+  },
+
+  "sourcecontrol_output_default": {
+    "colour": "output_text",
+    "fontname": "Droid Sans Mono",
+    "size": 9,
+    "style": "0",
+    "antialias": 0
+  },
+
+  "breakpoints_output_default": {
+    "colour": "output_text",
+    "fontname": "Droid Sans Mono",
+    "size": 9,
+    "style": "0",
+    "antialias": 0
+  },
+
+  "compile_errors_default": {
+    "colour": "output_text",
+    "fontname": "Droid Sans Mono",
+    "size": 9,
+    "style": "0",
+    "antialias": 0
+  },
+
+  "syntax_errors_default": {
+    "colour": "output_text",
+    "fontname": "Droid Sans Mono",
+    "size": 9,
+    "style": "0",
+    "antialias": 0
+  }
+}

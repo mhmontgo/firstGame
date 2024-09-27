@@ -1,0 +1,40 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdLayer",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "layername",
+      "DefaultValue": "\"Layer\"",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdVariable",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "var",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdVar_x|GMStdVar_y|GMStdVar_columns|GMStdVar_rows|GMStdVar_tilewidth|GMStdVar_tileheight|GMStdVar_tileset|GMStdVar_frame|GMStdVar_tilemask|GMStdVar_tileglobalmask"
+    }
+  },
+  {
+    "relative": false,
+    "temp": true,
+    "caption": "GMStdTarget",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "target",
+      "DefaultValue": "variable",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  }
+]

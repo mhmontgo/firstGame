@@ -1,0 +1,40 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdBuffer",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "buffer",
+      "DefaultValue": "buffer",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdSeek",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "seek",
+      "DefaultValue": 1,
+      "Separator": "|",
+      "MenuOptions": "GMStdStart|GMStdRelative|GMStdEnd"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdOffset",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "pos",
+      "DefaultValue": "0",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

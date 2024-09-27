@@ -1,0 +1,45 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdGamepad",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "gp",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdTrigger",
+    "gadget": "YoYo Games.DnD_MenuExpressionInput",
+    "gadget_properties": {
+      "TagName": "trigger",
+      "DefaultValue": "gp_shoulderlb",
+      "Separator": "|",
+      "MenuOptions": "GMStdLeftTrigger|GMStdRightTrigger",
+      "Values": "gp_shoulderlb|gp_shoulderrb",
+      "MenuLayout": null,
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": true,
+    "caption": "GMStdTarget",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "var",
+      "DefaultValue": "variable",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  }
+]

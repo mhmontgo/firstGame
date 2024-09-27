@@ -1,0 +1,21 @@
+{
+	"sprite_editor_treeview": {
+		"colour": "treeview_bg"
+	},
+
+	"collision_mask_style": {
+		"mask_colour": "sprite_editor_collision_mask",
+		"anchor_colour": "sprite_editor_collision_mask_anchor",
+		"active_anchor_colour": "sprite_editor_collision_mask_anchor_mouseover",
+		"selected_anchor_colour": "sprite_editor_collision_mask_anchor_selected"
+	},
+
+	"origin_marker_style": {
+		"marker_colour": "sprite_editor_origin",
+		"outline_colour": "sprite_editor_origin_outofbounds"
+	},
+
+	"slider_sprite_tolerance": {
+		"colour": "slider_bg"
+	}
+}

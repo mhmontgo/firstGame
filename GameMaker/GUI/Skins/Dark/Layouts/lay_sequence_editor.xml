@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="SequenceEditor" layout_guid="591764be-0d71-4d8a-9dd5-3b2def372cb7">
+    <Window stylename="sequence_editor_window" left="26px" top="54px" localise_title="SequenceEditor_Title" window_flags="Default">
+      <Client>
+        <ChildGadgets>
+          <Layout layout_name="SequenceEditor_Layout" layout_guid="0db2ba78-3a09-4d7e-bcb0-9453c6738442" />
+        </ChildGadgets>
+      </Client>
+    </Window>
+  </Layout>
+  <Layout layout_name="SequenceEditor_TransformGizmoToggle" layout_guid="fa2e5894-25d5-4146-ad9a-71d8595db59b">
+    <StackPanel stylename="stack_panel" layout_id="panel" layout_guid="2896e74c-cd99-42de-b27b-6d36207d876b" override_flow_index="9999999" height="100dpi_px" width="200dpi_px" left="0px" top="0px" stack_order="TopToBottom" stack_resize="ResizeHeight" />
+  </Layout>
+  <Layout layout_name="ShowValueDialog_PColor" layout_guid="14ffd0c0-1438-4ff7-9d16-54c60b999809">
+    <Grid stylename="grid_container" grid_rowlayout="['auto', '1*']" row_spacing="6dpi_px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" left="0px" stack_resize="ResizeAll">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="46px" left="8px" margin_left="8dpi_px" localise_caption="ValueDialog_Channel" />
+              <NumericTextBox stylename="numeric_text_box" layout_id="textbox_channel" layout_guid="50961494-ee96-4cae-93e2-c938005575f0" width="64dpi_px" left="60px" margin_left="6dpi_px" has_buttons="True" max="9999" input_type="Real" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" left="5dpi_px" right="0px">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="31px" left="0px" top="0px" margin_top="6dpi_px" margin_bottom="2dpi_px" localise_caption="ValueDialog_Value" />
+              <ColourSelectButton stylename="colour_select_button_up" layout_id="color_value" layout_guid="a7cc48b3-c66b-4e23-8249-412678bb44dd" left="47px" top="1dpi_px" margin_left="16dpi_px" margin_top="4dpi_px" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="EventPinDialog" layout_guid="91e72135-7126-4393-a3ae-3d316d70f4d1">
+    <Window stylename="seq_borderless_window" override_flow_index="9999999" height="120dpi_px" width="418dpi_px" left="26px" top="54px" localise_title="WindowTitle_RaiseEvents" accept_button_id="btn_ok">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['0.6*', '1*']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" width="95%" grid_columnlayout="['1*', 'auto']" column_spacing="5dpi_px">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <TextBox stylename="text_box" layout_id="textbox_events" layout_guid="bf650741-23f9-48d4-9728-eb0c5d645951" override_flow_index="9999999" localise_default_caption="SeqMessages_TypeMessageHere" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="delete_button" layout_guid="2ca0a216-fce2-4e6b-91fe-c020b073e121" override_flow_index="9999999" localise_tooltip="Seq_DeleteEventpinTooltip" width="24dpi_px" icon_flags="Centre" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_trackpanel_deletetrack&quot;]" vector_icon_size="13dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['0.6*', '0.4*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" override_flow_index="9999999" width="90%" stack_order="TopToBottom">
+                        <ChildGadgets>
+                          <Label stylename="label" override_flow_index="9999999" height="16px" width="14px" left="0px" top="0px" localise_caption="at:" />
+                          <StackPanel stylename="stack_panel" override_flow_index="9999999" height="30dpi_px" width="100%" top="16px">
+                            <ChildGadgets>
+                              <NumericTextBox stylename="numeric_text_box" layout_id="frame_label" layout_guid="1aeb1ac7-8493-4968-97e4-c7147048d91e" override_flow_index="9999999" width="86dpi_px" left="0px" top="16px" />
+                              <Label stylename="label" layout_id="desc_label" layout_guid="47bd792c-dd9e-4e5f-b2db-09ef04751dc8" override_flow_index="9999999" height="16px" width="36px" left="92px" margin_left="6dpi_px" localise_caption="SeqMoments_Frames" />
+                            </ChildGadgets>
+                          </StackPanel>
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="btn_ok" layout_guid="353e7d9a-bf39-43f2-9480-8b2bc9abe666" override_flow_index="9999999" height="24px" width="120dpi_px" localise_name="Button_OK" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="SeqBorderlessWindowFrame" layout_guid="6720af61-6a79-4649-8683-355ad9e69a6e" />
+    </Window>
+  </Layout>
+  <Layout layout_name="ShowValueDialog_PReal" layout_guid="ea0990aa-e81d-4f82-903d-22094f467808">
+    <Grid stylename="grid_container" grid_rowlayout="['auto', '1*']" row_spacing="6dpi_px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stack_order="LeftToRight" stack_resize="ResizeAll" left="0px">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="46px" left="214px" margin_left="8dpi_px" localise_caption="ValueDialog_Channel" />
+              <NumericTextBox stylename="numeric_text_box" layout_id="textbox_channel" layout_guid="8ee4f0ea-c74b-495a-9fb6-09a0bbfde632" width="64dpi_px" left="266px" margin_left="6dpi_px" has_buttons="True" max="9999" input_type="Real" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" grid_columnlayout="['1*', '1*', '0*']" column_spacing="6dpi_px">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" stack_order="TopToBottom">
+                  <ChildGadgets>
+                    <RadioButton stylename="radiobutton_stack" layout_id="radio_number" layout_guid="7b5507fc-55f8-4c2a-a5ea-b1a6f68cb3d4" left="0px" top="0px" localise_name="ValueDialog_RealValue" />
+                    <ScrollPanel stylename="bordered_scrollpanel" layout_id="panel_number_toggle" layout_guid="2a843a95-3ce3-42c3-a1f4-aa7a100120b1" top="21px">
+                      <ChildGadgets>
+                        <Image stylename="disable_mouse_on_deactivate" height="116px" width="170px" right="-24dpi_px" bottom="-10dpi_px" image_flags="Centre, KeepAspectRatio, Resize" image="Alice\valuedialog_number.png" />
+                        <StackPanel stylename="disable_mouse_on_deactivate" left="6dpi_px" right="6dpi_px" bottom="0dpi_px" stack_order="TopToBottom">
+                          <ChildGadgets>
+                            <Label stylename="label" height="16px" width="31px" left="0px" top="6px" margin_top="6dpi_px" margin_bottom="2dpi_px" localise_caption="ValueDialog_Value" />
+                            <DnDExpressionInput stylename="disable_mouse_on_deactivate" layout_id="number_input" layout_guid="107e0234-8aa3-4fa0-a1f8-433cdbcc9c59" top="24px" default_value="0" />
+                          </ChildGadgets>
+                        </StackPanel>
+                      </ChildGadgets>
+                    </ScrollPanel>
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" stack_order="TopToBottom">
+                  <ChildGadgets>
+                    <RadioButton stylename="radiobutton_stack" layout_id="radio_animcurve" layout_guid="1065e2d7-8aea-42bb-9159-0cab37a1123b" left="0px" top="0px" localise_name="ValueDialog_AnimCurve" />
+                    <ScrollPanel stylename="bordered_scrollpanel" layout_id="panel_animcurve_toggle" layout_guid="1484526b-ad81-4cfa-b864-9ee420af7a00" top="21px">
+                      <ChildGadgets>
+                        <StackPanel stylename="disable_mouse_on_deactivate" left="6dpi_px" right="6dpi_px" top="0dpi_px" bottom="0px" stack_order="TopToBottom">
+                          <ChildGadgets>
+                            <Label stylename="label" height="16px" width="52px" left="0px" top="6px" margin_top="6dpi_px" margin_bottom="2dpi_px" localise_caption="ValueDialog_Resource" />
+                            <DnDResourceSelection stylename="disable_mouse_on_deactivate" layout_id="resource_input" layout_guid="74929d9e-780d-4e0f-9dab-a65d8f8d2eee" width="" left="0px" right="0dpi_px" top="24px" resource_filter="AnimCurve" allow_add_new="True" />
+                          </ChildGadgets>
+                        </StackPanel>
+                        <ScrollPanel stylename="disable_mouse_on_deactivate" layout_id="panel_animcurve" layout_guid="21ff308d-e920-43e7-acf9-3e248c8b2099" left="6dpi_px" right="6dpi_px" top="56dpi_px" bottom="6dpi_px" margin_top="6dpi_px" margin_bottom="6dpi_px" />
+                      </ChildGadgets>
+                    </ScrollPanel>
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" stack_order="TopToBottom">
+                  <ChildGadgets>
+                    <RadioButton stylename="radiobutton_stack" layout_id="radio_embed" layout_guid="69850c38-7b08-478c-a09d-7f35468f348a" left="0px" top="0px" localise_name="ValueDialog_EmbedAnimCurve" />
+                    <ScrollPanel stylename="bordered_scrollpanel" layout_id="panel_embed_toggle" layout_guid="46653386-6073-4bba-a0d9-20f0daad5bad" top="21px">
+                      <ChildGadgets>
+                        <Label stylename="label" height="16px" width="118px" left="6dpi_px" top="6dpi_px" localise_caption="ValueDialog_EditEmbedCurve" />
+                        <ScrollPanel stylename="disable_mouse_on_deactivate" layout_id="panel_embed_animcurve" layout_guid="e8d4d02b-87d3-45fb-b635-11aafce7cbac" height="" left="6dpi_px" right="6dpi_px" top="26dpi_px" bottom="6dpi_px" />
+                      </ChildGadgets>
+                    </ScrollPanel>
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="SequenceEditor_Layout" layout_guid="0db2ba78-3a09-4d7e-bcb0-9453c6738442">
+    <StackPanel stylename="grid_container_framed" layout_id="design_view" layout_guid="0921f50a-b486-4d09-9f6d-20a1557f4354" override_flow_index="9999999" height="100%" width="100%" stack_resize="ResizeAll" help_tag="sequences_editor" />
+  </Layout>
+  <Layout layout_name="ShowValueDialog" layout_guid="0ff407e9-9083-4751-9e13-fccb65e21073">
+    <Window stylename="default_window" height="292dpi_px" width="600dpi_px" left="26px" top="54px" localise_title="WindowTitle_NewKeyValue" accept_button_id="btn_ok">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto']" row_spacing="4dpi_px">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <TabControl stylename="sequence_valuedialog_tabcontrol" layout_id="tabcontrol" layout_guid="6a090032-ec4f-4e35-bc80-17fa688d5106" tab_flags="AddButton, CloseButton, InsertBeforeAddButton, DragEnabled">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <Gadgets>
+                      <Grid stylename="tab_container" layout_id="tab_list" layout_guid="cc01c09c-4a9b-4389-b37b-ee45f440d0bc" grid_columnlayout="['auto', '30px']">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <Gadgets>
+                            <TabItem stylename="transparent_tab_item" tooltip="Tab 1" height="22px" name="Tab 1" icon_flags="Stretch, Centre, KeepAspectRatio">
+                              <ContextMenu stylename="context_menu">
+                                <MenuEntry stylename="menu_entry" layout_id="entry0" layout_guid="4e399ba8-d029-4ec5-a59f-585da28ca903" localise_name="CMenu_CloseAllButThis" />
+                              </ContextMenu>
+                              <Client />
+                            </TabItem>
+                          </Gadgets>
+                        </Cell>
+                        <Cell row="0" column="1" stylename="tab_container_panel" flow_index="0">
+                          <Gadgets>
+                            <Button stylename="add_tab_button_up" layout_id="add_tab" layout_guid="9baa6dac-bb59-433f-8f8d-588778ff10f5" name="+" />
+                          </Gadgets>
+                        </Cell>
+                      </Grid>
+                    </Gadgets>
+                  </Cell>
+                </TabControl>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" grid_rowlayout="['auto']" grid_columnlayout="['1*', 'auto']" grid_resize="ResizeGrid">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" left="0px" stack_resize="ResizeAll">
+                        <ChildGadgets>
+                          <Label stylename="label" height="16px" width="20px" left="0px" localise_caption="ValueDialog_Key" />
+                          <NumericTextBox stylename="numeric_text_box" layout_id="textbox_key" layout_guid="32f82650-9701-4c17-a5f5-1b4097732fb1" width="64dpi_px" left="26px" margin_left="6dpi_px" has_buttons="True" input_type="Real" />
+                          <Label stylename="label" height="16px" width="38px" left="98px" margin_left="8dpi_px" localise_caption="ValueDialog_Length" />
+                          <NumericTextBox stylename="numeric_text_box" layout_id="textbox_length" layout_guid="f5b18bf2-a107-444c-989a-bd80448ad9ab" width="64dpi_px" left="142px" margin_left="6dpi_px" has_buttons="True" max="999999" input_type="Real" />
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" right="0px" bottom="0px" stack_order="RightToLeft" stack_resize="ResizeAll">
+                        <ChildGadgets>
+                          <Button stylename="button_up" layout_id="btn_cancel" layout_guid="3cca8bd2-74d2-44c1-bf3c-73d74bb8c3a0" height="24px" width="80dpi_px" right="0px" margin_left="6dpi_px" localise_name="Button_Cancel" />
+                          <Button stylename="button_up" layout_id="btn_ok" layout_guid="7e1d8735-0ae8-4f78-9970-8afbe7ec1cdb" height="24px" width="80dpi_px" right="86px" localise_name="Button_OK" />
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="TrackHierarchy" layout_guid="76c45148-f917-477f-9d18-d6b02e2bb705">
+    <ChildGadgets>
+      <Grid stylename="grid_container" layout_id="hierarchy_item_grid" layout_guid="9b5c3207-8c17-4a4b-9623-b9ddd45c1626" override_flow_index="9999999" left="0px" grid_columnlayout="['auto', '1*', 'auto', 'auto', 'auto']" grid_resize="ResizeGridHeight">
+        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <StackPanel stylename="dope_sheet_track_hierarchy_keynav_container" layout_id="keynav_container" layout_guid="f6d41381-e8d7-4a6f-9e5f-a8762386d333" override_flow_index="9999999" stack_resize="ResizeAll">
+              <ChildGadgets>
+                <Button stylename="dope_sheet_track_hierarchy_keynav_prev" layout_id="keynav_prev" layout_guid="f96810cf-6e10-49cf-b30d-5d2669242933" override_flow_index="9999999" localise_tooltip="SequenceHierarchy_Tooltip_KeyNavPrev" left="0px" />
+                <Button stylename="dope_sheet_track_hierarchy_keynav_icon" layout_id="keynav_icon" layout_guid="5e73cc44-e8ac-4105-a85d-362c6673fbee" override_flow_index="9999999" localise_tooltip="SequenceHierarchy_Tooltip_KeyToggleOn" left="15px" />
+                <Button stylename="dope_sheet_track_hierarchy_keynav_next" layout_id="keynav_next" layout_guid="579bbb6d-4ed3-4567-b60a-c724e2ffac5b" override_flow_index="9999999" localise_tooltip="SequenceHierarchy_Tooltip_KeyNavNext" left="31px" />
+              </ChildGadgets>
+            </StackPanel>
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <StackPanel stylename="stack_panel" layout_id="track_label_container" layout_guid="5aa977dc-d78d-4a6b-adac-c41fa4bb8388" override_flow_index="9999999" height="16dpi_px" left="0dpi_px" stack_resize="ResizeWidth">
+              <ChildGadgets>
+                <Image stylename="image" layout_id="image_resource_icon" layout_guid="1f7fcb2b-1474-4c14-b1b4-1a8046d5231f" override_flow_index="9999999" width="16dpi_px" left="0px" image_flags="Stretch, KeepAspectRatio" />
+                <Label stylename="sequence_trackpanel_displayname" layout_id="label_displayname" layout_guid="f31e55b8-2c41-45be-b293-56db72e350c1" override_flow_index="9999999" height="22px" width="0px" left="30px" margin_left="4dpi_px" bind_property="displayName" allow_bound_localisation="True" />
+                <Label stylename="sequence_trackpanel_modified_asterisk" layout_id="label_edited" layout_guid="87f8b2b8-5884-477d-a38e-d5e6344bf0bc" override_flow_index="9999999" height="25px" width="10px" left="36px" margin_left="4dpi_px" caption="*" />
+              </ChildGadgets>
+            </StackPanel>
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <StackPanel stylename="dope_sheet_track_hierarchy_keyeditor_container" layout_id="keyeditor_container" layout_guid="fa188ad9-ac0a-43f1-b795-5205a15dab17" override_flow_index="9999999" left="0dpi_px" stack_resize="ResizeAll">
+              <ChildGadgets>
+                <ToggleButton stylename="button_up" layout_id="btn_keyeditor_link" layout_guid="b200b4d4-e0bd-40e4-9c0c-69a2c92ed466" override_flow_index="9999999" localise_tooltip="SequenceHierarchy_Tooltip_KeyEditorLink" height="14dpi_px" width="18dpi_px" left="0px" />
+                <StackPanel stylename="stack_panel" layout_id="keyeditor_channel_container" layout_guid="9d957d94-fa10-4136-a46c-dca0de8cbd00" override_flow_index="9999999" left="27px" stack_resize="ResizeAll" />
+                <Label stylename="dope_sheet_track_hierarchy_text_units" layout_id="label_keyeditor_units" layout_guid="28d8bc50-e0eb-41df-832a-7c56955be4b4" override_flow_index="9999999" height="14px" width="16px" left="27px" caption="px" auto_size="False" />
+              </ChildGadgets>
+            </StackPanel>
+            <StackPanel stylename="stack_panel" layout_id="parameter_menu_container" layout_guid="4e23bee8-20a8-4acf-9449-e246b1055c02" override_flow_index="9999999" height="9dpi_px" left="0px" width="20dpi_px">
+              <ChildGadgets>
+                <Button stylename="dope_sheet_track_hierarchy_btn_add_param" layout_id="btn_add_param" layout_guid="915fe0ba-9330-416c-ad16-99b89ad04ac0" override_flow_index="9999999" localise_tooltip="SequenceHierarchy_Tooltip_AddParameter" margin_left="4dpi_px" />
+              </ChildGadgets>
+            </StackPanel>
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <StackPanel stylename="stack_panel" layout_id="track_modifier_container" layout_guid="11449acd-a5bb-4e81-afff-a4edfab426bc" override_flow_index="9999999" right="0px" stack_resize="ResizeAll">
+              <ChildGadgets>
+                <ToggleButton stylename="dope_sheet_track_hierarchy_btn_visible" layout_id="btn_track_visible" layout_guid="a1fba8d7-16d5-48b9-9ac9-d6fe09ddd0a3" override_flow_index="9999999" localise_tooltip="SequenceHierarchy_Tooltip_ToggleVisibility" left="0px" pressed="True" />
+                <ToggleButton stylename="dope_sheet_track_hierarchy_btn_lock" layout_id="btn_track_lock" layout_guid="43b1553f-714d-4d69-86d2-b33734dff2fb" override_flow_index="9999999" localise_tooltip="SequenceHierarchy_Tooltip_ToggleLocked" left="40px" />
+              </ChildGadgets>
+            </StackPanel>
+          </ChildGadgets>
+        </Cell>
+        <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <StackPanel stylename="stack_panel" layout_id="track_colour_container" layout_guid="4e5b1f93-ae85-4a18-9aea-2d625e35ebe6" override_flow_index="9999999" stack_resize="ResizeAll">
+              <ChildGadgets>
+                <Button stylename="sequence_trackpanel_btn_colour" layout_id="btn_track_colour" layout_guid="7c7a978d-abc2-451b-9627-1a458629e6a3" override_flow_index="9999999" localise_tooltip="SequenceHierarchy_Tooltip_ChangeColour" height="100%" left="0px" />
+              </ChildGadgets>
+            </StackPanel>
+          </ChildGadgets>
+        </Cell>
+      </Grid>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="SequenceEditor_GizmoToggle" layout_guid="6d3ca9e6-7ff4-4b35-a0e7-e8344f514561">
+    <ScrollPanel stylename="default_scrollpanel" layout_id="panel" layout_guid="6832544c-bb49-4e68-aeae-717b2c73e779" height="21px" left="0px" top="0px" scrollpanel_flags="ResizeHeight">
+      <ChildGadgets>
+        <CheckBox stylename="checkbox_stack" layout_id="toggle" layout_guid="8741da61-97bf-4415-8234-28d510ae5772" left="2px" top="0px" margin_left="2px" margin_right="2px" margin_top="2px" margin_bottom="2px" />
+        <Image stylename="image" layout_id="icon" layout_guid="e29ae9f8-33cd-4d64-84c6-11c15cfcfe12" height="16dpi_px" width="16dpi_px" top="0px" right="2px" margin_left="2px" margin_right="2px" margin_top="2px" margin_bottom="2px" image_flags="Centre, KeepAspectRatio, Downscale" />
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="TrackTagButton" layout_guid="8915d19b-d5ad-4d1a-b3c8-766974861811">
+    <ToggleButton stylename="button_up" width="24dpi_px" left="0px" top="0px" margin_left="2dpi_px" margin_top="2dpi_px" icon_flags="Stretch, Centre, KeepAspectRatio" />
+  </Layout>
+  <Layout layout_name="SequenceEditor_TransformGizmoToggleEntry" layout_guid="6fda9d02-d003-43a9-9efe-ae38a46cc703">
+    <ScrollPanel stylename="default_scrollpanel" layout_id="gizmo_entry" layout_guid="88982431-25cb-48f0-8cf4-a784c58555d7" override_flow_index="9999999" height="21dpi_px" top="0px" scrollpanel_flags="None">
+      <ChildGadgets>
+        <CheckBox stylename="checkbox_stack" layout_id="gizmo_checkbox" layout_guid="95fb5e0d-719d-47da-8a0a-908276d59551" override_flow_index="9999999" left="0px" />
+        <Image stylename="canvas_toolbox_gizmo_image" layout_id="gizmo_image" layout_guid="ef48fe46-ddd5-402c-a535-7a5b72977c8e" override_flow_index="9999999" height="16dpi_px" width="16dpi_px" right="0dpi_px" />
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="ShowValueDialog_RAudio" layout_guid="b9bfac1e-af8f-40fb-ba8a-0e17c937a51d">
+    <Grid stylename="grid_container" grid_rowlayout="['auto', '1*']" row_spacing="6dpi_px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stack_order="LeftToRight" stack_resize="ResizeAll" left="0px">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="46px" left="214px" margin_left="8dpi_px" localise_caption="ValueDialog_Channel" />
+              <NumericTextBox stylename="numeric_text_box" layout_id="textbox_channel" layout_guid="8ee4f0ea-c74b-495a-9fb6-09a0bbfde632" width="64dpi_px" left="266px" margin_left="6dpi_px" has_buttons="True" max="9999" input_type="Real" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" grid_columnlayout="['1*', '1*']" column_spacing="6dpi_px">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" stack_order="TopToBottom">
+                  <ChildGadgets>
+                    <RadioButton stylename="radiobutton_stack" layout_id="radio_sound" layout_guid="1065e2d7-8aea-42bb-9159-0cab37a1123b" left="0px" top="0px" localise_name="ValueDialog_SoundResource" />
+                    <ScrollPanel stylename="bordered_scrollpanel" layout_id="panel_sound_toggle" layout_guid="1484526b-ad81-4cfa-b864-9ee420af7a00" top="21px">
+                      <ChildGadgets>
+                        <Image stylename="disable_mouse_on_deactivate" height="58px" width="68px" left="-6dpi_px" bottom="-6dpi_px" colour="#51FFC814" image_flags="Centre, KeepAspectRatio, Resize" image="Alice\valuedialog_sound.png" />
+                        <StackPanel stylename="disable_mouse_on_deactivate" left="6dpi_px" right="6dpi_px" top="0dpi_px" bottom="0px" stack_order="TopToBottom">
+                          <ChildGadgets>
+                            <Label stylename="label" height="16px" width="52px" left="0px" top="6px" margin_top="6dpi_px" margin_bottom="2dpi_px" localise_caption="ValueDialog_Resource" />
+                            <DnDResourceSelection stylename="disable_mouse_on_deactivate" layout_id="sound_input" layout_guid="74929d9e-780d-4e0f-9dab-a65d8f8d2eee" width="" left="0px" right="0dpi_px" top="24px" resource_filter="Sound" allow_add_new="True" />
+                          </ChildGadgets>
+                        </StackPanel>
+                      </ChildGadgets>
+                    </ScrollPanel>
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" stack_order="TopToBottom">
+                  <ChildGadgets>
+                    <RadioButton stylename="radiobutton_stack" layout_id="radio_emitter" layout_guid="1065e2d7-8aea-42bb-9159-0cab37a1123b" left="0px" top="0px" localise_name="ValueDialog_EmitterResource" />
+                    <ScrollPanel stylename="bordered_scrollpanel" layout_id="panel_emitter_toggle" layout_guid="1484526b-ad81-4cfa-b864-9ee420af7a00" top="21px">
+                      <ChildGadgets>
+                        <Image stylename="disable_mouse_on_deactivate" height="59px" width="58px" left="-6dpi_px" bottom="-6dpi_px" colour="#51FF75A0" image_flags="Centre, KeepAspectRatio, Resize" image="Alice\valuedialog_emitter.png" />
+                        <StackPanel stylename="disable_mouse_on_deactivate" left="6dpi_px" right="6dpi_px" top="0dpi_px" bottom="0px" stack_order="TopToBottom">
+                          <ChildGadgets>
+                            <Label stylename="label" height="16px" width="52px" left="0px" top="6px" margin_top="6dpi_px" margin_bottom="2dpi_px" localise_caption="ValueDialog_Resource" />
+                            <DnDResourceSelection stylename="disable_mouse_on_deactivate" layout_id="emitter_input" layout_guid="74929d9e-780d-4e0f-9dab-a65d8f8d2eee" width="" left="0px" right="0dpi_px" top="24px" resource_filter="AudioEmitter" allow_add_new="True" />
+                          </ChildGadgets>
+                        </StackPanel>
+                      </ChildGadgets>
+                    </ScrollPanel>
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="ShowValueDialog_RGraphic" layout_guid="a7a8e1a7-f627-43d1-af1b-2819b6fb734f">
+    <Grid stylename="grid_container" grid_rowlayout="['auto', '1*']" row_spacing="6dpi_px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stack_order="LeftToRight" stack_resize="ResizeAll" left="0px">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="46px" left="214px" margin_left="8dpi_px" localise_caption="ValueDialog_Channel" />
+              <NumericTextBox stylename="numeric_text_box" layout_id="textbox_channel" layout_guid="8ee4f0ea-c74b-495a-9fb6-09a0bbfde632" width="64dpi_px" left="266px" margin_left="6dpi_px" has_buttons="True" max="9999" input_type="Real" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" stack_order="TopToBottom">
+            <ChildGadgets>
+              <ScrollPanel stylename="default_scrollpanel" top="0px">
+                <ChildGadgets>
+                  <StackPanel stylename="disable_mouse_on_deactivate" left="6dpi_px" right="6dpi_px" top="0dpi_px" bottom="0px" stack_order="TopToBottom">
+                    <ChildGadgets>
+                      <Label stylename="label" height="16px" width="52px" left="0px" top="6px" margin_top="6dpi_px" margin_bottom="2dpi_px" localise_caption="ValueDialog_Resource" />
+                      <DnDResourceSelection stylename="disable_mouse_on_deactivate" layout_id="resource_input" layout_guid="61a1e4d4-4347-41a5-b6d7-82113697be89" width="" left="0px" right="0dpi_px" top="24px" resource_filter="Sprite" allow_add_new="True" />
+                    </ChildGadgets>
+                  </StackPanel>
+                  <ScrollPanel stylename="disable_mouse_on_deactivate" layout_id="panel_gallery" layout_guid="97c17e8e-467a-4b02-8b2f-623df27b1597" left="6dpi_px" right="6dpi_px" top="56dpi_px" bottom="6dpi_px" margin_top="6dpi_px" margin_bottom="6dpi_px" />
+                </ChildGadgets>
+              </ScrollPanel>
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="SequenceEditor_Toolbar" layout_guid="f7caa0a2-a9f1-40ed-be01-089a90a5c498">
+    <StackPanel stylename="stack_panel">
+      <ChildGadgets>
+        <ToggleButton stylename="canvas_toolbar_flat_button_toolbar_left" layout_id="btn_design" layout_guid="b7ce0fb1-6868-4f65-aaae-4b11c3f344d8" left="0px" localise_name="SequenceEditor_Toolbar_Design" />
+        <ToggleButton stylename="canvas_toolbar_flat_button_toolbar_middle" layout_id="btn_code" layout_guid="17ed2d9f-fcf1-45a7-b632-d6fd910f3496" left="70px" localise_name="SequenceEditor_Toolbar_Code" />
+        <ToggleButton stylename="canvas_toolbar_flat_button_toolbar_right" layout_id="btn_split" layout_guid="1b793d8e-f57a-4d55-81ca-c29bb0125663" left="131px" localise_name="SequenceEditor_Toolbar_Split" />
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+  <Layout layout_name="ShowValueDialog_PString" layout_guid="064a7b75-27b4-4353-9c71-ce6145aa3ed8">
+    <Grid stylename="grid_container" grid_rowlayout="['auto', '1*']" row_spacing="6dpi_px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" left="0px" stack_resize="ResizeAll">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="46px" left="8px" margin_left="8dpi_px" localise_caption="ValueDialog_Channel" />
+              <NumericTextBox stylename="numeric_text_box" layout_id="textbox_channel" layout_guid="24bfa1b5-1e90-4e6b-8f05-7a3ef5f49d7c" width="64dpi_px" left="60px" margin_left="6dpi_px" has_buttons="True" max="9999" input_type="Real" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" height="16px" width="31px" left="0px" top="0px" margin_top="6dpi_px" margin_bottom="2dpi_px" localise_caption="ValueDialog_Value" />
+          <MultiLineTextBox stylename="multiline_text_box" layout_id="textbox_value" layout_guid="48a1b284-1888-46a3-8a06-a6472553257f" height="" width="100%" left="2dpi_px" right="2dpi_px" top="24dpi_px" bottom="2dpi_px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="TrackTagsList" layout_guid="9aa2ad93-95f6-4c67-a192-26c2454d8cf0">
+    <Grid stylename="grid_container" left="4dpi_px" right="4dpi_px" top="4dpi_px" bottom="4dpi_px" grid_rowlayout="['1*', 'auto']" row_spacing="16dpi_px" mouse_events="True">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" layout_id="panel" layout_guid="fbfcf141-c35e-46c5-90b9-b8b076f77d76" left="0px" top="0px" stack_resize="ResizeAll" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" right="0px" bottom="4dpi_px" margin_top="8dpi_px" stack_order="LeftToRight" stack_resize="ResizeAll">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="btn_add" layout_guid="752e369d-5eed-41fc-be55-ae0e926d408b" localise_tooltip="Sequence_AddTagTooltip" width="24dpi_px" right="0px" margin_right="4dpi_px" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Buttons\icon_IDE_add.png" />
+              <Button stylename="button_up" layout_id="btn_remove" layout_guid="409c960c-74b8-408e-ab0a-da2643c57c44" localise_tooltip="Sequence_RemoveTagsTooltip" width="24dpi_px" right="28px" margin_right="4dpi_px" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Buttons\icon_IDE_remove.png" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="ShowValueDialog_PBool" layout_guid="274f9be7-8fa7-42e8-b75e-b4f07136608e">
+    <Grid stylename="grid_container" grid_rowlayout="['auto', '1*']" row_spacing="6dpi_px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" left="0px" stack_resize="ResizeAll">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="46px" left="8px" margin_left="8dpi_px" localise_caption="ValueDialog_Channel" />
+              <NumericTextBox stylename="numeric_text_box" layout_id="textbox_channel" layout_guid="1f3f1885-a3eb-401e-b6a0-583c50951ed4" width="64dpi_px" left="60px" margin_left="6dpi_px" has_buttons="True" max="9999" input_type="Real" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" stack_order="TopToBottom">
+            <ChildGadgets>
+              <ScrollPanel stylename="default_scrollpanel" top="0px">
+                <ChildGadgets>
+                  <Image stylename="disable_mouse_on_deactivate" height="116px" width="170px" right="0px" bottom="0px" image_flags="Centre, KeepAspectRatio, Resize" image="Alice\valuedialog_resource.png" />
+                  <StackPanel stylename="disable_mouse_on_deactivate" left="6dpi_px" right="6dpi_px" top="0dpi_px" bottom="0px">
+                    <ChildGadgets>
+                      <Label stylename="label" height="16px" width="31px" left="0px" top="6px" margin_top="6dpi_px" margin_bottom="2dpi_px" localise_caption="ValueDialog_Value" />
+                      <CheckBox stylename="checkbox_stack" layout_id="checkbox_value" layout_guid="effb9c4d-a31d-4baa-a05b-96f89e790333" left="47px" top="24px" margin_left="16dpi_px" />
+                    </ChildGadgets>
+                  </StackPanel>
+                </ChildGadgets>
+              </ScrollPanel>
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="TrackInfoWindow" layout_guid="284a8daf-5a91-4e08-9055-8b7d6ff10ad1">
+    <Grid stylename="grid_container" left="4dpi_px" right="4dpi_px" top="2dpi_px" grid_rowlayout="['15dpi_px', '15dpi_px', 'auto']" grid_columnlayout="['1*', 'auto']" column_spacing="8dpi_px" grid_resize="ResizeGrid" mouse_events="True">
+      <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" height="16px" width="34px" left="0px" margin_top="4dpi_px" margin_bottom="2dpi_px" localise_caption="Track_Name" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="2" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="track_tooltip_editable_name" layout_id="label_name" layout_guid="f7015608-2df8-4202-a698-ed0d32c7911f" height="16px" width="32px" bind_property="name" localise_caption="name" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="0" rowspan="1" columnspan="2" stylename="grid_container_span_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="track_tooltip_title" height="15px" width="92px" left="0px" top="0px" localise_caption="Track_TrackInformation" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" rowspan="1" columnspan="2" stylename="grid_container_span_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="track_tooltip_subtitle" layout_id="label_track_name" layout_guid="d7800779-d2f2-4b70-a75a-9acd95e3e8df" height="15px" width="59px" left="0px" top="0px" margin_bottom="4dpi_px" localise_caption="Description" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="SequenceEditor_BackdropToolToggle" layout_guid="f9ed8a96-5896-4923-a5bb-ebc41413132b">
+    <StackPanel stylename="stack_panel_mouse" override_flow_index="9999999" height="250dpi_px" width="410dpi_px" left="0px" top="0px" stack_order="TopToBottom">
+      <ChildGadgets>
+        <Grid stylename="grid_container" layout_id="panel" layout_guid="f5518b3d-8332-4ee1-97e5-84bf6601d3af" override_flow_index="9999999" height="50%" width="100%" left="0dpi_px" top="0px" margin_left="5dpi_px" margin_right="0px" margin_top="0px" margin_bottom="0px" grid_rowlayout="['25%', '25%', '25%', '25*']" grid_columnlayout="['50%', 'auto']" row_spacing="5dpi_px" column_spacing="16dpi_px" grid_resize="ResizeGridHeight">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" override_flow_index="9999999" height="33px" width="247px" left="3px" localise_caption="SequenceCanvas_BackdropEnabled" auto_size="False" word_wrap="True" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" override_flow_index="9999999" left="0px" bind_property="showBackdrop" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" left="3px" grid_rowlayout="['auto']" grid_columnlayout="['auto', 'auto']" grid_resize="ResizeGrid">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" height="33px" width="66px" localise_caption="SequenceCanvas_BackdropWidth" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <NumericTextBox stylename="numeric_text_box" override_flow_index="9999999" left="5px" bind_property="backdropWidth" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" left="0px" grid_rowlayout="['auto']" grid_columnlayout="['auto', 'auto']" grid_resize="ResizeGrid">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" height="33px" width="73px" localise_caption="SequenceCanvas_BackdropHeight" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <NumericTextBox stylename="numeric_text_box" override_flow_index="9999999" left="5px" bind_property="backdropHeight" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" left="3px" grid_rowlayout="['auto']" grid_columnlayout="['auto', 'auto']" grid_resize="ResizeGrid">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="33px" width="89px" localise_caption="SequenceCanvas_xorigin" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <NumericTextBox stylename="numeric_text_box" override_flow_index="9999999" left="5px" bind_property="xorigin" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" left="0px" grid_rowlayout="['auto']" grid_columnlayout="['auto', 'auto']" grid_resize="ResizeGrid">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="33px" width="88px" localise_caption="SequenceCanvas_yorigin" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <NumericTextBox stylename="numeric_text_box" override_flow_index="9999999" left="5px" bind_property="yorigin" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" override_flow_index="9999999" height="33px" width="276px" left="0px" localise_caption="SequenceCanvas_BackdropImageRefEnabled" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="3" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="backdrop_image_settings_toggle" layout_guid="c612af6f-9175-4892-b964-bedc0608ed49" override_flow_index="9999999" left="0px" bind_property="showBackdropImage" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+        <Grid stylename="grid_container" override_flow_index="9999999" height="50%" width="100%" top="250px">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <StackPanel stylename="grid_container_panel_backdrop" layout_id="backdrop_image_settings_panel" layout_guid="8a5ba155-3865-4963-91ef-474b0c0fda93" override_flow_index="9999999" height="100%" width="100%" left="7px" right="7px" top="0px" bottom="3px" colour="#32000000" stack_order="TopToBottom">
+                <ChildGadgets>
+                  <Grid stylename="grid_container" override_flow_index="9999999" height="100%" width="100%" left="0px" top="0px" margin_left="0px" margin_right="0px" margin_top="0px" margin_bottom="0px" grid_rowlayout="['33%', '33%', '33%']" grid_columnlayout="['1*', '1*']">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" height="33px" width="74px" left="3px" top="5px" localise_caption="SpriteEditor_Image" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <FileInputGadget stylename="file_input" layout_id="backdrop_file_input" layout_guid="6bbf6743-0c04-441d-a5a2-b8dd4d4b9d4b" override_flow_index="9999999" width="137dpi_px" left="1px" top="5px" bind_property="backdropImagePath" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" height="33px" width="90px" left="3px" top="5px" localise_caption="ImageEditor_LayerOpacity" />
+                        <Group stylename="group_box" height="-3.402823E+38px" width="-3.402823E+38px" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Slider stylename="slider_grid" override_flow_index="9999999" top="10px" bind_property="backdropImageOpacity" min_value="0" max_value="1" value="0.5" flow_increment="0.01" click_increment="0.01" mindrag_increment="0.01" slider_float_precision="2" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Grid stylename="grid_container" override_flow_index="9999999" left="3px" grid_rowlayout="['auto']" grid_columnlayout="['auto', 'auto']" grid_resize="ResizeGrid">
+                          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <Label stylename="label" override_flow_index="9999999" height="33px" width="87px" localise_caption="BackgroundLayer_PosX" />
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <NumericTextBox stylename="numeric_text_box" override_flow_index="9999999" left="5px" bind_property="backdropXOffset" input_type="Real" />
+                            </ChildGadgets>
+                          </Cell>
+                        </Grid>
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="2" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Grid stylename="grid_container" override_flow_index="9999999" left="3px" grid_rowlayout="['auto']" grid_columnlayout="['auto', 'auto']" grid_resize="ResizeGrid">
+                          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <Label stylename="label" override_flow_index="9999999" height="33px" width="86px" localise_caption="BackgroundLayer_PosY" />
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <NumericTextBox stylename="numeric_text_box" override_flow_index="9999999" left="5px" bind_property="backdropYOffset" input_type="Real" />
+                            </ChildGadgets>
+                          </Cell>
+                        </Grid>
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+  <Layout layout_name="SelectTrackDialog" layout_guid="122a2440-d113-42f0-9950-d382fefa7d8a">
+    <Grid stylename="grid_container" left="0px" grid_rowlayout="['auto', '1*', 'auto']" grid_resize="ResizeGrid">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <TitleBar stylename="title_bar" top="0px" localise_title="SelectTrackDialog_Title" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <TreeView stylename="gadget_treeview" layout_id="treeview" layout_guid="d18bea2b-e76f-48b7-b6cd-ecd55f7b4d55" top="-1px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" margin_top="8dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['1*', 'auto', 'auto']" column_spacing="8dpi_px" grid_resize="ResizeGrid">
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="btn_ok" layout_guid="6c346812-4421-496d-b83f-0ea1ecaabf1b" width="96dpi_px" localise_name="Button_OK" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="btn_cancel" layout_guid="cf57885e-d1d2-4208-b64c-45d09bb633e5" width="96dpi_px" localise_name="Button_Cancel" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="ShowValueDialog_Guid" layout_guid="a3b6ab7f-1a55-4b16-b68a-55b892d69696">
+    <Grid stylename="grid_container" grid_rowlayout="['auto', '1*']" row_spacing="6dpi_px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stack_order="LeftToRight" stack_resize="ResizeAll" left="0px">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="46px" left="214px" margin_left="8dpi_px" localise_caption="ValueDialog_Channel" />
+              <NumericTextBox stylename="numeric_text_box" layout_id="textbox_channel" layout_guid="8ee4f0ea-c74b-495a-9fb6-09a0bbfde632" width="64dpi_px" left="266px" margin_left="6dpi_px" has_buttons="True" max="9999" input_type="Real" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" stack_order="TopToBottom">
+            <ChildGadgets>
+              <ScrollPanel stylename="default_scrollpanel" top="0px">
+                <ChildGadgets>
+                  <Image stylename="disable_mouse_on_deactivate" height="116px" width="170px" right="0px" bottom="0px" image_flags="Centre, KeepAspectRatio, Resize" image="Alice\valuedialog_resource.png" />
+                  <StackPanel stylename="disable_mouse_on_deactivate" left="6dpi_px" right="6dpi_px" top="0dpi_px" bottom="0px" stack_order="TopToBottom">
+                    <ChildGadgets>
+                      <Label stylename="label" height="16px" width="52px" left="0px" top="6px" margin_top="6dpi_px" margin_bottom="2dpi_px" localise_caption="ValueDialog_Resource" />
+                      <DnDResourceSelection stylename="disable_mouse_on_deactivate" layout_id="resource_input" layout_guid="61a1e4d4-4347-41a5-b6d7-82113697be89" width="" left="0px" right="0dpi_px" top="24px" allow_add_new="True" />
+                    </ChildGadgets>
+                  </StackPanel>
+                </ChildGadgets>
+              </ScrollPanel>
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="SequenceEditor_GizmoToolToggle" layout_guid="933f6396-50a5-44c0-ab5b-8ce6f68f04a0">
+    <StackPanel layout_id="panel" height="190dpi_px" width="250dpi_px" left="0px" top="0px" stack_resize="ResizeHeight" stack_order="TopToBottom" />
+  </Layout>
+</Layouts>

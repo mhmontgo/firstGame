@@ -1,0 +1,13 @@
+Block:{$    |// code here|$}$
+If:if (|condition|) {$    // code here$}$
+If-Else:if (|condition|) {$    // code here$}$else {$    // code here$}$
+For Loop:for (|initialise|; condition; increment) {$    // code here$}$
+For Loop (i..n):for (var i = 0; i < |condition|; ++i) {$    // code here$}$
+While Loop:while (|condition|) {$    // code here$}$
+Do-Until Loop:do {$    |// code here|$} until (condition);$
+Repeat:repeat (|expression|) {$    // code here$}$
+Switch:switch (|expression|) {$    case constant:$        // code here$        break;$    default:$        // code here$        break;$}$
+With:with (|expression|) {$    // code here$}$
+Line Comment:// |comment here|
+Multi-line Comment:/*$  |comment here|$*/
+Region:#region |name here|$#endregion$

@@ -1,0 +1,37 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdTileIndex",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "tile",
+      "DefaultValue": "tile",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdTransformation",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "transform",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdVar_flip|GMStdVar_mirror|GMStdVar_rotate"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdApply",
+    "gadget": "YoYo Games.DnD_BooleanInput",
+    "gadget_properties": {
+      "TagName": "apply",
+      "DefaultValue": true
+    }
+  }
+]

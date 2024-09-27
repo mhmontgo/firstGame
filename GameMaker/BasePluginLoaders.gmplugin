@@ -1,0 +1,29 @@
+{
+  "name": "BasePluginLoaders",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "BasePluginLoaders",
+      "localised_name": "",
+      "plugin_version": "1.0",
+      "type": "loader",
+      "plugin_data": {},
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "BasePluginLoaders",
+          "version": "1.0",
+          "path": "BasePluginLoaders.dll",
+          "checksum": "SIVvtNYL3QJpuy31fHGzcRrXhrgzN3dK4TI7Nmlbocc="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "UJ\u002BzaloQFjdKN2Y4kKk6GGtkBOFI1tM5z8qHZyftuzZGZ5sDT2yPLqMD1i94BDxmCxsdzyC11UKoSThQymQYzHh3yr9iOVr4zth3rima64zPEDOCzIOcFJFV\u002Btrj8VbJgbnn8FdocKd/0YwcgwfJ6/IdtCqgVr1G9STzbTzPNiI=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

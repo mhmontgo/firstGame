@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <Desktop x="320" y="110" width="1024" height="768" id="19" title="" windowState="Normal">
+    <Workspaces>
+      <Workspace x="0" y="0" localise_title="Workspace_TabTitle" localise_arguments="['1']" style="tab_item" active="True" chain="True" />      
+    </Workspaces>
+    <Dock x="0" y="24" state="Expanded" type="eLeft" title="Dock" style="dock_container_style" restore_size="305dpi_px">
+      <DockTab localise_title="Inspector_WindowTitle">
+        <Module Command="open_inspector">
+          <Inspector>
+            <Window left="0px" top="0px" width="340dpi_px" height="600dpi_px" flags="Default" title="Inspector" localise_title="Inspector_WindowTitle" />
+          </Inspector>
+        </Module>
+      </DockTab>            
+    </Dock>
+    <Dock x="0" y="24" state="Expanded" type="eRight" title="Dock" style="dock_container_style" restore_size="305dpi_px">
+      <DockTab localise_title="ResourceTree_Title">
+        <Module Command="open_asset_browser">
+          <AssetBrowser left="0px" top="0px" width="400dpi_px" height="600dpi_px" flags="Default" title="Asset Browser" localise_title="AssetBrowser_Title" />
+        </Module>
+      </DockTab>
+    </Dock>
+    <Dock state="Expanded" type="eBottom" style="dock_container_style" restore_size="200dpi_px">
+      <DockTab localise_title="OutputPanel_Output">
+          <Module Command="open_output_panel">
+              <Window left="0px" top="0px" width="900px" height="240px" flags="Default" localise_title="OutputPanel_Output"/>
+          </Module>
+      </DockTab>
+      <DockTab localise_title="OutputPanel_SearchResults">
+          <Module Command="open_search_output_panel">
+              <Window left="0px" top="0px" width="900px" height="240px" flags="Default" localise_title="OutputPanel_SearchResults"/>
+          </Module>
+      </DockTab>
+      <DockTab localise_title="OutputPanel_SourceControl">
+          <Module Command="open_sc_output_panel">
+              <Window left="0px" top="0px" width="900px" height="240px" flags="Default" localise_title="OutputPanel_Output"/>
+          </Module>
+      </DockTab>
+      <DockTab localise_title="Breakpoints">
+          <Module Command="open_breakpoint_mgr">
+              <Window left="0px" top="0px" width="900px" height="240px" flags="Default" localise_title="Breakpoints"/>
+          </Module>
+      </DockTab>
+      <DockTab localise_title="CompileErrors">
+          <Module Command="show_compile_errors">
+              <Window left="0px" top="0px" width="900px" height="240px" flags="Default" localise_title="CompileErrors"/>
+          </Module>
+      </DockTab>
+      <DockTab localise_title="SyntaxErrors" layout_id="Diagnostics" layout_guid="13f3a856-20cf-4df7-bf40-384595430c96">
+          <Module Command="show_syntax_errors">
+	          <Window left="0px" top="0px" width="900px" height="240px" flags="Default" localise_title="SyntaxErrors"/>
+          </Module>
+      </DockTab>
+    </Dock>
+  </Desktop>
+</Project>

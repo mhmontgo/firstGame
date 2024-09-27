@@ -1,0 +1,67 @@
+{
+	"notification_title_label": {
+		"colour": "notif_message_title"
+	},
+
+	"notification_title_label_nodpi": {
+		"colour": "notif_message_title"
+	},
+
+	"notification_label": {
+		"colour": "notif_label"
+	},
+
+	"notification_button_unread": {
+		"icon_colour": "notif_button_unread"
+	},
+
+	"notification_buynow_grid": {
+		"colour": "notif_buynow_grid"
+	},
+
+	"notification_expiry_label": {
+		"colour": "notif_expiry_label",
+		"font_stylename": "Bold"
+	},
+
+	"notification_popup": {
+		"colour": "notif_message"
+	},
+
+	"notification_listpanel": {
+		"colour": "notif_listpanel"
+	},
+
+	"notification_frame": {
+		"colour": "notif_frame"
+	},
+
+	"notification_frame_active": {
+		"colour": "notif_frame"
+	},
+
+	"notification_split": {
+		"colour": "notif_split"
+	},
+
+
+	"notification_treeview": {
+		"colour": "notif_bg"
+	},
+
+	"notification_treenode": {
+		"colour": "notif_node"
+	},
+
+	"notification_treenode_expand": {
+		"colour": "notif_node_arrow"
+	},
+
+	"notification_treenode_collapse": {
+		"colour": "notif_node_arrow"
+	},
+
+	"notification_treenode_neutral": {
+		"colour": "notif_node_neutral"
+	}
+}

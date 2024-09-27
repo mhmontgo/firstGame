@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="BugPackageWindow" layout_guid="f6e7cc55-4741-424b-9072-937d43d4b96b">
+    <Window stylename="default_window" override_flow_index="9999999" height="372dpi_px" width="572dpi_px" localise_title="BugPackage_Title" height_min="320dpi_px" width_min="450dpi_px">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="20dpi_px" right="20dpi_px" grid_rowlayout="['10dpi_px', '1*', '70dpi_px']">
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ScrollPanel stylename="default_scrollpanel" override_flow_index="9999999" top="0px" scrollpanel_flags="VerticalScroll">
+                  <ChildGadgets>
+                    <StackPanel stylename="stack_panel" override_flow_index="9999999" left="0px" right="18dpi_px" top="0px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                      <ChildGadgets>
+                        <EmbeddedLinkLabel stylename="br_bold_label" override_flow_index="9999999" height="16px" width="" left="0px" top="0px" margin_bottom="4dpi_px" localise_caption="BugPackage_Intro" word_wrap="True" />
+                        <HorizontalSeparator stylename="br_hseparator" override_flow_index="9999999" top="35px" margin_top="15dpi_px" margin_bottom="15dpi_px" />
+                        <Grid stylename="grid_container" layout_id="grid_attach" layout_guid="05599926-0246-4dc2-b4aa-11fcc16f0a68" override_flow_index="9999999" top="51px" grid_rowlayout="['auto', 'auto', 'auto']" grid_columnlayout="['auto', '40dpi_px', '1*']" row_spacing="4dpi_px" grid_resize="ResizeGridHeight">
+                          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <Label stylename="label" layout_id="attach_project_label" layout_guid="fbab2ca6-2197-4718-960b-fe368ed42a28" override_flow_index="9999999" height="16px" width="158px" left="0px" localise_caption="BugReport_IncludeProject" />
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <Image stylename="br_help_icon" layout_id="attach_project_helpicon" layout_guid="99c5e525-d491-46ff-9ed7-827555832c43" override_flow_index="9999999" localise_tooltip="BugReport_IncludeProjectTT" tooltip_style="tooltip_wrap" />
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <ComboBox stylename="combobox_panel" layout_id="attach_project_combo" layout_guid="fed8f109-5a4b-4b33-b923-4a175f857bc7" override_flow_index="9999999" height="24dpi_px" width="150dpi_px" left="0px" top="0px">
+                                <ListBoxItems />
+                              </ComboBox>
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <Label stylename="label" layout_id="include_prefabs_label" layout_guid="bb3cf8b8-42ee-4b07-a95f-4bd6242b2c64" override_flow_index="9999999" height="16px" width="171px" left="0px" localise_caption="BugReport_IncludePrefabs" />
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <Image stylename="br_help_icon" layout_id="include_prefabs_helpicon" layout_guid="a8376bd0-be20-4fb9-8840-0874c8a7b4bd" override_flow_index="9999999" localise_tooltip="BugReport_IncludePrefabsTT" tooltip_style="tooltip_wrap" margin_left="4dpi_px" />
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="1" column="2" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <ComboBox stylename="combobox_panel" layout_id="include_prefabs_combo" layout_guid="aaead2e8-4d40-4162-885c-065f619116b7" override_flow_index="9999999" width="150dpi_px" left="0px">
+                                <ListBoxItems />
+                              </ComboBox>
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <Label stylename="label" override_flow_index="9999999" height="16px" width="170px" left="1px" localise_caption="BugReport_AttachAdditional" />
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="2" column="1" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <Image stylename="br_help_icon" override_flow_index="9999999" localise_tooltip="BugReport_AttachFilesTT" tooltip_style="tooltip_wrap" />
+                            </ChildGadgets>
+                          </Cell>
+                        </Grid>
+                        <ScrollPanel stylename="br_attach_panel" layout_id="attach_panel" layout_guid="450336c2-15d9-447a-b84d-e9bc7320d1cc" override_flow_index="9999999" height="45dpi_px" top="135px" margin_top="8dpi_px" colour="#FFFFFFFF">
+                          <ChildGadgets>
+                            <Button stylename="button_up" layout_id="btn_attach_files" layout_guid="bf1a4c3e-e248-48dd-8a58-b223fd7bc56c" override_flow_index="9999999" width="130dpi_px" localise_name="BugReport_AttachFiles" />
+                          </ChildGadgets>
+                        </ScrollPanel>
+                        <Grid stylename="button_up" layout_id="file_panel" layout_guid="a8a8de7b-5fdf-4834-ac91-66091054ec76" override_flow_index="9999999" top="190px" margin_top="10dpi_px" colour="#FFFFFFFF" grid_rowlayout="['auto']" grid_resize="ResizeGridHeight">
+                          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <StackPanel stylename="stack_panel" layout_id="file_stack" layout_guid="4f91689a-9472-4398-8f31-1db37d331ba3" override_flow_index="9999999" width="100%" left="10dpi_px" right="10dpi_px" margin_top="10dpi_px" margin_bottom="10dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight" />
+                            </ChildGadgets>
+                          </Cell>
+                        </Grid>
+                        <HorizontalSeparator stylename="br_hseparator" override_flow_index="9999999" top="225px" margin_left="" margin_right="" margin_top="15dpi_px" />
+                      </ChildGadgets>
+                    </StackPanel>
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" top="0px" bottom="10dpi_px" grid_columnlayout="['1*', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="btn_cancel" layout_guid="fc59a354-3816-4a35-860c-dc25c7dd0ce1" override_flow_index="9999999" width="180dpi_px" left="0px" localise_name="Button_Cancel" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="btn_submit" layout_guid="0d50181b-c678-4ae6-b865-3a9fb3fd4aa1" override_flow_index="9999999" width="180dpi_px" right="18dpi_px" localise_name="BugReport_Submit" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+                <Label stylename="label_error" layout_id="desc_warning" layout_guid="9f7c1e28-72f9-485c-9499-cd3c908cd576" override_flow_index="9999999" height="16px" width="257px" bottom="6dpi_px" localise_caption="BugReport_DescWarning" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="BugPackageProgress" layout_guid="fc726cd2-7919-42c0-89da-fd7243a0ac5a">
+    <Window stylename="default_window" override_flow_index="9999999" height="176dpi_px" width="380dpi_px" localise_title="BugPackage_Title" window_flags="None">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="30dpi_px" right="30dpi_px" top="4dpi_px" bottom="0px" grid_rowlayout="['24dpi_px', '1*', '32dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" height="20dpi_px" top="4px" margin_top="4dpi_px" grid_columnlayout="['auto', '1*']" grid_resize="None">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Image stylename="dialog_message_icon" layout_id="error_icon" layout_guid="9de70e24-ffd9-4e4b-a733-c02967de7b89" override_flow_index="9999999" height="24dpi_px" width="24dpi_px" left="0px" margin_left="" margin_right="4dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" layout_id="info_label" layout_guid="bf03ed19-6565-4ddf-ab43-628150499e8e" override_flow_index="9999999" height="16px" width="227px" left="0px" localise_caption="BugPackage_PleaseWait" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" layout_id="progress_label" layout_guid="d3b9add1-e470-4906-8f17-3ede6453887e" override_flow_index="9999999" height="16px" width="" left="0px" top="4px" margin_top="4dpi_px" word_wrap="True" />
+                <Button stylename="button_up" layout_id="copy_button" layout_guid="b65911d8-69f7-472c-9368-1f912caace67" override_flow_index="9999999" height="24px" localise_name="BugPackage_CopyLinkButton" />
+                <ProgressBar stylename="progressbar_frame" layout_id="progress_bar" layout_guid="24c2feb6-10b9-4d5b-ac26-862dd5aea860" override_flow_index="9999999" width="250dpi_px" bottom="8dpi_px" margin_left="" margin_right="" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="btn_retry" layout_guid="3b305152-7234-43e7-81ce-2f89c4b56bc8" override_flow_index="9999999" left="0px" right="10dpi_px" margin_top="20dpi_px" margin_bottom="10dpi_px" localise_name="BugReport_ButtonRetryUpload" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="btn_cancel" layout_guid="bf197f47-a8ec-4426-a2c5-83b1b67a2dce" override_flow_index="9999999" left="10dpi_px" right="0px" margin_top="20dpi_px" margin_bottom="10dpi_px" localise_name="Button_Cancel" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="BugPackageSignIn" layout_guid="2d6f3d69-b874-40f8-aa4a-f615ac5a269b">
+    <Window stylename="default_window" override_flow_index="9999999" height="162dpi_px" width="446dpi_px" localise_title="BugPackage_Title_SignIn" window_flags="CloseButton">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="10dpi_px" right="10dpi_px" grid_rowlayout="['1*', '45dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" override_flow_index="9999999" height="" width="" left="0px" localise_caption="BugPackage_SignInMsg" word_wrap="True" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" top="0px" bottom="0px" grid_columnlayout="['1*', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="btn_signin" layout_guid="9c5878c1-6b63-4f6d-a7de-183d02a5337a" override_flow_index="9999999" left="0px" right="10dpi_px" top="0px" localise_name="UserLogin_OperaSSO" />
+                      <StackPanel stylename="stack_panel" override_flow_index="9999999" bottom="5dpi_px" stack_resize="ResizeAll">
+                        <ChildGadgets>
+                          <Label stylename="br_small_label" override_flow_index="9999999" height="14px" width="77px" left="0px" localise_caption="UserLogin_LegacyMessage" />
+                          <LinkLabel stylename="legacy_label" layout_id="legacy_sign_in_label" layout_guid="f8fe05ee-2dcd-4060-b774-ea77af335fdd" override_flow_index="9999999" height="14px" width="56px" left="85px" margin_left="8dpi_px" localise_caption="UserLogin_LegacyPrompt" base_style="legacy_label" />
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="btn_cancel" layout_guid="121b721e-ebd9-4fb3-a230-2dd70dfba567" override_flow_index="9999999" left="10dpi_px" right="0px" top="0px" localise_name="Button_Cancel" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

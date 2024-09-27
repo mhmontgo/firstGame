@@ -1,0 +1,40 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdRounding",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "r",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdRound|GMStdCeil|GMStdFloor"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdNumber",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "n",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": false,
+    "temp": true,
+    "caption": "GMStdTarget",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "var",
+      "DefaultValue": "variable",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdDirection",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "dir",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdDirection|GMStdHorizontally|GMStdVertically|GMStdGravity"
+    }
+  }
+]

@@ -1,0 +1,1144 @@
+Name,English,Translation,Restrictions,Comment
+_Language,Brazilian Portuguese,Brazilian Portuguese,,Language name - in English
+_LanguageNative,Brazilian Portuguese,Português do Brasil,,Language name in the native language
+_LanguageCode,pt-br,pt-br,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
+GMStdVar_Story_1,Set ${var} to ${expr}${show_input_count},Definir ${var} como ${expr}${show_input_count},,GML Visual story text
+GMStdVar_Story_2,Set ${var} to ${expr} on ${applyto}${show_input_count},Definir ${var} como ${expr} em ${applyto}${show_input_count},,GML Visual story text
+GMStdVar_Story_3,Add ${expr} to ${var}${show_input_count},Adicionar ${expr} a ${var}${show_input_count},,GML Visual story text
+GMStdVar_Story_4,Add ${expr} to ${var} on ${applyto}${show_input_count},Adicionar ${expr} a ${var} em ${applyto}${show_input_count},,GML Visual story text
+GMStdTempVar_Story_1,Declare temp ${var}${show_input_count},Declarar ${var}${show_input_count} temporário,,GML Visual story text
+GMStdTempVar_Story_2,Declare temp ${var} on ${applyto}${show_input_count},Declarar ${var} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdTempVar_Story_3,Declare temp ${var} and set it to ${value}${show_input_count},Declarar ${var} temporário e defini-lo em ${value}${show_input_count},,GML Visual story text
+GMStdTempVar_Story_4,Declare temp ${var} and set it to ${value} on ${applyto}${show_input_count},Declarar ${var} temporário e defini-lo como ${value} em ${applyto}${show_input_count},,GML Visual story text
+GMStdSetGlobal_Story_1,Set global variable ${var} to ${value}${show_input_count},Definir variável global ${var} como ${value}${show_input_count},,GML Visual story text
+GMStdSetGlobal_Story_2,Set global variable ${var} to ${value} on ${applyto}${show_input_count},Definir variável global ${var} como ${value} em ${applyto}${show_input_count},,GML Visual story text
+GMStdSetGlobal_Story_3,Add ${value} to global variable ${var}${show_input_count},Adicionar ${value} a variável global ${var}${show_input_count},,GML Visual story text
+GMStdSetGlobal_Story_4,Add ${value} to global variable ${var} on ${applyto}${show_input_count},Adicionar ${value} a variável global ${var} em ${applyto}${show_input_count},,GML Visual story text
+GMStdGetGlobal_Story_1,Get global variable ${var} into ${output}${show_input_count},Obter variável global ${var} em ${output}${show_input_count},,GML Visual story text
+GMStdGetGlobal_Story_2,Get global variable ${var} into ${output} on ${applyto}${show_input_count},Obter variável global ${var} em ${output} em ${applyto}${show_input_count},,GML Visual story text
+GMStdGetGlobal_Story_3,Get global variable ${var} into temp ${output}${show_input_count},Obter variável global ${var} em ${output}${show_input_count} temporário,,GML Visual story text
+GMStdGetGlobal_Story_4,Get global variable ${var} into temp ${output} on ${applyto}${show_input_count},Obter variável global ${var} em ${output} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdIfVar_Story_1,If ${var} is not equal to ${value},Se ${var} não é igual a ${value},,GML Visual story text
+GMStdIfVar_Story_2,If ${var} is not equal to ${value} on ${applyto},Se ${var} não é igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfVar_Story_3,If ${var} is not less than ${value},Se ${var} não é menor que ${value},,GML Visual story text
+GMStdIfVar_Story_4,If ${var} is not less than ${value} on ${applyto},Se ${var} não é menor que ${value} em ${applyto},,GML Visual story text
+GMStdIfVar_Story_5,If ${var} is not greater than ${value},Se ${var} não é maior que ${value},,GML Visual story text
+GMStdIfVar_Story_6,If ${var} is not greater than ${value} on ${applyto},Se ${var} não é maior que ${value} em ${applyto},,GML Visual story text
+GMStdIfVar_Story_7,If ${var} is not less than or equal to ${value},Se ${var} não é menor ou igual a ${value},,GML Visual story text
+GMStdIfVar_Story_8,If ${var} is not less than or equal to ${value} on ${applyto},Se ${var} não é menor ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfVar_Story_9,If ${var} is not greater than or equal to ${value},Se ${var} não é maior ou igual a ${value},,GML Visual story text
+GMStdIfVar_Story_10,If ${var} is not greater than or equal to ${value} on ${applyto},Se ${var} não é maior ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfVar_Story_11,If ${var} is equal to ${value},Se ${var} é igual a ${value},,GML Visual story text
+GMStdIfVar_Story_12,If ${var} is equal to ${value} on ${applyto},Se ${var} é igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfVar_Story_13,If ${var} is less than ${value},Se ${var} é menor que ${value},,GML Visual story text
+GMStdIfVar_Story_14,If ${var} is less than ${value} on ${applyto},Se ${var} é menor que ${value} em ${applyto},,GML Visual story text
+GMStdIfVar_Story_15,If ${var} is greater than ${value},Se ${var} é maior que ${value},,GML Visual story text
+GMStdIfVar_Story_16,If ${var} is greater than ${value} on ${applyto},Se ${var} é maior que ${value} em ${applyto},,GML Visual story text
+GMStdIfVar_Story_17,If ${var} is less than or equal to ${value},Se ${var} é menor ou igual a ${value},,GML Visual story text
+GMStdIfVar_Story_18,If ${var} is less than or equal to ${value} on ${applyto},Se ${var} é menor ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfVar_Story_19,If ${var} is greater than or equal to ${value},Se ${var} é maior ou igual a ${value},,GML Visual story text
+GMStdIfVar_Story_20,If ${var} is greater than or equal to ${value} on ${applyto},Se ${var} é maior ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfExpr_Story_1,If ${expr} is true${show_input_count},Se ${expr} é true${show_input_count},,GML Visual story text
+GMStdIfExpr_Story_2,If ${expr} is true on ${applyto}${show_input_count},Se ${expr} é verdadeiro em ${applyto}${show_input_count},,GML Visual story text
+GMStdIfExpr_Story_3,If ${expr} is false${show_input_count},Se ${expr} é false${show_input_count},,GML Visual story text
+GMStdIfExpr_Story_4,If ${expr} is false on ${applyto}${show_input_count},Se ${expr} é falso em ${applyto}${show_input_count},,GML Visual story text
+GMStdIfUndef_Story_1,If ${var} is undefined${show_input_count},Se ${var} é undefined${show_input_count},,GML Visual story text
+GMStdIfUndef_Story_2,If ${var} is undefined on ${applyto}${show_input_count},Se ${var} é indefinido em ${applyto}${show_input_count},,GML Visual story text
+GMStdIfUndef_Story_3,If ${var} is not undefined${show_input_count},Se ${var} não é undefined${show_input_count},,GML Visual story text
+GMStdIfUndef_Story_4,If ${var} is not undefined on ${applyto}${show_input_count},Se ${var} não é indefinido em ${applyto}${show_input_count},,GML Visual story text
+GMStdElse_Story,Else,Else,,GML Visual story text
+GMStdExCode_Story_1,Execute code,Executar código,,GML Visual story text
+GMStdExCode_Story_2,Execute code on ${applyto},Executar código em ${applyto},,GML Visual story text
+GMStdExCode_Story_3,${overridden_name},${overridden_name},,GML Visual story text
+GMStdExCode_Story_4,${overridden_name} on ${applyto},${overridden_name} em ${applyto},,GML Visual story text
+GMStdExScript_Story_1,Execute ${script},Executar ${script},,GML Visual story text
+GMStdExScript_Story_2,Execute ${script} on ${applyto},Executar ${script} em ${applyto},,GML Visual story text
+GMStdExScript_Story_3,Execute ${script} with 1 argument,Executar ${script} com 1 argumento,,GML Visual story text
+GMStdExScript_Story_4,Execute ${script} with 1 argument on ${applyto},Executar ${script} com 1 argumento em ${applyto},,GML Visual story text
+GMStdExScript_Story_5,Execute ${script} with ${input_count} arguments,Executar ${script} com ${input_count} argumentos,,GML Visual story text
+GMStdExScript_Story_6,Execute ${script} with ${input_count} arguments on ${applyto},Executar ${script} com ${input_count} argumentos em ${applyto},,GML Visual story text
+GMStdExScript_Story_7,Execute and set ${var} to return value of ${script},Executar e definir ${var} para retornar o valor de ${script},,GML Visual story text
+GMStdExScript_Story_8,Execute and set ${var} to return value of ${script} on ${applyto},Executar e definir ${var} para retornar o valor de ${script} em ${applyto},,GML Visual story text
+GMStdExScript_Story_9,Execute and set ${var} to return value of ${script} with 1 argument,Executar e definir ${var} para retornar o valor de ${script} com 1 argumento,,GML Visual story text
+GMStdExScript_Story_10,Execute and set ${var} to return value of ${script} with 1 argument on ${applyto},Executar e definir ${var} para retornar o valor de ${script} com 1 argumento em ${applyto},,GML Visual story text
+GMStdExScript_Story_11,Execute and set ${var} to return value of ${script} with ${input_count} arguments,Executar e definir ${var} para retornar o valor de ${script} com ${input_count} argumentos,,GML Visual story text
+GMStdExScript_Story_12,Execute and set ${var} to return value of ${script} with ${input_count} arguments on ${applyto},Executar e definir ${var} para retornar o valor de ${script} com ${input_count} argumentos em ${applyto},,GML Visual story text
+GMStdExScript_Story_13,Execute and set temp ${var} to return value of ${script},Executar e definir ${var} temporário para retornar o valor de ${script},,GML Visual story text
+GMStdExScript_Story_14,Execute and set temp ${var} to return value of ${script} on ${applyto},Executar e definir ${var} temporário para retornar o valor de ${script} em ${applyto},,GML Visual story text
+GMStdExScript_Story_15,Execute and set temp ${var} to return value of ${script} with 1 argument,Executar e definir ${var} temporário para retornar o valor de ${script} com 1 argumento,,GML Visual story text
+GMStdExScript_Story_16,Execute and set temp ${var} to return value of ${script} with 1 argument on ${applyto},Executar e definir ${var} temporário para retornar o valor de ${script} com 1 argumento em ${applyto},,GML Visual story text
+GMStdExScript_Story_17,Execute and set temp ${var} to return value of ${script} with ${input_count} arguments,Executar e definir ${var} temporário para retornar o valor de ${script} com ${input_count} argumentos,,GML Visual story text
+GMStdExScript_Story_18,Execute and set temp ${var} to return value of ${script} with ${input_count} arguments on ${applyto},Executar e definir ${var} temporário para retornar o valor de ${script} com ${input_count} argumentos em ${applyto},,GML Visual story text
+GMStdCallFunction_Story_1,Call ${function},Chamada ${function},,GML Visual story text
+GMStdCallFunction_Story_2,Call ${function} on ${applyto},Chamada ${function} em ${applyto},,GML Visual story text
+GMStdCallFunction_Story_3,Call ${function} with 1 argument,Chamada ${function} com 1 argumento,,GML Visual story text
+GMStdCallFunction_Story_4,Call ${function} with 1 argument on ${applyto},Chamada ${function} com 1 argumento em ${applyto},,GML Visual story text
+GMStdCallFunction_Story_5,Call ${function} with ${input_count} arguments,Chamada ${function} com ${input_count} argumentos,,GML Visual story text
+GMStdCallFunction_Story_6,Call ${function} with ${input_count} arguments on ${applyto},Chamada ${function} com ${input_count} argumentos em ${applyto},,GML Visual story text
+GMStdCallFunction_Story_7,Set ${var} to return value of ${function},Definir ${var} para retornar o valor de ${function},,GML Visual story text
+GMStdCallFunction_Story_8,Set ${var} to return value of ${function} on ${applyto},Definir ${var} para retornar o valor de ${function} em ${applyto},,GML Visual story text
+GMStdCallFunction_Story_9,Set ${var} to return value of ${function} with 1 argument,Definir ${var} para retornar o valor de ${function} com 1 argumento,,GML Visual story text
+GMStdCallFunction_Story_10,Set ${var} to return value of ${function} with 1 argument on ${applyto},Definir ${var} para retornar o valor de ${function} com 1 argumento em ${applyto},,GML Visual story text
+GMStdCallFunction_Story_11,Set ${var} to return value of ${function} with ${input_count} arguments,Definir ${var} para retornar o valor de ${function} com ${input_count} argumentos,,GML Visual story text
+GMStdCallFunction_Story_12,Set ${var} to return value of ${function} with ${input_count} arguments on ${applyto},Definir ${var} para retornar o valor de ${function} com ${input_count} argumentos em ${applyto},,GML Visual story text
+GMStdCallFunction_Story_13,Set temp ${var} to return value of ${function},Definir ${var} temporário para retornar o valor de ${function},,GML Visual story text
+GMStdCallFunction_Story_14,Set temp ${var} to return value of ${function} on ${applyto},Definir ${var} temporário para retornar o valor de ${function} em ${applyto},,GML Visual story text
+GMStdCallFunction_Story_15,Set temp ${var} to return value of ${function} with 1 argument,Definir ${var} temporário para retornar o valor de ${function} com 1 argumento,,GML Visual story text
+GMStdCallFunction_Story_16,Set temp ${var} to return value of ${function} with 1 argument on ${applyto},Definir ${var} temporário para retornar o valor de ${function} com 1 argumento em ${applyto},,GML Visual story text
+GMStdCallFunction_Story_17,Set temp ${var} to return value of ${function} with ${input_count} arguments,Definir ${var} temporário para retornar o valor de ${function} com ${input_count} argumentos,,GML Visual story text
+GMStdCallFunction_Story_18,Set temp ${var} to return value of ${function} with ${input_count} arguments on ${applyto},Definir ${var} temporário para retornar o valor de ${function} com ${input_count} argumentos em ${applyto},,GML Visual story text
+GMStdRet_Story_1,Return ${value},Retornar ${value},,GML Visual story text
+GMStdRet_Story_2,Return ${value} on ${applyto},Retornar ${value} em ${applyto},,GML Visual story text
+GMStdApplyTo_Story_1,Apply to ${applyto},Aplicar em ${applyto},,GML Visual story text
+GMStdMacro_Story_1,Define macro ${macro} as ${value}${show_input_count},Definir macro ${macro} como ${value}${show_input_count},,GML Visual story text
+GMStdMacro_Story_2,Define macro ${macro} as ${value} on ${applyto}${show_input_count},Definir macro ${macro} como ${value} em ${applyto}${show_input_count},,GML Visual story text
+GMStdExit_Story,Exit the current event,Sair do evento atual,,GML Visual story text
+GMStdInstCreate_Story_1,Create ${objectid} at ${dnd_pos},Criar ${objectid} em ${dnd_pos},,GML Visual story text
+GMStdInstCreate_Story_2,Create ${objectid} at ${dnd_pos} on ${applyto},Criar ${objectid} em ${dnd_pos} em ${applyto},,GML Visual story text
+GMStdInstCreate_Story_3,Create ${objectid} at ${dnd_pos} into ${var},Criar ${objectid} em ${dnd_pos} em ${var},,GML Visual story text
+GMStdInstCreate_Story_4,Create ${objectid} at ${dnd_pos} into ${var} on ${applyto},Criar ${objectid} em ${dnd_pos} em ${var} em ${applyto},,GML Visual story text
+GMStdInstCreate_Story_5,Create ${objectid} at ${dnd_pos} into temp ${var},Criar ${objectid} em ${dnd_pos} em ${var} temporário,,GML Visual story text
+GMStdInstCreate_Story_6,Create ${objectid} at ${dnd_pos} into temp ${var} on ${applyto},Criar ${objectid} em ${dnd_pos} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdInstDestroy_Story_1,Destroy this instance,Destruir esta instância,,GML Visual story text
+GMStdInstDestroy_Story_2,Destroy ${applyto} on ${applyto},Destruir ${applyto} em ${applyto},,GML Visual story text
+GMStdDestroyAtPos_Story_1,Destroy instances at ${dnd_pos},Destruir instâncias em ${dnd_pos},,GML Visual story text
+GMStdDestroyAtPos_Story_2,Destroy instances at ${dnd_pos} on ${applyto},Destruir instâncias em ${dnd_pos} em ${applyto},,GML Visual story text
+GMStdInstChange_Story_1,Change into ${objind},Mudar para ${objind},,GML Visual story text
+GMStdInstChange_Story_2,Change ${applyto} into ${objind} on ${applyto},Mudar ${applyto} para ${objind} em ${applyto},,GML Visual story text
+GMStdSetAlarm_Story_1,Set alarm ${alarm} to ${steps}${show_input_count},Definir alarme ${alarm} como ${steps}${show_input_count},,GML Visual story text
+GMStdSetAlarm_Story_2,Set alarm ${alarm} to ${steps} on ${applyto}${show_input_count},Definir alarme ${alarm} como ${steps} em ${applyto}${show_input_count},,GML Visual story text
+GMStdSetAlarm_Story_3,Add ${steps} to alarm ${alarm}${show_input_count},Adicionar ${steps} ao alarme ${alarm}${show_input_count},,GML Visual story text
+GMStdSetAlarm_Story_4,Add ${steps} to alarm ${alarm} on ${applyto}${show_input_count},Adicionar ${steps} ao alarme ${alarm} em ${applyto}${show_input_count},,GML Visual story text
+GMStdGetAlarm_Story_1,Get alarm ${alarm} into ${var},Obter alarme ${alarm} em ${var},,GML Visual story text
+GMStdGetAlarm_Story_2,Get alarm ${alarm} into ${var} on ${applyto},Obter alarme ${alarm} em ${var} em ${applyto},,GML Visual story text
+GMStdGetAlarm_Story_3,Get alarm ${alarm} into temp ${var},Obter alarme ${alarm} em ${var} temporário,,GML Visual story text
+GMStdGetAlarm_Story_4,Get alarm ${alarm} into temp ${var} on ${applyto},Obter alarme ${alarm} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdInstCount_Story_1,Get ${object} count into ${var},Obter ${object} contagem em ${var},,GML Visual story text
+GMStdInstCount_Story_2,Get ${object} count into ${var} on ${applyto},Obter ${object} contagem em ${var} em ${applyto},,GML Visual story text
+GMStdInstCount_Story_3,Get ${object} count into temp ${var},Obter ${object} contagem em ${var} temporário,,GML Visual story text
+GMStdInstCount_Story_4,Get ${object} count into temp ${var} on ${applyto},Obter ${object} contagem em ${var} temporário em ${applyto},,GML Visual story text
+GMStdCallUserEvent_Story_1,Call user event ${event}${show_input_count},Chamar evento do usuário ${event}${show_input_count},,GML Visual story text
+GMStdCallUserEvent_Story_2,Call user event ${event} on ${applyto}${show_input_count},Chamar evento do usuário ${event} em ${applyto}${show_input_count},,GML Visual story text
+GMStdSetInstanceVar_Story_1,Set instance variable ${dnd_set_inst_vars} to ${value}${show_input_count},Definir variável da instância ${dnd_set_inst_vars} como ${value}${show_input_count},,GML Visual story text
+GMStdSetInstanceVar_Story_2,Set instance variable ${dnd_set_inst_vars} to ${value} on ${applyto}${show_input_count},Definir variável da instância ${dnd_set_inst_vars} como ${value} em ${applyto}${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_1,Get instance variable ${dnd_get_inst_vars} into ${target}${show_input_count},Obter variável da instância ${dnd_get_inst_vars} em ${target}${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_2,Get instance variable ${dnd_get_inst_vars} into ${target} on ${applyto}${show_input_count},Obter variável da instância ${dnd_get_inst_vars} em ${target} em ${applyto}${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_3,Get instance variable ${dnd_get_inst_vars} into temp ${target}${show_input_count},Obter variável da instância ${dnd_get_inst_vars} em ${target}${show_input_count} temporário,,GML Visual story text
+GMStdGetInstanceVar_Story_4,Get instance variable ${dnd_get_inst_vars} into temp ${target} on ${applyto}${show_input_count},Obter variável da instância ${dnd_get_inst_vars} em ${target} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdSetSprite_Story_1,Set sprite to ${spriteind} at frame ${imageind},Definir Sprite como ${spriteind} em um quadro ${imageind},,GML Visual story text
+GMStdSetSprite_Story_2,Set sprite to ${spriteind} at frame ${imageind} on ${applyto},Definir Sprite como ${spriteind} em um quadro ${imageind} em ${applyto},,GML Visual story text
+GMStdRotSprite_Story_1,Set rotation to ${angle},Definir rotação como ${angle},,GML Visual story text
+GMStdRotSprite_Story_2,Set rotation to ${angle} on ${applyto},Definir rotação como ${angle} em ${applyto},,GML Visual story text
+GMStdRotSprite_Story_3,Add ${angle} to rotation,Adicionar ${angle} à rotação,,GML Visual story text
+GMStdRotSprite_Story_4,Add ${angle} to rotation on ${applyto},Adicionar ${angle} à rotação em ${applyto},,GML Visual story text
+GMStdSpriteAnimSpd_Story_1,Set animation speed to ${speed},Definir velocidade da animação como ${speed},,GML Visual story text
+GMStdSpriteAnimSpd_Story_2,Set animation speed to ${speed} on ${applyto},Definir velocidade da animação como ${speed} em ${applyto},,GML Visual story text
+GMStdSpriteAnimSpd_Story_3,Add ${speed} to animation speed,Adicionar ${speed} à velocidade da animação,,GML Visual story text
+GMStdSpriteAnimSpd_Story_4,Add ${speed} to animation speed on ${applyto},Adicionar ${speed} à velocidade da animação em ${applyto},,GML Visual story text
+GMStdSpriteScale_Story_1,"Scale to ${xscale},${yscale}","Dimensionar para ${xscale},${yscale}",,GML Visual story text
+GMStdSpriteScale_Story_2,"Scale to ${xscale},image_yscale","Dimensionar para ${xscale},image_yscale",,GML Visual story text
+GMStdSpriteScale_Story_3,"Scale to ${xscale},image_yscale+${yscale}","Dimensionar para ${xscale},image_yscale+${yscale}",,GML Visual story text
+GMStdSpriteScale_Story_4,"Scale to image_xscale,${yscale}","Dimensionar para image_xscale,${yscale}",,GML Visual story text
+GMStdSpriteScale_Story_5,"Scale to image_xscale,image_yscale","Dimensionar para image_xscale,image_yscale",,GML Visual story text
+GMStdSpriteScale_Story_6,"Scale to image_xscale,image_yscale+${yscale}","Dimensionar para image_xscale,image_yscale+${yscale}",,GML Visual story text
+GMStdSpriteScale_Story_7,"Scale to image_xscale+${xscale},${yscale}","Dimensionar para image_xscale+${xscale},${yscale}",,GML Visual story text
+GMStdSpriteScale_Story_8,"Scale to image_xscale+${xscale},image_yscale","Dimensionar para image_xscale+${xscale},image_yscale",,GML Visual story text
+GMStdSpriteScale_Story_9,"Scale to image_xscale+${xscale},image_yscale+${yscale}","Dimensionar para image_xscale+${xscale},image_yscale+${yscale}",,GML Visual story text
+GMStdSpriteScale_Story_10,"Scale ${applyto} to ${xscale},${yscale} on ${applyto}","Dimensionar ${applyto} para ${xscale},${yscale} em ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_11,"Scale ${applyto} to ${xscale},image_yscale on ${applyto}","Dimensionar ${applyto} para ${xscale},image_yscale em ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_12,"Scale ${applyto} to ${xscale},image_yscale+${yscale} on ${applyto}","Dimensionar ${applyto} para ${xscale},image_yscale+${yscale} em ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_13,"Scale ${applyto} to image_xscale,${yscale} on ${applyto}","Dimensionar ${applyto} para image_xscale,${yscale} em ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_14,"Scale ${applyto} to image_xscale,image_yscale on ${applyto}","Dimensionar ${applyto} para image_xscale,image_yscale em ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_15,"Scale ${applyto} to image_xscale,image_yscale+${yscale} on ${applyto}","Dimensionar ${applyto} para image_xscale,image_yscale+${yscale} em ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_16,"Scale ${applyto} to image_xscale+${xscale},${yscale} on ${applyto}","Dimensionar ${applyto} para image_xscale+${xscale},${yscale} em ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_17,"Scale ${applyto} to image_xscale+${xscale},image_yscale on ${applyto}","Dimensionar ${applyto} para image_xscale+${xscale},image_yscale em ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_18,"Scale ${applyto} to image_xscale+${xscale},image_yscale+${yscale} on ${applyto}","Dimensionar ${applyto} para image_xscale+${xscale},image_yscale+${yscale} em ${applyto}",,GML Visual story text
+GMStdSpriteAlpha_Story_1,Set alpha to ${alpha},Definir alfa como ${alpha},,GML Visual story text
+GMStdSpriteAlpha_Story_2,Set alpha to ${alpha} on ${applyto},Definir alfa como ${alpha} em ${applyto},,GML Visual story text
+GMStdSpriteAlpha_Story_3,Add ${alpha} to alpha,Adicionar ${alpha} ao alfa,,GML Visual story text
+GMStdSpriteAlpha_Story_4,Add ${alpha} to alpha on ${applyto},Adicionar ${alpha} ao alfa em ${applyto},,GML Visual story text
+GMStdSpriteColor_Story_1,Set sprite blend colour to ${colour},Definir cor de mesclagem de Sprite como ${colour},,GML Visual story text
+GMStdSpriteColor_Story_2,Set sprite blend colour to ${colour} on ${applyto},Definir cor de mesclagem de Sprite como ${colour} em ${applyto},,GML Visual story text
+GMStdInstExists_Story_1,Check if ${obj} does not exist,Verificar se ${obj} não existe,,GML Visual story text
+GMStdInstExists_Story_2,Check if ${obj} does not exist on ${applyto},Verificar se ${obj} não existe em ${applyto},,GML Visual story text
+GMStdInstExists_Story_3,Check if ${obj} exists,Verificar se ${obj} existe,,GML Visual story text
+GMStdInstExists_Story_4,Check if ${obj} exists on ${applyto},Verificar se ${obj} existe em ${applyto},,GML Visual story text
+GMStdInheritEvent_Story_1,Call parent event,Chamar evento pai,,GML Visual story text
+GMStdInheritEvent_Story_2,Call parent event on ${applyto},Chamar evento pai em ${applyto},,GML Visual story text
+GMStdIfSequenceExists_Story_1,If sequence ${obj} exists,Se sequência ${obj} existe,,GML Visual story text
+GMStdIfSequenceExists_Story_2,If sequence ${obj} does not exists,Se a sequência ${obj} não existe,,GML Visual story text
+GMStdSeqDestroy_Story_1,Destroy sequence ${var},Destruir sequência ${var},,GML Visual story text
+GMStdSeqPlay_Story_1,Play sequence ${var},Reproduzir sequência ${var},,GML Visual story text
+GMStdSeqPause_Story_1,Pause sequence ${var},Pausar sequência ${var},,GML Visual story text
+GMStdSeqSetPos_Story_1,Set position of sequence instance ${sequenceelmid} to ${dnd_pos},Definir posição da instância da sequência ${sequenceelmid} como ${dnd_pos},,GML Visual story text
+GMStdSeqCreate_Story_1,Create ${sequenceid} at ${dnd_pos},Criar ${sequenceid} em ${dnd_pos},,GML Visual story text
+GMStdSeqCreate_Story_2,Create ${sequenceid} at ${dnd_pos} on ${applyto},Criar ${sequenceid} em ${dnd_pos} em ${applyto},,GML Visual story text
+GMStdSeqCreate_Story_3,Create ${sequenceid} at ${dnd_pos} into ${var},Criar ${sequenceid} em ${dnd_pos} em ${var},,GML Visual story text
+GMStdSeqCreate_Story_4,Create ${sequenceid} at ${dnd_pos} into ${var} on ${applyto},Criar ${sequenceid} em ${dnd_pos} em ${var} em ${applyto},,GML Visual story text
+GMStdSeqCreate_Story_5,Create ${sequenceid} at ${dnd_pos} into temp ${var},Criar ${sequenceid} em ${dnd_pos} em ${var} temporário,,GML Visual story text
+GMStdSeqCreate_Story_6,Create ${sequenceid} at ${dnd_pos} into temp ${var} on ${applyto},Criar ${sequenceid} em ${dnd_pos} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdSeqGetPos_Story_1,Get position of sequence instance ${sequenceelmid} into ${varx} and ${vary},Obter posição da instância da sequência ${sequenceelmid} em ${varx} e ${vary},,GML Visual story text
+GMStdSeqGetPos_Story_2,Get position of sequence instance ${sequenceelmid} into temp ${varx} and ${vary},Obter posição da instância da sequência ${sequenceelmid} em ${varx} temporário e ${vary},,GML Visual story text
+GMStdSeqGetPos_Story_3,Get position of sequence instance ${sequenceelmid} into ${varx} and temp ${vary},Obter posição da instância da sequência ${sequenceelmid} em ${varx} e ${vary} temporário,,GML Visual story text
+GMStdSeqGetPos_Story_4,Get position of sequence instance ${sequenceelmid} into temp ${varx} and temp ${vary},Obter posição da instância da sequência ${sequenceelmid} em ${varx} temporário e ${vary} temporário,,GML Visual story text
+GMStdIfMousePressed_Story_1,If mouse button ${button} is pressed,Se um botão do mouse ${button} está pressionado,,GML Visual story text
+GMStdIfMousePressed_Story_2,If mouse button ${button} is pressed on ${applyto},Se um botão do mouse ${button} está pressionado em ${applyto},,GML Visual story text
+GMStdIfMousePressed_Story_3,If mouse button ${button} is not pressed,Se um botão do mouse ${button} não está pressionado,,GML Visual story text
+GMStdIfMousePressed_Story_4,If mouse button ${button} is not pressed on ${applyto},Se um botão do mouse ${button} não está pressionado em ${applyto},,GML Visual story text
+GMStdIfMouseDown_Story_1,If mouse button ${button} is down,Se um botão do mouse ${button} está inoperante,,GML Visual story text
+GMStdIfMouseDown_Story_2,If mouse button ${button} is down on ${applyto},Se um botão do mouse ${button} está inoperante em ${applyto},,GML Visual story text
+GMStdIfMouseDown_Story_3,If mouse button ${button} is not down,Se um botão do mouse ${button} não está inoperante,,GML Visual story text
+GMStdIfMouseDown_Story_4,If mouse button ${button} is not down on ${applyto},Se um botão do mouse ${button} não está inoperante em ${applyto},,GML Visual story text
+GMStdIfMouseUp_Story_1,If mouse button ${button} is released,Se um botão do mouse ${button} está liberado,,GML Visual story text
+GMStdIfMouseUp_Story_2,If mouse button ${button} is released on ${applyto},Se um botão do mouse ${button} está liberado em ${applyto},,GML Visual story text
+GMStdIfMouseUp_Story_3,If mouse button ${button} is not released,Se um botão do mouse ${button} não está liberado,,GML Visual story text
+GMStdIfMouseUp_Story_4,If mouse button ${button} is not released on ${applyto},Se um botão do mouse ${button} não está liberado em ${applyto},,GML Visual story text
+GMStdIfKeyPressed_Story_1,If ${key} is pressed,Se ${key} está pressionada,,GML Visual story text
+GMStdIfKeyPressed_Story_2,If ${key} is pressed on ${applyto},Se ${key} está pressionada em ${applyto},,GML Visual story text
+GMStdIfKeyPressed_Story_3,If ${key} is not pressed,Se ${key} não está pressionada,,GML Visual story text
+GMStdIfKeyPressed_Story_4,If ${key} is not pressed on ${applyto},Se ${key} não está pressionada em ${applyto},,GML Visual story text
+GMStdIfKeyDown_Story_1,If ${key} is down,Se ${key} está inoperante,,GML Visual story text
+GMStdIfKeyDown_Story_2,If ${key} is down on ${applyto},Se ${key} está inoperante em ${applyto},,GML Visual story text
+GMStdIfKeyDown_Story_3,If ${key} is not down,Se ${key} não está inoperante,,GML Visual story text
+GMStdIfKeyDown_Story_4,If ${key} is not down on ${applyto},Se ${key} não está inoperante em ${applyto},,GML Visual story text
+GMStdIfKeyUp_Story_1,If ${key} is released,Se ${key} está liberada,,GML Visual story text
+GMStdIfKeyUp_Story_2,If ${key} is released on ${applyto},Se ${key} está liberada em ${applyto},,GML Visual story text
+GMStdIfKeyUp_Story_3,If ${key} is not released,Se ${key} não está liberada,,GML Visual story text
+GMStdIfKeyUp_Story_4,If ${key} is not released on ${applyto},Se ${key} não está liberada em ${applyto},,GML Visual story text
+GMStdVKeyShow_Story_1,Show virtual keyboard with ${keyboard_type},Mostrar teclado virtual com ${keyboard_type},,GML Visual story text
+GMStdVKeyShow_Story_2,Show virtual keyboard with ${keyboard_type} on ${applyto},Mostrar teclado virtual com ${keyboard_type} em ${applyto},,GML Visual story text
+GMStdVKeyHide_Story,Hide virtual keyboard,Ocultar teclado virtual,,GML Visual story text
+GMStdVKeyHeight_Story_1,Get virtual keyboard height into ${target},Obter altura de teclado virtual em ${target},,GML Visual story text
+GMStdVKeyHeight_Story_2,Get virtual keyboard height into temp ${target},Obter altura de teclado virtual em ${target} temporário,,GML Visual story text
+GMStdVKeyStatus_Story_1,If virtual keyboard is showing,Se o teclado virtual está sendo exibido,,GML Visual story text
+GMStdVKeyStatus_Story_2,If virtual keyboard is showing on ${applyto},Se o teclado virtual está sendo exibido em ${applyto},,GML Visual story text
+GMStdVKeyStatus_Story_3,If virtual keyboard is showing into ${target},Se o teclado virtual está sendo exibido em ${target},,GML Visual story text
+GMStdVKeyStatus_Story_4,If virtual keyboard is showing into ${target} on ${applyto},Se o teclado virtual está sendo exibido em ${target} em ${applyto},,GML Visual story text
+GMStdVKeyStatus_Story_5,If virtual keyboard is showing into temp ${target},Se o teclado virtual está sendo exibido em ${target} temporário,,GML Visual story text
+GMStdVKeyStatus_Story_6,If virtual keyboard is showing into temp ${target} on ${applyto},Se o teclado virtual está sendo exibido em ${target} temporário em ${applyto},,GML Visual story text
+GMStdVKeyStatus_Story_7,If virtual keyboard is not showing,Se o teclado virtual não está sendo exibido,,GML Visual story text
+GMStdVKeyStatus_Story_8,If virtual keyboard is not showing on ${applyto},Se o teclado virtual não está sendo exibido em ${applyto},,GML Visual story text
+GMStdVKeyStatus_Story_9,If virtual keyboard is not showing into ${target},Se o teclado virtual não está sendo exibido em ${target},,GML Visual story text
+GMStdVKeyStatus_Story_10,If virtual keyboard is not showing into ${target} on ${applyto},Se o teclado virtual não está sendo exibido em ${target} em ${applyto},,GML Visual story text
+GMStdVKeyStatus_Story_11,If virtual keyboard is not showing into temp ${target},Se o teclado virtual não está sendo exibido em ${target} temporário,,GML Visual story text
+GMStdVKeyStatus_Story_12,If virtual keyboard is not showing into temp ${target} on ${applyto},Se o teclado virtual não está sendo exibido em ${target} temporário em ${applyto},,GML Visual story text
+GMStdGPAxis_Story_1,Get ${axis} axis value on gamepad ${gp} into ${var},Obter ${axis} valor de eixo no gamepad ${gp} em ${var},,GML Visual story text
+GMStdGPAxis_Story_2,Get ${axis} axis value on gamepad ${gp} into ${var} on ${applyto},Obter ${axis} valor de eixo no gamepad ${gp} em ${var} em ${applyto},,GML Visual story text
+GMStdGPAxis_Story_3,Get ${axis} axis value on gamepad ${gp} into temp ${var},Obter valor de eixo ${axis} no gamepad ${gp} em ${var} temporário,,GML Visual story text
+GMStdGPAxis_Story_4,Get ${axis} axis value on gamepad ${gp} into temp ${var} on ${applyto},Obter valor de eixo ${axis} no gamepad ${gp} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdGPTrigger_Story_1,Get ${trigger} value on gamepad ${gp} into ${var},Obter valor de ${trigger} no gamepad ${gp} em ${var},,GML Visual story text
+GMStdGPTrigger_Story_2,Get ${trigger} value on gamepad ${gp} into ${var} on ${applyto},Obter valor de ${trigger} no gamepad ${gp} em ${var} em ${applyto},,GML Visual story text
+GMStdGPTrigger_Story_3,Get ${trigger} value on gamepad ${gp} into temp ${var},Obter valor de ${trigger} no gamepad ${gp} em ${var} temporário,,GML Visual story text
+GMStdGPTrigger_Story_4,Get ${trigger} value on gamepad ${gp} into temp ${var} on ${applyto},Obter valor de ${trigger} no gamepad ${gp} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdGpDeviceC_Story_1,Get gamepad device count into ${var},Obter contagem de dispositivo do gamepad em ${var},,GML Visual story text
+GMStdGpDeviceC_Story_2,Get gamepad device count into ${var} on ${applyto},Obter contagem de dispositivo do gamepad em ${var} em ${applyto},,GML Visual story text
+GMStdGpDeviceC_Story_3,Get gamepad device count into temp ${var},Obter contagem de dispositivo do gamepad em ${var} temporário,,GML Visual story text
+GMStdGpDeviceC_Story_4,Get gamepad device count into temp ${var} on ${applyto},Obter contagem de dispositivo do gamepad em ${var} temporário em ${applyto},,GML Visual story text
+GMStdGPConnc_Story_1,Get whether gamepad ${gp} is connected into ${var},Obter se o gamepad ${gp} está conectado em ${var},,GML Visual story text
+GMStdGPConnc_Story_2,Get whether gamepad ${gp} is connected into ${var} on ${applyto},Obter se o gamepad ${gp} está conectado em ${var} em ${applyto},,GML Visual story text
+GMStdGPConnc_Story_3,Get whether gamepad ${gp} is connected into temp ${var},Obter se o gamepad ${gp} está conectado em ${var} temporário,,GML Visual story text
+GMStdGPConnc_Story_4,Get whether gamepad ${gp} is connected into temp ${var} on ${applyto},Obter se o gamepad ${gp} está conectado em ${var} temporário em ${applyto},,GML Visual story text
+GMStdGPDeadzone_Story_1,Set deadzone of gamepad ${gp} to ${deadzone},Definir zona inoperante do gamepad ${gp} como ${deadzone},,GML Visual story text
+GMStdGPDeadzone_Story_2,Set deadzone of gamepad ${gp} to ${deadzone} on ${applyto},Definir zona inoperante do gamepad ${gp} como ${deadzone} em ${applyto},,GML Visual story text
+GMStdGPThreshold_Story_1,Set button threshold of gamepad ${gp} to ${threshold},Definir limite de botão de gamepad ${gp} como ${threshold},,GML Visual story text
+GMStdGPThreshold_Story_2,Set button threshold of gamepad ${gp} to ${threshold} on ${applyto},Definir limite de botão de gamepad ${gp} como ${threshold} em ${applyto},,GML Visual story text
+GMStdIfGPDown_Story_1,If ${btn} on gamepad ${gp} is down,Se ${btn} no gamepad ${gp} está inoperante,,GML Visual story text
+GMStdIfGPDown_Story_2,If ${btn} on gamepad ${gp} is down on ${applyto},Se ${btn} no gamepad ${gp} está inoperante em ${applyto},,GML Visual story text
+GMStdIfGPDown_Story_3,If ${btn} on gamepad ${gp} is not down,Se ${btn} no gamepad ${gp} não está inoperante,,GML Visual story text
+GMStdIfGPDown_Story_4,If ${btn} on gamepad ${gp} is not down on ${applyto},Se ${btn} no gamepad ${gp} não está inoperante em ${applyto},,GML Visual story text
+GMStdIfGPPressed_Story_1,If ${btn} on gamepad ${gp} is pressed,Se ${btn} no gamepad ${gp} está pressionado,,GML Visual story text
+GMStdIfGPPressed_Story_2,If ${btn} on gamepad ${gp} is pressed on ${applyto},Se ${btn} no gamepad ${gp} está pressionado em ${applyto},,GML Visual story text
+GMStdIfGPPressed_Story_3,If ${btn} on gamepad ${gp} is not pressed,Se ${btn} no gamepad ${gp} não está pressionado,,GML Visual story text
+GMStdIfGPPressed_Story_4,If ${btn} on gamepad ${gp} is not pressed on ${applyto},Se ${btn} no gamepad ${gp} não está pressionado em ${applyto},,GML Visual story text
+GMStdIfGPUp_Story_1,If ${btn} on gamepad ${gp} is released,Se ${btn} no gamepad ${gp} está liberado,,GML Visual story text
+GMStdIfGPUp_Story_2,If ${btn} on gamepad ${gp} is released on ${applyto},Se ${btn} no gamepad ${gp} está liberado em ${applyto},,GML Visual story text
+GMStdIfGPUp_Story_3,If ${btn} on gamepad ${gp} is not released,Se ${btn} no gamepad ${gp} não está liberado,,GML Visual story text
+GMStdIfGPUp_Story_4,If ${btn} on gamepad ${gp} is not released on ${applyto},Se ${btn} no gamepad ${gp} não está liberado em ${applyto},,GML Visual story text
+GMStdDirFixed_Story_1,Stop movement,Parar movimento,,GML Visual story text
+GMStdDirFixed_Story_2,Stop movement on ${applyto},Parar movimento em ${applyto},,GML Visual story text
+GMStdDirFixed_Story_3,Set direction to ${direction},Definir direção como ${direction},,GML Visual story text
+GMStdDirFixed_Story_4,Set direction to ${direction} on ${applyto},Definir direção como ${direction} em ${applyto},,GML Visual story text
+GMStdDirFree_Story_1,Add ${direction} to direction,Adicionar ${direction} à direção,,GML Visual story text
+GMStdDirFree_Story_2,Add ${direction} to direction on ${applyto},Adicionar ${direction} à direção em ${applyto},,GML Visual story text
+GMStdDirPoint_Story_1,Set direction towards ${dnd_position},Definir direção para ${dnd_position},,GML Visual story text
+GMStdDirPoint_Story_2,Set direction towards ${dnd_position} on ${applyto},Definir direção para ${dnd_position} em ${applyto},,GML Visual story text
+GMStdDirRandom_Story_1,Set random direction from ${direction},Definir direção aleatória de ${direction},,GML Visual story text
+GMStdDirRandom_Story_2,Set random direction from ${direction} on ${applyto},Definir direção aleatória de ${direction} em ${applyto},,GML Visual story text
+GMStdSpeed_Story_1,Add ${speed} to speed,Adicionar ${speed} à velocidade,,GML Visual story text
+GMStdSpeed_Story_2,Add ${speed} to speed on ${applyto},Adicionar ${speed} à velocidade em ${applyto},,GML Visual story text
+GMStdSpeed_Story_3,Set speed to ${speed},Definir velocidade como ${speed},,GML Visual story text
+GMStdSpeed_Story_4,Set speed to ${speed} on ${applyto},Definir velocidade como ${speed} em ${applyto},,GML Visual story text
+GMStdSpeed_Story_5,Add ${speed} to horizontal speed,Adicionar ${speed} à velocidade horizontal,,GML Visual story text
+GMStdSpeed_Story_6,Add ${speed} to horizontal speed on ${applyto},Adicionar ${speed} à velocidade horizontal em ${applyto},,GML Visual story text
+GMStdSpeed_Story_7,Set horizontal speed to ${speed},Definir velocidade horizontal como ${speed},,GML Visual story text
+GMStdSpeed_Story_8,Set horizontal speed to ${speed} on ${applyto},Definir velocidade horizontal como ${speed} em ${applyto},,GML Visual story text
+GMStdSpeed_Story_9,Add ${speed} to vertical speed,Adicionar ${speed} à velocidade vertical,,GML Visual story text
+GMStdSpeed_Story_10,Add ${speed} to vertical speed on ${applyto},Adicionar ${speed} à velocidade vertical em ${applyto},,GML Visual story text
+GMStdSpeed_Story_11,Set vertical speed to ${speed},Definir velocidade vertical como ${speed},,GML Visual story text
+GMStdSpeed_Story_12,Set vertical speed to ${speed} on ${applyto},Definir velocidade vertical como ${speed} em ${applyto},,GML Visual story text
+GMStdGravDir_Story_1,Add ${direction} to gravity direction,Adicionar ${direction} à direção da gravidade,,GML Visual story text
+GMStdGravDir_Story_2,Add ${direction} to gravity direction on ${applyto},Adicionar ${direction} à direção da gravidade em ${applyto},,GML Visual story text
+GMStdGravDir_Story_3,Set gravity direction to ${direction},Definir direção da gravidade como ${direction},,GML Visual story text
+GMStdGravDir_Story_4,Set gravity direction to ${direction} on ${applyto},Definir direção da gravidade como ${direction} em ${applyto},,GML Visual story text
+GMStdGravForce_Story_1,Add ${force} to gravity force,Adicionar ${force} à força da gravidade,,GML Visual story text
+GMStdGravForce_Story_2,Add ${force} to gravity force on ${applyto},Adicionar ${force} à força da gravidade em ${applyto},,GML Visual story text
+GMStdGravForce_Story_3,Set gravity force to ${force},Definir força da gravidade como ${force},,GML Visual story text
+GMStdGravForce_Story_4,Set gravity force to ${force} on ${applyto},Definir força da gravidade como ${force} em ${applyto},,GML Visual story text
+GMStdReverse_Story_1,Reverse direction,Reverter direção,,GML Visual story text
+GMStdReverse_Story_2,Reverse direction on ${applyto},Reverter direção em ${applyto},,GML Visual story text
+GMStdReverse_Story_3,Reverse horizontal speed,Reverter velocidade horizontal,,GML Visual story text
+GMStdReverse_Story_4,Reverse horizontal speed on ${applyto},Reverter velocidade horizontal em ${applyto},,GML Visual story text
+GMStdReverse_Story_5,Reverse vertical speed,Reverter velocidade vertical,,GML Visual story text
+GMStdReverse_Story_6,Reverse vertical speed on ${applyto},Reverter velocidade vertical em ${applyto},,GML Visual story text
+GMStdReverse_Story_7,Reverse gravitational direction,Reverter a direção gravitacional,,GML Visual story text
+GMStdReverse_Story_8,Reverse gravitational direction on ${applyto},Reverter a direção gravitacional em ${applyto},,GML Visual story text
+GMStdFriction_Story_1,Add ${friction} to friction,Adicionar ${friction} à fricção,,GML Visual story text
+GMStdFriction_Story_2,Add ${friction} to friction on ${applyto},Adicionar ${friction} à fricção em ${applyto},,GML Visual story text
+GMStdFriction_Story_3,Set friction to ${friction},Adicionar fricção à ${friction},,GML Visual story text
+GMStdFriction_Story_4,Set friction to ${friction} on ${applyto},Adicionar fricção à ${friction} em ${applyto},,GML Visual story text
+GMStdJumpPoint_Story_1,Jump to ${dnd_position},Pular para ${dnd_position},,GML Visual story text
+GMStdJumpPoint_Story_2,Jump to ${dnd_position} on ${applyto},Pular para ${dnd_position} em ${applyto},,GML Visual story text
+GMStdJumpStart_Story_1,Jump to start,Pular para início,,GML Visual story text
+GMStdJumpStart_Story_2,Jump ${applyto} to start,Pular ${applyto} para início,,GML Visual story text
+GMStdSnapPos_Story_1,"Snap  to ${xsnap},${ysnap}","Ajustar a ${xsnap},${ysnap}",,GML Visual story text
+GMStdSnapPos_Story_2,"Snap ${applyto} to ${xsnap},${ysnap} on ${applyto}","Ajustar ${applyto} a ${xsnap},${ysnap} em ${applyto}",,GML Visual story text
+GMStdWrapRoom_Story_1,Wrap around room,Quebrar linha ao redor do cena,,GML Visual story text
+GMStdWrapRoom_Story_2,Wrap ${applyto} around room on ${applyto},Quebrar linha ${applyto} ao redor do cena em ${applyto},,GML Visual story text
+GMStdIfAnyObjAt_Story_1,If any instance is overlapping self at ${dnd_position},Se uma instância se sobrepor a ${dnd_position},,GML Visual story text
+GMStdIfAnyObjAt_Story_2,If any instance is overlapping self at ${dnd_position} on ${applyto},Se uma instância se sobrepor a ${dnd_position} em ${applyto},,GML Visual story text
+GMStdIfAnyObjAt_Story_3,If no instance is overlapping self at ${dnd_position},Se nenhuma instância se sobrepor a ${dnd_position},,GML Visual story text
+GMStdIfAnyObjAt_Story_4,If no instance is overlapping self at ${dnd_position} on ${applyto},Se nenhuma instância se sobrepor a ${dnd_position} em ${applyto},,GML Visual story text
+GMStdIfObjAt_Story_1,If ${object} is overlapping self at ${dnd_position}${show_input_count},Se ${object} está se sobrepondo a ${dnd_position}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_2,If ${object} is overlapping self at ${dnd_position} on ${applyto}${show_input_count},Se ${object} está se sobrepondo a ${dnd_position} em ${applyto}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_3,If ${object} is overlapping self at ${dnd_position} into ${target}${show_input_count},Se ${object} está se sobrepondo a ${dnd_position} em ${target}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_4,If ${object} is overlapping self at ${dnd_position} into ${target} on ${applyto}${show_input_count},Se ${object} está se sobrepondo a ${dnd_position} em ${target} em ${applyto}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_5,If ${object} is overlapping self at ${dnd_position} into temp ${target}${show_input_count},Se ${object} está se sobrepondo a ${dnd_position} em ${target}${show_input_count} temporário,,GML Visual story text
+GMStdIfObjAt_Story_6,If ${object} is overlapping self at ${dnd_position} into temp ${target} on ${applyto}${show_input_count},Se ${object} está se sobrepondo a ${dnd_position} em ${target} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_7,If ${object} is not overlapping self at ${dnd_position}${show_input_count},Se ${object} não está se sobrepondo a ${dnd_position}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_8,If ${object} is not overlapping self at ${dnd_position} on ${applyto}${show_input_count},Se ${object} não está se sobrepondo a ${dnd_position} em ${applyto}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_9,If ${object} is not overlapping self at ${dnd_position} into ${target}${show_input_count},Se ${object} não está se sobrepondo a ${dnd_position} em ${target}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_10,If ${object} is not overlapping self at ${dnd_position} into ${target} on ${applyto}${show_input_count},Se ${object} não está se sobrepondo a ${dnd_position} em ${target} em ${applyto}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_11,If ${object} is not overlapping self at ${dnd_position} into temp ${target}${show_input_count},Se ${object} não está se sobrepondo a ${dnd_position} em ${target}${show_input_count} temporário,,GML Visual story text
+GMStdIfObjAt_Story_12,If ${object} is not overlapping self at ${dnd_position} into temp ${target} on ${applyto}${show_input_count},Se ${object} não está se sobrepondo a ${dnd_position} em ${target} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdIfColShape_Story_1,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2},Se ${obj} cruza a linha de ${dnd_position1} a ${dnd_position2},,GML Visual story text
+GMStdIfColShape_Story_2,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} on ${applyto},Se ${obj} cruza a linha de ${dnd_position1} a ${dnd_position2} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_3,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target},Se ${obj} cruza a linha de ${dnd_position1} a ${dnd_position2} em uma lista ${target},,GML Visual story text
+GMStdIfColShape_Story_4,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},Se ${obj} cruza a linha de ${dnd_position1} a ${dnd_position2} em uma lista ${target} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_5,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target},Se ${obj} cruza a linha de ${dnd_position1} a ${dnd_position2} em uma lista ${target} temporária,,GML Visual story text
+GMStdIfColShape_Story_6,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},Se ${obj} cruza a linha de ${dnd_position1} a ${dnd_position2} em uma lista ${target} temporária em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_7,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target},Se ${obj} cruza a linha de ${dnd_position1} a ${dnd_position2} em ${target},,GML Visual story text
+GMStdIfColShape_Story_8,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},Se ${obj} cruza a linha de ${dnd_position1} a ${dnd_position2} em ${target} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_9,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target},Se ${obj} cruza a linha de ${dnd_position1} a ${dnd_position2} em um ${target} temporário,,GML Visual story text
+GMStdIfColShape_Story_10,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},Se ${obj} cruza a linha de ${dnd_position1} a ${dnd_position2} em um ${target} temporário em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_11,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2},Se ${obj} cruza o retângulo de ${dnd_position1} a ${dnd_position2},,GML Visual story text
+GMStdIfColShape_Story_12,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} on ${applyto},Se ${obj} cruza o retângulo de ${dnd_position1} a ${dnd_position2} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_13,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target},Se ${obj} cruza o retângulo de ${dnd_position1} a ${dnd_position2} em uma lista ${target},,GML Visual story text
+GMStdIfColShape_Story_14,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},Se ${obj} cruza o retângulo de ${dnd_position1} a ${dnd_position2} em uma lista ${target} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_15,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target},Se ${obj} cruza o retângulo de ${dnd_position1} a ${dnd_position2} em uma lista ${target} temporária,,GML Visual story text
+GMStdIfColShape_Story_16,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},Se ${obj} cruza o retângulo de ${dnd_position1} a ${dnd_position2} em uma lista ${target} temporária em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_17,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target},Se ${obj} cruza o retângulo de ${dnd_position1} a ${dnd_position2} em ${target},,GML Visual story text
+GMStdIfColShape_Story_18,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},Se ${obj} cruza o retângulo de ${dnd_position1} a ${dnd_position2} em ${target} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_19,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target},Se ${obj} cruza o retângulo de ${dnd_position1} a ${dnd_position2} em ${target} temporário,,GML Visual story text
+GMStdIfColShape_Story_20,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},Se ${obj} cruza o retângulo de ${dnd_position1} a ${dnd_position2} em ${target} temporário em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_21,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2},Se ${obj} cruza a elipse de ${dnd_position1} a ${dnd_position2},,GML Visual story text
+GMStdIfColShape_Story_22,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto},Se ${obj} cruza a elipse de ${dnd_position1} a ${dnd_position2} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_23,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target},Se ${obj} cruza a elipse de ${dnd_position1} a ${dnd_position2} em uma lista ${target},,GML Visual story text
+GMStdIfColShape_Story_24,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},Se ${obj} cruza a elipse de ${dnd_position1} a ${dnd_position2} em uma lista ${target} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_25,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target},Se ${obj} cruza a elipse de ${dnd_position1} a ${dnd_position2} em uma lista ${target} temporária,,GML Visual story text
+GMStdIfColShape_Story_26,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},Se ${obj} cruza a elipse de ${dnd_position1} a ${dnd_position2} em uma lista ${target} temporária em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_27,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target},Se ${obj} cruza a elipse de ${dnd_position1} a ${dnd_position2} em ${target},,GML Visual story text
+GMStdIfColShape_Story_28,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},Se ${obj} cruza a elipse de ${dnd_position1} a ${dnd_position2} em ${target} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_29,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target},Se ${obj} cruza a elipse de ${dnd_position1} a ${dnd_position2} em um ${target} temporário,,GML Visual story text
+GMStdIfColShape_Story_30,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},Se ${obj} cruza a elipse de ${dnd_position1} a ${dnd_position2} em um ${target} temporário em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_31,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2},Se ${obj} não cruza a linha de ${dnd_position1} a ${dnd_position2},,GML Visual story text
+GMStdIfColShape_Story_32,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} on ${applyto},Se ${obj} não cruza a linha de ${dnd_position1} a ${dnd_position2} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_33,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target},Se ${obj} não cruza a linha de ${dnd_position1} a ${dnd_position2} em uma lista ${target},,GML Visual story text
+GMStdIfColShape_Story_34,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},Se ${obj} não cruza a linha de ${dnd_position1} a ${dnd_position2} em uma lista ${target} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_35,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target},Se ${obj} não cruza a linha de ${dnd_position1} a ${dnd_position2} em uma lista ${target} temporária,,GML Visual story text
+GMStdIfColShape_Story_36,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},Se ${obj} não cruza a linha de ${dnd_position1} a ${dnd_position2} em uma lista ${target} temporária em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_37,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target},Se ${obj} não cruza a linha de ${dnd_position1} a ${dnd_position2} em ${target},,GML Visual story text
+GMStdIfColShape_Story_38,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},Se ${obj} não cruza a linha de ${dnd_position1} a ${dnd_position2} em ${target} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_39,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target},Se ${obj} não cruza a linha de ${dnd_position1} a ${dnd_position2} em um ${target} temporário,,GML Visual story text
+GMStdIfColShape_Story_40,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},Se ${obj} não cruza a linha de ${dnd_position1} a ${dnd_position2} em um ${target} temporário em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_41,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2},Se ${obj} não cruza o retângulo de ${dnd_position1} a ${dnd_position2},,GML Visual story text
+GMStdIfColShape_Story_42,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} on ${applyto},Se ${obj} não cruza o retângulo de ${dnd_position1} a ${dnd_position2} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_43,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target},Se ${obj} não cruza o retângulo de ${dnd_position1} a ${dnd_position2} em uma lista ${target},,GML Visual story text
+GMStdIfColShape_Story_44,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},Se ${obj} não cruza o retângulo de ${dnd_position1} a ${dnd_position2} em uma lista ${target} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_45,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target},Se ${obj} não cruza o retângulo de ${dnd_position1} a ${dnd_position2} em uma lista ${target} temporária,,GML Visual story text
+GMStdIfColShape_Story_46,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},Se ${obj} não cruza o retângulo de ${dnd_position1} a ${dnd_position2} em uma lista ${target} temporária em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_47,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target},Se ${obj} não cruza o retângulo de ${dnd_position1} a ${dnd_position2} em ${target},,GML Visual story text
+GMStdIfColShape_Story_48,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},Se ${obj} não cruza o retângulo de ${dnd_position1} a ${dnd_position2} em ${target} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_49,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target},Se ${obj} não cruza o retângulo de ${dnd_position1} a ${dnd_position2} em uma lista ${target} temporária,,GML Visual story text
+GMStdIfColShape_Story_50,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},Se ${obj} não cruza o retângulo de ${dnd_position1} a ${dnd_position2} em ${target} temporário em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_51,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2},Se ${obj} não cruza a elipse de ${dnd_position1} a ${dnd_position2},,GML Visual story text
+GMStdIfColShape_Story_52,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto},Se ${obj} não cruza a elipse de ${dnd_position1} a ${dnd_position2} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_53,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target},Se ${obj} não cruza a elipse de ${dnd_position1} a ${dnd_position2} em uma lista ${target},,GML Visual story text
+GMStdIfColShape_Story_54,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},Se ${obj} não cruza a elipse de ${dnd_position1} a ${dnd_position2} em uma lista ${target} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_55,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target},Se ${obj} não cruza a elipse de ${dnd_position1} a ${dnd_position2} em uma lista ${target} temporária,,GML Visual story text
+GMStdIfColShape_Story_56,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},Se ${obj} não cruza a elipse de ${dnd_position1} a ${dnd_position2} em uma lista ${target} temporária em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_57,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target},Se ${obj} não cruza a elipse de ${dnd_position1} a ${dnd_position2} em ${target},,GML Visual story text
+GMStdIfColShape_Story_58,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},Se ${obj} não cruza a elipse de ${dnd_position1} a ${dnd_position2} em ${target} em ${applyto},,GML Visual story text
+GMStdIfColShape_Story_59,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target},Se ${obj} não cruza a elipse de ${dnd_position1} a ${dnd_position2} em uma lista ${target} temporária,,GML Visual story text
+GMStdIfColShape_Story_60,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},Se ${obj} não cruza a elipse de ${dnd_position1} a ${dnd_position2} em um ${target} temporário em ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_1,If ${obj} intersects point ${dnd_position},Se ${obj} cruza um ponto em ${dnd_position},,GML Visual story text
+GMStdIfColPoint_Story_2,If ${obj} intersects point ${dnd_position} on ${applyto},Se ${obj} cruza um ponto em ${dnd_position} em ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_3,If ${obj} intersects point ${dnd_position} into list ${target},Se ${obj} cruza um ponto em ${dnd_position} em uma lista ${target},,GML Visual story text
+GMStdIfColPoint_Story_4,If ${obj} intersects point ${dnd_position} into list ${target} on ${applyto},Se ${obj} cruza um ponto em ${dnd_position} em uma lista ${target} em ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_5,If ${obj} intersects point ${dnd_position} into list temp ${target},Se ${obj} cruza um ponto em ${dnd_position} em uma lista ${target} temporária,,GML Visual story text
+GMStdIfColPoint_Story_6,If ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto},Se ${obj} cruza um ponto em ${dnd_position} em uma lista ${target} temporária em ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_7,If ${obj} intersects point ${dnd_position} into ${target},Se ${obj} cruza um ponto em ${dnd_position} em ${target},,GML Visual story text
+GMStdIfColPoint_Story_8,If ${obj} intersects point ${dnd_position} into ${target} on ${applyto},Se ${obj} cruza um ponto em ${dnd_position} em ${target} em ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_9,If ${obj} intersects point ${dnd_position} into temp ${target},Se ${obj} cruza um ponto em ${dnd_position} em um ${target} temporário,,GML Visual story text
+GMStdIfColPoint_Story_10,If ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto},Se ${obj} cruza um ponto em ${dnd_position} em um ${target} temporário em ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_11,If not ${obj} intersects point ${dnd_position},Se ${obj} não cruza um ponto em ${dnd_position},,GML Visual story text
+GMStdIfColPoint_Story_12,If not ${obj} intersects point ${dnd_position} on ${applyto},Se ${obj} não cruza um ponto em ${dnd_position} em ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_13,If not ${obj} intersects point ${dnd_position} into list ${target},Se ${obj} não cruza um ponto em ${dnd_position} em uma lista ${target},,GML Visual story text
+GMStdIfColPoint_Story_14,If not ${obj} intersects point ${dnd_position} into list ${target} on ${applyto},Se ${obj} não cruza um ponto em ${dnd_position} em uma lista ${target} em ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_15,If not ${obj} intersects point ${dnd_position} into list temp ${target},Se ${obj} não cruza um ponto em ${dnd_position} em uma lista ${target} temporária,,GML Visual story text
+GMStdIfColPoint_Story_16,If not ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto},Se ${obj} não cruza um ponto em ${dnd_position} em uma lista ${target} temporária em ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_17,If not ${obj} intersects point ${dnd_position} into ${target},Se ${obj} não cruza um ponto em ${dnd_position} em ${target},,GML Visual story text
+GMStdIfColPoint_Story_18,If not ${obj} intersects point ${dnd_position} into ${target} on ${applyto},Se ${obj} não cruza um ponto em ${dnd_position} em ${target} em ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_19,If not ${obj} intersects point ${dnd_position} into temp ${target},Se ${obj} não cruza um ponto em ${dnd_position} em um ${target} temporário,,GML Visual story text
+GMStdIfColPoint_Story_20,If not ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto},Se ${obj} não cruza um ponto em ${dnd_position} em uma lista ${target} temporária em ${applyto},,GML Visual story text
+GMStdDrawSelf_Story_1,Draw self,Desenhar individual,,GML Visual story text
+GMStdDrawSelf_Story_2,Draw self on ${applyto},Desenhar individual em ${applyto},,GML Visual story text
+GMStdDrawValue_Story_1,Draw  at ${dnd_position},Desenhar em ${dnd_position},,GML Visual story text
+GMStdDrawValue_Story_2,Draw  at ${dnd_position} on ${applyto},Desenhar em ${dnd_position} em ${applyto},,GML Visual story text
+GMStdDrawValue_Story_3,Draw  ${var} at ${dnd_position},Desenhar ${var} em ${dnd_position},,GML Visual story text
+GMStdDrawValue_Story_4,Draw  ${var} at ${dnd_position} on ${applyto},Desenhar ${var} em ${dnd_position} em ${applyto},,GML Visual story text
+GMStdDrawValue_Story_5,"Draw ""${caption}"" at ${dnd_position}","Desenhar ""${caption}"" em ${dnd_position}",,GML Visual story text
+GMStdDrawValue_Story_6,"Draw ""${caption}"" at ${dnd_position} on ${applyto}","Desenhar ""${caption}"" em ${dnd_position} em ${applyto}",,GML Visual story text
+GMStdDrawValue_Story_7,"Draw ""${caption}"" ${var} at ${dnd_position}","Desenhar ""${caption}"" ${var} em ${dnd_position}",,GML Visual story text
+GMStdDrawValue_Story_8,"Draw ""${caption}"" ${var} at ${dnd_position} on ${applyto}","Desenhar ""${caption}"" ${var} em ${dnd_position} em ${applyto}",,GML Visual story text
+GMStdDrawValueTransformed_Story_1,Draw transformed  at ${dnd_position},Desenhar transformado em ${dnd_position},,GML Visual story text
+GMStdDrawValueTransformed_Story_2,Draw transformed  at ${dnd_position} on ${applyto},Desenhar transformado em ${dnd_position} em ${applyto},,GML Visual story text
+GMStdDrawValueTransformed_Story_3,Draw transformed  ${var} at ${dnd_position},Desenhar ${var} transformado em ${dnd_position},,GML Visual story text
+GMStdDrawValueTransformed_Story_4,Draw transformed  ${var} at ${dnd_position} on ${applyto},Desenhar ${var} transformado em ${dnd_position} em ${applyto},,GML Visual story text
+GMStdDrawValueTransformed_Story_5,"Draw transformed ""${caption}"" at ${dnd_position}","Desenhar ""${caption}"" transformado em ${dnd_position}",,GML Visual story text
+GMStdDrawValueTransformed_Story_6,"Draw transformed ""${caption}"" at ${dnd_position} on ${applyto}","Desenhar ""${caption}"" transformado em ${dnd_position} em ${applyto}",,GML Visual story text
+GMStdDrawValueTransformed_Story_7,"Draw transformed ""${caption}"" ${var} at ${dnd_position}","Desenhar ""${caption}"" ${var} transformado em ${dnd_position}",,GML Visual story text
+GMStdDrawValueTransformed_Story_8,"Draw transformed ""${caption}"" ${var} at ${dnd_position} on ${applyto}","Desenhar ""${caption}"" ${var} transformado em ${dnd_position} em ${applyto}",,GML Visual story text
+GMStdDrawSprite_Story_1,Draw sprite ${sprite} frame ${image} at ${dnd_position},Desenhar quadro do Sprite ${sprite} de ${image} em ${dnd_position},,GML Visual story text
+GMStdDrawSprite_Story_2,Draw sprite ${sprite} frame ${image} at ${dnd_position} on ${applyto},Desenhar quadro do Sprite ${sprite} de ${image} em ${dnd_position} em ${applyto},,GML Visual story text
+GMStdDrawSpriteExt_Story_1,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot}","Desenhar quadro do Sprite ${sprite} transformado de ${frame} com dimensionamento ${xscale},${yscale} e rotação ${rot}",,GML Visual story text
+GMStdDrawSpriteExt_Story_2,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot} on ${applyto}","Desenhar quadro do Sprite ${sprite} transformado de ${frame} com dimensionamento ${xscale},${yscale} e rotação ${rot} em ${applyto}",,GML Visual story text
+GMStdDrawSpritesStacked_Story_1,Draw sprite ${sprite} in ${number} rows at ${dnd_position},Desenhar Sprite ${sprite} em ${number} linhas em ${dnd_position},,GML Visual story text
+GMStdDrawSpritesStacked_Story_2,Draw sprite ${sprite} in ${number} rows at ${dnd_position} on ${applyto},Desenhar Sprite ${sprite} em ${number} linhas em ${dnd_position} em ${applyto},,GML Visual story text
+GMStdDrawSpritesStacked_Story_3,Draw sprite ${sprite} in ${number} columns at ${dnd_position},Desenhar Sprite ${sprite} em ${number} colunas em ${dnd_position},,GML Visual story text
+GMStdDrawSpritesStacked_Story_4,Draw sprite ${sprite} in ${number} columns at ${dnd_position} on ${applyto},Desenhar Sprite ${sprite} em ${number} colunas em ${dnd_position} em ${applyto},,GML Visual story text
+GMStdDrawRectangle_Story_1,Draw rectangle from ${dnd_position1} to ${dnd_position2},Desenhar retângulo de ${dnd_position1} a ${dnd_position2},,GML Visual story text
+GMStdDrawRectangle_Story_2,Draw rectangle from ${dnd_position1} to ${dnd_position2} on ${applyto},Desenhar retângulo de ${dnd_position1} a ${dnd_position2} em ${applyto},,GML Visual story text
+GMStdDrawGradientRect_Story_1,Draw gradient rectangular outline from ${dnd_position1} to ${dnd_position2},Desenhar estrutura retangular gradiente de ${dnd_position1} a ${dnd_position2},,GML Visual story text
+GMStdDrawGradientRect_Story_2,Draw gradient rectangular outline from ${dnd_position1} to ${dnd_position2} on ${applyto},Desenhar estrutura retangular gradiente de ${dnd_position1} a ${dnd_position2} em ${applyto},,GML Visual story text
+GMStdDrawGradientRect_Story_3,Draw gradient rectangle from ${dnd_position1} to ${dnd_position2},Desenhar retângulo gradiente de ${dnd_position1} a ${dnd_position2},,GML Visual story text
+GMStdDrawGradientRect_Story_4,Draw gradient rectangle from ${dnd_position1} to ${dnd_position2} on ${applyto},Desenhar retângulo gradiente de ${dnd_position1} a ${dnd_position2} em ${applyto},,GML Visual story text
+GMStdDrawEllipse_Story_1,Draw ellipse from ${dnd_position1} to ${dnd_position2},Desenhar elipse de ${dnd_position1} a ${dnd_position2},,GML Visual story text
+GMStdDrawEllipse_Story_2,Draw ellipse from ${dnd_position1} to ${dnd_position2} on ${applyto},Desenhar elipse de ${dnd_position1} a ${dnd_position2} em ${applyto},,GML Visual story text
+GMStdDrawGradientEllipse_Story_1,Draw gradient elliptical outline from ${dnd_position1} to ${dnd_position2},Desenhar estrutura elíptica gradiente de ${dnd_position1} a ${dnd_position2},,GML Visual story text
+GMStdDrawGradientEllipse_Story_2,Draw gradient elliptical outline from ${dnd_position1} to ${dnd_position2} on ${applyto},Desenhar estrutura elíptica gradiente de ${dnd_position1} a ${dnd_position2} em ${applyto},,GML Visual story text
+GMStdDrawGradientEllipse_Story_3,Draw gradient ellipse from ${dnd_position1} to ${dnd_position2},Desenhar elipse gradiente de ${dnd_position1} a ${dnd_position2},,GML Visual story text
+GMStdDrawGradientEllipse_Story_4,Draw gradient ellipse from ${dnd_position1} to ${dnd_position2} on ${applyto},Desenhar elipse gradiente de ${dnd_position1} a ${dnd_position2} em ${applyto},,GML Visual story text
+GMStdDrawLine_Story_1,Draw line from ${dnd_position1} to ${dnd_position2},Desenhar linha de ${dnd_position1} a ${dnd_position2},,GML Visual story text
+GMStdDrawLine_Story_2,Draw line from ${dnd_position1} to ${dnd_position2} on ${applyto},Desenhar linha de ${dnd_position1} a ${dnd_position2} em ${applyto},,GML Visual story text
+GMStdDrawHealthbar_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value},Desenhar barra de vida de ${dnd_position1} a ${dnd_position2} com valor de ${value},,GML Visual story text
+GMStdDrawHealthbar_Story_2,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value} on ${applyto},Desenhar barra de vida de ${dnd_position1} a ${dnd_position2} com valor de ${value} em ${applyto},,GML Visual story text
+GMStdDrawInstanceScore_Story_1,Draw score at ${dnd_position},Desenhar pontuação em ${dnd_position},,GML Visual story text
+GMStdDrawInstanceScore_Story_2,"Draw score at ${dnd_position} with caption ""${caption}""","Desenhar pontuação em ${dnd_position} com legenda ""${caption}""",,GML Visual story text
+GMStdDrawInstanceScore_Story_3,Draw ${applyto}'s score at ${dnd_position} on ${applyto},Desenhar pontuação de ${applyto} em ${dnd_position} em ${applyto},,GML Visual story text
+GMStdDrawInstanceScore_Story_4,"Draw ${applyto}'s score at ${dnd_position} with caption ""${caption}"" on ${applyto}","Desenhar pontuação de ${applyto} em ${dnd_position} com legenda ""${caption}"" em ${applyto}",,GML Visual story text
+GMStdDrawInstanceHealth_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2},Desenhar barra de vida de ${dnd_position1} a ${dnd_position2},,GML Visual story text
+GMStdDrawInstanceHealth_Story_2,Draw ${applyto}'s healthbar from ${dnd_position1} to ${dnd_position2} on ${applyto},Desenhar barra de vida de ${applyto} de ${dnd_position1} a ${dnd_position2} em ${applyto},,GML Visual story text
+GMStdDrawInstanceLives_Story_1,Draw lives in a row at ${dnd_position},Desenhar vidas em uma linha em ${dnd_position},,GML Visual story text
+GMStdDrawInstanceLives_Story_2,Draw lives in a column at ${dnd_position},Desenhar vidas em uma coluna em ${dnd_position},,GML Visual story text
+GMStdDrawInstanceLives_Story_3,Draw ${applyto}'s lives in a row at ${dnd_position} on ${applyto},Desenhar vidas de ${applyto} em uma linha em ${dnd_position} em ${applyto},,GML Visual story text
+GMStdDrawInstanceLives_Story_4,Draw ${applyto}'s lives in a column at ${dnd_position} on ${applyto},Desenhar vidas de ${applyto} em uma coluna em ${dnd_position} em ${applyto},,GML Visual story text
+GMStdSetColor_Story_1,Set draw color to ${color},Definir cor do desenho como ${color},,GML Visual story text
+GMStdSetColor_Story_2,Set draw color to ${color} on ${applyto},Definir cor do desenho como ${color} em ${applyto},,GML Visual story text
+GMStdGetColor_Story_1,Get draw color into ${var},Obter cor do desenho em ${var},,GML Visual story text
+GMStdGetColor_Story_2,Get draw color into ${var} on ${applyto},Obter cor do desenho em ${var} em ${applyto},,GML Visual story text
+GMStdAlpha_Story_1,Set drawing alpha channel to ${alpha},Definir canal de alfa do desenho como ${alpha},,GML Visual story text
+GMStdAlpha_Story_2,Set drawing alpha channel to ${alpha} on ${applyto},Definir canal de alfa do desenho como ${alpha} em ${applyto},,GML Visual story text
+GMStdGetAlpha_Story_1,Get drawing alpha channel into ${var},Obter canal de alfa do desenho em ${var},,GML Visual story text
+GMStdGetAlpha_Story_2,Get drawing alpha channel into ${var} on ${applyto},Obter canal de alfa do desenho em ${var} em ${applyto},,GML Visual story text
+GMStdSetFont_Story_1,Set font to ${font},Selecionar fonte para ${font},,GML Visual story text
+GMStdSetFont_Story_2,Set font to ${font} on ${applyto},Selecionar fonte para ${font} em ${applyto},,GML Visual story text
+GMStdGetFont_Story_1,Get draw font into ${var},Obter fonte do desenho em ${var},,GML Visual story text
+GMStdGetFont_Story_2,Get draw font into ${var} on ${applyto},Obter fonte do desenho em ${var} em ${applyto},,GML Visual story text
+GMStdSetAlignment_Story_1,Set text alignment to ${halign} and ${valign},Definir alinhamento de texto como ${halign} e ${valign},,GML Visual story text
+GMStdSetAlignment_Story_2,Set text alignment to ${halign} and ${valign} on ${applyto},Definir alinhamento de texto como ${halign} e ${valign} em ${applyto},,GML Visual story text
+GMStdGetTextAlign_Story_1,Get horizontal text alignment into ${var},Obter alinhamento de texto horizontal em ${var},,GML Visual story text
+GMStdGetTextAlign_Story_2,Get horizontal text alignment into ${var} on ${applyto},Obter alinhamento de texto horizontal em ${var} em ${applyto},,GML Visual story text
+GMStdGetTextAlign_Story_3,Get vertical text alignment into ${var},Obter alinhamento de texto vertical em ${var},,GML Visual story text
+GMStdGetTextAlign_Story_4,Get vertical text alignment into ${var} on ${applyto},Obter alinhamento de texto vertical em ${var} em ${applyto},,GML Visual story text
+GMStdTileSetAtPixel_Story_1,Set tile on layer ${layername} at ${dnd_position} to ${tile},Configurar tile na camada ${layername} em ${dnd_position} para ${tile},,GML Visual story text
+GMStdTileSetAtPixel_Story_2,Set tile on layer ${layername} at ${dnd_position} to ${tile} on ${applyto},Configurar tile na camada ${layername} em ${dnd_position} para ${tile} em ${applyto},,GML Visual story text
+GMStdTileGetAtPixel_Story_1,Get tile index at ${dnd_position} on layer ${layername} into ${var},Obter índice de tiles no pixel em ${dnd_position} na camada ${layername} em ${var},,GML Visual story text
+GMStdTileGetAtPixel_Story_2,Get tile index at ${dnd_position} on layer ${layername} into ${var} on ${applyto},Obter índice de tiles no pixel em ${dnd_position} na camada ${layername} em ${var} em ${applyto},,GML Visual story text
+GMStdTileGetAtPixel_Story_3,Get tile index at ${dnd_position} on layer ${layername} into temp ${var},Obter índice de tiles no pixel em ${dnd_position} na camada ${layername} em ${var} temporário,,GML Visual story text
+GMStdTileGetAtPixel_Story_4,Get tile index at ${dnd_position} on layer ${layername} into temp ${var} on ${applyto},Obter índice de tiles no pixel em ${dnd_position} na camada ${layername} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdTileSetInCell_Story_1,"Set tile on layer ${layername} in cell ${x},${y} to ${tile}","Configurar tile na camada ${layername} na célula ${x},${y} para ${tile}",,GML Visual story text
+GMStdTileSetInCell_Story_2,"Set tile on layer ${layername} in cell ${x},${y} to ${tile} on ${applyto}","Configurar tile na camada ${layername} na célula ${x},${y} para ${tile} em ${applyto}",,GML Visual story text
+GMStdTileGetInCell_Story_1,"Get tile index in cell ${x},${y} on layer ${layername} into ${var}","Obter índice de tiles na célula ${x},${y} na camada ${layername} em ${var}",,GML Visual story text
+GMStdTileGetInCell_Story_2,"Get tile index in cell ${x},${y} on layer ${layername} into ${var} on ${applyto}","Obter índice de tiles na célula ${x},${y} na camada ${layername} em ${var} em ${applyto}",,GML Visual story text
+GMStdTileGetInCell_Story_3,"Get tile index in cell ${x},${y} on layer ${layername} into temp ${var}","Obter índice de tiles na célula ${x},${y} na camada ${layername} em ${var} temporário",,GML Visual story text
+GMStdTileGetInCell_Story_4,"Get tile index in cell ${x},${y} on layer ${layername} into temp ${var} on ${applyto}","Obter índice de tiles na célula ${x},${y} na camada ${layername} em ${var} temporário em ${applyto}",,GML Visual story text
+GMStdTileSetTileSet_Story_1,Set tile set ${tileset} on layer ${layername},Configurar conjunto de tiles ${tileset} na camada ${layername},,GML Visual story text
+GMStdTileSetTileSet_Story_2,Set tile set ${tileset} on layer ${layername} on ${applyto},Configurar conjunto de tiles ${tileset} na camada ${layername} em ${applyto},,GML Visual story text
+GMStdTileGetVar_Story_1,Get tilemap x on layer ${layername} into ${target}${show_input_count},Obter tile de mapa x na camada ${layername} em ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_2,Get tilemap x on layer ${layername} into ${target} on ${applyto}${show_input_count},Obter tile de mapa x na camada ${layername} em ${target} em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_3,Get tilemap x on layer ${layername} into temp ${target}${show_input_count},Obter tile de mapa x na camada ${layername} em ${target}${show_input_count} temporário,,GML Visual story text
+GMStdTileGetVar_Story_4,Get tilemap x on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Obter tile de mapa x na camada ${layername} em ${target} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_5,Get tilemap y on layer ${layername} into ${target}${show_input_count},Obter tile de mapa y na camada ${layername} em ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_6,Get tilemap y on layer ${layername} into ${target} on ${applyto}${show_input_count},Obter tile de mapa y na camada ${layername} em ${target} em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_7,Get tilemap y on layer ${layername} into temp ${target}${show_input_count},Obter tile de mapa y na camada ${layername} em ${target}${show_input_count} temporário,,GML Visual story text
+GMStdTileGetVar_Story_8,Get tilemap y on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Obter tile de mapa y na camada ${layername} em ${target} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_9,Get tilemap width on layer ${layername} into ${target}${show_input_count},Obter largura de tile de mapa na camada ${layername} em ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_10,Get tilemap width on layer ${layername} into ${target} on ${applyto}${show_input_count},Obter largura de tile de mapa na camada ${layername} em ${target} em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_11,Get tilemap width on layer ${layername} into temp ${target}${show_input_count},Obter largura de tile de mapa na camada ${layername} em ${target}${show_input_count} temporário,,GML Visual story text
+GMStdTileGetVar_Story_12,Get tilemap width on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Obter largura de tile de mapa na camada ${layername} em ${target} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_13,Get tilemap height on layer ${layername} into ${target}${show_input_count},Obter largura de tile de mapa na camada ${layername} em ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_14,Get tilemap height on layer ${layername} into ${target} on ${applyto}${show_input_count},Obter altura de tile de mapa na camada ${layername} em ${target} em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_15,Get tilemap height on layer ${layername} into temp ${target}${show_input_count},Obter altura de tile de mapa na camada ${layername} em ${target}${show_input_count} temporário,,GML Visual story text
+GMStdTileGetVar_Story_16,Get tilemap height on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Obter altura de tile de mapa na camada ${layername} em ${target} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_17,Get tilemap tile width on layer ${layername} into ${target}${show_input_count},Obter largura lado a lado de tile de mapa na camada ${layername} em ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_18,Get tilemap tile width on layer ${layername} into ${target} on ${applyto}${show_input_count},Obter largura lado a lado de tile de mapa na camada ${layername} em ${target} em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_19,Get tilemap tile width on layer ${layername} into temp ${target}${show_input_count},Obter largura lado a lado de tile de mapa na camada ${layername} em ${target}${show_input_count} temporário,,GML Visual story text
+GMStdTileGetVar_Story_20,Get tilemap tile width on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Obter largura lado a lado de tile de mapa na camada ${layername} em ${target} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_21,Get tilemap tile height on layer ${layername} into ${target}${show_input_count},Obter largura lado a lado de tile de mapa na camada ${layername} em ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_22,Get tilemap tile height on layer ${layername} into ${target} on ${applyto}${show_input_count},Obter altura lado a lado de tile de mapa na camada ${layername} em ${target} em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_23,Get tilemap tile height on layer ${layername} into temp ${target}${show_input_count},Obter altura lado a lado de tile de mapa na camada ${layername} em ${target}${show_input_count} temporário,,GML Visual story text
+GMStdTileGetVar_Story_24,Get tilemap tile height on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Obter altura lado a lado de tile de mapa na camada ${layername} em ${target} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_25,Get tilemap resource on layer ${layername} into ${target}${show_input_count},Obter recurso de tile de mapa na camada ${layername} em ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_26,Get tilemap resource on layer ${layername} into ${target} on ${applyto}${show_input_count},Obter recurso de tile de mapa na camada ${layername} em ${target} em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_27,Get tilemap resource on layer ${layername} into temp ${target}${show_input_count},Obter recurso de tile de mapa na camada ${layername} em ${target}${show_input_count} temporário,,GML Visual story text
+GMStdTileGetVar_Story_28,Get tilemap resource on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Obter recurso de tile de mapa na camada ${layername} em ${target} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_29,Get tilemap frame on layer ${layername} into ${target}${show_input_count},Obter quadro de tile de mapa na camada ${layername} em ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_30,Get tilemap frame on layer ${layername} into ${target} on ${applyto}${show_input_count},Obter quadro de tile de mapa na camada ${layername} em ${target} em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_31,Get tilemap frame on layer ${layername} into temp ${target}${show_input_count},Obter quadro de tile de mapa na camada ${layername} em ${target}${show_input_count} temporário,,GML Visual story text
+GMStdTileGetVar_Story_32,Get tilemap frame on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Obter quadro de tile de mapa na camada ${layername} em ${target} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_33,Get tilemap mask on layer ${layername} into ${target}${show_input_count},Obter máscara de tile de mapa na camada ${layername} em ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_34,Get tilemap mask on layer ${layername} into ${target} on ${applyto}${show_input_count},Obter máscara de tile de mapa na camada ${layername} em ${target} em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_35,Get tilemap mask on layer ${layername} into temp ${target}${show_input_count},Obter máscara de tile de mapa na camada ${layername} em ${target}${show_input_count} temporário,,GML Visual story text
+GMStdTileGetVar_Story_36,Get tilemap mask on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Obter máscara de tile de mapa na camada ${layername} em ${target} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_37,Get tilemap global mask on layer ${layername} into ${target}${show_input_count},Obter máscara global de tile de mapa na camada ${layername} em ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_38,Get tilemap global mask on layer ${layername} into ${target} on ${applyto}${show_input_count},Obter máscara global de tile de mapa na camada ${layername} em ${target} em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_39,Get tilemap global mask on layer ${layername} into temp ${target}${show_input_count},Obter máscara global de tile de mapa na camada ${layername} em ${target}${show_input_count} temporário,,GML Visual story text
+GMStdTileGetVar_Story_40,Get tilemap global mask on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Obter máscara global de tile de mapa na camada ${layername} em ${target} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdTileSetElmPixel_Story_1,Set tile data at ${dnd_position} on layer ${layername} to ${element},Configurar dados do tile em ${dnd_position} na camada ${layername} para ${element},,GML Visual story text
+GMStdTileSetElmPixel_Story_2,Set tile data at ${dnd_position} on layer ${layername} to ${element} on ${applyto},Configurar dados do tile em ${dnd_position} na camada ${layername} para ${element} em ${applyto},,GML Visual story text
+GMStdTileGetElmPixel_Story_1,Get tile data at ${dnd_position} on layer ${layername} into ${var},Obter dados de tile em ${dnd_position} na camada ${layername} em ${var},,GML Visual story text
+GMStdTileGetElmPixel_Story_2,Get tile data at ${dnd_position} on layer ${layername} into ${var} on ${applyto},Obter dados de tile em ${dnd_position} na camada ${layername} em ${var} em ${applyto},,GML Visual story text
+GMStdTileGetElmPixel_Story_3,Get tile data at ${dnd_position} on layer ${layername} into temp ${var},Obter dados de tile em ${dnd_position} na camada ${layername} em ${var} temporário,,GML Visual story text
+GMStdTileGetElmPixel_Story_4,Get tile data at ${dnd_position} on layer ${layername} into temp ${var} on ${applyto},Obter dados de tile em ${dnd_position} na camada ${layername} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdTileSetElm_Story_1,"Set tile data in cell ${x},${y} on layer ${layername} to ${element}","Configurar dados do tile na célula ${x},${y} na camada ${layername} para ${element}",,GML Visual story text
+GMStdTileSetElm_Story_2,"Set tile data in cell ${x},${y} on layer ${layername} to ${element} on ${applyto}","Configurar dados do tile na célula ${x},${y} na camada ${layername} para ${element} em ${applyto}",,GML Visual story text
+GMStdTileGetElm_Story_1,"Get tile data in cell ${x},${y} on layer ${layername} into ${var}","Obter dados do tile na célula ${x},${y} na camada ${layername} em ${var}",,GML Visual story text
+GMStdTileGetElm_Story_2,"Get tile data in cell ${x},${y} on layer ${layername} into ${var} on ${applyto}","Obter dados do tile na célula ${x},${y} na camada ${layername} em ${var} em ${applyto}",,GML Visual story text
+GMStdTileGetElm_Story_3,"Get tile data in cell ${x},${y} on layer ${layername} into temp ${var}","Obter dados do tile na célula ${x},${y} na camada ${layername} em ${var} temporário",,GML Visual story text
+GMStdTileGetElm_Story_4,"Get tile data in cell ${x},${y} on layer ${layername} into temp ${var} on ${applyto}","Obter dados do tile na célula ${x},${y} na camada ${layername} em ${var} temporário em ${applyto}",,GML Visual story text
+GMStdTileTransform_Story_1,Flip tile data ${tile},Inverter dados do tile ${tile},,GML Visual story text
+GMStdTileTransform_Story_2,Flip tile data ${tile} on ${applyto},Inverter dados do tile ${tile} em ${applyto},,GML Visual story text
+GMStdTileTransform_Story_3,Mirror tile data ${tile},Espelhar dados do tile ${tile},,GML Visual story text
+GMStdTileTransform_Story_4,Mirror tile data ${tile} on ${applyto},Espelhar dados do tile ${tile} em ${applyto},,GML Visual story text
+GMStdTileTransform_Story_5,Rotate tile data ${tile},Girar dados do tile ${tile},,GML Visual story text
+GMStdTileTransform_Story_6,Rotate tile data ${tile} on ${applyto},Girar dados do tile ${tile} em ${applyto},,GML Visual story text
+GMStdTileGetTransform_Story_1,Get flip of tile data ${tile} into ${var},Obter inversão de dados do tile ${tile} em ${var},,GML Visual story text
+GMStdTileGetTransform_Story_2,Get flip of tile data ${tile} into ${var} on ${applyto},Obter inversão de dados do tile ${tile} em ${var} em ${applyto},,GML Visual story text
+GMStdTileGetTransform_Story_3,Get flip of tile data ${tile} into temp ${var},Obter inversão de dados do tile ${tile} em ${var} temporário,,GML Visual story text
+GMStdTileGetTransform_Story_4,Get flip of tile data ${tile} into temp ${var} on ${applyto},Obter inversão de dados do tile ${tile} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdTileGetTransform_Story_5,Get mirror of tile data ${tile} into ${var},Obter espelhamento de dados do tile ${tile} em ${var},,GML Visual story text
+GMStdTileGetTransform_Story_6,Get mirror of tile data ${tile} into ${var} on ${applyto},Obter espelhamento de dados do tile ${tile} em ${var} em ${applyto},,GML Visual story text
+GMStdTileGetTransform_Story_7,Get mirror of tile data ${tile} into temp ${var},Obter espelhamento de dados do tile ${tile} em ${var} temporário,,GML Visual story text
+GMStdTileGetTransform_Story_8,Get mirror of tile data ${tile} into temp ${var} on ${applyto},Obter espelhamento de dados do tile ${tile} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdTileGetTransform_Story_9,Get rotate of tile data ${tile} into ${var},Obter giro de dados do tile ${tile} em ${var},,GML Visual story text
+GMStdTileGetTransform_Story_10,Get rotate of tile data ${tile} into ${var} on ${applyto},Obter giro de dados do tile ${tile} em ${var} em ${applyto},,GML Visual story text
+GMStdTileGetTransform_Story_11,Get rotate of tile data ${tile} into temp ${var},Obter giro de dados do tile ${tile} em ${var} temporário,,GML Visual story text
+GMStdTileGetTransform_Story_12,Get rotate of tile data ${tile} into temp ${var} on ${applyto},Obter giro de dados do tile ${tile} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdPlayAudio_Story_1,Play audio ${soundid} looped and assign id to ${target},Reproduzir áudio ${soundid} em loop e atribuir id a ${target},,GML Visual story text
+GMStdPlayAudio_Story_2,Play audio ${soundid} looped and assign id to ${target} on ${applyto},Reproduzir áudio ${soundid} em loop e atribuir id a ${target} em ${applyto},,GML Visual story text
+GMStdPlayAudio_Story_3,Play audio ${soundid} looped,Reproduzir áudio ${soundid} em loop,,GML Visual story text
+GMStdPlayAudio_Story_4,Play audio ${soundid} looped on ${applyto},Reproduzir áudio ${soundid} em loop em ${applyto},,GML Visual story text
+GMStdPlayAudio_Story_5,Play audio ${soundid} looped and assign id to temp ${target},Reproduzir áudio ${soundid} em loop e atribuir id a ${target} temporário,,GML Visual story text
+GMStdPlayAudio_Story_6,Play audio ${soundid} looped and assign id to temp ${target} on ${applyto},Reproduzir áudio ${soundid} em loop e atribuir id a ${target} temporário em ${applyto},,GML Visual story text
+GMStdPlayAudio_Story_7,Play audio ${soundid} and assign id to ${target},Reproduzir áudio ${soundid} e atribuir id a ${target},,GML Visual story text
+GMStdPlayAudio_Story_8,Play audio ${soundid} and assign id to ${target} on ${applyto},Reproduzir áudio ${soundid} e atribuir id a ${target} em ${applyto},,GML Visual story text
+GMStdPlayAudio_Story_9,Play audio ${soundid},Reproduzir áudio ${soundid},,GML Visual story text
+GMStdPlayAudio_Story_10,Play audio ${soundid} on ${applyto},Reproduzir áudio ${soundid} em ${applyto},,GML Visual story text
+GMStdPlayAudio_Story_11,Play audio ${soundid} and assign id to temp ${target},Reproduzir áudio ${soundid} e atribuir id a ${target} temporário,,GML Visual story text
+GMStdPlayAudio_Story_12,Play audio ${soundid} and assign id to temp ${target} on ${applyto},Reproduzir áudio ${soundid} e atribuir id a ${target} temporário em ${applyto},,GML Visual story text
+GMStdStopAudio_Story_1,Stop audio ${soundid},Parar reprodução de áudio ${soundid},,GML Visual story text
+GMStdStopAudio_Story_2,Stop audio ${soundid} on ${applyto},Parar reprodução de áudio ${soundid} em ${applyto},,GML Visual story text
+GMStdStopAllAudio_Story_1,Stop all audio,Parar toda reprodução de áudio,,GML Visual story text
+GMStdStopAllAudio_Story_2,Stop all audio on ${applyto},Parar toda reprodução de áudio em ${applyto},,GML Visual story text
+GMStdPauseAudio_Story_1,Pause audio ${sound},Pausar reprodução de áudio ${sound},,GML Visual story text
+GMStdPauseAudio_Story_2,Pause audio ${sound} on ${applyto},Pausar reprodução de áudio ${sound} em ${applyto},,GML Visual story text
+GMStdPauseAllAudio_Story_1,Pause all audio,Pausar toda reprodução de áudio,,GML Visual story text
+GMStdPauseAllAudio_Story_2,Pause all audio on ${applyto},Pausar toda reprodução de áudio em ${applyto},,GML Visual story text
+GMStdResumeAudio_Story_1,Resume audio ${sound},Continuar reprodução de áudio ${sound},,GML Visual story text
+GMStdResumeAudio_Story_2,Resume audio ${sound} on ${applyto},Continuar reprodução de áudio ${sound} em ${applyto},,GML Visual story text
+GMStdResumeAllAudio_Story_1,Resume all audio,Continuar toda reprodução de áudio,,GML Visual story text
+GMStdResumeAllAudio_Story_2,Resume all audio on ${applyto},Continuar toda reprodução de áudio em ${applyto},,GML Visual story text
+GMStdAudioSetPosition_Story_1,Set audio position of ${sound} to ${time} seconds,Definir posição de áudio de ${sound} como ${time} segundos,,GML Visual story text
+GMStdAudioSetPosition_Story_2,Set audio position of ${sound} to ${time} seconds on ${applyto},Definir posição de áudio de ${sound} como ${time} segundos em ${applyto},,GML Visual story text
+GMStdAudioGetLength_Story_1,Get length of audio ${sound} into ${var},Obter tamanho do áudio ${sound} em ${var},,GML Visual story text
+GMStdAudioGetLength_Story_2,Get length of audio ${sound} into ${var} on ${applyto},Obter tamanho do áudio ${sound} em ${var} em ${applyto},,GML Visual story text
+GMStdAudioGetLength_Story_3,Get length of audio ${sound} into temp ${var},Obter tamanho do áudio ${sound} em ${var} temporário,,GML Visual story text
+GMStdAudioGetLength_Story_4,Get length of audio ${sound} into temp ${var} on ${applyto},Obter tamanho do áudio ${sound} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdAudioSetPitch_Story_1,Set pitch of audio ${sound} to ${pitch},Definir densidade do áudio ${sound} como ${pitch},,GML Visual story text
+GMStdAudioSetPitch_Story_2,Set pitch of audio ${sound} to ${pitch} on ${applyto},Definir densidade do áudio ${sound} como ${pitch} em ${applyto},,GML Visual story text
+GMStdAudioGetPitch_Story_1,Get pitch of audio ${sound} into ${var},Obter densidade do áudio ${sound} em ${var},,GML Visual story text
+GMStdAudioGetPitch_Story_2,Get pitch of audio ${sound} into ${var} on ${applyto},Obter densidade do áudio ${sound} em ${var} em ${applyto},,GML Visual story text
+GMStdAudioGetPitch_Story_3,Get pitch of audio ${sound} into temp ${var},Obter densidade do áudio ${sound} em ${var} temporário,,GML Visual story text
+GMStdAudioGetPitch_Story_4,Get pitch of audio ${sound} into temp ${var} on ${applyto},Obter densidade do áudio ${sound} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdAudioSetVolume_Story_1,Set volume of audio ${sound} to ${volume},Definir volume do áudio ${sound} como ${volume},,GML Visual story text
+GMStdAudioSetVolume_Story_2,Set volume of audio ${sound} to ${volume} on ${applyto},Definir volume do áudio ${sound} como ${volume} em ${applyto},,GML Visual story text
+GMStdAudioGetVolume_Story_1,Get volume of audio ${sound} into ${var},Obter volume do áudio ${sound} em ${var},,GML Visual story text
+GMStdAudioGetVolume_Story_2,Get volume of audio ${sound} into ${var} on ${applyto},Obter volume do áudio ${sound} em ${var} em ${applyto},,GML Visual story text
+GMStdAudioGetVolume_Story_3,Get volume of audio ${sound} into temp ${var},Obter volume do áudio ${sound} em ${var} temporário,,GML Visual story text
+GMStdAudioGetVolume_Story_4,Get volume of audio ${sound} into temp ${var} on ${applyto},Obter volume do áudio ${sound} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdAudoSetMasterVolume_Story_1,Set master volume to ${volume},Definir volume principal como ${volume},,GML Visual story text
+GMStdAudoSetMasterVolume_Story_2,Set master volume to ${volume} on ${applyto},Definir volume principal como ${volume} em ${applyto},,GML Visual story text
+GMStdAudioGetMasterVolume_Story_1,Get master volume into ${var},Obter volume principal em ${var},,GML Visual story text
+GMStdAudioGetMasterVolume_Story_2,Get master volume into ${var} on ${applyto},Obter volume principal em ${var} em ${applyto},,GML Visual story text
+GMStdAudioGetMasterVolume_Story_3,Get master volume into temp ${var},Obter volume principal em ${var} temporário,,GML Visual story text
+GMStdAudioGetMasterVolume_Story_4,Get master volume into temp ${var} on ${applyto},Obter volume principal em ${var} temporário em ${applyto},,GML Visual story text
+GMStdIfAudioPlaying_Story_1,If audio ${soundid} is not playing,Se áudio ${soundid} não está sendo reproduzido,,GML Visual story text
+GMStdIfAudioPlaying_Story_2,If audio ${soundid} is not playing on ${applyto},Se áudio ${soundid} não está sendo reproduzido em ${applyto},,GML Visual story text
+GMStdIfAudioPlaying_Story_3,If audio ${soundid} is playing,Se áudio ${soundid} está sendo reproduzido,,GML Visual story text
+GMStdIfAudioPlaying_Story_4,If audio ${soundid} is playing on ${applyto},Se áudio ${soundid} está sendo reproduzido em ${applyto},,GML Visual story text
+GMStdIfAudioPaused_Story_1,If audio ${soundid} is not paused,Se áudio ${soundid} não está pausado,,GML Visual story text
+GMStdIfAudioPaused_Story_2,If audio ${soundid} is not paused on ${applyto},Se áudio ${soundid} não está pausado em ${applyto},,GML Visual story text
+GMStdIfAudioPaused_Story_3,If audio ${soundid} is paused,Se áudio ${soundid} está pausado,,GML Visual story text
+GMStdIfAudioPaused_Story_4,If audio ${soundid} is paused on ${applyto},Se áudio ${soundid} está pausado em ${applyto},,GML Visual story text
+GMStdLoop_Story,Loop,Loop,,GML Visual story text
+GMStdRepeat_Story_1,Repeat ${times} times,Repetir ${times} vezes,,GML Visual story text
+GMStdRepeat_Story_2,Repeat ${times} times on ${applyto},Repetir ${times} vezes em ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_1,While ${var} is not equal to ${value},Enquanto ${var} não é igual a ${value},,GML Visual story text
+GMStdWhileLoop_Story_2,While ${var} is not equal to ${value} on ${applyto},Enquanto ${var} não é igual a ${value} em ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_3,While ${var} is not less than ${value},Enquanto ${var} não é menor que ${value},,GML Visual story text
+GMStdWhileLoop_Story_4,While ${var} is not less than ${value} on ${applyto},Enquanto ${var} não é menor que ${value} em ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_5,While ${var} is not greater than ${value},Enquanto ${var} não é maior que ${value},,GML Visual story text
+GMStdWhileLoop_Story_6,While ${var} is not greater than ${value} on ${applyto},Enquanto ${var} não é maior que ${value} em ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_7,While ${var} is not greater than or equal to ${value},Enquanto ${var} não é maior ou igual a ${value},,GML Visual story text
+GMStdWhileLoop_Story_8,While ${var} is not greater than or equal to ${value} on ${applyto},Enquanto ${var} não é maior ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_9,While ${var} is not less than or equal to ${value},Enquanto ${var} não é menor ou igual a ${value},,GML Visual story text
+GMStdWhileLoop_Story_10,While ${var} is not less than or equal to ${value} on ${applyto},Enquanto ${var} não é menor ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_11,While ${var} is equal to ${value},Enquanto ${var} é igual a ${value},,GML Visual story text
+GMStdWhileLoop_Story_12,While ${var} is equal to ${value} on ${applyto},Enquanto ${var} é igual a ${value} em ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_13,While ${var} is less than ${value},Enquanto ${var} é menor que ${value},,GML Visual story text
+GMStdWhileLoop_Story_14,While ${var} is less than ${value} on ${applyto},Enquanto ${var} é menor que ${value} em ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_15,While ${var} is greater than ${value},Enquanto ${var} é maior que ${value},,GML Visual story text
+GMStdWhileLoop_Story_16,While ${var} is greater than ${value} on ${applyto},Enquanto ${var} é maior que ${value} em ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_17,While ${var} is greater than or equal to ${value},Enquanto ${var} é maior ou igual a ${value},,GML Visual story text
+GMStdWhileLoop_Story_18,While ${var} is greater than or equal to ${value} on ${applyto},Enquanto ${var} é maior ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_19,While ${var} is less than or equal to ${value},Enquanto ${var} é menor ou igual a ${value},,GML Visual story text
+GMStdWhileLoop_Story_20,While ${var} is less than or equal to ${value} on ${applyto},Enquanto ${var} é menor ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdForLoop_Story_1,"For ${init}, while ${cond} do ${expr}","Para ${init}, enquanto ${cond} executar ${expr}",,GML Visual story text
+GMStdForLoop_Story_2,"For ${init}, while ${cond} do ${expr} on ${applyto}","Para ${init}, enquanto ${cond} executar ${expr} em ${applyto}",,GML Visual story text
+GMStdBreak_Story,Break,Interromper,,GML Visual story text
+GMStdSwitch_Story_1,Switch ${expr},Alternar ${expr},,GML Visual story text
+GMStdSwitch_Story_2,Switch ${expr} on ${applyto},Alternar ${expr} em ${applyto},,GML Visual story text
+GMStdCase_Story_1,Case: ${const},Caso: ${const},,GML Visual story text
+GMStdDefault_Story,Default,Padrão,,GML Visual story text
+GMStdCreateList_Story_1,Set a new list to ${var}${show_input_count},Definir uma nova lista como ${var}${show_input_count},,GML Visual story text
+GMStdCreateList_Story_2,Set a new list to ${var} on ${applyto}${show_input_count},Definir uma nova lista como ${var} em ${applyto}${show_input_count},,GML Visual story text
+GMStdCreateList_Story_3,Set a new list to temp ${var}${show_input_count},Definir uma nova lista como ${var}${show_input_count} temporário,,GML Visual story text
+GMStdCreateList_Story_4,Set a new list to temp ${var} on ${applyto}${show_input_count},Definir uma nova lista como ${var} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdCreateMap_Story_1,Set a new map to ${var}${show_input_count},Definir um novo mapa como ${var}${show_input_count},,GML Visual story text
+GMStdCreateMap_Story_2,Set a new map to ${var} on ${applyto}${show_input_count},Definir um novo mapa como ${var} em ${applyto}${show_input_count},,GML Visual story text
+GMStdCreateMap_Story_3,Set a new map to temp ${var}${show_input_count},Definir um novo mapa como ${var}${show_input_count} temporário,,GML Visual story text
+GMStdCreateMap_Story_4,Set a new map to temp ${var} on ${applyto}${show_input_count},Definir um novo mapa como ${var} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdCreateGrid_Story_1,"Set a new grid with size ${width},${height} to ${var}${show_input_count}","Definir uma nova grade com tamanho de ${width},${height} como ${var}${show_input_count}",,GML Visual story text
+GMStdCreateGrid_Story_2,"Set a new grid with size ${width},${height} to ${var} on ${applyto}${show_input_count}","Definir uma nova grade com tamanho de ${width},${height} como ${var} em ${applyto}${show_input_count}",,GML Visual story text
+GMStdCreateGrid_Story_3,"Set a new grid with size ${width},${height} to temp ${var}${show_input_count}","Definir uma nova grade com tamanho de ${width},${height} como ${var}${show_input_count} temporário",,GML Visual story text
+GMStdCreateGrid_Story_4,"Set a new grid with size ${width},${height} to temp ${var} on ${applyto}${show_input_count}","Definir uma nova grade com tamanho de ${width},${height} como ${var} temporário em ${applyto}${show_input_count}",,GML Visual story text
+GMStdCreateStack_Story_1,Set a new stack to ${var}${show_input_count},Definir uma nova pilha como ${var}${show_input_count},,GML Visual story text
+GMStdCreateStack_Story_2,Set a new stack to ${var} on ${applyto}${show_input_count},Definir uma nova pilha como ${var} em ${applyto}${show_input_count},,GML Visual story text
+GMStdCreateStack_Story_3,Set a new stack to temp ${var}${show_input_count},Definir uma nova pilha como ${var}${show_input_count} temporário,,GML Visual story text
+GMStdCreateStack_Story_4,Set a new stack to temp ${var} on ${applyto}${show_input_count},Definir uma nova pilha como ${var} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_1,Clear list in ${var}${show_input_count},Limpar lista em ${var}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_2,Clear list in ${var} on ${applyto}${show_input_count},Limpar lista em ${var} em ${applyto}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_3,Clear map in ${var}${show_input_count},Limpar mapa em ${var}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_4,Clear map in ${var} on ${applyto}${show_input_count},Limpar mapa em ${var} em ${applyto}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_5,Clear grid in ${var}${show_input_count},Limpar grade em ${var}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_6,Clear grid in ${var} on ${applyto}${show_input_count},Limpar grade em ${var} em ${applyto}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_7,Clear stack in ${var}${show_input_count},Limpar pilha em ${var}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_8,Clear stack in ${var} on ${applyto}${show_input_count},Limpar pilha em ${var} em ${applyto}${show_input_count},,GML Visual story text
+GMStdDSFree_Story_1,Free list ${var} from memory${show_input_count},Liberar lista ${var} da memória${show_input_count},,GML Visual story text
+GMStdDSFree_Story_2,Free list ${var} from memory on ${applyto}${show_input_count},Liberar lista ${var} da memória em ${applyto}${show_input_count},,GML Visual story text
+GMStdDSFree_Story_3,Free map ${var} from memory${show_input_count},Liberar mapa ${var} da memória${show_input_count},,GML Visual story text
+GMStdDSFree_Story_4,Free map ${var} from memory on ${applyto}${show_input_count},Liberar mapa${var} da memória em ${applyto}${show_input_count},,GML Visual story text
+GMStdDSFree_Story_5,Free grid ${var} from memory${show_input_count},Liberar grade ${var} da memória${show_input_count},,GML Visual story text
+GMStdDSFree_Story_6,Free grid ${var} from memory on ${applyto}${show_input_count},Liberar grade ${var} da memória em ${applyto}${show_input_count},,GML Visual story text
+GMStdDSFree_Story_7,Free stack ${var} from memory${show_input_count},Liberar pilha ${var} da memória${show_input_count},,GML Visual story text
+GMStdDSFree_Story_8,Free stack ${var} from memory on ${applyto}${show_input_count},Liberar pilha ${var} da memória em ${applyto}${show_input_count},,GML Visual story text
+GMStdListAdd_Story_1,Add ${value} to list ${var}${show_input_count},Adicionar ${value} à lista ${var}${show_input_count},,GML Visual story text
+GMStdListAdd_Story_2,Add ${value} to list ${var} on ${applyto}${show_input_count},Adicionar ${value} à lista ${var} em ${applyto}${show_input_count},,GML Visual story text
+GMStdListRemove_Story_1,Remove item ${index} from list ${var},Remover item ${index} da lista ${var},,GML Visual story text
+GMStdListRemove_Story_2,Remove item ${index} from list ${var} on ${applyto},Remover item ${index} da lista ${var} em ${applyto},,GML Visual story text
+GMStdListGetAt_Story_1,Get item ${index} in list ${var} into ${assignee}${show_input_count},Obter item ${index} em lista ${var} em ${assignee}${show_input_count},,GML Visual story text
+GMStdListGetAt_Story_2,Get item ${index} in list ${var} into ${assignee} on ${applyto}${show_input_count},Obter item ${index} em lista ${var} em ${assignee} em ${applyto}${show_input_count},,GML Visual story text
+GMStdListGetAt_Story_3,Get item ${index} in list ${var} into temp ${assignee}${show_input_count},Obter item ${index} em lista ${var} em ${assignee}${show_input_count} temporário,,GML Visual story text
+GMStdListGetAt_Story_4,Get item ${index} in list ${var} into temp ${assignee} on ${applyto}${show_input_count},Obter item ${index} em lista ${var} em ${assignee} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdListIndexOf_Story_1,Get index of item ${value} in list ${var} into ${assignee}${show_input_count},Obter índice de item ${value} em lista ${var} em ${assignee}${show_input_count},,GML Visual story text
+GMStdListIndexOf_Story_2,Get index of item ${value} in list ${var} into ${assignee} on ${applyto}${show_input_count},Obter índice de item ${value} em lista ${var} em ${assignee} em ${applyto}${show_input_count},,GML Visual story text
+GMStdListIndexOf_Story_3,Get index of item ${value} in list ${var} into temp ${assignee}${show_input_count},Obter índice de item ${value} em lista ${var} em ${assignee}${show_input_count} temporário,,GML Visual story text
+GMStdListIndexOf_Story_4,Get index of item ${value} in list ${var} into temp ${assignee} on ${applyto}${show_input_count},Obter índice de item ${value} em lista ${var} em ${assignee} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdListInsert_Story_1,Insert ${value} into list ${var} at index ${index},Inserir ${value} em lista ${var} em índice ${index},,GML Visual story text
+GMStdListInsert_Story_2,Insert ${value} into list ${var} at index ${index} on ${applyto},Inserir ${value} em lista ${var} em índice ${index} em ${applyto},,GML Visual story text
+GMStdListCount_Story_1,Get item count in list ${var} and assign it to ${assignee},Obter contagem de item em lista ${var} e atribuí-lo a ${assignee},,GML Visual story text
+GMStdListCount_Story_2,Get item count in list ${var} and assign it to ${assignee} on ${applyto},Obter contagem de item em lista ${var} e atribuí-lo a ${assignee} em ${applyto},,GML Visual story text
+GMStdListCount_Story_3,Get item count in list ${var} and assign it to temp ${assignee},Obter contagem de item em lista ${var} e atribuí-lo a ${assignee} temporário,,GML Visual story text
+GMStdListCount_Story_4,Get item count in list ${var} and assign it to temp ${assignee} on ${applyto},Obter contagem de item em lista ${var} e atribuí-lo a ${assignee} temporário em ${applyto},,GML Visual story text
+GMStdMapSetValue_Story_1,Set key ${key} to ${value} in map ${var}${show_input_count},Definir chave ${key} como ${value} em mapa ${var}${show_input_count},,GML Visual story text
+GMStdMapSetValue_Story_2,Set key ${key} to ${value} in map ${var} on ${applyto}${show_input_count},Definir chave ${key} como ${value} em mapa ${var} em ${applyto}${show_input_count},,GML Visual story text
+GMStdMapGetValue_Story_1,Get value of key ${key} in map ${map} into ${assignee}${show_input_count},Obter valor da chave ${key} no mapa ${map} em ${assignee}${show_input_count},,GML Visual story text
+GMStdMapGetValue_Story_2,Get value of key ${key} in map ${map} into ${assignee} on ${applyto}${show_input_count},Obter valor da chave ${key} no mapa ${map} em ${assignee} em ${applyto}${show_input_count},,GML Visual story text
+GMStdMapGetValue_Story_3,Get value of key ${key} in map ${map} into temp ${assignee}${show_input_count},Obter valor da chave ${key} no mapa ${map} em ${assignee}${show_input_count} temporário,,GML Visual story text
+GMStdMapGetValue_Story_4,Get value of key ${key} in map ${map} into temp ${assignee} on ${applyto}${show_input_count},Obter valor da chave ${key} no mapa ${map} em ${assignee} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdMapRemove_Story_1,Remove key ${key} from map ${map}${show_input_count},Remover chave ${key} do mapa ${map}${show_input_count},,GML Visual story text
+GMStdMapRemove_Story_2,Remove key ${key} from map ${map} on ${applyto}${show_input_count},Remover chave ${key} do mapa ${map} em ${applyto}${show_input_count},,GML Visual story text
+GMStdGridSetValue_Story_1,"Set ${value} in grid ${var} at ${x},${y}${show_input_count}","Definir ${value} na grade ${var} em ${x},${y}${show_input_count}",,GML Visual story text
+GMStdGridSetValue_Story_2,"Set ${value} in grid ${var} at ${x},${y} on ${applyto}${show_input_count}","Definir ${value} na grade ${var} em ${x},${y}${show_input_count} em ${applyto}${show_input_count}",,GML Visual story text
+GMStdGridGetValue_Story_1,"Get value in grid ${var} at ${x},${y} into ${assignee}${show_input_count}","Obter valor na grade ${var} em ${x},${y} em ${assignee}${show_input_count}",,GML Visual story text
+GMStdGridGetValue_Story_2,"Get value in grid ${var} at ${x},${y} into ${assignee} on ${applyto}${show_input_count}","Obter valor na grade ${var} em ${x},${y} em ${assignee} em ${applyto}${show_input_count}",,GML Visual story text
+GMStdGridGetValue_Story_3,"Get value in grid ${var} at ${x},${y} into temp ${assignee}${show_input_count}","Obter valor na grade ${var} em ${x},${y} em ${assignee}${show_input_count} temporário",,GML Visual story text
+GMStdGridGetValue_Story_4,"Get value in grid ${var} at ${x},${y} into temp ${assignee} on ${applyto}${show_input_count}","Obter valor na grade ${var} em ${x},${y} em ${assignee} temporário em ${applyto}${show_input_count}",,GML Visual story text
+GMStdGridClear_Story_1,Clear grid ${var} to value ${value},Limpar grade ${var} para valor ${value},,GML Visual story text
+GMStdGridClear_Story_2,Clear grid ${var} to value ${value} on ${applyto},Limpar grade ${var} para valor ${value} em ${applyto},,GML Visual story text
+GMStdStackPush_Story_1,Push ${value} onto stack ${var}${show_input_count},Efetuar push de ${value} na pilha ${var}${show_input_count},,GML Visual story text
+GMStdStackPush_Story_2,Push ${value} onto stack ${var} on ${applyto}${show_input_count},Efetuar push de ${value} na pilha ${var} em ${applyto}${show_input_count},,GML Visual story text
+GMStdStackPop_Story_1,Pop from stack ${var} into ${assignee}${show_input_count},Remover mais recentes da pilha ${var} em ${assignee}${show_input_count},,GML Visual story text
+GMStdStackPop_Story_2,Pop from stack ${var} into ${assignee} on ${applyto}${show_input_count},Remover mais recentes da pilha ${var} em ${assignee} em ${applyto}${show_input_count},,GML Visual story text
+GMStdStackPop_Story_3,Pop from stack ${var} into temp ${assignee}${show_input_count},Remover mais recentes da pilha ${var} em ${assignee}${show_input_count} temporário,,GML Visual story text
+GMStdStackPop_Story_4,Pop from stack ${var} into temp ${assignee} on ${applyto}${show_input_count},Remover mais recentes da pilha ${var} em ${assignee} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdIfDSExists_Story_1,If list ${var} does not exists,Se a lista ${var} não existe,,GML Visual story text
+GMStdIfDSExists_Story_2,If list ${var} does not exists on ${applyto},Se a lista ${var} não existe em ${applyto},,GML Visual story text
+GMStdIfDSExists_Story_3,If list ${var} exists,Se a lista ${var} existe,,GML Visual story text
+GMStdIfDSExists_Story_4,If list ${var} exists on ${applyto},Se a lista ${var} existe em ${applyto},,GML Visual story text
+GMStdIfDSExists_Story_5,If map ${var} does not exists,Se o mapa ${var} não existe,,GML Visual story text
+GMStdIfDSExists_Story_6,If map ${var} does not exists on ${applyto},Se o mapa ${var} não existe em ${applyto},,GML Visual story text
+GMStdIfDSExists_Story_7,If map ${var} exists,Se o mapa ${var} existe,,GML Visual story text
+GMStdIfDSExists_Story_8,If map ${var} exists on ${applyto},Se o mapa ${var} existe em ${applyto},,GML Visual story text
+GMStdIfDSExists_Story_9,If grid ${var} does not exists,Se a grade ${var} não existe,,GML Visual story text
+GMStdIfDSExists_Story_10,If grid ${var} does not exists on ${applyto},Se a grade ${var} não existe em ${applyto},,GML Visual story text
+GMStdIfDSExists_Story_11,If grid ${var} exists,Se a grade ${var} existe,,GML Visual story text
+GMStdIfDSExists_Story_12,If grid ${var} exists on ${applyto},Se a grade ${var} existe em ${applyto},,GML Visual story text
+GMStdIfDSExists_Story_13,If stack ${var} does not exists,Se a pilha ${var} não existe,,GML Visual story text
+GMStdIfDSExists_Story_14,If stack ${var} does not exists on ${applyto},Se a pilha ${var} não existe em ${applyto},,GML Visual story text
+GMStdIfDSExists_Story_15,If stack ${var} exists,Se a pilha ${var} existe,,GML Visual story text
+GMStdIfDSExists_Story_16,If stack ${var} exists on ${applyto},Se a pilha ${var} existe em ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_1,If list ${var} is not empty,Se a lista ${var} não está vazia,,GML Visual story text
+GMStdIfDSEmpty_Story_2,If list ${var} is not empty on ${applyto},Se a lista ${var} não está vazia em ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_3,If list ${var} is empty,Se a lista ${var} está vazia,,GML Visual story text
+GMStdIfDSEmpty_Story_4,If list ${var} is empty on ${applyto},Se a lista ${var} está vazia em ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_5,If map ${var} is not empty,Se o mapa ${var} não está vazio,,GML Visual story text
+GMStdIfDSEmpty_Story_6,If map ${var} is not empty on ${applyto},Se o mapa ${var} não está vazio em ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_7,If map ${var} is empty,Se o mapa ${var} está vazio,,GML Visual story text
+GMStdIfDSEmpty_Story_8,If map ${var} is empty on ${applyto},Se o mapa ${var} está vazio em ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_9,If grid ${var} is not empty,Se a grade ${var} não está vazia,,GML Visual story text
+GMStdIfDSEmpty_Story_10,If grid ${var} is not empty on ${applyto},Se a grade ${var} não está vazia em ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_11,If grid ${var} is empty,Se a grade ${var} está vazia,,GML Visual story text
+GMStdIfDSEmpty_Story_12,If grid ${var} is empty on ${applyto},Se a grade ${var} está vazia em ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_13,If stack ${var} is not empty,Se a pilha ${var} não está vazia,,GML Visual story text
+GMStdIfDSEmpty_Story_14,If stack ${var} is not empty on ${applyto},Se a pilha ${var} não está vazia em ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_15,If stack ${var} is empty,Se a pilha ${var} está vazia,,GML Visual story text
+GMStdIfDSEmpty_Story_16,If stack ${var} is empty on ${applyto},Se a pilha ${var} está vazia em ${applyto},,GML Visual story text
+GMStdBufferCreate_Story_1,Create buffer into ${target}${show_input_count},Criar buffer em ${target}${show_input_count},,GML Visual story text
+GMStdBufferCreate_Story_2,Create buffer into ${target} on ${applyto}${show_input_count},Criar buffer em ${target} em ${applyto}${show_input_count},,GML Visual story text
+GMStdBufferCreate_Story_3,Create buffer into temp ${target}${show_input_count},Criar buffer em ${target}${show_input_count} temporário,,GML Visual story text
+GMStdBufferCreate_Story_4,Create buffer into temp ${target} on ${applyto}${show_input_count},Criar buffer em ${target} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdBufferCopy_Story_1,Copy buffer ${buffer} into ${target},Copiar buffer ${buffer} em ${target},,GML Visual story text
+GMStdBufferCopy_Story_2,Copy buffer ${buffer} into ${target} on ${applyto},Copiar buffer ${buffer} em ${target} em ${applyto},,GML Visual story text
+GMStdBufferDelete_Story_1,Delete buffer ${buffer}${show_input_count},Excluir buffer ${buffer}${show_input_count},,GML Visual story text
+GMStdBufferDelete_Story_2,Delete buffer ${buffer} on ${applyto}${show_input_count},Excluir buffer ${buffer} em ${applyto}${show_input_count},,GML Visual story text
+GMStdBufferRead_Story_1,Read from buffer ${buffer},Ler o buffer ${buffer},,GML Visual story text
+GMStdBufferRead_Story_2,Read from buffer ${buffer} on ${applyto},Ler o buffer ${buffer} em ${applyto},,GML Visual story text
+GMStdBufferRead_Story_3,Read from buffer ${buffer} into ${target},Ler o buffer ${buffer} em ${target},,GML Visual story text
+GMStdBufferRead_Story_4,Read from buffer ${buffer} into ${target} on ${applyto},Ler o buffer ${buffer} em ${target} em ${applyto},,GML Visual story text
+GMStdBufferRead_Story_5,Read from buffer ${buffer} into temp ${target},Ler o buffer ${buffer} em ${target} temporário,,GML Visual story text
+GMStdBufferRead_Story_6,Read from buffer ${buffer} into temp ${target} on ${applyto},Ler o buffer ${buffer} em ${target} temporário em ${applyto},,GML Visual story text
+GMStdBufferWrite_Story_1,Write ${value} to buffer ${buffer},Gravar ${value} no buffer ${buffer},,GML Visual story text
+GMStdBufferWrite_Story_2,Write ${value} to buffer ${buffer} on ${applyto},Gravar ${value} no buffer ${buffer} em ${applyto},,GML Visual story text
+GMStdBufferSeek_Story_1,Seek to position ${pos} from start in buffer ${buffer},Buscar posição ${pos} do início no buffer ${buffer},,GML Visual story text
+GMStdBufferSeek_Story_2,Seek to position ${pos} from start in buffer ${buffer} on ${applyto},Buscar posição ${pos} do início no buffer ${buffer} em ${applyto},,GML Visual story text
+GMStdBufferSeek_Story_3,Seek to position ${pos} relative to position in buffer ${buffer},Buscar posição ${pos} relativa à posição no buffer ${buffer},,GML Visual story text
+GMStdBufferSeek_Story_4,Seek to position ${pos} relative to position in buffer ${buffer} on ${applyto},Buscar posição ${pos} relativa à posição no buffer ${buffer} em ${applyto},,GML Visual story text
+GMStdBufferSeek_Story_5,Seek to position ${pos} from end in buffer ${buffer},Buscar posição ${pos} do final no buffer ${buffer},,GML Visual story text
+GMStdBufferSeek_Story_6,Seek to position ${pos} from end in buffer ${buffer} on ${applyto},Buscar posição ${pos} do final no buffer ${buffer} em ${applyto},,GML Visual story text
+GMStdBufferGetSize_Story_1,Get size of buffer ${buffer} into ${target},Obter tamanho do buffer ${buffer} em ${target},,GML Visual story text
+GMStdBufferGetSize_Story_2,Get size of buffer ${buffer} into ${target} on ${applyto},Obter tamanho do buffer ${buffer} em ${target} em ${applyto},,GML Visual story text
+GMStdBufferGetSize_Story_3,Get size of buffer ${buffer} into temp ${target},Obter tamanho do buffer ${buffer} em ${target} temporário,,GML Visual story text
+GMStdBufferGetSize_Story_4,Get size of buffer ${buffer} into temp ${target} on ${applyto},Obter tamanho do buffer ${buffer} em ${target} temporário em ${applyto},,GML Visual story text
+GMStdBufferGetPosition_Story_1,Get position in buffer ${buffer} into ${target},Obter posição no buffer ${buffer} em ${target},,GML Visual story text
+GMStdBufferGetPosition_Story_2,Get position in buffer ${buffer} into ${target} on ${applyto},Obter posição no buffer ${buffer} em ${target} em ${applyto},,GML Visual story text
+GMStdBufferGetPosition_Story_3,Get position in buffer ${buffer} into temp ${target},Obter posição no buffer ${buffer} em ${target} temporário,,GML Visual story text
+GMStdBufferGetPosition_Story_4,Get position in buffer ${buffer} into temp ${target} on ${applyto},Obter posição no buffer ${buffer} em ${target} temporário em ${applyto},,GML Visual story text
+GMStdBufferExists_Story_1,If buffer ${buffer} does not exist,Se o buffer ${buffer} não existe,,GML Visual story text
+GMStdBufferExists_Story_2,If buffer ${buffer} does not exist on ${applyto},Se o buffer ${buffer} não existe em ${applyto},,GML Visual story text
+GMStdBufferExists_Story_3,If buffer ${buffer} exists,Se o buffer ${buffer} existe,,GML Visual story text
+GMStdBufferExists_Story_4,If buffer ${buffer} exists on ${applyto},Se o buffer ${buffer} existe em ${applyto},,GML Visual story text
+GMStdBufferEOS_Story_1,If end of buffer ${buffer} not reached,Se o final do buffer ${buffer} não é alcançado,,GML Visual story text
+GMStdBufferEOS_Story_2,If end of buffer ${buffer} not reached on ${applyto},Se o final do buffer ${buffer} não é alcançado em ${applyto},,GML Visual story text
+GMStdBufferEOS_Story_3,If end of buffer ${buffer} reached,Se o final do buffer ${buffer} é alcançado,,GML Visual story text
+GMStdBufferEOS_Story_4,If end of buffer ${buffer} reached on ${applyto},Se o final do buffer ${buffer} é alcançado em ${applyto},,GML Visual story text
+GMStdBufferLoad_Story_1,Load file ${filename} into buffer ${target},Carregar arquivo ${filename} no buffer ${target},,GML Visual story text
+GMStdBufferLoad_Story_2,Load file ${filename} into buffer ${target} on ${applyto},Carregar arquivo ${filename} no buffer ${target} em ${applyto},,GML Visual story text
+GMStdBufferLoad_Story_3,Load file ${filename} into buffer temp ${target},Carregar arquivo ${filename} no buffer temporário ${target},,GML Visual story text
+GMStdBufferLoad_Story_4,Load file ${filename} into buffer temp ${target} on ${applyto},Carregar arquivo ${filename} no buffer temporário ${target} em ${applyto},,GML Visual story text
+GMStdBufferSave_Story_1,Save buffer ${buffer} to file ${filename},Salvar buffer ${buffer} no arquivo ${filename},,GML Visual story text
+GMStdBufferSave_Story_2,Save buffer ${buffer} to file ${filename} on ${applyto},Salvar buffer ${buffer} no arquivo ${filename} em ${applyto},,GML Visual story text
+GMStdFileRename_Story_1,Rename file ${file1} to ${file2},Renomear arquivo ${file1} para ${file2},,GML Visual story text
+GMStdFileRename_Story_2,Rename file ${file1} to ${file2} on ${applyto},Renomear arquivo ${file1} para ${file2} em ${applyto},,GML Visual story text
+GMStdFileCopy_Story_1,Copy file ${file1} to ${file2},Copiar arquivo ${file1} para ${file2},,GML Visual story text
+GMStdFileCopy_Story_2,Copy file ${file1} to ${file2} on ${applyto},Copiar arquivo ${file1} para ${file2} em ${applyto},,GML Visual story text
+GMStdFileDelete_Story_1,Delete file ${file},Excluir arquivo ${file},,GML Visual story text
+GMStdFileDelete_Story_2,Delete file ${file} on ${applyto},Excluir arquivo ${file} em ${applyto},,GML Visual story text
+GMStdOpenIni_Story_1,Open ini file ${filename},Abrir arquivo ini ${filename},,GML Visual story text
+GMStdOpenIni_Story_2,Open ini file ${filename} on ${applyto},Abrir arquivo ini ${filename} em ${applyto},,GML Visual story text
+GMStdCloseIni_Story_1,Close ini file,Fechar arquivo ini,,GML Visual story text
+GMStdCloseIni_Story_2,Close ini file on ${applyto},Fechar arquivo ini em ${applyto},,GML Visual story text
+GMStdIniWrite_Story_1,Write ${value} under key ${key} in section ${section} to ini file,Gravar ${value} valor de chave ${key} na seção ${section} para o arquivo ini,,GML Visual story text
+GMStdIniWrite_Story_2,Write ${value} under key ${key} in section ${section} to ini file on ${applyto},Gravar ${value} valor de chave ${key} na seção ${section} para o arquivo ini em ${applyto},,GML Visual story text
+GMStdIniRead_Story_1,Read key ${key} in section ${section} and assign it to ${var},Ler chave ${key} na seção ${section} e atribuí-la para ${var},,GML Visual story text
+GMStdIniRead_Story_2,Read key ${key} in section ${section} and assign it to ${var} on ${applyto},Ler chave ${key} na seção ${section} e atribuí-la para ${var} em ${applyto},,GML Visual story text
+GMStdIniRead_Story_3,Read key ${key} in section ${section} and assign it to temp ${var},Ler chave ${key} na seção ${section} e atribuí-la para ${var} temporário,,GML Visual story text
+GMStdIniRead_Story_4,Read key ${key} in section ${section} and assign it to temp ${var} on ${applyto},Ler chave ${key} na seção ${section} e atribuí-la para ${var} temporário em ${applyto},,GML Visual story text
+GMStdIfFileExists_Story_1,If file ${file} does not exist,Se o arquivo ${file} não existe,,GML Visual story text
+GMStdIfFileExists_Story_2,If file ${file} does not exist on ${applyto},Se o arquivo ${file} não existe em ${applyto},,GML Visual story text
+GMStdIfFileExists_Story_3,If file ${file} exists,Se o arquivo ${file} existe,,GML Visual story text
+GMStdIfFileExists_Story_4,If file ${file} exists on ${applyto},Se o arquivo ${file} existe em ${applyto},,GML Visual story text
+GMStdDecimalToInteger_Story_1,Round ${n} and assign it to ${var},Arredondar ${n} e atribuí-lo a ${var},,GML Visual story text
+GMStdDecimalToInteger_Story_2,Round ${n} and assign it to ${var} on ${applyto},Arredondar ${n} e atribuí-lo a ${var} em ${applyto},,GML Visual story text
+GMStdDecimalToInteger_Story_3,Round ${n} and assign it to temp ${var},Arredondar ${n} e atribuí-lo a ${var} temporário,,GML Visual story text
+GMStdDecimalToInteger_Story_4,Round ${n} and assign it to temp ${var} on ${applyto},Arredondar ${n} e atribuí-lo a ${var} temporário em ${applyto},,GML Visual story text
+GMStdDecimalToInteger_Story_5,Ceil ${n} and assign it to ${var},Limitar ${n} ao máximo e atribuí-lo a ${var},,GML Visual story text
+GMStdDecimalToInteger_Story_6,Ceil ${n} and assign it to ${var} on ${applyto},Limitar ${n} ao máximo e atribuí-lo a ${var} em ${applyto},,GML Visual story text
+GMStdDecimalToInteger_Story_7,Ceil ${n} and assign it to temp ${var},Limitar ${n} ao máximo e atribuí-lo a ${var} temporário,,GML Visual story text
+GMStdDecimalToInteger_Story_8,Ceil ${n} and assign it to temp ${var} on ${applyto},Limitar ${n} ao máximo e atribuí-lo a ${var} temporário em ${applyto},,GML Visual story text
+GMStdDecimalToInteger_Story_9,Floor ${n} and assign it to ${var},Limitar ${n} ao mínimo e atribuí-lo a ${var},,GML Visual story text
+GMStdDecimalToInteger_Story_10,Floor ${n} and assign it to ${var} on ${applyto},Limitar ${n} ao mínimo e atribuí-lo a ${var} em ${applyto},,GML Visual story text
+GMStdDecimalToInteger_Story_11,Floor ${n} and assign it to temp ${var},Limitar ${n} ao mínimo e atribuí-lo a ${var} temporário,,GML Visual story text
+GMStdDecimalToInteger_Story_12,Floor ${n} and assign it to temp ${var} on ${applyto},Limitar ${n} ao mínimo e atribuí-lo a ${var} temporário em ${applyto},,GML Visual story text
+GMStdStringToNumber_Story_1,Convert ${value} to a string and assign it to ${var},Converter ${value} em uma cadeia e atribuí-la a ${var},,GML Visual story text
+GMStdStringToNumber_Story_2,Convert ${value} to a string and assign it to ${var} on ${applyto},Converter ${value} em uma cadeia e atribuí-la a ${var} em ${applyto},,GML Visual story text
+GMStdStringToNumber_Story_3,Convert ${value} to a string and assign it to temp ${var},Converter ${value} em uma cadeia e atribuí-la a ${var} temporário,,GML Visual story text
+GMStdStringToNumber_Story_4,Convert ${value} to a string and assign it to temp ${var} on ${applyto},Converter ${value} em uma cadeia e atribuí-la a ${var} temporário em ${applyto},,GML Visual story text
+GMStdNumberToString_Story_1,Convert ${value} to a number and assign it to ${var},Converter ${value} em um número e atribuí-lo a ${var},,GML Visual story text
+GMStdNumberToString_Story_2,Convert ${value} to a number and assign it to ${var} on ${applyto},Converter ${value} em um número e atribuí-lo a ${var} em ${applyto},,GML Visual story text
+GMStdNumberToString_Story_3,Convert ${value} to a number and assign it to temp ${var},Converter ${value} em um número e atribuí-lo a ${var} temporário,,GML Visual story text
+GMStdNumberToString_Story_4,Convert ${value} to a number and assign it to temp ${var} on ${applyto},Converter ${value} em um número e atribuí-lo a ${var} temporário em ${applyto},,GML Visual story text
+GMStdGetRandomNumber_Story_1,Get a random number between ${min} and ${max} into ${var},Obter um número aleatório entre ${min} e ${max} em ${var},,GML Visual story text
+GMStdGetRandomNumber_Story_2,Get a random number between ${min} and ${max} into ${var} on ${applyto},Obter um número aleatório entre ${min} e ${max} em ${var} em ${applyto},,GML Visual story text
+GMStdGetRandomNumber_Story_3,Get a random number between ${min} and ${max} into temp ${var},Obter um número aleatório entre ${min} e ${max} em ${var} temporário,,GML Visual story text
+GMStdGetRandomNumber_Story_4,Get a random number between ${min} and ${max} into temp ${var} on ${applyto},Obter um número aleatório entre ${min} e ${max} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdRandomize_Story,Randomize seed,Tornar semente aleatória,,GML Visual story text
+GMStdChoose_Story_1,Get a random element from a list into ${var}${show_input_count},Obter um elemento aleatório de uma lista em ${var}${show_input_count},,GML Visual story text
+GMStdChoose_Story_2,Get a random element from a list into ${var} on ${applyto}${show_input_count},Obter um elemento aleatório de uma lista em ${var} em ${applyto}${show_input_count},,GML Visual story text
+GMStdChoose_Story_3,Get a random element from a list into temp ${var}${show_input_count},Obter um elemento aleatório de uma lista em ${var}${show_input_count} temporário,,GML Visual story text
+GMStdChoose_Story_4,Get a random element from a list into temp ${var} on ${applyto}${show_input_count},Obter um elemento aleatório de uma lista em ${var} temporário em ${applyto}${show_input_count},,GML Visual story text
+GMStdSetViewVar_Story_1,Set view camera of view ${view} to ${value},Definir câmera da exibição ${view} como ${value},,GML Visual story text
+GMStdSetViewVar_Story_2,Set view camera of view ${view} to ${value} on ${applyto},Definir câmera da exibição ${view} como ${value} em ${applyto},,GML Visual story text
+GMStdSetViewVar_Story_3,Set view visibility of view ${view} to ${value},Definir visibilidade da exibição ${view} como ${value},,GML Visual story text
+GMStdSetViewVar_Story_4,Set view visibility of view ${view} to ${value} on ${applyto},Definir visibilidade da exibição ${view} como ${value} em ${applyto},,GML Visual story text
+GMStdSetViewVar_Story_5,Set view port X of view ${view} to ${value},Definir X da janela da exibição ${view} como ${value},,GML Visual story text
+GMStdSetViewVar_Story_6,Set view port X of view ${view} to ${value} on ${applyto},Definir X da janela da exibição ${view} como ${value} em ${applyto},,GML Visual story text
+GMStdSetViewVar_Story_7,Set view port Y of view ${view} to ${value},Definir Y da janela da exibição ${view} como ${value},,GML Visual story text
+GMStdSetViewVar_Story_8,Set view port Y of view ${view} to ${value} on ${applyto},Definir Y da janela da exibição ${view} como ${value} em ${applyto},,GML Visual story text
+GMStdSetViewVar_Story_9,Set view port width of view ${view} to ${value},Definir largura da janela da exibição ${view} como ${value},,GML Visual story text
+GMStdSetViewVar_Story_10,Set view port width of view ${view} to ${value} on ${applyto},Definir largura da janela da exibição ${view} como ${value} em ${applyto},,GML Visual story text
+GMStdSetViewVar_Story_11,Set view port height of view ${view} to ${value},Definir altura da janela da exibição ${view} como ${value},,GML Visual story text
+GMStdSetViewVar_Story_12,Set view port height of view ${view} to ${value} on ${applyto},Definir altura da janela da exibição ${view} como ${value} em ${applyto},,GML Visual story text
+GMStdSetViewVar_Story_13,Set view surface id of view ${view} to ${value},Definir id da superfície da exibição ${view} como ${value},,GML Visual story text
+GMStdSetViewVar_Story_14,Set view surface id of view ${view} to ${value} on ${applyto},Definir id da superfície da exibição ${view} como ${value} em ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_1,Get view camera of view ${view} into ${target},Obter câmera da exibição ${view} em ${target},,GML Visual story text
+GMStdGetViewVar_Story_2,Get view camera of view ${view} into ${target} on ${applyto},Obter câmera da exibição ${view} em ${target} em ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_3,Get view camera of view ${view} into temp ${target},Obter câmera da exibição ${view} em ${target} temporário,,GML Visual story text
+GMStdGetViewVar_Story_4,Get view camera of view ${view} into temp ${target} on ${applyto},Obter câmera da exibição ${view} em ${target} temporário em ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_5,Get view visibility of view ${view} into ${target},Obter visibilidade da exibição ${view} em ${target},,GML Visual story text
+GMStdGetViewVar_Story_6,Get view visibility of view ${view} into ${target} on ${applyto},Obter visibilidade da exibição ${view} em ${target} em ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_7,Get view visibility of view ${view} into temp ${target},Obter visibilidade da exibição ${view} em ${target} temporário,,GML Visual story text
+GMStdGetViewVar_Story_8,Get view visibility of view ${view} into temp ${target} on ${applyto},Obter visibilidade da exibição ${view} em ${target} temporário em ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_9,Get view port X of view ${view} into ${target},Obter X da janela da exibição ${view} em ${target},,GML Visual story text
+GMStdGetViewVar_Story_10,Get view port X of view ${view} into ${target} on ${applyto},Obter X da janela da exibição ${view} em ${target} em ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_11,Get view port X of view ${view} into temp ${target},Obter X da janela da exibição ${view} em ${target} temporário,,GML Visual story text
+GMStdGetViewVar_Story_12,Get view port X of view ${view} into temp ${target} on ${applyto},Obter X da janela da exibição ${view} em ${target} temporário em ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_13,Get view port Y of view ${view} into ${target},Obter Y da janela da exibição ${view} em ${target},,GML Visual story text
+GMStdGetViewVar_Story_14,Get view port Y of view ${view} into ${target} on ${applyto},Obter Y da janela da exibição ${view} em ${target} em ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_15,Get view port Y of view ${view} into temp ${target},Obter Y da janela da exibição ${view} em ${target} temporário,,GML Visual story text
+GMStdGetViewVar_Story_16,Get view port Y of view ${view} into temp ${target} on ${applyto},Obter Y da janela da exibição ${view} em ${target} temporário em ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_17,Get view port width of view ${view} into ${target},Obter largura da janela da exibição ${view} em ${target},,GML Visual story text
+GMStdGetViewVar_Story_18,Get view port width of view ${view} into ${target} on ${applyto},Obter largura da janela da exibição ${view} em ${target} em ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_19,Get view port width of view ${view} into temp ${target},Obter largura da janela da exibição ${view} em ${target} temporário,,GML Visual story text
+GMStdGetViewVar_Story_20,Get view port width of view ${view} into temp ${target} on ${applyto},Obter largura da janela da exibição ${view} em ${target} temporário em ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_21,Get view port height of view ${view} into ${target},Obter altura da janela da exibição ${view} em ${target},,GML Visual story text
+GMStdGetViewVar_Story_22,Get view port height of view ${view} into ${target} on ${applyto},Obter altura da janela da exibição ${view} em ${target} em ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_23,Get view port height of view ${view} into temp ${target},Obter altura da janela da exibição ${view} em ${target} temporário,,GML Visual story text
+GMStdGetViewVar_Story_24,Get view port height of view ${view} into temp ${target} on ${applyto},Obter altura da janela da exibição ${view} em ${target} temporário em ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_25,Get view surface id of view ${view} into ${target},Obter id da superfície da exibição ${view} em ${target},,GML Visual story text
+GMStdGetViewVar_Story_26,Get view surface id of view ${view} into ${target} on ${applyto},Obter id da superfície da exibição ${view} em ${target} em ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_27,Get view surface id of view ${view} into temp ${target},Obter id da superfície da exibição ${view} em ${target} temporário,,GML Visual story text
+GMStdGetViewVar_Story_28,Get view surface id of view ${view} into temp ${target} on ${applyto},Obter id da superfície da exibição ${view} em ${target} temporário em ${applyto},,GML Visual story text
+GMStdGoToRoom_Story_1,Go to room ${room},Ir para cena ${room},,GML Visual story text
+GMStdGoToRoom_Story_2,Go to room ${room} on ${applyto},Ir para cena ${room} em ${applyto},,GML Visual story text
+GMStdNextRoom_Story,Go to next room,Ir para próximo cena,,GML Visual story text
+GMStdPreviousRoom_Story,Go to previous room,Ir para cena anterior,,GML Visual story text
+GMStdRestartRoom_Story,Restart current room,Reiniciar o cena padrão,,GML Visual story text
+GMStdIfFirstRoom_Story_1,If this is not the first room,Se esse não é o primeiro cena,,GML Visual story text
+GMStdIfFirstRoom_Story_2,If this is the first room,Se esse é o primeiro cena,,GML Visual story text
+GMStdIfLastRoom_Story_1,If this is not the last room,Se esse não é o último cena,,GML Visual story text
+GMStdIfLastRoom_Story_2,If this is the last room,Se esse é o último cena,,GML Visual story text
+GMStdGetCurrentRoom_Story_1,Get current room into ${var},Obter cena atual em ${var},,GML Visual story text
+GMStdGetCurrentRoom_Story_2,Get current room into ${var} on ${applyto},Obter cena atual em ${var} em ${applyto},,GML Visual story text
+GMStdGetCurrentRoom_Story_3,Get current room into temp ${var},Obter cena atual em ${var} temporário,,GML Visual story text
+GMStdGetCurrentRoom_Story_4,Get current room into temp ${var} on ${applyto},Obter cena atual em ${var} temporário em ${applyto},,GML Visual story text
+GMStdStartPath_Story_1,Start path ${path} with speed ${speed} and ${atend} on end,Iniciar caminho ${path} com velocidade ${speed} e ${atend} no final,,GML Visual story text
+GMStdStartPath_Story_2,Start path ${path} with speed ${speed} and ${atend} on end on ${applyto},Iniciar caminho ${path} com velocidade ${speed} e ${atend} no final em ${applyto},,GML Visual story text
+GMStdStopPath_Story_1,Stop following a path,Parar de seguir um caminho,,GML Visual story text
+GMStdStopPath_Story_2,Stop following a path on ${applyto},Parar de seguir um caminho em ${applyto},,GML Visual story text
+GMStdPathPosition_Story_1,Add ${position} to path position,Adicionar ${position} à posição do caminho,,GML Visual story text
+GMStdPathPosition_Story_2,Add ${position} to path position on ${applyto},Adicionar ${position} à posição do caminho em ${applyto},,GML Visual story text
+GMStdPathPosition_Story_3,Set path position to ${position},Definir posição do caminho como ${position},,GML Visual story text
+GMStdPathPosition_Story_4,Set path position to ${position} on ${applyto},Definir posição do caminho como ${position} em ${applyto},,GML Visual story text
+GMStdPathGetPosition_Story_1,Get path position into ${target},Obter posição do caminho em ${target},,GML Visual story text
+GMStdPathGetPosition_Story_2,Get path position into ${target} on ${applyto},Obter posição do caminho em ${target} em ${applyto},,GML Visual story text
+GMStdPathGetPosition_Story_3,Get path position into temp ${target},Obter posição do caminho em ${target} temporário,,GML Visual story text
+GMStdPathGetPosition_Story_4,Get path position into temp ${target} on ${applyto},Obter posição do caminho em ${target} temporário em ${applyto},,GML Visual story text
+GMStdPathSpeed_Story_1,Add ${speed} to path speed,Adicionar ${speed} à velocidade do caminho,,GML Visual story text
+GMStdPathSpeed_Story_2,Add ${speed} to path speed on ${applyto},Adicionar ${speed} à velocidade do caminho em ${applyto},,GML Visual story text
+GMStdPathSpeed_Story_3,Set path speed to ${speed},Definir velocidade do caminho como ${speed},,GML Visual story text
+GMStdPathSpeed_Story_4,Set path speed to ${speed} on ${applyto},Definir velocidade do caminho como ${speed} em ${applyto},,GML Visual story text
+GMStdPathGetSpeed_Story_1,Get path speed into ${target},Obter velocidade do caminho em ${target},,GML Visual story text
+GMStdPathGetSpeed_Story_2,Get path speed into ${target} on ${applyto},Obter velocidade do caminho em ${target} em ${applyto},,GML Visual story text
+GMStdPathGetSpeed_Story_3,Get path speed into temp ${target},Obter velocidade do caminho em ${target} temporário,,GML Visual story text
+GMStdPathGetSpeed_Story_4,Get path speed into temp ${target} on ${applyto},Obter velocidade do caminho em ${target} temporário em ${applyto},,GML Visual story text
+GMStdSetTimeline_Story_1,Start timeline ${timeline} and loop it,Iniciar linha do tempo ${timeline} e executar loop,,GML Visual story text
+GMStdSetTimeline_Story_2,Start timeline ${timeline} and loop it on ${applyto},Iniciar linha do tempo ${timeline} e executar loop em ${applyto},,GML Visual story text
+GMStdSetTimeline_Story_3,Start timeline ${timeline},Iniciar linha do tempo ${timeline},,GML Visual story text
+GMStdSetTimeline_Story_4,Start timeline ${timeline} on ${applyto},Iniciar linha do tempo ${timeline} em ${applyto},,GML Visual story text
+GMStdSetTimeline_Story_5,Set timeline ${timeline} and loop it,Definir linha do tempo ${timeline} e executar loop,,GML Visual story text
+GMStdSetTimeline_Story_6,Set timeline ${timeline} and loop it on ${applyto},Definir linha do tempo ${timeline} e executar loop em ${applyto},,GML Visual story text
+GMStdSetTimeline_Story_7,Set timeline ${timeline},Definir linha do tempo ${timeline},,GML Visual story text
+GMStdSetTimeline_Story_8,Set timeline ${timeline} on ${applyto},Definir linha do tempo ${timeline} em ${applyto},,GML Visual story text
+GMStdPositionTimeline_Story_1,Add ${position} to timeline position,Adicionar ${position} à posição da linha do tempo,,GML Visual story text
+GMStdPositionTimeline_Story_2,Add ${position} to timeline position on ${applyto},Adicionar ${position} à posição da linha do tempo em ${applyto},,GML Visual story text
+GMStdPositionTimeline_Story_3,Set timeline position to ${position},Definir posição da linha do tempo como ${position},,GML Visual story text
+GMStdPositionTimeline_Story_4,Set timeline position to ${position} on ${applyto},Definir posição da linha do tempo como ${position} em ${applyto},,GML Visual story text
+GMStdSpeedTimeline_Story_1,Add ${speed} to timeline speed,Adicionar ${speed} à velocidade da linha do tempo,,GML Visual story text
+GMStdSpeedTimeline_Story_2,Add ${speed} to timeline speed on ${applyto},Adicionar ${speed} à velocidade da linha do tempo em ${applyto},,GML Visual story text
+GMStdSpeedTimeline_Story_3,Set timeline speed to ${speed},Definir velocidade da linha do tempo como ${speed},,GML Visual story text
+GMStdSpeedTimeline_Story_4,Set timeline speed to ${speed} on ${applyto},Definir velocidade da linha do tempo como ${speed} em ${applyto},,GML Visual story text
+GMStdSetTimelineState_Story_1,Start timeline,Iniciar linha do tempo,,GML Visual story text
+GMStdSetTimelineState_Story_2,Start timeline on ${applyto},Iniciar linha do tempo em ${applyto},,GML Visual story text
+GMStdSetTimelineState_Story_3,Resume timeline,Continuar linha do tempo,,GML Visual story text
+GMStdSetTimelineState_Story_4,Resume timeline on ${applyto},Continuar linha do tempo em ${applyto},,GML Visual story text
+GMStdSetTimelineState_Story_5,Pause timeline,Pausar linha do tempo,,GML Visual story text
+GMStdSetTimelineState_Story_6,Pause timeline on ${applyto},Pausar linha do tempo em ${applyto},,GML Visual story text
+GMStdSetTimelineState_Story_7,Stop timeline,Parar linha do tempo,,GML Visual story text
+GMStdSetTimelineState_Story_8,Stop timeline on ${applyto},Para linha do tempo em ${applyto},,GML Visual story text
+GMStdRestartGame_Story,Restart game,Reiniciar jogo,,GML Visual story text
+GMStdEndGame_Story,Exit game,Sair do jogo,,GML Visual story text
+GMStdSaveGame_Story_1,Save game to file ${filename},Salvar jogo no arquivo ${filename},,GML Visual story text
+GMStdSaveGame_Story_2,Save game to file ${filename} on ${applyto},Salvar jogo no arquivo ${filename} em ${applyto},,GML Visual story text
+GMStdLoadGame_Story_1,Load game from file ${filename},Carregar jogo do arquivo ${filename},,GML Visual story text
+GMStdLoadGame_Story_2,Load game from file ${filename} on ${applyto},Carregar jogo do arquivo ${filename} em ${applyto},,GML Visual story text
+GMStdSetScore_Story_1,Add ${score} to score,Adicionar ${score} à pontuação,,GML Visual story text
+GMStdSetScore_Story_2,Add ${score} to score on ${applyto},Adicionar ${score} à pontuação em ${applyto},,GML Visual story text
+GMStdSetScore_Story_3,Set score to ${score},Definir pontuação como ${score},,GML Visual story text
+GMStdSetScore_Story_4,Set score to ${score} on ${applyto},Definir pontuação como ${score} em ${applyto},,GML Visual story text
+GMStdGetScore_Story_1,Get score into ${var},Obter pontuação em ${var},,GML Visual story text
+GMStdGetScore_Story_2,Get score into ${var} on ${applyto},Obter pontuação em ${var} em ${applyto},,GML Visual story text
+GMStdGetScore_Story_3,Get score into temp ${var},Obter pontuação em ${var} temporário,,GML Visual story text
+GMStdGetScore_Story_4,Get score into temp ${var} on ${applyto},Obter pontuação em ${var} temporário em ${applyto},,GML Visual story text
+GMStdSetLives_Story_1,Add ${lives} to lives,Adicionar ${lives} às vidas,,GML Visual story text
+GMStdSetLives_Story_2,Add ${lives} to lives on ${applyto},Adicionar ${lives} às vidas em ${applyto},,GML Visual story text
+GMStdSetLives_Story_3,Set lives to ${lives},Definir vidas como ${lives},,GML Visual story text
+GMStdSetLives_Story_4,Set lives to ${lives} on ${applyto},Definir vidas como ${lives} em ${applyto},,GML Visual story text
+GMStdGetLives_Story_1,Get lives into ${var},Obter vidas para ${var},,GML Visual story text
+GMStdGetLives_Story_2,Get lives into ${var} on ${applyto},Obter vidas para ${var} em ${applyto},,GML Visual story text
+GMStdGetLives_Story_3,Get lives into temp ${var},Obter vidas para ${var} temporário,,GML Visual story text
+GMStdGetLives_Story_4,Get lives into temp ${var} on ${applyto},Obter vidas para ${var} temporário em ${applyto},,GML Visual story text
+GMStdSetHealth_Story_1,Add ${health} to health,Adicionar ${health} à vida,,GML Visual story text
+GMStdSetHealth_Story_2,Add ${health} to health on ${applyto},Adicionar ${health} à vida em ${applyto},,GML Visual story text
+GMStdSetHealth_Story_3,Set health to ${health},Definir vida como ${health},,GML Visual story text
+GMStdSetHealth_Story_4,Set health to ${health} on ${applyto},Definir vida como ${health} em ${applyto},,GML Visual story text
+GMStdGetHealth_Story_1,Get health into ${var},Obter vida em ${var},,GML Visual story text
+GMStdGetHealth_Story_2,Get health into ${var} on ${applyto},Obter vida em ${var} em ${applyto},,GML Visual story text
+GMStdGetHealth_Story_3,Get health into temp ${var},Obter vida em ${var} temporário,,GML Visual story text
+GMStdGetHealth_Story_4,Get health into temp ${var} on ${applyto},Obter vida em ${var} temporário em ${applyto},,GML Visual story text
+GMStdIfScore_Story_1,If instance score is not equal to ${value},Se a pontuação da instância não é igual a ${value},,GML Visual story text
+GMStdIfScore_Story_2,If instance score is not equal to ${value} on ${applyto},Se a pontuação da instância não é igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfScore_Story_3,If instance score is not less than ${value},Se a pontuação da instância não é menor que ${value},,GML Visual story text
+GMStdIfScore_Story_4,If instance score is not less than ${value} on ${applyto},Se a pontuação da instância não é menor que ${value} em ${applyto},,GML Visual story text
+GMStdIfScore_Story_5,If instance score is not greater than ${value},Se a pontuação da instância não é maior que ${value},,GML Visual story text
+GMStdIfScore_Story_6,If instance score is not greater than ${value} on ${applyto},Se a pontuação da instância não é maior que ${value} em ${applyto},,GML Visual story text
+GMStdIfScore_Story_7,If instance score is not less than or equal to ${value},Se a pontuação da instância não é menor ou igual a ${value},,GML Visual story text
+GMStdIfScore_Story_8,If instance score is not less than or equal to ${value} on ${applyto},Se a pontuação da instância não é menor ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfScore_Story_9,If instance score is not greater than or equal to ${value},Se a pontuação da instância não é maior ou igual a ${value},,GML Visual story text
+GMStdIfScore_Story_10,If instance score is not greater than or equal to ${value} on ${applyto},Se a pontuação da instância não é maior ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfScore_Story_11,If instance score is equal to ${value},Se a pontuação da instância é igual a ${value},,GML Visual story text
+GMStdIfScore_Story_12,If instance score is equal to ${value} on ${applyto},Se a pontuação da instância é igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfScore_Story_13,If instance score is less than ${value},Se a pontuação da instância é menor que ${value},,GML Visual story text
+GMStdIfScore_Story_14,If instance score is less than ${value} on ${applyto},Se a pontuação da instância é menor que ${value} em ${applyto},,GML Visual story text
+GMStdIfScore_Story_15,If instance score is greater than ${value},Se a pontuação da instância é maior que ${value},,GML Visual story text
+GMStdIfScore_Story_16,If instance score is greater than ${value} on ${applyto},Se a pontuação da instância é maior que ${value} em ${applyto},,GML Visual story text
+GMStdIfScore_Story_17,If instance score is less than or equal to ${value},Se a pontuação da instância é menor ou igual a ${value},,GML Visual story text
+GMStdIfScore_Story_18,If instance score is less than or equal to ${value} on ${applyto},Se a pontuação da instância é menor ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfScore_Story_19,If instance score is greater than or equal to ${value},Se a pontuação da instância é maior ou igual a ${value},,GML Visual story text
+GMStdIfScore_Story_20,If instance score is greater than or equal to ${value} on ${applyto},Se a pontuação da instância é maior ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfLives_Story_1,If instance lives is not equal to ${value},Se as vidas da instância não são iguais a ${value},,GML Visual story text
+GMStdIfLives_Story_2,If instance lives is not equal to ${value} on ${applyto},Se as vidas da instância não são iguais a ${value} em ${applyto},,GML Visual story text
+GMStdIfLives_Story_3,If instance lives is not less than ${value},Se as vidas da instância não são menores que ${value},,GML Visual story text
+GMStdIfLives_Story_4,If instance lives is not less than ${value} on ${applyto},Se as vidas da instância não são menores que ${value} em ${applyto},,GML Visual story text
+GMStdIfLives_Story_5,If instance lives is not greater than ${value},Se as vidas da instância não são maiores que ${value},,GML Visual story text
+GMStdIfLives_Story_6,If instance lives is not greater than ${value} on ${applyto},Se as vidas da instância não são maiores que ${value} em ${applyto},,GML Visual story text
+GMStdIfLives_Story_7,If instance lives is not less than or equal to ${value},Se as vidas da instância não são menores ou iguais a ${value},,GML Visual story text
+GMStdIfLives_Story_8,If instance lives is not less than or equal to ${value} on ${applyto},Se as vidas da instância não são menores ou iguais a ${value} em ${applyto},,GML Visual story text
+GMStdIfLives_Story_9,If instance lives is not greater than or equal to ${value},Se as vidas da instância não são maiores ou iguais a ${value},,GML Visual story text
+GMStdIfLives_Story_10,If instance lives is not greater than or equal to ${value} on ${applyto},Se as vidas da instância não são maiores ou iguais a ${value} em ${applyto},,GML Visual story text
+GMStdIfLives_Story_11,If instance lives is equal to ${value},Se as vidas da instância são iguais a ${value},,GML Visual story text
+GMStdIfLives_Story_12,If instance lives is equal to ${value} on ${applyto},Se as vidas da instância são iguais a ${value} em ${applyto},,GML Visual story text
+GMStdIfLives_Story_13,If instance lives is less than ${value},Se as vidas da instância são menores que ${value},,GML Visual story text
+GMStdIfLives_Story_14,If instance lives is less than ${value} on ${applyto},Se as vidas da instância são menores que ${value} em ${applyto},,GML Visual story text
+GMStdIfLives_Story_15,If instance lives is greater than ${value},Se as vidas da instância são maiores que ${value},,GML Visual story text
+GMStdIfLives_Story_16,If instance lives is greater than ${value} on ${applyto},Se as vidas da instância são maiores que ${value} em ${applyto},,GML Visual story text
+GMStdIfLives_Story_17,If instance lives is less than or equal to ${value},Se as vidas da instância são menores ou iguais a ${value},,GML Visual story text
+GMStdIfLives_Story_18,If instance lives is less than or equal to ${value} on ${applyto},Se as vidas da instância são menores ou iguais a ${value} em ${applyto},,GML Visual story text
+GMStdIfLives_Story_19,If instance lives is greater than or equal to ${value},Se as vidas da instância são maiores ou iguais a ${value},,GML Visual story text
+GMStdIfLives_Story_20,If instance lives is greater than or equal to ${value} on ${applyto},Se as vidas da instância são maiores ou iguais a ${value} em ${applyto},,GML Visual story text
+GMStdIfHealth_Story_1,If instance health is not equal to ${value},Se a vida da instância não é igual a ${value},,GML Visual story text
+GMStdIfHealth_Story_2,If instance health is not equal to ${value} on ${applyto},Se a vida da instância não é igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfHealth_Story_3,If instance health is not less than ${value},Se a vida da instância não é menor que ${value},,GML Visual story text
+GMStdIfHealth_Story_4,If instance health is not less than ${value} on ${applyto},Se a vida da instância não é menor que ${value} em ${applyto},,GML Visual story text
+GMStdIfHealth_Story_5,If instance health is not greater than ${value},Se a vida da instância não é maior que ${value},,GML Visual story text
+GMStdIfHealth_Story_6,If instance health is not greater than ${value} on ${applyto},Se a vida da instância não é maior que ${value} em ${applyto},,GML Visual story text
+GMStdIfHealth_Story_7,If instance health is not less than or equal to ${value},Se a vida da instância não é menor ou igual a ${value},,GML Visual story text
+GMStdIfHealth_Story_8,If instance health is not less than or equal to ${value} on ${applyto},Se a vida da instância não é menor ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfHealth_Story_9,If instance health is not greater than or equal to ${value},Se a vida da instância não é maior ou igual a ${value},,GML Visual story text
+GMStdIfHealth_Story_10,If instance health is not greater than or equal to ${value} on ${applyto},Se a vida da instância não é maior ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfHealth_Story_11,If instance health is equal to ${value},Se a vida da instância é igual a ${value},,GML Visual story text
+GMStdIfHealth_Story_12,If instance health is equal to ${value} on ${applyto},Se a vida da instância é igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfHealth_Story_13,If instance health is less than ${value},Se a vida da instância é menor que ${value},,GML Visual story text
+GMStdIfHealth_Story_14,If instance health is less than ${value} on ${applyto},Se a vida da instância é menor que ${value} em ${applyto},,GML Visual story text
+GMStdIfHealth_Story_15,If instance health is greater than ${value},Se a vida da instância é maior que ${value},,GML Visual story text
+GMStdIfHealth_Story_16,If instance health is greater than ${value} on ${applyto},Se a vida da instância é maior que ${value} em ${applyto},,GML Visual story text
+GMStdIfHealth_Story_17,If instance health is less than or equal to ${value},Se a vida da instância é menor ou igual a ${value},,GML Visual story text
+GMStdIfHealth_Story_18,If instance health is less than or equal to ${value} on ${applyto},Se a vida da instância é menor ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdIfHealth_Story_19,If instance health is greater than or equal to ${value},Se a vida da instância é maior ou igual a ${value},,GML Visual story text
+GMStdIfHealth_Story_20,If instance health is greater than or equal to ${value} on ${applyto},Se a vida da instância é maior ou igual a ${value} em ${applyto},,GML Visual story text
+GMStdDebugShowMessage_Story_1,Show debug message ${msg}${show_input_count},Mostrar mensagem de depuração ${msg}${show_input_count},,GML Visual story text
+GMStdDebugShowMessage_Story_2,Show debug message ${msg} on ${applyto}${show_input_count},Mostrar mensagem de depuração ${msg} em ${applyto}${show_input_count},,GML Visual story text
+GMStdSetWindowState_Story_1,Toggle window state,Alternar o estado da janela,,GML Visual story text
+GMStdSetWindowState_Story_2,Set window state to window,Definir o estado da janela como janela,,GML Visual story text
+GMStdSetWindowState_Story_3,Set window state to fullscreen,Definir o estado da janela como tela inteira,,GML Visual story text
+GMStdPartSystCreate_Story_1,Create a persistent particle system on layer ${layer} into ${var},Criar um sistema de partícula persistente na camada ${layer} em ${var},,GML Visual story text
+GMStdPartSystCreate_Story_2,Create a persistent particle system on layer ${layer} into ${var} on ${applyto},Criar um sistema de partícula persistente na camada ${layer} em ${var} em ${applyto},,GML Visual story text
+GMStdPartSystCreate_Story_3,Create a persistent particle system on layer ${layer} into temp ${var},Criar um sistema de partícula persistente na camada ${layer} em ${var} temporário,,GML Visual story text
+GMStdPartSystCreate_Story_4,Create a persistent particle system on layer ${layer} into temp ${var} on ${applyto},Criar um sistema de partícula persistente na camada ${layer} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdPartSystCreate_Story_5,Create a particle system on layer ${layer} into ${var},Criar um sistema de partícula na camada ${layer} em ${var},,GML Visual story text
+GMStdPartSystCreate_Story_6,Create a particle system on layer ${layer} into ${var} on ${applyto},Criar um sistema de partícula na camada ${layer} em ${var} em ${applyto},,GML Visual story text
+GMStdPartSystCreate_Story_7,Create a particle system on layer ${layer} into temp ${var},Criar um sistema de partícula na camada ${layer} em ${var} temporário,,GML Visual story text
+GMStdPartSystCreate_Story_8,Create a particle system on layer ${layer} into temp ${var} on ${applyto},Criar um sistema de partícula na camada ${layer} em ${var} temporário em ${applyto},,GML Visual story text
+GMStdPartSystDestroy_Story_1,Destroy particle system ${system},Destruir sistema de partícula ${system},,GML Visual story text
+GMStdPartSystDestroy_Story_2,Destroy particle system ${system} on ${applyto},Destruir sistema de partícula ${system} em ${applyto},,GML Visual story text
+GMStdPartSystClear_Story_1,Clear particle system ${system},Limpar sistema de partícula ${system},,GML Visual story text
+GMStdPartSystClear_Story_2,Clear particle system ${system} on ${applyto},Limpar sistema de partícula ${system} em ${applyto},,GML Visual story text
+GMStdPauseParticles_Story_1,Resume particle system ${system},Continuar sistema de partícula ${system},,GML Visual story text
+GMStdPauseParticles_Story_2,Resume particle system ${system} on ${applyto},Continuar sistema de partícula ${system} em ${applyto},,GML Visual story text
+GMStdPauseParticles_Story_3,Pause particle system ${system},Pausar sistema de partícula ${system},,GML Visual story text
+GMStdPauseParticles_Story_4,Pause particle system ${system} on ${applyto},Pausar sistema de partícula ${system} em ${applyto},,GML Visual story text
+GMStdRefreshParticles_Story_1,Update particle system ${system},Atualizar sistema de partícula ${system},,GML Visual story text
+GMStdRefreshParticles_Story_2,Update particle system ${system} on ${applyto},Atualizar sistema de partícula ${system} em ${applyto},,GML Visual story text
+GMStdPartTypeCreate_Story_1,Create a new blending particle type into ${var},Criar um tipo de partícula de combinação em ${var},,GML Visual story text
+GMStdPartTypeCreate_Story_2,Create a new blending particle type into ${var} on ${applyto},Criar um tipo de partícula de combinação em ${var} em ${applyto},,GML Visual story text
+GMStdPartTypeCreate_Story_3,Create a new blending particle type into temp ${var},Criar um tipo de partícula de combinação em ${var} temporário,,GML Visual story text
+GMStdPartTypeCreate_Story_4,Create a new blending particle type into temp ${var} on ${applyto},Criar um tipo de partícula de combinação em ${var} temporário em ${applyto},,GML Visual story text
+GMStdPartTypeCreate_Story_5,Create a new particle type into ${var},Criar um tipo de partícula em ${var},,GML Visual story text
+GMStdPartTypeCreate_Story_6,Create a new particle type into ${var} on ${applyto},Criar um tipo de partícula em ${var} em ${applyto},,GML Visual story text
+GMStdPartTypeCreate_Story_7,Create a new particle type into temp ${var},Criar um tipo de partícula em ${var} temporário,,GML Visual story text
+GMStdPartTypeCreate_Story_8,Create a new particle type into temp ${var} on ${applyto},Criar um tipo de partícula em ${var} temporário em ${applyto},,GML Visual story text
+GMStdPartTypeDestroy_Story_1,Destroy particle type ${type},Destruir tipo de partícula ${type},,GML Visual story text
+GMStdPartTypeDestroy_Story_2,Destroy particle type ${type} on ${applyto},Destruir tipo de partícula ${type} em ${applyto},,GML Visual story text
+GMStdPartTypeSize_Story_1,Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase ${sizeincr} and wiggle ${wiggle},Definir tamanho do tipo de partícula ${type} de mínimo ${minsize} a máximo ${maxsize} com aumento ${sizeincr} e ondulação ${wiggle},,GML Visual story text
+GMStdPartTypeSize_Story_2,Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase ${sizeincr} and wiggle ${wiggle} on ${applyto},Definir tamanho do tipo de partícula ${type} de mínimo ${minsize} a máximo ${maxsize} com aumento ${sizeincr} e ondulação ${wiggle} em ${applyto},,GML Visual story text
+GMStdPartTypeSprite_Story_1,Set sprite of particle type ${type} to ${sprite},Definir sprite do tipo de partícula ${type} como ${sprite},,GML Visual story text
+GMStdPartTypeSprite_Story_2,Set sprite of particle type ${type} to ${sprite} on ${applyto},Definir sprite do tipo de partícula ${type} como ${sprite} em ${applyto},,GML Visual story text
+GMStdPartTypeShape_Story_1,Set shape of particle type ${type} to ${shape},Definir forma do tipo de partícula ${type} como ${shape},,GML Visual story text
+GMStdPartTypeShape_Story_2,Set shape of particle type ${type} to ${shape} on ${applyto},Definir forma do tipo de partícula ${type} como ${shape} em ${applyto},,GML Visual story text
+GMStdPartTypeColor_Story_1,"Set colour of particle type ${type} to start ${startcol}, mid ${midcol}, end ${endcol}","Definir cor do tipo de partícula ${type} como início ${startcol}, meio ${midcol} e fim ${endcol}",,GML Visual story text
+GMStdPartTypeColor_Story_2,"Set colour of particle type ${type} to start ${startcol}, mid ${midcol}, end ${endcol} on ${applyto}","Definir cor do tipo de partícula ${type} como início ${startcol}, meio ${midcol} e fim ${endcol} em ${applyto}",,GML Visual story text
+GMStdPartTypeAlpha_Story_1,"Set alpha channel of particle type ${type} to start ${start}, end ${end}",Definir canal alfa do tipo de partícula ${type} como início ${start} e fim ${end},,GML Visual story text
+GMStdPartTypeAlpha_Story_2,"Set alpha channel of particle type ${type} to start ${start}, end ${end} on ${applyto}",Definir canal alfa do tipo de partícula ${type} como início ${start} e fim ${end} em ${applyto},,GML Visual story text
+GMStdPartTypeAlpha_Story_3,"Set alpha channel of particle type ${type} to start ${start}, mid ${middle}, end ${end}","Definir canal alfa do tipo de partícula ${type} como início ${start}, meio ${middle} e fim ${end}",,GML Visual story text
+GMStdPartTypeAlpha_Story_4,"Set alpha channel of particle type ${type} to start ${start}, mid ${middle}, end ${end} on ${applyto}","Definir canal alfa do tipo de partícula ${type} como início ${start}, meio ${middle} e fim ${end} em ${applyto}",,GML Visual story text
+GMStdPartTypeLife_Story_1,Set life of particle type ${typ} from min ${minlife} to max ${maxlife},Definir vida do tipo de partícula ${typ} de mínimo ${minlife} a máximo ${maxlife},,GML Visual story text
+GMStdPartTypeLife_Story_2,Set life of particle type ${typ} from min ${minlife} to max ${maxlife} on ${applyto},Definir vida do tipo de partícula ${typ} de mínimo ${minlife} a máximo ${maxlife} em ${applyto},,GML Visual story text
+GMStdPartTypeSpeed_Story_1,Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase ${incr} and wiggle ${wiggle},Definir velocidade do tipo de partícula ${type} de mínimo ${minspeed} a máximo ${maxspeed} com aumento ${incr} e ondulação ${wiggle},,GML Visual story text
+GMStdPartTypeSpeed_Story_2,Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase ${incr} and wiggle ${wiggle} on ${applyto},Definir velocidade do tipo de partícula ${type} de mínimo ${minspeed} a máximo ${maxspeed} com aumento ${incr} e ondulação ${wiggle} em ${applyto},,GML Visual story text
+GMStdPartTypeDirection_Story_1,Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation ${incr} and wiggle ${wiggle},Definir direção do tipo de partícula ${type} de mínimo ${mindir} a máximo ${maxdir} com rotação ${incr} e ondulação ${wiggle},,GML Visual story text
+GMStdPartTypeDirection_Story_2,Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation ${incr} and wiggle ${wiggle} on ${applyto},Definir direção do tipo de partícula ${type} de mínimo ${mindir} a máximo ${maxdir} com rotação ${incr} e ondulação ${wiggle} em ${applyto},,GML Visual story text
+GMStdPartTypeOrientation_Story_1,Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle},Definir orientação relativa do tipo de partícula ${type} de mínimo ${minangle} a máximo ${maxangle} com rotação ${incr} e ondulação ${wiggle},,GML Visual story text
+GMStdPartTypeOrientation_Story_2,Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle} on ${applyto},Definir orientação relativa do tipo de partícula ${type} de mínimo ${minangle} a máximo ${maxangle} com rotação ${incr} e ondulação ${wiggle} em ${applyto},,GML Visual story text
+GMStdPartTypeOrientation_Story_3,Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle},Definir orientação do tipo de partícula ${type} de mínimo ${minangle} a máximo ${maxangle} com rotação ${incr} e ondulação ${wiggle},,GML Visual story text
+GMStdPartTypeOrientation_Story_4,Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle} on ${applyto},Definir orientação do tipo de partícula ${type} de mínimo ${minangle} a máximo ${maxangle} com rotação ${incr} e ondulação ${wiggle} em ${applyto},,GML Visual story text
+GMStdPartTypeGravity_Story_1,Set gravity of particle type ${type} to ${amount} in direction ${direction},Definir gravidade do tipo de partícula ${type} como ${amount} na direção ${direction},,GML Visual story text
+GMStdPartTypeGravity_Story_2,Set gravity of particle type ${type} to ${amount} in direction ${direction} on ${applyto},Definir gravidade do tipo de partícula ${type} como ${amount} na direção ${direction} em ${applyto},,GML Visual story text
+GMStdPartTypeSecondary_Story_1,Create ${count} secondary particles from type ${type} of type ${secondary} per step,Criar ${count} partículas secundárias de tipo ${type} do tipo ${secondary} por etapa,,GML Visual story text
+GMStdPartTypeSecondary_Story_2,Create ${count} secondary particles from type ${type} of type ${secondary} per step on ${applyto},Criar ${count} partículas secundárias de tipo ${type} do tipo ${secondary} por etapa em ${applyto},,GML Visual story text
+GMStdPartTypeSecondary_Story_3,Create ${count} secondary particles from type ${type} of type ${secondary} on death,Criar ${count} partículas secundárias de tipo ${type} do tipo ${secondary} no encerramento,,GML Visual story text
+GMStdPartTypeSecondary_Story_4,Create ${count} secondary particles from type ${type} of type ${secondary} on death on ${applyto},Criar ${count} partículas secundárias de tipo ${type} do tipo ${secondary} no encerramento em ${applyto},,GML Visual story text
+GMStdPartCreateBurst_Story_1,Burst ${number} particles of type ${type} in system ${system} at ${dnd_position},Iniciar intermitência de ${number} partículas de tipo ${type} no sistema ${system} em ${dnd_position},,GML Visual story text
+GMStdPartCreateBurst_Story_2,Burst ${number} particles of type ${type} in system ${system} at ${dnd_position} on ${applyto},Iniciar intermitência de ${number} partículas de tipo ${type} no sistema ${system} em ${dnd_position} em ${applyto},,GML Visual story text
+GMStdPartEmitCreate_Story_1,Create a particle emitter in system ${system} into ${emitter},Criar um emissor de partículas no sistema ${system} em ${emitter},,GML Visual story text
+GMStdPartEmitCreate_Story_2,Create a particle emitter in system ${system} into ${emitter} on ${applyto},Criar um emissor de partículas no sistema ${system} em ${emitter} em ${applyto},,GML Visual story text
+GMStdPartEmitCreate_Story_3,Create a particle emitter in system ${system} into temp ${emitter},Criar um emissor de partículas no sistema ${system} em ${emitter} temporário,,GML Visual story text
+GMStdPartEmitCreate_Story_4,Create a particle emitter in system ${system} into temp ${emitter} on ${applyto},Criar um emissor de partículas no sistema ${system} em ${emitter} temporário em ${applyto},,GML Visual story text
+GMStdPartEmitDestroy_Story_1,Destroy particle emitter ${emitter} in system ${system},Destruir emissor de partículas ${emitter} no sistema ${system},,GML Visual story text
+GMStdPartEmitDestroy_Story_2,Destroy particle emitter ${emitter} in system ${system} on ${applyto},Destruir emissor de partículas ${emitter} no sistema ${system} em ${applyto},,GML Visual story text
+GMStdPartEmitterEmit_Story_1,Burst ${number} particles of type ${type} from emitter ${emitter} in system ${system},Iniciar intermitência de ${number} partículas de tipo ${type} do emissor ${emitter} no sistema ${system},,GML Visual story text
+GMStdPartEmitterEmit_Story_2,Burst ${number} particles of type ${type} from emitter ${emitter} in system ${system} on ${applyto},Iniciar intermitência de ${number} partículas de tipo ${type} do emissor ${emitter} no sistema ${system} em ${applyto},,GML Visual story text
+GMStdPartEmitterEmit_Story_3,Stream ${number} particles of type ${type} from emitter ${emitter} in system ${system},Iniciar fluxo de ${number} partículas de tipo ${type} do emissor ${emitter} no sistema ${system},,GML Visual story text
+GMStdPartEmitterEmit_Story_4,Stream ${number} particles of type ${type} from emitter ${emitter} in system ${system} on ${applyto},Iniciar fluxo de ${number} partículas de tipo ${type} do emissor ${emitter} no sistema ${system} em ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_1,Emit from ${emitter} in system ${system} in a rectangular shape with linear distribution,Emitir de ${emitter} no sistema ${system} em uma forma retangular com distribuição linear,,GML Visual story text
+GMStdPartEmitRegion_Story_2,Emit from ${emitter} in system ${system} in a rectangular shape with linear distribution on ${applyto},Emitir de ${emitter} no sistema ${system} em uma forma retangular com distribuição linear em ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_3,Emit from ${emitter} in system ${system} in a rectangular shape with gaussian distribution,Emitir de ${emitter} no sistema ${system} em uma forma retangular com distribuição gaussiana,,GML Visual story text
+GMStdPartEmitRegion_Story_4,Emit from ${emitter} in system ${system} in a rectangular shape with gaussian distribution on ${applyto},Emitir de ${emitter} no sistema ${system} em uma forma retangular com distribuição gaussiana em ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_5,Emit from ${emitter} in system ${system} in a rectangular shape with inverse gaussian distribution,Emitir de ${emitter} no sistema ${system} em uma forma retangular com distribuição gaussiana inversa,,GML Visual story text
+GMStdPartEmitRegion_Story_6,Emit from ${emitter} in system ${system} in a rectangular shape with inverse gaussian distribution on ${applyto},Emitir de ${emitter} no sistema ${system} em uma forma retangular com distribuição gaussiana inversa em ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_7,Emit from ${emitter} in system ${system} in a elliptical shape with linear distribution,Emitir de ${emitter} no sistema ${system} em uma forma elíptica com distribuição linear,,GML Visual story text
+GMStdPartEmitRegion_Story_8,Emit from ${emitter} in system ${system} in a elliptical shape with linear distribution on ${applyto},Emitir de ${emitter} no sistema ${system} em uma forma elíptica com distribuição linear em ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_9,Emit from ${emitter} in system ${system} in a elliptical shape with gaussian distribution,Emitir de ${emitter} no sistema ${system} em uma forma elíptica com distribuição gaussiana,,GML Visual story text
+GMStdPartEmitRegion_Story_10,Emit from ${emitter} in system ${system} in a elliptical shape with gaussian distribution on ${applyto},Emitir de ${emitter} no sistema ${system} em uma forma elíptica com distribuição gaussiana em ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_11,Emit from ${emitter} in system ${system} in a elliptical shape with inverse gaussian distribution,Emitir de ${emitter} no sistema ${system} em uma forma elíptica com distribuição gaussiana inversa,,GML Visual story text
+GMStdPartEmitRegion_Story_12,Emit from ${emitter} in system ${system} in a elliptical shape with inverse gaussian distribution on ${applyto},Emitir de ${emitter} no sistema ${system} em uma forma elíptica com distribuição gaussiana inversa em ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_13,Emit from ${emitter} in system ${system} in a diamond shape with linear distribution,Emitir de ${emitter} no sistema ${system} em uma forma de losango com distribuição linear,,GML Visual story text
+GMStdPartEmitRegion_Story_14,Emit from ${emitter} in system ${system} in a diamond shape with linear distribution on ${applyto},Emitir de ${emitter} no sistema ${system} em uma forma de losango com distribuição linear em ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_15,Emit from ${emitter} in system ${system} in a diamond shape with gaussian distribution,Emitir de ${emitter} no sistema ${system} em uma forma de losango com distribuição gaussiana,,GML Visual story text
+GMStdPartEmitRegion_Story_16,Emit from ${emitter} in system ${system} in a diamond shape with gaussian distribution on ${applyto},Emitir de ${emitter} no sistema ${system} em uma forma de losango com distribuição gaussiana em ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_17,Emit from ${emitter} in system ${system} in a diamond shape with inverse gaussian distribution,Emitir de ${emitter} no sistema ${system} em uma forma de losango com distribuição gaussiana inversa,,GML Visual story text
+GMStdPartEmitRegion_Story_18,Emit from ${emitter} in system ${system} in a diamond shape with inverse gaussian distribution on ${applyto},Emitir de ${emitter} no sistema ${system} em uma forma de losango com distribuição gaussiana inversa em ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_19,Emit from ${emitter} in system ${system} in a straight line with linear distribution,Emitir de ${emitter} no sistema ${system} em uma linha reta com distribuição linear,,GML Visual story text
+GMStdPartEmitRegion_Story_20,Emit from ${emitter} in system ${system} in a straight line with linear distribution on ${applyto},Emitir de ${emitter} no sistema ${system} em uma linha reta com distribuição linear em ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_21,Emit from ${emitter} in system ${system} in a straight line with gaussian distribution,Emitir de ${emitter} no sistema ${system} em uma linha reta com distribuição gaussiana,,GML Visual story text
+GMStdPartEmitRegion_Story_22,Emit from ${emitter} in system ${system} in a straight line with gaussian distribution on ${applyto},Emitir de ${emitter} no sistema ${system} em uma linha reta com distribuição gaussiana em ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_23,Emit from ${emitter} in system ${system} in a straight line with inverse gaussian distribution,Emitir de ${emitter} no sistema ${system} em uma linha reta com distribuição gaussiana inversa,,GML Visual story text
+GMStdPartEmitRegion_Story_24,Emit from ${emitter} in system ${system} in a straight line with inverse gaussian distribution on ${applyto},Emitir de ${emitter} no sistema ${system} em uma linha reta com distribuição gaussiana inversa em ${applyto},,GML Visual story text
+GMStdEffect_Story_1,Show effect at ${dnd_position},Mostrar efeito em ${dnd_position},,GML Visual story text
+GMStdEffect_Story_2,Show effect at ${dnd_position} on ${applyto},Mostrar efeito em ${dnd_position} em ${applyto},,GML Visual story text
+GMStdConstructor,Constructor,Construtor,,GML Visual function label for constructor
+GMStdDeclFunction_Desc,Declare a new function,Declarar uma nova função,,GML Visual declare a new function
+GMStdDeclFunction_Name,Declare a new function,Declarar uma nova função,,GML Visual declare a new function
+GMStdDeclFunction_Story,Declare a new function ${funcName},Declarar uma nova função ${funcName},,GML Visual declare a new function
+GMStdSeqSetHead_Story_1,Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},Установить позицию начала (в кадрах) экземпляра последовательности ${sequenceelmid} в ${var},,GML Visual story text
+GMStdSeqGetHead_Story_1,Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},Получить позицию начала (в кадрах) экземпляра последовательности ${sequenceelmid} в ${var},,GML Visual story text
+GMStdSeqGetHead_Story_2,Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},Получить позицию начала (в кадрах) экземпляра последовательности ${sequenceelmid} во временн. ${var},,GML Visual story text
+GMStdNew_Story_1,"Set ${var} to new instance of ${function}","Установить ${var} в новый экземпляр ${function}",,GML Visual story text
+GMStdNew_Story_2,"Set ${var} to new instance of ${function} with 1 argument","Установить ${var} в новый экземпляр ${function} с 1 аргументом",,GML Visual story text
+GMStdNew_Story_3,"Set ${var} to new instance of ${function} with ${input_count} arguments","Установить ${var} в новый экземпляр ${function} с ${input_count} аргум.",,GML Visual story text
+GMStdNew_Story_4,"Set temp ${var} to new instance of ${function}","Установить временн. ${var} в новый экземпляр ${function}",,GML Visual story text
+GMStdNew_Story_5,"Set temp ${var} to new instance of ${function} with 1 argument","Установить временн. ${var} в новый экземпляр ${function} с 1 аргументом",,GML Visual story text
+GMStdNew_Story_6,"Set temp ${var} to new instance of ${function} with ${input_count} arguments","Установить временн. ${var} в новый экземпляр ${function} с ${input_count} аргум.",,GML Visual story text
+GMStdSeqGetLength_Story_1,Get length of sequence instance ${sequenceelmid} into ${var},Получить длину экземпляра последовательности ${sequenceelmid} в ${var},,GML Visual story text
+GMStdSeqGetLength_Story_2,Get length of sequence instance ${sequenceelmid} into temp ${var},Получить длину экземпляра последовательности ${sequenceelmid} во временн. ${var},,GML Visual story text
+GMStdStatic,"Static","Статический",,GML Visual function label for static
+GMStdTemp,"Temp","Временный",,GML Visual function label for temp

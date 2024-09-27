@@ -1,0 +1,35 @@
+{
+  "name": "Feather",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "Feather",
+      "localised_name": "feather_plugins_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "Feather.Ui",
+          "version": "1.0",
+          "path": "Feather.Ui.dll",
+          "checksum": "hKSK19VPJq9IISLRCOio/qZwMzoM\u002ByIsubtBvQsAL4s="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "min_version": "1.0",
+          "max_version": ""
+        }
+      ]
+    }
+  ],
+  "author": "",
+  "signature": "aKzXSgpka5zl69FNtQ\u002B6ReQS7yjpiF71B\u002BMPB5r1V\u002BGlzYVB3PX88hggHXanaUAakpMqVMI/fHL5gKEOY7FhyC33\u002BlNQ3Uj8mdMvF6j\u002BH/wpz1j2d0Uocwxe8RJMjib9yNILCmikCKyGEmSjPnO/PDW6UG2sGEbgzGsgZ8jQbqE=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

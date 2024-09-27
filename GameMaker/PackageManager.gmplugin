@@ -1,0 +1,46 @@
+{
+  "name": "PackageManager",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "PackageManager",
+      "localised_name": "package_manager_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "PackageManager",
+          "version": "1.0",
+          "path": "PackageManager.dll",
+          "checksum": "VrwGzjowv23dCG6LomGX9jdYOBB2IssdqaC4DkZkZpk="
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "PackageNotifier",
+      "localised_name": "package_notifier_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "PackageManager",
+          "version": "1.0",
+          "path": "PackageManager.dll",
+          "checksum": "VrwGzjowv23dCG6LomGX9jdYOBB2IssdqaC4DkZkZpk="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "JelHR9xzNWL1xdzm3FQzPq75Ceb5TJaIuLlVcZ1eqzKIa5bmjaaxEc589BvtbV2s2GDsnMQ0qfJZYnCLoPtyISifAaf4rU3Go1\u002Bb8NG5YojxcmOzXaN3ScfPkhxlAvRHm3okJoeTp6vMR1im3IPHSmHDN686Dt8czq2xSgUhojk=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

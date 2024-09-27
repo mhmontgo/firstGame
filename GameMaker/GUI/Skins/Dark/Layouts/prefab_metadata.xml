@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+	<Layout layout_name="prefab_metadata_editor" layout_guid="5be08d9f-96b8-4a13-b080-a46ecfa025be">
+
+		<Grid stylename="grid_container" override_flow_index="9999999" margin_top="8dpi_px" grid_rowlayout="['1*', '30dpi_px']" grid_columnlayout="['1*']">
+			<Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+				<ChildGadgets>
+
+					<Grid stylename="grid_container" override_flow_index="9999999" margin_top="8dpi_px" grid_rowlayout="['30dpi_px', '30dpi_px', '30dpi_px', '30dpi_px', '30dpi_px']" grid_columnlayout="['100dpi_px', '1*']">
+						<Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+							<ChildGadgets>
+								<Label stylename="label" override_flow_index="9999999" height="16px" width="76px" left="0px" top="4dpi_px" localise_caption="PrefabMetadataEditor_DisplayName" />
+							</ChildGadgets>
+						</Cell>
+						<Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+							<ChildGadgets>
+								<TextBox stylename="text_box" layout_id="textbox_display_name" layout_guid="c3378e6a-ec7d-48c6-a2b2-e9ef1729b470" override_flow_index="9999999" top="0px" />
+							</ChildGadgets>
+						</Cell>
+						<Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+							<ChildGadgets>
+								<Label stylename="label" override_flow_index="9999999" height="16px" width="64px" left="0px" top="4dpi_px" localise_caption="PrefabMetadataEditor_Description" />
+							</ChildGadgets>
+						</Cell>
+						<Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+							<ChildGadgets>
+								<TextBox stylename="text_box" layout_id="textbox_description" layout_guid="9492692a-6c16-43df-ac6f-63ee0b1dd89c" override_flow_index="9999999" top="0px" />
+							</ChildGadgets>
+						</Cell>
+						<Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+							<ChildGadgets>
+								<Label stylename="label" override_flow_index="9999999" height="16px" width="62px" left="0px" top="4dpi_px" localise_caption="PrefabMetadataEditor_PackageId" />
+							</ChildGadgets>
+						</Cell>
+						<Cell row="2" column="1" stylename="grid_container_panel" flow_index="0">
+							<ChildGadgets>
+								<TextBox stylename="text_box" layout_id="textbox_package_id" layout_guid="574a007b-a233-4420-b20c-636c9d9510a0" override_flow_index="9999999" top="0px" />
+							</ChildGadgets>
+						</Cell>
+						<Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+							<ChildGadgets>
+								<Label stylename="label" override_flow_index="9999999" height="16px" width="42px" left="0px" top="4dpi_px" localise_caption="PrefabMetadataEditor_Version" />
+							</ChildGadgets>
+						</Cell>
+						<Cell row="3" column="1" stylename="grid_container_panel" flow_index="0">
+							<ChildGadgets>
+								<TextBox stylename="text_box" layout_id="textbox_version" layout_guid="501fc757-632d-4cb1-9ce0-8040be6e0e9c" override_flow_index="9999999" top="0px" />
+							</ChildGadgets>
+						</Cell>
+						<Cell row="4" column="0" stylename="grid_container_panel" flow_index="0">
+							<ChildGadgets>
+								<Label stylename="label" override_flow_index="9999999" height="16px" width="38px" left="0px" top="4dpi_px" localise_caption="PrefabMetadataEditor_Author" />
+							</ChildGadgets>
+						</Cell>
+						<Cell row="4" column="1" stylename="grid_container_panel" flow_index="0">
+							<ChildGadgets>
+								<TextBox stylename="text_box" layout_id="textbox_author" layout_guid="87c08714-cf21-4193-80c9-25222b3228fc" override_flow_index="9999999" top="0px" />
+							</ChildGadgets>
+						</Cell>
+					</Grid>
+
+				</ChildGadgets>
+			</Cell>
+			<Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+				<ChildGadgets>
+					<Button stylename="basic_button" layout_id="ok_button" layout_guid="f08dbece-9368-425a-acf8-12d4470d7e0a" override_flow_index="9999999" height="24px" width="100dpi_px" right="135dpi_px" top="4dpi_px" margin_right="10px" localise_name="Button_OK" />
+					<Button stylename="basic_button" layout_id="cancel_button" layout_guid="83145cf9-228c-4947-87cf-e0b733fc13c0" override_flow_index="9999999" height="24px" width="100dpi_px" right="20dpi_px" top="4dpi_px" localise_name="Button_Cancel" />
+				</ChildGadgets>
+			</Cell>
+		</Grid>
+
+	</Layout>
+</Layouts>

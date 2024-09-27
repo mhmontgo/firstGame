@@ -1,0 +1,22 @@
+{
+	"listviewexplorer": {
+		"colour": "listview_bg"
+	},
+
+	"list_view": {
+		"colour": "listview_panel_bg"
+	},
+
+	"list_view_bar": {
+		"colour": "listview_panel_bar"
+	},
+
+	"list_view_item": {
+		"selection_colour": "listview_item_selection",
+		"mouse_over_colour": "listview_item_mouseover"
+	},
+
+	"listviewexplorer_chrome_label": {
+		"colour": "listview_label"
+	}
+}

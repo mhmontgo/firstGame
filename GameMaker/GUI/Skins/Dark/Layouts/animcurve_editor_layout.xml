@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="AnimCurveEditorPanel" layout_guid="c3b5c4a1-5302-4649-913d-1c6c800e12e5">
+    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['auto', 'auto', 'auto', '1*', 'auto', '24dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" height="25px" width="56px" left="4dpi_px" localise_caption="ObjectEditor_Name" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <TextBox stylename="text_box" layout_id="name_textbox" layout_guid="6409d857-ac09-499a-95b3-0f76a9e05f1f" top="2dpi_px" margin_top="2dpi_px" bind_property="name" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="title_bar" override_flow_index="9999999" height="28dpi_px" top="4dpi_px" margin_top="4dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['1*', '24dpi_px', '24dpi_px', '24dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" height="25px" width="57px" left="10dpi_px" localise_caption="AnimCurveEditor_Curves" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="title_bar_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="animcurve_line_button" layout_id="line_button" layout_guid="dcb39d6b-af38-4cb4-9b8b-b76e35960635" override_flow_index="9999999" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="2" stylename="title_bar_panel" flow_index="0">
+              <ChildGadgets>
+                <CheckBox stylename="visible_checkbox_stack" layout_id="vis_check" layout_guid="f0ba2a44-dc47-4b89-a8b9-3e28baf7cc05" localise_tooltip="AnimCurveEditor_ToggleVis" base_style="visible_checkbox" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="3" stylename="title_bar_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="animcurve_trash_button" layout_id="trash_button" layout_guid="977172e8-67e3-4720-b0fa-0d7b3e3f8448" localise_tooltip="AnimCurveEditor_DeleteAllCurves" hotkey_name="Delete"/>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="channels_cell" layout_guid="8ec0cdf8-0d37-4df4-a94b-5eaa819f31fb" row="3" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="default_scrollpanel" layout_id="channels_panel" layout_guid="82d0cbe6-7da7-4b58-85bf-826c0432f926" override_flow_index="9999999" scrollpanel_flags="VerticalScroll, AdjustToScrollBars" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="4" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="button_up" layout_id="add_curve_button" layout_guid="de51f6ca-a9b9-47cb-ac2d-ccde46f25094" height="33px" top="4dpi_px" margin_top="4dpi_px" localise_name="AnimCurve_Editor_AddCurve" />
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="selected_point_editor_cell" layout_guid="ac5a3c3f-b9e0-48f0-bfc1-336b54db5db1" row="5" column="0" stylename="grid_container_panel" flow_index="0" />
+    </Grid>
+  </Layout>
+  <Layout layout_name="AnimCurveEditor_Compact" layout_guid="0eb6d5a8-98eb-421e-92f5-50709aa228c6">
+    <Window stylename="default_window" height="405dpi_px" width="800dpi_px" help_tag="animation_curve_editor">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="-2px" top="0px" grid_columnlayout="['200dpi_px', '1*']" column_spacing="8dpi_px">
+            <ColumnSplitter stylename="vertical_splitter" override_flow_index="9999999" height="359px" width="5dpi_px" left="201px" top="0px" row="0" column="1" rowspan="1" columnspan="1" />
+            <Cell layout_id="editor_cell" layout_guid="e78e7697-abc0-4b57-bc93-5ca43323b776" row="0" column="0" stylename="grid_container_panel" flow_index="0" />
+            <Cell layout_id="graph_cell" layout_guid="a15669f3-fed6-49d2-9039-2841dc9f582f" row="0" column="1" stylename="grid_container_panel" flow_index="0" />
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="ChannelChildItemContent" layout_guid="2a376c8e-73cc-4a14-b92c-f7688d73ca08">
+    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="name_label" layout_guid="2b7c0653-a7f2-41a4-9ff3-ddb8f3ce391e" height="16px" width="34px" left="0px" caption="plot 1:" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="animcurve_hv_label" height="16px" width="7px" margin_right="4dpi_px" caption="h" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <TextBox stylename="ac_point_textbox" layout_id="htext" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="animcurve_hv_label" height="16px" width="9px" margin_right="4dpi_px" caption="v" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="5" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <TextBox stylename="ac_point_textbox" layout_id="vtext" />
+      </ChildGadgets>
+    </Cell>
+  </Layout>
+  <Layout layout_name="ChannelChildItemContentAlt" layout_guid="333900c5-b0ae-4f74-8228-ecc071454402">
+<!-- <Grid stylename="channel_child_grid" override_flow_index="9999999" grid_columnlayout="['8dpi_px', '24dpi_px', '1*']"> -->
+    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="name_label" layout_guid="8c982882-7df0-4ff0-b0ea-d6744a9397b7" override_flow_index="9999999" height="16px" width="17px" left="0px" caption="99:" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['auto', '1*', 'auto', '1*']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="animcurve_hv_label" height="16px" width="7px" margin_right="4dpi_px" caption="h" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <TextBox stylename="ac_point_textbox" layout_id="htext" layout_guid="822fc167-70be-4b08-9691-0b69bb7f1d89" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="animcurve_hv_label" height="16px" width="6px" margin_right="4dpi_px" caption="v" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <TextBox stylename="ac_point_textbox" layout_id="vtext" layout_guid="e996ecfd-7d00-4d55-bc08-ce8d96baa940" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+  </Layout>
+  <Layout layout_name="EmbeddedAnimCurveEditorPanel" layout_guid="aac2dc11-c9b7-4e48-a719-f9540cfaf052">
+    <Grid stylename="grid_container" override_flow_index="9999999" margin_right="0px" margin_top="0dpi_px" grid_rowlayout="['auto', '1*']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="title_bar" override_flow_index="9999999" height="28dpi_px" top="0px" grid_rowlayout="['auto']" grid_columnlayout="['1*', '24dpi_px', '24dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" height="16px" width="39px" left="10dpi_px" localise_caption="AnimCurveEditor_Curves" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="title_bar_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="animcurve_line_button" layout_id="line_button" layout_guid="b6527d31-0ccc-4289-bf32-b17c04ccabbb" override_flow_index="9999999" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="2" stylename="title_bar_panel" flow_index="0">
+              <ChildGadgets>
+                <CheckBox stylename="visible_checkbox_stack" layout_id="vis_check" layout_guid="f0ba2a44-dc47-4b89-a8b9-3e28baf7cc05" localise_tooltip="AnimCurveEditor_ToggleVis" base_style="visible_checkbox" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="default_scrollpanel" layout_id="channels_panel" layout_guid="82d0cbe6-7da7-4b58-85bf-826c0432f926" override_flow_index="9999999" scrollpanel_flags="VerticalScroll, AdjustToScrollBars" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="AnimCurveGraphPanel" layout_guid="b31360c6-f6fe-4e19-8893-5b884a31dd53">
+    <Grid stylename="grid_container" grid_rowlayout="['1*', '26dpi_px']" row_spacing="8dpi_px">
+      <Cell layout_id="graph_panel" layout_guid="5ccfa908-8111-4150-b796-705f121a3941" row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label_right" layout_id="range_label_max" layout_guid="97fcdf7c-0347-4405-b5bc-0b576c15e3c6" height="16dpi_px" width="28dpi_px" left="0px" top="11dpi_px" caption="10" />
+          <PanArea stylename="pan_area" layout_id="pan_area" layout_guid="b3e76c32-7f03-4430-b8c9-9517a798a6b6" colour="#00000000" />
+          <Button stylename="animcurve_range_button" layout_id="range_button" layout_guid="cfc37644-c5df-49a5-a9e1-e6052346f4fb" localise_tooltip="AnimCurve_SetRange" width="24dpi_px" left="2dpi_px" hotkey_name="Set Range"/>
+          <Label stylename="label_right" layout_id="range_label_min" layout_guid="6db37cf0-ed61-41a7-8177-79b9dc10c9a8" height="16dpi_px" width="28dpi_px" left="0px" bottom="0dpi_px" caption="-10" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" left="32dpi_px" right="0px" grid_columnlayout="['auto', 'auto', '1*']" column_spacing="8dpi_px" grid_resize="None">
+            <Cell row="0" column="0" stylename="no_frame_button" flow_index="0">
+              <ChildGadgets>
+                <ScrollPanel stylename="ac_roundbox_frame" width="150dpi_px" top="0dpi_px" bottom="1dpi_px">
+                  <ChildGadgets>
+                    <Label stylename="label" layout_id="name_label" layout_guid="c90a8874-b993-46c6-975e-9c90941f33f2" height="16px" width="0px" />
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" layout_id="toolbar_cell">
+            </Cell>
+            <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" right="32dpi_px" top="0px" stack_order="RightToLeft" stack_resize="ResizeWidth">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="zoom_fit" layout_guid="ba66a82f-406a-423b-9101-565b2b8870f9" flow_index="2" localise_tooltip="AnimCurve_CentreFit" width="24dpi_px" right="0px" margin_left="8dpi_px" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Buttons\icon_zoom_centre_fit.png" hotkey_name="Zoom Reset" />
+                    <Button stylename="button_up" layout_id="zoom_in" layout_guid="53380f17-ff0b-4f36-8f49-b78f2545a3f4" flow_index="1" localise_tooltip="AnimCurve_ZoomIn" width="24dpi_px" right="32px" margin_left="8dpi_px" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Buttons\icon_zoom_in.png" hotkey_name="Zoom In"/>
+                    <Button stylename="button_up" layout_id="zoom_out" layout_guid="8c0feb60-2228-462a-8536-4732a91e8bed" localise_tooltip="AnimCurve_ZoomOut" width="24dpi_px" right="64px" margin_left="8dpi_px" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Buttons\icon_zoom_out.png" hotkey_name="Zoom Out"/>
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="ChannelItemContent_Max" layout_guid="744772a1-622a-4a12-867b-ea3c1c769f47">
+    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <ScrollPanel stylename="default_scrollpanel" layout_id="colour_rect" layout_guid="5ff9952c-dd23-4466-9905-8dd8f5cc56d1" left="2px" right="2px" top="2px" bottom="2px" colour="#FFFFFF00" />
+      </ChildGadgets>
+    </Cell>
+    <Cell layout_id="expand_cell" layout_guid="e39cec8c-d91a-4917-a6af-c25e57b95f85" row="0" column="1" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Image stylename="animcurve_item_expand" layout_id="expand_image" layout_guid="185e8fd4-1522-4450-bd08-02087f76a0f7" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="name_label" layout_guid="1f374dba-a4d3-4221-b8df-7a7754922393" height="16px" width="100px" left="0px" caption="channel_name_01" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <CheckBox stylename="visible_checkbox_stack" layout_id="vis_check" layout_guid="92cda398-0010-444e-9f7a-d3c088e1cdc9" base_style="visible_checkbox" localise_tooltip="AnimCurveEditor_ToggleVis" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Button stylename="animcurve_trash_button" layout_id="trash_button" localise_tooltip="AnimCurve_Editor_DeleteCurve" layout_guid="b7b72fc5-258f-4bde-be3c-01a06412f309" hotkey_name="Delete"/>
+      </ChildGadgets>
+    </Cell>
+  </Layout>
+  <Layout layout_name="ACListItem" layout_guid="5756bf0e-11a5-4aee-8525-1a0ccf8c299d">
+    <Grid stylename="grid_container" height="24dpi_px" left="0px" top="0px" grid_columnlayout="['28dpi_px', '1*']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="fontimage" layout_id="icon" mouse_events="False" left="8dpi_px" right="0px" image_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_add&quot;]" vector_icon_size="19dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="label" height="16px" width="32px" left="10dpi_px" caption="name" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="AnimCurveEditorPanel_Min" layout_guid="0e22f661-e6b5-444e-8b42-f0455748f765">
+    <Grid stylename="dope_sheet_track_panel_container" override_flow_index="9999999" left="0dpi_px" grid_rowlayout="['49dpi_px', '1*', 'auto', 'auto', 'auto']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="dopesheet_track_panel_header" override_flow_index="9999999" top="-1px" grid_rowlayout="['1*', '1*']" grid_resize="ResizeGrid">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['auto']" grid_resize="ResizeGrid">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="animcurve_menu_button" layout_id="menu_btn" layout_guid="6d4e4e7d-4012-4463-a81e-f0d49c97f7de" localise_tooltip="Sequence_Tooltip_Button_Menu" override_flow_index="9999999" top="2dpi_px" icon_flags="Centre" vector_icon_size="16dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" height="28dpi_px" margin_top="4dpi_px" grid_rowlayout="['auto']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="animcurve_line_button" layout_id="line_button" layout_guid="bf4e715f-e362-45f6-a90d-e6e19bc6dd26" override_flow_index="9999999" top="3dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="channels_cell" layout_guid="3d0274e9-c357-410d-9225-1f135d924276" row="1" column="0" stylename="dope_sheet_track_panel_container" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="default_scrollpanel" layout_id="channels_panel" layout_guid="09641419-56f2-49f8-ad9c-82f15197280b" override_flow_index="9999999" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="button_up" layout_id="btn_convert_curve" layout_guid="4bf7bbeb-c7c3-4feb-a8a3-a4a8b31c39ae" localise_tooltip="SequenceEditor_AnimCurve_ConvertToCurve" override_flow_index="9999999" left="6dpi_px" right="6dpi_px" margin_top="6dpi_px" margin_bottom="6dpi_px" icon_flags="Centre" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_embed_curve&quot;]" vector_icon_size="16dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="button_up" layout_id="btn_convert_to_keys" layout_guid="55555b37-cde1-4838-bf30-611758f4e5a2" localise_tooltip="SequenceEditor_AnimCurve_ConvertToKeys" override_flow_index="9999999" left="6dpi_px" right="6dpi_px" top="0px" margin_bottom="10dpi_px" icon_flags="Centre" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_convertkeys&quot;]" vector_icon_size="16dpi_px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="ChannelItem_Max" layout_guid="022886a9-adb5-4b82-a878-7f7b23801067">
+    <Grid stylename="channel_item_grid" override_flow_index="9999999" grid_columnlayout="['12dpi_px', '20dpi_px', '1*', '24dpi_px', '24dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="default_scrollpanel" layout_id="colour_rect" layout_guid="5ff9952c-dd23-4466-9905-8dd8f5cc56d1" left="2px" right="2px" top="2px" bottom="2px" colour="#FFFFFF00" />
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="expand_cell" layout_guid="e39cec8c-d91a-4917-a6af-c25e57b95f85" row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="animcurve_item_expand" layout_id="expand_image" layout_guid="185e8fd4-1522-4450-bd08-02087f76a0f7" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="name_label" layout_guid="1f374dba-a4d3-4221-b8df-7a7754922393" height="16px" width="100px" left="0px" caption="channel_name_01" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <CheckBox stylename="visible_checkbox_stack" layout_id="vis_check" layout_guid="92cda398-0010-444e-9f7a-d3c088e1cdc9" base_style="visible_checkbox" localise_tooltip="AnimCurveEditor_ToggleVis"/>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="animcurve_trash_button" layout_id="trash_button" layout_guid="b7b72fc5-258f-4bde-be3c-01a06412f309" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="ACRangePopup" layout_guid="e44a524c-b665-4dac-a508-8a9ccbb7599b">
+    <Grid stylename="grid_container" height="96dpi_px" width="130dpi_px" left="0px" top="0px" grid_rowlayout="['auto', '1*']" grid_resize="ResizeGrid">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <TitleBar stylename="ab_title_bar" layout_id="title_bar" layout_guid="ffb469d2-c5e8-491d-9e19-48c1c7d713a7" localise_title="AnimCurve_SetRange">
+            <ChildGadgets>
+              <CloseButton stylename="close_button_up" layout_id="close_button" layout_guid="0201f4e4-5675-4411-8af8-0fd246827913" height="15dpi_px" top="" margin_bottom="" />
+            </ChildGadgets>
+          </TitleBar>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="client_panel" layout_guid="e128e192-4b8e-428d-afcb-265f49f6d2a4" row="1" column="0" stylename="ab_borderless_client_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" left="8dpi_px" right="8dpi_px" top="4dpi_px" bottom="4dpi_px" grid_rowlayout="['1*', '1*']" grid_columnlayout="['auto', '1*']" column_spacing="10dpi_px" grid_resize="None">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" height="16px" width="35px" left="0px" localise_caption="AnimCurve_Upper" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <NumericTextBox stylename="numeric_text_box" layout_id="upper_text" layout_guid="0439a337-48a2-4baf-a4a7-9ddaeb9078ef" override_flow_index="9999999" width="" min="-1000000" max="1000000" input_type="Real" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" height="16px" width="34px" left="0px" localise_caption="AnimCurve_Lower" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <NumericTextBox stylename="numeric_text_box" layout_id="lower_text" layout_guid="b81d2e63-f417-4fdf-8c68-0aab7de8af81" width="" min="-1000000" max="1000000" input_type="Real" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="AnimCurveEditorPanel_Max" layout_guid="8ca3cc54-d083-4af6-99a5-ff1e1f89c4dc">
+    <Grid stylename="dope_sheet_track_panel_container" override_flow_index="9999999" left="0px" top="0px" grid_rowlayout="['49dpi_px', '1*', 'auto', 'auto', 'auto']" grid_resize="ResizeGrid">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="dopesheet_track_panel_header" override_flow_index="9999999" top="-1px" grid_rowlayout="['26dpi_px', '1*']" grid_resize="ResizeGrid">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" left="0dpi_px" right="0dpi_px" grid_columnlayout="['26dpi_px', '1*', '24dpi_px']" grid_resize="ResizeGrid">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="animcurve_add_button" layout_id="add_curve_button" layout_guid="83ca371a-bd7f-4ae4-ae91-1febb7d8e249" override_flow_index="9999999" localise_tooltip="AnimCurve_Editor_AddCurve" height="22dpi_px" width="24dpi_px" left="2dpi_px" top="2dpi_px" hotkey_name="Add Curve"/>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <TextBox stylename="animcurve_name_textbox" layout_id="name_textbox" layout_guid="2eca4e55-ec1a-47d3-9fe2-48cb0a2df579" override_flow_index="9999999" left="2dpi_px" right="4dpi_px" top="4dpi_px" bottom="2dpi_px" bind_property="name" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="animcurve_menu_button" layout_id="menu_btn" layout_guid="509f8463-08e4-4ab4-855c-240faeeabf10" localise_tooltip="Sequence_Tooltip_Button_Menu" override_flow_index="9999999" left="0px" top="2dpi_px" icon_flags="Centre" vector_icon_size="16dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" margin_top="4dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['1*', '24dpi_px']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" override_flow_index="9999999" height="16px" width="39px" left="10dpi_px" localise_caption="AnimCurveEditor_Curves" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="animcurve_line_button" layout_id="line_button" layout_guid="c49e5436-9b71-4692-8d0c-84499fe85a72" override_flow_index="9999999" top="0px" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="channels_cell" layout_guid="a62976f6-0857-4bf7-a6ee-123277939f0e" row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="default_scrollpanel" layout_id="channels_panel" layout_guid="7bf4614f-ac33-449d-af5b-79f92bbce378" override_flow_index="9999999" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <BrowseButton stylename="browse_button_centre" layout_id="btn_convert_curve" layout_guid="c0726d88-cdf9-48e1-b42f-ea3049c1759b" override_flow_index="9999999" left="6dpi_px" right="6dpi_px" margin_top="6dpi_px" margin_bottom="6dpi_px" localise_name="SequenceEditor_AnimCurve_ConvertToCurve" icon="" icon_flags="Centre" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_embed_curve&quot;]" vector_icon_size="16dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <BrowseButton stylename="browse_button_centre" layout_id="btn_convert_to_keys" layout_guid="7cb523b1-6c17-48ce-90ab-f50833347025" override_flow_index="9999999" left="6dpi_px" right="6dpi_px" top="0px" margin_top="0dpi_px" margin_bottom="10dpi_px" localise_name="SequenceEditor_AnimCurve_ConvertToKeys" icon="" icon_flags="Centre" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_convertkeys&quot;]" vector_icon_size="16dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="selected_point_editor_cell" layout_guid="8c7833cc-bb5d-4f39-9c07-822cb91a3a78" row="4" column="0" stylename="grid_container_panel" flow_index="0" />
+    </Grid>
+  </Layout>
+  <Layout layout_name="ChannelItemContent_Min" layout_guid="b0b36474-dd7d-4ede-a59e-6f4fe0954ff5">
+    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <ScrollPanel stylename="default_scrollpanel" layout_id="colour_rect" layout_guid="2fdbf677-c52d-44d3-acda-41060becfe99" left="2px" right="2px" top="2px" bottom="2px" colour="#FFFFFF00" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="name_label" layout_guid="f075a7a2-66d1-4a05-8113-0ceac0baa549" height="16px" width="100px" left="0px" caption="channel_name_01" />
+      </ChildGadgets>
+    </Cell>
+  </Layout>
+  <Layout layout_name="ChannelItem_Min" layout_guid="28114e17-79d4-4e46-9321-b8aed25ae70e">
+    <Grid stylename="channel_item_grid" override_flow_index="9999999" grid_columnlayout="['12dpi_px', '1*']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="default_scrollpanel" layout_id="colour_rect" layout_guid="582f4445-c4e4-47eb-90fd-9b5c6d635d5b" left="2px" right="2px" top="2px" bottom="2px" colour="#FFFFFF00" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="name_label" layout_guid="afe366f6-24ac-4083-aae5-2c1feb10f91f" height="16px" width="100px" left="0px" caption="channel_name_01" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="ChannelChildItem" layout_guid="b8ed32c6-8d7a-44b5-98e6-2a1603eb3aaf">
+    <Grid stylename="channel_child_grid">
+      <Layout layout_name="ChannelChildItemContent" />
+    </Grid>
+  </Layout>
+  <Layout layout_name="ChannelChildItemAlt">
+    <Grid stylename="channel_child_grid_alt">
+      <Layout layout_name="ChannelChildItemContentAlt" />
+    </Grid>
+  </Layout>
+
+  <Layout layout_name="ACEDebugToolBar">
+    <StackPanel stylename="stack_panel" override_flow_index="9999999" height="26dpi_px" stack_resize="ResizeWidth">
+      <ChildGadgets>
+        <Label stylename="label" override_flow_index="9999999" height="16px" width="9px" left="4px" margin_left="4dpi_px" caption="x:" />
+        <TextBox stylename="text_box" layout_id="xbox" layout_guid="223455e4-6cfc-411c-bdfb-2523873293af" override_flow_index="9999999" width="60dpi_px" left="17px" margin_left="4dpi_px" />
+        <Label stylename="label" override_flow_index="9999999" height="16px" width="9px" left="87px" margin_left="10dpi_px" caption="y:" />
+        <TextBox stylename="text_box" layout_id="ybox" layout_guid="31ad03bf-743e-4471-8456-506c3b571e28" override_flow_index="9999999" width="60dpi_px" left="100px" margin_left="4dpi_px" />
+        <Button stylename="button_up" layout_id="btn_flip" layout_guid="d72ad9f3-e92a-466d-b366-a41a128a6121" override_flow_index="9999999" width="50px" left="170px" margin_left="10dpi_px" name="Flip" />
+        <Button stylename="button_up" layout_id="btn_merge" layout_guid="913a2e3f-787c-41c5-8d60-fe3258739af7" override_flow_index="9999999" width="50px" left="230px" margin_left="10dpi_px" name="Merge" />
+        <Button stylename="button_up" layout_id="btn_prev" layout_guid="671da868-c2cd-4d58-a0db-7ed2bf256e58" override_flow_index="9999999" width="24dpi_px" left="290px" margin_left="10dpi_px" name="&lt;" />
+        <Button stylename="button_up" layout_id="btn_next" layout_guid="80435d57-87f8-4a19-ad70-15fd4c6c7d6d" override_flow_index="9999999" width="24dpi_px" left="324px" margin_left="10dpi_px" name="&gt;" />
+        <Button stylename="button_up" layout_id="btn_up" layout_guid="33eedbca-61a1-4868-9128-29d67a501110" override_flow_index="9999999" width="24dpi_px" left="358px" margin_left="10dpi_px" name="^" />
+        <Button stylename="button_up" layout_id="btn_down" layout_guid="aa045c3f-d369-4d60-9fbd-74e47ec44d10" override_flow_index="9999999" width="24dpi_px" left="392px" margin_left="10dpi_px" name="V" />
+		<Button stylename="button_up" layout_id="btn_export" layout_guid="210d53d4-9482-4f3f-ae49-cf65a6a50c60" override_flow_index="9999999" width="60px" left="426px" margin_left="10dpi_px" name="Export" />
+	  </ChildGadgets>
+    </StackPanel>
+  </Layout>
+</Layouts>

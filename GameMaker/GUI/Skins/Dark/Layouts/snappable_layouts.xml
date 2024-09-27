@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="SnappableControlsDropdown" layout_guid="7d0715d1-ece0-4165-bc20-aec06d144480">
+    <Grid stylename="toolbar_widget_popup" override_flow_index="9999999" height="48dpi_px" width="210dpi_px" row_spacing="6dpi_px" column_spacing="6dpi_px" grid_resize="ResizeGrid">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['auto']" grid_columnlayout="['auto', 'auto', 'auto', 'auto', 'auto', 'auto', 'auto']" column_spacing="6dpi_px" grid_resize="ResizeGrid">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ToggleButton stylename="snappable_selection_btn_popout" layout_id="snappable_state_popout" layout_guid="d9841222-f5a6-42d0-9adc-6deb24f32f0e" override_flow_index="9999999" localise_tooltip="SnappableControls_Orientation_Floating" right="0px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ToggleButton stylename="snappable_selection_btn_top" layout_id="snappable_state_top" layout_guid="99727adc-ef49-42a6-9c6e-9754511d5a11" override_flow_index="9999999" localise_tooltip="SnappableControls_Orientation_Top" right="0px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ToggleButton stylename="snappable_selection_btn_right" layout_id="snappable_state_right" layout_guid="c988af63-c565-4a84-95af-482edfccc3ec" override_flow_index="9999999" localise_tooltip="SnappableControls_Orientation_Right" right="0px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ToggleButton stylename="snappable_selection_btn_bottom" layout_id="snappable_state_bottom" layout_guid="7b1935bb-a57b-4d49-ba8e-5c83826464d0" override_flow_index="9999999" localise_tooltip="SnappableControls_Orientation_Bottom" right="0px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ToggleButton stylename="snappable_selection_btn_left" layout_id="snappable_state_left" layout_guid="bcf4b1d3-118d-4f1d-9ef9-2ebf410ea7af" override_flow_index="9999999" localise_tooltip="SnappableControls_Orientation_Left" right="0px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="5" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <VerticalSeparator stylename="vertical_separator" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="6" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="snappable_selection_btn_reset" layout_id="snappable_reset" layout_guid="d4b7d010-a299-4dad-9c50-3bf375e9ea74" override_flow_index="9999999" localise_tooltip="SnappableControls_Reset" />"</ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="SnappableControlsButton" layout_guid="c7800e88-8a0f-4680-899c-1b9fbbf86c3c">
+    <StackPanel stylename="stack_panel" override_flow_index="9999999" height="24dpi_px" width="36dpi_px" stack_resize="ResizeAll">
+      <ChildGadgets>
+        <Button stylename="snappable_selection_btn" layout_id="snappable_selection_btn" layout_guid="ad9b7a60-00e4-435d-8efa-bba9dee76134" override_flow_index="9999999" width="24dpi_px" left="0px" localise_tooltip="SnappableControls_Title" />
+        <ToggleButton stylename="snappable_orientation_dropdown" layout_id="snappable_dropdown_btn" layout_guid="cfcf255f-d558-4988-9441-0ef757c5e644" override_flow_index="9999999" width="12dpi_px" left="36px" />
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+</Layouts>

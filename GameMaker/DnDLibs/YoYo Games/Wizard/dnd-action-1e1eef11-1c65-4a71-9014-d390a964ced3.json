@@ -1,0 +1,14 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdState",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "state",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdStart|GMStdResume|GMStdPaused|GMStdStop"
+    }
+  }
+]

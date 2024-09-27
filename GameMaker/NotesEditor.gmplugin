@@ -1,0 +1,29 @@
+{
+  "name": "NotesEditor",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "NotesEditor",
+      "localised_name": "notes_editor_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "NotesEditor",
+          "version": "1.0",
+          "path": "NotesEditor.dll",
+          "checksum": "C/4tVVSWV/1zWA6HNhCMXW9TKK9ewX68FHbHTGkICTA="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "j0tH3CJvsTJ9BBVUX96ZfaAVkN\u002BzVpCW7BxMRpCwfdazGaO6ybZURIEG\u002BR0wEI/VQjGuzFYfegi9XiaSSZOTI3SCR8Zrq/RaUNHWP4A4IBk3uL0cKngM6WpmDJ7Tp/quOlu3hnL71Vd\u002BJBMQLW4aoNugdHnFOVbiWikyUg8IGd8=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "WindowsAdapters",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "WindowsAdapters",
+      "localised_name": "windows_adapters_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "WindowsAdapters",
+          "version": "1.0",
+          "path": "WindowsAdapters.dll",
+          "checksum": "uDuyclS7TtueXl5/gf5\u002BBKTXKCo\u002BpQNFq0CNoayroWI="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "D5ySH5fHxG2QAbT26uKp1xCF6Tl7Rr6/CJkB1KzJHzxY7BcZZuLxw3gQUCG7o94RkrdlPhD5xXjBe3l2yi\u002BLB7fYae8nkT7189nrWhDsF8xMqwNI\u002BSxn0fFuZhBYCOdG\u002B5iruBB0dHjFLoqjouYImG02KwoYanWW6E/qFZK4UJc=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

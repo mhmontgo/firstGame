@@ -1,0 +1,59 @@
+{
+  "ac_point_textbox": {
+    "colour": "animcurve_textbox_point_bg",
+    "text_colour": "animcurve_textbox_point_text"
+  },
+
+  "animcurve_scrub_handle": {
+    "colour": "animcurve_scrub_handle"
+  },
+
+  "animcurve_trash_button": {
+    "icon_colour": "animcurve_button_trash"
+  },
+
+  "animcurve_line_button": {
+    "icon_colour": "animcurve_button_line"
+  },
+
+  "animcurve_range_button": {
+    "icon_colour": "animcurve_button_range"
+  },
+
+  "animcurve_addpoint_button": {
+    "icon_colour": "animcurve_button_addpoint"
+  },
+
+  "animcurve_editor_style": {
+    "graph_bg_colour": "animcurve_graph_bg",
+    "graph_line_colour": "animcurve_graph_line",
+    "icon_colour": "animcurve_icon",
+    "point_fill_colour": "animcurve_point_fill"
+  },
+
+  "animcurve_editor_dopesheet_style": {
+    "graph_bg_colour": "animcurve_graph_bg",
+    "graph_line_colour": "animcurve_graph_line",
+    "icon_colour": "animcurve_icon",
+    "point_fill_colour": "animcurve_point_fill"
+  },
+
+  "animcurve_channelstack": {
+    "point_item_bg_colour": "animcurve_channel_stack_item_bg",
+    "point_item_select_colour": "animcurve_channel_stack_item_select",
+    "channel_select_colour": "animcurve_channel_stack_channel_select"
+  },
+
+  "animcurve_hv_label": {
+    "colour": "animcurve_textbox_point_hv_label"
+  },
+
+  "animcurve_textbox": {
+    "base": "no_frame_button",
+    "colour": "animcurve_textbox"
+  },
+
+  "fontimage": {
+    "colour": "animcurve_library_type_icon"
+  }
+}

@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="ErrorDialog_Window" layout_guid="9283c391-ce89-48cc-a03a-23a6f6c86977">
+    <Window stylename="confirm_dialog">
+      <Layout layout_name="ErrorDialog" />
+    </Window>
+  </Layout>
+  <Layout layout_name="YesNoDialog" layout_guid="b1966ee1-5313-4d9a-b5cf-a6308671e55d">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" left="0px" top="0px" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="bad9ef24-cef9-4682-a6be-d42008ae3160" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="367919ff-252c-4179-a9bc-fa6cdf86a086" left="62dpi_px" top="0px" margin_top="4dpi_px" margin_bottom="4dpi_px" localise_caption="Dialog_AreYouSure" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="0">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" stack_order="RightToLeft" stack_resize="ResizeHeight">
+                <ChildGadgets>
+                  <Button stylename="button_up" layout_id="no_button" layout_guid="c02b068c-ee83-4eb7-934b-3014479748db" height="33dpi_px" width="60dpi_px" right="12px" margin_right="8dpi_px" localise_name="Button_No" flow_index="1" />
+                  <Button stylename="button_up" layout_id="yes_button" layout_guid="9aa086bf-2ec5-4635-a172-e8dd8312def1" height="33dpi_px" width="60dpi_px" right="114px" margin_right="8dpi_px" localise_name="Button_Yes" flow_index="0" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="3874c1f4-c8e9-4f83-a7aa-3a1d4c00bace" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="MessageDialogCheckbox" layout_guid="b1966ee1-5313-4d9a-b5cf-a6308671e55d">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="81dab2b5-01ae-48e7-9617-11528bef7761" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="e0f77196-bf8f-4e24-a66d-f828e8de9309" top="0px" left="0px" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="yes_button" layout_guid="35b592e1-95a7-44f6-b1d9-e4f74b25da1e" height="30dpi_px" width="60dpi_px" localise_name="Button_OK" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="9e50b3a4-23c6-4121-9afe-dfabb10baf13" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="YesNoCancelDialog" layout_guid="71ebc2ef-572b-4dcb-ba10-bf129313eb15">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="81dab2b5-01ae-48e7-9617-11528bef7761" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="e0f77196-bf8f-4e24-a66d-f828e8de9309" left="52dpi_px" top="0dpi_px" localise_caption="Dialog_AreYouSure" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="0">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" stack_order="RightToLeft" stack_resize="ResizeHeight">
+                <ChildGadgets>
+                  <Button stylename="button_up" layout_id="cancel_button" layout_guid="bf4d24d9-7237-4674-a4af-03c19f526d6a" height="30dpi_px" width="80dpi_px" right="8dpi_px" margin_right="8dpi_px" localise_name="Button_Cancel" flow_index="2" />
+                  <Button stylename="button_up" layout_id="no_button" layout_guid="35b592e1-95a7-44f6-b1d9-e4f74b25da1e" height="30dpi_px" width="80dpi_px" right="76dpi_px" margin_right="8dpi_px" localise_name="Button_No" flow_index="1" />
+                  <Button stylename="button_up" layout_id="yes_button" layout_guid="00aca4da-5d7e-4507-97a6-991dcbac0d37" height="30dpi_px" width="80dpi_px" right="144dpi_px" margin_right="8dpi_px" localise_name="Button_Yes" flow_index="0" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="9e50b3a4-23c6-4121-9afe-dfabb10baf13" left="0dpi_px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="OpenNewCancelDialog" layout_guid="75d00ff1-36d4-4e08-8b74-36631089f71d">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto']">
+          <Cell row="0" column="0" flow_index="1">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="81dab2b5-01ae-48e7-9617-11528bef7761" left="10px" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="e0f77196-bf8f-4e24-a66d-f828e8de9309" left="52px" top="0dpi_px" localise_caption="Marketplace_ProjectRequiredDialogMessage" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" grid_rowlayout="['auto']" grid_columnlayout="['1*', '1*', '1*']" grid_resize="ResizeGridHeight">
+                <Cell row="0" column="0" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="yes_button" layout_guid="2d23b1ef-8d8c-4dc0-a423-8b24db1e00bb" height="24px" left="4dpi_px" right="4dpi_px" localise_name="File_Menu_OpenProject" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" flow_index="1">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="no_button" layout_guid="5fe6f1b5-fa61-42a1-a89d-983746b0b1b0" height="24px" left="4dpi_px" right="4dpi_px" localise_name="File_Menu_NewProject" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="2" flow_index="2">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="cancel_button" layout_guid="a9ba7817-4939-4b20-bcdc-4ae820bc7133" height="24px" left="4dpi_px" right="4dpi_px" localise_name="Button_Cancel" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="CreateNewLayerCancelDialog" layout_guid="23d373a3-be39-43d7-ad03-9ab7589cc37a">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" left="0px" top="0px" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" override_flow_index="9999999">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="bad9ef24-cef9-4682-a6be-d42008ae3160" left="10px" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="367919ff-252c-4179-a9bc-fa6cdf86a086" left="52px" top="0px" margin_top="4dpi_px" margin_bottom="4dpi_px" localise_caption="Dialog_AreYouSure" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="RightToLeft" stack_resize="ResizeAll">
+                <ChildGadgets>
+                  <Button stylename="button_up" layout_id="yes_button" layout_guid="9ff7c439-4279-4b9f-bbf6-ade222f4a9a8" flow_index="1" override_flow_index="9999999" height="24px" width="100dpi_px" right="8px" margin_right="8dpi_px" localise_name="Button_Create" />
+                  <Button stylename="button_up" layout_id="no_button" layout_guid="5c99324b-9bfc-41fd-8bac-17d591e8ce37" override_flow_index="9999999" height="24px" width="100dpi_px" right="116px" margin_right="8dpi_px" localise_name="Button_Cancel" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="90c3d743-5790-4897-bde8-b074a2e06a21" override_flow_index="9999999" left="0%" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="CreateNewFunctionsCancelDialog" layout_guid="9463b178-2141-4cc3-b776-4a0f517b7635">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" left="0px" top="0px" grid_rowlayout="['1*', 'auto', 'auto', 'auto']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" override_flow_index="9999999">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="6859ff4f-c244-4e97-b8c3-d787ff296b22" left="10px" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="2e7bd4a5-07b1-4e41-980a-6a00a0c9b6b9" left="52px" top="0px" margin_top="4dpi_px" margin_bottom="4dpi_px" localise_caption="Dialog_AreYouSure" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="3">
+            <ChildGadgets>
+              <Label stylename="confirm_dialog_label" layout_id="question_label" layout_guid="27b8613d-abaa-42b8-b85d-064d7656d6ea" left="52px" top="0px" height="13dpi_px" margin_top="4dpi_px" margin_bottom="4dpi_px" localise_caption="SeqEvents_NewFunctionQuestion" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="RightToLeft" stack_resize="ResizeAll">
+                <ChildGadgets>
+                  <Button stylename="button_up" layout_id="yes_button" layout_guid="9d27b838-80ce-4b01-9188-be95afd16baf" flow_index="1" override_flow_index="9999999" height="24px" width="100dpi_px" right="8px" margin_right="8dpi_px" localise_name="Button_Create" />
+                  <Button stylename="button_up" layout_id="no_button" layout_guid="cb6ec1b8-8d28-4829-9f20-36f9049a0607" override_flow_index="9999999" height="24px" width="100dpi_px" right="116px" margin_right="8dpi_px" localise_name="Button_Cancel" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>          
+          <Cell row="3" column="0" stylename="grid_container_panel" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="e5fe2bd2-da26-439c-adf9-21fc4d29741c" override_flow_index="9999999" left="0%" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="SpineLicenseDialog" layout_guid="78a37f71-400a-477f-a8d3-61b55f9462bd">
+    <Window stylename="default_window" height="700dpi_px" width="600dpi_px" localise_title="Spine_License_Title" window_flags="CloseButton,DockingDisabled,DesktopTransferDisabled" accept_button_id="ok_button">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" grid_rowlayout="['1*', '160dpi_px']">
+            <Cell row="0" column="0" flow_index="1">
+              <ChildGadgets>
+                <MultiLineTextBox stylename="multiline_text_box" layout_id="license_box" layout_guid="be3c8ce6-78e2-42b4-87ec-6c9317da6db6" left="10dpi_px" right="10dpi_px" top="10dpi_px" bottom="10dpi_px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" stack_order="TopToBottom" stack_resize="ResizeAll">
+                  <ChildGadgets>
+                    <Label stylename="label_centre" height="16px" top="0px" localise_caption="Spine_License_Label1" auto_size="True" word_wrap="True" />
+                    <Grid stylename="grid_container" top="36px" margin_top="4dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['auto', 'auto']" grid_resize="ResizeGrid">
+                      <Cell row="0" column="0" flow_index="0">
+                        <ChildGadgets>
+                          <Label stylename="label" height="16px" width="171px" localise_caption="Spine_License_Label2" auto_size="True" />
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="0" column="1" flow_index="0">
+                        <ChildGadgets>
+                          <LinkLabel stylename="link_label" open_in_external_browser="true" height="16px" width="154px" left="10dpi_px" margin_left="10dpi_px" localise_caption="Spine_License_Link" localise_title="" url="http://esotericsoftware.com" />
+                        </ChildGadgets>
+                      </Cell>
+                    </Grid>
+                    <Label stylename="label" height="16px" width="431px" top="56px" margin_top="4dpi_px" localise_caption="Spine_License_Label3" />
+                    <Grid stylename="grid_container" top="92px" margin_top="20dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['auto', 'auto']" column_spacing="10dpi_px" grid_resize="ResizeGrid">
+                      <Cell row="0" column="0" flow_index="0">
+                        <ChildGadgets>
+                          <CheckBox stylename="checkbox_stack" layout_id="check_agree" layout_guid="f4b8ac45-73f5-41c6-b2e8-e9ad343b69a7" localise_name="Spine_License_Agree" />
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="0" column="1" flow_index="0">
+                        <ChildGadgets>
+                          <Button stylename="button_up" layout_id="ok_button" layout_guid="740b6394-d680-4517-8792-662a257cf4c7" width="120dpi_px" localise_name="Button_OK" />
+                        </ChildGadgets>
+                      </Cell>
+                    </Grid>
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="OpenNewCancelDialog_Window" layout_guid="339f7b7b-0f23-4f88-928f-ed61be9ad6cd">
+    <Window stylename="confirm_dialog">
+      <Layout layout_name="OpenNewCancelDialog" />
+    </Window>
+  </Layout>
+  <Layout layout_name="MessageDialogAutoHeight" layout_guid="9e0e57c6-694d-423c-ad23-680f189fd756">
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['auto', 'auto', 'auto']" grid_resize="ResizeHeight">
+          <Cell row="0" column="0" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" stack_resize="ResizeHeight">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="81dab2b5-01ae-48e7-9617-11528bef7761" left="10px" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="8e5d19e3-7ce5-4457-a634-2005c80544da" left="52px" top="0px" margin_bottom="10px" auto_size="True" auto_ellipsis="False" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="yes_button" layout_guid="35b592e1-95a7-44f6-b1d9-e4f74b25da1e" height="24px" width="60dpi_px" right="8dpi_px" margin_right="8dpi_px" localise_name="Button_OK" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="9e50b3a4-23c6-4121-9afe-dfabb10baf13" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+    <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+  </Layout>
+  <Layout layout_name="MessageDialogBigButton" layout_guid="9e518e88-ed72-44ae-83e8-5ba65ec34b53">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', '38dpi_px']">
+          <Cell row="0" column="0" flow_index="1">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="81dab2b5-01ae-48e7-9617-11528bef7761" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="e0f77196-bf8f-4e24-a66d-f828e8de9309" left="52dpi_px" top="0dpi_px" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="yes_button" layout_guid="a305f73c-b87a-4865-b9c9-2a8948a85a4b" height="24dpi_px" width="180dpi_px" localise_name="Button_OK" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="ProjectConversionProgressDialog" layout_guid="c59d1c8f-e9b5-42f3-a8ad-a19c5962a2c1">
+    <ChildGadgets>
+      <Window stylename="window" override_flow_index="9999999" height="256px" width="368px" colour="#00FFFFFF">
+        <Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+          <ChildGadgets>
+            <ScrollPanel stylename="default_scrollpanel" override_flow_index="9999999" colour="#FF383838">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="TopToBottom" stack_resize="ResizeAll">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="16px" width="109px" top="0px" caption="Converting project.." />
+                    <ScrollPanel stylename="default_scrollpanel" layout_id="loading_container" layout_guid="90e4f6b4-33ca-4768-affc-7f5559c7ec7b" override_flow_index="9999999" height="128dpi_px" width="128dpi_px" top="32px" margin_top="16dpi_px" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </ScrollPanel>
+          </ChildGadgets>
+        </Cell>
+      </Window>
+    </ChildGadgets>
+  </Layout>
+  <Layout layout_name="PackageSuccessDialog" layout_guid="266a0476-8797-4e73-b13e-3a665ce78749">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="920768a4-7b93-431c-9d6d-0ca0e39d0855" left="10px" image="YesTick32.png" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="1608e8c8-89dc-4e9c-8869-82602f5331cb" left="52px" top="0px" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="yes_button" layout_guid="13af8e26-f7e1-445f-9d2a-064fc98a65fe" height="24px" width="60dpi_px" right="8dpi_px" margin_right="8dpi_px" localise_name="Button_OK" />
+              <Button stylename="button_up" layout_id="open_button" width="180dpi_px" localise_name="ResourceNode_OpenInExplorer" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="9e50b3a4-23c6-4121-9afe-dfabb10baf13" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+    <Cell layout_id="window_client_panel" layout_guid="f2f5270e-1e13-4a3a-8df6-586913bccbf1" row="1" column="1" flow_index="0" />
+  </Layout>
+  <Layout layout_name="ErrorDialog" layout_guid="b1966ee1-5313-4d9a-b5cf-a6308671e55d">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', '38dpi_px']">
+          <Cell row="0" column="0" flow_index="1">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="81dab2b5-01ae-48e7-9617-11528bef7761" image="ErrorCross32.png" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="e0f77196-bf8f-4e24-a66d-f828e8de9309" top="0dpi_px" left="0dpi_px" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="yes_button" layout_guid="35b592e1-95a7-44f6-b1d9-e4f74b25da1e" height="30dpi_px" width="60dpi_px" right="8dpi_px" margin_right="8dpi_px" localise_name="Button_OK" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="MessageDialogBigButton_Window" layout_guid="1386e1e3-ad93-4c7a-a36c-985e53758451">
+    <Window stylename="confirm_dialog">
+      <Layout layout_name="MessageDialogBigButton" />
+    </Window>
+  </Layout>
+  <Layout layout_name="StripImportDialog" layout_guid="d40c7db7-2979-49e6-8195-39ad1311fa21">
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['100%']" grid_columnlayout="['300dpi_px', '80*']">
+          <Cell row="0" column="0" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" grid_rowlayout="['1*', '30dpi_px']">
+                <Cell row="0" column="0" flow_index="0">
+                  <ChildGadgets>
+                    <ScrollPanel stylename="window_inner_panel" height="" width="" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="4dpi_px" scrollpanel_flags="VerticalScroll, AdjustToScrollBars">
+                      <ChildGadgets>
+                        <Label stylename="basic_label" height="16px" width="105px" left="4dpi_px" top="10dpi_px" localise_caption="StripDialog_NumberOfImages" />
+                        <Label stylename="basic_label" height="16px" width="90px" left="4dpi_px" top="40dpi_px" localise_caption="StripDialog_ImagesPerRow" />
+                        <Label stylename="basic_label" height="16px" width="76px" left="4dpi_px" top="110dpi_px" localise_caption="StripDialog_ImageHeight" />
+                        <Label stylename="basic_label" height="16px" width="119px" left="4dpi_px" top="150dpi_px" localise_caption="StripDialog_HCellOffset" />
+                        <Label stylename="basic_label" height="16px" width="103px" left="4dpi_px" top="180dpi_px" localise_caption="StripDialog_VCellOffset" />
+                        <Label stylename="basic_label" height="16px" width="124px" left="4dpi_px" top="220dpi_px" localise_caption="StripDialog_HPixelOffset" />
+                        <Label stylename="basic_label" height="16px" width="108px" left="4dpi_px" top="250dpi_px" localise_caption="StripDialog_VPixelOffset" />
+                        <Label stylename="basic_label" height="16px" width="118px" left="4dpi_px" top="290dpi_px" localise_caption="StripDialog_HSeparation" />
+                        <Label stylename="basic_label" height="16px" width="106px" left="4dpi_px" top="320dpi_px" localise_caption="StripDialog_VSeparation" />
+                        <Label stylename="basic_label" height="16px" width="71px" left="4dpi_px" top="80dpi_px" localise_caption="StripDialog_ImageWidth" />
+                        <NumericTextBox stylename="numeric_text_box_buttons" layout_id="frame_count" layout_guid="00e8a4b8-08e5-4e82-a1b6-d98b90fb1854" height="24dpi_px" width="50dpi_px" right="20dpi_px" top="5dpi_px" has_buttons="True" min="1" max="999" />
+                        <NumericTextBox stylename="numeric_text_box_buttons" layout_id="frames_per_row" layout_guid="92e49b51-34b5-47d4-b936-be7688848d74" height="24dpi_px" width="50dpi_px" right="20dpi_px" top="35dpi_px" has_buttons="True" min="1" max="999" />
+                        <NumericTextBox stylename="numeric_text_box_buttons" layout_id="frame_width" layout_guid="2ce177d6-049f-49ef-b141-84444339da44" height="24dpi_px" width="50dpi_px" right="20dpi_px" top="75dpi_px" has_buttons="True" min="1" max="4096" />
+                        <NumericTextBox stylename="numeric_text_box_buttons" layout_id="frame_height" layout_guid="5e0f6165-5923-4ddf-bc6f-8f54db71728a" height="24dpi_px" width="50dpi_px" right="20dpi_px" top="105dpi_px" has_buttons="True" min="1" max="4096" />
+                        <NumericTextBox stylename="numeric_text_box_buttons" layout_id="hcell_offset" layout_guid="63700222-afa3-4b5b-88fb-bc0517a0d933" height="24dpi_px" width="50dpi_px" right="20dpi_px" top="145dpi_px" has_buttons="True" />
+                        <NumericTextBox stylename="numeric_text_box_buttons" layout_id="vcell_offset" layout_guid="05b697f5-8198-48f7-9450-0097e6c7966c" height="24dpi_px" width="50dpi_px" right="20dpi_px" top="175dpi_px" has_buttons="True" />
+                        <NumericTextBox stylename="numeric_text_box_buttons" layout_id="hpixel_offset" layout_guid="5f331958-ba3e-44fe-b8ba-917b723e0751" height="24dpi_px" width="50dpi_px" right="20dpi_px" top="215dpi_px" has_buttons="True" />
+                        <NumericTextBox stylename="numeric_text_box_buttons" layout_id="vpixel_offset" layout_guid="e81ecddf-07d7-4a83-b175-0b7b33d86fff" height="24dpi_px" width="50dpi_px" right="20dpi_px" top="245dpi_px" has_buttons="True" />
+                        <NumericTextBox stylename="numeric_text_box_buttons" layout_id="hseparation" layout_guid="2a9d5f6a-858e-483b-a17f-63e9d14353f3" height="24dpi_px" width="50dpi_px" right="20dpi_px" top="285dpi_px" has_buttons="True" />
+                        <NumericTextBox stylename="numeric_text_box_buttons" layout_id="vseparation" layout_guid="08a2d121-f208-4921-b46d-db03fd84a347" height="24dpi_px" width="50dpi_px" right="20dpi_px" top="315dpi_px" has_buttons="True" />
+                      </ChildGadgets>
+                    </ScrollPanel>
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="1" column="0" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="import_button" layout_guid="913fd3c1-9852-4fc8-8bc5-f97cb3616b13" height="24px" width="100dpi_px" localise_name="Convert" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="1" flow_index="0">
+            <ChildGadgets>
+              <ScrollPanel stylename="window_inner_panel" left="2dpi_px" right="2dpi_px">
+                <ChildGadgets>
+                  <PanArea stylename="previewarea_style" layout_id="preview_area" layout_guid="2b7555e6-c5c2-47c3-a455-af6d61d808c2" colour="#FF2100FF" centre_fit_buffer="32" />
+                </ChildGadgets>
+              </ScrollPanel>
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+    <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+  </Layout>
+  <Layout layout_name="MessageDialogWindow" layout_guid="95700b89-0ecf-4876-abe3-5db0d52b8dab">
+    <Window stylename="confirm_dialog">
+      <Layout layout_name="MessageDialog" />
+    </Window>
+  </Layout>
+  <Layout layout_name="SuccessDialog" layout_guid="719A5339-ABBF-4662-9B91-EF040AA26747">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="920768A4-7B93-431C-9D6D-0CA0E39D0855" image="YesTick32.png" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="1608E8C8-89DC-4E9C-8869-82602F5331CB" top="0px" left="0px" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="yes_button" layout_guid="13AF8E26-F7E1-445F-9D2A-064FC98A65FE" height="30dpi_px" width="60dpi_px" right="8dpi_px" margin_right="8dpi_px" localise_name="Button_OK" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="9e50b3a4-23c6-4121-9afe-dfabb10baf13" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="YesNoDialogWindow" layout_guid="958ad560-06dc-4b1f-b06b-3eae99aaaa68">
+    <Window stylename="confirm_dialog">
+      <Client />
+      <Cell layout_id="window_client_panel" layout_guid="f2f5270e-1e13-4a3a-8df6-586913bccbf1" row="1" column="1" stylename="window_client_panel" flow_index="0" />
+      <Layout layout_name="YesNoDialog" layout_guid="b1966ee1-5313-4d9a-b5cf-a6308671e55d" />
+    </Window>
+  </Layout>
+  <Layout layout_name="MessageDialog" layout_guid="b1966ee1-5313-4d9a-b5cf-a6308671e55d">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="81dab2b5-01ae-48e7-9617-11528bef7761" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="e0f77196-bf8f-4e24-a66d-f828e8de9309" top="0px" left="0px" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="yes_button" layout_guid="35b592e1-95a7-44f6-b1d9-e4f74b25da1e" height="30dpi_px" width="60dpi_px" right="8dpi_px" margin_right="8dpi_px" localise_name="Button_OK" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="9e50b3a4-23c6-4121-9afe-dfabb10baf13" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="MessageDialogCheckbox_Window" layout_guid="0322d253-1067-4b99-96b0-009c5f0e13ec">
+    <Window stylename="confirm_dialog">
+      <Layout layout_name="MessageDialogCheckbox" />
+    </Window>
+  </Layout>
+  <Layout layout_name="StripImportDialog_Window" layout_guid="d40c7db7-2979-49e6-8195-39ad1311fa21">
+    <Window stylename="strip_import_dialog">
+      <Layout layout_name="StripImportDialog" />
+    </Window>
+  </Layout>
+  <Layout layout_name="InvalidIncludedFilenamesDialog" layout_guid="2925CE61-50D5-472E-8FF0-D6ADD2EB2FBC">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', '140dpi_px', 'auto', 'auto']">
+          <Cell row="0" column="0" flow_index="3">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="2925CE61-50D5-472E-8FF0-D6ADD2EB2FBC" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="D28392EC-D6AA-4AC4-AD43-644A87F1583B" top="0px" left="0px" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="2">
+            <ChildGadgets>
+              <ListBox stylename="list_box" layout_id="invalidfile_listbox" layout_guid="7165031B-809D-4149-BD8C-53F31B9DC910" height="120dpi_px" margin_bottom="12dpi_px">
+                <ListBoxItems />
+              </ListBox>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="yes_button" layout_guid="AE0DE7A4-0ED9-4841-95FD-36E9BEBE7D05" height="30dpi_px" width="60dpi_px" right="8dpi_px" margin_right="8dpi_px" localise_name="Button_OK" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="3" column="0" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="BA0ABA50-23DE-4F77-94F8-E3CE3D8E05A2" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="OKCancelDialog" layout_guid="b1966abc-1213-6d9a-b5cf-a6308671e55d">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="81dab2b5-01ae-48e7-9617-11528bef7761" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="e0f77196-bf8f-4e24-a66d-f828e8de9309" left="52dpi_px" top="0px" localise_caption="Dialog_AreYouSure" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="0">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" stack_order="RightToLeft" stack_resize="ResizeHeight">
+                <ChildGadgets>
+                  <Button stylename="button_up" layout_id="cancel_button" layout_guid="35b592e1-95a7-44f6-b1d9-e4f74b25da1e" height="30dpi_px" width="80dpi_px" right="8dpi_px" margin_right="8dpi_px" localise_name="Button_Cancel" flow_index="1" />
+                  <Button stylename="button_up" layout_id="yes_button" layout_guid="00aca4da-5d7e-4507-97a6-991dcbac0d37" height="30dpi_px" width="80dpi_px" right="76dpi_px" margin_right="8dpi_px" localise_name="Button_OK" flow_index="0" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="3874c1f4-c8e9-4f83-a7aa-3a1d4c00bace" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="OKCancelDialog2" layout_guid="7c7ea913-1d51-421f-b9c7-7ad887bb8cb9">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['52dpi_px', '1*']" top="6dpi_px" bottom="0px">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="01fe99d0-76fc-4ff2-a228-78644c4835df" override_flow_index="9999999" left="10dpi_px" margin_left="" margin_right="" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['auto', '1*']">
+                      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <Label stylename="label" layout_id="message_label2" layout_guid="998f8a1c-a65e-4195-99ff-86803625c7bc" override_flow_index="9999999" height="16px" left="0px" top="0px" word_wrap="True" />
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="f041b330-2da5-47ae-80f8-8103952f0c5b" override_flow_index="9999999" left="0px" localise_caption="Dialog_AreYouSure" />
+                        </ChildGadgets>
+                      </Cell>
+                    </Grid>
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" stack_order="RightToLeft" stack_resize="ResizeHeight">
+                <ChildGadgets>
+                  <Button stylename="button_up" layout_id="cancel_button" layout_guid="35b592e1-95a7-44f6-b1d9-e4f74b25da1e" flow_index="1" height="24px" width="80dpi_px" right="8px" margin_right="8dpi_px" localise_name="Button_Cancel" />
+                  <Button stylename="button_up" layout_id="yes_button" layout_guid="00aca4da-5d7e-4507-97a6-991dcbac0d37" height="24px" width="80dpi_px" right="96px" margin_right="8dpi_px" localise_name="Button_OK" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="3874c1f4-c8e9-4f83-a7aa-3a1d4c00bace" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="PackageSuccessDialog_Window" layout_guid="0d924218-9914-46dd-a999-5210afa2fa69">
+    <Window stylename="confirm_dialog">
+      <Layout layout_name="PackageSuccessDialog" />
+    </Window>
+  </Layout>
+  <Layout layout_name="YesNoListBoxDialog" layout_guid="2925CE61-50D5-472E-8FF0-D6ADD2EB2FBC">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', '120dpi_px', 'auto', 'auto']">
+          <Cell row="0" column="0" flow_index="3">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="2925CE61-50D5-472E-8FF0-D6ADD2EB2FBC" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="D28392EC-D6AA-4AC4-AD43-644A87F1583B" top="0px" left="0px" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="2">
+            <ChildGadgets>
+              <ListBox stylename="list_box" layout_id="listbox" layout_guid="7165031B-809D-4149-BD8C-53F31B9DC910" top="10px" bottom="10px" margin_bottom="12dpi_px">
+                <ListBoxItems />
+              </ListBox>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" flow_index="0">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" stack_order="RightToLeft" stack_resize="ResizeHeight">
+                <ChildGadgets>
+                  <Button stylename="button_up" layout_id="no_button" layout_guid="c02b068c-ee83-4eb7-934b-3014479748db" height="33dpi_px" width="60dpi_px" right="12px" margin_right="8dpi_px" localise_name="Button_No" flow_index="1" />
+                  <Button stylename="button_up" layout_id="yes_button" layout_guid="9aa086bf-2ec5-4635-a172-e8dd8312def1" height="33dpi_px" width="60dpi_px" right="114px" margin_right="8dpi_px" localise_name="Button_Yes" flow_index="0" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="3" column="0" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="BA0ABA50-23DE-4F77-94F8-E3CE3D8E05A2" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="OKCancelDialog_Window" layout_guid="a544fb5b-45f8-4903-9ff4-103e35a38551">
+    <Window stylename="confirm_dialog">
+      <Layout layout_name="OKCancelDialog" />
+    </Window>
+  </Layout>
+  <Layout layout_name="YesNoCancelDialogWindow" layout_guid="00d233a1-4c08-4183-a83c-53be659152ed">
+    <Window stylename="confirm_dialog">
+      <Layout layout_name="YesNoCancelDialog" layout_guid="71ebc2ef-572b-4dcb-ba10-bf129313eb15" />
+    </Window>
+  </Layout>
+  <Layout layout_name="OKCancelDialog2_Window" layout_guid="a544fb5b-45f8-4903-9ff4-103e35a38551">
+    <Window stylename="confirm_dialog_large">
+      <Layout layout_name="OKCancelDialog2" />
+    </Window>
+  </Layout>
+  
+  <Layout layout_name="YesNoBigButtonDialogWindow">
+	  <Window stylename="confirm_dialog_large">
+	    <Layout layout_name="YesNoBigButtonDialog" />
+	  </Window>
+  </Layout>        
+  <Layout layout_name="YesNoBigButtonDialog" layout_guid="45c81edf-1a00-4288-8678-956757bdd311">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+	  <ChildGadgets>
+	    <Grid stylename="grid_container" left="0px" top="0px" grid_rowlayout="['1*', 'auto', 'auto']">
+		  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+		    <ChildGadgets>
+			  <StackPanel stylename="stack_panel">
+			    <ChildGadgets>
+				  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="bad9ef24-cef9-4682-a6be-d42008ae3160" left="10px" />
+				  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="367919ff-252c-4179-a9bc-fa6cdf86a086" left="52px" top="0px" margin_top="4dpi_px" margin_bottom="4dpi_px" localise_caption="Dialog_AreYouSure" />
+			    </ChildGadgets>
+			  </StackPanel>
+		    </ChildGadgets>
+		  </Cell>
+		  <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+		    <ChildGadgets>
+			  <StackPanel stylename="stack_panel" stack_order="RightToLeft" stack_resize="ResizeHeight" />
+			  <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" grid_columnlayout="['1*', '1*']">
+			    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+				  <ChildGadgets>
+				    <Button stylename="button_up" layout_id="yes_button" layout_guid="de0bf487-b00c-46a9-9262-10f4dd4d7596" override_flow_index="9999999" height="24px" width="150dpi_px" margin_right="8dpi_px" localise_name="Manual_UseOnline" />
+				  </ChildGadgets>
+			    </Cell>
+			    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+				  <ChildGadgets>
+				    <Button stylename="button_up" layout_id="no_button" layout_guid="59302c92-4ae2-4599-a535-062bef2f7eea" flow_index="1" override_flow_index="9999999" height="24px" width="150dpi_px" margin_right="8dpi_px" localise_name="Manual_Download" />
+				  </ChildGadgets>
+			    </Cell>
+			  </Grid>
+		    </ChildGadgets>
+		  </Cell>
+		  <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+		    <ChildGadgets>
+			  <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="3874c1f4-c8e9-4f83-a7aa-3a1d4c00bace" left="0px" localise_name="Dialog_DontShowAgain" />
+		    </ChildGadgets>
+		  </Cell>
+	    </Grid>
+	  </ChildGadgets>
+    </Client>
+  </Layout>
+
+  <Layout layout_name="YesNoCancelBigDialogWindow">
+    <Window stylename="confirm_dialog_wide">
+      <Layout layout_name="YesNoCancelBigDialog" />
+    </Window>
+  </Layout>
+
+  <Layout layout_name="YesNoCancelBigDialog" layout_guid="b325e9e1-b1d7-4e32-89e3-417dd3aad88d">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" override_flow_index="9999999" top="0px" margin_bottom="8dpi_px" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="81dab2b5-01ae-48e7-9617-11528bef7761" left="10px" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="e0f77196-bf8f-4e24-a66d-f828e8de9309" left="52px" top="0dpi_px" localise_caption="Dialog_AreYouSure" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" left="8dpi_px" right="8dpi_px" top="0px" grid_rowlayout="['auto']" grid_columnlayout="['1*', '1*', '1*']" column_spacing="10dpi_px" grid_resize="ResizeGridHeight">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="yes_button" layout_guid="caa80f79-38f7-49a2-87a3-b3c04cd296af" override_flow_index="9999999" height="24px" margin_right="8dpi_px" localise_name="Button_Yes" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="no_button" layout_guid="59f422d0-0487-4b7a-9904-2c087ddf994d" flow_index="1" override_flow_index="9999999" height="24px" margin_right="8dpi_px" localise_name="Button_No" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="cancel_button" layout_guid="43dc4590-73e7-48e5-b08b-e3d8e2c6d55c" flow_index="2" override_flow_index="9999999" height="24px" localise_name="Button_Cancel" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="5a5e90c9-2b92-4a47-8193-99b01d1c022c" override_flow_index="9999999" left="0dpi_px" top="4dpi_px" margin_top="4dpi_px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+
+  <Layout layout_name="OKCancelBigDialogWindow">
+    <Window stylename="confirm_dialog_large">
+      <Layout layout_name="OKCancelBigDialog" />
+    </Window>
+  </Layout>
+  
+  <Layout layout_name="OKCancelBigDialog" layout_guid="c3423360-8b67-4208-a394-6263140e3e9f">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" left="0px" top="0px" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="bad9ef24-cef9-4682-a6be-d42008ae3160" left="10px" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="367919ff-252c-4179-a9bc-fa6cdf86a086" left="52px" top="0px" margin_top="4dpi_px" margin_bottom="4dpi_px" localise_caption="Dialog_AreYouSure" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" stack_order="RightToLeft" stack_resize="ResizeHeight" />
+              <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" grid_columnlayout="['1*', '1*']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="yes_button" layout_guid="c9afae36-2dab-41e8-9f80-f1cb841675a0" override_flow_index="9999999" height="24px" width="150dpi_px" margin_right="8dpi_px" localise_name="Button_OK" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="cancel_button" layout_guid="2c8ae7ab-dd5f-4362-ae5a-9d0b3c48e231" flow_index="1" override_flow_index="9999999" height="24px" width="150dpi_px" margin_right="8dpi_px" localise_name="Button_Cancel" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="3874c1f4-c8e9-4f83-a7aa-3a1d4c00bace" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="MQTTDialog" layout_guid="a940edb1-5558-494e-9665-f9fdb1c69216">
+    <Window stylename="window" override_flow_index="9999999" height="500dpi_px" width="420dpi_px" localise_title="QR_MQTT_Dialog_Title" window_flags="CloseButton, DockingDisabled, DesktopTransferDisabled" accept_button_id="login">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="0px" top="0px" grid_rowlayout="['400dpi_px', '1*']" grid_resize="None">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="1">
+              <ChildGadgets>
+                <Image stylename="image" layout_id="mqtt_icon" layout_guid="11a350fb-985c-4c71-8d7c-acd101290a0e" override_flow_index="9999999" height="400dpi_px" width="400dpi_px" top="0px" image_flags="Stretch, Centre, KeepAspectRatio" image="ide_mqtt_qr.png" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="2">
+              <ChildGadgets>
+                <Label stylename="confirm_dialog_label" layout_id="mqtt_label" layout_guid="026c0f59-fae4-4c80-bcf5-58c9e053625a" override_flow_index="9999999" height="" width="" margin_left="8dpi_px" margin_right="8dpi_px" margin_top="" margin_bottom="" localise_caption="QR_MQTT_Dialog_Content" auto_size="True" auto_ellipsis="False" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="SubscribeDialog" layout_guid="B25CA0D5-5394-473B-A08D-3232FBEB7BC7">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" left="0px" top="0px" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="BA060F61-C28C-40FB-9EFE-7BB40064A218" left="10px" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="94595F6C-B482-4020-8DA1-DC0018D2B735" left="52px" top="0px" margin_top="4dpi_px" margin_bottom="4dpi_px" localise_caption="Dialog_AreYouSure" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" stack_order="LeftToRight" stack_resize="ResizeAll">
+                <ChildGadgets>
+                  <Button stylename="button_up" layout_id="yes_button" layout_guid="A3FD2E41-F255-4F8C-B7C2-DFBFD450A6B0" flow_index="1" override_flow_index="9999999" height="24px" width="100dpi_px" margin_right="8dpi_px" localise_name="Button_Subscribe" />
+                  <Button stylename="button_up" layout_id="user1_button" layout_guid="419C9EC9-9D42-4E8C-9FF7-48DD78A3BDBE" flow_index="1" override_flow_index="9999999" height="24px" width="100dpi_px" margin_right="8dpi_px" localise_name="Button_UpdateLicense" />
+                  <Button stylename="button_up" layout_id="cancel_button" layout_guid="EF22A8CF-E545-46BC-834B-551343C3061F" flow_index="1" override_flow_index="9999999" height="24px" width="100dpi_px" margin_right="8dpi_px" localise_name="Button_Cancel" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="8D6477B6-60E6-44B4-A527-0EC9E51D2EF3" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="SignInDialog" layout_guid="54F46EE0-A323-4414-9AA3-378E13126E0C">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['52dpi_px', '1*']" top="6dpi_px" bottom="0px">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="44465DC3-516D-4390-A7E5-7A1EA938138E" override_flow_index="9999999" left="10dpi_px" margin_left="" margin_right="" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['auto', '1*']">
+                      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <Label stylename="label" layout_id="message_label" layout_guid="FB6E976F-EE96-4D57-89C1-4E354E089E92" override_flow_index="9999999" height="16px" left="0px" top="0px" word_wrap="True" />
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <Label stylename="confirm_dialog_label" layout_id="message_label2" layout_guid="8533B42F-C62D-48F8-ABFE-B620F611FDD4" override_flow_index="9999999" left="0px" margin_bottom="10dpi_px" margin_top="5dpi_px" />
+                        </ChildGadgets>
+                      </Cell>
+                    </Grid>
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" stack_order="RightToLeft" stack_resize="ResizeHeight">
+                <ChildGadgets>
+                  <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" grid_columnlayout="['1*', '1*']">
+                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Button stylename="button_up" layout_id="yes_button" layout_guid="62C40170-DE7E-4053-B3DE-269C49603E6D" override_flow_index="9999999" height="24px" width="150dpi_px" margin_right="8dpi_px" localise_name="UserLogin_OperaSSO" />
+                      </ChildGadgets>
+                    </Cell>
+                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                      <ChildGadgets>
+                        <Button stylename="button_up" layout_id="cancel_button" layout_guid="1F152921-CBEA-417E-8FED-9927E38C5986" flow_index="1" override_flow_index="9999999" height="24px" width="150dpi_px" margin_right="8dpi_px" localise_name="Button_Cancel" />
+                      </ChildGadgets>
+                    </Cell>
+                  </Grid>
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" grid_rowlayout="['auto']" grid_columnlayout="['auto', 'auto']" grid_resize="ResizeGrid">
+                <Cell row="0" column="0" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" height="16dpi_px" margin_left="10dpi_px" margin_right="1dpi_px" margin_bottom="5dpi_px" margin_top="5dpi_px" auto_size="true" font_size="7.5" localise_caption="UserLogin_LegacyMessage" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" flow_index="0">
+                  <ChildGadgets>
+                    <LinkLabel stylename="legacy_label" layout_id="legacy_sign_in_label" layout_guid="D3DC85AE-E62E-49E7-979A-2F887F5E25CB" height="16dpi_px" margin_left="1dpi_px" margin_right="10dpi_px" margin_bottom="5dpi_px" margin_top="5dpi_px" auto_size="true" font_size="7.5" url="" base_style="legacy_label" localise_caption="UserLogin_LegacyPrompt" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="FontVirusErrorDialog" layout_guid="B50EAD91-4744-4FC7-B65A-13118D22184B">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', '38dpi_px']">
+          <Cell row="0" column="0" flow_index="1">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="585FCD7A-822E-4488-B64D-3CCEF782861B" image="ErrorCross32.png" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="CF705489-AEDC-411D-A430-A5C0C77B0F14" top="0dpi_px" left="0dpi_px" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="yes_button" layout_guid="72DC3311-085A-4060-BBAB-A3420D9E96EF" height="30dpi_px" width="120dpi_px" right="8dpi_px" margin_right="8dpi_px" localise_name="Button_OpenGuide" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="ProjectsSyncDialog" layout_guid="21662B78-521D-47D8-9DA1-EFA4A63F80F0">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" left="0px" top="0px" grid_rowlayout="['auto', 'auto', 'auto', 'auto']" grid_resize="ResizeHeight">
+          <Cell row="0" column="0" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" stack_resize="ResizeHeight">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="bad9ef24-cef9-4682-a6be-d42008ae3160" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="2D9CC98A-62FF-45CA-9F56-BEE10B04E1FF" left="62dpi_px" top="0px" margin_top="4dpi_px" margin_bottom="4dpi_px" auto_size="true" auto_ellipsis="false" localise_caption="Dialog_AreYouSure" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="0">
+            <ChildGadgets>
+              <LinkLabel stylename="link_label" open_in_external_browser="true" height="16px" width="154px" margin_left="10dpi_px" localise_caption="SaveProjectAs_PermissionsGuideLink" url="https://help.gamemaker.io/hc/en-us/articles/360022953052-User-Permissions-and-Internet-Access-Required-by-GameMaker#h_01GSTA4T4JBX2HHBRENJ7B56B1" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" flow_index="0">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" stack_order="RightToLeft" stack_resize="ResizeHeight">
+                <ChildGadgets>
+                  <Button stylename="button_up" layout_id="no_button" layout_guid="c02b068c-ee83-4eb7-934b-3014479748db" height="33dpi_px" width="60dpi_px" right="12px" margin_right="8dpi_px" localise_name="Button_No" flow_index="1" />
+                  <Button stylename="button_up" layout_id="yes_button" layout_guid="9aa086bf-2ec5-4635-a172-e8dd8312def1" height="33dpi_px" width="60dpi_px" right="114px" margin_right="8dpi_px" localise_name="Button_Yes" flow_index="0" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="3" column="0" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="3874c1f4-c8e9-4f83-a7aa-3a1d4c00bace" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  <Layout layout_name="ProjectsSyncSaveDialog" layout_guid="C1073770-35DF-4722-92FB-E47980E08520">
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['auto', 'auto', 'auto', 'auto']" grid_resize="ResizeHeight">
+          <Cell row="0" column="0" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel" stack_resize="ResizeHeight">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="81dab2b5-01ae-48e7-9617-11528bef7761" left="10px" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="8e5d19e3-7ce5-4457-a634-2005c80544da" left="52px" top="0px" margin_bottom="10px" auto_size="True" auto_ellipsis="False" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" flow_index="0">
+            <ChildGadgets>
+              <LinkLabel stylename="link_label" open_in_external_browser="true" height="16px" width="154px" margin_left="10dpi_px" localise_caption="SaveProjectAs_PermissionsGuideLink" url="https://help.gamemaker.io/hc/en-us/articles/360022953052-User-Permissions-and-Internet-Access-Required-by-GameMaker#h_01GSTA4T4JBX2HHBRENJ7B56B1" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="yes_button" layout_guid="35b592e1-95a7-44f6-b1d9-e4f74b25da1e" height="24px" width="60dpi_px" right="8dpi_px" margin_right="8dpi_px" localise_name="Button_OK" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="3" column="0" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="9e50b3a4-23c6-4121-9afe-dfabb10baf13" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+    <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+  </Layout>
+</Layouts>

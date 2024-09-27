@@ -1,0 +1,43 @@
+{
+  "name": "RoomEditor",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "RoomEditor",
+      "localised_name": "room_editor_name",
+      "plugin_version": "1.0",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMRoom",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "RoomEditor",
+          "version": "1.0",
+          "path": "RoomEditor.dll",
+          "checksum": "oGYJ7xXE5heMJwI/4dK8nZFvDGYfjObg9XliiZdNiZ8="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "min_version": "1.0",
+          "max_version": ""
+        }
+      ]
+    }
+  ],
+  "author": "",
+  "signature": "LO9\u002Bpk4dZ6wqVTSIPGQQ1bH3qU1Egeumt2UbfF97N\u002BP\u002BA0/y3osQ6IoEhAyowcgcCH2jJE5TR2Ypq4eULx2jzQTo/AE\u002BUxMAtOhLhbcFor4g9lAp7VK8KmYCvxKeICOA45XcHuLyC7kcS0hV/fG/M340xeEuN8vPesDYI7Ukvz0=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

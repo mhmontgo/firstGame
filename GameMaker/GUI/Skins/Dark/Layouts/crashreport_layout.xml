@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="CrashReportDialog" layout_guid="d70fc228-4fbd-4179-b945-cf831fc7804e">
+    <Window stylename="default_window" override_flow_index="9999999" height="492px" width="800dpi_px" title="Crash Report" window_flags="CloseButton, DockingDisabled, DesktopTransferDisabled, AutoSizeHeight">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" top="0px" grid_rowlayout="['80dpi_px', 'auto', '16dpi_px', '24dpi_px']" grid_resize="ResizeGridHeight">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" height="60dpi_px" top="0px" grid_columnlayout="['100dpi_px', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="229c880e-a314-4ee7-9db1-556199307a8a" override_flow_index="9999999" left="32dpi_px" margin_left="" margin_right="" image="InvalidTriangle32.png" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" override_flow_index="9999999" height="" width="" left="0px" localise_caption="exception_fatal_error_header_caption_new" word_wrap="True" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" left="8dpi_px" right="0dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="" width="" left="0px" top="0px" localise_caption="exception_blurb" word_wrap="True" />
+                    <MultiLineTextBox stylename="multiline_text_box" layout_id="user_story_text" layout_guid="d8bef4cd-1c38-4375-9815-411c3e283402" override_flow_index="9999999" height="120dpi_px" width="" top="88px" margin_top="8dpi_px" localise_default_caption="exception_default_story" />
+                    <EmbeddedLinkLabel stylename="label" override_flow_index="9999999" height="" width="" left="57px" top="216px" margin_top="8dpi_px" localise_caption="exception_legal_blurb_new" word_wrap="True" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="dope_sheet_hierarchy_node_panel" override_flow_index="9999999" bottom="0px" stack_order="RightToLeft" stack_resize="ResizeHeight">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="button_dontsend" layout_guid="c0930f8c-9abf-49f1-9271-c7409a84845e" override_flow_index="9999999" width="100dpi_px" right="8px" margin_right="8dpi_px" localise_name="exception_dont_send_caption" />
+                    <Button stylename="button_up" layout_id="button_send" layout_guid="dd2bb73f-d5fe-4dc3-adf2-acddd9e5ae3f" override_flow_index="9999999" width="100dpi_px" right="128px" margin_right="20dpi_px" localise_name="exception_send_caption" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="CrashDetectedDialog" layout_guid="dd1864fa-9d86-4742-849a-c718a84e51b9">
+    <Window stylename="default_window" override_flow_index="9999999" height="216dpi_px" width="442dpi_px" localise_title="CrashReport_Title" window_flags="CloseButton, DockingDisabled, DesktopTransferDisabled">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="10dpi_px" right="10dpi_px" grid_rowlayout="['70dpi_px', '1*', '40dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" top="0px" grid_columnlayout="['60dpi_px', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="24e43012-be1a-4986-8ec5-4e7a2ca8bd8d" override_flow_index="9999999" margin_left="" margin_right="" image="InvalidTriangle32.png" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" override_flow_index="9999999" height="" width="" left="0px" localise_caption="exception_fatal_error_header_caption_new" word_wrap="True" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" override_flow_index="9999999" height="16px" width="360px" left="0px" localise_caption="CrashReport_Msg" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="dope_sheet_hierarchy_node_panel" override_flow_index="9999999" stack_order="RightToLeft" stack_resize="ResizeHeight">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="button_ok" layout_guid="61bb912f-161b-4992-a324-4152e934c378" override_flow_index="9999999" width="120dpi_px" right="8px" margin_right="8dpi_px" localise_name="CrashReport_Report" />
+                    <Button stylename="button_up" layout_id="button_cancel" layout_guid="72d4e129-3aaf-4202-9d76-35879a79066f" override_flow_index="9999999" width="120dpi_px" right="148px" margin_right="20dpi_px" localise_name="CrashReport_DontReport" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="Inspector_PathPoints">
+    <Inspector_PathPoints stylename="grid_container" override_flow_index="9999999" left="6dpi_px" right="6dpi_px" grid_rowlayout="['auto', '264dpi_px']" grid_resize="ResizeGridHeight">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="button_up" layout_id="btn_open_editor" top="0px" margin_bottom="12dpi_px" localise_name="Inspector_OpenEditor"/>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="bordered_scrollpanel_dark_alpha" override_flow_index="9999999" grid_rowlayout="['28dpi_px', '1*']">
+            <Cell row="0" column="0" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="ins_table_header" override_flow_index="9999999" left="1px" right="1px" top="1px" bottom="0px" grid_columnlayout="['1*', '1*', '1*']" column_spacing="1dpi_px">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" override_flow_index="9999999" height="16px" width="7px" localise_caption="Inspector_Field_X" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="ins_table_header_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" override_flow_index="9999999" height="16px" width="7px" localise_caption="Inspector_Field_Y" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" stylename="ins_table_header_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" override_flow_index="9999999" height="16px" width="35px" localise_caption="PathEditor_Speed" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell layout_id="points_cell" layout_guid="fda3150d-d664-460b-a0fd-d9d54651dfc7" row="1" column="0" stylename="grid_container_panel" flow_index="0" />
+            <Gadgets>
+              <VerticalSeparator stylename="dark_separator" override_flow_index="9999999" left="66.66%" margin_top="" margin_bottom=""/>
+              <VerticalSeparator stylename="dark_separator" override_flow_index="9999999" left="33.33%" margin_top="" margin_bottom=""/>
+            </Gadgets>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Inspector_PathPoints>
+  </Layout>
+
+</Layouts>

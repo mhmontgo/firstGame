@@ -1,0 +1,28 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdColor",
+    "gadget": "YoYo Games.DnD_ColorPicker",
+    "gadget_properties": {
+      "TagName": "colour",
+      "DefaultValue": "$FFFFFFFF",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdUseAlpha",
+    "gadget": "YoYo Games.DnD_BooleanExpressionInput",
+    "gadget_properties": {
+      "TagName": "alpha",
+      "DefaultValue": "true",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

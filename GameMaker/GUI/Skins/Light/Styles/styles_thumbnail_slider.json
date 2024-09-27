@@ -1,0 +1,28 @@
+﻿{
+	"thumbnail_slider_grid": {
+		"colour": "thumbnail_slider_grid",
+		"slider_style": "thumbnail_slider",
+		"thumb_style": "thumbnail_slider_thumb",
+		"slider_bar_style": "thumbnail_slider_bar",
+		"slider_bar_fill_style": "thumbnail_slider_bar_fill"
+	},
+
+	"thumbnail_slider": {
+		"colour": "thumbnail_slider"
+	},
+
+	"thumbnail_slider_bar": {
+		"colour": "thumbnail_slider_bar"
+	},
+
+	"thumbnail_slider_bar_fill": {
+		"colour": "thumbnail_slider_fill"
+	},
+
+	"thumbnail_slider_thumb": {
+		"up_tint": "thumbnail_slider_button_up",
+		"mouseover_up_tint": "thumbnail_slider_button_up_mouseover",
+		"down_focused_tint": "thumbnail_slider_button_down_focused",
+		"mouseover_down_focused_tint": "thumbnail_slider_button_down_focused_mouseover"
+	}
+}

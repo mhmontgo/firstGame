@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Layouts>
+	<Layout layout_name="PrefabBrowser" layout_guid="dccd1cee-18df-4474-8090-ecd1827bf15a">
+		<Grid stylename="grid_container" override_flow_index="9999999" top="0px" left="0px" width="100%" height="100%" grid_rowlayout="['30dpi_px', '1*', '30dpi_px']">
+
+			<Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+				<ChildGadgets>
+					<TextBox stylename="gototype_text_box" layout_id="search_text" layout_guid="1e2d674f-68ec-4a36-bdb5-53ce232adf99" width="100%" left="4dpi_px" right="4dpi_px" localise_default_caption="ResourceTree_SearchResources" text_hoffset="22dpi_px" text_hclip="28dpi_px">
+						<ChildGadgets>
+							<Image stylename="ab_image_searchicon" layout_id="search_icon" layout_guid="55401689-1e20-46b8-b276-da4c43870337" left="3dpi_px" top="3dpi_px" image_flags="Centre" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_search&quot;]" />
+							<!-- <Button stylename="ab_search_save_button" layout_id="search_save" layout_guid="4426ff0c-3d92-46a0-86f5-a462be69e1f3" localise_tooltip="AssetBrowser_SaveSearch" height="16dpi_px" width="17dpi_px" right="0dpi_px"/>
+							<CloseButton stylename="close_button_up" layout_id="search_cancel" layout_guid="ce5315be-bff8-4e94-8bf3-9e2f1d4477d3" right="17dpi_px" top="" margin_bottom="" colour="#FF888888" /> -->
+						</ChildGadgets>
+					</TextBox>
+				</ChildGadgets>
+			</Cell>
+
+			<Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+				<ChildGadgets>
+					<PrefabListViewGadget layout_id="prefab_list_view" width="100%" height="100%"/>
+				</ChildGadgets>
+			</Cell>
+			
+			<Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+				<ChildGadgets>
+					<StackPanel stylename="stack_panel" override_flow_index="9999999" right="60dpi_px" top="4dpi_px" bottom="0px" stack_order="RightToLeft" stack_resize="ResizeWidth">
+						<ChildGadgets>
+							<ThumbnailSlider stylename="zoom_slider_style" layout_id="zoom_slider" layout_guid="8467b050-52aa-473b-b531-d89479355d73" centre_value="100"/>
+							<Image stylename="ss_icon_listview" layout_id="listview_button" layout_guid="b76c26b5-e3c8-47d2-a7fc-f433aac4e94f" right="0px" margin_left="6dpi_px" />
+							<Image stylename="ss_icon_gridview" layout_id="gridview_button" layout_guid="2bca36ab-d05e-4799-bf92-1118d395aea8" right="22px" margin_left="6dpi_px" />
+							<Label layout_id="selected_count_status" stylename="ss_label_green_large" override_flow_index="9999999" height="27px" width="177px" margin_right="30dpi_px"/>
+						</ChildGadgets>
+					</StackPanel>
+				</ChildGadgets>
+			</Cell>
+
+		</Grid>
+	</Layout>
+</Layouts>

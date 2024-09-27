@@ -1,0 +1,43 @@
+{
+  "name": "SoundEditor",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "SoundEditor",
+      "localised_name": "sound_editor_name",
+      "plugin_version": "1.0",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMSound",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "SoundEditor",
+          "version": "1.0",
+          "path": "SoundEditor.dll",
+          "checksum": "GAcHmeXwjYXG4MwDO5HKJXIZ1CQxnt0cC3HMqrYRYRU="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "min_version": "1.0",
+          "max_version": ""
+        }
+      ]
+    }
+  ],
+  "author": "",
+  "signature": "ioNLXgBxOyw3Y2FfyijDbXXTqEYbQpxF9JRu6zekZrssrRL7AfQAWpeeK03g6l1KvfIP/1tGORK96Higm\u002Bt1ZxmnhINl7nekYothjTrktcKdY943pWtgWtOLXWBwfVXTB2Aoikl6aPglDM3YoQYJ3Cr6Z3zgoQi0zbOs43/G56k=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

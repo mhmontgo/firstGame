@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="SS_NewProjectFrame3" layout_guid="688733d1-ca66-45e7-9015-6bf6989ed9bf">
+    <Grid stylename="template_container_nobottom" override_flow_index="9999999" left="11dpi_px" right="40dpi_px" top="10dpi_px" bottom="0px" colour="#FFFFFFFF" grid_columnlayout="['1*', '1*']">
+      <Cell layout_id="lhs_cell" layout_guid="d31b4706-1a6e-48b5-aab7-9ae301f29932" row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" top="0px" grid_rowlayout="['60dpi_px', '1*']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="ss_label_green_large" layout_id="title_label" layout_guid="0f9bd360-ad5c-4a31-9bc2-edabbf38e47a" override_flow_index="9999999" height="27px" width="206px" left="40dpi_px" localise_caption="SS_SelectProjectType" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" layout_id="loading_panel" layout_guid="a671a82e-d75c-4438-9a85-dc0d0caa56fb" override_flow_index="9999999" left="40dpi_px" right="16dpi_px" grid_rowlayout="['1*', '58dpi_px']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="grid_container" override_flow_index="9999999" top="50%" bottom="0px" grid_rowlayout="['auto', 'auto', '1*']" row_spacing="20dpi_px">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Image stylename="progress_spinner_anim" layout_id="loading_image" layout_guid="98b8c7e1-a5cd-41a0-8627-585603edd0ba" override_flow_index="9999999" height="32dpi_px" width="32dpi_px" top="0px" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Label stylename="ss_label_info2" layout_id="loading_label" layout_guid="5482507d-f373-4764-986c-c3a45d3c7db2" override_flow_index="9999999" height="18px" width="236px" localise_caption="SS_DownloadTemplateProgress" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <ScrollPanel stylename="default_scrollpanel" override_flow_index="9999999" scrollpanel_flags="VerticalScroll">
+                              <ChildGadgets>
+                                <Label stylename="ss_label_info2" layout_id="error_label" layout_guid="aea1f0a7-723f-443a-89e0-08fefc92f308" override_flow_index="9999999" height="16px" width="" left="0px" top="0px" word_wrap="True" />
+                              </ChildGadgets>
+                            </ScrollPanel>
+                          </ChildGadgets>
+                        </Cell>
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" layout_id="loading_buttons" layout_guid="6d8b9369-5b2c-48ef-b9ca-ddc8578e8dea" override_flow_index="9999999" stack_resize="ResizeWidth">
+                        <ChildGadgets>
+                          <Button stylename="startscreen_button_up" layout_id="loading_cancel_button" layout_guid="e0d1d523-e76f-408f-9a8e-f623631db4d2" override_flow_index="9999999" width="120dpi_px" left="0px" top="0px" margin_right="14dpi_px" localise_name="Button_Cancel" />
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+                <Grid stylename="grid_container" layout_id="template_grid" layout_guid="8a7864f5-411c-4104-af62-40efc8016bbd" override_flow_index="9999999" left="40dpi_px" right="16dpi_px" grid_rowlayout="['150dpi_px', '26dpi_px', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <ScrollPanel stylename="default_scrollpanel" layout_id="new_template_scroll" layout_guid="4fb48468-1e38-4b82-81b7-68ec3d3944a7" override_flow_index="9999999" scrollpanel_flags="HorizontalScroll">
+                        <ChildGadgets>
+                          <StackPanel stylename="stack_panel" layout_id="new_template_stack" layout_guid="06fc76bf-3d87-48aa-9ae3-d6e81ccf615b" override_flow_index="9999999" left="0px" stack_resize="ResizeWidth" />
+                        </ChildGadgets>
+                      </ScrollPanel>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" left="0px" right="40dpi_px" bottom="0px" grid_columnlayout="['1*', '150dpi_px']">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <ScrollPanel stylename="combobox_dropdown_listbox" layout_id="offline_panel" layout_guid="00578d39-a069-43a0-aced-3ca34b111073" override_flow_index="9999999" width="" colour="#50000000">
+                              <ChildGadgets>
+                                <ScrollPanel stylename="default_scrollpanel" override_flow_index="9999999" height="6dpi_px" width="6dpi_px" left="6dpi_px" colour="#FF0000FF" />
+                                <Label stylename="ss_label_info1" override_flow_index="9999999" height="20px" width="122px" left="17dpi_px" top="3px" colour="#FF0000E6" localise_caption="StartScreen_CurrOffline" />
+                              </ChildGadgets>
+                            </ScrollPanel>
+                            <Label stylename="ss_label_green_large" layout_id="select_template_label" layout_guid="9e6f55a4-4a6c-49ed-962f-fa7ca37e1751" override_flow_index="9999999" height="27px" width="171px" left="0dpi_px" localise_caption="SS_SelectTemplate" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <ComboBox stylename="ss_filter_combo" layout_id="filter_combo" layout_guid="f1fde184-3dee-4a11-a2e0-efda30d2250d" override_flow_index="9999999" width="100%" left="8dpi_px" right="0px">
+                              <ListBoxItems />
+                              <ChildGadgets>
+                                <Image stylename="icon_chevron_down" override_flow_index="9999999" right="0px" />
+                              </ChildGadgets>
+                            </ComboBox>
+                            <ScrollPanel stylename="default_scrollpanel" layout_id="filter_combo_fade" layout_guid="72cdf4ac-73a6-4937-9dfc-6ad675e934ab" override_flow_index="9999999" left="8dpi_px" right="0px" colour="#C02B2B2B" scrollpanel_flags="None" />
+                          </ChildGadgets>
+                        </Cell>
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <ScrollPanel stylename="template_scrollpanel" layout_id="template_scroll_panel" layout_guid="b6167df8-bc47-4170-9a80-9613c6c75776" override_flow_index="9999999" top="14dpi_px" bottom="8dpi_px">
+                        <ChildGadgets>
+                          <StackPanel stylename="list_view_wrap_panel" layout_id="template_stack" layout_guid="ac482b77-ce71-4dc5-b116-f9f58fdafec5" override_flow_index="9999999" top="0px" />
+                        </ChildGadgets>
+                      </ScrollPanel>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+                <StackPanel stylename="stack_panel" layout_id="empty_panel" layout_guid="34c61f60-0d5c-478e-8bb7-87757cfe374b" override_flow_index="9999999" stack_order="TopToBottom" stack_resize="ResizeAll">
+                  <ChildGadgets>
+                    <Image stylename="ss_blanktemplate_icon" override_flow_index="9999999" height="40dpi_px" width="40dpi_px" top="80px" margin_top="80dpi_px" colour="#FF808080" vector_icon_size="50dpi_px" />
+                    <Label stylename="ss_label_light" override_flow_index="9999999" height="20px" width="185px" top="136px" margin_left="0dpi_px" margin_top="16dpi_px" colour="#FF7F7F7F" localise_caption="SS_Template_PleaseSelect" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Gadgets>
+              <VerticalSeparator stylename="ss_vseparator" override_flow_index="9999999" right="0px" top="60dpi_px" />
+            </Gadgets>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="rhs_cell" layout_guid="0c8103bd-351e-4531-86ed-508513652bce" row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="ss_close_icon" layout_id="close_icon" layout_guid="7a2a4bd5-3f7b-41de-8c41-7d33ab9ef5dd" override_flow_index="9999999" right="20dpi_px" top="20dpi_px" />
+          <Grid stylename="grid_container" layout_id="details_panel" layout_guid="08621406-0872-4d5a-91b2-53c006c7c43c" override_flow_index="9999999" height="100%" left="0dpi_px" right="4dpi_px" grid_rowlayout="['60dpi_px', '1*', '62dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="template_title_label" layout_id="template_name" layout_guid="61c88275-f008-43cc-acaf-0bcd4e4750ae" override_flow_index="9999999" height="27px" width="130px" left="50dpi_px" top="16dpi_px" localise_caption="SSNew_Game_Title" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ScrollPanel stylename="default_scrollpanel" override_flow_index="9999999" left="0px" right="20dpi_px" top="0px" scrollpanel_flags="VerticalScroll">
+                  <ChildGadgets>
+                    <Grid stylename="ss_details_grid" layout_id="proj_details_container" layout_guid="343e4989-78ba-41f8-be7b-6c69a4808e66" override_flow_index="9999999" height="100%" left="0px" right="20dpi_px" top="0px" grid_rowlayout="['184dpi_px', '1*', '90dpi_px', '128dpi_px']" grid_resize="ResizeGridHeight">
+                      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <Grid stylename="grid_container" layout_id="template_image_panel" layout_guid="dfb11fa6-e50c-4350-b15c-1b5d986936aa" override_flow_index="9999999" left="50dpi_px" right="0px" column_spacing="20dpi_px">
+                            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                              <ChildGadgets>
+                                <Image stylename="image" layout_id="template_image" layout_guid="7a91bf44-cb40-4b8e-ac97-f3bc9928c797" override_flow_index="9999999" image_flags="Stretch, Centre, KeepAspectRatio" texture_flags="Linear" />
+                              </ChildGadgets>
+                            </Cell>
+                          </Grid>
+                          <Grid stylename="template_container" layout_id="blank_image_panel" layout_guid="2a047747-0088-40b9-9992-9a46a4d3fe7b" override_flow_index="9999999" left="50dpi_px" right="0px" colour="#FFFFFFFF">
+                            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                              <ChildGadgets>
+                                <Image stylename="image" override_flow_index="9999999" image_flags="Centre" font_icon="[&quot;start_screen_icon_font&quot;, &quot;icon_G&quot;]" vector_icon_size="90dpi_px" />
+                              </ChildGadgets>
+                            </Cell>
+                          </Grid>
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <ScrollPanel stylename="default_scrollpanel" layout_id="template_desc_scrollpanel" layout_guid="cd2eea20-5dd7-4054-9b36-a66a586076d3" override_flow_index="9999999" left="50dpi_px" right="0px" top="10dpi_px" bottom="10dpi_px" scrollpanel_flags="VerticalScroll, AdjustToScrollBars">
+                            <ChildGadgets>
+                              <StackPanel stylename="stack_panel" layout_id="proj_desc_stack" layout_guid="e169d949-3dcf-4d9c-ad46-d32326f2ec3b" override_flow_index="9999999" top="0px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                                <ChildGadgets>
+                                  <Label stylename="ss_label_desc1" override_flow_index="9999999" height="16px" width="82px" left="1px" top="0px" localise_caption="SS_Description" />
+                                  <EmbeddedLinkLabel stylename="ss_label_desc2" layout_id="template_desc_label" layout_guid="6ac3af18-d4a5-49e2-ad5c-d76e50804458" override_flow_index="9999999" height="16px" width="" left="0px" top="16px" localise_caption="SSNew_Game_Desc" word_wrap="True" />
+                                </ChildGadgets>
+                              </StackPanel>
+                            </ChildGadgets>
+                          </ScrollPanel>
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <StackPanel stylename="stack_panel" layout_id="script_type_panel" layout_guid="a3340db0-f0c1-4a56-a0de-8a6a22550ba5" override_flow_index="9999999" left="50dpi_px" right="0px" stack_order="TopToBottom">
+                            <ChildGadgets>
+                              <Label stylename="ss_label_desc1" override_flow_index="9999999" height="16px" width="135px" left="0px" top="0px" localise_caption="SS_ScriptingLang_Title" />
+                              <Label stylename="ss_label_desc2" override_flow_index="9999999" height="16px" width="" left="0px" top="16px" localise_caption="SS_ScriptingLang_Desc" word_wrap="True" />
+                              <StackPanel stylename="stack_panel" layout_id="script_type_stack" layout_guid="9d739d1b-19e2-4b26-9279-60cea55c066b" override_flow_index="9999999" top="36px" margin_top="4dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                                <ChildGadgets>
+                                  <RadioGroupStack stylename="radio_group_stack" layout_id="script_type_radiogroup" layout_guid="41ce21b0-ad5a-46a0-80bf-83ad1325fff5" override_flow_index="9999999" height="90dpi_px" left="0px" top="0px" colour="#00000000" stack_order="TopToBottom">
+                                    <ChildGadgets>
+                                      <RadioButton stylename="radiobutton_stack" layout_id="radio_code" layout_guid="50353e84-6a21-4a02-9eb3-03c90a9801fd" override_flow_index="9999999" height="21dpi_px" left="0px" top="0px" localise_name="GML" stack_resize="ResizeWidth" />
+                                      <RadioButton stylename="radiobutton_stack" layout_id="radio_dnd" layout_guid="77fea0d7-6689-4413-9404-e01d9c19744f" override_flow_index="9999999" height="21dpi_px" left="0px" top="21px" margin_right="5px" localise_name="GMLVisual" stack_resize="ResizeWidth" />
+                                    </ChildGadgets>
+                                  </RadioGroupStack>
+                                </ChildGadgets>
+                              </StackPanel>
+                            </ChildGadgets>
+                          </StackPanel>
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <StackPanel stylename="stack_panel" layout_id="projname_stack" layout_guid="ad74ccf0-5a6a-44ea-85e1-0b58743fc5ce" override_flow_index="9999999" left="50dpi_px" right="0px" stack_order="TopToBottom">
+                            <ChildGadgets>
+                              <Label stylename="ss_label_light" override_flow_index="9999999" height="20px" width="97px" left="2px" top="0px" localise_caption="SS_ProjectNameLabel" />
+                              <TextBox stylename="ss_textbox_light" layout_id="name_textbox" layout_guid="be0ad3dd-de49-4fcb-ad71-4a2b25861246" override_flow_index="9999999" left="97px" top="24px" margin_top="4dpi_px" />
+                              <Label stylename="label" layout_id="existing_project_name_label" layout_guid="bf1910ba-f9ba-41f7-80ee-f446d7a2a675" override_flow_index="9999999" height="16dpi_px" left="451px" top="48px" margin_top="0dpi_px" colour="#FF0000FF" caption="existing" auto_size="False" />
+                              <Label stylename="ss_label_light" override_flow_index="9999999" height="20px" width="63px" left="0px" top="68px" margin_top="4dpi_px" localise_caption="SS_ProjectLocationLabel" />
+                              <FileInputGadget stylename="ss_fileinput" layout_id="location_browse" layout_guid="0b06a120-c6c5-4433-ae7c-c23f0274247d" override_flow_index="9999999" left="868px" top="92px" margin_top="4dpi_px" />
+                            </ChildGadgets>
+                          </StackPanel>
+                          <SSTourIcon stylename="" layout_id="touricon_projname" layout_guid="52212e53-0e70-4308-a862-e380a0c3a9bb" override_flow_index="9999999" left="18dpi_px" top="0px" />
+                        </ChildGadgets>
+                      </Cell>
+                    </Grid>
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" layout_id="proj_buttons_container" layout_guid="d472e971-4dbb-4c4f-8f2e-7bb1b285e71b" override_flow_index="9999999" left="0px" right="40dpi_px" top="4dpi_px" grid_columnlayout="['1*', '140dpi_px', '140dpi_px']" column_spacing="14dpi_px" grid_resize="None">
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="startscreen_button_up" layout_id="cancel_button" layout_guid="97cc6ccb-0931-4943-913e-1d23dc98ad18" override_flow_index="9999999" width="" top="0px" margin_right="14dpi_px" localise_name="Button_Cancel" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="startscreen_go_button" layout_id="go_button" layout_guid="e0b55674-391c-4ad1-be72-e4d6f2f3f9fe" override_flow_index="9999999" width="" top="0px" localise_name="SS_ButtonGo" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Gadgets>
+        <SSTourIcon stylename="" layout_id="touricon_projtype" layout_guid="9a50e25a-1033-4f50-b333-c3a66d550532" override_flow_index="9999999" left="-11dpi_px" top="-11dpi_px" />
+      </Gadgets>
+    </Grid>
+  </Layout>
+  <Layout layout_name="SS_TemplateTypeDesc" layout_guid="3adb6ab2-fc97-4b2f-85b3-fda3239fcd46">
+    <StackPanel stylename="stack_panel_full" layout_id="template_desc_panel" layout_guid="d18909f3-29ee-458f-9d9e-167b866fb733" override_flow_index="9999999" width="70%" stack_order="TopToBottom" stack_resize="ResizeHeight">
+      <ChildGadgets>
+        <Image stylename="ss_blanktemplate_icon" layout_id="icon" layout_guid="bebf1344-a10c-4527-ad91-e465b01b6adc" override_flow_index="9999999" height="40dpi_px" width="40dpi_px" top="0px" vector_icon_size="40dpi_px" />
+        <Label stylename="ss_label_green_large" layout_id="title_label" layout_guid="99089f71-5bcd-499f-857f-cdd85d688820" override_flow_index="9999999" height="27px" width="171px" top="48px" margin_top="8dpi_px" localise_caption="SS_GameTemplates_Title" />
+        <Label stylename="ss_label_info1_centre" layout_id="desc_label" layout_guid="b19d4dc0-f13d-4e56-8648-f36dabd884a6" override_flow_index="9999999" height="20px" width="" top="87px" margin_top="12dpi_px" localise_caption="SS_GameTemplates_Desc" word_wrap="True" />
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+</Layouts>

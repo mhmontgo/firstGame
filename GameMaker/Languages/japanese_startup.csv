@@ -1,0 +1,81 @@
+Name,English,Translation,Restrictions,Comment
+_Language,Japanese,Japanese,,Language name - in English
+_LanguageNative,Japanese,日本語,,Language name in the native language
+_LanguageCode,en,ja,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
+_GameMaker2016,GameMaker,GameMaker,,IDE title
+Splash_Done,Done.,完了しました。,,Finished loading
+Splash_Loading,Loading....,ロードしています...,,Generic loading text
+Splash_WaitingNetwork,Checking Network...,ネットワークを確認中です...,,Network step
+Splash_LoadingLanguages,Loading Languages...,言語を読み込んでいます...,,Loading the languages prefix
+Splash_LoadingPlugins,Loading Plugins...,プラグインをロードしています...,,Loading the plugins
+Splash_LoadingPrefs,Loading Preferences...,環境設定を読み込んでいます...,,Loading the preferences
+Splash_UserLogin,User Login,ユーザーログイン,,User Login has been started
+Notifications_Hub,Notification Hub,通知ハブ,,Notification Hub string
+IDEMenu_File,File,ファイル,,The File menu item name
+IDEMenu_Edit,Edit,編集,,The Edit menu item name
+IDEMenu_Build,Build,ビルド,,"File menu ""Build"""
+IDEMenu_Views,${IDEMenuViews},${IDEMenuViews},,Main menu entry for views
+$win_IDEMenuViews,Windows,Windows,,Windows version of the views menu entry
+$mac_IDEMenuViews,Window,ウィンドウ,,Mac version of the views menu entry
+$linux_IDEMenuViews,Windows,Windows,,Linux version of the views menu entry
+IDEMenu_Tools,Tools,ツール,,Main menu entry for tools
+IDEMenu_Layouts,Layouts,レイアウト,,Layouts
+IDEMenu_Marketplace,Marketplace,Marketplace,,Main menu entry for marketplace
+IDEMenu_Help,Help,ヘルプ,,Main menu entry for HELP
+IDETooltip_LaptopMode_On,On,オン,,On text
+IDETooltip_LaptopMode_Off,Off,オフ,,Off text
+IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.",ラップトップモードでは、マウスをかざして動かすことで、パン、スクロール、およびズームできます。\nズームするには ${LaptopLZoomKey} を押さえながら、パンおよびスクロールするには左 Alt を押さえながら、マウスを動かします。\nラップトップモードの間、マウス以外の操作には ${LaptopRHSKeys} を使用してください。,,IDE toolbar laptop mode description
+IDETooltip_LaptopMode_Title,Laptop Mode ({0}),ラップトップモード ({0}),,IDE toolbar laptop mode title
+StartPage_Title,Start Page,トップページ,,Start page title
+IDE_FatalErrorTitle,Fatal Error,重大エラー,,Title for the fatal error warning dialog
+IDE_FatalErrorWarning,GameMaker has become unstable.\nPlease save changes and exit.,GameMaker が不安定になりました。\n変更を保存して終了してください。,,Warn the user they should try saving changes and exit
+IDE_Warning,Warning,警告,,Warning for IDE
+IDE_FolderPermsWarning,GameMaker is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},GameMaker は、重要なシステムフォルダーにアクセスできません。\n環境設定でパスを確認し、フォルダーの許可を確認するか、またはシステム管理者にお問い合わせください。\n\n{0},,File permissions failure on startup
+Button_OK,OK,OK,,ok button
+Button_Yes,Yes,はい,,Yes
+Button_No,No,いいえ,,No
+Dialog_CopyToClipboard,Copy to clipboard,クリップボードにコピー,,Copy the dialog message to the clipboard
+IDE_VersionInfo,{1} IDE v{0},{1} IDE v{0},,the ide version information string
+IDE_SteamVersionInfo,{1} IDE v{0} Steam,{1} IDE v{0} Steam,,the ide version information string when running from steam
+UpdateDialogDownloadNow,Download now,今すぐダウンロードする,,Update new version dialog - download now button
+UpdateDialogRemindMe,Remind me later,後で再度通知する,,Update new version dialog - remind me later button
+UpdateDialogLabel,New version is available! \nYou are on v{0}\nNew version is {1},新しいバージョンが使用可能です！\n現在は v{0} です\n新しいバージョンは {1} です,,Update new version dialog - tell user which version they are on and which version update will take them to
+UpdateDialogReleaseNotes,View Release notes,リリースノートを表示,,Update new version dialog - view release notes button
+UpdateDialogTitle,New Version,新しいバージョン,,Update new version dialog title
+RSS_Download_Exception,Could not reach the RSS feed,RSSフィードに届きませんでした,,A message which is shown when the RSS feed is not accessible
+Splash_CheckingRSS,Checking RSS...,RSS を確認中です...,,Checking RSS...
+Dialog_Confirm,Confirm,確認,,"Dialog ""confirm"" heading"
+Dialog_DontShowAgain,Don't show this message again,このメッセージを次回から表示しない,,Message next to checkbox to allow the user to choose not to see this popup in future
+Runtime_Installing_Version,Installing runtime {0},ランタイム {0} をインストールしています,,user facing splash screen message for installing runtime
+ImageEditor_SelectAll,Select All,すべて選択,,Image editor select all menu option
+Button_Cancel,Cancel,キャンセル,,cancel button
+TargetSelection_Platform_Test,Test,テスト,,the teset platform title in the platform selection list
+TargetSelection_Platform_android,Android,Android,DO NOT TRANSLATE,the android platform title in the platform selection list
+TargetSelection_Platform_HTML5,HTML5,HTML5,DO NOT TRANSLATE,the html5 platform title in the platform selection list
+TargetSelection_Platform_Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,the linux platform title in the platform selection list
+TargetSelection_Platform_operagx,GX.games,GX.games,DO NOT TRANSLATE,the opera gx platform title in the platform selection list
+TargetSelection_Platform_ps4,PlayStation 4,PlayStation 4,,the ps4 platform title in the platform selection list
+TargetSelection_Platform_ps5,PlayStation 5,PlayStation 5,,the ps5 platform title in the platform selection list
+TargetSelection_Platform_switch,Switch,Switch,DO NOT TRANSLATE,Switch
+TargetSelection_Platform_Windows,Windows,Windows,DO NOT TRANSLATE,the windows platform title in the platform selection list
+TargetSelection_Platform_xboxseriesxs,Xbox One & Series X/S,Xbox One & Series X/S,DO NOT TRANSLATE,the Xbox One & Series X/S platform title in the platform selection list
+TargetSelection_Platform_Mac,macOS,macOS,DO NOT TRANSLATE,the mac platform title in the platform selection list
+TargetSelection_Platform_ios,iOS,iOS,DO NOT TRANSLATE,the apple iOS platform title in the platform selection list
+TargetSelection_Platform_tvos,tvOS,tvOS,DO NOT TRANSLATE,the apple tvOS platform title in the platform selection list
+ProgressBar_Install,Installing...,インストール中...,,the progress bar caption while installing
+DialogEditor_Error,Error,エラー,,dialog editor error box title
+UserLogin_Exception,Exception - {0},例外 - {0},,exception error
+UserLogin_ServerError,Error ({0}) - {1},エラー ({0}) - {1},,server response error
+UserLogin_Retry,Retry,再試行,,User Login - Error Retry
+UserLogin_NoRuntime,Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker again.,ランタイムフィードにアクセスできません。また、ローカルランタイムがインストールされていません。インターネット接続を確認して、GameMaker を再度起動してください。,,user login no runtime message
+UserLogin_InstallRuntimeTitle,Install Runtime {0},ランタイム {0} をインストール,,install runtime title
+UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,宛先ドライブ {0} の空き容量が {1} GB しかありません。\n推奨される空き容量は 2 GB 以上です。十分な空き容量があることを確認してから続行してください。,,runtime free space warning message
+UserLogin_Continue,Continue,続行,,continue label
+UserLogin_MaxDevice,Maximum logins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,ログインの最大回数を超えました \nアカウントセッションの管理は accounts.yoyogames.com で行うことができます,,User Login Error response 29
+User_OK,OK,OK,,User Login - two step authentication ok button
+runtime_selection,Runtime Selection,ランタイム選択,,Runtime Selection Window title
+runtime_onstartup_change,Do you want to change your current runtime to the matching IDE version {0}?,現在のランタイムを一致する IDE のバージョン {0} に変更しますか？,,Change current runtime to the version matching the IDE
+UserLogin_OfflineError,Unable to take user offline,ユーザーをオフラインにすることができません,,offline error
+IDETooltip_Notifications,Notifications,通知,,IDE toolbar notifications tooltip
+runtime_dns_ResolvingFailed,DNS resolving has failed,DNS 解決に失敗しました,,A title of the warning which is shown when after the IDE failed to resolve an address against an alternative DNS
+runtime_dns_ResolvingFailedMessage,Could not resolve {0} with an alternative DNS. A system DNS has been used,別の DNS で {0} を解決できませんでした。システム DNS が使用されました,,Could not use an alternative DNS

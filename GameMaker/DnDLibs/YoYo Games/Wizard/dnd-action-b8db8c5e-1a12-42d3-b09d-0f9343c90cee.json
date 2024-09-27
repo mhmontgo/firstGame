@@ -1,0 +1,12 @@
+[
+  {
+    "relative": false,
+    "tagname": null,
+    "caption": "",
+    "gadget": "YoYo Games.DnD_ApplyTo",
+    "gadget_properties": {
+      "TagName": "applyto",
+      "DefaultValue": "self"
+    }
+  }
+]

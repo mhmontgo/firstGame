@@ -1,0 +1,12 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "",
+    "gadget": "YoYo Games.DnD_CodeInput",
+    "gadget_properties": {
+      "TagName": "code",
+      "DefaultValue": ""
+    }
+  }
+]

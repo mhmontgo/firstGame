@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="Inspector_AnimCurve_Channels" layout_guid="8732b408-1b72-47b6-ab8b-13ca0edeec9e">
+    <InspectorAnimCurveChannels stylename="grid_container" override_flow_index="9999999" left="6dpi_px" right="6dpi_px" top="0px" grid_rowlayout="['36dpi_px', '36dpi_px', 'auto']" grid_resize="ResizeGridHeight">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="button_up" layout_id="btn_open_editor" layout_guid="c849f4d3-1416-4ae2-a7fb-2f5df53344cb" top="0px" localise_name="Inspector_OpenEditor" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="button_up" layout_id="btn_add_curve" layout_guid="aa4bbcd0-38e8-4321-b1b8-e7e5f35fc441" override_flow_index="9999999" top="0px" localise_name="AnimCurve_Editor_AddCurve" />
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="channels_cell" layout_guid="87b03d1b-1701-4e24-8c41-686603296aab" row="2" column="0" stylename="grid_container_panel" flow_index="0" />
+    </InspectorAnimCurveChannels>
+  </Layout>
+</Layouts>

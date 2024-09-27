@@ -1,0 +1,58 @@
+{
+  "bugreport_style": 
+  {
+    "drag_colour": "sprite_selector_drag"
+  },
+
+  "br_help_icon": {
+    "height": "20dpi_px",
+    "width": "20dpi_px",
+    "colour": "base_label_deactivated",
+    "image_flags": "Stretch, Centre, KeepAspectRatio",
+    "image": "IDE_Toolbar/icon_IDE_help.png"
+  }, 
+  
+  "br_hseparator": {
+    "height": "1px",
+		"width": "100%",
+    "colour": "ins_separator_dark_2"
+  },
+
+  "br_attach_panel": {
+    "position": [
+      [ 0, 0, 4, 3 ],  [ 4, 0, 56, 3 ],  [ 60, 0, 4, 3 ],
+      [ 0, 3, 4, 58 ], [ 4, 3, 56, 58 ], [ 60, 3, 4, 58 ],
+      [ 0, 61,4, 3 ],  [ 4, 61,56, 3 ],  [ 60, 61,4, 3 ]
+    ],
+    "frame_options": "Top_Edge_Repeat, Bottom_Edge_Repeat, Left_Edge_Repeat, Right_Edge_Repeat",
+    "frame_name": "Window/dial_inner_dashed.png"
+  },
+
+  "br_zeroalpha": {
+    "colour": "#00000000"
+  },
+
+  "br_small_label": {
+    base:"label",
+    "font_size": "7.5"
+  },
+
+  "br_bold_label": {
+    "base": "label",
+    "font_stylename": "Bold"
+  },
+
+  "br_projreq_dialog": {
+    "width": "390dpi_px",
+    "height": "260dpi_px"
+  },
+
+  "br_platforms_popup": {
+    "drop_shadow_spread": "8dpi_px",
+    "drop_shadow_style": "ab_drop_shadow_style",
+    "client_panel_style": "ab_borderless_client_panel",
+    "width": "200dpi_px",
+    "localise_title": "BugReport_PlatformsReproduced",
+    "window_flags": "CloseButton, DockingDisabled, DesktopTransferDisabled, AutoSizeHeight"
+  }
+}

@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="CanvasWindow_TargetItem" layout_guid="61438125-a690-478a-8710-cbf7898b5ad9">
+    <StackPanel layout_guid="533c21a3-5022-4cfa-a705-4c5daa0a1d53" left="0dpi_px" right="0dpi_px" top="0dpi_px" stack_resize="ResizeHeight" stack_order="LeftToRight">
+      <ChildGadgets>
+        <Image stylename="canvas_item_image" layout_id="image" layout_guid="12dc4562-9873-45d1-b3b0-9f34c620a02a" />
+        <Label stylename="label" layout_id="name" layout_guid="326c0b9e-66e9-44fb-9afc-bf50e4694baf" height="16px" width="5px" left="53px" />
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+  <Layout layout_name="CanvasWindow_AddAction_Success" layout_guid="2cb2e529-83c9-4977-ab5d-ed40e4446d73">
+    <Grid stylename="grid_container" left="7dpi_px" right="7dpi_px" grid_rowlayout="['1*', '55dpi_px', '1*', 'auto']" row_spacing="4dpi_px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" height="16px" width="76px" localise_caption="SequenceAddAction_ActionAdded" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" grid_rowlayout="['auto']" grid_columnlayout="['1*', '1*']" column_spacing="12dpi_px" grid_resize="ResizeGrid">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Image stylename="resource_icon" layout_id="image_event" layout_guid="7b3d8371-99aa-41ff-bb7c-3a04d4af725b" height="55dpi_px" width="55dpi_px" right="0px" image_flags="Stretch, Centre" vector_icon_size="55dpi_px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Image stylename="canvas_item_image" layout_id="image_action" layout_guid="77215310-2ee0-4620-ba25-fbb28f56b8eb" height="55dpi_px" width="55dpi_px" left="0px" image_flags="Stretch, Centre" vector_icon_size="55dpi_px" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="label_event_action" layout_guid="735b3c38-66b7-44f5-82de-dc8e96152072" height="16px" width="59px" localise_caption="SequenceAddAction_EventActionLabel" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="button_up" layout_id="btn_continue" layout_guid="eaf3f330-eddc-4326-9cec-7c1c08907249" left="0px" right="0px" bottom="0px" localise_name="SequenceAddAction_AddAnotherAction" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="CanvasWindow_AddAction" layout_guid="3e754635-2da8-43ac-82dc-3f90ae85305a">
+    <Grid stylename="canvas_item_bordered_window_frame" width="170dpi_px" left="0px" top="0px" grid_rowlayout="['28dpi_px', 'auto', '4dpi_px', 'auto', '6dpi_px']" grid_columnlayout="['auto']" row_spacing="0dpi_px" grid_resize="ResizeGridHeight">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <TitleBar stylename="canvas_window_title_bar" width="" left="1px" right="1px" top="1px" bottom="1px" localise_title="SequenceAddAction_QuickAdd">
+            <ChildGadgets>
+              <CloseButton stylename="canvas_close_button_up" layout_id="window_close_button" layout_guid="f9a87d86-b0b4-48c9-955d-bd594c1913ad" />
+            </ChildGadgets>
+          </TitleBar>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="canvas_item_bordered_window_frame_panel" flow_index="0">
+        <ChildGadgets>
+          <Layout layout_name="CanvasWindow_MultiselectSublayout" layout_guid="b8a82620-a509-4305-8b1e-75a20000d682" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="3" column="0" stylename="canvas_item_window_frame_panel" flow_index="0" layout_id="content_grid_cell">
+        <ChildGadgets>
+          <Layout layout_name="CanvasWindow_AddAction_Main" layout_guid="e552596d-cfb3-4a80-bf23-829b51cd6a64" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="CanvasWindow_EditNotSupported" layout_guid="377bebb5-719e-40fb-8786-84cb2efdd79e">
+    <ScrollPanel stylename="canvas_scroll_panel" height="98px" width="168dpi_px" left="0px" top="0px" scrollpanel_flags="ResizeHeight">
+      <ChildGadgets>
+        <Grid stylename="grid_container" left="6dpi_px" right="6dpi_px" top="2dpi_px" grid_rowlayout="['auto']" row_spacing="2dpi_px" column_spacing="4dpi_px" grid_resize="ResizeGrid">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" left="0px" margin_top="32dpi_px" margin_bottom="32dpi_px" localise_caption="SequenceEditWindow_CannotBulkEdit" word_wrap="True" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="CanvasWindow_SelectActionWindow" layout_guid="d61e53e3-20bb-4b85-93d4-26415f7fa68d">
+    <Grid stylename="canvas_item_bordered_window_frame_light" height="266dpi_px" width="512dpi_px" left="0px" top="0px" grid_rowlayout="['28dpi_px', '1*']" grid_columnlayout="['auto']" row_spacing="0dpi_px" grid_resize="None">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <TitleBar stylename="canvas_window_title_bar" layout_id="window_title_bar" layout_guid="d9b04b8a-56c8-4336-9b4d-8fcbf0f552eb" width="" left="1px" right="1px" top="1px" bottom="1px" localise_title="SequenceAddAction_EditAction">
+            <ChildGadgets>
+              <CloseButton stylename="canvas_close_button_up" layout_id="window_close_button" layout_guid="86026764-bbd4-4982-8274-54a3c7911d83" />
+            </ChildGadgets>
+          </TitleBar>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="canvas_item_window_frame_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" layout_id="grid_main" layout_guid="1e2f7042-0234-4cee-9eaa-c2e9c9e9cdee" grid_columnlayout="['210dpi_px', '1*']" grid_resize="ResizeGrid">
+            <ColumnSplitter stylename="vertical_grid_splitter" height="238px" width="5dpi_px" left="210px" top="0px" row="0" column="1" rowspan="1" columnspan="1" />
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" top="1dpi_px" bottom="0dpi_px" grid_rowlayout="['auto', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <TextBox stylename="search_box" layout_id="search_box" layout_guid="e9208a54-1af0-4cd7-947f-10b90d73334c" height="22dpi_px" left="2dpi_px" right="2dpi_px" top="0dpi_px" localise_default_caption="SequenceAddAction_Search" />
+                      <Image stylename="image_searchicon" left="5dpi_px" top="5dpi_px" image="searchbar_icon.png" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <ListBox stylename="canvas_borderless_list_box" layout_id="listbox_actions" layout_guid="676dead5-68dd-4267-b49b-5a20ed9929f7" height="" width="" left="2px" right="2px" top="2px" bottom="2px">
+                        <ListBoxItems />
+                      </ListBox>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <ScrollPanel stylename="bordered_scrollpanel_dark" left="2px" right="0px" top="0px" bottom="0px" scrollpanel_flags="VerticalScroll, HorizontalScroll, AdjustToScrollBars">
+                        <ChildGadgets>
+                          <Label stylename="label" layout_id="label_title" layout_guid="2588a36b-8345-4819-afe1-04427b8bf1f0" height="16px" width="62px" left="8dpi_px" top="4dpi_px" localise_caption="Action Title" />
+                          <ScrollPanel stylename="canvas_scroll_panel" layout_id="cell_properties" layout_guid="1454a302-792b-40ad-b86c-cfa766339509" height="0px" width="0px" left="8dpi_px" top="28dpi_px" scrollpanel_flags="ResizeHeight, ResizeWidth" />
+                        </ChildGadgets>
+                      </ScrollPanel>
+                      <Label stylename="label_deactivated" layout_id="label_no_properties" layout_guid="31c72ec4-4300-48a9-b147-4b4ae2589a9f" height="16px" width="161px" localise_caption="SequenceAddAction_NoProperties" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <ScrollPanel stylename="bordered_scrollpanel_dark_alpha" height="35dpi_px" width="226px" left="2px" right="0px" top="-1px" bottom="2px">
+                        <ChildGadgets>
+                          <Button stylename="button_up" layout_id="btn_apply" layout_guid="9912c990-062e-4e3b-8aab-04afe7aed5d3" width="80dpi_px" right="10dpi_px" localise_name="Button_Apply" />
+                        </ChildGadgets>
+                      </ScrollPanel>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="CanvasWindow_ItemOverlap" layout_guid="55ec0a1b-2f50-457f-9b16-0ca6f7a271e4">
+    <Grid stylename="canvas_item_window_frame" left="0px" top="0px" grid_columnlayout="['32dpi_px']" grid_resize="ResizeGrid" />
+  </Layout>
+  <Layout layout_name="CanvasWindow_Toolbox" layout_guid="4ac91d71-ef48-4606-9b28-12c8127156a2">
+    <Grid stylename="canvas_item_window_frame" layout_id="grid_main" layout_guid="c6a89ad3-9157-4c57-bcec-0bbf3c2f9b5f" left="0px" top="0px" grid_rowlayout="['1px', '28dpi_px', '28dpi_px', '28dpi_px', '28dpi_px', '16dpi_px']" grid_columnlayout="['28dpi_px']" grid_resize="ResizeGrid">
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ToggleButton stylename="canvas_toolbox_events_button_up" layout_id="btn_events" layout_guid="5b40b6b6-8511-4b1a-a68a-9380125c6044" localise_tooltip="SequenceCanvas_Toolbox_Events" left="1px" right="1px" font_icon="[&quot;Canvas-Icon-Font&quot;, &quot;Canvas_icon_events&quot;]">
+            <ChildGadgets>
+              <Image stylename="canvas_event_notification_image" layout_id="event_notification" height="10px" width="10px" right="0px" top="0px" image_flags="Centre, Resize" font_icon="[&quot;Canvas-Icon-Font&quot;, &quot;Canvas_icon_notification&quot;]" vector_icon_size="9dpi_px" />
+            </ChildGadgets>
+          </ToggleButton>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ToggleButton stylename="canvas_toolbox_addaction_button_up" layout_id="btn_addaction" layout_guid="83da444e-6569-410b-b05a-e6d9aa972eed" localise_tooltip="SequenceCanvas_Toolbox_AddAction" left="1px" right="1px" font_icon="[&quot;Canvas-Icon-Font&quot;, &quot;Canvas_icon_quick_add&quot;]" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ToggleButton stylename="canvas_toolbox_edit_button_up" layout_id="btn_edit" layout_guid="76cc2bd1-c613-4751-a962-5cfd6e4c1909" localise_tooltip="SequenceCanvas_Toolbox_Edit" left="1px" right="1px" font_icon="[&quot;Canvas-Icon-Font&quot;, &quot;Canvas_icon_edit&quot;]" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="4" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ToggleButton stylename="canvas_toolbox_delete_button_up" layout_id="btn_delete" layout_guid="af8b27bd-ccfb-4773-aeee-8e6287f8b940" localise_tooltip="SequenceCanvas_Toolbox_Delete" left="1px" right="1px" font_icon="[&quot;dope_sheet_icon_font&quot;, &quot;ds_deletetrack&quot;]" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="5" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="canvas_toolbox_drag_handle" layout_id="drag_handle" layout_guid="7db71b49-5367-4bfa-b499-a20e3f19ea01" left="1px" right="1px" top="0px" bottom="1px" image_flags="Centre" font_icon="[&quot;Canvas-Icon-Font&quot;, &quot;Canvas_move_icon&quot;]" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="CanvasWindow_Container" layout_guid="6ee2888a-72cb-47f8-b001-73c5e9b9a55c">
+	<ChildGadgets>
+	  <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['1*', '16dpi_px']">
+		<Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+		  <ChildGadgets>
+			<ScrollPanel stylename="default_scrollpanel" layout_id="canvas_container" layout_guid="59acc308-8d4d-479a-bf47-f022b663261a" />
+		  </ChildGadgets>
+		</Cell>
+		<Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+		  <ChildGadgets>
+			<Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['100dpi_px', '1*']">
+			  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+				<ChildGadgets>
+				  <StackPanel stylename="partial_status_bar_left" override_flow_index="9999999">
+					<ChildGadgets>
+					  <Label stylename="label" layout_id="mouse_pos" layout_guid="dffc1bcb-d796-4266-b2ee-7faa52e7c719" override_flow_index="9999999" height="25px" width="0px" left="0px" />
+					</ChildGadgets>
+				  </StackPanel>
+				</ChildGadgets>
+			  </Cell>
+			  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+				<ChildGadgets>
+				  <StackPanel stylename="partial_status_bar_right" override_flow_index="9999999">
+					<ChildGadgets>
+					  <Label stylename="label" layout_id="sequence_info" layout_guid="fc40aeef-346b-4303-ad85-10bca06c005e" override_flow_index="9999999" height="25px" width="0px" left="0px" />
+					</ChildGadgets>
+				  </StackPanel>
+				</ChildGadgets>
+			  </Cell>
+			</Grid>
+		  </ChildGadgets>
+		</Cell>
+	  </Grid>
+	</ChildGadgets>
+  </Layout>
+  <Layout layout_name="CanvasWindow_ActionItem" layout_guid="69d6ba0c-7d4e-452b-bdda-b3dfb8c5125c">
+    <StackPanel layout_guid="533c21a3-5022-4cfa-a705-4c5daa0a1d53" left="0dpi_px" right="0dpi_px" top="0dpi_px" stack_resize="ResizeHeight" stack_order="LeftToRight">
+      <ChildGadgets>
+        <Image stylename="canvas_item_image" layout_id="image" layout_guid="12dc4562-9873-45d1-b3b0-9f34c620a02a" />
+        <Label stylename="label" layout_id="name" layout_guid="326c0b9e-66e9-44fb-9afc-bf50e4694baf" height="16px" width="5px" left="53px" />
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+  <Layout layout_name="CanvasEditPanel_Audio" layout_guid="938e7350-7b18-4d3a-a310-c45619b3c56c">
+    <ScrollPanel stylename="canvas_scroll_panel" height="82px" width="167dpi_px" left="0px" top="0px" scrollpanel_flags="ResizeHeight">
+      <ChildGadgets>
+        <Grid stylename="grid_container" left="6dpi_px" right="6dpi_px" top="2dpi_px" grid_rowlayout="['auto', 'auto', 'auto', '4dpi_px']" grid_columnlayout="['1*', '1*']" row_spacing="2dpi_px" column_spacing="4dpi_px" grid_resize="ResizeGrid">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="42px" left="0px" localise_caption="SequenceEditWindow_Volume" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <NumericTextBox stylename="numeric_text_box" layout_id="txt_volume" layout_guid="1961c94a-39a0-4275-8447-eeef15a0be13" right="0px" textbox_style="canvas_window_text_box" input_type="Real" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="canvas_item_window_frame_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="46px" left="0px" bottom="0px" margin_top="8dpi_px" localise_caption="SequenceEditWindow_Arrange" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="canvas_item_window_frame_panel" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="canvas_window_flat_button" layout_id="btn_arrange_up" layout_guid="87ae4ed5-78dc-4439-93ca-6b4d5dd55d4f" left="0px" right="52%" font_icon="[&quot;Canvas-Icon-Font&quot;, &quot;Canvas_icon_arrange_up&quot;]" />
+              <Button stylename="canvas_window_flat_button" layout_id="btn_arrange_down" layout_guid="3ca34856-1e8e-4505-a6b0-2a26faa093dd" left="52%" right="0px" font_icon="[&quot;Canvas-Icon-Font&quot;, &quot;Canvas_icon_arrange_down&quot;]" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="canvas_window_flat_button" layout_id="btn_arrange_top" layout_guid="d1d6904c-7b1a-4ba6-a239-6ca3557361e6" left="0px" right="52%" font_icon="[&quot;Canvas-Icon-Font&quot;, &quot;Canvas_arrange_top&quot;]" />
+              <Button stylename="canvas_window_flat_button" layout_id="btn_arrange_bottom" layout_guid="5e07396b-be6b-40ce-9b39-a233e470b1ff" left="52%" right="0px" font_icon="[&quot;Canvas-Icon-Font&quot;, &quot;Canvas_arrange_bottom&quot;]" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="CanvasEditPanel_Default" layout_guid="b47e2dc1-437a-4f38-bcff-c8d557ff25fa">
+    <ScrollPanel stylename="canvas_scroll_panel" height="202px" width="168dpi_px" left="0px" top="0px" scrollpanel_flags="ResizeHeight">
+      <ChildGadgets>
+        <Grid stylename="grid_container" left="6dpi_px" right="6dpi_px" top="2dpi_px" grid_rowlayout="['auto', 'auto', 'auto', 'auto', 'auto', 'auto', 'auto', 'auto', '4dpi_px']" grid_columnlayout="['1*', '1*']" row_spacing="2dpi_px" column_spacing="4dpi_px" grid_resize="ResizeGrid">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="44px" left="0px" localise_caption="SequenceEditWindow_Position" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="canvas_item_window_frame_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="7px" left="2dpi_px" caption="X" />
+              <NumericTextBox stylename="numeric_text_box" layout_id="txt_x" layout_guid="1961c94a-39a0-4275-8447-eeef15a0be13" right="0px" textbox_style="canvas_window_text_box" input_type="Real" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="7px" left="10dpi_px" caption="Y" />
+              <NumericTextBox stylename="numeric_text_box" layout_id="txt_y" layout_guid="559f97da-b1a6-4fa6-b6a7-f146b4b0deaa" right="0px" textbox_style="canvas_window_text_box" input_type="Real" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="canvas_item_window_frame_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="30px" left="0px" bottom="0px" margin_top="8dpi_px" localise_caption="SequenceEditWindow_Scale" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="3" column="0" stylename="canvas_item_window_frame_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="11px" left="2dpi_px" caption="X" />
+              <NumericTextBox stylename="numeric_text_box" layout_id="txt_xscale" layout_guid="97ab0e80-8b46-473a-b4fc-e9679094c003" right="0px" textbox_style="canvas_window_text_box" input_type="Real" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="3" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="9px" left="10dpi_px" caption="Y" />
+              <NumericTextBox stylename="numeric_text_box" layout_id="txt_yscale" layout_guid="222f76a2-c893-4b88-b9c2-6255dd0cbe20" right="0px" textbox_style="canvas_window_text_box" input_type="Real" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="4" column="0" stylename="canvas_item_window_frame_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="19px" left="0px" bottom="0px" margin_top="8dpi_px" localise_caption="SequenceEditWindow_Flip" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="5" column="0" stylename="canvas_item_window_frame_panel" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="canvas_window_flat_button" layout_id="btn_flip_h" layout_guid="83437794-ee6e-4c3e-8bcb-0d020b77d4cc" width="100%" localise_name="SequenceEditWindow_Horizontal" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="5" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="canvas_window_flat_button" layout_id="btn_flip_v" layout_guid="8b62bc1a-6ac6-4281-b2a7-ce067062b469" width="100%" localise_name="SequenceEditWindow_Vertical" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="6" column="0" stylename="canvas_item_window_frame_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label" height="16px" width="46px" left="0px" bottom="0px" margin_top="8dpi_px" localise_caption="SequenceEditWindow_Arrange" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="7" column="0" stylename="canvas_item_window_frame_panel" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="canvas_window_flat_button" layout_id="btn_arrange_up" layout_guid="87ae4ed5-78dc-4439-93ca-6b4d5dd55d4f" left="0px" right="52%" font_icon="[&quot;Canvas-Icon-Font&quot;, &quot;Canvas_icon_arrange_up&quot;]" />
+              <Button stylename="canvas_window_flat_button" layout_id="btn_arrange_down" layout_guid="3ca34856-1e8e-4505-a6b0-2a26faa093dd" left="52%" right="0px" font_icon="[&quot;Canvas-Icon-Font&quot;, &quot;Canvas_icon_arrange_down&quot;]" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="7" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="canvas_window_flat_button" layout_id="btn_arrange_top" layout_guid="d1d6904c-7b1a-4ba6-a239-6ca3557361e6" left="0px" right="52%" font_icon="[&quot;Canvas-Icon-Font&quot;, &quot;Canvas_arrange_top&quot;]" />
+              <Button stylename="canvas_window_flat_button" layout_id="btn_arrange_bottom" layout_guid="5e07396b-be6b-40ce-9b39-a233e470b1ff" left="52%" right="0px" font_icon="[&quot;Canvas-Icon-Font&quot;, &quot;Canvas_arrange_bottom&quot;]" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="CanvasWindow_AddAction_Main" layout_guid="e552596d-cfb3-4a80-bf23-829b51cd6a64">
+    <Grid stylename="grid_container" layout_id="content_root" left="7dpi_px" right="7dpi_px" grid_rowlayout="['auto', 'auto', 'auto', 'auto', 'auto', 'auto', 'auto']" row_spacing="4dpi_px" grid_resize="ResizeGridHeight">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" height="16px" width="31px" left="0px" localise_caption="SequenceAddAction_Event" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <RedirectedComboBox stylename="canvas_window_flat_combobox_panel" layout_id="combo_event" layout_guid="76cb8bab-0b5e-452c-8aae-39d89c364d53" width="100%">
+            <ListBoxItems />
+          </RedirectedComboBox>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" height="16px" width="37px" left="0px" localise_caption="SequenceAddAction_Target" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ComboBox stylename="canvas_window_flat_combobox_panel" layout_id="combo_target" layout_guid="d2f79b3c-08f1-4e57-8eee-20db13e8ad09" width="" left="0px" right="29dpi_px">
+            <ListBoxItems />
+          </ComboBox>
+          <Button stylename="canvas_window_flat_button" layout_id="btn_pickwhip" layout_guid="bb3f7c8b-9bdb-4380-9644-e89790d97658" height="24dpi_px" width="24dpi_px" right="0dpi_px" font_icon="[&quot;Canvas-Icon-Font&quot;, &quot;Canvas_icon_pickwhip&quot;]" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="4" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" height="16px" width="35px" left="0px" localise_caption="SequenceAddAction_Action" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="5" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <RedirectedComboBox stylename="canvas_window_flat_combobox_panel" layout_id="combo_action" layout_guid="981523d9-28d9-43ab-aad4-6a58fdf1a6d5" width="100%">
+            <ListBoxItems />
+          </RedirectedComboBox>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="6" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="button_up" layout_id="btn_add" layout_guid="c29c0240-a350-49f7-8315-490e442de6bf" left="0px" right="0px" bottom="0px" margin_top="8dpi_px" localise_name="SequenceAddAction_AddAction" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="CanvasWindow_EventItem" layout_guid="e45fa65f-4e0a-428a-a541-2ea44706fc5f">
+    <Grid stylename="grid_container" left="0px" top="0px" grid_rowlayout="['auto']" grid_columnlayout="['1*', 'auto']" grid_resize="ResizeGrid">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="event_item_stack_panel" layout_id="event_list_item" layout_guid="fef983c6-7fb6-4b48-b5b0-524034ead904" left="1dpi_px" right="0dpi_px" top="1dpi_px" margin_bottom="1dpi_px">
+            <ChildGadgets>
+              <Image stylename="resource_icon" layout_id="event_image" layout_guid="12dc4562-9873-45d1-b3b0-9f34c620a02a" left="0px" margin_right="6dpi_px" margin_top="0px" />
+              <Image stylename="resource_icon" layout_id="event_image2" layout_guid="91cb0e09-fb6e-4240-8d78-3e664a366b5d" left="26px" margin_right="5dpi_px" margin_top="0px" />
+              <Label stylename="label" layout_id="event_name2" layout_guid="f8844349-9119-4312-ab1d-da855aa8ef08" height="16px" width="0px" left="51px" />
+              <Label stylename="label" layout_id="event_name" layout_guid="326c0b9e-66e9-44fb-9afc-bf50e4694baf" height="16px" width="5px" left="51px" caption="?" />
+              <Label stylename="label" layout_id="event_parent_object" layout_guid="1f13ae5c-88f0-4779-9d70-a022cdfe03af" height="16px" width="0px" left="56px" />
+              <Label stylename="label" layout_id="event_name_desc" layout_guid="eba7f83b-6cc4-4151-b779-26a3610d0eb4" height="16px" width="0px" left="56px" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="event_override_icon" layout_id="override_icon" layout_guid="9eb5ac45-2d3e-4017-85d1-2902c05bc68b" left="0px" margin_right="6dpi_px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="CanvasWindow_ItemMultiselect" layout_guid="42f9de33-6a19-472f-97d4-742fcddab3cf">
+    <ScrollPanel stylename="default_scrollpanel" height="28dpi_px" scrollpanel_flags="None">
+      <ChildGadgets>
+        <Image stylename="canvas_item_image_multiselect" layout_id="image" layout_guid="77d68591-b693-485f-8dfa-a0c02e13ef40" height="24dpi_px" width="24dpi_px" left="4dpi_px" />
+        <Label stylename="label" layout_id="name" layout_guid="bbc9193f-d7e5-4f57-80fd-fd2be8c1cb5a" height="16px" width="0px" left="34dpi_px" />
+        <HorizontalSeparator stylename="canvas_item_underscore_multiselect" left="34dpi_px" top="23dpi_px" colour="#FF747474" />
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="CanvasWindow_Delete" layout_guid="7fe3a183-11f2-46d5-9959-f0e90f5e1687">
+    <Grid stylename="canvas_item_bordered_window_frame" width="170dpi_px" left="0px" top="0px" grid_rowlayout="['28dpi_px', 'auto', 'auto']" grid_columnlayout="['auto']" row_spacing="0dpi_px" grid_resize="ResizeGridHeight">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <TitleBar stylename="canvas_window_title_bar" width="" left="1px" right="1px" top="1px" bottom="1px" localise_title="SequenceCanvas_DeleteWindow_Title">
+            <ChildGadgets>
+              <CloseButton stylename="canvas_close_button_up" layout_id="window_close_button" />
+            </ChildGadgets>
+          </TitleBar>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_guid="7965111b-07af-4c57-af3a-83ae06338312" row="1" column="0" stylename="canvas_item_bordered_window_frame_panel" flow_index="0">
+        <ChildGadgets>
+          <Layout layout_name="CanvasWindow_MultiselectSublayout" layout_guid="b8a82620-a509-4305-8b1e-75a20000d682" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="2" column="0" stylename="canvas_item_window_frame_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" width="100%" top="0px" stack_order="TopToBottom" stack_resize="ResizeAll">
+            <ChildGadgets>
+              <Label stylename="label" layout_id="label_name" height="16px" top="4px" margin_left="6dpi_px" margin_right="6dpi_px" margin_top="4dpi_px" localise_caption="SequenceCanvas_DeleteWindow_Message" word_wrap="True" />
+              <Grid stylename="grid_container" left="4dpi_px" right="4dpi_px" top="45px" margin_top="9dpi_px" margin_bottom="6dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['1*', '1*']" column_spacing="4dpi_px" grid_resize="ResizeGrid">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="canvas_window_flat_button" layout_id="btn_yes" layout_guid="bae8085e-4849-4d77-ad6b-704107beb828" localise_name="Button_Yes" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="canvas_window_flat_button" layout_id="btn_no" layout_guid="53df84f8-983e-4dd8-b956-06c437263b92" localise_name="Button_No" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="CanvasWindow_MultiselectSublayout" layout_guid="b8a82620-a509-4305-8b1e-75a20000d682">
+    <Grid stylename="grid_container" layout_id="grid_multiselect" layout_guid="d1fb3248-b843-414d-bd75-38eaa9101914" height="31dpi_px" left="1px" right="1px" top="0px" grid_columnlayout="['15dpi_px', '1*', '15dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="canvas_window_multiselect_cycle_button" layout_id="btn_left" layout_guid="499c1ae9-38df-4a27-b8f7-324231281132" height="100%" icon_render_flags="FlipHorizontal" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_arrow_right&quot;]" vector_icon_size="9dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ComboBox stylename="canvas_window_flat_light_combobox_panel" layout_id="combo_items" layout_guid="f320e14c-96e7-422b-b45c-c8e4cf955906" height="100%" width="100%">
+            <ListBoxItems />
+          </ComboBox>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="canvas_window_multiselect_cycle_button" layout_id="btn_right" layout_guid="4fb09282-e10f-4368-90e4-b867daa848a8" height="100%" font_icon="[&quot;asset_browser_icon_font&quot;, &quot;AB_icon_arrow_right&quot;]" vector_icon_size="9dpi_px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="CanvasWindow_ItemMultiselectDropdown" layout_guid="289e0f78-d9a7-48f4-8902-cc4e764657bb">
+    <ScrollPanel stylename="default_scrollpanel" height="25dpi_px" scrollpanel_flags="None">
+      <ChildGadgets>
+        <Image stylename="canvas_item_image_multiselect" layout_id="image" layout_guid="76a6a600-3181-4646-8400-847b5389f8d1" height="16dpi_px" width="16dpi_px" left="4dpi_px" />
+        <Label stylename="label" layout_id="name" layout_guid="aa369c9e-2bd8-469c-b681-3a1246f56084" height="16px" width="0px" left="26dpi_px" />
+        <HorizontalSeparator stylename="canvas_item_underscore_multiselect_dark" bottom="0px" margin_left="" margin_right="" />
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="CanvasWindow_Edit" layout_guid="d37d4043-4b89-4899-96c9-7ee6383b4f79">
+    <Grid stylename="canvas_item_bordered_window_frame" left="0px" top="0px" grid_rowlayout="['28dpi_px', 'auto', 'auto']" grid_columnlayout="['auto']" row_spacing="0dpi_px" grid_resize="ResizeGrid">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <TitleBar stylename="canvas_window_title_bar" width="" left="1px" right="1px" top="1px" bottom="1px" localise_title="SequenceCanvas_EditWindow_Title">
+            <ChildGadgets>
+              <CloseButton stylename="canvas_close_button_up" layout_id="window_close_button" />
+            </ChildGadgets>
+          </TitleBar>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_guid="7965111b-07af-4c57-af3a-83ae06338312" row="1" column="0" stylename="canvas_item_bordered_window_frame_panel" flow_index="0">
+        <ChildGadgets>
+          <Layout layout_name="CanvasWindow_MultiselectSublayout" layout_guid="b8a82620-a509-4305-8b1e-75a20000d682" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="2" column="0" stylename="canvas_item_window_frame_panel" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="canvas_scroll_panel" layout_id="client_panel" layout_guid="eefb346f-e287-4d74-a063-5c00b66312b2" height="0px" width="0px" left="1px" right="1px" top="0px" bottom="0px" margin_left="1px" margin_right="1px" margin_top="1px" scrollpanel_flags="ResizeHeight, ResizeWidth" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="CanvasWindow_Events" layout_guid="b8a22720-a509-4305-8b1e-75a29432d682">
+    <Grid stylename="canvas_item_bordered_window_frame" height="240dpi_px" width="170dpi_px" left="0px" top="0px" grid_rowlayout="['28dpi_px', 'auto', 'auto']" grid_columnlayout="['auto']" row_spacing="0dpi_px" grid_resize="ResizeGridHeight">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <TitleBar stylename="canvas_window_title_bar" width="" left="1px" right="1px" top="1px" bottom="1px" localise_title="SequenceCanvas_EventsWindow_Title">
+            <ChildGadgets>
+              <CloseButton stylename="canvas_close_button_up" layout_id="window_close_button" />
+            </ChildGadgets>
+          </TitleBar>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_guid="7965111b-07af-4c57-af3a-83ae06338312" row="1" column="0" stylename="canvas_item_bordered_window_frame_panel" flow_index="0">
+        <ChildGadgets>
+          <Layout layout_name="CanvasWindow_MultiselectSublayout" layout_guid="b8a82620-a509-4305-8b1e-75a20000d682" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="2" column="0" stylename="canvas_item_window_frame_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" grid_rowlayout="['157dpi_px', 'auto', 'auto']" row_spacing="4dpi_px" grid_resize="ResizeGrid">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ListBox stylename="canvas_borderless_list_box" layout_id="listbox_events" layout_guid="90c25721-8112-43a1-82dc-e17eacfbedb8" top="0px">
+                  <ListBoxItems />
+                </ListBox>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <HorizontalSeparator stylename="horizontal_separator" top="0px" colour="#FF303030" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="btn_add" layout_guid="ddc0da9a-52bf-4008-adfd-3c0cb92041a4" left="7dpi_px" right="7dpi_px" top="0px" margin_bottom="6dpi_px" localise_name="ObjectEditor_AddEvent" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

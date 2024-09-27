@@ -1,0 +1,29 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "tagname": null,
+    "caption": "GMStdFileMode",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "mode",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdFileMode_Read|GMStdFileMode_Write"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "tagname": null,
+    "caption": "GMStdFile",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "file",
+      "DefaultValue": null,
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  }
+]

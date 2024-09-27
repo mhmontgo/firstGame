@@ -1,0 +1,37 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdNot",
+    "gadget": "YoYo Games.DnD_BooleanInput",
+    "gadget_properties": {
+      "TagName": "not",
+      "DefaultValue": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdIs",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "op",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdEqual|GMStdLess|GMStdGreater|GMStdLessorEqual|GMStdGreaterorEqual"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdValue",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "value",
+      "DefaultValue": "0",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

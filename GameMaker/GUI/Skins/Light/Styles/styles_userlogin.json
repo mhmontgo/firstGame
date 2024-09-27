@@ -1,0 +1,18 @@
+{
+	"tiny_label": {
+		"colour": "userlogin_label"
+	},
+
+	"login_link_label": {
+		"colour": "userlogin_link"
+	},
+
+	"login_link_label_hover": {
+		"colour": "userlogin_link_mouseover"
+	},
+
+	"login_link_label_active": {
+		"colour": "userlogin_link_active"
+	}
+
+}

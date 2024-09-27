@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="AnimCurveEditor" layout_guid="06afcab1-2b53-4d9d-957c-493a8beec875">
+    <Window stylename="window" height="228px" width="512dpi_px" left="26px" top="54px" localise_title="AnimCurveEditor_Title" window_flags="Default">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container">
+            <Cell layout_id="cell_animation_curve" layout_guid="b33783b0-5d8d-464e-a49f-ed4aae79f255" row="0" column="0" flow_index="0">
+              <ChildGadgets>
+                <AnimationCurve layout_id="animation_curve" layout_guid="90a772e6-c44a-4ebd-8c96-b3e24d717992" left="2dpi_px" right="2dpi_px" top="2dpi_px" bottom="2dpi_px" bind_property="channels"/>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

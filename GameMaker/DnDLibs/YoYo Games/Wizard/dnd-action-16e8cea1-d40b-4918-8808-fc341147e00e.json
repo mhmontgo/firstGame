@@ -1,0 +1,64 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdSprite",
+    "gadget": "YoYo Games.DnD_ResourceSelection",
+    "gadget_properties": {
+      "TagName": "sprite",
+      "DefaultValue": "noone",
+      "ResourceFilter": "GMSprite"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdStackOrder",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "stackorder",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdHorizontally|GMStdVertically"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdNumber",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "number",
+      "DefaultValue": "1",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdX",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "x",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdY",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "y",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "name": "ObjectEditor",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "ObjectEditor",
+      "localised_name": "object_editor_name",
+      "plugin_version": "1.0",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMObject",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ObjectEditor",
+          "version": "1.0",
+          "path": "ObjectEditor.dll",
+          "checksum": "HnQWHgjX6Ba\u002BGgagKuPPAqZDF25apaxZ8AX4w2rBHos="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "min_version": "1.0",
+          "max_version": ""
+        }
+      ]
+    }
+  ],
+  "author": "",
+  "signature": "aziQ3S9SWa7odyRoUoroQaa7kmvRkr/hZDYLSKvAo\u002BN0QPcs6d9we13bDMI6is0yBkrPmwyAo5S4XObncZOdLF1qhtzis0XR9Aj1bjeAJnM5TtXcvFFCmUvDXfVmbgDE98\u002BDutUnMWRYdlEE7G3aT0/yqsk4JMCSGdUl5bYp90U=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

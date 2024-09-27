@@ -1,0 +1,29 @@
+{
+  "name": "AssetBrowser",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "AssetBrowser",
+      "localised_name": "asset_browser_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "AssetBrowser",
+          "version": "1.0",
+          "path": "AssetBrowser.dll",
+          "checksum": "GSDtRXvtu478sWzjgIXt54nqGc1XXUQ82Hpgdx9QBYw="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "u/fyO6mymFcc0tiBqliunI4k2WkRpsRcF8H0xpv3HRIfmqsRpTRGy4SCuZV\u002BJa2byW6ynvmhhUc5hXvUJlfhx5iYH82w3Vlxfo4AEBjleC9oeGvp1Tm22KUB8mpxSFvExzsnwqmtAMkYgB71QAhhrtdE\u002BMpaUHgxOUDddNFeLDo=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

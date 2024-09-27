@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="SeqCurveEmbedDialog" layout_guid="b1913666-c0d4-40a6-99cd-ededc87d4edf">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="81dab2b5-01ae-48e7-9617-11528bef7761" left="10px" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="e0f77196-bf8f-4e24-a66d-f828e8de9309" left="52px" top="0px" localise_caption="Dialog_AreYouSure" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" grid_columnlayout="['1*', '1*']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="no_button" layout_guid="b02f352e-6718-47c6-9a36-8da9729511d4" flow_index="1" override_flow_index="9999999" top="0px" height="24px" width="120dpi_px" right="16dpi_px" localise_name="Dialog_Ignore" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="yes_button" layout_guid="619cd95d-2ac2-4da6-99e9-1eaf44fa8a04" override_flow_index="9999999" top="0px" height="24px" width="120dpi_px" left="16dpi_px" localise_name="SequenceEditor_AnimCurve_EmbedCurve" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="3874c1f4-c8e9-4f83-a7aa-3a1d4c00bace" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  
+  <Layout layout_name="SeqCurveConvertKeysDialog">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="81dab2b5-01ae-48e7-9617-11528bef7761" left="10px" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="e0f77196-bf8f-4e24-a66d-f828e8de9309" left="52px" top="0px" localise_caption="Dialog_AreYouSure" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" grid_columnlayout="['1*', '1*']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="cancel_button" layout_guid="b02f352e-6718-47c6-9a36-8da9729511d4" flow_index="1" override_flow_index="9999999" top="0px" height="24px" width="120dpi_px" right="16dpi_px" localise_name="Button_Cancel" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="yes_button" layout_guid="619cd95d-2ac2-4da6-99e9-1eaf44fa8a04" override_flow_index="9999999" top="0px" height="24px" width="120dpi_px" left="16dpi_px" localise_name="ContextMenu_ConvertToKeys" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+            <ChildGadgets>
+              <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="3874c1f4-c8e9-4f83-a7aa-3a1d4c00bace" left="0px" localise_name="Dialog_DontShowAgain" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+
+  <Layout layout_name="SeqCurveEditExternalDialog">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" override_flow_index="9999999" top="4dpi_px" bottom="0px" grid_rowlayout="['1*', 'auto', 'auto', '26dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" left="50dpi_px" right="0px" top="0px" bottom="4dpi_px" grid_rowlayout="['24dpi_px', '1*', '36dpi_px']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" override_flow_index="9999999" top="0dpi_px" bottom="0px">
+                        <ChildGadgets>
+                          <Label stylename="label" override_flow_index="9999999" left="0px" localise_caption="SeqDopeSheet_SharedCurveC" word_wrap="True" />
+                          <ScrollPanel stylename="button_down" override_flow_index="9999999" height="24dpi_px" width="24dpi_px" left="121px" margin_left="10dpi_px" colour="#87FFFFFF">
+                            <ChildGadgets>
+                              <Image stylename="shared_curve_icon" override_flow_index="9999999" height="14px" width="16px" left="" vector_icon_size="16dpi_px" />
+                            </ChildGadgets>
+                          </ScrollPanel>
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" layout_id="message_label" layout_guid="5a6cc09b-4c71-407e-85d5-d77abef3f82b" override_flow_index="9999999" height="32px" width="" left="0px" localise_caption="SeqDopeSheet_ExternalCurveEditWarning1" word_wrap="True" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" override_flow_index="9999999" left="0px" localise_caption="SeqDopeSheet_ExternalCurveEditWarning2" word_wrap="True" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+                <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="9860719e-b173-4db2-bf69-ab5c05fbe541" override_flow_index="9999999" left="10px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" grid_columnlayout="['1*', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="no_button" layout_guid="143335f8-a6df-4e39-9f90-677ad42f31e4" override_flow_index="9999999" height="24px" width="140dpi_px" right="8dpi_px" margin_right="8dpi_px" localise_name="UserLogin_Continue" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="yes_button" layout_guid="8b8a00b9-4e60-4764-bfb5-f646114d27d4" override_flow_index="9999999" height="24px" width="140dpi_px" left="8dpi_px" margin_right="8dpi_px" localise_name="SequenceEditor_AnimCurve_EmbedCurve" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+              <ChildGadgets>
+                <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="ac68c29f-e8a7-4355-a6df-7475bbcf9cc2" left="0px" localise_name="Dialog_DontShowAgain" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="wrapped_small_label" layout_id="detail_label" layout_guid="443ff775-d406-436f-a0f2-e8c30edbc66b" override_flow_index="9999999" height="26dpi_px" width="" left="10dpi_px" right="10dpi_px" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+    
+  <Layout layout_name="SeqCurveEmbedDialog_Window">
+    <Window stylename="confirm_dialog_large">
+      <Layout layout_name="SeqCurveEmbedDialog" />
+    </Window>
+  </Layout>
+  
+  <Layout layout_name="SeqCurveConvertKeysDialog_Window">
+    <Window stylename="confirm_dialog_large">
+      <Layout layout_name="SeqCurveConvertKeysDialog" />
+    </Window>
+  </Layout>
+  
+  <Layout layout_name="SeqCurveEditExternalDialog_Window">
+    <Window stylename="confirm_dialog_large">
+      <Layout layout_name="SeqCurveEditExternalDialog" />
+    </Window>
+  </Layout>
+  
+  <Layout layout_name="SeqCurveIncompatDialog_Window">
+    <Window stylename="confirm_dialog_large">
+      <Layout layout_name="SeqCurveIncompatDialog" />
+    </Window>
+  </Layout>      
+  <Layout layout_name="SeqCurveIncompatDialog" layout_guid="459a557a-fb4b-45ec-9c9f-8b8d30ea4dee">
+    <Layout layout_name="BasicWindowFrame" />
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" top="4dpi_px" bottom="0px" grid_rowlayout="['1*', 'auto', '26dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" left="50dpi_px" right="0px" top="0px" bottom="4dpi_px" grid_rowlayout="['24dpi_px', '1*', '36dpi_px']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" override_flow_index="9999999" top="0dpi_px" bottom="0px">
+                        <ChildGadgets>
+                          <Label stylename="label" override_flow_index="9999999" left="0px" localise_caption="SeqDopeSheet_IncompCurve" word_wrap="True" />
+                          <ScrollPanel stylename="button_down" override_flow_index="9999999" height="24dpi_px" width="24dpi_px" left="121px" margin_left="10dpi_px" colour="#87FFFFFF">
+                            <ChildGadgets>
+                              <Image stylename="shared_curve_icon" override_flow_index="9999999" height="14px" width="16px" left="" vector_icon_size="16dpi_px" />
+                            </ChildGadgets>
+                          </ScrollPanel>
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" layout_id="message_label" layout_guid="9c28d966-9bb8-43b8-9095-0e9ef7f9fe74" override_flow_index="9999999" height="32px" width="" left="0px" localise_caption="SeqDopeSheet_IncompCurveMsg1" word_wrap="True" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" override_flow_index="9999999" left="0px" localise_caption="SeqDopeSheet_IncompCurveMsg2" word_wrap="True" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+                <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="9860719e-b173-4db2-bf69-ab5c05fbe541" override_flow_index="9999999" left="10px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" grid_columnlayout="['1*', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="cancel_button" layout_guid="143335f8-a6df-4e39-9f90-677ad42f31e4" override_flow_index="9999999" height="24px" width="140dpi_px" right="8dpi_px" margin_right="8dpi_px" localise_name="Button_Cancel" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="yes_button" layout_guid="8b8a00b9-4e60-4764-bfb5-f646114d27d4" override_flow_index="9999999" height="24px" width="140dpi_px" left="8dpi_px" margin_right="8dpi_px" localise_name="SeqDopeSheet_AddChannels" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+              <ChildGadgets>
+                <Label stylename="wrapped_small_label" layout_id="detail_label" layout_guid="443ff775-d406-436f-a0f2-e8c30edbc66b" override_flow_index="9999999" height="26dpi_px" width="" left="10dpi_px" right="10dpi_px" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+  </Layout>
+  
+  <Layout layout_name="SeqCurveInvalidDialog_Window">
+    <Window stylename="confirm_dialog_extra_large">
+      <Layout layout_name="SeqCurveInvalidDialog" />
+    </Window>
+  </Layout>
+  <Layout layout_name="SeqCurveInvalidDialog" layout_guid="4eef4923-af64-4d79-891f-d00ad13124fa">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" override_flow_index="9999999" top="4dpi_px" bottom="0px" grid_rowlayout="['1*', 'auto', '26dpi_px']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" left="50dpi_px" right="0px" top="0px" bottom="4dpi_px" grid_rowlayout="['24dpi_px', '1*', '36dpi_px']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <StackPanel stylename="stack_panel" override_flow_index="9999999" top="0dpi_px" bottom="0px">
+                      <ChildGadgets>
+                        <Label stylename="label" override_flow_index="9999999" left="0px" localise_caption="SeqDopeSheet_InvalidSharedCurveC" word_wrap="True" />
+                        <ScrollPanel stylename="button_down" override_flow_index="9999999" height="24dpi_px" width="24dpi_px" left="128px" margin_left="10dpi_px" colour="#87FFFFFF">
+                          <ChildGadgets>
+                            <Image stylename="shared_curve_icon" override_flow_index="9999999" height="14px" width="16px" left="" vector_icon_size="16dpi_px" />
+                          </ChildGadgets>
+                        </ScrollPanel>
+                      </ChildGadgets>
+                    </StackPanel>
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" left="0px" localise_caption="SeqDopeSheet_InvalidCurveMsg1" auto_size="True" word_wrap="True" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" left="0px" localise_caption="SeqDopeSheet_InvalidCurveMsg2" word_wrap="True" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+              <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="173fb2b6-e55a-434c-8b4f-afd621a88ae1" override_flow_index="9999999" left="10px" image="InvalidTriangle32.png" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" grid_columnlayout="['1*', '1*']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="cancel_button" layout_guid="143335f8-a6df-4e39-9f90-677ad42f31e4" override_flow_index="9999999" height="24px" width="140dpi_px" right="8dpi_px" margin_right="8dpi_px" localise_name="Button_Cancel" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="yes_button" layout_guid="8b8a00b9-4e60-4764-bfb5-f646114d27d4" override_flow_index="9999999" height="24px" width="140dpi_px" left="8dpi_px" margin_right="8dpi_px" localise_name="SeqDopeSheet_AddChannels" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+            <ChildGadgets>
+              <Label stylename="wrapped_small_label" layout_id="detail_label" layout_guid="443ff775-d406-436f-a0f2-e8c30edbc66b" override_flow_index="9999999" height="26dpi_px" width="" left="10dpi_px" right="10dpi_px" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+  </Layout>
+  
+  
+</Layouts>

@@ -1,0 +1,36 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdSound",
+    "gadget": "YoYo Games.DnD_ResourceSelection",
+    "gadget_properties": {
+      "TagName": "soundid",
+      "DefaultValue": "noone",
+      "ResourceFilter": "GMSound"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdLoop",
+    "gadget": "YoYo Games.DnD_BooleanInput",
+    "gadget_properties": {
+      "TagName": "loop",
+      "DefaultValue": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": true,
+    "caption": "GMStdTarget",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "target",
+      "DefaultValue": null,
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": true
+    }
+  }
+]

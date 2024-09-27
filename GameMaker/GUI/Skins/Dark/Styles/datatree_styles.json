@@ -1,0 +1,27 @@
+{
+  "datatree_default_style": {
+    "row_height": "22",
+    "expand_icon_style": "datatree_expanded_icon",
+    "collapsed_icon_style": "datatree_collapsed_icon",
+    "selection_colour": "assetbrowser_node_selection",
+    "node_line_colour": "assetbrowser_node_line"
+  },
+  
+  "datatree_expanded_icon":{
+    "image_flags": "Centre",
+    "font_icon": [ "asset_browser_icon_font", "AB_icon_arrow_down" ],
+    "vector_icon_size": "11dpi_px",
+    "colour": "base_font_icon"
+  },
+	
+  "datatree_collapsed_icon":{
+    "image_flags": "Centre",
+    "font_icon": [ "asset_browser_icon_font", "AB_icon_arrow_right" ],
+    "vector_icon_size": "11dpi_px",
+    "colour": "base_font_icon"
+  },
+
+  "datatree_hidden_icon": {
+    "colour": "#00000000"
+  }
+}

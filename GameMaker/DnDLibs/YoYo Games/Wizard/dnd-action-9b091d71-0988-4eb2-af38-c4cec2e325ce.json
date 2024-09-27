@@ -1,0 +1,104 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdParticleSystem",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "system",
+      "DefaultValue": "system",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdEmitter",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "emitter",
+      "DefaultValue": "emitter",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdShape",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "shape",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdRectangle|GMStdEllipse|GMStdDiamond|GMStdLine"
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdDistribution",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "distribution",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdLinear|GMStdGaussian|GMStdInverseGaussian"
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdLeft",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "left",
+      "DefaultValue": "0",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdTop",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "top",
+      "DefaultValue": "0",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdRight",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "right",
+      "DefaultValue": "64",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdBottom",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "bottom",
+      "DefaultValue": "64",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

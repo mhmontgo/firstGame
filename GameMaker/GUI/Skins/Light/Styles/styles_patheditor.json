@@ -1,0 +1,39 @@
+{
+	"path_text_box": {
+		"selection_colour": "path_editor_text_box_selection",
+		"text_colour": "path_editor_text_box_text"
+	},
+
+	"scaletofit_stack_panel": {
+		"colour": "base_stack_panel"
+	},
+
+	"path_spline_editor": {
+		"path_colour": "path_editor_spline_line",
+		"anchor_colour_normal": "path_editor_spline_anchor",
+		"anchor_colour_selected": "path_editor_spline_anchor_hi",
+		"anchor_colour_active": "path_editor_spline_anchor_active"
+	},
+
+	"path_grid": {
+		"ruler_colour": "path_editor_grid",
+		"colour": "path_editor_grid_ruler"
+	},
+
+	"grid_columns_points": {
+		"colour": "path_editor_point_column_header"
+	},
+
+	"spline_default_colours": {
+		"spline_line_colour": "path_editor_default_spline_line",
+		"spline_line_highlight": "path_editor_default_spline_line_hi",
+		"spline_line_error": "path_editor_default_spline_line_error",
+		"spline_anchor_colour": "path_editor_default_spline_anchor",
+		"spline_anchor_error": "path_editor_default_spline_anchor_error",
+		"spline_anchor_highlight": "path_editor_default_spline_anchor_hi",
+		"spline_anchor_error_highlight": "path_editor_default_spline_anchor_error_hi",
+		"spline_anchor_active": "path_editor_default_spline_anchor_active",
+		"spline_anchor_error_active": "path_editor_default_spline_anchor_error_active",
+		"spline_mask": "path_editor_default_spline_mask"
+	}
+}

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <Desktop x="320" y="110" width="1024" height="768" id="19" title="" windowState="Normal">
+    <Workspaces>
+      <Workspace x="0" y="0" localise_title="Workspace_TabTitle" localise_arguments="['1']" style="tab_item" active="True" chain="True" />      
+    </Workspaces>
+    <Dock x="0" y="24" state="Hidden" type="eLeft" title="Dock" style="dock_container_style" />
+    <Dock x="0" y="24" state="Collapsed" type="eRight" title="Dock" style="dock_container_style" restore_size="305dpi_px">
+      <DockTab localise_title="ResourceTree_Title">
+        <Module Command="open_resource_tree">
+          <ResourceWindow left="0px" top="0px" width="400px" height="600px" flags="CloseButton, ResizeButton" title="Resources" localise_title="ResourceTree_Title" />
+        </Module>
+      </DockTab>
+    </Dock>
+    <Dock state="Hidden" type="eBottom" restore_size="20" active_tab="0" />>
+  </Desktop>
+</Project>

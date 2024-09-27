@@ -1,0 +1,5 @@
+﻿{	
+    "machine.general.BackupPath" : "c:/temp/gamemaker/backups",
+    "machine.general.TempFolder" : "c:/temp/gamemaker/temp",
+    "machine.general.AssetCacheFolder" : "c:/temp/gamemaker/assetcache"    
+}

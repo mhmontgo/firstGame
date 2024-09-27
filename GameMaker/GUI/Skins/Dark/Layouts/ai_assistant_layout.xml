@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="AIAsst_IntroWindow" layout_guid="ecfb2e4a-dc0f-47dc-b160-4606adfa5ccc">
+    <Window stylename="default_window" override_flow_index="9999999" height="436dpi_px" width="588dpi_px" localise_title="AIAsst_Intro_Title" window_flags="CloseButton, DockingDisabled, DesktopTransferDisabled">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['1*', '40dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" left="20dpi_px" right="12dpi_px" top="10dpi_px" bottom="0px" grid_columnlayout="['1*', '268dpi_px']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="dope_sheet_hierarchy_node_panel" override_flow_index="9999999" left="0px" right="0dpi_px" top="0px" stack_order="TopToBottom">
+                        <ChildGadgets>
+                          <Grid stylename="grid_container" override_flow_index="9999999" top="0px" grid_rowlayout="['auto']" grid_columnlayout="['36dpi_px', '1*']" grid_resize="ResizeGridHeight">
+                            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                              <ChildGadgets>
+                                <Image stylename="aiasst_bot_toolbar_icon" override_flow_index="9999999" height="24dpi_px" width="24dpi_px" left="0px" vector_icon_size="22dpi_px" />
+                              </ChildGadgets>
+                            </Cell>
+                            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                              <ChildGadgets>
+                                <Label stylename="aiasst_intro_title_label" override_flow_index="9999999" margin_left="8dpi_px" localise_caption="AIAsst_Intro_Welcome" word_wrap="True" />
+                              </ChildGadgets>
+                            </Cell>
+                          </Grid>
+                          <Label stylename="aiasst_intro_body_label" override_flow_index="9999999" height="16px" width="" top="39px" margin_top="15dpi_px" localise_caption="AIAsst_Intro_Label1" />
+                          <Label stylename="aiasst_intro_body_label" override_flow_index="9999999" height="" width="" left="20dpi_px" top="87px" margin_top="10dpi_px" margin_bottom="0dpi_px" localise_caption="AIAsst_Intro_Item1" />
+                          <Label stylename="aiasst_intro_body_label" override_flow_index="9999999" height="" width="" left="21dpi_px" top="105px" margin_bottom="0dpi_px" localise_caption="AIAsst_Intro_Item2" />
+                          <Label stylename="aiasst_intro_body_label" override_flow_index="9999999" height="" width="" left="20dpi_px" top="123px" margin_bottom="0dpi_px" localise_caption="AIAsst_Intro_Item3" />
+                          <Label stylename="aiasst_intro_body_label" override_flow_index="9999999" height="18px" width="" top="153px" margin_top="12dpi_px" localise_caption="AIAsst_Intro_Label2" />
+                          <Label stylename="aiasst_intro_body_label" layout_id="label_menu_assistant" layout_guid="04a264e5-c527-4345-9526-ad44830f6d88" override_flow_index="9999999" height="" width="" left="20dpi_px" top="201px" margin_top="10dpi_px" margin_bottom="0dpi_px" localise_caption="AIAsst_Intro_Item4" />
+                          <StackPanel stylename="stack_panel" override_flow_index="9999999" left="0px" right="0px" top="219px" stack_resize="ResizeHeight">
+                            <ChildGadgets>
+                              <Label stylename="aiasst_intro_body_label" override_flow_index="9999999" height="" width="" localise_caption="AIAsst_Intro_Item5" />
+                              <Button stylename="button_up" override_flow_index="9999999" height="22dpi_px" width="22dpi_px" left="89px" margin_left="8dpi_px" icon_flags="Centre" font_icon="[&quot;ai_icon_font&quot;, &quot;icon_ai_chat_bot&quot;]" vector_icon_size="16dpi_px" />
+                            </ChildGadgets>
+                          </StackPanel>
+                          <Label stylename="aiasst_intro_body_label" override_flow_index="9999999" height="" width="" left="20dpi_px" top="251px" margin_top="10dpi_px" localise_caption="AIAsst_Intro_Label3" />
+                          <Button stylename="button_up" layout_id="btn_startchat" layout_guid="d22c3e5d-f31c-4c4b-bd34-16c02a6829a9" override_flow_index="9999999" width="195dpi_px" left="0px" top="291px" margin_top="20dpi_px" localise_name="AIAsst_StartNewChat">
+                            <ChildGadgets>
+                              <Image stylename="image" override_flow_index="9999999" width="24dpi_px" right="8dpi_px" image_flags="Centre" font_icon="[&quot;ai_icon_font&quot;, &quot;icon_ai_send&quot;]" vector_icon_size="16dpi_px" />
+                            </ChildGadgets>
+                          </Button>
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <ScrollPanel stylename="button_up" override_flow_index="9999999" height="" width="" top="4dpi_px" bottom="16dpi_px" colour="#50000000">
+                        <ChildGadgets>
+                          <Image stylename="canvas_window" override_flow_index="9999999" left="10dpi_px" right="1dpi_px" top="8dpi_px" bottom="12dpi_px" image_flags="Stretch, Centre" image="aiasst_pic.png" />
+                        </ChildGadgets>
+                      </ScrollPanel>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" left="20dpi_px" stack_order="TopToBottom" stack_resize="ResizeAll">
+                  <ChildGadgets>
+                    <CheckBox stylename="checkbox_stack" layout_id="dontshow_check" layout_guid="6dea641e-6dec-4fc1-bb04-f5027d98c9bd" override_flow_index="9999999" top="0px" localise_name="AIAsst_Intro_DontShowAgain" />
+                  </ChildGadgets>
+                </StackPanel>
+                <Button stylename="button_up" layout_id="btn_ok" layout_guid="5e44fb26-1901-4d3d-bad0-957cbfdc1a97" override_flow_index="9999999" width="100dpi_px" right="20dpi_px" localise_name="Window_Close" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="AIAsst_HomeButton_Grid" layout_guid="584a1ec2-c9d9-4709-98a7-4626d239335d">
+    <Grid stylename="grid_container" override_flow_index="9999999" left="16dpi_px" right="16dpi_px" grid_columnlayout="['1*', '48dpi_px', '48dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" override_flow_index="9999999" left="0dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+            <ChildGadgets>
+              <Label stylename="aiasst_label_yellow_title" layout_id="title_label" layout_guid="2f63ea11-4ec8-40e2-9fc7-41cb37b105ce" top="0px" />
+              <Label stylename="aiasst_label_light" layout_id="desc_label" layout_guid="8a736803-d6c6-4b8a-9c58-a7382350f244" top="20px" margin_top="6dpi_px" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="aiasst_icon_send" layout_id="icon" layout_guid="cf17bd39-d415-4b97-b3c8-4ea2edd3cbe3" override_flow_index="9999999" vector_icon_size="20dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="aiasst_icon_chevron_right" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="AIAsst_ChatTitle" layout_guid="059e8e16-1a2f-4919-bc01-6323769b3216">
+    <StackPanel stylename="stack_panel" override_flow_index="9999999" height="24dpi_px" left="0px" stack_resize="ResizeWidth">
+      <ChildGadgets>
+        <Label stylename="aiasst_label_title" layout_id="title_label" layout_guid="3f022326-d7d3-4d2c-b1de-9d039980e514" override_flow_index="9999999" height="22px" />
+        <StackPanel stylename="stack_panel" layout_id="button_stack" layout_guid="39ac9bcc-2d37-4700-97ff-8880fb4a1c13" override_flow_index="9999999" height="22dpi_px" stack_resize="ResizeWidth">
+          <ChildGadgets>
+            <VerticalSeparator stylename="vertical_separator" override_flow_index="9999999" width="2dpi_px" left="12px" margin_left="12dpi_px" margin_right="12dpi_px" margin_top="0px" margin_bottom="0px" />
+            <Label stylename="aiasst_label_brightyellow" layout_id="recent_label" layout_guid="ab49e695-6c42-499e-8082-c80dbcfbfc77" override_flow_index="9999999" height="18px" localise_caption="AIAsst_NRecentChats" />
+            <Button stylename="no_frame_button" layout_id="btn_recent" layout_guid="36ba6971-1ed2-4896-8cad-89fe879c6ecf" override_flow_index="9999999" height="20dpi_px" width="20dpi_px" margin_left="4dpi_px" icon_flags="Centre" font_icon="[&quot;ai_icon_font&quot;, &quot;icon_ai_chevron_down&quot;]" vector_icon_size="10dpi_px" />
+          </ChildGadgets>
+        </StackPanel>
+      </ChildGadgets>
+    </StackPanel>
+  </Layout>
+  <Layout layout_name="AIAsst_TopicButton_Grid" layout_guid="c72e5979-7524-4449-996c-5d2ed3a99383">
+    <Grid stylename="grid_container" grid_columnlayout="['1*', 'auto', '32dpi_px']" left="20dpi_px" right="20dpi_px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['auto', 'auto']" grid_resize="ResizeGridHeight">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="aiasst_label_white" layout_id="title_label" left="0px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="aiasst_label_light" layout_id="desc_label" left="0px" margin_top="6dpi_px" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="aiasst_article_label" layout_id="article_label" override_flow_index="9999999" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="aiasst_icon_chevron_right" right="0px" height="20dpi_px" width="20dpi_px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="AIAss_Flag" layout_guid="84ecffab-bcfb-45c7-a5a0-c5ad28457d89">
+    <PopupWindow stylename="default_borderless_window" override_flow_index="9999999" height="225dpi_px" width="240dpi_px" localise_title="AIAssistant_FlagResponse" window_flags="CloseButton, DockingDisabled">
+      <Client>
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" override_flow_index="9999999" left="10dpi_px" right="10dpi_px" top="9dpi_px" bottom="0dpi_px" stack_order="TopToBottom" />
+          <Grid stylename="grid_container" override_flow_index="9999999" left="8dpi_px" right="8dpi_px" top="6dpi_px" bottom="6dpi_px" grid_rowlayout="['24dpi_px', 'auto', '1*', '32dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" override_flow_index="9999999" height="16px" width="93px" left="0px" margin_bottom="10dpi_px" caption="This response is:" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <RadioGroupStack stylename="radio_group_stack" layout_id="radio" layout_guid="7c2be3c7-29d4-4b85-937f-ebda49d43523" override_flow_index="9999999" height="90dpi_px" left="20dpi_px" top="0px" colour="#00000000" stack_order="TopToBottom">
+                  <ChildGadgets>
+                    <RadioButton stylename="radiobutton_stack" override_flow_index="9999999" left="0px" top="5px" margin_left="5dpi_px" margin_right="5dpi_px" margin_top="5dpi_px" localise_name="AIAssistant_Inaccurate" />
+                    <RadioButton stylename="radiobutton_stack" override_flow_index="9999999" left="0px" top="31px" margin_left="5dpi_px" margin_right="5dpi_px" margin_top="5dpi_px" localise_name="AIAssistant_Unhelpful" />
+                    <RadioButton stylename="radiobutton_stack" override_flow_index="9999999" left="0px" top="57px" margin_left="5dpi_px" margin_right="5dpi_px" margin_top="5dpi_px" margin_bottom="5dpi_px" localise_name="AIAssistant_Offensive" />
+                  </ChildGadgets>
+                </RadioGroupStack>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="aiasst_italic_label" override_flow_index="9999999" height="16px" width="" left="0px" top="4dpi_px" localise_caption="AIAssistant_FlagInfoText" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <CheckBox stylename="checkbox_stack" layout_id="delete_check" layout_guid="ce3519dc-6c8d-47b0-b128-29908bb5b5f9" override_flow_index="9999999" left="0px" localise_name="AIAssistant_DeleteResponse" />
+                <Button stylename="button_up" layout_id="btn_send" layout_guid="06ceb874-1c87-49ac-bc8d-d7e3337ff3f3" override_flow_index="9999999" width="60dpi_px" right="0px" margin_top="8dpi_px" localise_name="Button_OK" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicBorderlessWindowFrame" layout_guid="53cfe63e-6679-4383-b1ab-f891ade9d6f6" />
+    </PopupWindow>
+  </Layout>
+  <Layout layout_name="AIAsst_Header" layout_guid="97e58081-a6b6-4053-92ea-995360e0f735">
+    <Grid stylename="grid_container" override_flow_index="9999999" left="16dpi_px" right="16dpi_px" grid_columnlayout="['1*', 'auto', '36dpi_px', '26dpi_px']" grid_resize="None">
+      <Cell layout_id="title_cell" layout_guid="f6601d69-b6be-40ab-9fe2-228262023ef2" row="0" column="0" stylename="grid_container_panel" flow_index="0" />
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="aiasst_label_free" layout_id="premium_label" layout_guid="e2e19953-9b9f-420b-8aa3-d1f621fb3e17" override_flow_index="9999999" height="16px" width="25px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="no_frame_button" layout_id="btn_assistant" layout_guid="f9567a70-b34b-47fc-9119-e6c6499579ed" override_flow_index="9999999" localise_tooltip="AIAsst_SelectAssistant" width="24dpi_px" right="0px" icon_flags="Centre" font_icon="[&quot;ai_icon_font&quot;, &quot;icon_ai_chevron_down&quot;]" vector_icon_size="12dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="ab_menu_button" layout_id="button_menu" layout_guid="ec452c4c-3a43-4108-92b4-e3ac1699e9bd" override_flow_index="9999999" localise_tooltip="AssetBrowser_TTMenu" width="24dpi_px" right="0px" font_icon="[&quot;ai_icon_font&quot;, &quot;icon_ai_menu&quot;]" vector_icon_size="16dpi_px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="AIAsst_ChatFooter" layout_guid="d671e081-3447-4466-860e-144b6cd05374">
+    <ScrollPanel stylename="default_scrollpanel" override_flow_index="9999999" height="50dpi_px">
+      <ChildGadgets>
+        <Grid stylename="grid_container" layout_id="message_panel" layout_guid="fe88bd6a-b2d5-42ba-83fb-c854ed56a40f" override_flow_index="9999999" height="34dpi_px" bottom="12dpi_px" grid_columnlayout="['32dpi_px', '1*', '32dpi_px']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Button stylename="no_frame_button" layout_id="back_button" layout_guid="081393fc-2345-4398-beac-31e23ac17f0f" override_flow_index="9999999" height="30dpi_px" width="30dpi_px" icon_flags="Centre" font_icon="[&quot;ai_icon_font&quot;, &quot;icon_ai_chevron_left&quot;]" vector_icon_size="16dpi_px" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <TextBox stylename="text_box" layout_id="entry_text" layout_guid="ad76e78e-604c-475b-be6b-f9c452147bb2" override_flow_index="9999999" height="" localise_default_caption="AIAsst_ChatMsgDefault" text_hclip="20dpi_px">
+                <ChildGadgets>
+                  <Button stylename="no_frame_button" layout_id="btn_send" layout_guid="81177d55-7a93-439b-895c-43139b0fcaaf" override_flow_index="9999999" height="26dpi_px" width="26dpi_px" right="0px" icon_flags="Centre" font_icon="[&quot;ai_icon_font&quot;, &quot;icon_ai_send&quot;]" vector_icon_size="18dpi_px" />
+                </ChildGadgets>
+              </TextBox>
+            </ChildGadgets>
+          </Cell>
+          <Gadgets>
+            <Label stylename="aiasst_offline_label" layout_id="offline_label" layout_guid="a2c22c32-6b66-4a46-9d26-03b8dadfe89a" override_flow_index="9999999" height="27px" width="154px" localise_caption="StartScreen_CurrOffline" />
+          </Gadgets>
+        </Grid>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="AIAsst_SearchGrid" layout_guid="78baada3-0bd8-4d87-8045-89848205d6a7">
+    <Grid stylename="bordered_scrollpanel_dark_alpha" override_flow_index="9999999" height="34dpi_px" grid_columnlayout="['1*', '40dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="default_scrollpanel" layout_id="search_cell" layout_guid="dba8cf3e-dfe3-43e0-9d7c-39e90b90bc5d" override_flow_index="9999999" left="6dpi_px" right="8dpi_px" top="5dpi_px" bottom="5dpi_px" scrollpanel_flags="None" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="bordered_scrollpanel_dark_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="no_frame_button" layout_id="btn_new_chat" layout_guid="22bf9d3d-5dbb-4edd-b9e1-9d17d75cc82b" localise_tooltip="AIAsst_StartNewChat" width="24dpi_px" left="0dpi_px" icon_flags="Centre" font_icon="[&quot;ai_icon_font&quot;, &quot;icon_ai_send&quot;]" vector_icon_size="16dpi_px" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

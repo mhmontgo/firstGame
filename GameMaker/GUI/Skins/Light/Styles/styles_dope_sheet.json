@@ -1,0 +1,153 @@
+{
+	"button_deactivated_dark": {
+		icon_colour: "#40404040", 
+		label_colour: "#40404040", 
+		mouse_events: "false"
+	},
+	
+	"button_reactivated_dark": {
+		icon_colour: "#ff404040", 
+		label_colour: "#ff404040", 
+		mouse_events: "true"
+	},
+	
+	"dopesheet_btn_controls": {
+		"icon_colour":"#FF000000"
+	},
+	
+	"dopesheet_btn_dropdown": {
+		"icon_colour": "#FF000000",
+	},
+	
+	"dopesheet_btn_track_header": {
+		"icon_colour": "#FF000000",
+		"label_colour": "#FF000000",
+	},
+	
+	"dope_sheet_panel": {
+		"tick_indicator_color": "#FF000000",
+		"track_bg_indicator_colour": "#39000000",
+		"text_color": "#FF404040",
+		"pin_text_color": "#FF000000",
+		"border_colour": "#FF000000",
+		"timeline_bg_colour": "#FFe7e7e7",
+		"timeline_seek_bg_colour": "#FF504826",
+    "panel_bg_colour":"#FFd4d4d4"
+	},
+	
+	"dope_sheet_panel_empty": {
+		"tick_indicator_color": "#99000000",
+		"track_bg_indicator_colour": "#00000000",
+		"text_color": "#00404040",
+		"pin_text_color": "#99FFFFFF",
+		"timeline_bg_colour": "#FFe7e7e7",
+		"timeline_seek_bg_colour": "#FFd7d7d7"
+	},
+	
+  "dopesheet_empty_description_label": {
+		"width": "100%",
+		"halign": "hAlignCentre",
+    "colour": "#99000000"
+	},
+
+  "dopesheet_ace_label": {
+    width: "100%", 
+		halign: "hAlignCentre", 
+		colour: "#b0000000"
+  },
+
+  "dopesheet_empty_icon": {
+    "icon_colour": "#ff000000"
+  },
+
+	"dope_sheet_track": {
+		"track_bg_color": "#FFbfc0c0",
+	},
+	
+	"dope_sheet_track_selected": {
+		"track_bg_color": "#FFa99a94"
+	},
+
+	"dope_sheet_track_hidden": {
+		"track_bg_color": "#FFd7d7d7",
+	},
+	
+	"dope_sheet_track_locked": {
+		"track_bg_color": "#FFd7d7d7"
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_btn":{
+		"deactivated_style": "button_deactivated_dark", 
+		"reactivated_style": "button_reactivated_dark"
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_prev": {
+		"colour": "#FF404040",
+		"icon_colour": "#FF404040",
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_next": {
+		"colour": "#FF404040",
+		"icon_colour": "#FF404040",
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_icon": {
+		"icon_colour": "#FFb4542c"
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_icon_delta": {
+		"icon_colour": "#FF00fff0"
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_icon_disabled_delta": {
+		"icon_colour": "#FF00fff0"
+	},
+	
+	"dope_sheet_track_hierarchy_btn": {
+		"colour": "#33000000",
+		"icon_colour": "#00000000",
+	},
+	
+	"dope_sheet_track_hierarchy_btn_visible": {
+		"icon_colour": "#ff000000",
+	},
+	
+	"dope_sheet_track_hierarchy_btn_lock": {
+		"icon_colour": "#ff000000",
+	},
+	
+	"dope_sheet_track_hierarchy_btn_tag": {
+		"icon_colour": "#ff000000",
+	},
+	
+	"dope_sheet_head_pin": {
+		"line_color": "#FFa96245",
+	},
+	
+	"dope_sheet_pin_end": {
+		"colour": "#FF3170ff",
+		"line_color": "#FF3170ff",
+	},
+	
+	"dope_sheet_range_pin_start": {
+		"colour": "#FF3170ff",
+		"line_color": "#FF3170ff",
+	},
+	
+	"dope_sheet_range_pin_end": {
+		"colour": "#FF3170ff",
+		"line_color": "#FF3170ff",
+	},
+	
+	"dopesheet_empty_timeline_icon": {
+		"colour": "#FF464646"
+	},
+
+	"dopesheet_empty_timeline_icon_icon": {
+		"colour": "#FF464646"
+	},
+
+	"dopesheet_empty_timeline_icon_label": {
+		"colour": "#FF404040"
+	}
+}

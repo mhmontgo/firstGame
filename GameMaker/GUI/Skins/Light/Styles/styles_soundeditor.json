@@ -1,0 +1,18 @@
+{
+	"soundeditor_volume_group_box": {
+		"colour": "sound_editor_volume_box",
+		"focus_colour": "sound_editor_volume_box_focus"
+	},
+
+	"soundeditor_volume_group_box_active": {
+		"colour": "sound_editor_volume_box_active"
+	},
+
+	"soundeditor_slider_grid_textbox_buttons": {
+		"colour": "base_text_box_numeric"
+	},
+
+	"soundins_graph_image": {
+		"colour": "ins_sound_editor_graph_image"
+	}
+}

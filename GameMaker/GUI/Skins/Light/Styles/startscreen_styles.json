@@ -1,0 +1,103 @@
+{
+	"startscreen_style": {
+		"tour_hi_colour": "startscreen_tour_hi",
+		"bgColTop": "startscreen_bg_top",
+		"bgColBottom": "startscreen_bg_bottom"
+	},
+
+	"ss_newprojpanel_style": {
+		"button_up_colour": "startscreen_newproj_button_up",
+		"button_down_colour": "startscreen_newproj_button_down",
+		"frame_colour": "startscreen_newproj_frame"
+	},
+
+	"ss_recentprojpanel_style": {
+		"bg_gradient_top": "startscreen_recentproj_bg_top",
+		"bg_gradient_bottom": "startscreen_recentproj_bg_bottom"
+	},
+
+	"startscreen_title_bar": {
+		"colour": "startscreen_title_bar"
+	},
+
+	"ss_projgrid_bgpanel": {
+		"colour": "startscreen_proj_image_bg"
+	},
+
+	"startscreen_button_up": {
+		"label_colour_down": "startscreen_button_down_label",
+		"label_colour_up": "startscreen_button_up_label"
+	},
+
+	"ss_label_info1": {
+		"colour": "startscreen_label_1"
+	},
+
+	"ss_label_info2": {
+		"colour": "startscreen_label_2"
+	},
+
+	"ss_label_desc1": {
+		"colour": "startscreen_newproj_desc_1"
+	},
+
+	"ss_label_desc2": {
+		"colour": "startscreen_newproj_desc_2"
+	},
+
+	"ss_label_green_large": {
+		"colour": "startscreen_heading"
+	},
+
+	"ss_templates_icon": {
+		"colour": "startscreen_icon_template"
+	},
+
+	"ss_label_light": {
+		"colour": "startscreen_newproj_heading"
+	},
+
+	"ss_label_small": {
+		"colour": "startscreen_label_small"
+	},
+
+	"ss_hseparator": {
+		"colour": "startscreen_separator_hor"
+	},
+
+	"ss_hseparator_bright": {
+		"colour": "startscreen_separator_hor_bright"
+	},
+
+	"ss_vseparator": {
+		"colour": "startscreen_separator_ver"
+	},
+
+	"ss_scrollbar": {
+		"colour": "startscreen_scrollbar_bg"
+	},
+
+	"ss_scrollbar_slider_thumb": {
+		"frame_name": "",
+		"up_tint": "startscreen_scrollbar_thumb_up",
+		"down_tint": "startscreen_scrollbar_thumb_down",
+		"mouseover_up_tint": "startscreen_scrollbar_thumb_up_mouseover",
+		"mouseover_up_focused_tint": "startscreen_scrollbar_thumb_up_focused_mouseover",
+		"mouseover_down_tint": "startscreen_scrollbar_thumb_down_mouseover",
+		"mouseover_down_focused_tint": "startscreen_scrollbar_thumb_down_focused_mouseover",
+		"up_focused_tint": "startscreen_scrollbar_thumb_up_focused",
+		"down_focused_tint": "startscreen_scrollbar_thumb_down_focused"
+	},
+
+	"ss_close_icon": {
+		"colour": "startscreen_close_icon_up"
+	},
+
+	"ss_close_icon_up": {
+		"colour": "startscreen_close_icon_up"
+	},
+
+	"ss_close_icon_over": {
+		"colour": "startscreen_close_icon_up_mouseover"
+	}
+}

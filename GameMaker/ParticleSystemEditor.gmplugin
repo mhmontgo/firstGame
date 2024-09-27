@@ -1,0 +1,37 @@
+{
+  "name": "ParticleSystemEditor",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "ParticleSystemEditor",
+      "localised_name": "particle_system_editor_name",
+      "plugin_version": "1.0",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMParticleSystem",
+            "MinVersion": "1.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ParticleSystemEditor",
+          "version": "1.0",
+          "path": "ParticleSystemEditor.dll",
+          "checksum": "Ck5REGumyQxIKdGKucdHiPF5n2SuS4P0Lo8dSK57vMM="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "NOOauAGUeRr8ltsxHtOOBZNYoGvWT0dXE71ZeE4Sa3gWYON1ujh/ab4u3bQxJNOGGxU581DK5OSNGD4EQzDALuJZClnqgTxLDgfKqgxn7a3Q3fjS3owkcgylhw4y/cIitTtaN2TNjui1kKFbUH\u002B/cgkJi94SYApc\u002By2AMZ6CB3Q=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

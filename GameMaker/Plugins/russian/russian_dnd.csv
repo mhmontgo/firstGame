@@ -1,0 +1,1144 @@
+Name,English,Translation,Restrictions,Comment
+_Language,Russian,Russian,,Language name - in English
+_LanguageNative,English,Русский,,Language name in the native language
+_LanguageCode,en,ru,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
+GMStdVar_Story_1,Set ${var} to ${expr}${show_input_count},Установить ${var} на ${expr}${show_input_count},,GML Visual story text
+GMStdVar_Story_2,Set ${var} to ${expr} on ${applyto}${show_input_count},Установить ${var} на ${expr} на ${applyto}${show_input_count},,GML Visual story text
+GMStdVar_Story_3,Add ${expr} to ${var}${show_input_count},Добавить ${expr} к ${var}${show_input_count},,GML Visual story text
+GMStdVar_Story_4,Add ${expr} to ${var} on ${applyto}${show_input_count},Добавить ${expr} к ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTempVar_Story_1,Declare temp ${var}${show_input_count},Объявить врем. ${var}${show_input_count},,GML Visual story text
+GMStdTempVar_Story_2,Declare temp ${var} on ${applyto}${show_input_count},Объявить врем. ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTempVar_Story_3,Declare temp ${var} and set it to ${value}${show_input_count},Объявить врем. ${var} и установить на ${value}${show_input_count},,GML Visual story text
+GMStdTempVar_Story_4,Declare temp ${var} and set it to ${value} on ${applyto}${show_input_count},Объявить врем. ${var} и установить его на ${value} на ${applyto}${show_input_count},,GML Visual story text
+GMStdSetGlobal_Story_1,Set global variable ${var} to ${value}${show_input_count},Установить глобальную переменную ${var} на ${value}${show_input_count},,GML Visual story text
+GMStdSetGlobal_Story_2,Set global variable ${var} to ${value} on ${applyto}${show_input_count},Установить глобальную переменную ${var} на ${value} на ${applyto}${show_input_count},,GML Visual story text
+GMStdSetGlobal_Story_3,Add ${value} to global variable ${var}${show_input_count},Добавить ${value} к глобальной переменной ${var}${show_input_count},,GML Visual story text
+GMStdSetGlobal_Story_4,Add ${value} to global variable ${var} on ${applyto}${show_input_count},Добавить ${value} к глобальной переменной ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdGetGlobal_Story_1,Get global variable ${var} into ${output}${show_input_count},Получить глобальную переменную ${var} в ${output}${show_input_count},,GML Visual story text
+GMStdGetGlobal_Story_2,Get global variable ${var} into ${output} on ${applyto}${show_input_count},Получить глобальную переменную ${var} в ${output} на ${applyto}${show_input_count},,GML Visual story text
+GMStdGetGlobal_Story_3,Get global variable ${var} into temp ${output}${show_input_count},Получить глобальную переменную ${var} во врем. ${output}${show_input_count},,GML Visual story text
+GMStdGetGlobal_Story_4,Get global variable ${var} into temp ${output} on ${applyto}${show_input_count},Получить глобальную переменную ${var} во врем. ${output} на ${applyto}${show_input_count},,GML Visual story text
+GMStdIfVar_Story_1,If ${var} is not equal to ${value},Если ${var} не равно ${value},,GML Visual story text
+GMStdIfVar_Story_2,If ${var} is not equal to ${value} on ${applyto},Если ${var} не равно ${value} на ${applyto},,GML Visual story text
+GMStdIfVar_Story_3,If ${var} is not less than ${value},Если ${var} не меньше ${value},,GML Visual story text
+GMStdIfVar_Story_4,If ${var} is not less than ${value} on ${applyto},Если ${var} не меньше ${value} на ${applyto},,GML Visual story text
+GMStdIfVar_Story_5,If ${var} is not greater than ${value},Если ${var} не больше ${value},,GML Visual story text
+GMStdIfVar_Story_6,If ${var} is not greater than ${value} on ${applyto},Если ${var} не больше ${value} на ${applyto},,GML Visual story text
+GMStdIfVar_Story_7,If ${var} is not less than or equal to ${value},Если ${var} не меньше или равно ${value},,GML Visual story text
+GMStdIfVar_Story_8,If ${var} is not less than or equal to ${value} on ${applyto},Если ${var} не меньше или равно ${value} на ${applyto},,GML Visual story text
+GMStdIfVar_Story_9,If ${var} is not greater than or equal to ${value},Если ${var} не больше или равно ${value},,GML Visual story text
+GMStdIfVar_Story_10,If ${var} is not greater than or equal to ${value} on ${applyto},Если ${var} не больше или равно ${value} на ${applyto},,GML Visual story text
+GMStdIfVar_Story_11,If ${var} is equal to ${value},Если ${var} равно ${value},,GML Visual story text
+GMStdIfVar_Story_12,If ${var} is equal to ${value} on ${applyto},Если ${var} равно ${value} на ${applyto},,GML Visual story text
+GMStdIfVar_Story_13,If ${var} is less than ${value},Если ${var} меньше ${value},,GML Visual story text
+GMStdIfVar_Story_14,If ${var} is less than ${value} on ${applyto},Если ${var} меньше ${value} на ${applyto},,GML Visual story text
+GMStdIfVar_Story_15,If ${var} is greater than ${value},Если ${var} больше ${value},,GML Visual story text
+GMStdIfVar_Story_16,If ${var} is greater than ${value} on ${applyto},Если ${var} больше ${value} на ${applyto},,GML Visual story text
+GMStdIfVar_Story_17,If ${var} is less than or equal to ${value},Если ${var} меньше или равно ${value},,GML Visual story text
+GMStdIfVar_Story_18,If ${var} is less than or equal to ${value} on ${applyto},Если ${var} меньше или равно ${value} на ${applyto},,GML Visual story text
+GMStdIfVar_Story_19,If ${var} is greater than or equal to ${value},Если ${var} больше или равно ${value},,GML Visual story text
+GMStdIfVar_Story_20,If ${var} is greater than or equal to ${value} on ${applyto},Если ${var} больше или равно ${value} на ${applyto},,GML Visual story text
+GMStdIfExpr_Story_1,If ${expr} is true${show_input_count},Если ${expr} верно${show_input_count},,GML Visual story text
+GMStdIfExpr_Story_2,If ${expr} is true on ${applyto}${show_input_count},Если ${expr} верно на ${applyto}${show_input_count},,GML Visual story text
+GMStdIfExpr_Story_3,If ${expr} is false${show_input_count},Если ${expr} неверно${show_input_count},,GML Visual story text
+GMStdIfExpr_Story_4,If ${expr} is false on ${applyto}${show_input_count},Если ${expr} неверно на ${applyto}${show_input_count},,GML Visual story text
+GMStdIfUndef_Story_1,If ${var} is undefined${show_input_count},Если ${var} не определено${show_input_count},,GML Visual story text
+GMStdIfUndef_Story_2,If ${var} is undefined on ${applyto}${show_input_count},Если ${var} не определено на ${applyto}${show_input_count},,GML Visual story text
+GMStdIfUndef_Story_3,If ${var} is not undefined${show_input_count},Если ${var} определено${show_input_count},,GML Visual story text
+GMStdIfUndef_Story_4,If ${var} is not undefined on ${applyto}${show_input_count},Если ${var} определено на ${applyto}${show_input_count},,GML Visual story text
+GMStdElse_Story,Else,Прочее,,GML Visual story text
+GMStdExCode_Story_1,Execute code,Код выполнения,,GML Visual story text
+GMStdExCode_Story_2,Execute code on ${applyto},Код выполнения на ${applyto},,GML Visual story text
+GMStdExCode_Story_3,${overridden_name},${overridden_name},,GML Visual story text
+GMStdExCode_Story_4,${overridden_name} on ${applyto},${overridden_name} на ${applyto},,GML Visual story text
+GMStdExScript_Story_1,Execute ${script},Выполнить ${script},,GML Visual story text
+GMStdExScript_Story_2,Execute ${script} on ${applyto},Выполнить ${script} на ${applyto},,GML Visual story text
+GMStdExScript_Story_3,Execute ${script} with 1 argument,Выполнить ${script} с 1 аргументом,,GML Visual story text
+GMStdExScript_Story_4,Execute ${script} with 1 argument on ${applyto},Выполнить ${script} с 1 аргументом на ${applyto},,GML Visual story text
+GMStdExScript_Story_5,Execute ${script} with ${input_count} arguments,Выполнить ${script} с ${input_count} аргументами,,GML Visual story text
+GMStdExScript_Story_6,Execute ${script} with ${input_count} arguments on ${applyto},Выполнить ${script} с ${input_count} аргументами на ${applyto},,GML Visual story text
+GMStdExScript_Story_7,Execute and set ${var} to return value of ${script},Выполнить и установить ${var} на возвратное значение ${script},,GML Visual story text
+GMStdExScript_Story_8,Execute and set ${var} to return value of ${script} on ${applyto},Выполнить и установить ${var} на возвратное значение ${script} на ${applyto},,GML Visual story text
+GMStdExScript_Story_9,Execute and set ${var} to return value of ${script} with 1 argument,Выполнить и установить ${var} на возвратное значение ${script} с 1 аргументом,,GML Visual story text
+GMStdExScript_Story_10,Execute and set ${var} to return value of ${script} with 1 argument on ${applyto},Выполнить и установить ${var} на возвратное значение ${script} с 1 аргументом на ${applyto},,GML Visual story text
+GMStdExScript_Story_11,Execute and set ${var} to return value of ${script} with ${input_count} arguments,Выполнить и установить ${var} на возвратное значение ${script} с ${input_count} аргументами,,GML Visual story text
+GMStdExScript_Story_12,Execute and set ${var} to return value of ${script} with ${input_count} arguments on ${applyto},Выполнить и установить ${var} на возвратное значение ${script} с ${input_count} аргументами на ${applyto},,GML Visual story text
+GMStdExScript_Story_13,Execute and set temp ${var} to return value of ${script},Выполнить и установить врем. ${var} на возвратное значение ${script},,GML Visual story text
+GMStdExScript_Story_14,Execute and set temp ${var} to return value of ${script} on ${applyto},Выполнить и установить врем. ${var} на возвратное значение ${script} на ${applyto},,GML Visual story text
+GMStdExScript_Story_15,Execute and set temp ${var} to return value of ${script} with 1 argument,Выполнить и установить врем. ${var} на возвратное значение ${script} с 1 аргументом,,GML Visual story text
+GMStdExScript_Story_16,Execute and set temp ${var} to return value of ${script} with 1 argument on ${applyto},Выполнить и установить врем. ${var} на возвратное значение ${script} с 1 аргументом на ${applyto},,GML Visual story text
+GMStdExScript_Story_17,Execute and set temp ${var} to return value of ${script} with ${input_count} arguments,Выполнить и установить врем. ${var} на возвратное значение ${script} с ${input_count} аргументами,,GML Visual story text
+GMStdExScript_Story_18,Execute and set temp ${var} to return value of ${script} with ${input_count} arguments on ${applyto},Выполнить и установить врем. ${var} на возвратное значение ${script} с ${input_count} аргументами на ${applyto},,GML Visual story text
+GMStdCallFunction_Story_1,Call ${function},Вызвать ${function},,GML Visual story text
+GMStdCallFunction_Story_2,Call ${function} on ${applyto},Вызвать ${function} на ${applyto},,GML Visual story text
+GMStdCallFunction_Story_3,Call ${function} with 1 argument,Вызвать ${function} с 1 аргументом,,GML Visual story text
+GMStdCallFunction_Story_4,Call ${function} with 1 argument on ${applyto},Вызвать ${function} с 1 аргументом на ${applyto},,GML Visual story text
+GMStdCallFunction_Story_5,Call ${function} with ${input_count} arguments,Вызвать ${function} с ${input_count} аргументами,,GML Visual story text
+GMStdCallFunction_Story_6,Call ${function} with ${input_count} arguments on ${applyto},Вызвать ${function} с ${input_count} аргументами на ${applyto},,GML Visual story text
+GMStdCallFunction_Story_7,Set ${var} to return value of ${function},Установить ${var} на возвратное значение ${function},,GML Visual story text
+GMStdCallFunction_Story_8,Set ${var} to return value of ${function} on ${applyto},Установить ${var} на возвратное значение ${function} на ${applyto},,GML Visual story text
+GMStdCallFunction_Story_9,Set ${var} to return value of ${function} with 1 argument,Установить ${var} на возвратное значение ${function} с 1 аргументом,,GML Visual story text
+GMStdCallFunction_Story_10,Set ${var} to return value of ${function} with 1 argument on ${applyto},Установить ${var} на возвратное значение ${function} с 1 аргументом на ${applyto},,GML Visual story text
+GMStdCallFunction_Story_11,Set ${var} to return value of ${function} with ${input_count} arguments,Установить ${var} на возвратное значение ${function} с ${input_count} аргументами,,GML Visual story text
+GMStdCallFunction_Story_12,Set ${var} to return value of ${function} with ${input_count} arguments on ${applyto},Установить ${var} на возвратное значение ${function} с ${input_count} аргументами на ${applyto},,GML Visual story text
+GMStdCallFunction_Story_13,Set temp ${var} to return value of ${function},Установить врем. ${var} на возвратное значение ${function},,GML Visual story text
+GMStdCallFunction_Story_14,Set temp ${var} to return value of ${function} on ${applyto},Установить врем. ${var} на возвратное значение ${function} на ${applyto},,GML Visual story text
+GMStdCallFunction_Story_15,Set temp ${var} to return value of ${function} with 1 argument,Установить врем. ${var} на возвратное значение ${function} с 1 аргументом,,GML Visual story text
+GMStdCallFunction_Story_16,Set temp ${var} to return value of ${function} with 1 argument on ${applyto},Установить врем. ${var} на возвратное значение ${function} с 1 аргументом на ${applyto},,GML Visual story text
+GMStdCallFunction_Story_17,Set temp ${var} to return value of ${function} with ${input_count} arguments,Установить врем. ${var} на возвратное значение ${function} с ${input_count} аргументами,,GML Visual story text
+GMStdCallFunction_Story_18,Set temp ${var} to return value of ${function} with ${input_count} arguments on ${applyto},Установить врем. ${var} на возвратное значение ${function} с ${input_count} аргументами на ${applyto},,GML Visual story text
+GMStdRet_Story_1,Return ${value},Возвратить ${value},,GML Visual story text
+GMStdRet_Story_2,Return ${value} on ${applyto},Возвратить ${value} на ${applyto},,GML Visual story text
+GMStdApplyTo_Story_1,Apply to ${applyto},Применить к ${applyto},,GML Visual story text
+GMStdMacro_Story_1,Define macro ${macro} as ${value}${show_input_count},Определить макро ${macro} как ${value}${show_input_count},,GML Visual story text
+GMStdMacro_Story_2,Define macro ${macro} as ${value} on ${applyto}${show_input_count},Определить макро ${macro} как ${value} на ${applyto}${show_input_count},,GML Visual story text
+GMStdExit_Story,Exit the current event,Выйти из текущего события,,GML Visual story text
+GMStdInstCreate_Story_1,Create ${objectid} at ${dnd_pos},Создать ${objectid} на ${dnd_pos},,GML Visual story text
+GMStdInstCreate_Story_2,Create ${objectid} at ${dnd_pos} on ${applyto},Создать ${objectid} на ${dnd_pos} на ${applyto},,GML Visual story text
+GMStdInstCreate_Story_3,Create ${objectid} at ${dnd_pos} into ${var},Создать ${objectid} на ${dnd_pos} в ${var},,GML Visual story text
+GMStdInstCreate_Story_4,Create ${objectid} at ${dnd_pos} into ${var} on ${applyto},Создать ${objectid} на ${dnd_pos} в ${var} на ${applyto},,GML Visual story text
+GMStdInstCreate_Story_5,Create ${objectid} at ${dnd_pos} into temp ${var},Создать ${objectid} на ${dnd_pos} во врем. ${var},,GML Visual story text
+GMStdInstCreate_Story_6,Create ${objectid} at ${dnd_pos} into temp ${var} on ${applyto},Создать ${objectid} на ${dnd_pos} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdInstDestroy_Story_1,Destroy this instance,Уничтожить этот экземпляр,,GML Visual story text
+GMStdInstDestroy_Story_2,Destroy ${applyto} on ${applyto},Уничтожить ${applyto} на ${applyto},,GML Visual story text
+GMStdDestroyAtPos_Story_1,Destroy instances at ${dnd_pos},Уничтожить экземпляры на ${dnd_pos},,GML Visual story text
+GMStdDestroyAtPos_Story_2,Destroy instances at ${dnd_pos} on ${applyto},Уничтожить экземпляры на ${dnd_pos} на ${applyto},,GML Visual story text
+GMStdInstChange_Story_1,Change into ${objind},Изменить в ${objind},,GML Visual story text
+GMStdInstChange_Story_2,Change ${applyto} into ${objind} on ${applyto},Изменить ${applyto} в ${objind} на ${applyto},,GML Visual story text
+GMStdSetAlarm_Story_1,Set alarm ${alarm} to ${steps}${show_input_count},Установить аларм ${alarm} на ${steps}${show_input_count},,GML Visual story text
+GMStdSetAlarm_Story_2,Set alarm ${alarm} to ${steps} on ${applyto}${show_input_count},Установить аларм ${alarm} на ${steps} на ${applyto}${show_input_count},,GML Visual story text
+GMStdSetAlarm_Story_3,Add ${steps} to alarm ${alarm}${show_input_count},Добавить ${steps} к аларму ${alarm}${show_input_count},,GML Visual story text
+GMStdSetAlarm_Story_4,Add ${steps} to alarm ${alarm} on ${applyto}${show_input_count},Добавить ${steps} к аларму ${alarm} на ${applyto}${show_input_count},,GML Visual story text
+GMStdGetAlarm_Story_1,Get alarm ${alarm} into ${var},Получить аларм ${alarm} в ${var},,GML Visual story text
+GMStdGetAlarm_Story_2,Get alarm ${alarm} into ${var} on ${applyto},Получить аларм ${alarm} в ${var} на ${applyto},,GML Visual story text
+GMStdGetAlarm_Story_3,Get alarm ${alarm} into temp ${var},Получить аларм ${alarm} во врем. ${var},,GML Visual story text
+GMStdGetAlarm_Story_4,Get alarm ${alarm} into temp ${var} on ${applyto},Получить аларм ${alarm} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdInstCount_Story_1,Get ${object} count into ${var},Получить ${object} счет в ${var},,GML Visual story text
+GMStdInstCount_Story_2,Get ${object} count into ${var} on ${applyto},Получить ${object} счет в ${var} на ${applyto},,GML Visual story text
+GMStdInstCount_Story_3,Get ${object} count into temp ${var},Получить ${object} счет во врем. ${var},,GML Visual story text
+GMStdInstCount_Story_4,Get ${object} count into temp ${var} on ${applyto},Получить ${object} счет во врем. ${var} на ${applyto},,GML Visual story text
+GMStdCallUserEvent_Story_1,Call user event ${event}${show_input_count},Вызвать событие пользователя ${event}${show_input_count},,GML Visual story text
+GMStdCallUserEvent_Story_2,Call user event ${event} on ${applyto}${show_input_count},Вызвать событие пользователя ${event} на ${applyto}${show_input_count},,GML Visual story text
+GMStdSetInstanceVar_Story_1,Set instance variable ${dnd_set_inst_vars} to ${value}${show_input_count},Установить переменную экземпляра ${dnd_set_inst_vars} на ${value}${show_input_count},,GML Visual story text
+GMStdSetInstanceVar_Story_2,Set instance variable ${dnd_set_inst_vars} to ${value} on ${applyto}${show_input_count},Установить переменную экземпляра ${dnd_set_inst_vars} на ${value} на ${applyto}${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_1,Get instance variable ${dnd_get_inst_vars} into ${target}${show_input_count},Получить переменную экземпляра ${dnd_get_inst_vars} в ${target}${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_2,Get instance variable ${dnd_get_inst_vars} into ${target} on ${applyto}${show_input_count},Получить переменную экземпляра ${dnd_get_inst_vars} в ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_3,Get instance variable ${dnd_get_inst_vars} into temp ${target}${show_input_count},Получить переменную экземпляра ${dnd_get_inst_vars} во врем. ${target}${show_input_count},,GML Visual story text
+GMStdGetInstanceVar_Story_4,Get instance variable ${dnd_get_inst_vars} into temp ${target} on ${applyto}${show_input_count},Получить переменную экземпляра ${dnd_get_inst_vars} во врем. ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdSetSprite_Story_1,Set sprite to ${spriteind} at frame ${imageind},Установить спрайт на ${spriteind} на фрейме ${imageind},,GML Visual story text
+GMStdSetSprite_Story_2,Set sprite to ${spriteind} at frame ${imageind} on ${applyto},Установить спрайт на ${spriteind} на фрейме ${imageind} на ${applyto},,GML Visual story text
+GMStdRotSprite_Story_1,Set rotation to ${angle},Установить вращение на ${angle},,GML Visual story text
+GMStdRotSprite_Story_2,Set rotation to ${angle} on ${applyto},Установить вращение на ${angle} на ${applyto},,GML Visual story text
+GMStdRotSprite_Story_3,Add ${angle} to rotation,Добавить ${angle} к вращению,,GML Visual story text
+GMStdRotSprite_Story_4,Add ${angle} to rotation on ${applyto},Добавить ${angle} к вращению на ${applyto},,GML Visual story text
+GMStdSpriteAnimSpd_Story_1,Set animation speed to ${speed},Установить скорость анимации на ${speed},,GML Visual story text
+GMStdSpriteAnimSpd_Story_2,Set animation speed to ${speed} on ${applyto},Установить скорость анимации на ${speed} на ${applyto},,GML Visual story text
+GMStdSpriteAnimSpd_Story_3,Add ${speed} to animation speed,Добавить ${speed} к скорости анимации,,GML Visual story text
+GMStdSpriteAnimSpd_Story_4,Add ${speed} to animation speed on ${applyto},Добавить ${speed} к скорости анимации на ${applyto},,GML Visual story text
+GMStdSpriteScale_Story_1,"Scale to ${xscale},${yscale}","Масштабировать до ${xscale},${yscale}",,GML Visual story text
+GMStdSpriteScale_Story_2,"Scale to ${xscale},image_yscale","Масштабировать до ${xscale},image_yscale",,GML Visual story text
+GMStdSpriteScale_Story_3,"Scale to ${xscale},image_yscale+${yscale}","Масштабировать до ${xscale},image_yscale+${yscale}",,GML Visual story text
+GMStdSpriteScale_Story_4,"Scale to image_xscale,${yscale}","Масштабировать до image_xscale,${yscale}",,GML Visual story text
+GMStdSpriteScale_Story_5,"Scale to image_xscale,image_yscale","Масштабировать до image_xscale,image_yscale",,GML Visual story text
+GMStdSpriteScale_Story_6,"Scale to image_xscale,image_yscale+${yscale}","Масштабировать до image_xscale,image_yscale+${yscale}",,GML Visual story text
+GMStdSpriteScale_Story_7,"Scale to image_xscale+${xscale},${yscale}","Масштабировать до image_xscale+${xscale},${yscale}",,GML Visual story text
+GMStdSpriteScale_Story_8,"Scale to image_xscale+${xscale},image_yscale","Масштабировать до image_xscale+${xscale},image_yscale",,GML Visual story text
+GMStdSpriteScale_Story_9,"Scale to image_xscale+${xscale},image_yscale+${yscale}","Масштабировать до image_xscale+${xscale},image_yscale+${yscale}",,GML Visual story text
+GMStdSpriteScale_Story_10,"Scale ${applyto} to ${xscale},${yscale} on ${applyto}","Масштабировать ${applyto} до ${xscale},${yscale} на ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_11,"Scale ${applyto} to ${xscale},image_yscale on ${applyto}","Масштабировать ${applyto} до ${xscale},image_yscale на ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_12,"Scale ${applyto} to ${xscale},image_yscale+${yscale} on ${applyto}","Масштабировать ${applyto} до ${xscale},image_yscale+${yscale} на ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_13,"Scale ${applyto} to image_xscale,${yscale} on ${applyto}","Масштабировать ${applyto} до image_xscale,${yscale} на ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_14,"Scale ${applyto} to image_xscale,image_yscale on ${applyto}","Масштабировать ${applyto} до image_xscale,image_yscale на ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_15,"Scale ${applyto} to image_xscale,image_yscale+${yscale} on ${applyto}","Масштабировать ${applyto} до image_xscale,image_yscale+${yscale} на ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_16,"Scale ${applyto} to image_xscale+${xscale},${yscale} on ${applyto}","Масштабировать ${applyto} до image_xscale+${xscale},${yscale} на ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_17,"Scale ${applyto} to image_xscale+${xscale},image_yscale on ${applyto}","Масштабировать ${applyto} до image_xscale+${xscale},image_yscale на ${applyto}",,GML Visual story text
+GMStdSpriteScale_Story_18,"Scale ${applyto} to image_xscale+${xscale},image_yscale+${yscale} on ${applyto}","Масштабировать ${applyto} до image_xscale+${xscale},image_yscale+${yscale} на ${applyto}",,GML Visual story text
+GMStdSpriteAlpha_Story_1,Set alpha to ${alpha},Установить альфа на ${alpha},,GML Visual story text
+GMStdSpriteAlpha_Story_2,Set alpha to ${alpha} on ${applyto},Установить альфа на ${alpha} на ${applyto},,GML Visual story text
+GMStdSpriteAlpha_Story_3,Add ${alpha} to alpha,Добавить ${alpha} к альфе,,GML Visual story text
+GMStdSpriteAlpha_Story_4,Add ${alpha} to alpha on ${applyto},Добавить ${alpha} к альфе на ${applyto},,GML Visual story text
+GMStdSpriteColor_Story_1,Set sprite blend colour to ${colour},Установить цвет смешивания спрайта на ${colour},,GML Visual story text
+GMStdSpriteColor_Story_2,Set sprite blend colour to ${colour} on ${applyto},Установить цвет смешивания спрайта на ${colour} на ${applyto},,GML Visual story text
+GMStdInstExists_Story_1,Check if ${obj} does not exist,"Проверить, существует ли ${obj}",,GML Visual story text
+GMStdInstExists_Story_2,Check if ${obj} does not exist on ${applyto},"Проверить, существует ли ${obj} на ${applyto}",,GML Visual story text
+GMStdInstExists_Story_3,Check if ${obj} exists,"Проверить, существует ли ${obj}",,GML Visual story text
+GMStdInstExists_Story_4,Check if ${obj} exists on ${applyto},"Проверить, существует ли ${obj} на ${applyto}",,GML Visual story text
+GMStdInheritEvent_Story_1,Call parent event,Вызвать родительское событие,,GML Visual story text
+GMStdInheritEvent_Story_2,Call parent event on ${applyto},Вызвать родительское событие на ${applyto},,GML Visual story text
+GMStdIfSequenceExists_Story_1,If sequence ${obj} exists,Если последовательность ${obj} существует,,GML Visual story text
+GMStdIfSequenceExists_Story_2,If sequence ${obj} does not exists,Если последовательность ${obj} не существует,,GML Visual story text
+GMStdSeqDestroy_Story_1,Destroy sequence ${var},Уничтожить последовательность ${var},,GML Visual story text
+GMStdSeqPlay_Story_1,Play sequence ${var},Воспроизвести последовательность ${var},,GML Visual story text
+GMStdSeqPause_Story_1,Pause sequence ${var},Поставить на паузу последовательность ${var},,GML Visual story text
+GMStdSeqSetPos_Story_1,Set position of sequence instance ${sequenceelmid} to ${dnd_pos},Установить позицию экземпляра последовательности ${sequenceelmid} на ${dnd_pos},,GML Visual story text
+GMStdSeqCreate_Story_1,Create ${sequenceid} at ${dnd_pos},Создать ${sequenceid} на ${dnd_pos},,GML Visual story text
+GMStdSeqCreate_Story_2,Create ${sequenceid} at ${dnd_pos} on ${applyto},Создать ${sequenceid} на ${dnd_pos} на ${applyto},,GML Visual story text
+GMStdSeqCreate_Story_3,Create ${sequenceid} at ${dnd_pos} into ${var},Создать ${sequenceid} на ${dnd_pos} в ${var},,GML Visual story text
+GMStdSeqCreate_Story_4,Create ${sequenceid} at ${dnd_pos} into ${var} on ${applyto},Создать ${sequenceid} на ${dnd_pos} в ${var} на ${applyto},,GML Visual story text
+GMStdSeqCreate_Story_5,Create ${sequenceid} at ${dnd_pos} into temp ${var},Создать ${sequenceid} на ${dnd_pos} во врем. ${var},,GML Visual story text
+GMStdSeqCreate_Story_6,Create ${sequenceid} at ${dnd_pos} into temp ${var} on ${applyto},Создать ${sequenceid} на ${dnd_pos} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdSeqGetPos_Story_1,Get position of sequence instance ${sequenceelmid} into ${varx} and ${vary},Получить позицию экземпляра последовательности ${sequenceelmid} в ${varx} и ${vary},,GML Visual story text
+GMStdSeqGetPos_Story_2,Get position of sequence instance ${sequenceelmid} into temp ${varx} and ${vary},Получить позицию экземпляра последовательности ${sequenceelmid} во врем. ${varx} и ${vary},,GML Visual story text
+GMStdSeqGetPos_Story_3,Get position of sequence instance ${sequenceelmid} into ${varx} and temp ${vary},Получить позицию экземпляра последовательности ${sequenceelmid} в ${varx} и врем. ${vary},,GML Visual story text
+GMStdSeqGetPos_Story_4,Get position of sequence instance ${sequenceelmid} into temp ${varx} and temp ${vary},Получить позицию экземпляра последовательности ${sequenceelmid} во врем. ${varx} и врем. ${vary},,GML Visual story text
+GMStdIfMousePressed_Story_1,If mouse button ${button} is pressed,Если кнопка мыши ${button} нажата,,GML Visual story text
+GMStdIfMousePressed_Story_2,If mouse button ${button} is pressed on ${applyto},Если кнопка мыши ${button} нажата на ${applyto},,GML Visual story text
+GMStdIfMousePressed_Story_3,If mouse button ${button} is not pressed,Если кнопка мыши ${button} не нажата,,GML Visual story text
+GMStdIfMousePressed_Story_4,If mouse button ${button} is not pressed on ${applyto},Если кнопка мыши ${button} не нажата на ${applyto},,GML Visual story text
+GMStdIfMouseDown_Story_1,If mouse button ${button} is down,Если кнопка мыши ${button} удерживается,,GML Visual story text
+GMStdIfMouseDown_Story_2,If mouse button ${button} is down on ${applyto},Если кнопка мыши ${button} удерживается на ${applyto},,GML Visual story text
+GMStdIfMouseDown_Story_3,If mouse button ${button} is not down,Если кнопка мыши ${button} не удерживается,,GML Visual story text
+GMStdIfMouseDown_Story_4,If mouse button ${button} is not down on ${applyto},Если кнопка мыши ${button} не удерживается на ${applyto},,GML Visual story text
+GMStdIfMouseUp_Story_1,If mouse button ${button} is released,Если кнопка мыши ${button} отпущена,,GML Visual story text
+GMStdIfMouseUp_Story_2,If mouse button ${button} is released on ${applyto},Если кнопка мыши ${button} отпущена на ${applyto},,GML Visual story text
+GMStdIfMouseUp_Story_3,If mouse button ${button} is not released,Если кнопка мыши ${button} не отпущена,,GML Visual story text
+GMStdIfMouseUp_Story_4,If mouse button ${button} is not released on ${applyto},Если кнопка мыши ${button} не отпущена на ${applyto},,GML Visual story text
+GMStdIfKeyPressed_Story_1,If ${key} is pressed,Если ${key} нажата,,GML Visual story text
+GMStdIfKeyPressed_Story_2,If ${key} is pressed on ${applyto},Если ${key} нажата на ${applyto},,GML Visual story text
+GMStdIfKeyPressed_Story_3,If ${key} is not pressed,Если ${key} не нажата,,GML Visual story text
+GMStdIfKeyPressed_Story_4,If ${key} is not pressed on ${applyto},Если ${key} не нажата на ${applyto},,GML Visual story text
+GMStdIfKeyDown_Story_1,If ${key} is down,Если ${key} удерживается,,GML Visual story text
+GMStdIfKeyDown_Story_2,If ${key} is down on ${applyto},Если ${key} удерживается на ${applyto},,GML Visual story text
+GMStdIfKeyDown_Story_3,If ${key} is not down,Если ${key} не удерживается,,GML Visual story text
+GMStdIfKeyDown_Story_4,If ${key} is not down on ${applyto},Если ${key} не удерживается на ${applyto},,GML Visual story text
+GMStdIfKeyUp_Story_1,If ${key} is released,Если ${key} отпущена,,GML Visual story text
+GMStdIfKeyUp_Story_2,If ${key} is released on ${applyto},Если ${key} отпущена на ${applyto},,GML Visual story text
+GMStdIfKeyUp_Story_3,If ${key} is not released,Если ${key} не отпущена,,GML Visual story text
+GMStdIfKeyUp_Story_4,If ${key} is not released on ${applyto},Если ${key} не отпущена на ${applyto},,GML Visual story text
+GMStdVKeyShow_Story_1,Show virtual keyboard with ${keyboard_type},Показать виртуальную клавиатуру с ${keyboard_type},,GML Visual story text
+GMStdVKeyShow_Story_2,Show virtual keyboard with ${keyboard_type} on ${applyto},Показать виртуальную клавиатуру ${keyboard_type} на ${applyto},,GML Visual story text
+GMStdVKeyHide_Story,Hide virtual keyboard,Скрыть виртуальную клавиатуру,,GML Visual story text
+GMStdVKeyHeight_Story_1,Get virtual keyboard height into ${target},Получить высоту виртуальной клавиатуры в ${target},,GML Visual story text
+GMStdVKeyHeight_Story_2,Get virtual keyboard height into temp ${target},Получить высоту виртуальной клавиатуры во врем. ${target},,GML Visual story text
+GMStdVKeyStatus_Story_1,If virtual keyboard is showing,Если виртуальная клавиатура отображается,,GML Visual story text
+GMStdVKeyStatus_Story_2,If virtual keyboard is showing on ${applyto},Если виртуальная клавиатура отображается на ${applyto},,GML Visual story text
+GMStdVKeyStatus_Story_3,If virtual keyboard is showing into ${target},Если виртуальная клавиатура отображается в ${target},,GML Visual story text
+GMStdVKeyStatus_Story_4,If virtual keyboard is showing into ${target} on ${applyto},Если виртуальная клавиатура отображается в ${target} на ${applyto},,GML Visual story text
+GMStdVKeyStatus_Story_5,If virtual keyboard is showing into temp ${target},Если виртуальная клавиатура отображается во врем. ${target},,GML Visual story text
+GMStdVKeyStatus_Story_6,If virtual keyboard is showing into temp ${target} on ${applyto},Если виртуальная клавиатура отображается во врем. ${target} на ${applyto},,GML Visual story text
+GMStdVKeyStatus_Story_7,If virtual keyboard is not showing,Если виртуальная клавиатура не отображается,,GML Visual story text
+GMStdVKeyStatus_Story_8,If virtual keyboard is not showing on ${applyto},Если виртуальная клавиатура не отображается на ${applyto},,GML Visual story text
+GMStdVKeyStatus_Story_9,If virtual keyboard is not showing into ${target},Если виртуальная клавиатура не отображается в ${target},,GML Visual story text
+GMStdVKeyStatus_Story_10,If virtual keyboard is not showing into ${target} on ${applyto},Если виртуальная клавиатура не отображается в ${target} на ${applyto},,GML Visual story text
+GMStdVKeyStatus_Story_11,If virtual keyboard is not showing into temp ${target},Если виртуальная клавиатура не отображается во врем. ${target},,GML Visual story text
+GMStdVKeyStatus_Story_12,If virtual keyboard is not showing into temp ${target} on ${applyto},Если виртуальная клавиатура не отображается во врем. ${target} на ${applyto},,GML Visual story text
+GMStdGPAxis_Story_1,Get ${axis} axis value on gamepad ${gp} into ${var},Получить значение оси ${axis} на геймпаде ${gp} в ${var},,GML Visual story text
+GMStdGPAxis_Story_2,Get ${axis} axis value on gamepad ${gp} into ${var} on ${applyto},Получить значение оси ${axis} на геймпаде ${gp} в ${var} на ${applyto},,GML Visual story text
+GMStdGPAxis_Story_3,Get ${axis} axis value on gamepad ${gp} into temp ${var},Получить значение оси ${axis} на геймпаде ${gp} во врем. ${var},,GML Visual story text
+GMStdGPAxis_Story_4,Get ${axis} axis value on gamepad ${gp} into temp ${var} on ${applyto},Получить значение оси ${axis} на геймпаде ${gp} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdGPTrigger_Story_1,Get ${trigger} value on gamepad ${gp} into ${var},Получить значение ${trigger} на геймпаде ${gp} в ${var},,GML Visual story text
+GMStdGPTrigger_Story_2,Get ${trigger} value on gamepad ${gp} into ${var} on ${applyto},Получить значение ${trigger} на геймпаде ${gp} в ${var} на ${applyto},,GML Visual story text
+GMStdGPTrigger_Story_3,Get ${trigger} value on gamepad ${gp} into temp ${var},Получить значение ${trigger} на геймпаде ${gp} во врем. ${var},,GML Visual story text
+GMStdGPTrigger_Story_4,Get ${trigger} value on gamepad ${gp} into temp ${var} on ${applyto},Получить ${trigger} значение на геймпаде ${gp} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdGpDeviceC_Story_1,Get gamepad device count into ${var},Получить количество геймпадов в ${var},,GML Visual story text
+GMStdGpDeviceC_Story_2,Get gamepad device count into ${var} on ${applyto},Получить количество геймпадов в ${var} на ${applyto},,GML Visual story text
+GMStdGpDeviceC_Story_3,Get gamepad device count into temp ${var},Получить количество геймпадов во врем. ${var},,GML Visual story text
+GMStdGpDeviceC_Story_4,Get gamepad device count into temp ${var} on ${applyto},Получить количество геймпадов во врем. ${var} на ${applyto},,GML Visual story text
+GMStdGPConnc_Story_1,Get whether gamepad ${gp} is connected into ${var},"Получить, если геймпад ${gp} соединен в ${var}",,GML Visual story text
+GMStdGPConnc_Story_2,Get whether gamepad ${gp} is connected into ${var} on ${applyto},"Получить, если геймпад ${gp} соединен в ${var} на ${applyto}",,GML Visual story text
+GMStdGPConnc_Story_3,Get whether gamepad ${gp} is connected into temp ${var},"Получить, если геймпад ${gp} соединен во врем. ${var}",,GML Visual story text
+GMStdGPConnc_Story_4,Get whether gamepad ${gp} is connected into temp ${var} on ${applyto},"Получить, если геймпад ${gp} соединен во врем. ${var} на ${applyto}",,GML Visual story text
+GMStdGPDeadzone_Story_1,Set deadzone of gamepad ${gp} to ${deadzone},Установить мертвую зону геймпада ${gp} на ${deadzone},,GML Visual story text
+GMStdGPDeadzone_Story_2,Set deadzone of gamepad ${gp} to ${deadzone} on ${applyto},Установить мертвую зону геймпада ${gp} на ${deadzone} на ${applyto},,GML Visual story text
+GMStdGPThreshold_Story_1,Set button threshold of gamepad ${gp} to ${threshold},Установить порог чувствительности кнопки геймпада ${gp} на ${threshold},,GML Visual story text
+GMStdGPThreshold_Story_2,Set button threshold of gamepad ${gp} to ${threshold} on ${applyto},Установить порог чувствительности кнопки геймпада ${gp} на ${threshold} на ${applyto},,GML Visual story text
+GMStdIfGPDown_Story_1,If ${btn} on gamepad ${gp} is down,Если ${btn} на геймпаде ${gp} удерживается,,GML Visual story text
+GMStdIfGPDown_Story_2,If ${btn} on gamepad ${gp} is down on ${applyto},Если ${btn} на геймпаде ${gp} удерживается на ${applyto},,GML Visual story text
+GMStdIfGPDown_Story_3,If ${btn} on gamepad ${gp} is not down,Если ${btn} на геймпаде ${gp} не удерживается,,GML Visual story text
+GMStdIfGPDown_Story_4,If ${btn} on gamepad ${gp} is not down on ${applyto},Если ${btn} на геймпаде ${gp} не удерживается на ${applyto},,GML Visual story text
+GMStdIfGPPressed_Story_1,If ${btn} on gamepad ${gp} is pressed,Если ${btn} на геймпаде ${gp} нажата,,GML Visual story text
+GMStdIfGPPressed_Story_2,If ${btn} on gamepad ${gp} is pressed on ${applyto},Если ${btn} на геймпаде ${gp} нажата на ${applyto},,GML Visual story text
+GMStdIfGPPressed_Story_3,If ${btn} on gamepad ${gp} is not pressed,Если ${btn} на геймпаде ${gp} не нажата,,GML Visual story text
+GMStdIfGPPressed_Story_4,If ${btn} on gamepad ${gp} is not pressed on ${applyto},Если ${btn} на геймпаде ${gp} не нажата на ${applyto},,GML Visual story text
+GMStdIfGPUp_Story_1,If ${btn} on gamepad ${gp} is released,Если ${btn} на геймпаде ${gp} отпущена,,GML Visual story text
+GMStdIfGPUp_Story_2,If ${btn} on gamepad ${gp} is released on ${applyto},Если ${btn} на геймпаде ${gp} отпущена на ${applyto},,GML Visual story text
+GMStdIfGPUp_Story_3,If ${btn} on gamepad ${gp} is not released,Если ${btn} на геймпаде ${gp} не отпущена,,GML Visual story text
+GMStdIfGPUp_Story_4,If ${btn} on gamepad ${gp} is not released on ${applyto},Если ${btn} на геймпаде ${gp} не отпущена на ${applyto},,GML Visual story text
+GMStdDirFixed_Story_1,Stop movement,Остановить перемещение,,GML Visual story text
+GMStdDirFixed_Story_2,Stop movement on ${applyto},Остановить перемещение на ${applyto},,GML Visual story text
+GMStdDirFixed_Story_3,Set direction to ${direction},Установить направление на ${direction},,GML Visual story text
+GMStdDirFixed_Story_4,Set direction to ${direction} on ${applyto},Установить направление к ${direction} на ${applyto},,GML Visual story text
+GMStdDirFree_Story_1,Add ${direction} to direction,Добавить ${direction} к направлению,,GML Visual story text
+GMStdDirFree_Story_2,Add ${direction} to direction on ${applyto},Добавить ${direction} к направлению на ${applyto},,GML Visual story text
+GMStdDirPoint_Story_1,Set direction towards ${dnd_position},Установить направление к ${dnd_position},,GML Visual story text
+GMStdDirPoint_Story_2,Set direction towards ${dnd_position} on ${applyto},Установить направление ${dnd_position} на ${applyto},,GML Visual story text
+GMStdDirRandom_Story_1,Set random direction from ${direction},Установить произвольное направление из ${direction},,GML Visual story text
+GMStdDirRandom_Story_2,Set random direction from ${direction} on ${applyto},Установить произвольное направление из ${direction} на ${applyto},,GML Visual story text
+GMStdSpeed_Story_1,Add ${speed} to speed,Добавить ${speed} к скорости,,GML Visual story text
+GMStdSpeed_Story_2,Add ${speed} to speed on ${applyto},Добавить ${speed} к скорости на ${applyto},,GML Visual story text
+GMStdSpeed_Story_3,Set speed to ${speed},Установить скорость до ${speed},,GML Visual story text
+GMStdSpeed_Story_4,Set speed to ${speed} on ${applyto},Установить скорость до ${speed} на ${applyto},,GML Visual story text
+GMStdSpeed_Story_5,Add ${speed} to horizontal speed,Добавить ${speed} к горизонтальной скорости,,GML Visual story text
+GMStdSpeed_Story_6,Add ${speed} to horizontal speed on ${applyto},Добавить ${speed} к горизонтальной скорости на ${applyto},,GML Visual story text
+GMStdSpeed_Story_7,Set horizontal speed to ${speed},Установить горизонтальную скорость до ${speed},,GML Visual story text
+GMStdSpeed_Story_8,Set horizontal speed to ${speed} on ${applyto},Установить горизонтальную скорость до ${speed} на ${applyto},,GML Visual story text
+GMStdSpeed_Story_9,Add ${speed} to vertical speed,Добавить ${speed} к вертикальной скорости,,GML Visual story text
+GMStdSpeed_Story_10,Add ${speed} to vertical speed on ${applyto},Добавить ${speed} к вертикальной скорости на ${applyto},,GML Visual story text
+GMStdSpeed_Story_11,Set vertical speed to ${speed},Установить вертикальную скорость до ${speed},,GML Visual story text
+GMStdSpeed_Story_12,Set vertical speed to ${speed} on ${applyto},Установить вертикальную скорость до ${speed} на ${applyto},,GML Visual story text
+GMStdGravDir_Story_1,Add ${direction} to gravity direction,Добавить ${direction} к направлению гравитации,,GML Visual story text
+GMStdGravDir_Story_2,Add ${direction} to gravity direction on ${applyto},Добавить ${direction} к направлению гравитации на ${applyto},,GML Visual story text
+GMStdGravDir_Story_3,Set gravity direction to ${direction},Установить направление гравитации до ${direction},,GML Visual story text
+GMStdGravDir_Story_4,Set gravity direction to ${direction} on ${applyto},Установить направление гравитации до ${direction} на ${applyto},,GML Visual story text
+GMStdGravForce_Story_1,Add ${force} to gravity force,Добавить ${force} к силе гравитации,,GML Visual story text
+GMStdGravForce_Story_2,Add ${force} to gravity force on ${applyto},Добавить ${force} к силе гравитации на ${applyto},,GML Visual story text
+GMStdGravForce_Story_3,Set gravity force to ${force},Установить силу гравитации до ${force},,GML Visual story text
+GMStdGravForce_Story_4,Set gravity force to ${force} on ${applyto},Установить силу гравитации до ${force} на ${applyto},,GML Visual story text
+GMStdReverse_Story_1,Reverse direction,Реверс направления,,GML Visual story text
+GMStdReverse_Story_2,Reverse direction on ${applyto},Реверс направления на ${applyto},,GML Visual story text
+GMStdReverse_Story_3,Reverse horizontal speed,Реверс горизонтальной скорости,,GML Visual story text
+GMStdReverse_Story_4,Reverse horizontal speed on ${applyto},Реверс горизонтальной скорости на ${applyto},,GML Visual story text
+GMStdReverse_Story_5,Reverse vertical speed,Реверс вертикальной скорости,,GML Visual story text
+GMStdReverse_Story_6,Reverse vertical speed on ${applyto},Реверс вертикальной скорости на ${applyto},,GML Visual story text
+GMStdReverse_Story_7,Reverse gravitational direction,Реверс направления гравитации,,GML Visual story text
+GMStdReverse_Story_8,Reverse gravitational direction on ${applyto},Реверс направления гравитации на ${applyto},,GML Visual story text
+GMStdFriction_Story_1,Add ${friction} to friction,Добавить ${friction} к трению,,GML Visual story text
+GMStdFriction_Story_2,Add ${friction} to friction on ${applyto},Добавить ${friction} к трению на ${applyto},,GML Visual story text
+GMStdFriction_Story_3,Set friction to ${friction},Установить трение на ${friction},,GML Visual story text
+GMStdFriction_Story_4,Set friction to ${friction} on ${applyto},Установить трение на ${friction} на ${applyto},,GML Visual story text
+GMStdJumpPoint_Story_1,Jump to ${dnd_position},Переместить в ${dnd_position},,GML Visual story text
+GMStdJumpPoint_Story_2,Jump to ${dnd_position} on ${applyto},Переместить в ${dnd_position} на ${applyto},,GML Visual story text
+GMStdJumpStart_Story_1,Jump to start,Переместить в начальную позицию,,GML Visual story text
+GMStdJumpStart_Story_2,Jump ${applyto} to start,Переместить ${applyto} в начальную позицию,,GML Visual story text
+GMStdSnapPos_Story_1,"Snap  to ${xsnap},${ysnap}","Перевести на ${xsnap},${ysnap}",,GML Visual story text
+GMStdSnapPos_Story_2,"Snap ${applyto} to ${xsnap},${ysnap} on ${applyto}","Перевести ${applyto} на ${xsnap},${ysnap} на ${applyto}",,GML Visual story text
+GMStdWrapRoom_Story_1,Wrap around room,Циклический переход рума,,GML Visual story text
+GMStdWrapRoom_Story_2,Wrap ${applyto} around room on ${applyto},Выполнить циклический переход рума для ${applyto} на ${applyto},,GML Visual story text
+GMStdIfAnyObjAt_Story_1,If any instance is overlapping self at ${dnd_position},Если любой экземпляр накладывается на себя на ${dnd_position},,GML Visual story text
+GMStdIfAnyObjAt_Story_2,If any instance is overlapping self at ${dnd_position} on ${applyto},Если любой экземпляр накладывается на себя на ${dnd_position} на ${applyto},,GML Visual story text
+GMStdIfAnyObjAt_Story_3,If no instance is overlapping self at ${dnd_position},Если никакой экземпляр не накладывается на себя на ${dnd_position},,GML Visual story text
+GMStdIfAnyObjAt_Story_4,If no instance is overlapping self at ${dnd_position} on ${applyto},Если никакой экземпляр не накладывается на себя на ${dnd_position} на ${applyto},,GML Visual story text
+GMStdIfObjAt_Story_1,If ${object} is overlapping self at ${dnd_position}${show_input_count},Если ${object} накладывается на себя на ${dnd_position}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_2,If ${object} is overlapping self at ${dnd_position} on ${applyto}${show_input_count},Если ${object} накладывается на себя на ${dnd_position} на ${applyto}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_3,If ${object} is overlapping self at ${dnd_position} into ${target}${show_input_count},Если ${object} накладывается на себя на ${dnd_position} в ${target}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_4,If ${object} is overlapping self at ${dnd_position} into ${target} on ${applyto}${show_input_count},Если ${object} накладывается на себя на ${dnd_position} в ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_5,If ${object} is overlapping self at ${dnd_position} into temp ${target}${show_input_count},Если ${object} накладывается на себя на ${dnd_position} во врем. ${target}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_6,If ${object} is overlapping self at ${dnd_position} into temp ${target} on ${applyto}${show_input_count},Если ${object} накладывается на себя на ${dnd_position} во врем. ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_7,If ${object} is not overlapping self at ${dnd_position}${show_input_count},Если ${object} не накладывается на себя на ${dnd_position}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_8,If ${object} is not overlapping self at ${dnd_position} on ${applyto}${show_input_count},Если ${object} не накладывается на себя на ${dnd_position} на ${applyto}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_9,If ${object} is not overlapping self at ${dnd_position} into ${target}${show_input_count},Если ${object} не накладывается на себя на ${dnd_position} в ${target}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_10,If ${object} is not overlapping self at ${dnd_position} into ${target} on ${applyto}${show_input_count},Если ${object} не накладывается на себя на ${dnd_position} в ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_11,If ${object} is not overlapping self at ${dnd_position} into temp ${target}${show_input_count},Если ${object} не накладывается на себя на ${dnd_position} во врем. ${target}${show_input_count},,GML Visual story text
+GMStdIfObjAt_Story_12,If ${object} is not overlapping self at ${dnd_position} into temp ${target} on ${applyto}${show_input_count},Если ${object} не накладывается на себя на ${dnd_position} во врем. ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdIfColShape_Story_1,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2},Если ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2},,GML Visual story text
+GMStdIfColShape_Story_2,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} on ${applyto},Если ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_3,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target},Если ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} в список ${target},,GML Visual story text
+GMStdIfColShape_Story_4,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},Если ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} в список ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_5,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target},Если ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} в список врем. ${target},,GML Visual story text
+GMStdIfColShape_Story_6,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},Если ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} в список врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_7,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target},Если ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} в ${target},,GML Visual story text
+GMStdIfColShape_Story_8,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},Если ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} в ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_9,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target},Если ${obj} пересекает линию ${dnd_position1} до ${dnd_position2} во врем. ${target},,GML Visual story text
+GMStdIfColShape_Story_10,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},Если ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_11,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2},Если ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2},,GML Visual story text
+GMStdIfColShape_Story_12,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} on ${applyto},Если ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_13,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target},Если ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} в список ${target},,GML Visual story text
+GMStdIfColShape_Story_14,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},Если ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} в список ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_15,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target},Если ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} в список врем. ${target},,GML Visual story text
+GMStdIfColShape_Story_16,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},Если ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} в список врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_17,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target},Если ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} в ${target},,GML Visual story text
+GMStdIfColShape_Story_18,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},Если ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} в ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_19,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target},Если ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} во врем. ${target},,GML Visual story text
+GMStdIfColShape_Story_20,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},Если ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_21,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2},Если ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2},,GML Visual story text
+GMStdIfColShape_Story_22,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto},Если ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_23,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target},Если ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} в список ${target},,GML Visual story text
+GMStdIfColShape_Story_24,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},Если ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} в список ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_25,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target},Если ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} в список врем. ${target},,GML Visual story text
+GMStdIfColShape_Story_26,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},Если ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} в список врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_27,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target},Если ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} в ${target},,GML Visual story text
+GMStdIfColShape_Story_28,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},Если ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} в ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_29,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target},Если ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} во врем. ${target},,GML Visual story text
+GMStdIfColShape_Story_30,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},Если ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} воp врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_31,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2},Если не ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2},,GML Visual story text
+GMStdIfColShape_Story_32,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} on ${applyto},Если не ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_33,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target},Если не ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} в список ${target},,GML Visual story text
+GMStdIfColShape_Story_34,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},Если не ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} в список ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_35,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target},Если не ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} в список врем. ${target},,GML Visual story text
+GMStdIfColShape_Story_36,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},Если не ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} в список врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_37,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target},Если не ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} в ${target},,GML Visual story text
+GMStdIfColShape_Story_38,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},Если не ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} в ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_39,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target},Если не ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} во врем. ${target},,GML Visual story text
+GMStdIfColShape_Story_40,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},Если не ${obj} пересекает линию на ${dnd_position1} до ${dnd_position2} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_41,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2},Если не ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2},,GML Visual story text
+GMStdIfColShape_Story_42,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} on ${applyto},Если не ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_43,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target},Если не ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} в список ${target},,GML Visual story text
+GMStdIfColShape_Story_44,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},Если не ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} в список ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_45,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target},Если не ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} в список врем. ${target},,GML Visual story text
+GMStdIfColShape_Story_46,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},Если не ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} в список врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_47,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target},Если не ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} в ${target},,GML Visual story text
+GMStdIfColShape_Story_48,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},Если не ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} в ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_49,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target},Если не ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} во врем. ${target},,GML Visual story text
+GMStdIfColShape_Story_50,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},Если не ${obj} пересекает прямоугольник на ${dnd_position1} до ${dnd_position2} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_51,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2},Если не ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2},,GML Visual story text
+GMStdIfColShape_Story_52,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto},Если не ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_53,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target},Если не ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} в список ${target},,GML Visual story text
+GMStdIfColShape_Story_54,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},Если не ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} в список ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_55,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target},Если не ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} в список врем. ${target},,GML Visual story text
+GMStdIfColShape_Story_56,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},Если не ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} в список врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_57,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target},Если не ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} в ${target},,GML Visual story text
+GMStdIfColShape_Story_58,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},Если не ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} в ${target} на ${applyto},,GML Visual story text
+GMStdIfColShape_Story_59,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target},Если не ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} во врем. ${target},,GML Visual story text
+GMStdIfColShape_Story_60,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},Если не ${obj} пересекает эллипс на ${dnd_position1} до ${dnd_position2} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_1,If ${obj} intersects point ${dnd_position},Если ${obj} пересекает точку ${dnd_position},,GML Visual story text
+GMStdIfColPoint_Story_2,If ${obj} intersects point ${dnd_position} on ${applyto},Если ${obj} пересекает точку ${dnd_position} на ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_3,If ${obj} intersects point ${dnd_position} into list ${target},Если ${obj} пересекает точку ${dnd_position} в список ${target},,GML Visual story text
+GMStdIfColPoint_Story_4,If ${obj} intersects point ${dnd_position} into list ${target} on ${applyto},Если ${obj} пересекает точку ${dnd_position} в список ${target} на ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_5,If ${obj} intersects point ${dnd_position} into list temp ${target},Если ${obj} пересекает точку ${dnd_position} в список врем. ${target},,GML Visual story text
+GMStdIfColPoint_Story_6,If ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto},Если ${obj} пересекает точку ${dnd_position} в список врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_7,If ${obj} intersects point ${dnd_position} into ${target},Если ${obj} пересекает точку ${dnd_position} в ${target},,GML Visual story text
+GMStdIfColPoint_Story_8,If ${obj} intersects point ${dnd_position} into ${target} on ${applyto},Если ${obj} пересекает точку ${dnd_position} в ${target} на ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_9,If ${obj} intersects point ${dnd_position} into temp ${target},Если ${obj} пересекает точку ${dnd_position} во врем. ${target},,GML Visual story text
+GMStdIfColPoint_Story_10,If ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto},Если ${obj} пересекает точку ${dnd_position} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_11,If not ${obj} intersects point ${dnd_position},Если не ${obj} пересекает точку ${dnd_position},,GML Visual story text
+GMStdIfColPoint_Story_12,If not ${obj} intersects point ${dnd_position} on ${applyto},Если не ${obj} пересекает точку ${dnd_position} на ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_13,If not ${obj} intersects point ${dnd_position} into list ${target},Если не ${obj} пересекает точку ${dnd_position} в список ${target},,GML Visual story text
+GMStdIfColPoint_Story_14,If not ${obj} intersects point ${dnd_position} into list ${target} on ${applyto},Если не ${obj} пересекает точку ${dnd_position} в список ${target} на ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_15,If not ${obj} intersects point ${dnd_position} into list temp ${target},Если не ${obj} пересекает точку ${dnd_position} в список врем. ${target},,GML Visual story text
+GMStdIfColPoint_Story_16,If not ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto},Если не ${obj} пересекает точку ${dnd_position} в список врем. ${target} на ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_17,If not ${obj} intersects point ${dnd_position} into ${target},Если не ${obj} пересекает точку ${dnd_position} в ${target},,GML Visual story text
+GMStdIfColPoint_Story_18,If not ${obj} intersects point ${dnd_position} into ${target} on ${applyto},Если не ${obj} пересекает точку ${dnd_position} в ${target} на ${applyto},,GML Visual story text
+GMStdIfColPoint_Story_19,If not ${obj} intersects point ${dnd_position} into temp ${target},Если не ${obj} пересекает точку ${dnd_position} во врем. ${target},,GML Visual story text
+GMStdIfColPoint_Story_20,If not ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto},Если не ${obj} пересекает точку ${dnd_position} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdDrawSelf_Story_1,Draw self,Изобразить себя,,GML Visual story text
+GMStdDrawSelf_Story_2,Draw self on ${applyto},Изобразить себя на ${applyto},,GML Visual story text
+GMStdDrawValue_Story_1,Draw  at ${dnd_position},Изобразить на ${dnd_position},,GML Visual story text
+GMStdDrawValue_Story_2,Draw  at ${dnd_position} on ${applyto},Изобразить на ${dnd_position} на ${applyto},,GML Visual story text
+GMStdDrawValue_Story_3,Draw  ${var} at ${dnd_position},Изобразить ${var} на ${dnd_position},,GML Visual story text
+GMStdDrawValue_Story_4,Draw  ${var} at ${dnd_position} on ${applyto},Изобразить ${var} на ${dnd_position} на ${applyto},,GML Visual story text
+GMStdDrawValue_Story_5,"Draw ""${caption}"" at ${dnd_position}","Нарисовать «${caption}» в ${dnd_position}",,GML Visual story text
+GMStdDrawValue_Story_6,"Draw ""${caption}"" at ${dnd_position} on ${applyto}","Нарисовать «${caption}» в ${dnd_position} на ${applyto}",,GML Visual story text
+GMStdDrawValue_Story_7,"Draw ""${caption}"" ${var} at ${dnd_position}","Нарисовать «${caption}» ${var} в ${dnd_position}",,GML Visual story text
+GMStdDrawValue_Story_8,"Draw ""${caption}"" ${var} at ${dnd_position} on ${applyto}","Нарисовать «${caption}» ${var} в ${dnd_position} на ${applyto}",,GML Visual story text
+GMStdDrawValueTransformed_Story_1,Draw transformed  at ${dnd_position},Изобразить трансформированным на ${dnd_position},,GML Visual story text
+GMStdDrawValueTransformed_Story_2,Draw transformed  at ${dnd_position} on ${applyto},Изобразить трансформированным на ${dnd_position} на ${applyto},,GML Visual story text
+GMStdDrawValueTransformed_Story_3,Draw transformed  ${var} at ${dnd_position},Изобразить трансформированным ${var} на ${dnd_position},,GML Visual story text
+GMStdDrawValueTransformed_Story_4,Draw transformed  ${var} at ${dnd_position} on ${applyto},Изобразить трансформированным ${var} на ${dnd_position} на ${applyto},,GML Visual story text
+GMStdDrawValueTransformed_Story_5,"Draw transformed ""${caption}"" at ${dnd_position}","Нарисовать «${caption}» с преобразованием в ${dnd_position}",,GML Visual story text
+GMStdDrawValueTransformed_Story_6,"Draw transformed ""${caption}"" at ${dnd_position} on ${applyto}","Нарисовать «${caption}» с преобразованием в ${dnd_position} на ${applyto}",,GML Visual story text
+GMStdDrawValueTransformed_Story_7,"Draw transformed ""${caption}"" ${var} at ${dnd_position}","Нарисовать «${caption}» ${var} с преобразованием в ${dnd_position}",,GML Visual story text
+GMStdDrawValueTransformed_Story_8,"Draw transformed ""${caption}"" ${var} at ${dnd_position} on ${applyto}","Нарисовать «${caption}» ${var} с преобразованием в ${dnd_position} на ${applyto}",,GML Visual story text
+GMStdDrawSprite_Story_1,Draw sprite ${sprite} frame ${image} at ${dnd_position},Изобразить кадр ${image} спрайта ${sprite} на ${dnd_position},,GML Visual story text
+GMStdDrawSprite_Story_2,Draw sprite ${sprite} frame ${image} at ${dnd_position} on ${applyto},Изобразить кадр ${image} спрайта ${sprite} на ${dnd_position} на ${applyto},,GML Visual story text
+GMStdDrawSpriteExt_Story_1,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot}","Изобразить трансформированный кадр ${image} спрайта ${sprite} со масштабом ${xscale},${yscale} и вращением ${rot}",,GML Visual story text
+GMStdDrawSpriteExt_Story_2,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot} on ${applyto}","Изобразить трансформированный кадр ${image} спрайта ${sprite} со масштабом ${xscale},${yscale} и вращением ${rot} на ${applyto}",,GML Visual story text
+GMStdDrawSpritesStacked_Story_1,Draw sprite ${sprite} in ${number} rows at ${dnd_position},Изобразить спрайт ${sprite} в ${number} рядах на ${dnd_position},,GML Visual story text
+GMStdDrawSpritesStacked_Story_2,Draw sprite ${sprite} in ${number} rows at ${dnd_position} on ${applyto},Изобразить спрайт ${sprite} в ${number} рядах на ${dnd_position} на ${applyto},,GML Visual story text
+GMStdDrawSpritesStacked_Story_3,Draw sprite ${sprite} in ${number} columns at ${dnd_position},Изобразить спрайт ${sprite} в ${number} колонках на ${dnd_position},,GML Visual story text
+GMStdDrawSpritesStacked_Story_4,Draw sprite ${sprite} in ${number} columns at ${dnd_position} on ${applyto},Изобразить спрайт ${sprite} в ${number} колонках на ${dnd_position} на ${applyto},,GML Visual story text
+GMStdDrawRectangle_Story_1,Draw rectangle from ${dnd_position1} to ${dnd_position2},Изобразить прямоугольник с ${dnd_position1} до ${dnd_position2},,GML Visual story text
+GMStdDrawRectangle_Story_2,Draw rectangle from ${dnd_position1} to ${dnd_position2} on ${applyto},Изобразить прямоугольник с ${dnd_position1} до ${dnd_position2} на ${applyto},,GML Visual story text
+GMStdDrawGradientRect_Story_1,Draw gradient rectangular outline from ${dnd_position1} to ${dnd_position2},Изобразить градиентный прямоугольный контур с ${dnd_position1} до ${dnd_position2},,GML Visual story text
+GMStdDrawGradientRect_Story_2,Draw gradient rectangular outline from ${dnd_position1} to ${dnd_position2} on ${applyto},Изобразить градиентный прямоугольный контур с ${dnd_position1} до ${dnd_position2} на ${applyto},,GML Visual story text
+GMStdDrawGradientRect_Story_3,Draw gradient rectangle from ${dnd_position1} to ${dnd_position2},Изобразить градиентный прямоугольник с ${dnd_position1} до ${dnd_position2},,GML Visual story text
+GMStdDrawGradientRect_Story_4,Draw gradient rectangle from ${dnd_position1} to ${dnd_position2} on ${applyto},Изобразить градиентный прямоугольник с ${dnd_position1} до ${dnd_position2} на ${applyto},,GML Visual story text
+GMStdDrawEllipse_Story_1,Draw ellipse from ${dnd_position1} to ${dnd_position2},Изобразить эллипс с ${dnd_position1} до ${dnd_position2},,GML Visual story text
+GMStdDrawEllipse_Story_2,Draw ellipse from ${dnd_position1} to ${dnd_position2} on ${applyto},Изобразить эллипс с ${dnd_position1} до ${dnd_position2} на ${applyto},,GML Visual story text
+GMStdDrawGradientEllipse_Story_1,Draw gradient elliptical outline from ${dnd_position1} to ${dnd_position2},Изобразить градиентный эллиптический контур с ${dnd_position1} до ${dnd_position2},,GML Visual story text
+GMStdDrawGradientEllipse_Story_2,Draw gradient elliptical outline from ${dnd_position1} to ${dnd_position2} on ${applyto},Изобразить градиентный эллиптический контур с ${dnd_position1} до ${dnd_position2} на ${applyto},,GML Visual story text
+GMStdDrawGradientEllipse_Story_3,Draw gradient ellipse from ${dnd_position1} to ${dnd_position2},Изобразить градиентный эллипс с ${dnd_position1} до ${dnd_position2},,GML Visual story text
+GMStdDrawGradientEllipse_Story_4,Draw gradient ellipse from ${dnd_position1} to ${dnd_position2} on ${applyto},Изобразить градиентный эллипс с ${dnd_position1} до ${dnd_position2} на ${applyto},,GML Visual story text
+GMStdDrawLine_Story_1,Draw line from ${dnd_position1} to ${dnd_position2},Изобразить линию с ${dnd_position1} до ${dnd_position2},,GML Visual story text
+GMStdDrawLine_Story_2,Draw line from ${dnd_position1} to ${dnd_position2} on ${applyto},Изобразить линию с ${dnd_position1} до ${dnd_position2} на ${applyto},,GML Visual story text
+GMStdDrawHealthbar_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value},Изобразить шкалу здоровья с ${dnd_position1} до ${dnd_position2} со значением ${value},,GML Visual story text
+GMStdDrawHealthbar_Story_2,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value} on ${applyto},Изобразить шкалу здоровья с ${dnd_position1} до ${dnd_position2} со значением ${value} на ${applyto},,GML Visual story text
+GMStdDrawInstanceScore_Story_1,Draw score at ${dnd_position},Изобразить счет на ${dnd_position},,GML Visual story text
+GMStdDrawInstanceScore_Story_2,"Draw score at ${dnd_position} with caption ""${caption}""","Нарисовать счет в ${dnd_position} с подписью «${caption}»",,GML Visual story text
+GMStdDrawInstanceScore_Story_3,Draw ${applyto}'s score at ${dnd_position} on ${applyto},Изобразить счет ${applyto} на ${dnd_position} на ${applyto},,GML Visual story text
+GMStdDrawInstanceScore_Story_4,"Draw ${applyto}'s score at ${dnd_position} with caption ""${caption}"" on ${applyto}","Нарисовать счет ${applyto} в ${dnd_position} с подписью «${caption}» на ${applyto}",,GML Visual story text
+GMStdDrawInstanceHealth_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2},Изобразить шкалу здоровья с ${dnd_position1} до ${dnd_position2},,GML Visual story text
+GMStdDrawInstanceHealth_Story_2,Draw ${applyto}'s healthbar from ${dnd_position1} to ${dnd_position2} on ${applyto},Изобразить шкалу здоровья ${applyto} с ${dnd_position1} до ${dnd_position2} на ${applyto},,GML Visual story text
+GMStdDrawInstanceLives_Story_1,Draw lives in a row at ${dnd_position},Изобразить жизни в ряду на ${dnd_position},,GML Visual story text
+GMStdDrawInstanceLives_Story_2,Draw lives in a column at ${dnd_position},Изобразить жизни в колонке на ${dnd_position},,GML Visual story text
+GMStdDrawInstanceLives_Story_3,Draw ${applyto}'s lives in a row at ${dnd_position} on ${applyto},Изобразить жизни ${applyto} в ряду на ${dnd_position} на ${applyto},,GML Visual story text
+GMStdDrawInstanceLives_Story_4,Draw ${applyto}'s lives in a column at ${dnd_position} on ${applyto},Изобразить жизни ${applyto} в колонке на ${dnd_position} на ${applyto},,GML Visual story text
+GMStdSetColor_Story_1,Set draw color to ${color},Установить цвет изображения на ${color},,GML Visual story text
+GMStdSetColor_Story_2,Set draw color to ${color} on ${applyto},Установить цвет изображения на ${color} на ${applyto},,GML Visual story text
+GMStdGetColor_Story_1,Get draw color into ${var},Получить цвет изображения в ${var},,GML Visual story text
+GMStdGetColor_Story_2,Get draw color into ${var} on ${applyto},Получить цвет изображения в ${var} на ${applyto},,GML Visual story text
+GMStdAlpha_Story_1,Set drawing alpha channel to ${alpha},Установить канал альфа изображения на ${alpha},,GML Visual story text
+GMStdAlpha_Story_2,Set drawing alpha channel to ${alpha} on ${applyto},Установить канал альфа изображения на ${alpha} на ${applyto},,GML Visual story text
+GMStdGetAlpha_Story_1,Get drawing alpha channel into ${var},Получить канал альфа изображения в ${var},,GML Visual story text
+GMStdGetAlpha_Story_2,Get drawing alpha channel into ${var} on ${applyto},Получить канал альфа изображения в ${var} на ${applyto},,GML Visual story text
+GMStdSetFont_Story_1,Set font to ${font},Установить шрифт на ${font},,GML Visual story text
+GMStdSetFont_Story_2,Set font to ${font} on ${applyto},Установить шрифт на ${font} на ${applyto},,GML Visual story text
+GMStdGetFont_Story_1,Get draw font into ${var},Получить шрифт изображения в ${var},,GML Visual story text
+GMStdGetFont_Story_2,Get draw font into ${var} on ${applyto},Получить шрифт изображения в ${var} на ${applyto},,GML Visual story text
+GMStdSetAlignment_Story_1,Set text alignment to ${halign} and ${valign},Установить выравнивание текста на ${halign} и ${valign},,GML Visual story text
+GMStdSetAlignment_Story_2,Set text alignment to ${halign} and ${valign} on ${applyto},Установить выравнивание текста на ${halign} и ${valign} на ${applyto},,GML Visual story text
+GMStdGetTextAlign_Story_1,Get horizontal text alignment into ${var},Получить горизонтальное выравнивание текста в ${var},,GML Visual story text
+GMStdGetTextAlign_Story_2,Get horizontal text alignment into ${var} on ${applyto},Получить горизонтальное выравнивание текста в ${var} на ${applyto},,GML Visual story text
+GMStdGetTextAlign_Story_3,Get vertical text alignment into ${var},Получить вертикальное выравнивание текста в ${var},,GML Visual story text
+GMStdGetTextAlign_Story_4,Get vertical text alignment into ${var} on ${applyto},Получить вертикальное выравнивание текста в ${var} на ${applyto},,GML Visual story text
+GMStdTileSetAtPixel_Story_1,Set tile on layer ${layername} at ${dnd_position} to ${tile},Установить плитку на слой ${layername} на ${dnd_position} до ${tile},,GML Visual story text
+GMStdTileSetAtPixel_Story_2,Set tile on layer ${layername} at ${dnd_position} to ${tile} on ${applyto},Установить плитку на слой ${layername} на ${dnd_position} до ${tile} на ${applyto},,GML Visual story text
+GMStdTileGetAtPixel_Story_1,Get tile index at ${dnd_position} on layer ${layername} into ${var},Получить индекс плитки на ${dnd_position} на слой ${layername} в ${var},,GML Visual story text
+GMStdTileGetAtPixel_Story_2,Get tile index at ${dnd_position} on layer ${layername} into ${var} on ${applyto},Получить индекс плитки на ${dnd_position} на слой ${layername} в ${var} на ${applyto},,GML Visual story text
+GMStdTileGetAtPixel_Story_3,Get tile index at ${dnd_position} on layer ${layername} into temp ${var},Получить индекс плитки на ${dnd_position} на слой ${layername} во врем. ${var},,GML Visual story text
+GMStdTileGetAtPixel_Story_4,Get tile index at ${dnd_position} on layer ${layername} into temp ${var} on ${applyto},Получить индекс плитки на ${dnd_position} на слой ${layername} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdTileSetInCell_Story_1,"Set tile on layer ${layername} in cell ${x},${y} to ${tile}","Установить плитку на слой ${layername} в ячейке ${x},${y} до ${tile}",,GML Visual story text
+GMStdTileSetInCell_Story_2,"Set tile on layer ${layername} in cell ${x},${y} to ${tile} on ${applyto}","Установить плитку на слой ${layername} в ячейке ${x},${y} до ${tile} на ${applyto}",,GML Visual story text
+GMStdTileGetInCell_Story_1,"Get tile index in cell ${x},${y} on layer ${layername} into ${var}","Получить индекс плитки в ячейке ${x},${y} на слой ${layername} в ${var}",,GML Visual story text
+GMStdTileGetInCell_Story_2,"Get tile index in cell ${x},${y} on layer ${layername} into ${var} on ${applyto}","Получить индекс плитки в ячейке ${x},${y} на слой ${layername} в ${var} на ${applyto}",,GML Visual story text
+GMStdTileGetInCell_Story_3,"Get tile index in cell ${x},${y} on layer ${layername} into temp ${var}","Получить индекс плитки в ячейке ${x},${y} на слой ${layername} во врем. ${var}",,GML Visual story text
+GMStdTileGetInCell_Story_4,"Get tile index in cell ${x},${y} on layer ${layername} into temp ${var} on ${applyto}","Получить индекс плитки в ячейке ${x},${y} на слой ${layername} во врем. ${var} на ${applyto}",,GML Visual story text
+GMStdTileSetTileSet_Story_1,Set tile set ${tileset} on layer ${layername},Установить комплект плитки ${tileset} на слой ${layername},,GML Visual story text
+GMStdTileSetTileSet_Story_2,Set tile set ${tileset} on layer ${layername} on ${applyto},Установить комплект плитки ${tileset} на слой ${layername} на ${applyto},,GML Visual story text
+GMStdTileGetVar_Story_1,Get tilemap x on layer ${layername} into ${target}${show_input_count},Получить карту плитки x на слой ${layername} в ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_2,Get tilemap x on layer ${layername} into ${target} on ${applyto}${show_input_count},Получить карту плитки x на слой ${layername} в ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_3,Get tilemap x on layer ${layername} into temp ${target}${show_input_count},Получить карту плитки x на слой ${layername} во врем. ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_4,Get tilemap x on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Получить карту плитки x на слой ${layername} во врем. ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_5,Get tilemap y on layer ${layername} into ${target}${show_input_count},Получить карту плитки y на слой ${layername} в ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_6,Get tilemap y on layer ${layername} into ${target} on ${applyto}${show_input_count},Получить карту плитки y на слой ${layername} в ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_7,Get tilemap y on layer ${layername} into temp ${target}${show_input_count},Получить карту плитки y на слой ${layername} во врем. ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_8,Get tilemap y on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Получить карту плитки y на слой ${layername} во врем. ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_9,Get tilemap width on layer ${layername} into ${target}${show_input_count},Получить ширину карты плитки на слой ${layername} в ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_10,Get tilemap width on layer ${layername} into ${target} on ${applyto}${show_input_count},Получить ширину карты плитки на слой ${layername} в ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_11,Get tilemap width on layer ${layername} into temp ${target}${show_input_count},Получить ширину карты плитки на слой ${layername} во врем. ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_12,Get tilemap width on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Получить ширину карты плитки на слой ${layername} во врем. ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_13,Get tilemap height on layer ${layername} into ${target}${show_input_count},Получить высоту карты плитки на слой ${layername} в ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_14,Get tilemap height on layer ${layername} into ${target} on ${applyto}${show_input_count},Получить высоту карты плитки на слой ${layername} в ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_15,Get tilemap height on layer ${layername} into temp ${target}${show_input_count},Получить высоту карты плитки на слой ${layername} во врем. ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_16,Get tilemap height on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Получить высоту карты плитки на слой ${layername} во врем. ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_17,Get tilemap tile width on layer ${layername} into ${target}${show_input_count},Получить ширину плитки для карты плитки на слой ${layername} в ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_18,Get tilemap tile width on layer ${layername} into ${target} on ${applyto}${show_input_count},Получить ширину плитки для карты плитки на слой ${layername} в ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_19,Get tilemap tile width on layer ${layername} into temp ${target}${show_input_count},Получить ширину плитки для карты плитки на слой ${layername} во врем. ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_20,Get tilemap tile width on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Получить ширину плитки для карты плитки на слой ${layername} во врем. ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_21,Get tilemap tile height on layer ${layername} into ${target}${show_input_count},Получить высоту плитки для карты плитки на слой ${layername} в ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_22,Get tilemap tile height on layer ${layername} into ${target} on ${applyto}${show_input_count},Получить высоту плитки для карты плитки на слой ${layername} в ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_23,Get tilemap tile height on layer ${layername} into temp ${target}${show_input_count},Получить высоту карты плитки на слой ${layername} во врем. ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_24,Get tilemap tile height on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Получить высоту плитки для карты плитки на слой ${layername} во врем. ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_25,Get tilemap resource on layer ${layername} into ${target}${show_input_count},Получить ресурс карты плитки на слой ${layername} в ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_26,Get tilemap resource on layer ${layername} into ${target} on ${applyto}${show_input_count},Получить ресурс карты плитки на слой ${layername} в ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_27,Get tilemap resource on layer ${layername} into temp ${target}${show_input_count},Получить ресурс карты плитки на слой ${layername} во врем. ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_28,Get tilemap resource on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Получить ресурс карты плитки на слой ${layername} во врем. ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_29,Get tilemap frame on layer ${layername} into ${target}${show_input_count},Получить фрейм карты плитки на слой ${layername} в ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_30,Get tilemap frame on layer ${layername} into ${target} on ${applyto}${show_input_count},Получить фрейм карты плитки на слой ${layername} в ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_31,Get tilemap frame on layer ${layername} into temp ${target}${show_input_count},Получить фрейм карты плитки на слой ${layername} во врем. ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_32,Get tilemap frame on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Получить фрейм карты плитки на слой ${layername} во врем. ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_33,Get tilemap mask on layer ${layername} into ${target}${show_input_count},Получить маску карты плитки на слой ${layername} в ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_34,Get tilemap mask on layer ${layername} into ${target} on ${applyto}${show_input_count},Получить маску карты плитки на слой ${layername} в ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_35,Get tilemap mask on layer ${layername} into temp ${target}${show_input_count},Получить маску карты плитки на слой ${layername} во врем. ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_36,Get tilemap mask on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Получить маску карты плитки на слой ${layername} во врем. ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_37,Get tilemap global mask on layer ${layername} into ${target}${show_input_count},Получить глобальную маску карты плитки на слой ${layername} в ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_38,Get tilemap global mask on layer ${layername} into ${target} on ${applyto}${show_input_count},Получить глобальную маску карты плитки на слой ${layername} в ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_39,Get tilemap global mask on layer ${layername} into temp ${target}${show_input_count},Получить глобальную маску карты плитки на слой ${layername} во врем. ${target}${show_input_count},,GML Visual story text
+GMStdTileGetVar_Story_40,Get tilemap global mask on layer ${layername} into temp ${target} on ${applyto}${show_input_count},Получить глобальную маску карты плитки на слой ${layername} во врем. ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdTileSetElmPixel_Story_1,Set tile data at ${dnd_position} on layer ${layername} to ${element},Установить данные плитки на ${dnd_position} на слой ${layername} до ${element},,GML Visual story text
+GMStdTileSetElmPixel_Story_2,Set tile data at ${dnd_position} on layer ${layername} to ${element} on ${applyto},Установить данные плитки на ${dnd_position} на слой ${layername} до ${element} на ${applyto},,GML Visual story text
+GMStdTileGetElmPixel_Story_1,Get tile data at ${dnd_position} on layer ${layername} into ${var},Получить данные плитки на ${dnd_position} на слой ${layername} в ${var},,GML Visual story text
+GMStdTileGetElmPixel_Story_2,Get tile data at ${dnd_position} on layer ${layername} into ${var} on ${applyto},Получить данные плитки на ${dnd_position} на слой ${layername} в ${var} на ${applyto},,GML Visual story text
+GMStdTileGetElmPixel_Story_3,Get tile data at ${dnd_position} on layer ${layername} into temp ${var},Получить данные плитки на ${dnd_position} на слой ${layername} во врем. ${var},,GML Visual story text
+GMStdTileGetElmPixel_Story_4,Get tile data at ${dnd_position} on layer ${layername} into temp ${var} on ${applyto},Получить данные плитки на ${dnd_position} на слой ${layername} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdTileSetElm_Story_1,"Set tile data in cell ${x},${y} on layer ${layername} to ${element}","Установить данные плитки в ячейку ${x},${y} на слой ${layername} до ${element}",,GML Visual story text
+GMStdTileSetElm_Story_2,"Set tile data in cell ${x},${y} on layer ${layername} to ${element} on ${applyto}","Установить данные плитки в ячейку ${x},${y} на слой ${layername} до ${element} на ${applyto}",,GML Visual story text
+GMStdTileGetElm_Story_1,"Get tile data in cell ${x},${y} on layer ${layername} into ${var}","Получить данные плитки в ячейку ${x},${y} на слой ${layername} в ${var}",,GML Visual story text
+GMStdTileGetElm_Story_2,"Get tile data in cell ${x},${y} on layer ${layername} into ${var} on ${applyto}","Получить данные плитки в ячейку ${x},${y} на слой ${layername} в ${var} на ${applyto}",,GML Visual story text
+GMStdTileGetElm_Story_3,"Get tile data in cell ${x},${y} on layer ${layername} into temp ${var}","Получить данные плитки в ячейку ${x},${y} на слой ${layername} во врем. ${var}",,GML Visual story text
+GMStdTileGetElm_Story_4,"Get tile data in cell ${x},${y} on layer ${layername} into temp ${var} on ${applyto}","Получить данные плитки в ячейку ${x},${y} на слой ${layername} во врем. ${var} на ${applyto}",,GML Visual story text
+GMStdTileTransform_Story_1,Flip tile data ${tile},Перевернуть данные плитки ${tile},,GML Visual story text
+GMStdTileTransform_Story_2,Flip tile data ${tile} on ${applyto},Перевернуть данные плитки ${tile} на ${applyto},,GML Visual story text
+GMStdTileTransform_Story_3,Mirror tile data ${tile},Зеркально отобразить данные плитки ${tile},,GML Visual story text
+GMStdTileTransform_Story_4,Mirror tile data ${tile} on ${applyto},Зеркально отобразить данные плитки ${tile} на ${applyto},,GML Visual story text
+GMStdTileTransform_Story_5,Rotate tile data ${tile},Вращать данные плитки ${tile},,GML Visual story text
+GMStdTileTransform_Story_6,Rotate tile data ${tile} on ${applyto},Вращать данные плитки ${tile} на ${applyto},,GML Visual story text
+GMStdTileGetTransform_Story_1,Get flip of tile data ${tile} into ${var},Получить переворот данных плитки ${tile} в ${var},,GML Visual story text
+GMStdTileGetTransform_Story_2,Get flip of tile data ${tile} into ${var} on ${applyto},Получить переворот данных плитки ${tile} в ${var} на ${applyto},,GML Visual story text
+GMStdTileGetTransform_Story_3,Get flip of tile data ${tile} into temp ${var},Получить переворот данных плитки ${tile} во врем. ${var},,GML Visual story text
+GMStdTileGetTransform_Story_4,Get flip of tile data ${tile} into temp ${var} on ${applyto},Получить переворот данных плитки ${tile} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdTileGetTransform_Story_5,Get mirror of tile data ${tile} into ${var},Получить зеркальное отображение данных плитки ${tile} в ${var},,GML Visual story text
+GMStdTileGetTransform_Story_6,Get mirror of tile data ${tile} into ${var} on ${applyto},Получить зеркальное отображение данных плитки ${tile} в ${var} на ${applyto},,GML Visual story text
+GMStdTileGetTransform_Story_7,Get mirror of tile data ${tile} into temp ${var},Получить зеркальное отображение данных плитки ${tile} во врем. ${var},,GML Visual story text
+GMStdTileGetTransform_Story_8,Get mirror of tile data ${tile} into temp ${var} on ${applyto},Получить зеркальное отображение данных плитки ${tile} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdTileGetTransform_Story_9,Get rotate of tile data ${tile} into ${var},Получить вращение данных плитки ${tile} в ${var},,GML Visual story text
+GMStdTileGetTransform_Story_10,Get rotate of tile data ${tile} into ${var} on ${applyto},Получить вращение данных плитки ${tile} в ${var} на ${applyto},,GML Visual story text
+GMStdTileGetTransform_Story_11,Get rotate of tile data ${tile} into temp ${var},Получить вращение данных плитки ${tile} во врем. ${var},,GML Visual story text
+GMStdTileGetTransform_Story_12,Get rotate of tile data ${tile} into temp ${var} on ${applyto},Получить вращение данных плитки ${tile} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdPlayAudio_Story_1,Play audio ${soundid} looped and assign id to ${target},Воспроизвести звук ${soundid} циклом и назначить id для ${target},,GML Visual story text
+GMStdPlayAudio_Story_2,Play audio ${soundid} looped and assign id to ${target} on ${applyto},Воспроизвести звук ${soundid} циклом и назначить id для ${target} на ${applyto},,GML Visual story text
+GMStdPlayAudio_Story_3,Play audio ${soundid} looped,Воспроизвести звук ${soundid} циклом,,GML Visual story text
+GMStdPlayAudio_Story_4,Play audio ${soundid} looped on ${applyto},Воспроизвести звук ${soundid} циклом на ${applyto},,GML Visual story text
+GMStdPlayAudio_Story_5,Play audio ${soundid} looped and assign id to temp ${target},Воспроизвести звук ${soundid} циклом и назначить id для врем. ${target},,GML Visual story text
+GMStdPlayAudio_Story_6,Play audio ${soundid} looped and assign id to temp ${target} on ${applyto},Воспроизвести звук ${soundid} циклом и назначить id для врем. ${target} на ${applyto},,GML Visual story text
+GMStdPlayAudio_Story_7,Play audio ${soundid} and assign id to ${target},Воспроизвести звук ${soundid} и назначить id для ${target},,GML Visual story text
+GMStdPlayAudio_Story_8,Play audio ${soundid} and assign id to ${target} on ${applyto},Воспроизвести звук ${soundid} и назначить id для ${target} на ${applyto},,GML Visual story text
+GMStdPlayAudio_Story_9,Play audio ${soundid},Воспроизвести звук ${soundid},,GML Visual story text
+GMStdPlayAudio_Story_10,Play audio ${soundid} on ${applyto},Воспроизвести звук ${soundid} на ${applyto},,GML Visual story text
+GMStdPlayAudio_Story_11,Play audio ${soundid} and assign id to temp ${target},Воспроизвести звук ${soundid} и назначить id для врем. ${target},,GML Visual story text
+GMStdPlayAudio_Story_12,Play audio ${soundid} and assign id to temp ${target} on ${applyto},Воспроизвести звук ${soundid} и назначить id для врем. ${target} на ${applyto},,GML Visual story text
+GMStdStopAudio_Story_1,Stop audio ${soundid},Остановить звук ${soundid},,GML Visual story text
+GMStdStopAudio_Story_2,Stop audio ${soundid} on ${applyto},Остановить звук ${soundid} на ${applyto},,GML Visual story text
+GMStdStopAllAudio_Story_1,Stop all audio,Остановить все звуки,,GML Visual story text
+GMStdStopAllAudio_Story_2,Stop all audio on ${applyto},Остановить весь звук на ${applyto},,GML Visual story text
+GMStdPauseAudio_Story_1,Pause audio ${sound},Поставить звук на паузу ${sound},,GML Visual story text
+GMStdPauseAudio_Story_2,Pause audio ${sound} on ${applyto},Поставить звук на паузу ${sound} на ${applyto},,GML Visual story text
+GMStdPauseAllAudio_Story_1,Pause all audio,Поставить все звуки на паузу.,,GML Visual story text
+GMStdPauseAllAudio_Story_2,Pause all audio on ${applyto},Поставить весь звук на паузу на ${applyto},,GML Visual story text
+GMStdResumeAudio_Story_1,Resume audio ${sound},Возобновить звук ${sound},,GML Visual story text
+GMStdResumeAudio_Story_2,Resume audio ${sound} on ${applyto},Возобновить звук ${sound} на ${applyto},,GML Visual story text
+GMStdResumeAllAudio_Story_1,Resume all audio,Возобновить весь звук,,GML Visual story text
+GMStdResumeAllAudio_Story_2,Resume all audio on ${applyto},Возобновить весь звук на ${applyto},,GML Visual story text
+GMStdAudioSetPosition_Story_1,Set audio position of ${sound} to ${time} seconds,Установить позицию звука ${sound} на ${time} секунд,,GML Visual story text
+GMStdAudioSetPosition_Story_2,Set audio position of ${sound} to ${time} seconds on ${applyto},Установить позицию звука ${sound} на ${time} секунд на ${applyto},,GML Visual story text
+GMStdAudioGetLength_Story_1,Get length of audio ${sound} into ${var},Получить длину звука ${sound} в ${var},,GML Visual story text
+GMStdAudioGetLength_Story_2,Get length of audio ${sound} into ${var} on ${applyto},Получить длину звука ${sound} в ${var} на ${applyto},,GML Visual story text
+GMStdAudioGetLength_Story_3,Get length of audio ${sound} into temp ${var},Получить длину звука ${sound} во врем. ${var},,GML Visual story text
+GMStdAudioGetLength_Story_4,Get length of audio ${sound} into temp ${var} on ${applyto},Получить длину звука ${sound} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdAudioSetPitch_Story_1,Set pitch of audio ${sound} to ${pitch},Установить уровень звука ${sound} до ${pitch},,GML Visual story text
+GMStdAudioSetPitch_Story_2,Set pitch of audio ${sound} to ${pitch} on ${applyto},Установить высоту звука ${sound} до ${pitch} на ${applyto},,GML Visual story text
+GMStdAudioGetPitch_Story_1,Get pitch of audio ${sound} into ${var},Получить высоту звука ${sound} в ${var},,GML Visual story text
+GMStdAudioGetPitch_Story_2,Get pitch of audio ${sound} into ${var} on ${applyto},Получить высоту звука ${sound} в ${var} на ${applyto},,GML Visual story text
+GMStdAudioGetPitch_Story_3,Get pitch of audio ${sound} into temp ${var},Получить высоту звука ${sound} во врем. ${var},,GML Visual story text
+GMStdAudioGetPitch_Story_4,Get pitch of audio ${sound} into temp ${var} on ${applyto},Получить высоту звука ${sound} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdAudioSetVolume_Story_1,Set volume of audio ${sound} to ${volume},Установить настройку громкости ${sound} до ${volume},,GML Visual story text
+GMStdAudioSetVolume_Story_2,Set volume of audio ${sound} to ${volume} on ${applyto},Установить настройку громкости ${sound} до ${volume} на ${applyto},,GML Visual story text
+GMStdAudioGetVolume_Story_1,Get volume of audio ${sound} into ${var},Получить настройку громкости ${sound} в ${var},,GML Visual story text
+GMStdAudioGetVolume_Story_2,Get volume of audio ${sound} into ${var} on ${applyto},Получить настройку громкости ${sound} в ${var} на ${applyto},,GML Visual story text
+GMStdAudioGetVolume_Story_3,Get volume of audio ${sound} into temp ${var},Получить настройку громкости ${sound} во врем. ${var},,GML Visual story text
+GMStdAudioGetVolume_Story_4,Get volume of audio ${sound} into temp ${var} on ${applyto},Получить настройку громкости ${sound} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdAudoSetMasterVolume_Story_1,Set master volume to ${volume},Установить общий звук до ${volume},,GML Visual story text
+GMStdAudoSetMasterVolume_Story_2,Set master volume to ${volume} on ${applyto},Установить общий звук до ${volume} на ${applyto},,GML Visual story text
+GMStdAudioGetMasterVolume_Story_1,Get master volume into ${var},Получить общий звук в ${var},,GML Visual story text
+GMStdAudioGetMasterVolume_Story_2,Get master volume into ${var} on ${applyto},Получить общий звук в ${var} на ${applyto},,GML Visual story text
+GMStdAudioGetMasterVolume_Story_3,Get master volume into temp ${var},Получить общий звук во врем. ${var},,GML Visual story text
+GMStdAudioGetMasterVolume_Story_4,Get master volume into temp ${var} on ${applyto},Получить общий звук во врем. ${var} на ${applyto},,GML Visual story text
+GMStdIfAudioPlaying_Story_1,If audio ${soundid} is not playing,Если звук ${soundid} не воспроизводится,,GML Visual story text
+GMStdIfAudioPlaying_Story_2,If audio ${soundid} is not playing on ${applyto},Если звук ${soundid} не воспроизводится на ${applyto},,GML Visual story text
+GMStdIfAudioPlaying_Story_3,If audio ${soundid} is playing,Если звук ${soundid} воспроизводится,,GML Visual story text
+GMStdIfAudioPlaying_Story_4,If audio ${soundid} is playing on ${applyto},Если звук ${soundid} воспроизводится на ${applyto},,GML Visual story text
+GMStdIfAudioPaused_Story_1,If audio ${soundid} is not paused,Если звук ${soundid} не поставлен на паузу,,GML Visual story text
+GMStdIfAudioPaused_Story_2,If audio ${soundid} is not paused on ${applyto},Если звук ${soundid} не поставлен на паузу на ${applyto},,GML Visual story text
+GMStdIfAudioPaused_Story_3,If audio ${soundid} is paused,Если звук ${soundid} поставлен на паузу,,GML Visual story text
+GMStdIfAudioPaused_Story_4,If audio ${soundid} is paused on ${applyto},Если звук ${soundid} поставлен на паузу на ${applyto},,GML Visual story text
+GMStdLoop_Story,Loop,Цикл,,GML Visual story text
+GMStdRepeat_Story_1,Repeat ${times} times,Повторить ${times} раз,,GML Visual story text
+GMStdRepeat_Story_2,Repeat ${times} times on ${applyto},Повторить ${times} раз на ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_1,While ${var} is not equal to ${value},В то время как ${var} не равняется ${value},,GML Visual story text
+GMStdWhileLoop_Story_2,While ${var} is not equal to ${value} on ${applyto},В то время как ${var} не равняется ${value} на ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_3,While ${var} is not less than ${value},В то время как ${var} не меньше чем ${value},,GML Visual story text
+GMStdWhileLoop_Story_4,While ${var} is not less than ${value} on ${applyto},В то время как ${var} не меньше чем ${value} на ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_5,While ${var} is not greater than ${value},В то время как ${var} не больше чем ${value},,GML Visual story text
+GMStdWhileLoop_Story_6,While ${var} is not greater than ${value} on ${applyto},В то время как ${var} не больше чем ${value} на ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_7,While ${var} is not greater than or equal to ${value},В то время как ${var} не больше чем или равняется ${value},,GML Visual story text
+GMStdWhileLoop_Story_8,While ${var} is not greater than or equal to ${value} on ${applyto},В то время как ${var} не больше чем или равняется ${value} на ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_9,While ${var} is not less than or equal to ${value},В то время как ${var} не меньше чем или равняется ${value},,GML Visual story text
+GMStdWhileLoop_Story_10,While ${var} is not less than or equal to ${value} on ${applyto},В то время как ${var} не меньше чем или равняется ${value} на ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_11,While ${var} is equal to ${value},В то время как ${var} равняется ${value},,GML Visual story text
+GMStdWhileLoop_Story_12,While ${var} is equal to ${value} on ${applyto},В то время как ${var} равняется ${value} на ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_13,While ${var} is less than ${value},В то время как ${var} меньше чем ${value},,GML Visual story text
+GMStdWhileLoop_Story_14,While ${var} is less than ${value} on ${applyto},В то время как ${var} меньше чем ${value} на ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_15,While ${var} is greater than ${value},В то время как ${var} больше чем ${value},,GML Visual story text
+GMStdWhileLoop_Story_16,While ${var} is greater than ${value} on ${applyto},В то время как ${var} больше чем ${value} на ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_17,While ${var} is greater than or equal to ${value},В то время как ${var} больше чем или равняется ${value},,GML Visual story text
+GMStdWhileLoop_Story_18,While ${var} is greater than or equal to ${value} on ${applyto},В то время как ${var} больше чем или равняется ${value} на ${applyto},,GML Visual story text
+GMStdWhileLoop_Story_19,While ${var} is less than or equal to ${value},В то время как ${var} меньше чем или равняется ${value},,GML Visual story text
+GMStdWhileLoop_Story_20,While ${var} is less than or equal to ${value} on ${applyto},В то время как ${var} меньше чем или равняется ${value} на ${applyto},,GML Visual story text
+GMStdForLoop_Story_1,"For ${init}, while ${cond} do ${expr}","Для ${init}, в то время как ${cond} делают ${expr}",,GML Visual story text
+GMStdForLoop_Story_2,"For ${init}, while ${cond} do ${expr} on ${applyto}","Для ${init}, в то время как ${cond} делают ${expr} на ${applyto}",,GML Visual story text
+GMStdBreak_Story,Break,Прерывание,,GML Visual story text
+GMStdSwitch_Story_1,Switch ${expr},Переключить ${expr},,GML Visual story text
+GMStdSwitch_Story_2,Switch ${expr} on ${applyto},Переключить ${expr} на ${applyto},,GML Visual story text
+GMStdCase_Story_1,Case: ${const},Кейс: ${const},,GML Visual story text
+GMStdDefault_Story,Default,По умолчанию,,GML Visual story text
+GMStdCreateList_Story_1,Set a new list to ${var}${show_input_count},Установить новый список на ${var}${show_input_count},,GML Visual story text
+GMStdCreateList_Story_2,Set a new list to ${var} on ${applyto}${show_input_count},Установить новый список на ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdCreateList_Story_3,Set a new list to temp ${var}${show_input_count},Установить новый список на врем. ${var}${show_input_count},,GML Visual story text
+GMStdCreateList_Story_4,Set a new list to temp ${var} on ${applyto}${show_input_count},Установить новый список на врем. ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdCreateMap_Story_1,Set a new map to ${var}${show_input_count},Установить новую карту на ${var}${show_input_count},,GML Visual story text
+GMStdCreateMap_Story_2,Set a new map to ${var} on ${applyto}${show_input_count},Установить новую карту на ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdCreateMap_Story_3,Set a new map to temp ${var}${show_input_count},Установить новую карту на врем. ${var}${show_input_count},,GML Visual story text
+GMStdCreateMap_Story_4,Set a new map to temp ${var} on ${applyto}${show_input_count},Установить новую карту на врем. ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdCreateGrid_Story_1,"Set a new grid with size ${width},${height} to ${var}${show_input_count}","Установить новую сетку с размером ${width},${height} на ${var}${show_input_count}",,GML Visual story text
+GMStdCreateGrid_Story_2,"Set a new grid with size ${width},${height} to ${var} on ${applyto}${show_input_count}","Установить новую сетку с размером ${width},${height} на ${var} на ${applyto}${show_input_count}",,GML Visual story text
+GMStdCreateGrid_Story_3,"Set a new grid with size ${width},${height} to temp ${var}${show_input_count}","Установить новую сетку с размером ${width},${height} на врем. ${var}${show_input_count}",,GML Visual story text
+GMStdCreateGrid_Story_4,"Set a new grid with size ${width},${height} to temp ${var} on ${applyto}${show_input_count}","Установить новую сетку с размером ${width},${height} на врем. ${var} на ${applyto}${show_input_count}",,GML Visual story text
+GMStdCreateStack_Story_1,Set a new stack to ${var}${show_input_count},Установить новый стек на ${var}${show_input_count},,GML Visual story text
+GMStdCreateStack_Story_2,Set a new stack to ${var} on ${applyto}${show_input_count},Установить новый стек на ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdCreateStack_Story_3,Set a new stack to temp ${var}${show_input_count},Установить новый стек на врем. ${var}${show_input_count},,GML Visual story text
+GMStdCreateStack_Story_4,Set a new stack to temp ${var} on ${applyto}${show_input_count},Установить новый стек на врем. ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_1,Clear list in ${var}${show_input_count},Очистить список в ${var}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_2,Clear list in ${var} on ${applyto}${show_input_count},Очистить список в ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_3,Clear map in ${var}${show_input_count},Очистить карту в ${var}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_4,Clear map in ${var} on ${applyto}${show_input_count},Очистить карту в ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_5,Clear grid in ${var}${show_input_count},Очистить сетку в ${var}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_6,Clear grid in ${var} on ${applyto}${show_input_count},Очистить сетку в ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_7,Clear stack in ${var}${show_input_count},Очистить стек в ${var}${show_input_count},,GML Visual story text
+GMStdDSClear_Story_8,Clear stack in ${var} on ${applyto}${show_input_count},Очистить стек в ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdDSFree_Story_1,Free list ${var} from memory${show_input_count},Освободить список ${var} из памяти${show_input_count},,GML Visual story text
+GMStdDSFree_Story_2,Free list ${var} from memory on ${applyto}${show_input_count},Освободить список ${var} из памяти на ${applyto}${show_input_count},,GML Visual story text
+GMStdDSFree_Story_3,Free map ${var} from memory${show_input_count},Освободить карту ${var} из памяти${show_input_count},,GML Visual story text
+GMStdDSFree_Story_4,Free map ${var} from memory on ${applyto}${show_input_count},Освободить карту ${var} из памяти на ${applyto}${show_input_count},,GML Visual story text
+GMStdDSFree_Story_5,Free grid ${var} from memory${show_input_count},Освободить сетку ${var} из памяти${show_input_count},,GML Visual story text
+GMStdDSFree_Story_6,Free grid ${var} from memory on ${applyto}${show_input_count},Освободить сетку ${var} из памяти на ${applyto}${show_input_count},,GML Visual story text
+GMStdDSFree_Story_7,Free stack ${var} from memory${show_input_count},Освободить стек ${var} из памяти${show_input_count},,GML Visual story text
+GMStdDSFree_Story_8,Free stack ${var} from memory on ${applyto}${show_input_count},Освободить стек ${var} из памяти на ${applyto}${show_input_count},,GML Visual story text
+GMStdListAdd_Story_1,Add ${value} to list ${var}${show_input_count},Добавить ${value} в список ${var}${show_input_count},,GML Visual story text
+GMStdListAdd_Story_2,Add ${value} to list ${var} on ${applyto}${show_input_count},Добавить ${value} в список ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdListRemove_Story_1,Remove item ${index} from list ${var},Убрать элемент ${index} из списка ${var},,GML Visual story text
+GMStdListRemove_Story_2,Remove item ${index} from list ${var} on ${applyto},Убрать элемент ${index} из списка ${var} на ${applyto},,GML Visual story text
+GMStdListGetAt_Story_1,Get item ${index} in list ${var} into ${assignee}${show_input_count},Получить элемент ${index} в списке ${var} в ${assignee}${show_input_count},,GML Visual story text
+GMStdListGetAt_Story_2,Get item ${index} in list ${var} into ${assignee} on ${applyto}${show_input_count},Получить элемент ${index} в списке ${var} в ${assignee} на ${applyto}${show_input_count},,GML Visual story text
+GMStdListGetAt_Story_3,Get item ${index} in list ${var} into temp ${assignee}${show_input_count},Получить элемент ${index} в списке ${var} во врем. ${assignee}${show_input_count},,GML Visual story text
+GMStdListGetAt_Story_4,Get item ${index} in list ${var} into temp ${assignee} on ${applyto}${show_input_count},Получить элемент ${index} в списке ${var} во врем. ${assignee} на ${applyto}${show_input_count},,GML Visual story text
+GMStdListIndexOf_Story_1,Get index of item ${value} in list ${var} into ${assignee}${show_input_count},Получить индекс элемента ${value} в списке ${var} в ${assignee}${show_input_count},,GML Visual story text
+GMStdListIndexOf_Story_2,Get index of item ${value} in list ${var} into ${assignee} on ${applyto}${show_input_count},Получить индекс элемента ${value} в списке ${var} в ${assignee} на ${applyto}${show_input_count},,GML Visual story text
+GMStdListIndexOf_Story_3,Get index of item ${value} in list ${var} into temp ${assignee}${show_input_count},Получить индекс элемента ${value} в списке ${var} во врем. ${assignee}${show_input_count},,GML Visual story text
+GMStdListIndexOf_Story_4,Get index of item ${value} in list ${var} into temp ${assignee} on ${applyto}${show_input_count},Получить индекс элемента ${value} в списке ${var} во врем. ${assignee} на ${applyto}${show_input_count},,GML Visual story text
+GMStdListInsert_Story_1,Insert ${value} into list ${var} at index ${index},Вставить ${value} в список ${var} с индексом ${index},,GML Visual story text
+GMStdListInsert_Story_2,Insert ${value} into list ${var} at index ${index} on ${applyto},Вставить ${value} в список ${var} с индексом ${index} на ${applyto},,GML Visual story text
+GMStdListCount_Story_1,Get item count in list ${var} and assign it to ${assignee},Получить число элементов в списке ${var} и назначить его ${assignee},,GML Visual story text
+GMStdListCount_Story_2,Get item count in list ${var} and assign it to ${assignee} on ${applyto},Получить число элементов в списке ${var} и назначить его ${assignee} на ${applyto},,GML Visual story text
+GMStdListCount_Story_3,Get item count in list ${var} and assign it to temp ${assignee},Получить число элементов в списке ${var} и назначить его врем. ${assignee},,GML Visual story text
+GMStdListCount_Story_4,Get item count in list ${var} and assign it to temp ${assignee} on ${applyto},Получить число элементов в списке ${var} и назначить его врем. ${assignee} на ${applyto},,GML Visual story text
+GMStdMapSetValue_Story_1,Set key ${key} to ${value} in map ${var}${show_input_count},Установить ключ ${key} на ${value} на карте ${var}${show_input_count},,GML Visual story text
+GMStdMapSetValue_Story_2,Set key ${key} to ${value} in map ${var} on ${applyto}${show_input_count},Установить ключ ${key} на ${value} на карте ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdMapGetValue_Story_1,Get value of key ${key} in map ${map} into ${assignee}${show_input_count},Получить значение ключа ${key} на карте ${map} в ${assignee}${show_input_count},,GML Visual story text
+GMStdMapGetValue_Story_2,Get value of key ${key} in map ${map} into ${assignee} on ${applyto}${show_input_count},Получить значение ключа ${key} на карте ${map} в ${assignee} на ${applyto}${show_input_count},,GML Visual story text
+GMStdMapGetValue_Story_3,Get value of key ${key} in map ${map} into temp ${assignee}${show_input_count},Получить значение ключа ${key} на карте ${map} во врем. ${assignee}${show_input_count},,GML Visual story text
+GMStdMapGetValue_Story_4,Get value of key ${key} in map ${map} into temp ${assignee} on ${applyto}${show_input_count},Получить значение ключа ${key} на карте ${map} во врем. ${assignee} на ${applyto}${show_input_count},,GML Visual story text
+GMStdMapRemove_Story_1,Remove key ${key} from map ${map}${show_input_count},Убрать ключ ${key} с карты ${map}${show_input_count},,GML Visual story text
+GMStdMapRemove_Story_2,Remove key ${key} from map ${map} on ${applyto}${show_input_count},Убрать ключ ${key} с карты ${map} на ${applyto}${show_input_count},,GML Visual story text
+GMStdGridSetValue_Story_1,"Set ${value} in grid ${var} at ${x},${y}${show_input_count}","Установить ${value} в сетке ${var} на ${x},${y}${show_input_count}",,GML Visual story text
+GMStdGridSetValue_Story_2,"Set ${value} in grid ${var} at ${x},${y} on ${applyto}${show_input_count}","Установить ${value} в сетке ${var} на ${x},${y} на ${applyto}${show_input_count}",,GML Visual story text
+GMStdGridGetValue_Story_1,"Get value in grid ${var} at ${x},${y} into ${assignee}${show_input_count}","Получить значение в сетке ${var} на ${x},${y} в ${assignee}${show_input_count}",,GML Visual story text
+GMStdGridGetValue_Story_2,"Get value in grid ${var} at ${x},${y} into ${assignee} on ${applyto}${show_input_count}","Получить значение в сетке ${var} на ${x},${y} в ${assignee} на ${applyto}${show_input_count}",,GML Visual story text
+GMStdGridGetValue_Story_3,"Get value in grid ${var} at ${x},${y} into temp ${assignee}${show_input_count}","Получить значение в сетке ${var} на ${x},${y} во врем. ${assignee}${show_input_count}",,GML Visual story text
+GMStdGridGetValue_Story_4,"Get value in grid ${var} at ${x},${y} into temp ${assignee} on ${applyto}${show_input_count}","Получить значение в сетке ${var} на ${x},${y} во врем. ${assignee} на ${applyto}${show_input_count}",,GML Visual story text
+GMStdGridClear_Story_1,Clear grid ${var} to value ${value},Очистить сетку ${var} до значения ${value},,GML Visual story text
+GMStdGridClear_Story_2,Clear grid ${var} to value ${value} on ${applyto},Очистить сетку ${var} до значения ${value} на ${applyto},,GML Visual story text
+GMStdStackPush_Story_1,Push ${value} onto stack ${var}${show_input_count},Загрузить ${value} в стек ${var}${show_input_count},,GML Visual story text
+GMStdStackPush_Story_2,Push ${value} onto stack ${var} on ${applyto}${show_input_count},Загрузить ${value} в стек ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdStackPop_Story_1,Pop from stack ${var} into ${assignee}${show_input_count},Вытолкнуть из стека ${var} в ${assignee}${show_input_count},,GML Visual story text
+GMStdStackPop_Story_2,Pop from stack ${var} into ${assignee} on ${applyto}${show_input_count},Вытолкнуть из стека ${var} в ${assignee} на ${applyto}${show_input_count},,GML Visual story text
+GMStdStackPop_Story_3,Pop from stack ${var} into temp ${assignee}${show_input_count},Вытолкнуть из стека ${var} во врем. ${assignee}${show_input_count},,GML Visual story text
+GMStdStackPop_Story_4,Pop from stack ${var} into temp ${assignee} on ${applyto}${show_input_count},Вытолкнуть из стека ${var} во врем. ${assignee} на ${applyto}${show_input_count},,GML Visual story text
+GMStdIfDSExists_Story_1,If list ${var} does not exists,Если список ${var} не существует,,GML Visual story text
+GMStdIfDSExists_Story_2,If list ${var} does not exists on ${applyto},Если список ${var} не существует на ${applyto},,GML Visual story text
+GMStdIfDSExists_Story_3,If list ${var} exists,Если список ${var} существует,,GML Visual story text
+GMStdIfDSExists_Story_4,If list ${var} exists on ${applyto},Если список ${var} существует на ${applyto},,GML Visual story text
+GMStdIfDSExists_Story_5,If map ${var} does not exists,Если карта ${var} не существует,,GML Visual story text
+GMStdIfDSExists_Story_6,If map ${var} does not exists on ${applyto},Если карта ${var} не существует на ${applyto},,GML Visual story text
+GMStdIfDSExists_Story_7,If map ${var} exists,Если карта ${var} существует,,GML Visual story text
+GMStdIfDSExists_Story_8,If map ${var} exists on ${applyto},Если карта ${var} существует на ${applyto},,GML Visual story text
+GMStdIfDSExists_Story_9,If grid ${var} does not exists,Если сетка ${var} не существует,,GML Visual story text
+GMStdIfDSExists_Story_10,If grid ${var} does not exists on ${applyto},Если сетка ${var} не существует на ${applyto},,GML Visual story text
+GMStdIfDSExists_Story_11,If grid ${var} exists,Если сетка ${var} существует,,GML Visual story text
+GMStdIfDSExists_Story_12,If grid ${var} exists on ${applyto},Если сетка ${var} существует на ${applyto},,GML Visual story text
+GMStdIfDSExists_Story_13,If stack ${var} does not exists,Если стек ${var} не существует,,GML Visual story text
+GMStdIfDSExists_Story_14,If stack ${var} does not exists on ${applyto},Если стек ${var} не существует на ${applyto},,GML Visual story text
+GMStdIfDSExists_Story_15,If stack ${var} exists,Если стек ${var} существует,,GML Visual story text
+GMStdIfDSExists_Story_16,If stack ${var} exists on ${applyto},Если стек ${var} существует на ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_1,If list ${var} is not empty,Если список ${var} не пустой,,GML Visual story text
+GMStdIfDSEmpty_Story_2,If list ${var} is not empty on ${applyto},Если список ${var} не пустой на ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_3,If list ${var} is empty,Если список ${var} пустой,,GML Visual story text
+GMStdIfDSEmpty_Story_4,If list ${var} is empty on ${applyto},Если список ${var} пустой на ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_5,If map ${var} is not empty,Если карта ${var} не пустая,,GML Visual story text
+GMStdIfDSEmpty_Story_6,If map ${var} is not empty on ${applyto},Если карта ${var} не пустая на ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_7,If map ${var} is empty,Если карта ${var} пустая,,GML Visual story text
+GMStdIfDSEmpty_Story_8,If map ${var} is empty on ${applyto},Если карта ${var} пустая на ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_9,If grid ${var} is not empty,Если сетка ${var} не пустая,,GML Visual story text
+GMStdIfDSEmpty_Story_10,If grid ${var} is not empty on ${applyto},Если сетка ${var} не пустая на ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_11,If grid ${var} is empty,Если сетка ${var} пустая,,GML Visual story text
+GMStdIfDSEmpty_Story_12,If grid ${var} is empty on ${applyto},Если сетка ${var} пустая на ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_13,If stack ${var} is not empty,Если стек ${var} не пустой,,GML Visual story text
+GMStdIfDSEmpty_Story_14,If stack ${var} is not empty on ${applyto},Если стек ${var} не пустой на ${applyto},,GML Visual story text
+GMStdIfDSEmpty_Story_15,If stack ${var} is empty,Если стек ${var} пустой,,GML Visual story text
+GMStdIfDSEmpty_Story_16,If stack ${var} is empty on ${applyto},Если стек ${var} пустой на ${applyto},,GML Visual story text
+GMStdBufferCreate_Story_1,Create buffer into ${target}${show_input_count},Создать буфер в ${target}${show_input_count},,GML Visual story text
+GMStdBufferCreate_Story_2,Create buffer into ${target} on ${applyto}${show_input_count},Создать буфер в ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdBufferCreate_Story_3,Create buffer into temp ${target}${show_input_count},Создать буфер во врем. ${target}${show_input_count},,GML Visual story text
+GMStdBufferCreate_Story_4,Create buffer into temp ${target} on ${applyto}${show_input_count},Создать буфер во врем. ${target} на ${applyto}${show_input_count},,GML Visual story text
+GMStdBufferCopy_Story_1,Copy buffer ${buffer} into ${target},Копировать буфер ${buffer} в ${target},,GML Visual story text
+GMStdBufferCopy_Story_2,Copy buffer ${buffer} into ${target} on ${applyto},Копировать буфер ${buffer} в ${target} на ${applyto},,GML Visual story text
+GMStdBufferDelete_Story_1,Delete buffer ${buffer}${show_input_count},Удалить буфер ${buffer}${show_input_count},,GML Visual story text
+GMStdBufferDelete_Story_2,Delete buffer ${buffer} on ${applyto}${show_input_count},Удалить буфер ${buffer} в ${applyto}${show_input_count},,GML Visual story text
+GMStdBufferRead_Story_1,Read from buffer ${buffer},Прочитать из буфера ${buffer},,GML Visual story text
+GMStdBufferRead_Story_2,Read from buffer ${buffer} on ${applyto},Прочитать из буфера ${buffer} на ${applyto},,GML Visual story text
+GMStdBufferRead_Story_3,Read from buffer ${buffer} into ${target},Прочитать из буфера ${buffer} в ${target},,GML Visual story text
+GMStdBufferRead_Story_4,Read from buffer ${buffer} into ${target} on ${applyto},Прочитать из буфера ${buffer} в ${target} на ${applyto},,GML Visual story text
+GMStdBufferRead_Story_5,Read from buffer ${buffer} into temp ${target},Прочитать из буфера ${buffer} во врем. ${target},,GML Visual story text
+GMStdBufferRead_Story_6,Read from buffer ${buffer} into temp ${target} on ${applyto},Прочитать из буфера ${buffer} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdBufferWrite_Story_1,Write ${value} to buffer ${buffer},Записать ${value} в буфер ${buffer},,GML Visual story text
+GMStdBufferWrite_Story_2,Write ${value} to buffer ${buffer} on ${applyto},Записать ${value} в буфер ${buffer} на ${applyto},,GML Visual story text
+GMStdBufferSeek_Story_1,Seek to position ${pos} from start in buffer ${buffer},Искать до позиции ${pos} сначала в буфере ${buffer},,GML Visual story text
+GMStdBufferSeek_Story_2,Seek to position ${pos} from start in buffer ${buffer} on ${applyto},Искать до позиции ${pos} сначала в буфере ${buffer} на ${applyto},,GML Visual story text
+GMStdBufferSeek_Story_3,Seek to position ${pos} relative to position in buffer ${buffer},Искать до позиции ${pos} относительно позиции в буфере ${buffer},,GML Visual story text
+GMStdBufferSeek_Story_4,Seek to position ${pos} relative to position in buffer ${buffer} on ${applyto},Искать до позиции ${pos} относительно позиции в буфере ${buffer} на ${applyto},,GML Visual story text
+GMStdBufferSeek_Story_5,Seek to position ${pos} from end in buffer ${buffer},Искать до позиции ${pos} с конца в буфере ${buffer},,GML Visual story text
+GMStdBufferSeek_Story_6,Seek to position ${pos} from end in buffer ${buffer} on ${applyto},Искать до позиции ${pos} с конца в буфере ${buffer} на ${applyto},,GML Visual story text
+GMStdBufferGetSize_Story_1,Get size of buffer ${buffer} into ${target},Получить размер буфера ${buffer} в ${target},,GML Visual story text
+GMStdBufferGetSize_Story_2,Get size of buffer ${buffer} into ${target} on ${applyto},Получить размер буфера ${buffer} в ${target} на ${applyto},,GML Visual story text
+GMStdBufferGetSize_Story_3,Get size of buffer ${buffer} into temp ${target},Получить размер буфера ${buffer} во врем. ${target},,GML Visual story text
+GMStdBufferGetSize_Story_4,Get size of buffer ${buffer} into temp ${target} on ${applyto},Получить размер буфера ${buffer} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdBufferGetPosition_Story_1,Get position in buffer ${buffer} into ${target},Получить позицию в буфере ${buffer} в ${target},,GML Visual story text
+GMStdBufferGetPosition_Story_2,Get position in buffer ${buffer} into ${target} on ${applyto},Получить позицию в буфере ${buffer} в ${target} на ${applyto},,GML Visual story text
+GMStdBufferGetPosition_Story_3,Get position in buffer ${buffer} into temp ${target},Получить позицию в буфере ${buffer} во врем. ${target},,GML Visual story text
+GMStdBufferGetPosition_Story_4,Get position in buffer ${buffer} into temp ${target} on ${applyto},Получить позицию в буфере ${buffer} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdBufferExists_Story_1,If buffer ${buffer} does not exist,Если буфер ${buffer} не существует,,GML Visual story text
+GMStdBufferExists_Story_2,If buffer ${buffer} does not exist on ${applyto},Если буфер ${buffer} не существует на ${applyto},,GML Visual story text
+GMStdBufferExists_Story_3,If buffer ${buffer} exists,Если буфер ${buffer} существует,,GML Visual story text
+GMStdBufferExists_Story_4,If buffer ${buffer} exists on ${applyto},Если буфер ${buffer} существует на ${applyto},,GML Visual story text
+GMStdBufferEOS_Story_1,If end of buffer ${buffer} not reached,Если конец буфера ${buffer} не достигнут,,GML Visual story text
+GMStdBufferEOS_Story_2,If end of buffer ${buffer} not reached on ${applyto},Если конец буфера ${buffer} не достигнут на ${applyto},,GML Visual story text
+GMStdBufferEOS_Story_3,If end of buffer ${buffer} reached,Если конец буфера ${buffer} достигнут,,GML Visual story text
+GMStdBufferEOS_Story_4,If end of buffer ${buffer} reached on ${applyto},Если конец буфера ${buffer} достигнут на ${applyto},,GML Visual story text
+GMStdBufferLoad_Story_1,Load file ${filename} into buffer ${target},Загрузить файл ${filename} в буфер ${target},,GML Visual story text
+GMStdBufferLoad_Story_2,Load file ${filename} into buffer ${target} on ${applyto},Загрузить файл ${filename} в буфер ${target} на ${applyto},,GML Visual story text
+GMStdBufferLoad_Story_3,Load file ${filename} into buffer temp ${target},Загрузить файл ${filename} в буфер врем. ${target},,GML Visual story text
+GMStdBufferLoad_Story_4,Load file ${filename} into buffer temp ${target} on ${applyto},Загрузить файл ${filename} в буфер врем. ${target} на ${applyto},,GML Visual story text
+GMStdBufferSave_Story_1,Save buffer ${buffer} to file ${filename},Сохранить буфер ${buffer} в файл ${filename},,GML Visual story text
+GMStdBufferSave_Story_2,Save buffer ${buffer} to file ${filename} on ${applyto},Сохранить буфер ${buffer} в файл ${filename} на ${applyto},,GML Visual story text
+GMStdFileRename_Story_1,Rename file ${file1} to ${file2},Переименовать файл ${file1} на ${file2},,GML Visual story text
+GMStdFileRename_Story_2,Rename file ${file1} to ${file2} on ${applyto},Переименовать файл ${file1} на ${file2} на ${applyto},,GML Visual story text
+GMStdFileCopy_Story_1,Copy file ${file1} to ${file2},Копировать файл ${file1} на ${file2},,GML Visual story text
+GMStdFileCopy_Story_2,Copy file ${file1} to ${file2} on ${applyto},Копировать файл ${file1} на ${file2} на ${applyto},,GML Visual story text
+GMStdFileDelete_Story_1,Delete file ${file},Удалить файл ${file},,GML Visual story text
+GMStdFileDelete_Story_2,Delete file ${file} on ${applyto},Удалить файл ${file} на ${applyto},,GML Visual story text
+GMStdOpenIni_Story_1,Open ini file ${filename},Открыть ini-файл ${filename},,GML Visual story text
+GMStdOpenIni_Story_2,Open ini file ${filename} on ${applyto},Открыть ini-файл ${filename} на ${applyto},,GML Visual story text
+GMStdCloseIni_Story_1,Close ini file,Закрыть ini-файл,,GML Visual story text
+GMStdCloseIni_Story_2,Close ini file on ${applyto},Закрыть ini-файл на ${applyto},,GML Visual story text
+GMStdIniWrite_Story_1,Write ${value} under key ${key} in section ${section} to ini file,Записать ${value} под ключом ${key} в разделе ${section} в ini-файл,,GML Visual story text
+GMStdIniWrite_Story_2,Write ${value} under key ${key} in section ${section} to ini file on ${applyto},Записать ${value} под ключом ${key} в разделе ${section} в ini-файл на ${applyto},,GML Visual story text
+GMStdIniRead_Story_1,Read key ${key} in section ${section} and assign it to ${var},Прочитать ключ ${key} в разделе ${section} и назначить его ${var},,GML Visual story text
+GMStdIniRead_Story_2,Read key ${key} in section ${section} and assign it to ${var} on ${applyto},Прочитать ключ ${key} в разделе ${section} и назначить его ${var} на ${applyto},,GML Visual story text
+GMStdIniRead_Story_3,Read key ${key} in section ${section} and assign it to temp ${var},Прочитать ключ ${key} в разделе ${section} и назначить его врем. ${var},,GML Visual story text
+GMStdIniRead_Story_4,Read key ${key} in section ${section} and assign it to temp ${var} on ${applyto},Прочитать ключ ${key} в разделе ${section} и назначить его врем. ${var} на ${applyto},,GML Visual story text
+GMStdIfFileExists_Story_1,If file ${file} does not exist,Если файл ${file} не существует,,GML Visual story text
+GMStdIfFileExists_Story_2,If file ${file} does not exist on ${applyto},Если файл ${file} не существует на ${applyto},,GML Visual story text
+GMStdIfFileExists_Story_3,If file ${file} exists,Если файл ${file} существует,,GML Visual story text
+GMStdIfFileExists_Story_4,If file ${file} exists on ${applyto},Если файл ${file} существует на ${applyto},,GML Visual story text
+GMStdDecimalToInteger_Story_1,Round ${n} and assign it to ${var},Округлить ${n} и назначить его ${var},,GML Visual story text
+GMStdDecimalToInteger_Story_2,Round ${n} and assign it to ${var} on ${applyto},Округлить ${n} и назначить его ${var} на ${applyto},,GML Visual story text
+GMStdDecimalToInteger_Story_3,Round ${n} and assign it to temp ${var},Округлить ${n} и назначить его врем. ${var},,GML Visual story text
+GMStdDecimalToInteger_Story_4,Round ${n} and assign it to temp ${var} on ${applyto},Округлить ${n} и назначить его врем. ${var} на ${applyto},,GML Visual story text
+GMStdDecimalToInteger_Story_5,Ceil ${n} and assign it to ${var},Округлить до большего ${n} и назначить его ${var},,GML Visual story text
+GMStdDecimalToInteger_Story_6,Ceil ${n} and assign it to ${var} on ${applyto},Округлить до большего ${n} и назначить его ${var} на ${applyto},,GML Visual story text
+GMStdDecimalToInteger_Story_7,Ceil ${n} and assign it to temp ${var},Округлить до большего ${n} и назначить его врем. ${var},,GML Visual story text
+GMStdDecimalToInteger_Story_8,Ceil ${n} and assign it to temp ${var} on ${applyto},Округлить до большего ${n} и назначить его врем. ${var} на ${applyto},,GML Visual story text
+GMStdDecimalToInteger_Story_9,Floor ${n} and assign it to ${var},Округлить до меньшего ${n} и назначить его ${var},,GML Visual story text
+GMStdDecimalToInteger_Story_10,Floor ${n} and assign it to ${var} on ${applyto},Округлить до меньшего ${n} и назначить его ${var} на ${applyto},,GML Visual story text
+GMStdDecimalToInteger_Story_11,Floor ${n} and assign it to temp ${var},Округлить до меньшего ${n} и назначить его врем. ${var},,GML Visual story text
+GMStdDecimalToInteger_Story_12,Floor ${n} and assign it to temp ${var} on ${applyto},Округлить до меньшего ${n} и назначить его врем. ${var} на ${applyto},,GML Visual story text
+GMStdStringToNumber_Story_1,Convert ${value} to a string and assign it to ${var},Конвертировать ${value} в цепочку и назначить его ${var},,GML Visual story text
+GMStdStringToNumber_Story_2,Convert ${value} to a string and assign it to ${var} on ${applyto},Конвертировать ${value} в цепочку и назначить его ${var} на ${applyto},,GML Visual story text
+GMStdStringToNumber_Story_3,Convert ${value} to a string and assign it to temp ${var},Конвертировать ${value} в цепочку и назначить его врем. ${var},,GML Visual story text
+GMStdStringToNumber_Story_4,Convert ${value} to a string and assign it to temp ${var} on ${applyto},Конвертировать ${value} в цепочку и назначить его врем. ${var} на ${applyto},,GML Visual story text
+GMStdNumberToString_Story_1,Convert ${value} to a number and assign it to ${var},Конвертировать ${value} в число и назначить его ${var},,GML Visual story text
+GMStdNumberToString_Story_2,Convert ${value} to a number and assign it to ${var} on ${applyto},Конвертировать ${value} в число и назначить его ${var} на ${applyto},,GML Visual story text
+GMStdNumberToString_Story_3,Convert ${value} to a number and assign it to temp ${var},Конвертировать ${value} в число и назначить его врем. ${var},,GML Visual story text
+GMStdNumberToString_Story_4,Convert ${value} to a number and assign it to temp ${var} on ${applyto},Конвертировать ${value} в число и назначить его врем. ${var} на ${applyto},,GML Visual story text
+GMStdGetRandomNumber_Story_1,Get a random number between ${min} and ${max} into ${var},Получить произвольное число между ${min} и ${max} в ${var},,GML Visual story text
+GMStdGetRandomNumber_Story_2,Get a random number between ${min} and ${max} into ${var} on ${applyto},Получить произвольное число между ${min} и ${max} в ${var} на ${applyto},,GML Visual story text
+GMStdGetRandomNumber_Story_3,Get a random number between ${min} and ${max} into temp ${var},Получить произвольное число между ${min} и ${max} во врем. ${var},,GML Visual story text
+GMStdGetRandomNumber_Story_4,Get a random number between ${min} and ${max} into temp ${var} on ${applyto},Получить произвольное число между ${min} и ${max} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdRandomize_Story,Randomize seed,Установить случайное начальное число,,GML Visual story text
+GMStdChoose_Story_1,Get a random element from a list into ${var}${show_input_count},Получить произвольный элемент из списка в ${var}${show_input_count},,GML Visual story text
+GMStdChoose_Story_2,Get a random element from a list into ${var} on ${applyto}${show_input_count},Получить произвольный элемент из списка в ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdChoose_Story_3,Get a random element from a list into temp ${var}${show_input_count},Получить произвольный элемент из списка во врем. ${var}${show_input_count},,GML Visual story text
+GMStdChoose_Story_4,Get a random element from a list into temp ${var} on ${applyto}${show_input_count},Получить произвольный элемент из списка во врем. ${var} на ${applyto}${show_input_count},,GML Visual story text
+GMStdSetViewVar_Story_1,Set view camera of view ${view} to ${value},Установить обзор камеры для обзора ${view} в ${value},,GML Visual story text
+GMStdSetViewVar_Story_2,Set view camera of view ${view} to ${value} on ${applyto},Установить обзор камеры для обзора ${view} в ${value} на ${applyto},,GML Visual story text
+GMStdSetViewVar_Story_3,Set view visibility of view ${view} to ${value},Установить видимость обзора для обзора ${view} в ${value},,GML Visual story text
+GMStdSetViewVar_Story_4,Set view visibility of view ${view} to ${value} on ${applyto},Установить видимость обзора для обзора ${view} в ${value} на ${applyto},,GML Visual story text
+GMStdSetViewVar_Story_5,Set view port X of view ${view} to ${value},Установить окно просмотра Х для обзора ${view} в ${value},,GML Visual story text
+GMStdSetViewVar_Story_6,Set view port X of view ${view} to ${value} on ${applyto},Установить окно просмотра Х для обзора ${view} в ${value} на ${applyto},,GML Visual story text
+GMStdSetViewVar_Story_7,Set view port Y of view ${view} to ${value},Установить окно просмотра Y для обзора ${view} в ${value},,GML Visual story text
+GMStdSetViewVar_Story_8,Set view port Y of view ${view} to ${value} on ${applyto},Установить окно просмотра Y для обзора ${view} в ${value} на ${applyto},,GML Visual story text
+GMStdSetViewVar_Story_9,Set view port width of view ${view} to ${value},Установить ширину окна просмотра для обзора ${view} на ${value},,GML Visual story text
+GMStdSetViewVar_Story_10,Set view port width of view ${view} to ${value} on ${applyto},Установить ширину окна просмотра для обзора ${view} на ${value} на ${applyto},,GML Visual story text
+GMStdSetViewVar_Story_11,Set view port height of view ${view} to ${value},Установить высоту окна просмотра для обзора ${view} на ${value},,GML Visual story text
+GMStdSetViewVar_Story_12,Set view port height of view ${view} to ${value} on ${applyto},Установить высоту окна просмотра для обзора ${view} на ${value} на ${applyto},,GML Visual story text
+GMStdSetViewVar_Story_13,Set view surface id of view ${view} to ${value},Установить id поверхности обзора для обзора ${view} на ${value},,GML Visual story text
+GMStdSetViewVar_Story_14,Set view surface id of view ${view} to ${value} on ${applyto},Установить id поверхности обзора для обзора ${view} на ${value} на ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_1,Get view camera of view ${view} into ${target},Получить обзор камеры для обзора ${view} в ${target},,GML Visual story text
+GMStdGetViewVar_Story_2,Get view camera of view ${view} into ${target} on ${applyto},Получить обзор камеры для обзора ${view} в ${target} на ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_3,Get view camera of view ${view} into temp ${target},Получить обзор камеры для обзора ${view} во врем. ${target},,GML Visual story text
+GMStdGetViewVar_Story_4,Get view camera of view ${view} into temp ${target} on ${applyto},Получить обзор камеры для обзора ${view} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_5,Get view visibility of view ${view} into ${target},Получить видимость обзора для обзора ${view} в ${target},,GML Visual story text
+GMStdGetViewVar_Story_6,Get view visibility of view ${view} into ${target} on ${applyto},Получить видимость обзора для обзора ${view} в ${target} на ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_7,Get view visibility of view ${view} into temp ${target},Получить видимость обзора для обзора ${view} во врем. ${target},,GML Visual story text
+GMStdGetViewVar_Story_8,Get view visibility of view ${view} into temp ${target} on ${applyto},Получить видимость обзора для обзора ${view} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_9,Get view port X of view ${view} into ${target},Получить окно просмотра X для обзора ${view} в ${target},,GML Visual story text
+GMStdGetViewVar_Story_10,Get view port X of view ${view} into ${target} on ${applyto},Получить окно просмотра X для обзора ${view} в ${target} на ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_11,Get view port X of view ${view} into temp ${target},Получить окно просмотра X для обзора ${view} во врем. ${target},,GML Visual story text
+GMStdGetViewVar_Story_12,Get view port X of view ${view} into temp ${target} on ${applyto},Получить окно просмотра X для обзора ${view} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_13,Get view port Y of view ${view} into ${target},Получить окно просмотра Y для обзора ${view} в ${target},,GML Visual story text
+GMStdGetViewVar_Story_14,Get view port Y of view ${view} into ${target} on ${applyto},Получить окно просмотра Y для обзора ${view} в ${target} на ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_15,Get view port Y of view ${view} into temp ${target},Получить окно просмотра Y для обзора ${view} во врем. ${target},,GML Visual story text
+GMStdGetViewVar_Story_16,Get view port Y of view ${view} into temp ${target} on ${applyto},Получить окно просмотра Y для обзора ${view} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_17,Get view port width of view ${view} into ${target},Получить ширину окна просмотра для обзора ${view} в ${target},,GML Visual story text
+GMStdGetViewVar_Story_18,Get view port width of view ${view} into ${target} on ${applyto},Получить ширину окна просмотра для обзора ${view} в ${target} на ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_19,Get view port width of view ${view} into temp ${target},Получить ширину окна просмотра для обзора ${view} во врем. ${target},,GML Visual story text
+GMStdGetViewVar_Story_20,Get view port width of view ${view} into temp ${target} on ${applyto},Получить ширину окна просмотра для обзора ${view} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_21,Get view port height of view ${view} into ${target},Получить высоту окна просмотра для обзора ${view} в ${target},,GML Visual story text
+GMStdGetViewVar_Story_22,Get view port height of view ${view} into ${target} on ${applyto},Получить высоту окна просмотра для обзора ${view} в ${target} на ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_23,Get view port height of view ${view} into temp ${target},Получить высоту окна просмотра для обзора ${view} во врем. ${target},,GML Visual story text
+GMStdGetViewVar_Story_24,Get view port height of view ${view} into temp ${target} on ${applyto},Получить высоту окна просмотра для обзора ${view} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_25,Get view surface id of view ${view} into ${target},Получить id поверхности обзора для обзора ${view} в ${target},,GML Visual story text
+GMStdGetViewVar_Story_26,Get view surface id of view ${view} into ${target} on ${applyto},Получить id поверхности обзора для обзора ${view} в ${target} на ${applyto},,GML Visual story text
+GMStdGetViewVar_Story_27,Get view surface id of view ${view} into temp ${target},Получить id поверхности обзора для обзора ${view} во врем. ${target},,GML Visual story text
+GMStdGetViewVar_Story_28,Get view surface id of view ${view} into temp ${target} on ${applyto},Получить id поверхности обзора для обзора ${view} во врем. ${target} на ${applyto},,GML Visual story text
+GMStdGoToRoom_Story_1,Go to room ${room},Перейти в рум ${room},,GML Visual story text
+GMStdGoToRoom_Story_2,Go to room ${room} on ${applyto},Перейти в рум ${room} на ${applyto},,GML Visual story text
+GMStdNextRoom_Story,Go to next room,Перейти в следующий рум,,GML Visual story text
+GMStdPreviousRoom_Story,Go to previous room,Перейти в предыдущий рум,,GML Visual story text
+GMStdRestartRoom_Story,Restart current room,Запустить повторно текущий рум,,GML Visual story text
+GMStdIfFirstRoom_Story_1,If this is not the first room,Если это не первый рум,,GML Visual story text
+GMStdIfFirstRoom_Story_2,If this is the first room,Если это первый рум,,GML Visual story text
+GMStdIfLastRoom_Story_1,If this is not the last room,Если это не последний рум,,GML Visual story text
+GMStdIfLastRoom_Story_2,If this is the last room,Если это последний рум,,GML Visual story text
+GMStdGetCurrentRoom_Story_1,Get current room into ${var},Получить текущий рум в ${var},,GML Visual story text
+GMStdGetCurrentRoom_Story_2,Get current room into ${var} on ${applyto},Получить текущий рум в ${var} на ${applyto},,GML Visual story text
+GMStdGetCurrentRoom_Story_3,Get current room into temp ${var},Получить текущий рум во врем. ${var},,GML Visual story text
+GMStdGetCurrentRoom_Story_4,Get current room into temp ${var} on ${applyto},Получить текущий рум во врем. ${var} на ${applyto},,GML Visual story text
+GMStdStartPath_Story_1,Start path ${path} with speed ${speed} and ${atend} on end,Начать путь ${path} со скоростью ${speed} и ${atend} на конце,,GML Visual story text
+GMStdStartPath_Story_2,Start path ${path} with speed ${speed} and ${atend} on end on ${applyto},Начать путь ${path} со скоростью ${speed} и ${atend} на конце на ${applyto},,GML Visual story text
+GMStdStopPath_Story_1,Stop following a path,Перестать следовать по пути,,GML Visual story text
+GMStdStopPath_Story_2,Stop following a path on ${applyto},Перестать следовать по пути на ${applyto},,GML Visual story text
+GMStdPathPosition_Story_1,Add ${position} to path position,Добавить ${position} к позиции пути,,GML Visual story text
+GMStdPathPosition_Story_2,Add ${position} to path position on ${applyto},Добавить ${position} к позиции пути на ${applyto},,GML Visual story text
+GMStdPathPosition_Story_3,Set path position to ${position},Установить позицию пути на ${position},,GML Visual story text
+GMStdPathPosition_Story_4,Set path position to ${position} on ${applyto},Установить позицию пути на ${position} на ${applyto},,GML Visual story text
+GMStdPathGetPosition_Story_1,Get path position into ${target},Получить позицию пути в ${target},,GML Visual story text
+GMStdPathGetPosition_Story_2,Get path position into ${target} on ${applyto},Получить позицию пути в ${target} на ${applyto},,GML Visual story text
+GMStdPathGetPosition_Story_3,Get path position into temp ${target},Получить позицию путиво врем. ${target},,GML Visual story text
+GMStdPathGetPosition_Story_4,Get path position into temp ${target} on ${applyto},Получить позицию пути во врем. ${target} на ${applyto},,GML Visual story text
+GMStdPathSpeed_Story_1,Add ${speed} to path speed,Добавить ${speed} к скорости пути,,GML Visual story text
+GMStdPathSpeed_Story_2,Add ${speed} to path speed on ${applyto},Добавить ${speed} к скорости пути на ${applyto},,GML Visual story text
+GMStdPathSpeed_Story_3,Set path speed to ${speed},Установить скорость пути на ${speed},,GML Visual story text
+GMStdPathSpeed_Story_4,Set path speed to ${speed} on ${applyto},Установить скорость пути на ${speed} на ${applyto},,GML Visual story text
+GMStdPathGetSpeed_Story_1,Get path speed into ${target},Получить скорость пути в ${target},,GML Visual story text
+GMStdPathGetSpeed_Story_2,Get path speed into ${target} on ${applyto},Получить скорость пути в ${target} на ${applyto},,GML Visual story text
+GMStdPathGetSpeed_Story_3,Get path speed into temp ${target},Получить скорость пути во врем. ${target},,GML Visual story text
+GMStdPathGetSpeed_Story_4,Get path speed into temp ${target} on ${applyto},Получить скорость пути во врем. ${target} на ${applyto},,GML Visual story text
+GMStdSetTimeline_Story_1,Start timeline ${timeline} and loop it,Запустить таймлайн ${timeline} и зациклить,,GML Visual story text
+GMStdSetTimeline_Story_2,Start timeline ${timeline} and loop it on ${applyto},Запустить таймлайн ${timeline} и зациклить на ${applyto},,GML Visual story text
+GMStdSetTimeline_Story_3,Start timeline ${timeline},Запустить таймлайн ${timeline},,GML Visual story text
+GMStdSetTimeline_Story_4,Start timeline ${timeline} on ${applyto},Запустить таймлайн ${timeline} на ${applyto},,GML Visual story text
+GMStdSetTimeline_Story_5,Set timeline ${timeline} and loop it,Установить таймлайн ${timeline} и зациклить,,GML Visual story text
+GMStdSetTimeline_Story_6,Set timeline ${timeline} and loop it on ${applyto},Установить таймлайн ${timeline} зациклить на ${applyto},,GML Visual story text
+GMStdSetTimeline_Story_7,Set timeline ${timeline},Установить таймлайн ${timeline},,GML Visual story text
+GMStdSetTimeline_Story_8,Set timeline ${timeline} on ${applyto},Установить таймлайн ${timeline} на ${applyto},,GML Visual story text
+GMStdPositionTimeline_Story_1,Add ${position} to timeline position,Добавить ${position} к позиции таймлайна,,GML Visual story text
+GMStdPositionTimeline_Story_2,Add ${position} to timeline position on ${applyto},Добавить ${position} к позиции таймлайна на ${applyto},,GML Visual story text
+GMStdPositionTimeline_Story_3,Set timeline position to ${position},Установить позицию таймлайна на ${position},,GML Visual story text
+GMStdPositionTimeline_Story_4,Set timeline position to ${position} on ${applyto},Установить позицию таймлайна на ${position} на ${applyto},,GML Visual story text
+GMStdSpeedTimeline_Story_1,Add ${speed} to timeline speed,Добавить ${speed} к скорости таймлайна,,GML Visual story text
+GMStdSpeedTimeline_Story_2,Add ${speed} to timeline speed on ${applyto},Добавить ${speed} к скорости таймлайна на ${applyto},,GML Visual story text
+GMStdSpeedTimeline_Story_3,Set timeline speed to ${speed},Установить скорость таймлайна на ${speed},,GML Visual story text
+GMStdSpeedTimeline_Story_4,Set timeline speed to ${speed} on ${applyto},Установить скорость таймлайна на ${speed} на ${applyto},,GML Visual story text
+GMStdSetTimelineState_Story_1,Start timeline,Запустить таймлайн,,GML Visual story text
+GMStdSetTimelineState_Story_2,Start timeline on ${applyto},Запустить таймлайн на ${applyto},,GML Visual story text
+GMStdSetTimelineState_Story_3,Resume timeline,Возобновить таймлайн,,GML Visual story text
+GMStdSetTimelineState_Story_4,Resume timeline on ${applyto},Возобновить таймлайн на ${applyto},,GML Visual story text
+GMStdSetTimelineState_Story_5,Pause timeline,Поставить таймлайн на паузу,,GML Visual story text
+GMStdSetTimelineState_Story_6,Pause timeline on ${applyto},Поставить таймлайн на паузу на ${applyto},,GML Visual story text
+GMStdSetTimelineState_Story_7,Stop timeline,Остановить таймлайн,,GML Visual story text
+GMStdSetTimelineState_Story_8,Stop timeline on ${applyto},Остановить таймлайн на ${applyto},,GML Visual story text
+GMStdRestartGame_Story,Restart game,Повторный запуск игры,,GML Visual story text
+GMStdEndGame_Story,Exit game,Выйти из игры,,GML Visual story text
+GMStdSaveGame_Story_1,Save game to file ${filename},Сохранить игру в файле ${filename},,GML Visual story text
+GMStdSaveGame_Story_2,Save game to file ${filename} on ${applyto},Сохранить игру в файле ${filename} на ${applyto},,GML Visual story text
+GMStdLoadGame_Story_1,Load game from file ${filename},Загрузить игру из файла ${filename},,GML Visual story text
+GMStdLoadGame_Story_2,Load game from file ${filename} on ${applyto},Загрузить игру из файла ${filename} на ${applyto},,GML Visual story text
+GMStdSetScore_Story_1,Add ${score} to score,Добавить ${score} к счету,,GML Visual story text
+GMStdSetScore_Story_2,Add ${score} to score on ${applyto},Добавить ${score} к счету на ${applyto},,GML Visual story text
+GMStdSetScore_Story_3,Set score to ${score},Установить счет на ${score},,GML Visual story text
+GMStdSetScore_Story_4,Set score to ${score} on ${applyto},Установить счет ${score} на ${applyto},,GML Visual story text
+GMStdGetScore_Story_1,Get score into ${var},Получить счет в ${var},,GML Visual story text
+GMStdGetScore_Story_2,Get score into ${var} on ${applyto},Получить счет в ${var} на ${applyto},,GML Visual story text
+GMStdGetScore_Story_3,Get score into temp ${var},Получить счет во врем. ${var},,GML Visual story text
+GMStdGetScore_Story_4,Get score into temp ${var} on ${applyto},Получить счет во врем. ${var} на ${applyto},,GML Visual story text
+GMStdSetLives_Story_1,Add ${lives} to lives,Добавить ${lives} к жизням,,GML Visual story text
+GMStdSetLives_Story_2,Add ${lives} to lives on ${applyto},Добавить ${lives} к жизням на ${applyto},,GML Visual story text
+GMStdSetLives_Story_3,Set lives to ${lives},Установить жизни на ${lives},,GML Visual story text
+GMStdSetLives_Story_4,Set lives to ${lives} on ${applyto},Установить жизни на ${lives} на ${applyto},,GML Visual story text
+GMStdGetLives_Story_1,Get lives into ${var},Получить жизни в ${var},,GML Visual story text
+GMStdGetLives_Story_2,Get lives into ${var} on ${applyto},Получить жизни в ${var} на ${applyto},,GML Visual story text
+GMStdGetLives_Story_3,Get lives into temp ${var},Получить жизни во врем. ${var},,GML Visual story text
+GMStdGetLives_Story_4,Get lives into temp ${var} on ${applyto},Получить жизни во врем. ${var} на ${applyto},,GML Visual story text
+GMStdSetHealth_Story_1,Add ${health} to health,Добавить ${health} к здоровью,,GML Visual story text
+GMStdSetHealth_Story_2,Add ${health} to health on ${applyto},Добавить ${health} к здоровью на ${applyto},,GML Visual story text
+GMStdSetHealth_Story_3,Set health to ${health},Установить здоровье на ${health},,GML Visual story text
+GMStdSetHealth_Story_4,Set health to ${health} on ${applyto},Установить здоровье на ${health} на ${applyto},,GML Visual story text
+GMStdGetHealth_Story_1,Get health into ${var},Получить здоровье в ${var},,GML Visual story text
+GMStdGetHealth_Story_2,Get health into ${var} on ${applyto},Получить здоровье в ${var} на ${applyto},,GML Visual story text
+GMStdGetHealth_Story_3,Get health into temp ${var},Получить здоровье во врем. ${var},,GML Visual story text
+GMStdGetHealth_Story_4,Get health into temp ${var} on ${applyto},Получить здоровье во врем. ${var} на ${applyto},,GML Visual story text
+GMStdIfScore_Story_1,If instance score is not equal to ${value},Если счет экземпляра не равняется ${value},,GML Visual story text
+GMStdIfScore_Story_2,If instance score is not equal to ${value} on ${applyto},Если счет экземпляра не равняется ${value} на ${applyto},,GML Visual story text
+GMStdIfScore_Story_3,If instance score is not less than ${value},Если счет экземпляра не меньше чем ${value},,GML Visual story text
+GMStdIfScore_Story_4,If instance score is not less than ${value} on ${applyto},Если счет экземпляра не меньше чем ${value} на ${applyto},,GML Visual story text
+GMStdIfScore_Story_5,If instance score is not greater than ${value},Если счет экземпляра не больше чем ${value},,GML Visual story text
+GMStdIfScore_Story_6,If instance score is not greater than ${value} on ${applyto},Если счет экземпляра не больше чем ${value} на ${applyto},,GML Visual story text
+GMStdIfScore_Story_7,If instance score is not less than or equal to ${value},Если счет экземпляра не меньше или равен ${value},,GML Visual story text
+GMStdIfScore_Story_8,If instance score is not less than or equal to ${value} on ${applyto},Если счет экземпляра не меньше или равен ${value} на ${applyto},,GML Visual story text
+GMStdIfScore_Story_9,If instance score is not greater than or equal to ${value},Если счет экземпляра не больше или равен ${value},,GML Visual story text
+GMStdIfScore_Story_10,If instance score is not greater than or equal to ${value} on ${applyto},Если счет экземпляра не больше или равен ${value} на ${applyto},,GML Visual story text
+GMStdIfScore_Story_11,If instance score is equal to ${value},Если счет экземпляра равняется ${value},,GML Visual story text
+GMStdIfScore_Story_12,If instance score is equal to ${value} on ${applyto},Если счет экземпляра равняется ${value} на ${applyto},,GML Visual story text
+GMStdIfScore_Story_13,If instance score is less than ${value},Если счет экземпляра меньше чем ${value},,GML Visual story text
+GMStdIfScore_Story_14,If instance score is less than ${value} on ${applyto},Если счет экземпляра меньше чем ${value} на ${applyto},,GML Visual story text
+GMStdIfScore_Story_15,If instance score is greater than ${value},Если счет экземпляра больше чем ${value},,GML Visual story text
+GMStdIfScore_Story_16,If instance score is greater than ${value} on ${applyto},Если счет экземпляра больше чем ${value} на ${applyto},,GML Visual story text
+GMStdIfScore_Story_17,If instance score is less than or equal to ${value},Если счет экземпляра меньше или равен ${value},,GML Visual story text
+GMStdIfScore_Story_18,If instance score is less than or equal to ${value} on ${applyto},Если счет экземпляра меньше или равен ${value} на ${applyto},,GML Visual story text
+GMStdIfScore_Story_19,If instance score is greater than or equal to ${value},Если счет экземпляра больше или равен ${value},,GML Visual story text
+GMStdIfScore_Story_20,If instance score is greater than or equal to ${value} on ${applyto},Если счет экземпляра больше или равен ${value} на ${applyto},,GML Visual story text
+GMStdIfLives_Story_1,If instance lives is not equal to ${value},Если жизни экземпляра не равняются ${value},,GML Visual story text
+GMStdIfLives_Story_2,If instance lives is not equal to ${value} on ${applyto},Если жизни экземпляра не равняются ${value} на ${applyto},,GML Visual story text
+GMStdIfLives_Story_3,If instance lives is not less than ${value},Если жизни экземпляра не меньше чем ${value},,GML Visual story text
+GMStdIfLives_Story_4,If instance lives is not less than ${value} on ${applyto},Если жизни экземпляра не меньше чем ${value} на ${applyto},,GML Visual story text
+GMStdIfLives_Story_5,If instance lives is not greater than ${value},Если жизни экземпляра не больше чем ${value},,GML Visual story text
+GMStdIfLives_Story_6,If instance lives is not greater than ${value} on ${applyto},Если жизни экземпляра не больше чем ${value} на ${applyto},,GML Visual story text
+GMStdIfLives_Story_7,If instance lives is not less than or equal to ${value},Если жизни экземпляра не меньше или равны ${value},,GML Visual story text
+GMStdIfLives_Story_8,If instance lives is not less than or equal to ${value} on ${applyto},Если жизни экземпляра не меньше или равны ${value} на ${applyto},,GML Visual story text
+GMStdIfLives_Story_9,If instance lives is not greater than or equal to ${value},Если жизни экземпляра не больше или равны ${value},,GML Visual story text
+GMStdIfLives_Story_10,If instance lives is not greater than or equal to ${value} on ${applyto},Если жизни экземпляра не больше или равны ${value} на ${applyto},,GML Visual story text
+GMStdIfLives_Story_11,If instance lives is equal to ${value},Если жизни экземпляра равняются ${value},,GML Visual story text
+GMStdIfLives_Story_12,If instance lives is equal to ${value} on ${applyto},Если жизни экземпляра равняются ${value} на ${applyto},,GML Visual story text
+GMStdIfLives_Story_13,If instance lives is less than ${value},Если жизни экземпляра меньше чем ${value},,GML Visual story text
+GMStdIfLives_Story_14,If instance lives is less than ${value} on ${applyto},Если жизни экземпляра меньше чем ${value} на ${applyto},,GML Visual story text
+GMStdIfLives_Story_15,If instance lives is greater than ${value},Если жизни экземпляра больше чем ${value},,GML Visual story text
+GMStdIfLives_Story_16,If instance lives is greater than ${value} on ${applyto},Если жизни экземпляра больше чем ${value} на ${applyto},,GML Visual story text
+GMStdIfLives_Story_17,If instance lives is less than or equal to ${value},Если жизни экземпляра меньше или равны ${value},,GML Visual story text
+GMStdIfLives_Story_18,If instance lives is less than or equal to ${value} on ${applyto},Если жизни экземпляра меньше или равны ${value} на ${applyto},,GML Visual story text
+GMStdIfLives_Story_19,If instance lives is greater than or equal to ${value},Если жизни экземпляра больше или равны ${value},,GML Visual story text
+GMStdIfLives_Story_20,If instance lives is greater than or equal to ${value} on ${applyto},Если жизни экземпляра больше или равны ${value} на ${applyto},,GML Visual story text
+GMStdIfHealth_Story_1,If instance health is not equal to ${value},Если здоровье экземпляра не равняется ${value},,GML Visual story text
+GMStdIfHealth_Story_2,If instance health is not equal to ${value} on ${applyto},Если здоровье экземпляра не равняется ${value} на ${applyto},,GML Visual story text
+GMStdIfHealth_Story_3,If instance health is not less than ${value},Если здоровье экземпляра не меньше чем ${value},,GML Visual story text
+GMStdIfHealth_Story_4,If instance health is not less than ${value} on ${applyto},Если здоровье экземпляра не меньше чем ${value} на ${applyto},,GML Visual story text
+GMStdIfHealth_Story_5,If instance health is not greater than ${value},Если здоровье экземпляра не больше чем ${value},,GML Visual story text
+GMStdIfHealth_Story_6,If instance health is not greater than ${value} on ${applyto},Если здоровье экземпляра не больше чем ${value} на ${applyto},,GML Visual story text
+GMStdIfHealth_Story_7,If instance health is not less than or equal to ${value},Если здоровье экземпляра не меньше чем или не равняется ${value},,GML Visual story text
+GMStdIfHealth_Story_8,If instance health is not less than or equal to ${value} on ${applyto},Если здоровье экземпляра не меньше чем или не равняется ${value} на ${applyto},,GML Visual story text
+GMStdIfHealth_Story_9,If instance health is not greater than or equal to ${value},Если здоровье экземпляра не больше или равно ${value},,GML Visual story text
+GMStdIfHealth_Story_10,If instance health is not greater than or equal to ${value} on ${applyto},Если здоровье экземпляра не больше или равно ${value} на ${applyto},,GML Visual story text
+GMStdIfHealth_Story_11,If instance health is equal to ${value},Если здоровье экземпляра равняется ${value},,GML Visual story text
+GMStdIfHealth_Story_12,If instance health is equal to ${value} on ${applyto},Если здоровье экземпляра равняется ${value} на ${applyto},,GML Visual story text
+GMStdIfHealth_Story_13,If instance health is less than ${value},Если здоровье экземпляра меньше чем ${value},,GML Visual story text
+GMStdIfHealth_Story_14,If instance health is less than ${value} on ${applyto},Если здоровье экземпляра меньше чем ${value} на ${applyto},,GML Visual story text
+GMStdIfHealth_Story_15,If instance health is greater than ${value},Если здоровье экземпляра больше чем ${value},,GML Visual story text
+GMStdIfHealth_Story_16,If instance health is greater than ${value} on ${applyto},Если здоровье экземпляра больше чем ${value} на ${applyto},,GML Visual story text
+GMStdIfHealth_Story_17,If instance health is less than or equal to ${value},Если здоровье экземпляра меньше чем или равняется ${value},,GML Visual story text
+GMStdIfHealth_Story_18,If instance health is less than or equal to ${value} on ${applyto},Если здоровье экземпляра меньше чем или равняется ${value} на ${applyto},,GML Visual story text
+GMStdIfHealth_Story_19,If instance health is greater than or equal to ${value},Если здоровье экземпляра больше чем или равняется ${value},,GML Visual story text
+GMStdIfHealth_Story_20,If instance health is greater than or equal to ${value} on ${applyto},Если здоровье экземпляра больше чем или равняется ${value} на ${applyto},,GML Visual story text
+GMStdDebugShowMessage_Story_1,Show debug message ${msg}${show_input_count},Отобразить сообщение об отладке ${msg}${show_input_count},,GML Visual story text
+GMStdDebugShowMessage_Story_2,Show debug message ${msg} on ${applyto}${show_input_count},Отобразить сообщение об отладке ${msg} на ${applyto}${show_input_count},,GML Visual story text
+GMStdSetWindowState_Story_1,Toggle window state,Переключить состояние окна,,GML Visual story text
+GMStdSetWindowState_Story_2,Set window state to window,Установить состояние окна на окно,,GML Visual story text
+GMStdSetWindowState_Story_3,Set window state to fullscreen,Установить состояние окна на полный экран,,GML Visual story text
+GMStdPartSystCreate_Story_1,Create a persistent particle system on layer ${layer} into ${var},Создать систему постоянных частиц на слое ${layer} в ${var},,GML Visual story text
+GMStdPartSystCreate_Story_2,Create a persistent particle system on layer ${layer} into ${var} on ${applyto},Создать систему постоянных частиц на слое ${layer} в ${var} на ${applyto},,GML Visual story text
+GMStdPartSystCreate_Story_3,Create a persistent particle system on layer ${layer} into temp ${var},Создать систему постоянных частиц на слое ${layer} во врем. ${var},,GML Visual story text
+GMStdPartSystCreate_Story_4,Create a persistent particle system on layer ${layer} into temp ${var} on ${applyto},Создать систему постоянных частиц на слое ${layer} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdPartSystCreate_Story_5,Create a particle system on layer ${layer} into ${var},Создать систему частиц на слое ${layer} в ${var},,GML Visual story text
+GMStdPartSystCreate_Story_6,Create a particle system on layer ${layer} into ${var} on ${applyto},Создать систему частиц на слое ${layer} в ${var} на ${applyto},,GML Visual story text
+GMStdPartSystCreate_Story_7,Create a particle system on layer ${layer} into temp ${var},Создать систему частиц на слое ${layer} во врем. ${var},,GML Visual story text
+GMStdPartSystCreate_Story_8,Create a particle system on layer ${layer} into temp ${var} on ${applyto},Создать систему частиц на слое ${layer} во врем. ${var} на ${applyto},,GML Visual story text
+GMStdPartSystDestroy_Story_1,Destroy particle system ${system},Уничтожить систему частиц ${system},,GML Visual story text
+GMStdPartSystDestroy_Story_2,Destroy particle system ${system} on ${applyto},Уничтожить систему частиц ${system} на ${applyto},,GML Visual story text
+GMStdPartSystClear_Story_1,Clear particle system ${system},Очистить систему частиц ${system},,GML Visual story text
+GMStdPartSystClear_Story_2,Clear particle system ${system} on ${applyto},Очистить систему частиц ${system} на ${applyto},,GML Visual story text
+GMStdPauseParticles_Story_1,Resume particle system ${system},Возобновить систему частиц ${system},,GML Visual story text
+GMStdPauseParticles_Story_2,Resume particle system ${system} on ${applyto},Возобновить систему частиц ${system} на ${applyto},,GML Visual story text
+GMStdPauseParticles_Story_3,Pause particle system ${system},Поставить на паузу систему частиц ${system},,GML Visual story text
+GMStdPauseParticles_Story_4,Pause particle system ${system} on ${applyto},Поставить на паузу систему частиц ${system} на ${applyto},,GML Visual story text
+GMStdRefreshParticles_Story_1,Update particle system ${system},Обновить систему частиц ${system},,GML Visual story text
+GMStdRefreshParticles_Story_2,Update particle system ${system} on ${applyto},Обновить систему частиц ${system} на ${applyto},,GML Visual story text
+GMStdPartTypeCreate_Story_1,Create a new blending particle type into ${var},Создать новый тип частицы смешивания в ${var},,GML Visual story text
+GMStdPartTypeCreate_Story_2,Create a new blending particle type into ${var} on ${applyto},Создать новый тип частицы смешивания в ${var} на ${applyto},,GML Visual story text
+GMStdPartTypeCreate_Story_3,Create a new blending particle type into temp ${var},Создать новый тип частицы смешивания во врем. ${var},,GML Visual story text
+GMStdPartTypeCreate_Story_4,Create a new blending particle type into temp ${var} on ${applyto},Создать новый тип частицы смешивания во врем. ${var} на ${applyto},,GML Visual story text
+GMStdPartTypeCreate_Story_5,Create a new particle type into ${var},Создать новый тип частицы в ${var},,GML Visual story text
+GMStdPartTypeCreate_Story_6,Create a new particle type into ${var} on ${applyto},Создать новый тип частицы в ${var} на ${applyto},,GML Visual story text
+GMStdPartTypeCreate_Story_7,Create a new particle type into temp ${var},Создать новый тип частицы во врем. ${var},,GML Visual story text
+GMStdPartTypeCreate_Story_8,Create a new particle type into temp ${var} on ${applyto},Создать новый тип частицы во врем. ${var} на ${applyto},,GML Visual story text
+GMStdPartTypeDestroy_Story_1,Destroy particle type ${type},Уничтожить тип частицы ${type},,GML Visual story text
+GMStdPartTypeDestroy_Story_2,Destroy particle type ${type} on ${applyto},Уничтожить тип частицы ${type} на ${applyto},,GML Visual story text
+GMStdPartTypeSize_Story_1,Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase ${sizeincr} and wiggle ${wiggle},Установить размер типа частицы ${type} с минимума ${minsize} до максимума ${maxsize} с увеличением ${sizeincr} и колебанием ${wiggle},,GML Visual story text
+GMStdPartTypeSize_Story_2,Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase ${sizeincr} and wiggle ${wiggle} on ${applyto},Установить размер типа частицы ${type} с минимума ${minsize} до максимума ${maxsize} с увеличением ${sizeincr} и колебанием ${wiggle} на ${applyto},,GML Visual story text
+GMStdPartTypeSprite_Story_1,Set sprite of particle type ${type} to ${sprite},Установить спрайт типа частицы ${type} на ${sprite},,GML Visual story text
+GMStdPartTypeSprite_Story_2,Set sprite of particle type ${type} to ${sprite} on ${applyto},Установить спрайт типа частицы ${type} на ${sprite} на ${applyto},,GML Visual story text
+GMStdPartTypeShape_Story_1,Set shape of particle type ${type} to ${shape},Установить вид типа частицы ${type} на ${shape},,GML Visual story text
+GMStdPartTypeShape_Story_2,Set shape of particle type ${type} to ${shape} on ${applyto},Установить вид типа частицы ${type} на ${shape} на ${applyto},,GML Visual story text
+GMStdPartTypeColor_Story_1,"Set colour of particle type ${type} to start ${startcol}, mid ${midcol}, end ${endcol}","Установить цвет типа частицы ${type} для начала ${startcol}, середины ${midcol}, конца ${endcol}",,GML Visual story text
+GMStdPartTypeColor_Story_2,"Set colour of particle type ${type} to start ${startcol}, mid ${midcol}, end ${endcol} on ${applyto}","Установить цвет типа частицы ${type} для начала ${startcol}, середины ${midcol}, конца ${endcol} на ${applyto}",,GML Visual story text
+GMStdPartTypeAlpha_Story_1,"Set alpha channel of particle type ${type} to start ${start}, end ${end}","Установить альфа-канал типа частицы ${type} для начала ${start}, конца ${end}",,GML Visual story text
+GMStdPartTypeAlpha_Story_2,"Set alpha channel of particle type ${type} to start ${start}, end ${end} on ${applyto}","Установить альфа-канал типа частицы ${type} для начала ${start}, конца ${end} на ${applyto}",,GML Visual story text
+GMStdPartTypeAlpha_Story_3,"Set alpha channel of particle type ${type} to start ${start}, mid ${middle}, end ${end}","Установить альфа-канал типа частицы ${type} для начала ${start}, середины ${middle}, конца ${end}",,GML Visual story text
+GMStdPartTypeAlpha_Story_4,"Set alpha channel of particle type ${type} to start ${start}, mid ${middle}, end ${end} on ${applyto}","Установить альфа-канал типа частицы ${type} для начала ${start}, середины ${middle}, конца ${end} на ${applyto}",,GML Visual story text
+GMStdPartTypeLife_Story_1,Set life of particle type ${typ} from min ${minlife} to max ${maxlife},Установить жизнь типа частицы ${typ} с минимума ${minlife} до максимума ${maxlife},,GML Visual story text
+GMStdPartTypeLife_Story_2,Set life of particle type ${typ} from min ${minlife} to max ${maxlife} on ${applyto},Установить жизнь типа частицы ${typ} с минимума ${minlife} до максимума ${maxlife} на ${applyto},,GML Visual story text
+GMStdPartTypeSpeed_Story_1,Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase ${incr} and wiggle ${wiggle},Установить скорость типа частицы ${type} с минимума ${minspeed} до максимума ${maxspeed} с увеличением ${incr} и колебанием ${wiggle},,GML Visual story text
+GMStdPartTypeSpeed_Story_2,Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase ${incr} and wiggle ${wiggle} on ${applyto},Установить скорость типа частицы ${type} с минимума ${minspeed} до максимума ${maxspeed} с увеличением ${incr} и колебанием ${wiggle} на ${applyto},,GML Visual story text
+GMStdPartTypeDirection_Story_1,Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation ${incr} and wiggle ${wiggle},Установить направление типа частицы ${type} с минимума ${mindir} до максимума ${maxdir} с вращением ${incr} и колебанием ${wiggle},,GML Visual story text
+GMStdPartTypeDirection_Story_2,Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation ${incr} and wiggle ${wiggle} on ${applyto},Установить направление типа частицы ${type} с минимума ${mindir} до максимума ${maxdir} с вращением ${incr} и колебанием ${wiggle} на ${applyto},,GML Visual story text
+GMStdPartTypeOrientation_Story_1,Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle},Установить относительную ориентацию типа частицы ${type} с минимума ${minangle} до максимума ${maxangle} с вращением ${incr} и колебанием ${wiggle},,GML Visual story text
+GMStdPartTypeOrientation_Story_2,Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle} on ${applyto},Установить относительную ориентацию типа частицы ${type} с минимума ${minangle} до максимума ${maxangle} с вращением ${incr} и колебанием ${wiggle} на ${applyto},,GML Visual story text
+GMStdPartTypeOrientation_Story_3,Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle},Установить ориентацию типа частицы ${type} с минимума ${minangle} до максимума ${maxangle} с вращением ${incr} и колебанием ${wiggle},,GML Visual story text
+GMStdPartTypeOrientation_Story_4,Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle} on ${applyto},Установить ориентацию типа частицы ${type} с минимума ${minangle} до максимума ${maxangle} с вращением ${incr} и колебанием ${wiggle} на ${applyto},,GML Visual story text
+GMStdPartTypeGravity_Story_1,Set gravity of particle type ${type} to ${amount} in direction ${direction},Установить гравитацию типа частицы ${type} на ${amount} в направлении ${direction},,GML Visual story text
+GMStdPartTypeGravity_Story_2,Set gravity of particle type ${type} to ${amount} in direction ${direction} on ${applyto},Установить гравитацию типа частицы ${type} на ${amount} в направлении ${direction} на ${applyto},,GML Visual story text
+GMStdPartTypeSecondary_Story_1,Create ${count} secondary particles from type ${type} of type ${secondary} per step,Создать ${count} вторичные частицы из типа ${type} типа ${secondary} на шаг,,GML Visual story text
+GMStdPartTypeSecondary_Story_2,Create ${count} secondary particles from type ${type} of type ${secondary} per step on ${applyto},Создать ${count} вторичные частицы из типа ${type} типа ${secondary} на шаг на ${applyto},,GML Visual story text
+GMStdPartTypeSecondary_Story_3,Create ${count} secondary particles from type ${type} of type ${secondary} on death,Создать ${count} вторичные частицы из типа ${type} типа ${secondary} на смерть,,GML Visual story text
+GMStdPartTypeSecondary_Story_4,Create ${count} secondary particles from type ${type} of type ${secondary} on death on ${applyto},Создать ${count} вторичные частицы из типа ${type} типа ${secondary} на смерть на ${applyto},,GML Visual story text
+GMStdPartCreateBurst_Story_1,Burst ${number} particles of type ${type} in system ${system} at ${dnd_position},Всплеск ${number} частиц типа ${type} в системе ${system} на ${dnd_position},,GML Visual story text
+GMStdPartCreateBurst_Story_2,Burst ${number} particles of type ${type} in system ${system} at ${dnd_position} on ${applyto},Всплеск ${number} частиц типа ${type} в системе ${system} на ${dnd_position} на ${applyto},,GML Visual story text
+GMStdPartEmitCreate_Story_1,Create a particle emitter in system ${system} into ${emitter},Создать эмиттер частиц в системе ${system} в ${emitter},,GML Visual story text
+GMStdPartEmitCreate_Story_2,Create a particle emitter in system ${system} into ${emitter} on ${applyto},Создать эмиттер частиц в системе ${system} в ${emitter} на ${applyto},,GML Visual story text
+GMStdPartEmitCreate_Story_3,Create a particle emitter in system ${system} into temp ${emitter},Создать эмиттер частиц в системе ${system} во врем. ${emitter},,GML Visual story text
+GMStdPartEmitCreate_Story_4,Create a particle emitter in system ${system} into temp ${emitter} on ${applyto},Создать эмиттер частиц в системе ${system} во врем. ${emitter} на ${applyto},,GML Visual story text
+GMStdPartEmitDestroy_Story_1,Destroy particle emitter ${emitter} in system ${system},Уничтожить эмиттер частиц ${emitter} в системе ${system},,GML Visual story text
+GMStdPartEmitDestroy_Story_2,Destroy particle emitter ${emitter} in system ${system} on ${applyto},Уничтожить эмиттер частиц ${emitter} в системе ${system} на ${applyto},,GML Visual story text
+GMStdPartEmitterEmit_Story_1,Burst ${number} particles of type ${type} from emitter ${emitter} in system ${system},Всплеск ${number} частиц типа ${type} из эмиттера ${emitter} в системе ${system},,GML Visual story text
+GMStdPartEmitterEmit_Story_2,Burst ${number} particles of type ${type} from emitter ${emitter} in system ${system} on ${applyto},Всплеск ${number} частиц типа ${type} из эмиттера ${emitter} в системе ${system} на ${applyto},,GML Visual story text
+GMStdPartEmitterEmit_Story_3,Stream ${number} particles of type ${type} from emitter ${emitter} in system ${system},Поток ${number} частиц типа ${type} из эмиттера ${emitter} в системе ${system},,GML Visual story text
+GMStdPartEmitterEmit_Story_4,Stream ${number} particles of type ${type} from emitter ${emitter} in system ${system} on ${applyto},Поток ${number} частиц типа ${type} из эмиттера ${emitter} в системе ${system} на ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_1,Emit from ${emitter} in system ${system} in a rectangular shape with linear distribution,Выпустить из ${emitter} в системе ${system} в прямоугольном виде с линейным распределением,,GML Visual story text
+GMStdPartEmitRegion_Story_2,Emit from ${emitter} in system ${system} in a rectangular shape with linear distribution on ${applyto},Выпустить из ${emitter} в системе ${system} в прямоугольном виде с линейным распределением на ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_3,Emit from ${emitter} in system ${system} in a rectangular shape with gaussian distribution,Выпустить из ${emitter} в системе ${system} в прямоугольном виде с гауссовским распределением,,GML Visual story text
+GMStdPartEmitRegion_Story_4,Emit from ${emitter} in system ${system} in a rectangular shape with gaussian distribution on ${applyto},Выпустить из ${emitter} в системе ${system} в прямоугольном виде с гауссовским распределением на ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_5,Emit from ${emitter} in system ${system} in a rectangular shape with inverse gaussian distribution,Выпустить из ${emitter} в системе ${system} в прямоугольном виде с инверсивным гауссовским распределением,,GML Visual story text
+GMStdPartEmitRegion_Story_6,Emit from ${emitter} in system ${system} in a rectangular shape with inverse gaussian distribution on ${applyto},Выпустить из ${emitter} в системе ${system} в прямоугольном виде с инверсивным гауссовским распределением на ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_7,Emit from ${emitter} in system ${system} in a elliptical shape with linear distribution,Выпустить из ${emitter} в системе ${system} в эллиптическом виде с линейным распределением,,GML Visual story text
+GMStdPartEmitRegion_Story_8,Emit from ${emitter} in system ${system} in a elliptical shape with linear distribution on ${applyto},Выпустить из ${emitter} в системе ${system} в эллиптическом виде с линейным распределением на ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_9,Emit from ${emitter} in system ${system} in a elliptical shape with gaussian distribution,Выпустить из ${emitter} в системе ${system} в эллиптическом виде с гауссовским распределением,,GML Visual story text
+GMStdPartEmitRegion_Story_10,Emit from ${emitter} in system ${system} in a elliptical shape with gaussian distribution on ${applyto},Выпустить из ${emitter} в системе ${system} в эллиптическом виде с гауссовским распределением на ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_11,Emit from ${emitter} in system ${system} in a elliptical shape with inverse gaussian distribution,Выпустить из ${emitter} в системе ${system} в эллиптическом виде с инверсивным гауссовским распределением,,GML Visual story text
+GMStdPartEmitRegion_Story_12,Emit from ${emitter} in system ${system} in a elliptical shape with inverse gaussian distribution on ${applyto},Выпустить из ${emitter} в системе ${system} в эллиптическом виде с инверсивным гауссовским распределением на ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_13,Emit from ${emitter} in system ${system} in a diamond shape with linear distribution,Выпустить из ${emitter} в системе ${system} в ромбовидном виде с линейным распределением,,GML Visual story text
+GMStdPartEmitRegion_Story_14,Emit from ${emitter} in system ${system} in a diamond shape with linear distribution on ${applyto},Выпустить из ${emitter} в системе ${system} в ромбовидном виде с линейным распределением на ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_15,Emit from ${emitter} in system ${system} in a diamond shape with gaussian distribution,Выпустить из ${emitter} в системе ${system} в ромбовидном виде с гауссовским распределением,,GML Visual story text
+GMStdPartEmitRegion_Story_16,Emit from ${emitter} in system ${system} in a diamond shape with gaussian distribution on ${applyto},Выпустить из ${emitter} в системе ${system} в ромбовидном виде с гауссовским распределением на ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_17,Emit from ${emitter} in system ${system} in a diamond shape with inverse gaussian distribution,Выпустить из ${emitter} в системе ${system} в ромбовидном виде с инверсивным гауссовским распределением,,GML Visual story text
+GMStdPartEmitRegion_Story_18,Emit from ${emitter} in system ${system} in a diamond shape with inverse gaussian distribution on ${applyto},Выпустить из ${emitter} в системе ${system} в ромбовидном виде с инверсивным гауссовским распределением на ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_19,Emit from ${emitter} in system ${system} in a straight line with linear distribution,Выпустить из ${emitter} в системе ${system} в виде прямой линии с линейным распределением,,GML Visual story text
+GMStdPartEmitRegion_Story_20,Emit from ${emitter} in system ${system} in a straight line with linear distribution on ${applyto},Выпустить из ${emitter} в системе ${system} в виде прямой линии с линейным распределением на ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_21,Emit from ${emitter} in system ${system} in a straight line with gaussian distribution,Выпустить из ${emitter} в системе ${system} в виде прямой линии с гауссовским распределением,,GML Visual story text
+GMStdPartEmitRegion_Story_22,Emit from ${emitter} in system ${system} in a straight line with gaussian distribution on ${applyto},Выпустить из ${emitter} в системе ${system} в виде прямой линии с гауссовским распределением на ${applyto},,GML Visual story text
+GMStdPartEmitRegion_Story_23,Emit from ${emitter} in system ${system} in a straight line with inverse gaussian distribution,Выпустить из ${emitter} в системе ${system} в виде прямой линии с инверсивным гауссовским распределением,,GML Visual story text
+GMStdPartEmitRegion_Story_24,Emit from ${emitter} in system ${system} in a straight line with inverse gaussian distribution on ${applyto},Выпустить из ${emitter} в системе ${system} в виде прямой линии с инверсивным гауссовским распределением на ${applyto},,GML Visual story text
+GMStdEffect_Story_1,Show effect at ${dnd_position},Отобразить эффект на ${dnd_position},,GML Visual story text
+GMStdEffect_Story_2,Show effect at ${dnd_position} on ${applyto},Отобразить эффект на ${dnd_position} на ${applyto},,GML Visual story text
+GMStdConstructor,Constructor,Конструктор,,GML Visual function label for constructor
+GMStdDeclFunction_Desc,Declare a new function,Объявить новую функцию,,GML Visual declare a new function
+GMStdDeclFunction_Name,Declare a new function,Объявить новую функцию,,GML Visual declare a new function
+GMStdDeclFunction_Story,Declare a new function ${funcName},Объявить новую функцию ${funcName},,GML Visual declare a new function
+GMStdSeqSetHead_Story_1,Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},Установить позицию начала (в кадрах) экземпляра последовательности ${sequenceelmid} в ${var},,GML Visual story text
+GMStdSeqGetHead_Story_1,Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},Получить позицию начала (в кадрах) экземпляра последовательности ${sequenceelmid} в ${var},,GML Visual story text
+GMStdSeqGetHead_Story_2,Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},Получить позицию начала (в кадрах) экземпляра последовательности ${sequenceelmid} во временн. ${var},,GML Visual story text
+GMStdNew_Story_1,"Set ${var} to new instance of ${function}","Установить ${var} в новый экземпляр ${function}",,GML Visual story text
+GMStdNew_Story_2,"Set ${var} to new instance of ${function} with 1 argument","Установить ${var} в новый экземпляр ${function} с 1 аргументом",,GML Visual story text
+GMStdNew_Story_3,"Set ${var} to new instance of ${function} with ${input_count} arguments","Установить ${var} в новый экземпляр ${function} с ${input_count} аргум.",,GML Visual story text
+GMStdNew_Story_4,"Set temp ${var} to new instance of ${function}","Установить временн. ${var} в новый экземпляр ${function}",,GML Visual story text
+GMStdNew_Story_5,"Set temp ${var} to new instance of ${function} with 1 argument","Установить временн. ${var} в новый экземпляр ${function} с 1 аргументом",,GML Visual story text
+GMStdNew_Story_6,"Set temp ${var} to new instance of ${function} with ${input_count} arguments","Установить временн. ${var} в новый экземпляр ${function} с ${input_count} аргум.",,GML Visual story text
+GMStdSeqGetLength_Story_1,Get length of sequence instance ${sequenceelmid} into ${var},Получить длину экземпляра последовательности ${sequenceelmid} в ${var},,GML Visual story text
+GMStdSeqGetLength_Story_2,Get length of sequence instance ${sequenceelmid} into temp ${var},Получить длину экземпляра последовательности ${sequenceelmid} во временн. ${var},,GML Visual story text
+GMStdStatic,"Static","Статический",,GML Visual function label for static
+GMStdTemp,"Temp","Временный",,GML Visual function label for temp

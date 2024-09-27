@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="RoomEd_InstancePanel" layout_guid="bbec7594-53fb-4235-b81e-841f8a5ef1e1">
+    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['32dpi_px', '1*', '24dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', '42dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <SearchBar stylename="searchbar_grid" layout_id="search_bar" filter="True" layout_guid="9adf3b63-ba4f-4aff-b5e1-ec4d5e1cf880" override_flow_index="9999999" height="28dpi_px" left="0px" right="10dpi_px" />
+                <VerticalSeparator stylename="vertical_separator" override_flow_index="9999999" right="4dpi_px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell layout_id="snapcon_container" layout_guid="5e6bc1cd-88e3-4c04-8556-e2aee677c1b3" row="0" column="1" stylename="grid_container_panel" flow_index="0" />
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="list_cell" layout_guid="5874eceb-dc37-48ca-a8f5-19cf17bebfd4" row="1" column="0" stylename="basic_scrollpanel_box" flow_index="0" />
+      <Cell row="2" column="0" stylename="basic_scrollpanel_box" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel">
+            <ChildGadgets>
+              <Label stylename="label_light" layout_id="asset_count_label" layout_guid="caec3785-f0b7-4199-8374-440422dbd917" override_flow_index="9999999" height="16px" width="51px" left="4px" margin_left="4dpi_px" localise_caption="AssetBrowser_ItemCountPlural" />
+              <Label stylename="label_light" layout_id="select_count_label" layout_guid="d0ed0af1-d185-423f-b04c-a5bbe08a3f07" override_flow_index="9999999" height="16px" width="67px" left="67px" margin_left="12dpi_px" localise_caption="AssetBrowser_SelectedCount" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

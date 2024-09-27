@@ -1,0 +1,32 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdAlarm",
+    "gadget": "YoYo Games.DnD_MenuExpressionInput",
+    "gadget_properties": {
+      "TagName": "alarm",
+      "DefaultValue": "0",
+      "Separator": "|",
+      "MenuOptions": "GMStdAlarm0|GMStdAlarm1|GMStdAlarm2|GMStdAlarm3|GMStdAlarm4|GMStdAlarm5|GMStdAlarm6|GMStdAlarm7|GMStdAlarm8|GMStdAlarm9|GMStdAlarm10|GMStdAlarm11",
+      "Values": "0|1|2|3|4|5|6|7|8|9|10|11",
+      "MenuLayout": null,
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdCountdown",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "steps",
+      "DefaultValue": "30",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  }
+]

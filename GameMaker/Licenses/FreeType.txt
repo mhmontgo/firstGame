@@ -1,0 +1,4 @@
+FreeType: https://www.freetype.org/
+License:  https://www.freetype.org/license.html
+GPL 2.0 license:  http://git.savannah.gnu.org/cgit/freetype/freetype2.git/tree/docs/GPLv2.TXT
+

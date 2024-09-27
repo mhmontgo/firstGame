@@ -1,0 +1,35 @@
+{
+  "name": "ProjectTool",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "ProjectTool",
+      "localised_name": "projecttool_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ProjectTool",
+          "version": "1.0",
+          "path": "ProjectTool.dll",
+          "checksum": "sO2SsNFxQnanE95KjwzIllqPaE8RfdglyhIigLHencc="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "MiscPlugins",
+          "min_version": "1.0",
+          "max_version": ""
+        }
+      ]
+    }
+  ],
+  "author": "",
+  "signature": "ScGKTy0SZ2QeRzAdAy4gEOL5NH7DsBEvtfRlDbVE\u002Bi6pZEgU8A9qW1oBs4p/\u002BcdiIQYVr4BejTL2AEfpz5HPCs55T1sXYegBEeDHjK2FOUxPOK0TtIztLimOw2U/HTnWHrhugBtQlfucdXZq\u002B7eb3DD/11Ystf7uJ8gPU37v8LE=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

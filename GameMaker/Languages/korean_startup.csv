@@ -1,0 +1,81 @@
+Name,English,Translation,Restrictions,Comment
+_Language,Korean,Korean,,Language name - in English
+_LanguageNative,Korean,한국어,,Language name in the native language
+_LanguageCode,ko,ko,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
+_GameMaker2016,GameMaker,GameMaker,,IDE title
+Splash_Done,Done.,완료되었습니다.,,Finished loading
+Splash_Loading,Loading....,로드 중...,,Generic loading text
+Splash_WaitingNetwork,Checking Network...,네트워크 확인 중...,,Network step
+Splash_LoadingLanguages,Loading Languages...,언어 로드 중...,,Loading the languages prefix
+Splash_LoadingPlugins,Loading Plugins...,플러그인 로드 중...,,Loading the plugins
+Splash_LoadingPrefs,Loading Preferences...,환경 설정 로드 중...,,Loading the preferences
+Splash_UserLogin,User Login,사용자 로그인,,User Login has been started
+Notifications_Hub,Notification Hub,알림 허브,,Notification Hub string
+IDEMenu_File,File,파일,,The File menu item name
+IDEMenu_Edit,Edit,편집,,The Edit menu item name
+IDEMenu_Build,Build,빌드,,"File menu ""Build"""
+IDEMenu_Views,${IDEMenuViews},${IDEMenuViews},,Main menu entry for views
+$win_IDEMenuViews,Windows,Windows,,Windows version of the views menu entry
+$mac_IDEMenuViews,Window,윈도우,,Mac version of the views menu entry
+$linux_IDEMenuViews,Windows,Windows,,Linux version of the views menu entry
+IDEMenu_Tools,Tools,도구,,Main menu entry for tools
+IDEMenu_Layouts,Layouts,레이아웃,,Layouts
+IDEMenu_Marketplace,Marketplace,마켓플레이스,,Main menu entry for marketplace
+IDEMenu_Help,Help,도움말,,Main menu entry for HELP
+IDETooltip_LaptopMode_On,On,켜기,,On text
+IDETooltip_LaptopMode_Off,Off,끄기,,Off text
+IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.","노트북 모드에서는 영역 위의 마우스 커서를 이동하여 이동, 스크롤, 확대/축소할 수 있습니다.\n${LaptopLZoomKey}을(를) 누르면 확대/축소하고, 왼쪽 Alt를 누르면 이동 및 스크롤할 수 있습니다.\n노트북 모드를 사용 중인 경우 마우스 이외의 상호작용에는 ${LaptopRHSKeys}을(를) 사용하십시오.",,IDE toolbar laptop mode description
+IDETooltip_LaptopMode_Title,Laptop Mode ({0}),노트북 모드({0}),,IDE toolbar laptop mode title
+StartPage_Title,Start Page,시작 페이지,,Start page title
+IDE_FatalErrorTitle,Fatal Error,심각한 오류,,Title for the fatal error warning dialog
+IDE_FatalErrorWarning,GameMaker has become unstable.\nPlease save changes and exit.,GameMaker가 불안정합니다.\n변경 사항을 저장한 후 종료하십시오.,,Warn the user they should try saving changes and exit
+IDE_Warning,Warning,주의,,Warning for IDE
+IDE_FolderPermsWarning,GameMaker is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},GameMaker가 중요한 시스템 폴더에 액세스할 수 없습니다.\n환경 설정에서 경로를 확인하고 폴더 권한을 확인하거나 시스템 관리자에게 문의하십시오.\n\n{0},,File permissions failure on startup
+Button_OK,OK,확인,,ok button
+Button_Yes,Yes,예,,Yes
+Button_No,No,아니요,,No
+Dialog_CopyToClipboard,Copy to clipboard,클립보드에 복사,,Copy the dialog message to the clipboard
+IDE_VersionInfo,{1} IDE v{0},{1} IDE v{0},,the ide version information string
+IDE_SteamVersionInfo,{1} IDE v{0} Steam,{1} IDE v{0} Steam,,the ide version information string when running from steam
+UpdateDialogDownloadNow,Download now,지금 다운로드,,Update new version dialog - download now button
+UpdateDialogRemindMe,Remind me later,나중에 다시 알림,,Update new version dialog - remind me later button
+UpdateDialogLabel,New version is available! \nYou are on v{0}\nNew version is {1},새 버전을 사용할 수 있습니다! \n현재 버전은 v{0}입니다.\n새 버전은 {1}입니다.,,Update new version dialog - tell user which version they are on and which version update will take them to
+UpdateDialogReleaseNotes,View Release notes,릴리스 노트 보기,,Update new version dialog - view release notes button
+UpdateDialogTitle,New Version,새 버전,,Update new version dialog title
+RSS_Download_Exception,Could not reach the RSS feed,RSS 피드에 연결할 수 없습니다,,A message which is shown when the RSS feed is not accessible
+Splash_CheckingRSS,Checking RSS...,RSS 확인 중...,,Checking RSS...
+Dialog_Confirm,Confirm,확인,,"Dialog ""confirm"" heading"
+Dialog_DontShowAgain,Don't show this message again,이 메시지를 다시 표시 안 함,,Message next to checkbox to allow the user to choose not to see this popup in future
+Runtime_Installing_Version,Installing runtime {0},런타임 {0} 설치 중,,user facing splash screen message for installing runtime
+ImageEditor_SelectAll,Select All,모두 선택,,Image editor select all menu option
+Button_Cancel,Cancel,취소,,cancel button
+TargetSelection_Platform_Test,Test,테스트,,the teset platform title in the platform selection list
+TargetSelection_Platform_android,Android,Android,DO NOT TRANSLATE,the android platform title in the platform selection list
+TargetSelection_Platform_HTML5,HTML5,HTML5,DO NOT TRANSLATE,the html5 platform title in the platform selection list
+TargetSelection_Platform_Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,the linux platform title in the platform selection list
+TargetSelection_Platform_operagx,GX.games,GX.games,DO NOT TRANSLATE,the opera gx platform title in the platform selection list
+TargetSelection_Platform_ps4,PlayStation 4,PlayStation 4,,the ps4 platform title in the platform selection list
+TargetSelection_Platform_ps5,PlayStation 5,PlayStation 5,,the ps5 platform title in the platform selection list
+TargetSelection_Platform_switch,Switch,Switch,DO NOT TRANSLATE,Switch
+TargetSelection_Platform_Windows,Windows,Windows,DO NOT TRANSLATE,the windows platform title in the platform selection list
+TargetSelection_Platform_xboxseriesxs,Xbox One & Series X/S,Xbox One & Series X/S,DO NOT TRANSLATE,the Xbox One & Series X/S platform title in the platform selection list
+TargetSelection_Platform_Mac,macOS,macOS,DO NOT TRANSLATE,the mac platform title in the platform selection list
+TargetSelection_Platform_ios,iOS,iOS,DO NOT TRANSLATE,the apple iOS platform title in the platform selection list
+TargetSelection_Platform_tvos,tvOS,tvOS,DO NOT TRANSLATE,the apple tvOS platform title in the platform selection list
+ProgressBar_Install,Installing...,설치하는 중...,,the progress bar caption while installing
+DialogEditor_Error,Error,오류,,dialog editor error box title
+UserLogin_Exception,Exception - {0},예외 - {0},,exception error
+UserLogin_ServerError,Error ({0}) - {1},오류 ({0}) - {1},,server response error
+UserLogin_Retry,Retry,다시 시도,,User Login - Error Retry
+UserLogin_NoRuntime,Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker again.,런타임 피드에 액세스할 수 없으며 로컬 런타임이 설치되지 않았습니다. 인터넷 연결을 확인한 후 GameMaker를 다시 시작하십시오.,,user login no runtime message
+UserLogin_InstallRuntimeTitle,Install Runtime {0},설치 런타임 {0},,install runtime title
+UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,대상 드라이브 {0}의 남은 가용 공간이 {1}GB밖에 없습니다.\n가용 공간은 2GB 이상인 것이 좋습니다. 계속 진행하기 전에 충분한 가용 공간이 있는지 확인하십시오.,,runtime free space warning message
+UserLogin_Continue,Continue,계속,,continue label
+UserLogin_MaxDevice,Maximum logins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,최대 로그인 횟수를 초과했습니다. \naccounts.yoyogames.com에서 계정 세션을 관리할 수 있습니다.,,User Login Error response 29
+User_OK,OK,확인,,User Login - two step authentication ok button
+runtime_selection,Runtime Selection,런타임 선택,,Runtime Selection Window title
+runtime_onstartup_change,Do you want to change your current runtime to the matching IDE version {0}?,현재 런타임을 일치하는 IDE 버전 {0}(으)로 변경하시겠습니까?,,Change current runtime to the version matching the IDE
+UserLogin_OfflineError,Unable to take user offline,사용자를 오프라인으로 전환할 수 없음,,offline error
+IDETooltip_Notifications,Notifications,알림,,IDE toolbar notifications tooltip
+runtime_dns_ResolvingFailed,DNS resolving has failed,DNS 확인 실패,,A title of the warning which is shown when after the IDE failed to resolve an address against an alternative DNS
+runtime_dns_ResolvingFailedMessage,Could not resolve {0} with an alternative DNS. A system DNS has been used,대체 DNS로 {0}을(를) 확인할 수 없습니다. 시스템 DNS가 사용됨,,Could not use an alternative DNS

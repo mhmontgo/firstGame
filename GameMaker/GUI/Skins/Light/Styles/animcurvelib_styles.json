@@ -1,0 +1,9 @@
+{
+	"animcurvelib_style": {
+		"libgraph_bgcol": "animcurve_lib_bg",
+		"libgraph_boxcol": "animcurve_lib_box",
+		"libgraph_axiscol1": "animcurve_lib_axis_1",
+		"libgraph_axiscol2": "animcurve_lib_axis_2",
+		"libgraph_graphcol": "animcurve_lib_graph"
+	}
+}

@@ -1,0 +1,29 @@
+{
+  "name": "AIAssistant",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "AIAssistant",
+      "localised_name": "ai_assistant_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "AIAssistant",
+          "version": "1.0",
+          "path": "AIAssistant.dll",
+          "checksum": "HY66q/tBfNzUGPhmtirEb\u002BqQtPgelevz\u002BStnYf\u002BvCYg="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "b7OOBJsEBJCs597eE9d2DCZTKRLgE/rx2PL12Xzvycc9cieqpuq/hQp4sGJmRDFFBZKP4KFCKxnY4Ubw7yfROgKTd0BAhV0DckCeWI9DLzGyYwo9w5ypDGspvZK3pg1tk4PbGPXd6VwXyw\u002B0OtxpNv0NugghGSmFk7eNGT8n9i8=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

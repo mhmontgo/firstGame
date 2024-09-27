@@ -1,0 +1,27 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdParticleSystem",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "system",
+      "DefaultValue": "system",
+      "RequireConstant": false,
+      "RequireVariable": true,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdState",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "state",
+      "DefaultValue": 1,
+      "Separator": "|",
+      "MenuOptions": "GMStdResume|GMStdPause"
+    }
+  }
+]

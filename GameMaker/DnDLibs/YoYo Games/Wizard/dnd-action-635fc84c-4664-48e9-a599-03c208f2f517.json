@@ -1,0 +1,27 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdType",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "type",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "GMStdDirection|GMStdHorizontally|GMStdVertically"
+    }
+  },
+  {
+    "relative": true,
+    "temp": false,
+    "caption": "GMStdSpeed",
+    "gadget": "YoYo Games.DnD_NumericInput",
+    "gadget_properties": {
+      "TagName": "speed",
+      "DefaultValue": "0",
+      "Range": false,
+      "MinValue": 0.0,
+      "MaxValue": 0.0
+    }
+  }
+]

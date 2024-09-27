@@ -1,0 +1,48 @@
+[
+  {
+    "relative": false,
+    "tagname": null,
+    "caption": "GMStdObject",
+    "gadget": "YoYo Games.DnD_ResourceSelection",
+    "gadget_properties": {
+      "TagName": "object",
+      "ResourceFilter": "GMObject",
+      "GMStdDefault": "noone"
+    }
+  },
+  {
+    "relative": false,
+    "tagname": null,
+    "caption": "GMStdCount",
+    "gadget": "YoYo Games.DnD_IntegerInput",
+    "gadget_properties": {
+      "TagName": "number",
+      "DefaultValue": 0,
+      "Range": false,
+      "MinValue": 0,
+      "MaxValue": 0
+    }
+  },
+  {
+    "relative": false,
+    "tagname": null,
+    "caption": "GMStdIs",
+    "gadget": "YoYo Games.DnD_MenuInput",
+    "gadget_properties": {
+      "TagName": "op",
+      "DefaultValue": 0,
+      "Separator": "|",
+      "MenuOptions": "Equal|Lower|Greater|Equal Or Lower|Equal Or Greater"
+    }
+  },
+  {
+    "relative": false,
+    "tagname": null,
+    "caption": "GMStdNot",
+    "gadget": "YoYo Games.DnD_BooleanInput",
+    "gadget_properties": {
+      "TagName": "not",
+      "DefaultValue": false
+    }
+  }
+]

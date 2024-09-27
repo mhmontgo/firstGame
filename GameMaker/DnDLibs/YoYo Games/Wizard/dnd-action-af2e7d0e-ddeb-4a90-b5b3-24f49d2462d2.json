@@ -1,0 +1,29 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdKey",
+    "gadget": "YoYo Games.DnD_MenuExpressionInput",
+    "gadget_properties": {
+      "TagName": "key",
+      "DefaultValue": "vk_space",
+      "Separator": "|",
+      "MenuOptions": "",
+      "Values": null,
+      "MenuLayout": "MKConstantSelector_KeysContextMenu",
+      "RequireConstant": false,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  },
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdNot",
+    "gadget": "YoYo Games.DnD_BooleanInput",
+    "gadget_properties": {
+      "TagName": "not",
+      "DefaultValue": false
+    }
+  }
+]

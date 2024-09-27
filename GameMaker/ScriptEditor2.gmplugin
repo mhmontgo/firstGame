@@ -1,0 +1,29 @@
+{
+  "name": "ScriptEditor2",
+  "bundle_version": "1.0",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "ScriptEditor2",
+      "localised_name": "script_editor_name",
+      "plugin_version": "1.0",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ScriptEditor2",
+          "version": "1.0",
+          "path": "ScriptEditor2.dll",
+          "checksum": "QZIseZtL/Y0svS2MV6WOsiJCgAT6cnn/rL7yKwxNJBc="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "",
+  "signature": "QhJtHz9CT5EcfkD2O6adoQ8PgeOFdAELkIoEVfQ3RPrn8UYx1tgPYYgVjJMVyyUKqcPmvDKXJoH8Kf/gS6qsTQvVihSJSAdNxM8DnYBAlJVCJHfeOlfeIASvNNmKmgCa5YlRFHektK/0nr5bfJKXsfAM/iHAyVByQNLXMU7fahE=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

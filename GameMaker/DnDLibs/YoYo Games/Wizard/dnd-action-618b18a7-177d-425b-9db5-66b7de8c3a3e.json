@@ -1,0 +1,15 @@
+[
+  {
+    "relative": false,
+    "temp": false,
+    "caption": "GMStdConstant",
+    "gadget": "YoYo Games.DnD_ExpressionInput",
+    "gadget_properties": {
+      "TagName": "const",
+      "DefaultValue": "0",
+      "RequireConstant": true,
+      "RequireVariable": false,
+      "AcceptEmpty": false
+    }
+  }
+]

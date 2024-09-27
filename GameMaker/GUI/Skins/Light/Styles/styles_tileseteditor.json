@@ -1,0 +1,21 @@
+{
+	"tileset_animation_frames": {
+		"selected_animation_highlight": "tileset_animation_frame_selected",
+		"invalid_animation_highlight": "tileset_animation_frame_invalid",
+		"colour": "tileset_animation_entry_list_panel"
+	},
+
+	"tileset_animation_stack_panel": {
+		"selected_animation_highlight": "tileset_animation_frame_selected",
+		"invalid_animation_highlight": "tileset_animation_frame_invalid"
+	},
+
+	"autotile_grid_container": {
+		"selected_tile_highlight": "tileset_autotile_template_tile_hi",
+		"selected_entry_highlight": "tileset_autotile_template_entry_hi"
+	},
+
+	"tileset_property_panel": {
+		"colour": "tileset_tile_properties_panel"
+	}
+}
